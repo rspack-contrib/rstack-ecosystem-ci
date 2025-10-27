@@ -1,0 +1,14 @@
+{
+	"extends": ["config:base", "schedule:weekly", "group:allNonMajor"],
+	"labels": ["dependencies"],
+	"ignorePaths": [],
+	"pin": false,
+	"rangeStrategy": "bump",
+	"packageRules": [
+		{
+			"depTypeList": ["peerDependencies", "engines"],
+			"enabled": false,
+		},
+	],
+	"ignoreDeps": [],
+}
