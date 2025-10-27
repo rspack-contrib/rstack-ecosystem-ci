@@ -22,12 +22,14 @@ const STACK_WORKSPACE_DIR: Record<Stack, string> = {
   rsbuild: 'rsbuild',
   rspack: 'rspack',
   rstest: 'rstest',
+  rslib: 'rslib',
 };
 
 const STACK_DEFAULT_REPO: Record<Stack, string> = {
   rsbuild: 'web-infra-dev/rsbuild',
   rspack: 'web-infra-dev/rspack',
   rstest: 'web-infra-dev/rstest',
+  rslib: 'web-infra-dev/rslib',
 };
 
 let activeStack: Stack = 'rsbuild';
@@ -37,7 +39,7 @@ let cwd: string;
 let env: NodeJS.ProcessEnv;
 
 const monorepoPackagesCache: Partial<
-  Record<'rsbuild' | 'rstest', { name: string; directory: string }[]>
+  Record<'rsbuild' | 'rstest' | 'rslib', { name: string; directory: string }[]>
 > = {};
 
 interface RspackPackageInfo {
@@ -158,6 +160,8 @@ export async function setupEnvironment(stack: Stack): Promise<EnvironmentData> {
     data.rspackPath = stackPath;
   } else if (stack === 'rstest') {
     data.rstestPath = stackPath;
+  } else if (stack === 'rslib') {
+    data.rslibPath = stackPath;
   }
   return data;
 }
@@ -268,7 +272,7 @@ function toCommand(
   };
 }
 
-async function getMonorepoPackages(stack: 'rsbuild' | 'rstest') {
+async function getMonorepoPackages(stack: 'rsbuild' | 'rstest' | 'rslib') {
   const cached = monorepoPackagesCache[stack];
   if (cached) {
     return cached;
@@ -389,7 +393,11 @@ export async function runInRepo(options: RunOptions & RepoOptions) {
   }
   const overrides: Overrides = { ...(options.overrides || {}) };
 
-  if (activeStack === 'rsbuild' || activeStack === 'rstest') {
+  if (
+    activeStack === 'rsbuild' ||
+    activeStack === 'rstest' ||
+    activeStack === 'rslib'
+  ) {
     const packages = await getMonorepoPackages(activeStack);
     if (options.release) {
       for (const pkgInfo of packages) {
@@ -484,7 +492,11 @@ export async function setupStackRepo(options: Partial<RepoOptions> = {}) {
     shallow: true,
     ...options,
   });
-  if (activeStack === 'rsbuild' || activeStack === 'rstest') {
+  if (
+    activeStack === 'rsbuild' ||
+    activeStack === 'rstest' ||
+    activeStack === 'rslib'
+  ) {
     delete monorepoPackagesCache[activeStack];
   } else if (activeStack === 'rspack') {
     rspackPackageData = null;

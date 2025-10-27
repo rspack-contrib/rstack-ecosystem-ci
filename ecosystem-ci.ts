@@ -15,7 +15,7 @@ import {
   setupStackRepo,
 } from './utils';
 
-const STACK_CHOICES: Stack[] = ['rsbuild', 'rspack', 'rstest'];
+const STACK_CHOICES: Stack[] = ['rsbuild', 'rspack', 'rstest', 'rslib'];
 
 const cli = cac();
 cli
@@ -75,6 +75,7 @@ cli
 registerBuildAlias('build-rsbuild', 'rsbuild');
 registerBuildAlias('build-rspack', 'rspack');
 registerBuildAlias('build-rstest', 'rstest');
+registerBuildAlias('build-rslib', 'rslib');
 
 cli
   .command(
@@ -297,5 +298,8 @@ function assignStackAliases(
   } else if (stack === 'rstest') {
     runOptions.rstestPath = stackPath;
     runOptions.rstestMajor = stackMajor;
+  } else if (stack === 'rslib') {
+    runOptions.rslibPath = stackPath;
+    runOptions.rslibMajor = stackMajor;
   }
 }

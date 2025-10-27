@@ -19,8 +19,9 @@ Workflows are scheduled to run automatically every day
 
 - clone this repo
 - run `pnpm i`
-- run `pnpm test -- --stack <stack>` to run every suite under the selected stack (`rsbuild`, `rspack`, or `rstest`)
-- run `pnpm test -- --stack rspack` to execute all Rspack suites (available stacks: `rsbuild`, `rspack`, `rstest`)
+- run `pnpm test -- --stack <stack>` to run every suite under the selected stack (`rsbuild`, `rspack`, `rstest`, or `rslib`)
+- run `pnpm test -- --stack rspack` to execute all Rspack suites (available stacks: `rsbuild`, `rspack`, `rstest`, `rslib`)
+- run `pnpm test -- --stack rslib` to execute all Rslib suites
 - run `pnpm test -- --stack rsbuild plugins` to target a specific suite
 - or invoke `tsx ecosystem-ci.ts` directly for advanced commands such as `build`, `run-suites`, or `bisect`
 

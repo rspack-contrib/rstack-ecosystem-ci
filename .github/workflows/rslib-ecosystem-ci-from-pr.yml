@@ -1,0 +1,104 @@
+# integration tests for rslib ecosystem - run from pr comments
+name: rslib-ecosystem-ci-from-pr
+
+env:
+  # 7 GiB by default on GitHub, setting to 6 GiB
+  # https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners#supported-runners-and-hardware-resources
+  NODE_OPTIONS: --max-old-space-size=6144
+
+on:
+  workflow_dispatch:
+    inputs:
+      prNumber:
+        description: "PR number (e.g. 9887)"
+        required: true
+        type: string
+      branchName:
+        description: "rslib branch to use"
+        required: true
+        type: string
+        default: "main"
+      repo:
+        description: "rslib repository to use"
+        required: true
+        type: string
+        default: "web-infra-dev/rslib"
+      suite:
+        description: "testsuite to run. runs all testsuits when `-`."
+        required: false
+        type: choice
+        options:
+          - "-"
+          - rsbuild
+          - rspack
+          - rstest
+          - rspress
+          - rsdoctor
+      suiteRefType:
+        description: "type of suite ref to use"
+        required: true
+        type: choice
+        options:
+          - precoded
+          - branch
+          - tag
+          - commit
+        default: "precoded"
+      suiteRef:
+        description: "suite ref to use"
+        required: true
+        type: string
+        default: "precoded"
+
+jobs:
+  execute-selected-suite:
+    runs-on: ubuntu-latest
+    if: "inputs.suite != '-'"
+    steps:
+      - uses: actions/checkout@v5
+      - uses: ./.github/actions/build-rslib
+        with:
+          repository: ${{ inputs.repo }}
+          ref: ${{ inputs.branchName }}
+      - run: pnpm i --frozen-lockfile
+      - name: Expose GitHub Runtime
+        uses: crazy-max/ghaction-github-runtime@v3
+      - run: >-
+          pnpm tsx ecosystem-ci.ts
+          run-suites
+          --stack rslib
+          --suite-${{ inputs.suiteRefType }} ${{ inputs.suiteRef }}
+          ${{ inputs.suite }}
+
+  execute-all:
+    if: "inputs.suite == '-'"
+    strategy:
+      matrix:
+        include:
+          - suite: rsbuild
+            os: ubuntu-latest
+          - suite: rspack
+            os: ubuntu-latest
+          - suite: rstest
+            os: ubuntu-latest
+          - suite: rspress
+            os: ubuntu-latest
+          - suite: rsdoctor
+            os: ubuntu-latest
+      fail-fast: false
+    runs-on: ${{ matrix.os }}
+    name: execute-all (${{ matrix.suite }})
+    steps:
+      - uses: actions/checkout@v5
+      - uses: ./.github/actions/build-rslib
+        with:
+          repository: ${{ inputs.repo }}
+          ref: ${{ inputs.branchName }}
+      - run: pnpm i --frozen-lockfile
+      - name: Expose GitHub Runtime
+        uses: crazy-max/ghaction-github-runtime@v3
+      - run: >-
+          pnpm tsx ecosystem-ci.ts
+          run-suites
+          --stack rslib
+          ${{ matrix.suite }}

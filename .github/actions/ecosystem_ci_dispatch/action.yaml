@@ -1,0 +1,137 @@
+name: "ecosystem_ci_dispatch"
+description: "Trigger downstream ecosystem CI from a manual dispatch and manage PR comments"
+
+inputs:
+  github-token:
+    description: "Token with access to the downstream ecosystem CI repository"
+    required: true
+  ecosystem-owner:
+    description: "Owner of the downstream ecosystem CI repository"
+    required: false
+    default: "rspack-contrib"
+  ecosystem-repo:
+    description: "Repository containing the downstream workflow"
+    required: true
+  workflow-file:
+    description: "Workflow file to execute in the downstream repository"
+    required: true
+  client-payload:
+    description: "JSON payload passed to the downstream workflow dispatch"
+    required: false
+    default: "{}"
+  result-heading:
+    description: "Heading to use in the formatted summary output"
+    required: false
+    default: "Ran ecosystem CI"
+  job-name-prefix:
+    description: "Job name prefix to match when summarizing downstream jobs"
+    required: false
+    default: "execute-all "
+  branch:
+    description: "Branch name to match against open pull requests when locating the PR number"
+    required: false
+    default: ""
+
+outputs:
+  workflow-id:
+    description: "ID of the triggered downstream workflow run"
+    value: ${{ steps.eco_ci.outputs.workflow_id }}
+  workflow-url:
+    description: "URL of the triggered downstream workflow run"
+    value: ${{ steps.eco_ci.outputs.workflow_url }}
+  conclusion:
+    description: "Conclusion reported by the downstream workflow"
+    value: ${{ steps.eco_ci.outputs.conclusion }}
+  summary:
+    description: "Formatted markdown summary of downstream job results"
+    value: ${{ steps.eco-ci-result.outputs.result }}
+  comment-id:
+    description: "Identifier of the PR comment that was created or updated"
+    value: ${{ steps.create-comment.outputs.result }}
+  detected-pr-number:
+    description: "Pull request number auto-detected from the branch lookup"
+    value: ${{ steps.get-pr-number.outputs.result }}
+
+runs:
+  using: composite
+  steps:
+    - id: get-pr-number
+      uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
+      name: Get PR Number
+      with:
+        script: |
+          const { data: prs } = await github.rest.pulls.list({
+            owner: '${{ inputs.ecosystem-owner }}',
+            repo: '${{ inputs.ecosystem-repo }}',
+          })
+
+          const pr = prs.find(pr => pr.head.ref === '${{ inputs.branch }}');
+
+          if(pr) {
+            console.log(`Get PR info: ${pr.url}`)
+
+            return {
+              num: pr.number,
+              branchName: pr.head.ref,
+              repo: pr.head.repo.full_name
+            }
+          } else {
+            console.log(`can't find PR for branch: ${{ inputs.branch }}`)
+          }
+
+    - id: create-comment
+      name: Create Comment
+      uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
+      if: steps.get-pr-number.outputs.result
+      with:
+        result-encoding: string
+        script: |
+          const url = `${context.serverUrl}//${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`
+          const urlLink = `[Open](${url})`
+          const prData = ${{ steps.get-pr-number.outputs.result }}
+
+          const { data: comment } = await github.rest.issues.createComment({
+            issue_number: prData.num,
+            owner: '${{ inputs.ecosystem-owner }}',
+            repo: '${{ inputs.ecosystem-repo }}',
+            body: `⏳ Triggered ecosystem CI: ${urlLink}`
+          })
+          return comment.id
+
+    - id: eco_ci
+      name: Run Ecosystem CI
+      uses: convictional/trigger-workflow-and-wait@f69fa9eedd3c62a599220f4d5745230e237904be # v1.6.5
+      continue-on-error: true
+      with:
+        owner: ${{ inputs.ecosystem-owner }}
+        repo: ${{ inputs.ecosystem-repo }}
+        workflow_file_name: ${{ inputs.workflow-file }}
+        ref: main
+        github_token: ${{ inputs.github-token }}
+        client_payload: ${{ inputs.client-payload }}
+
+    - id: eco-ci-result
+      uses: ../ecosystem-ci-result
+      name: Get CI Result
+      with:
+        owner: ${{ inputs.ecosystem-owner }}
+        repo: ${{ inputs.ecosystem-repo }}
+        job-prefix: ${{ inputs.job-name-prefix }}
+        heading: ${{ inputs.result-heading }}
+        workflow-output: ${{ toJson(steps.eco_ci.outputs) }}
+
+    - id: update-comment
+      name: Update Comment
+      if: steps.get-pr-number.outputs.result
+      uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
+      env:
+        COMMENT_ID: ${{ steps.create-comment.outputs.result }}
+        SUMMARY: ${{ steps.eco-ci-result.outputs.result }}
+      with:
+        script: |
+          await github.rest.issues.updateComment({
+            owner: ${{ inputs.ecosystem-owner }},
+            repo: ${{ inputs.ecosystem-repo }},
+            comment_id: ${{ steps.create-comment.outputs.result }},
+            body: ${{ steps.eco-ci-result.outputs.result }}
+          })

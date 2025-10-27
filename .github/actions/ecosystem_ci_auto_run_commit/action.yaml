@@ -1,0 +1,120 @@
+name: 'ecosystem_ci_auto_run_commit'
+description: 'Trigger downstream ecosystem CI for commits and comment on failures'
+
+inputs:
+  github-token:
+    description: 'Token with access to the downstream ecosystem CI repository'
+    required: true
+  ecosystem-owner:
+    description: 'Owner of the downstream ecosystem CI repository'
+    required: false
+    default: 'rspack-contrib'
+  ecosystem-repo:
+    description: 'Repository containing the downstream workflow'
+    required: true
+  workflow-file:
+    description: 'Workflow file to execute in the downstream repository'
+    required: true
+  workflow-ref:
+    description: 'Ref to use when triggering the downstream workflow'
+    required: false
+    default: 'main'
+  client-payload:
+    description: 'JSON payload passed to the downstream workflow dispatch'
+    required: false
+    default: '{}'
+  result-heading:
+    description: 'Heading to use in the formatted summary output'
+    required: false
+    default: 'Ran ecosystem CI'
+  job-name-prefix:
+    description: 'Job name prefix to match when summarizing downstream jobs'
+    required: false
+    default: 'execute-all '
+  commit-comment-on-failure:
+    description: 'Set to true to create a commit comment when the downstream workflow fails'
+    required: false
+    default: 'true'
+  commit-sha:
+    description: 'Commit SHA to comment on when commit-comment-on-failure is enabled; defaults to the current SHA'
+    required: false
+    default: ''
+  fail-on-failure:
+    description: 'Fail this job when the downstream workflow reports a failure'
+    required: false
+    default: 'false'
+
+outputs:
+  workflow-id:
+    description: 'ID of the triggered downstream workflow run'
+    value: ${{ steps.trigger.outputs.workflow_id }}
+  workflow-url:
+    description: 'URL of the triggered downstream workflow run'
+    value: ${{ steps.trigger.outputs.workflow_url }}
+  conclusion:
+    description: 'Conclusion reported by the downstream workflow'
+    value: ${{ steps.trigger.outputs.conclusion }}
+  summary:
+    description: 'Formatted markdown summary of downstream job results'
+    value: ${{ steps.summarize.outputs.result }}
+
+runs:
+  using: composite
+  steps:
+    - id: trigger
+      name: Trigger downstream workflow
+      uses: convictional/trigger-workflow-and-wait@f69fa9eedd3c62a599220f4d5745230e237904be # v1.6.5
+      continue-on-error: true
+      with:
+        owner: ${{ inputs.ecosystem-owner }}
+        repo: ${{ inputs.ecosystem-repo }}
+        workflow_file_name: ${{ inputs.workflow-file }}
+        ref: ${{ inputs.workflow-ref }}
+        github_token: ${{ inputs.github-token }}
+        client_payload: ${{ inputs.client-payload }}
+
+    - id: summarize
+      if: ${{ always() }}
+      name: Summarize downstream jobs
+      uses: ../ecosystem-ci-result
+      with:
+        owner: ${{ inputs.ecosystem-owner }}
+        repo: ${{ inputs.ecosystem-repo }}
+        job-prefix: ${{ inputs.job-name-prefix }}
+        heading: ${{ inputs.result-heading }}
+        workflow-output: ${{ toJson(steps.trigger.outputs) }}
+
+    - id: commit-comment
+      if: ${{ always() && inputs.commit-comment-on-failure == 'true' && steps.trigger.outputs.conclusion == 'failure' }}
+      name: Create commit comment on failure
+      uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
+      env:
+        SUMMARY: ${{ steps.summarize.outputs.result }}
+        COMMIT_SHA: ${{ inputs.commit-sha != '' && inputs.commit-sha || github.sha }}
+      with:
+        script: |
+          const summary = process.env.SUMMARY?.trim();
+          if (!summary || summary.includes('cannot determine workflow run id')) {
+            core.warning('Downstream workflow failed but no summary is available to comment');
+            return;
+          }
+
+          const commitSha = process.env.COMMIT_SHA;
+          if (!commitSha) {
+            core.warning('No commit SHA provided for failure comment');
+            return;
+          }
+
+          await github.rest.repos.createCommitComment({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            commit_sha: commitSha,
+            body: summary,
+          });
+
+    - if: ${{ always() && inputs.fail-on-failure == 'true' && steps.trigger.outputs.conclusion == 'failure' }}
+      name: Fail when downstream workflow fails
+      shell: bash
+      run: |
+        echo "::error::Downstream ecosystem CI workflow reported a failure"
+        exit 1

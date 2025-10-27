@@ -1,0 +1,46 @@
+name: "Build Rslib"
+description: "Checkout, build rslib"
+inputs:
+  repository:
+    description: "The rslib repository to use"
+    required: true
+    default: "web-infra-dev/rslib"
+  path:
+    description: "Destination path to the rslib repository"
+    required: true
+    default: "workspace/rslib"
+  ref:
+    description: "The branch, tag or SHA to checkout"
+    required: true
+    default: "main"
+  node-version:
+    description: "The version of Node.js to set up"
+    required: true
+    default: "22"
+outputs:
+  artifact-name:
+    description: "The name of the uploaded artifact"
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-node@v4
+      with:
+        node-version: 22
+    - shell: bash
+      name: Install package manager
+      run: |
+        npm install -g corepack@latest --force
+        echo "Corepack version: $(corepack --version)"
+        corepack enable
+
+    - name: Checkout Rslib repo
+      uses: actions/checkout@v5
+      with:
+        repository: ${{ inputs.repository }}
+        path: ${{ inputs.path }}
+        ref: ${{ inputs.ref }}
+    - name: Build Rslib
+      shell: bash
+      run: |
+        cd ${{ inputs.path }}
+        pnpm i
