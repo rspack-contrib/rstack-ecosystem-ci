@@ -1,12 +1,12 @@
-# rsbuild-ecosystem-ci
+# rstack-ecosystem-ci
 
-This repository is used to run integration tests for Rsbuild ecosystem projects
+This repository provides a unified ecosystem CI harness for Rstack projects.
 
-## via github workflow
+## Via GitHub workflow
 
 ### scheduled
 
-Workflows are sheduled to run automatically every day
+Workflows are scheduled to run automatically every day
 
 ### manually
 
@@ -15,34 +15,37 @@ Workflows are sheduled to run automatically every day
 - select suite to run in dropdown
 - start workflow
 
-## via shell script
+## Via CLI
 
 - clone this repo
 - run `pnpm i`
-- run `pnpm test` to run all suites
-- or `pnpm test <suitename>` to select a suite
-- or `tsx ecosystem-ci.ts`
+- run `pnpm test -- --stack <stack>` to run every suite under the selected stack (`rsbuild`, `rspack`, or `rstest`)
+- run `pnpm test -- --stack rspack` to execute all Rspack suites (available stacks: `rsbuild`, `rspack`, `rstest`)
+- run `pnpm test -- --stack rsbuild plugins` to target a specific suite
+- or invoke `tsx ecosystem-ci.ts` directly for advanced commands such as `build`, `run-suites`, or `bisect`
 
-You can pass `--tag v2.8.0-beta.1`, `--branch somebranch` or `--commit abcd1234` option to select a specific rsbuild version to build.
-If you pass `--release 2.7.13`, rsbuild build will be skipped and rsbuild is fetched from the registry instead
+The version selection flags apply to the chosen stack:
+
+- `--tag v2.8.0-beta.1`, `--branch some-branch` or `--commit abcd1234` pick the stack source to build
+- `--release 2.7.13` skips the local build and pulls the stack from the registry instead
 
 The repositories are checked out into `workspace` subdirectory as shallow clones
 
-### cheat sheet
+### Cheat sheet
 
-- `pnpm test -- --release nightly <suitename>`: use nightly release to test rsbuild locally, using release can save time from building rsbuild locally
-- `pnpm test -- --branch main --suite-branch update-rsbuild <suitename>`: use update-rsbuild branch of suite to test main branch rsbuild
+- `pnpm test -- --stack rspack --release nightly <suite>`: run a nightly release of the selected stack
+- `pnpm test -- --stack rsbuild --branch main --suite-branch update-rsbuild <suite>`: use `update-rsbuild` branch for the suite to test `main`
 
-# how to add a new integration test
+# How to add a new integration test
 
-- check out the existing [tests](./tests) and add one yourself. Thanks to some utilities it is really easy
+- check out the existing suites under `tests/<stack>` and add one yourself. Thanks to the shared utilities it is really easy
 - once you are confidente the suite works, add it to the lists of suites in the [workflows](../../actions/)
 
 > the current utilities focus on pnpm based projects. Consider switching to pnpm or contribute utilities for other pms
 
-# reporting results
+# Reporting results
 
-### on your own server
+### On your own server
 
 - Go to `Server settings > Integrations > Webhooks` and click `New Webhook`
 - Give it a name, icon and a channel to post to

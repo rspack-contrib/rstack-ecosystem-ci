@@ -1,0 +1,52 @@
+{
+  "binding": [
+    {
+      "name": "@rspack/binding",
+      "directory": "crates/node_binding"
+    }
+  ],
+  "packages": [
+    {
+      "name": "@rspack/core",
+      "directory": "packages/rspack"
+    },
+    {
+      "name": "@rspack/dev-server",
+      "directory": "packages/rspack-dev-server"
+    },
+    {
+      "name": "@rspack/tracing",
+      "directory": "packages/rspack-tracing"
+    },
+    {
+      "name": "@rspack/test-tools",
+      "directory": "packages/rspack-test-tools"
+    }
+  ],
+  "npm": {
+    "darwin-arm64": [
+      {
+        "name": "@rspack/binding-darwin-arm64",
+        "directory": "npm/darwin-arm64"
+      }
+    ],
+    "darwin-x64": [
+      {
+        "name": "@rspack/binding-darwin-x64",
+        "directory": "npm/darwin-x64"
+      }
+    ],
+    "linux-x64": [
+      {
+        "name": "@rspack/binding-linux-x64-gnu",
+        "directory": "npm/linux-x64-gnu"
+      }
+    ],
+    "win32-x64": [
+      {
+        "name": "@rspack/binding-win32-x64-msvc",
+        "directory": "npm/win32-x64-msvc"
+      }
+    ]
+  }
+}

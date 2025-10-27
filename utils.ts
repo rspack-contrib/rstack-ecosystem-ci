@@ -1,24 +1,57 @@
+import assert from 'node:assert';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import actionsCore from '@actions/core';
 //eslint-disable-next-line n/no-unpublished-import
 import { AGENTS, type Agent, detect, getCommand } from '@antfu/ni';
-import { type Packages, getPackages } from '@manypkg/get-packages';
-import { execaCommand } from 'execa';
+import { getPackages } from '@manypkg/get-packages';
+import { type Options as ExecaOptions, execaCommand } from 'execa';
 import type {
   EnvironmentData,
   Overrides,
   RepoOptions,
   RunOptions,
+  Stack,
   Task,
 } from './types';
 
 const isGitHubActions = !!process.env.GITHUB_ACTIONS;
 
-let rsbuildPath: string;
+const STACK_WORKSPACE_DIR: Record<Stack, string> = {
+  rsbuild: 'rsbuild',
+  rspack: 'rspack',
+  rstest: 'rstest',
+};
+
+const STACK_DEFAULT_REPO: Record<Stack, string> = {
+  rsbuild: 'web-infra-dev/rsbuild',
+  rspack: 'web-infra-dev/rspack',
+  rstest: 'web-infra-dev/rstest',
+};
+
+let activeStack: Stack = 'rsbuild';
+let stackPath: string;
+let workspaceRoot: string;
 let cwd: string;
 let env: NodeJS.ProcessEnv;
+
+const monorepoPackagesCache: Partial<
+  Record<'rsbuild' | 'rstest', { name: string; directory: string }[]>
+> = {};
+
+interface RspackPackageInfo {
+  name: string;
+  directory: string;
+}
+
+interface RspackPackageData {
+  npm: RspackPackageInfo[];
+  binding: RspackPackageInfo[];
+  packages: RspackPackageInfo[];
+}
+
+let rspackPackageData: RspackPackageData | null = null;
 
 export function cd(dir: string) {
   cwd = path.resolve(cwd, dir);
@@ -50,7 +83,6 @@ export async function $(literals: TemplateStringsArray, ...values: unknown[]) {
   const result = await proc;
 
   if (result.failed) {
-    // simplify the error output of execa
     throw new Error(result.shortMessage || result.message);
   }
 
@@ -63,11 +95,40 @@ export async function $(literals: TemplateStringsArray, ...values: unknown[]) {
   return result.stdout;
 }
 
-export async function setupEnvironment(): Promise<EnvironmentData> {
+export const execa = async (cmd: string, options?: ExecaOptions) => {
+  const start = Date.now();
+  if (isGitHubActions) {
+    actionsCore.startGroup(`${cwd} $> ${cmd}`);
+  } else {
+    console.log(`${cwd} $> ${cmd}`);
+  }
+
+  const proc = execaCommand(cmd, {
+    env,
+    cwd,
+    stdio: 'pipe',
+    ...options,
+  });
+  proc.stdin?.pipe(process.stdin);
+  proc.stdout?.pipe(process.stdout);
+  proc.stderr?.pipe(process.stderr);
+  const result = await proc;
+
+  if (isGitHubActions) {
+    actionsCore.endGroup();
+    const cost = Math.ceil((Date.now() - start) / 1000);
+    console.log(`Cost for \`${cmd}\`: ${cost} s`);
+  }
+
+  return result.stdout;
+};
+
+export async function setupEnvironment(stack: Stack): Promise<EnvironmentData> {
   // @ts-expect-error import.meta
   const root = dirnameFrom(import.meta.url);
-  const workspace = path.resolve(root, 'workspace');
-  rsbuildPath = path.resolve(workspace, 'rsbuild');
+  workspaceRoot = path.resolve(root, 'workspace');
+  stackPath = path.resolve(workspaceRoot, STACK_WORKSPACE_DIR[stack]);
+  activeStack = stack;
   cwd = process.cwd();
   env = {
     ...process.env,
@@ -77,8 +138,32 @@ export async function setupEnvironment(): Promise<EnvironmentData> {
     NODE_OPTIONS: '--max-old-space-size=6144', // GITHUB CI has 7GB max, stay below
     ECOSYSTEM_CI: 'true', // flag for tests, can be used to conditionally skip irrelevant tests.
   };
-  initWorkspace(workspace);
-  return { root, workspace, rsbuildPath, cwd, env };
+  initWorkspace(workspaceRoot);
+  fs.mkdirSync(stackPath, { recursive: true });
+  if (stack === 'rspack') {
+    rspackPackageData = null;
+  }
+  const data: EnvironmentData = {
+    stack,
+    root,
+    workspace: workspaceRoot,
+    stackPath,
+    projectPath: stackPath,
+    cwd,
+    env,
+  };
+  if (stack === 'rsbuild') {
+    data.rsbuildPath = stackPath;
+  } else if (stack === 'rspack') {
+    data.rspackPath = stackPath;
+  } else if (stack === 'rstest') {
+    data.rstestPath = stackPath;
+  }
+  return data;
+}
+
+export function getDefaultRepository(stack: Stack) {
+  return STACK_DEFAULT_REPO[stack];
 }
 
 function initWorkspace(workspace: string) {
@@ -183,19 +268,48 @@ function toCommand(
   };
 }
 
-let rsbuildPackages: Packages | null = null;
+async function getMonorepoPackages(stack: 'rsbuild' | 'rstest') {
+  const cached = monorepoPackagesCache[stack];
+  if (cached) {
+    return cached;
+  }
+  const packages = await getPackages(stackPath);
+  const packageList = packages.packages.map((pkg) => ({
+    name: pkg.packageJson.name,
+    directory: pkg.dir,
+  }));
+  monorepoPackagesCache[stack] = packageList;
+  return packageList;
+}
 
-async function getRsbuildPackage() {
-  const packages = rsbuildPackages || (await getPackages(rsbuildPath));
-
-  rsbuildPackages = packages;
-
-  return {
-    packages: packages.packages.map((pkg) => ({
-      name: pkg.packageJson.name,
-      directory: pkg.dir,
-    })),
+async function getRspackPackageData(): Promise<RspackPackageData> {
+  if (rspackPackageData) {
+    return rspackPackageData;
+  }
+  const {
+    default: { npm, binding, packages },
+  } = await import('./rspack-package.json');
+  const optionalKey = `${process.platform}-${process.arch}` as
+    | 'darwin-arm64'
+    | 'darwin-x64'
+    | 'linux-x64'
+    | 'win32-x64';
+  assert(
+    Object.keys(npm).includes(optionalKey),
+    `${optionalKey} is not supported`,
+  );
+  const normalize = (pkg: RspackPackageInfo) => ({
+    name: pkg.name,
+    directory: path.join(stackPath, pkg.directory),
+  });
+  rspackPackageData = {
+    npm: npm[
+      optionalKey as 'darwin-arm64' | 'darwin-x64' | 'linux-x64' | 'win32-x64'
+    ].map(normalize),
+    binding: binding.map(normalize),
+    packages: packages.map(normalize),
   };
+  return rspackPackageData;
 }
 
 export async function runInRepo(options: RunOptions & RepoOptions) {
@@ -273,28 +387,84 @@ export async function runInRepo(options: RunOptions & RepoOptions) {
     await beforeTestCommand?.(pkg.scripts);
     await testCommand?.(pkg.scripts);
   }
-  const overrides = options.overrides || {};
-  const rsbuildPackage = await getRsbuildPackage();
-  const packages = [...rsbuildPackage.packages];
-  if (options.release) {
-    for (const pkg of packages) {
-      if (overrides[pkg.name] && overrides[pkg.name] !== options.release) {
-        throw new Error(
-          `conflicting overrides[${pkg.name}]=${
-            overrides[pkg.name]
-          } and --release=${
-            options.release
-          } config. Use either one or the other`,
-        );
+  const overrides: Overrides = { ...(options.overrides || {}) };
+
+  if (activeStack === 'rsbuild' || activeStack === 'rstest') {
+    const packages = await getMonorepoPackages(activeStack);
+    if (options.release) {
+      for (const pkgInfo of packages) {
+        if (
+          overrides[pkgInfo.name] &&
+          overrides[pkgInfo.name] !== options.release
+        ) {
+          throw new Error(
+            `conflicting overrides[${pkgInfo.name}]=${overrides[pkgInfo.name]} and --release=${options.release} config. Use either one or the other`,
+          );
+        }
+        overrides[pkgInfo.name] = options.release;
       }
-      overrides[pkg.name] = options.release;
+    } else {
+      for (const pkgInfo of packages) {
+        overrides[pkgInfo.name] ||= pkgInfo.directory;
+      }
     }
+    await applyPackageOverrides({
+      dir,
+      pkg,
+      overrides,
+      agent,
+      beforeInstallCommand,
+      installArgs: {
+        pnpm: [
+          '--prefer-frozen-lockfile',
+          '--prefer-offline',
+          '--strict-peer-dependencies',
+          'false',
+        ],
+      },
+      devDependencyStrategy: 'local',
+    });
   } else {
-    for (const pkg of packages) {
-      overrides[pkg.name] ||= pkg.directory;
+    const { npm, binding, packages } = await getRspackPackageData();
+    const packageList = [
+      ...(options.release ? [] : npm),
+      ...binding,
+      ...packages,
+    ];
+    if (options.release) {
+      for (const pkgInfo of packageList) {
+        if (
+          overrides[pkgInfo.name] &&
+          overrides[pkgInfo.name] !== options.release
+        ) {
+          throw new Error(
+            `conflicting overrides[${pkgInfo.name}]=${overrides[pkgInfo.name]} and --release=${options.release} config. Use either one or the other`,
+          );
+        }
+        overrides[pkgInfo.name] = options.release;
+      }
+    } else {
+      await patchBindingPackageJson(binding);
+      for (const pkgInfo of packageList) {
+        overrides[pkgInfo.name] ||= pkgInfo.directory;
+      }
     }
+    await applyPackageOverrides({
+      dir,
+      pkg,
+      overrides,
+      agent,
+      beforeInstallCommand,
+      installArgs: {
+        pnpm: [
+          '--prefer-frozen-lockfile',
+          '--prefer-offline',
+          '--no-strict-peer-dependencies',
+        ],
+      },
+      devDependencyStrategy: 'all',
+    });
   }
-  await applyPackageOverrides(dir, pkg, beforeInstallCommand, overrides);
   await afterInstallCommand?.(pkg.scripts);
   await beforeBuildCommand?.(pkg.scripts);
   await buildCommand?.(pkg.scripts);
@@ -305,19 +475,24 @@ export async function runInRepo(options: RunOptions & RepoOptions) {
   return { dir };
 }
 
-export async function setupRsbuildRepo(options: Partial<RepoOptions>) {
-  const repo = options.repo || 'web-infra-dev/rsbuild';
+export async function setupStackRepo(options: Partial<RepoOptions> = {}) {
+  const repo = options.repo ?? STACK_DEFAULT_REPO[activeStack];
   await setupRepo({
     repo,
-    dir: rsbuildPath,
+    dir: stackPath,
     branch: 'main',
     shallow: true,
     ...options,
   });
+  if (activeStack === 'rsbuild' || activeStack === 'rstest') {
+    delete monorepoPackagesCache[activeStack];
+  } else if (activeStack === 'rspack') {
+    rspackPackageData = null;
+  }
 }
 
 export async function getPermanentRef() {
-  cd(rsbuildPath);
+  cd(stackPath);
   try {
     const ref = await $`git log -1 --pretty=format:%h`;
     return ref;
@@ -327,29 +502,46 @@ export async function getPermanentRef() {
   }
 }
 
-export async function buildRsbuild({ verify = false }) {
-  cd(rsbuildPath);
-  const frozenInstall = getCommand('pnpm', 'frozen');
-
-  const runBuildJs = getCommand('pnpm', 'run', ['build']);
-  await $`${frozenInstall}`;
-  await $`${runBuildJs}`;
-  if (verify) {
-    const runTest = getCommand('pnpm', 'run', ['test']);
-    await $`${runTest}`;
+export async function buildStack({ verify = false }: { verify?: boolean }) {
+  cd(stackPath);
+  if (activeStack === 'rspack') {
+    const frozenInstall = getCommand('pnpm', 'frozen');
+    const runBuildBinding = getCommand('pnpm', 'run', [
+      'build:binding:release',
+    ]);
+    const runMoveBinding = getCommand('pnpm', 'run', [
+      '--filter @rspack/binding move-binding',
+    ]);
+    const runBuildJs = getCommand('pnpm', 'run', ['build:js']);
+    await $`${frozenInstall}`;
+    await $`cargo codegen`;
+    await $`${runBuildBinding}`;
+    await $`${runMoveBinding}`;
+    await $`${runBuildJs}`;
+    if (verify) {
+      const runTest = getCommand('pnpm', 'run', ['test:js']);
+      await $`${runTest}`;
+    }
+  } else {
+    const frozenInstall = getCommand('pnpm', 'frozen');
+    const runBuild = getCommand('pnpm', 'run', ['build']);
+    await $`${frozenInstall}`;
+    await $`${runBuild}`;
+    if (verify) {
+      const runTest = getCommand('pnpm', 'run', ['test']);
+      await $`${runTest}`;
+    }
   }
 }
 
-export async function bisectRsbuild(
+export async function bisectStack(
   good: string,
   runSuite: () => Promise<Error | void>,
 ) {
-  // sometimes rsbuild build modifies files in git, e.g. LICENSE.md
-  // this would stop bisect, so to reset those changes
   const resetChanges = async () => $`git reset --hard HEAD`;
 
   try {
-    cd(rsbuildPath);
+    cd(stackPath);
     await resetChanges();
     await $`git bisect start`;
     await $`git bisect bad`;
@@ -360,19 +552,19 @@ export async function bisectRsbuild(
       const isNonCodeCommit = commitMsg.match(/^(?:release|docs)[:(]/);
       if (isNonCodeCommit) {
         await $`git bisect skip`;
-        continue; // see if next commit can be skipped too
+        continue;
       }
       const error = await runSuite();
-      cd(rsbuildPath);
+      cd(stackPath);
       await resetChanges();
       const bisectOut = await $`git bisect ${error ? 'bad' : 'good'}`;
-      bisecting = bisectOut.substring(0, 10).toLowerCase() === 'bisecting:'; // as long as git prints 'bisecting: ' there are more revisions to test
+      bisecting = bisectOut.substring(0, 10).toLowerCase() === 'bisecting:';
     }
   } catch (e) {
     console.log('error while bisecting', e);
   } finally {
     try {
-      cd(rsbuildPath);
+      cd(stackPath);
       await $`git bisect reset`;
     } catch (e) {
       console.log('Error while resetting bisect', e);
@@ -382,50 +574,70 @@ export async function bisectRsbuild(
 
 function isLocalOverride(v: string): boolean {
   if (!v.includes('/') || v.startsWith('@')) {
-    // not path-like (either a version number or a package name)
     return false;
   }
   try {
     return !!fs.lstatSync(v)?.isDirectory();
   } catch (e) {
-    if (e.code !== 'ENOENT') {
+    if ((e as NodeJS.ErrnoException).code !== 'ENOENT') {
       throw e;
     }
     return false;
   }
 }
 
-async function applyPackageOverrides(
-  dir: string,
-  pkg: any,
-  beforeInstallCommand: ((scripts: any) => Promise<any>) | void,
-  overrides: Overrides = {},
-) {
+async function patchBindingPackageJson(infos: RspackPackageInfo[]) {
+  for (const bindingInfo of infos) {
+    const pkgJsonPath = path.join(bindingInfo.directory, 'package.json');
+    const pkgJson = JSON.parse(
+      await fs.promises.readFile(pkgJsonPath, 'utf-8'),
+    );
+    pkgJson.optionalDependencies = undefined;
+    await fs.promises.writeFile(pkgJsonPath, JSON.stringify(pkgJson, null, 2));
+  }
+}
+
+async function applyPackageOverrides({
+  dir,
+  pkg,
+  overrides = {},
+  agent,
+  beforeInstallCommand,
+  installArgs,
+  devDependencyStrategy = 'local',
+}: {
+  dir: string;
+  pkg: any;
+  overrides: Overrides;
+  agent: Agent;
+  beforeInstallCommand: ((scripts: any) => Promise<any>) | void;
+  installArgs?: {
+    pnpm?: string[];
+    yarn?: string[];
+    npm?: string[];
+  };
+  devDependencyStrategy?: 'all' | 'local';
+}) {
   const useFileProtocol = (v: string) =>
     isLocalOverride(v) ? `file:${path.resolve(v)}` : v;
-  // remove boolean flags
-  // biome-ignore lint/style/noParameterAssign: allow
-  overrides = Object.fromEntries(
+  const normalizedOverrides = Object.fromEntries(
     Object.entries(overrides)
       .filter(([_key, value]) => typeof value === 'string')
       .map(([key, value]) => [key, useFileProtocol(value as string)]),
   );
 
-  const localOverrides = Object.fromEntries(
-    Object.entries(overrides).filter(
-      ([_key, value]) => typeof value === 'string' && value.startsWith('file:'),
-    ),
-  );
-  await $`git clean -fdxq`; // remove current install
+  const devOverrides =
+    devDependencyStrategy === 'all'
+      ? normalizedOverrides
+      : Object.fromEntries(
+          Object.entries(normalizedOverrides).filter(([_key, value]) =>
+            (value as string).startsWith('file:'),
+          ),
+        );
 
-  const agent = await detect({ cwd: dir, autoInstall: false });
-  if (!agent) {
-    throw new Error(`failed to detect packageManager in ${dir}`);
-  }
-  // Remove version from agent string:
-  // yarn@berry => yarn
-  // pnpm@6, pnpm@7 => pnpm
-  const pm = agent?.split('@')[0];
+  await $`git clean -fdxq`;
+
+  const pm = agent.split('@')[0];
 
   if (pm === 'pnpm') {
     if (!pkg.devDependencies) {
@@ -433,14 +645,14 @@ async function applyPackageOverrides(
     }
     pkg.devDependencies = {
       ...pkg.devDependencies,
-      ...localOverrides, // overrides must be present in devDependencies or dependencies otherwise they may not work
+      ...devOverrides,
     };
     if (!pkg.pnpm) {
       pkg.pnpm = {};
     }
     pkg.pnpm.overrides = {
       ...pkg.pnpm.overrides,
-      ...overrides,
+      ...normalizedOverrides,
     };
   } else if (pm === 'yarn') {
     if (!pkg.devDependencies) {
@@ -448,19 +660,18 @@ async function applyPackageOverrides(
     }
     pkg.devDependencies = {
       ...pkg.devDependencies,
-      ...localOverrides, // overrides must be present in devDependencies or dependencies otherwise they may not work
+      ...devOverrides,
     };
     pkg.resolutions = {
       ...pkg.resolutions,
-      ...overrides,
+      ...normalizedOverrides,
     };
   } else if (pm === 'npm') {
     pkg.overrides = {
       ...pkg.overrides,
-      ...overrides,
+      ...normalizedOverrides,
     };
-    // npm does not allow overriding direct dependencies, force it by updating the blocks themselves
-    for (const [name, version] of Object.entries(overrides)) {
+    for (const [name, version] of Object.entries(normalizedOverrides)) {
       if (pkg.dependencies?.[name]) {
         pkg.dependencies[name] = version;
       }
@@ -476,13 +687,18 @@ async function applyPackageOverrides(
 
   await beforeInstallCommand?.(pkg.scripts);
 
-  // use of `ni` command here could cause lockfile violation errors so fall back to native commands that avoid these
   if (pm === 'pnpm') {
-    await $`pnpm install --prefer-frozen-lockfile --prefer-offline --strict-peer-dependencies false`;
+    const pnpmArgs = installArgs?.pnpm ?? [];
+    const command = ['pnpm', 'install', ...pnpmArgs].join(' ');
+    await $`${command}`;
   } else if (pm === 'yarn') {
-    await $`yarn install`;
+    const yarnArgs = installArgs?.yarn ?? [];
+    const command = ['yarn', 'install', ...yarnArgs].join(' ');
+    await $`${command}`;
   } else if (pm === 'npm') {
-    await $`npm install`;
+    const npmArgs = installArgs?.npm ?? [];
+    const command = ['npm', 'install', ...npmArgs].join(' ');
+    await $`${command}`;
   }
 }
 
@@ -490,9 +706,17 @@ export function dirnameFrom(url: string) {
   return path.dirname(fileURLToPath(url));
 }
 
-export function parseRsbuildMajor(rsbuildPath: string): number {
+export function parseStackMajor(projectPath: string): number {
+  if (activeStack === 'rspack') {
+    const content = fs.readFileSync(
+      path.join(projectPath, 'packages', 'rspack', 'package.json'),
+      'utf-8',
+    );
+    const pkg = JSON.parse(content);
+    return parseMajorVersion(pkg.version);
+  }
   const content = fs.readFileSync(
-    path.join(rsbuildPath, 'packages', 'core', 'package.json'),
+    path.join(projectPath, 'packages', 'core', 'package.json'),
     'utf-8',
   );
   const pkg = JSON.parse(content);

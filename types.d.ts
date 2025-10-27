@@ -1,18 +1,35 @@
 // eslint-disable-next-line n/no-unpublished-import
 import type { Agent } from '@antfu/ni';
+
+export type Stack = 'rsbuild' | 'rspack' | 'rstest';
+
 export interface EnvironmentData {
+  stack: Stack;
   root: string;
   workspace: string;
-  rsbuildPath: string;
+  stackPath: string;
+  projectPath: string;
   cwd: string;
   env: NodeJS.ProcessEnv;
+  rsbuildPath?: string;
+  rspackPath?: string;
+  rstestPath?: string;
 }
 
 export interface RunOptions {
+  stack: Stack;
   workspace: string;
   root: string;
-  rsbuildPath: string;
-  rsbuildMajor: number;
+  stackPath: string;
+  projectPath: string;
+  stackMajor: number;
+  projectMajor: number;
+  rsbuildPath?: string;
+  rspackPath?: string;
+  rstestPath?: string;
+  rsbuildMajor?: number;
+  rspackMajor?: number;
+  rstestMajor?: number;
   verify?: boolean;
   skipGit?: boolean;
   release?: string;
@@ -28,9 +45,10 @@ export interface RunOptions {
   suiteCommit?: string;
 }
 
-type Task = string | (() => Promise<any>);
+export type Task = string | (() => Promise<any>);
 
 export interface CommandOptions {
+  stack?: Stack;
   repo?: string;
   branch?: string;
   tag?: string;

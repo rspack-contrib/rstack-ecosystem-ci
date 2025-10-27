@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import type { RunOptions } from '../types';
-import { $, runInRepo } from '../utils';
+import type { RunOptions } from '../../types';
+import { $, runInRepo } from '../../utils';
 
 export async function test(options: RunOptions) {
   const errors: Array<{

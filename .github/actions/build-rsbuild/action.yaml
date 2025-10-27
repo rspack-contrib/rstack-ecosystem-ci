@@ -1,25 +1,25 @@
-name: 'Build Rsbuild'
-description: 'Checkout, build rsbuild'
+name: "Build Rsbuild"
+description: "Checkout, build rsbuild"
 inputs:
   repository:
-    description: 'The rsbuild repository to use'
+    description: "The rsbuild repository to use"
     required: true
-    default: 'web-infra-dev/rsbuild'
+    default: "web-infra-dev/rsbuild"
   path:
-    description: 'Destination path to the rsbuild repository'
+    description: "Destination path to the rsbuild repository"
     required: true
-    default: 'workspace/rsbuild'
+    default: "workspace/rsbuild"
   ref:
-    description: 'The branch, tag or SHA to checkout'
+    description: "The branch, tag or SHA to checkout"
     required: true
-    default: 'main'
+    default: "main"
   node-version:
-    description: 'The version of Node.js to set up'
+    description: "The version of Node.js to set up"
     required: true
-    default: '22'
+    default: "22"
 outputs:
   artifact-name:
-    description: 'The name of the uploaded artifact'
+    description: "The name of the uploaded artifact"
 runs:
   using: composite
   steps:
