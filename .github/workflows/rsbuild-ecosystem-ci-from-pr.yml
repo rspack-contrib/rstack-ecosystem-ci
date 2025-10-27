@@ -1,5 +1,5 @@
 # integration tests for rsbuild ecosystem - run from pr comments
-name: rsbuild-ecosystem-ci-from-commit
+name: rsbuild-ecosystem-ci-from-pr
 
 env:
   # 7 GiB by default on GitHub, setting to 6 GiB
@@ -9,10 +9,15 @@ env:
 on:
   workflow_dispatch:
     inputs:
-      commitSHA:
-        description: "commit sha"
+      prNumber:
+        description: "PR number (e.g. 9887)"
         required: true
         type: string
+      branchName:
+        description: "rsbuild branch to use"
+        required: true
+        type: string
+        default: "main"
       repo:
         description: "rsbuild repository to use"
         required: true
@@ -44,11 +49,6 @@ on:
         required: true
         type: string
         default: "precoded"
-      updateComment:
-        description: "update comment"
-        required: false
-        type: boolean
-        default: false
 
 jobs:
   execute-selected-suite:
@@ -59,13 +59,14 @@ jobs:
       - uses: ./.github/actions/build-rsbuild
         with:
           repository: ${{ inputs.repo }}
-          ref: ${{ inputs.commitSHA }}
+          ref: ${{ inputs.branchName }}
       - run: pnpm i --frozen-lockfile
       - name: Expose GitHub Runtime
         uses: crazy-max/ghaction-github-runtime@v3
       - run: >-
           pnpm tsx ecosystem-ci.ts
           run-suites
+          --stack rsbuild
           --suite-${{ inputs.suiteRefType }} ${{ inputs.suiteRef }}
           ${{ inputs.suite }}
 
@@ -91,15 +92,15 @@ jobs:
     name: execute-all (${{ matrix.suite }})
     steps:
       - uses: actions/checkout@v5
-      - uses: moonrepo/setup-rust@v1
       - uses: ./.github/actions/build-rsbuild
         with:
           repository: ${{ inputs.repo }}
-          ref: ${{ inputs.commitSHA }}
+          ref: ${{ inputs.branchName }}
       - run: pnpm i --frozen-lockfile
       - name: Expose GitHub Runtime
         uses: crazy-max/ghaction-github-runtime@v3
       - run: >-
           pnpm tsx ecosystem-ci.ts
           run-suites
+          --stack rsbuild
           ${{ matrix.suite }}

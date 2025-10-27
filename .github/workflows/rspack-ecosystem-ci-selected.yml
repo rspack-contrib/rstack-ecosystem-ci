@@ -1,0 +1,170 @@
+# integration tests for rspack ecosystem - run for selected one testsuite or all testsuites
+name: rspack-ecosystem-ci-selected
+
+env:
+  # 7 GiB by default on GitHub, setting to 6 GiB
+  # https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners#supported-runners-and-hardware-resources
+  NODE_OPTIONS: --max-old-space-size=6144
+
+on:
+  workflow_dispatch:
+    inputs:
+      refType:
+        description: "type of rspack ref to use"
+        required: true
+        type: choice
+        options:
+          - branch
+          - tag
+          - commit
+          - release
+        default: "branch"
+      ref:
+        description: "rspack ref to use"
+        required: true
+        type: string
+        default: "main"
+      repo:
+        description: "rspack repository to use"
+        required: true
+        type: string
+        default: "web-infra-dev/rspack"
+      suite:
+        description: "testsuite to run. runs all testsuits when `-`."
+        required: true
+        type: choice
+        options:
+          - "-"
+          - modernjs
+          # - nx
+          - rspress
+          - rsbuild
+          - rslib
+          - rstest
+          - rsdoctor
+          - examples
+          - devserver
+          - plugin
+      suiteRefType:
+        description: "type of suite ref to use"
+        required: true
+        type: choice
+        options:
+          - precoded
+          - branch
+          - tag
+          - commit
+        default: "precoded"
+      suiteRef:
+        description: "suite ref to use"
+        required: true
+        type: string
+        default: "precoded"
+
+jobs:
+  get-runner-labels:
+    name: Get Runner Labels
+    needs: create-comment
+    uses: ./.github/workflows/get-runner-labels.yml
+
+  prepare-binding:
+    name: Prepare Rspack Binding
+    needs: get-runner-labels
+    runs-on: ${{ fromJSON(needs.get-runner-labels.outputs.LINUX_RUNNER_LABELS) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/prepare-rspack-binding
+        with:
+          repository: ${{ inputs.repo }}
+          ref: ${{ inputs.suiteRef }}
+
+  execute-selected-suite:
+    needs: prepare-binding
+    runs-on: ubuntu-22.04
+    if: "inputs.suite != '-'"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: moonrepo/setup-rust@v1
+      - uses: ./.github/actions/build-rspack
+        with:
+          ref: ${{ inputs.suiteRef }}
+      - run: pnpm i --frozen-lockfile
+      - name: Expose GitHub Runtime
+        uses: crazy-max/ghaction-github-runtime@v3
+      - run: >-
+          pnpm tsx ecosystem-ci.ts
+          run-suites
+          --stack rspack
+          --suite-${{ inputs.suiteRefType }} ${{ inputs.suiteRef }}
+          ${{ inputs.suite }}
+      - if: always()
+        run: pnpm tsx discord-webhook.ts
+        env:
+          WORKFLOW_NAME: ci-selected-one
+          REF_TYPE: ${{ inputs.refType }}
+          REF: ${{ inputs.ref }}
+          REPO: ${{ inputs.repo }}
+          SUITE: ${{ inputs.suite }}
+          SUITE_REF_TYPE: ${{ inputs.suiteRefType }}
+          SUITE_REF: ${{ inputs.suiteRef }}
+          STATUS: ${{ job.status }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  execute-all:
+    needs: [get-runner-labels, prepare-binding]
+    if: "inputs.suite == '-'"
+    strategy:
+      matrix:
+        include:
+          - suite: modernjs
+            os: ubuntu-22.04
+          # - suite: nx
+          #   os: ubuntu-22.04
+          - suite: rspress
+            os: ubuntu-22.04
+          - suite: rslib
+            os: ubuntu-22.04
+          - suite: rstest
+            os: ubuntu-22.04
+          - suite: rsbuild
+            os: ubuntu-22.04
+          - suite: rsdoctor
+            os: ubuntu-22.04
+          - suite: examples
+            os: ubuntu-22.04
+          - suite: devserver
+            os: ubuntu-22.04
+          - suite: nuxt
+            os: ubuntu-22.04
+          - suite: plugin
+            os: ubuntu-22.04
+      fail-fast: false
+    runs-on: ${{ matrix.os }}
+    name: execute-all (${{ matrix.suite }})
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/build-rspack
+        with:
+          ref: ${{ inputs.suiteRef }}
+      - run: pnpm i --frozen-lockfile
+      - name: Expose GitHub Runtime
+        uses: crazy-max/ghaction-github-runtime@v3
+      - run: >-
+          pnpm tsx ecosystem-ci.ts
+          run-suites
+          --stack rspack
+          ${{ matrix.suite }}
+      - if: always()
+        run: pnpm tsx discord-webhook.ts
+        env:
+          WORKFLOW_NAME: ci-selected-all
+          REF_TYPE: ${{ inputs.refType }}
+          REF: ${{ inputs.ref }}
+          REPO: ${{ inputs.repo }}
+          SUITE: ${{ matrix.suite }}
+          SUITE_REF_TYPE: ${{ inputs.suiteRefType }}
+          SUITE_REF: ${{ inputs.suiteRef }}
+          STATUS: ${{ job.status }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

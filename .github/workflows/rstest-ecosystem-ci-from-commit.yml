@@ -1,5 +1,5 @@
-# integration tests for rsbuild ecosystem - run from pr comments
-name: rsbuild-ecosystem-ci-from-pr
+# integration tests for rstest ecosystem - run from pr comments
+name: rstest-ecosystem-ci-from-commit
 
 env:
   # 7 GiB by default on GitHub, setting to 6 GiB
@@ -9,31 +9,27 @@ env:
 on:
   workflow_dispatch:
     inputs:
-      prNumber:
-        description: "PR number (e.g. 9887)"
+      commitSHA:
+        description: "commit sha"
         required: true
         type: string
-      branchName:
-        description: "rsbuild branch to use"
-        required: true
-        type: string
-        default: "main"
       repo:
-        description: "rsbuild repository to use"
+        description: "rstest repository to use"
         required: true
         type: string
-        default: "web-infra-dev/rsbuild"
+        default: "web-infra-dev/rstest"
       suite:
         description: "testsuite to run. runs all testsuits when `-`."
         required: false
         type: choice
         options:
           - "-"
-          - modernjs
-          - plugins
-          - rspress
-          - 
-          - examples
+          # - plugins
+          # - rspress
+          - rslib
+          - rsbuild
+          - rsdoctor
+          # - examples
       suiteRefType:
         description: "type of suite ref to use"
         required: true
@@ -49,23 +45,29 @@ on:
         required: true
         type: string
         default: "precoded"
+      updateComment:
+        description: "update comment"
+        required: false
+        type: boolean
+        default: false
 
 jobs:
   execute-selected-suite:
     runs-on: ubuntu-latest
     if: "inputs.suite != '-'"
     steps:
-      - uses: actions/checkout@v5
-      - uses: ./.github/actions/build-rsbuild
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/build-rstest
         with:
           repository: ${{ inputs.repo }}
-          ref: ${{ inputs.branchName }}
+          ref: ${{ inputs.commitSHA }}
       - run: pnpm i --frozen-lockfile
       - name: Expose GitHub Runtime
         uses: crazy-max/ghaction-github-runtime@v3
       - run: >-
           pnpm tsx ecosystem-ci.ts
           run-suites
+          --stack rstest
           --suite-${{ inputs.suiteRefType }} ${{ inputs.suiteRef }}
           ${{ inputs.suite }}
 
@@ -74,31 +76,34 @@ jobs:
     strategy:
       matrix:
         include:
+          # - suite: modernjs
+          #   os: ubuntu-latest
+          # - suite: plugins
+          #   os: ubuntu-latest
+          # - suite: rspress
+          #   os: ubuntu-latest
+          - suite: rsbuild
+            os: ubuntu-latest
           - suite: rslib
             os: ubuntu-latest
-          - suite: rstest
+          - suite: rsdoctor
             os: ubuntu-latest
-          - suite: rspress
-            os: ubuntu-latest
-          - suite: plugins
-            os: ubuntu-latest
-          - suite: modernjs
-            os: ubuntu-latest
-          - suite: examples
-            os: ubuntu-latest
+          # - suite: examples
+          #   os: ubuntu-latest
       fail-fast: false
     runs-on: ${{ matrix.os }}
     name: execute-all (${{ matrix.suite }})
     steps:
-      - uses: actions/checkout@v5
-      - uses: ./.github/actions/build-rsbuild
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/build-rstest
         with:
           repository: ${{ inputs.repo }}
-          ref: ${{ inputs.branchName }}
+          ref: ${{ inputs.commitSHA }}
       - run: pnpm i --frozen-lockfile
       - name: Expose GitHub Runtime
         uses: crazy-max/ghaction-github-runtime@v3
       - run: >-
           pnpm tsx ecosystem-ci.ts
           run-suites
+          --stack rstest
           ${{ matrix.suite }}

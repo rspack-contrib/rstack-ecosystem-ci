@@ -1,0 +1,46 @@
+name: 'Build Rstest'
+description: 'Checkout, build rstest'
+inputs:
+  repository:
+    description: 'The rstest repository to use'
+    required: true
+    default: 'web-infra-dev/rstest'
+  path:
+    description: 'Destination path to the rstest repository'
+    required: true
+    default: 'workspace/rstest'
+  ref:
+    description: 'The branch, tag or SHA to checkout'
+    required: true
+    default: 'main'
+  node-version:
+    description: 'The version of Node.js to set up'
+    required: true
+    default: '22'
+outputs:
+  artifact-name:
+    description: 'The name of the uploaded artifact'
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-node@v4
+      with:
+        node-version: 22
+    - shell: bash
+      name: Install package manager
+      run: |
+        npm install -g corepack@latest --force
+        echo "Corepack version: $(corepack --version)"
+        corepack enable
+
+    - name: Checkout Rstest repo
+      uses: actions/checkout@v4
+      with:
+        repository: ${{ inputs.repository }}
+        path: ${{ inputs.path }}
+        ref: ${{ inputs.ref }}
+    - name: Build Rstest
+      shell: bash
+      run: |
+        cd ${{ inputs.path }}
+        pnpm i
