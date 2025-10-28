@@ -133,3 +133,17 @@ jobs:
           run-suites
           --stack rspack
           ${{ matrix.suite }}
+
+  record-history:
+    needs: execute-all
+    if: ${{ always() && inputs.suite == '-' }}
+    permissions:
+      contents: write
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: ./.github/actions/record-history
+        with:
+          stack: rspack
+          source-repo: ${{ inputs.repo }}
+          source-ref: ${{ inputs.commitSHA }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}

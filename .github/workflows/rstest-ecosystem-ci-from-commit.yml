@@ -107,3 +107,17 @@ jobs:
           run-suites
           --stack rstest
           ${{ matrix.suite }}
+
+  record-history:
+    needs: execute-all
+    if: ${{ always() && inputs.suite == '-' }}
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ./.github/actions/record-history
+        with:
+          stack: rstest
+          source-repo: ${{ inputs.repo }}
+          source-ref: ${{ inputs.commitSHA }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
