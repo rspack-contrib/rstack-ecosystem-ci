@@ -135,8 +135,8 @@ runs:
       with:
         script: |
           await github.rest.issues.updateComment({
-            owner: ${{ inputs.ecosystem-owner }},
-            repo: ${{ inputs.ecosystem-repo }},
+            owner: '${{ inputs.ecosystem-owner }}',
+            repo: '${{ inputs.ecosystem-repo }}',
             comment_id: ${{ steps.create-comment.outputs.result }},
             body: ${{ steps.eco-ci-result.outputs.result }}
           })
