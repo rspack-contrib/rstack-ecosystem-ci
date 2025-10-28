@@ -31,16 +31,19 @@ inputs:
 outputs:
   workflow-id:
     description: "ID of the triggered downstream workflow run"
-    value: ${{ steps.trigger.outputs.workflow_id }}
+    value: ${{ steps.eco_ci.outputs.workflow_id }}
   workflow-url:
     description: "URL of the triggered downstream workflow run"
-    value: ${{ steps.trigger.outputs.workflow_url }}
+    value: ${{ steps.eco_ci.outputs.workflow_url }}
   conclusion:
     description: "Conclusion reported by the downstream workflow"
-    value: ${{ steps.trigger.outputs.conclusion }}
+    value: ${{ steps.eco_ci.outputs.conclusion }}
   summary:
     description: "Formatted markdown summary of downstream job results"
-    value: ${{ steps.summarize.outputs.result }}
+    value: ${{ steps.eco-ci-result.outputs.summary }}
+  results:
+    description: "JSON payload describing downstream workflow run and suites"
+    value: ${{ steps.eco-ci-result.outputs.results }}
 
 runs:
   using: composite
@@ -72,7 +75,6 @@ runs:
 
     - name: Get CI Result
       id: eco-ci-result
-      if: steps.eco_ci.outcome == 'failure'
       uses: rspack-contrib/rstack-ecosystem-ci/.github/actions/ecosystem-ci-result@main
       with:
         job-prefix: ${{ inputs.job-name-prefix }}
@@ -89,5 +91,31 @@ runs:
             commit_sha: context.sha,
             owner: '${{ inputs.ecosystem-owner }}',
             repo: '${{ inputs.ecosystem-repo }}',
-            body: ${{ steps.eco-ci-result.outputs.result }}
+            body: `${{ steps.eco-ci-result.outputs.summary }}`
           })
+
+    - name: Update Ecosystem History
+      id: update-history
+      if: ${{ always() && inputs.client-payload != '' && fromJson(inputs.client-payload).suite == '-' && fromJson(steps.eco-ci-result.outputs.results).suites.length > 0 }}
+      shell: bash
+      env:
+        CLIENT_PAYLOAD: ${{ inputs.client-payload }}
+        SUMMARY_MARKDOWN: ${{ steps.eco-ci-result.outputs.summary }}
+        RESULTS_JSON: ${{ steps.eco-ci-result.outputs.results }}
+        WORKFLOW_FILE: ${{ inputs.workflow-file }}
+        HISTORY_REPOSITORY: rspack-contrib/rstack-ecosystem-ci
+        OUTPUT_DIR: data-artifacts
+        GITHUB_TOKEN: ${{ inputs.github-token }}
+      run: |
+        node "$GITHUB_WORKSPACE/scripts/update-ecosystem-history.mjs"
+
+    - name: Publish History
+      if: ${{ steps.update-history.outcome == 'success' }}
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        branch: data
+        folder: data-artifacts
+        clean: false
+        target-folder: .
+        token: ${{ inputs.github-token }}
+        repository-name: rspack-contrib/rstack-ecosystem-ci

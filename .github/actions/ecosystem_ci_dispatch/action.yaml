@@ -44,7 +44,7 @@ outputs:
     value: ${{ steps.eco_ci.outputs.conclusion }}
   summary:
     description: "Formatted markdown summary of downstream job results"
-    value: ${{ steps.eco-ci-result.outputs.result }}
+    value: ${{ steps.eco-ci-result.outputs.summary }}
   comment-id:
     description: "Identifier of the PR comment that was created or updated"
     value: ${{ steps.create-comment.outputs.result }}
@@ -129,12 +129,12 @@ runs:
       uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
       env:
         COMMENT_ID: ${{ steps.create-comment.outputs.result }}
-        SUMMARY: ${{ steps.eco-ci-result.outputs.result }}
+        SUMMARY: ${{ steps.eco-ci-result.outputs.summary }}
       with:
         script: |
           await github.rest.issues.updateComment({
             owner: '${{ inputs.ecosystem-owner }}',
             repo: '${{ inputs.ecosystem-repo }}',
             comment_id: ${{ steps.create-comment.outputs.result }},
-            body: ${{ steps.eco-ci-result.outputs.result }}
+            body: ${{ steps.eco-ci-result.outputs.summary }}
           })

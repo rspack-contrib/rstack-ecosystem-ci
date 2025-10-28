@@ -15,9 +15,12 @@ inputs:
     default: "Ran ecosystem CI"
 
 outputs:
-  result:
+  summary:
     description: "Formatted markdown summary of the ecosystem CI jobs"
-    value: ${{ steps.get-result.outputs.result }}
+    value: ${{ steps.get-result.outputs.summary }}
+  results:
+    description: "JSON string with workflow URL, run id, and suite entries"
+    value: ${{ steps.get-result.outputs.results }}
 
 runs:
   using: composite
@@ -35,10 +38,6 @@ runs:
           const jobPrefix = process.env.JOB_PREFIX ?? 'execute-all ';
           const heading = process.env.HEADING ?? 'Ran ecosystem CI';
 
-          if (!owner || !repo) {
-            throw new Error('eco-ci-result requires both owner and repo inputs');
-          }
-
           let runId;
           try {
             const parsed = JSON.parse(process.env.CI_OUTPUT);
@@ -47,8 +46,21 @@ runs:
             throw new Error(`failed to parse workflow output: ${error}`);
           }
 
+          const emitFallback = (message, url = '', workflowRunId = '') => {
+            core.setOutput('summary', message);
+            core.setOutput(
+              'results',
+              JSON.stringify({
+                workflowUrl: url,
+                workflowRunId,
+                suites: [],
+              }),
+            );
+            return message;
+          };
+
           if (!runId) {
-            return 'cannot determine workflow run id';
+            return emitFallback('cannot determine workflow run id');
           }
 
           const { data: { jobs } = {} } =
@@ -59,10 +71,12 @@ runs:
             });
 
           if (!jobs?.length) {
-            return 'cannot find CI result';
+            const workflowUrl =
+              `https://github.com/${owner}/${repo}/actions/runs/${runId}`;
+            return emitFallback('cannot find CI result', workflowUrl, String(runId));
           }
 
-          const result = jobs
+          const suites = jobs
             .filter((job) => job.name?.startsWith(jobPrefix))
             .map((job) => {
               let suiteName = job.name.substring(jobPrefix.length);
@@ -76,6 +90,8 @@ runs:
               };
             });
 
+          const workflowUrl =
+            `https://github.com/${owner}/${repo}/actions/runs/${runId}`;
           const url = `https://github.com/${owner}/${repo}/actions/runs/${runId}`;
           const urlLink = `[Open](${url})`;
 
@@ -85,7 +101,7 @@ runs:
             cancelled: ':stop_button:',
           };
 
-          const rows = result
+          const rows = suites
             .map(
               (r) =>
                 `| [${r.suite}](${r.link}) | ${conclusionEmoji[r.conclusion] ?? ''} ${r.conclusion} |`,
@@ -100,4 +116,15 @@ runs:
           ${rows}
           `;
 
-          return body;
+          const trimmed = body.trim();
+          core.setOutput('summary', trimmed);
+          core.setOutput(
+            'results',
+            JSON.stringify({
+              workflowUrl,
+              workflowRunId: String(runId),
+              suites,
+            }),
+          );
+
+          return trimmed;
