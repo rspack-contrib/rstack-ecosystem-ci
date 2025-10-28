@@ -103,15 +103,20 @@ runs:
       uses: convictional/trigger-workflow-and-wait@f69fa9eedd3c62a599220f4d5745230e237904be # v1.6.5
       continue-on-error: true
       with:
-        owner: ${{ inputs.ecosystem-owner }}
-        repo: ${{ inputs.ecosystem-repo }}
+        owner: rspack-contrib
+        repo: rstack-ecosystem-ci
         workflow_file_name: ${{ inputs.workflow-file }}
         ref: main
         github_token: ${{ inputs.github-token }}
         client_payload: ${{ inputs.client-payload }}
 
+    - name: Checkout
+      uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+      with:
+        fetch-depth: 1
+
     - id: eco-ci-result
-      uses: ../ecosystem-ci-result
+      uses: rspack-contrib/rstack-ecosystem-ci/.github/actions/ecosystem-ci-result@main
       name: Get CI Result
       with:
         owner: ${{ inputs.ecosystem-owner }}

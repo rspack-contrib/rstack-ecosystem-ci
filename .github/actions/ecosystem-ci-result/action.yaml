@@ -1,29 +1,29 @@
-name: 'Eco CI Result'
-description: 'Fetch ecosystem CI jobs for a run and format a markdown summary'
+name: "Eco CI Result"
+description: "Fetch ecosystem CI jobs for a run and format a markdown summary"
 
 inputs:
   workflow-output:
-    description: 'JSON stringified output returned by trigger-workflow-and-wait'
+    description: "JSON stringified output returned by trigger-workflow-and-wait"
     required: true
   owner:
-    description: 'GitHub owner of the ecosystem CI repository'
+    description: "GitHub owner of the ecosystem CI repository"
     required: false
-    default: 'rspack-contrib'
+    default: "rspack-contrib"
   repo:
-    description: 'GitHub repository containing the ecosystem CI workflow'
+    description: "GitHub repository containing the ecosystem CI workflow"
     required: true
   job-prefix:
-    description: 'Job name prefix to include in the summary table'
+    description: "Job name prefix to include in the summary table"
     required: false
-    default: 'execute-all '
+    default: "execute-all "
   heading:
-    description: 'Short sentence describing the executed workflow'
+    description: "Short sentence describing the executed workflow"
     required: false
-    default: 'Ran ecosystem CI'
+    default: "Ran ecosystem CI"
 
 outputs:
   result:
-    description: 'Formatted markdown summary of the ecosystem CI jobs'
+    description: "Formatted markdown summary of the ecosystem CI jobs"
     value: ${{ steps.get-result.outputs.result }}
 
 runs:
@@ -39,8 +39,8 @@ runs:
         HEADING: ${{ inputs.heading }}
       with:
         script: |
-          const owner = process.env.OWNER;
-          const repo = process.env.REPO;
+          const owner = "rspack-contrib";
+          const repo = "rstack-ecosystem-ci";
           const jobPrefix = process.env.JOB_PREFIX ?? 'execute-all ';
           const heading = process.env.HEADING ?? 'Ran ecosystem CI';
 
