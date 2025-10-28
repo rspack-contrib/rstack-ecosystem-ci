@@ -13,10 +13,6 @@ inputs:
     description: 'The branch, tag or SHA to checkout'
     required: true
     default: 'main'
-  node-version:
-    description: 'The version of Node.js to set up'
-    required: true
-    default: '18'
 outputs:
   artifact-name:
     description: 'The name of the uploaded artifact'

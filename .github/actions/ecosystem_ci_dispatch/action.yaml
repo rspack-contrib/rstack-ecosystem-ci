@@ -119,8 +119,6 @@ runs:
       uses: rspack-contrib/rstack-ecosystem-ci/.github/actions/ecosystem-ci-result@main
       name: Get CI Result
       with:
-        owner: ${{ inputs.ecosystem-owner }}
-        repo: ${{ inputs.ecosystem-repo }}
         job-prefix: ${{ inputs.job-name-prefix }}
         heading: ${{ inputs.result-heading }}
         workflow-output: ${{ toJson(steps.eco_ci.outputs) }}
