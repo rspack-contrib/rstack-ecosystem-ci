@@ -1,0 +1,158 @@
+[
+  {
+    "commitSha": "mockrspack006",
+    "commitTimestamp": "2024-07-23T04:30:00Z",
+    "commitMessage": "perf: tune rspack optimizer for esm output",
+    "author": { "name": "rspack-optimizer", "login": "rspack-optimizer" },
+    "repository": { "fullName": "web-infra-dev/rspack", "name": "rspack" },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/21",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "durationMs": 165340,
+        "logUrl": "https://example.com/logs/rspack-modernjs-6"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "durationMs": 141200,
+        "logUrl": "https://example.com/logs/rspack-nuxt-6"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "durationMs": 99310,
+        "logUrl": "https://example.com/logs/rspack-plugin-6"
+      }
+    ]
+  },
+  {
+    "commitSha": "mockrspack005",
+    "commitTimestamp": "2024-07-21T18:55:00Z",
+    "commitMessage": "fix: revert regression in devserver overlay",
+    "author": { "name": "devserver-fix", "login": "devserver-fix" },
+    "repository": { "fullName": "web-infra-dev/rspack", "name": "rspack" },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "devserver",
+        "status": "failure",
+        "durationMs": 75500,
+        "logUrl": "https://example.com/logs/rspack-devserver-5"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "durationMs": 125430,
+        "logUrl": "https://example.com/logs/rspack-rsbuild-5"
+      }
+    ]
+  },
+  {
+    "commitSha": "mockrspack004",
+    "commitTimestamp": "2024-07-19T07:12:00Z",
+    "commitMessage": "docs: refresh rspack integration guide",
+    "author": { "name": "tech-writer", "login": "tech-writer" },
+    "repository": { "fullName": "web-infra-dev/rspack", "name": "rspack" },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/17",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "durationMs": 154230,
+        "logUrl": "https://example.com/logs/rspack-modernjs-4"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "durationMs": 135120,
+        "logUrl": "https://example.com/logs/rspack-nuxt-4"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "durationMs": 90500,
+        "logUrl": "https://example.com/logs/rspack-plugin-4"
+      }
+    ]
+  },
+  {
+    "commitSha": "mockrspack003",
+    "commitTimestamp": "2024-07-17T14:05:00Z",
+    "commitMessage": "feat: enable rspack incremental builds",
+    "author": { "name": "rspack-dev", "login": "rspack-dev" },
+    "repository": { "fullName": "web-infra-dev/rspack", "name": "rspack" },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/3",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "durationMs": 156789,
+        "logUrl": "https://example.com/logs/rspack-modernjs"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "durationMs": 132445,
+        "logUrl": "https://example.com/logs/rspack-nuxt"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "durationMs": 92341,
+        "logUrl": "https://example.com/logs/rspack-plugin"
+      }
+    ]
+  },
+  {
+    "commitSha": "mockrspack002",
+    "commitTimestamp": "2024-07-15T06:45:00Z",
+    "commitMessage": "test: add regression coverage",
+    "author": { "name": "qa-bot", "login": "qa-bot" },
+    "repository": { "fullName": "web-infra-dev/rspack", "name": "rspack" },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/4",
+    "overallStatus": "cancelled",
+    "suites": [
+      {
+        "name": "devserver",
+        "status": "cancelled",
+        "durationMs": 0,
+        "logUrl": "https://example.com/logs/rspack-devserver"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "durationMs": 110233,
+        "logUrl": "https://example.com/logs/rspack-rsbuild"
+      }
+    ]
+  },
+  {
+    "commitSha": "mockrspack001",
+    "commitTimestamp": "2024-07-13T04:12:00Z",
+    "commitMessage": "chore: update bundler compatibility",
+    "author": { "name": "rspack-contributor", "login": "rspack-contributor" },
+    "repository": { "fullName": "web-infra-dev/rspack", "name": "rspack" },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/2",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "durationMs": 150900,
+        "logUrl": "https://example.com/logs/rspack-modernjs-1"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "durationMs": 98400,
+        "logUrl": "https://example.com/logs/rspack-examples-1"
+      }
+    ]
+  }
+]
