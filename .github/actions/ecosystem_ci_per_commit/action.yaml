@@ -94,9 +94,16 @@ runs:
             body: `${{ steps.eco-ci-result.outputs.summary }}`
           })
 
+    - name: Checkout ecosystem-ci repository
+      uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+      with:
+        repository: rspack-contrib/rstack-ecosystem-ci
+        ref: main
+        path: ecosystem-ci-repo
+        fetch-depth: 1
+
     - name: Update Ecosystem History
       id: update-history
-      if: ${{ always() && inputs.client-payload != '' && fromJson(inputs.client-payload).suite == '-' && fromJson(steps.eco-ci-result.outputs.results).suites.length > 0 }}
       shell: bash
       env:
         CLIENT_PAYLOAD: ${{ inputs.client-payload }}
@@ -107,7 +114,7 @@ runs:
         OUTPUT_DIR: data-artifacts
         GITHUB_TOKEN: ${{ inputs.github-token }}
       run: |
-        node "$GITHUB_WORKSPACE/scripts/update-ecosystem-history.mjs"
+        node "$GITHUB_WORKSPACE/ecosystem-ci-repo/scripts/update-ecosystem-history.mjs"
 
     - name: Publish History
       if: ${{ steps.update-history.outcome == 'success' }}
