@@ -126,3 +126,5 @@ runs:
         target-folder: .
         token: ${{ inputs.github-token }}
         repository-name: rspack-contrib/rstack-ecosystem-ci
+        git-config-name: github-actions[bot]
+        git-config-email: github-actions[bot]@users.noreply.github.com

@@ -1,0 +1,13 @@
+[build]
+command = "pnpm install --frozen-lockfile && pnpm --filter ecosystem-ci-website build"
+publish = "website/dist"
+
+[build.environment]
+NETLIFY_USE_PNPM = "true"
+
+[functions]
+directory    = "netlify/functions"
+node_bundler = "esbuild"
+
+[functions."trigger-deploy"]
+schedule = "@hourly"

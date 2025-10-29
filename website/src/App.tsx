@@ -94,12 +94,12 @@ export default function App() {
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-10">
         <header className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
           <div className="space-y-4">
-            <div className="inline-flex items-center gap-2 rounded-full border border-border/40 bg-black/50 px-4 py-1 text-xs font-semibold uppercase tracking-[0.4em] text-muted-foreground/80">
+            <div className="inline-flex items-center gap-3 rounded-lg border border-white/10 bg-white/5 px-4 py-1.5 text-[11px] font-semibold uppercase tracking-[0.2em] text-white/90">
               Ecosystem CI
               {DATA_SOURCE === 'mock' ? (
                 <Badge
                   variant="outline"
-                  className="border-border/50 bg-black/40 px-2.5 py-0.5 text-[10px] uppercase tracking-[0.3em]"
+                  className="border-white/20 bg-white/5 px-2.5 py-0.5 text-[10px] uppercase tracking-[0.15em] text-white/70"
                 >
                   Mock Data
                 </Badge>
@@ -193,10 +193,19 @@ function buildStats(records: EcosystemCommitRecord[]) {
     (record) => record.overallStatus === 'success',
   ).length;
   const lastUpdated = records[0]?.commitTimestamp
-    ? new Intl.DateTimeFormat('en', {
-        dateStyle: 'medium',
-        timeStyle: 'short',
-      }).format(new Date(records[0].commitTimestamp))
+    ? (() => {
+        const date = new Date(records[0].commitTimestamp);
+        const dateStr = new Intl.DateTimeFormat('en', {
+          year: 'numeric',
+          month: 'short',
+          day: 'numeric',
+          hour: 'numeric',
+          minute: '2-digit',
+        }).format(date);
+        const offset = -date.getTimezoneOffset() / 60;
+        const utcStr = `UTC${offset >= 0 ? '+' : ''}${offset}`;
+        return `${dateStr} ${utcStr}`;
+      })()
     : null;
 
   return {
@@ -217,7 +226,7 @@ function StatCard({ label, value }: StatCardProps) {
       <p className="text-xs uppercase tracking-[0.4em] text-muted-foreground/70">
         {label}
       </p>
-      <p className="mt-3 text-2xl font-semibold text-foreground">
+      <p className="mt-3 text-lg font-semibold text-foreground">
         {value ?? '—'}
       </p>
     </div>
