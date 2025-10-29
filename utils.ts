@@ -23,6 +23,8 @@ const STACK_WORKSPACE_DIR: Record<Stack, string> = {
   rspack: 'rspack',
   rstest: 'rstest',
   rslib: 'rslib',
+  rsdoctor: 'rsdoctor',
+  rslint: 'rslint',
 };
 
 const STACK_DEFAULT_REPO: Record<Stack, string> = {
@@ -30,6 +32,8 @@ const STACK_DEFAULT_REPO: Record<Stack, string> = {
   rspack: 'web-infra-dev/rspack',
   rstest: 'web-infra-dev/rstest',
   rslib: 'web-infra-dev/rslib',
+  rsdoctor: 'web-infra-dev/rsdoctor',
+  rslint: 'web-infra-dev/rslint',
 };
 
 let activeStack: Stack = 'rsbuild';
@@ -39,7 +43,10 @@ let cwd: string;
 let env: NodeJS.ProcessEnv;
 
 const monorepoPackagesCache: Partial<
-  Record<'rsbuild' | 'rstest' | 'rslib', { name: string; directory: string }[]>
+  Record<
+    'rsbuild' | 'rstest' | 'rslib' | 'rsdoctor' | 'rslint',
+    { name: string; directory: string }[]
+  >
 > = {};
 
 interface RspackPackageInfo {
@@ -85,7 +92,13 @@ export async function $(literals: TemplateStringsArray, ...values: unknown[]) {
   const result = await proc;
 
   if (result.failed) {
-    throw new Error(result.shortMessage || result.message);
+    const errorResult = result as unknown as {
+      shortMessage?: string;
+      message?: string;
+    };
+    throw new Error(
+      errorResult.shortMessage ?? errorResult.message ?? 'Command failed',
+    );
   }
 
   if (isGitHubActions) {
@@ -162,6 +175,10 @@ export async function setupEnvironment(stack: Stack): Promise<EnvironmentData> {
     data.rstestPath = stackPath;
   } else if (stack === 'rslib') {
     data.rslibPath = stackPath;
+  } else if (stack === 'rsdoctor') {
+    data.rsdoctorPath = stackPath;
+  } else if (stack === 'rslint') {
+    data.rslintPath = stackPath;
   }
   return data;
 }
@@ -272,7 +289,9 @@ function toCommand(
   };
 }
 
-async function getMonorepoPackages(stack: 'rsbuild' | 'rstest' | 'rslib') {
+async function getMonorepoPackages(
+  stack: 'rsbuild' | 'rstest' | 'rslib' | 'rsdoctor' | 'rslint',
+) {
   const cached = monorepoPackagesCache[stack];
   if (cached) {
     return cached;
@@ -396,7 +415,9 @@ export async function runInRepo(options: RunOptions & RepoOptions) {
   if (
     activeStack === 'rsbuild' ||
     activeStack === 'rstest' ||
-    activeStack === 'rslib'
+    activeStack === 'rslib' ||
+    activeStack === 'rsdoctor' ||
+    activeStack === 'rslint'
   ) {
     const packages = await getMonorepoPackages(activeStack);
     if (options.release) {
@@ -495,7 +516,9 @@ export async function setupStackRepo(options: Partial<RepoOptions> = {}) {
   if (
     activeStack === 'rsbuild' ||
     activeStack === 'rstest' ||
-    activeStack === 'rslib'
+    activeStack === 'rslib' ||
+    activeStack === 'rsdoctor' ||
+    activeStack === 'rslint'
   ) {
     delete monorepoPackagesCache[activeStack];
   } else if (activeStack === 'rspack') {
@@ -727,10 +750,21 @@ export function parseStackMajor(projectPath: string): number {
     const pkg = JSON.parse(content);
     return parseMajorVersion(pkg.version);
   }
-  const content = fs.readFileSync(
-    path.join(projectPath, 'packages', 'core', 'package.json'),
-    'utf-8',
+  let packageJsonPath = path.join(
+    projectPath,
+    'packages',
+    'core',
+    'package.json',
   );
+  if (activeStack === 'rslint') {
+    packageJsonPath = path.join(
+      projectPath,
+      'packages',
+      'rslint',
+      'package.json',
+    );
+  }
+  const content = fs.readFileSync(packageJsonPath, 'utf-8');
   const pkg = JSON.parse(content);
   return parseMajorVersion(pkg.version);
 }

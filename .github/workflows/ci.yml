@@ -102,6 +102,66 @@ jobs:
           --stack rstest
           ${{ matrix.suite }}
 
+  rsdoctor:
+    strategy:
+      matrix:
+        include:
+          - suite: rsbuild
+            os: ubuntu-latest
+          - suite: rspack
+            os: ubuntu-latest
+      fail-fast: false
+    runs-on: ${{ matrix.os }}
+    name: rsdoctor (${{ matrix.suite }})
+    steps:
+      - uses: actions/checkout@v5
+      - uses: ./.github/actions/build-rsdoctor
+      - uses: moonrepo/setup-rust@v1
+      - name: Install
+        run: |
+          corepack enable
+          pnpm install --frozen-lockfile --prefer-offline
+      - name: Expose GitHub Runtime
+        uses: crazy-max/ghaction-github-runtime@v3
+      - run: >-
+          pnpm tsx ecosystem-ci.ts
+          run-suites
+          --stack rsdoctor
+          ${{ matrix.suite }}
+
+  rslint:
+    strategy:
+      matrix:
+        include:
+          - suite: rsbuild
+            os: ubuntu-latest
+          - suite: rslib
+            os: ubuntu-latest
+          - suite: rspack
+            os: ubuntu-latest
+          - suite: rstest
+            os: ubuntu-latest
+          - suite: rsdoctor
+            os: ubuntu-latest
+      fail-fast: false
+    runs-on: ${{ matrix.os }}
+    name: rslint (${{ matrix.suite }})
+    steps:
+      - uses: actions/checkout@v5
+      - uses: ./.github/actions/build-rslint
+      - uses: moonrepo/setup-rust@v1
+      - name: Install
+        run: |
+          corepack enable
+          pnpm install --frozen-lockfile --prefer-offline
+      - name: Expose GitHub Runtime
+        uses: crazy-max/ghaction-github-runtime@v3
+      - run: >-
+          pnpm tsx ecosystem-ci.ts
+          run-suites
+          --stack rslint
+          ${{ matrix.suite }}
+
   get-runner-labels:
     name: Get Runner Labels
     uses: ./.github/workflows/get-runner-labels.yml

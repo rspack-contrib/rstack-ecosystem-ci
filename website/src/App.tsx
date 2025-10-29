@@ -21,6 +21,8 @@ const STACKS = [
   { id: 'rsbuild', label: 'Rsbuild' },
   { id: 'rslib', label: 'Rslib' },
   { id: 'rstest', label: 'Rstest' },
+  { id: 'rsdoctor', label: 'Rsdoctor' },
+  { id: 'rslint', label: 'Rslint' },
 ] as const;
 
 type StackId = (typeof STACKS)[number]['id'];

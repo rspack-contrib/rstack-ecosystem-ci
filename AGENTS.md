@@ -5,7 +5,7 @@ The CLI entry point `ecosystem-ci.ts` handles argument parsing, stack selection,
 
 ## Build, Test & Development Commands
 - `pnpm install` — install dependencies with pnpm 10 (Node ≥18 as declared in `package.json`).
-- `pnpm test -- --stack <stack>` — run every suite for the selected stack (`rsbuild`, `rspack`, `rstest`, or `rslib`); append a suite name to narrow the scope (for example `pnpm test -- --stack rspack nuxt`).
+- `pnpm test -- --stack <stack>` — run every suite for the selected stack (`rsbuild`, `rspack`, `rstest`, `rslib`, `rsdoctor`, or `rslint`); append a suite name to narrow the scope (for example `pnpm test -- --stack rspack nuxt`).
 - `pnpm bisect -- --stack <stack>` — execute the bisect helper exposed by `ecosystem-ci.ts bisect` to isolate regressions within the chosen stack.
 - `pnpm lint` — run `biome check .`, which formats files, organizes imports, and enforces the shared rule set.
 

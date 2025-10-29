@@ -1,7 +1,13 @@
 // eslint-disable-next-line n/no-unpublished-import
 import type { Agent } from '@antfu/ni';
 
-export type Stack = 'rsbuild' | 'rspack' | 'rstest' | 'rslib';
+export type Stack =
+  | 'rsbuild'
+  | 'rspack'
+  | 'rstest'
+  | 'rslib'
+  | 'rsdoctor'
+  | 'rslint';
 
 export interface EnvironmentData {
   stack: Stack;
@@ -15,6 +21,8 @@ export interface EnvironmentData {
   rspackPath?: string;
   rstestPath?: string;
   rslibPath?: string;
+  rsdoctorPath?: string;
+  rslintPath?: string;
 }
 
 export interface RunOptions {
@@ -29,10 +37,14 @@ export interface RunOptions {
   rspackPath?: string;
   rstestPath?: string;
   rslibPath?: string;
+  rsdoctorPath?: string;
+  rslintPath?: string;
   rsbuildMajor?: number;
   rspackMajor?: number;
   rstestMajor?: number;
   rslibMajor?: number;
+  rsdoctorMajor?: number;
+  rslintMajor?: number;
   verify?: boolean;
   skipGit?: boolean;
   release?: string;

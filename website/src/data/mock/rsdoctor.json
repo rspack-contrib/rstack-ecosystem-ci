@@ -1,0 +1,83 @@
+[
+  {
+    "commitSha": "mockrsdoctor003",
+    "commitTimestamp": "2024-07-24T09:15:00Z",
+    "commitMessage": "feat: surface new bundle insights",
+    "author": {
+      "name": "doctor-team",
+      "login": "doctor-team",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/30?v=4"
+    },
+    "repository": { "fullName": "web-infra-dev/rsdoctor", "name": "rsdoctor" },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/50",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "durationMs": 61230,
+        "logUrl": "https://example.com/logs/rsdoctor-rsbuild-3"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "durationMs": 74215,
+        "logUrl": "https://example.com/logs/rsdoctor-rspack-3"
+      }
+    ]
+  },
+  {
+    "commitSha": "mockrsdoctor002",
+    "commitTimestamp": "2024-07-22T17:40:00Z",
+    "commitMessage": "fix: guard against missing stats payloads",
+    "author": {
+      "name": "inspector",
+      "login": "inspector",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/31?v=4"
+    },
+    "repository": { "fullName": "web-infra-dev/rsdoctor", "name": "rsdoctor" },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/48",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "durationMs": 63480,
+        "logUrl": "https://example.com/logs/rsdoctor-rsbuild-2"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "durationMs": 75890,
+        "logUrl": "https://example.com/logs/rsdoctor-rspack-2"
+      }
+    ]
+  },
+  {
+    "commitSha": "mockrsdoctor001",
+    "commitTimestamp": "2024-07-19T08:05:00Z",
+    "commitMessage": "chore: refresh bundle analyzer snapshots",
+    "author": {
+      "name": "ecosystem-bot",
+      "login": "ecosystem-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/32?v=4"
+    },
+    "repository": { "fullName": "web-infra-dev/rsdoctor", "name": "rsdoctor" },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/46",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "durationMs": 60125,
+        "logUrl": "https://example.com/logs/rsdoctor-rsbuild-1"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "durationMs": 73200,
+        "logUrl": "https://example.com/logs/rsdoctor-rspack-1"
+      }
+    ]
+  }
+]

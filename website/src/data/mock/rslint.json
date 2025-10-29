@@ -1,0 +1,182 @@
+[
+  {
+    "commitSha": "mockrslint004",
+    "commitTimestamp": "2024-07-24T11:30:00Z",
+    "commitMessage": "feat: enable hybrid lint pipeline",
+    "author": {
+      "name": "lint-lab",
+      "login": "lint-lab",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33?v=4"
+    },
+    "repository": { "fullName": "web-infra-dev/rslint", "name": "rslint" },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/44",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "durationMs": 67210,
+        "logUrl": "https://example.com/logs/rslint-rsbuild-4"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "durationMs": 58840,
+        "logUrl": "https://example.com/logs/rslint-rslib-4"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "durationMs": 80455,
+        "logUrl": "https://example.com/logs/rslint-rspack-4"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "durationMs": 61205,
+        "logUrl": "https://example.com/logs/rslint-rstest-4"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "durationMs": 56110,
+        "logUrl": "https://example.com/logs/rslint-rsdoctor-4"
+      }
+    ]
+  },
+  {
+    "commitSha": "mockrslint003",
+    "commitTimestamp": "2024-07-22T19:00:00Z",
+    "commitMessage": "fix: align wasm bindings with upstream",
+    "author": {
+      "name": "lint-watch",
+      "login": "lint-watch",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/34?v=4"
+    },
+    "repository": { "fullName": "web-infra-dev/rslint", "name": "rslint" },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/42",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "durationMs": 68120,
+        "logUrl": "https://example.com/logs/rslint-rsbuild-3"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "durationMs": 59340,
+        "logUrl": "https://example.com/logs/rslint-rslib-3"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "durationMs": 79987,
+        "logUrl": "https://example.com/logs/rslint-rspack-3"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "durationMs": 62200,
+        "logUrl": "https://example.com/logs/rslint-rstest-3"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "durationMs": 57520,
+        "logUrl": "https://example.com/logs/rslint-rsdoctor-3"
+      }
+    ]
+  },
+  {
+    "commitSha": "mockrslint002",
+    "commitTimestamp": "2024-07-20T08:45:00Z",
+    "commitMessage": "docs: expand CLI configuration examples",
+    "author": {
+      "name": "lint-writer",
+      "login": "lint-writer",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/35?v=4"
+    },
+    "repository": { "fullName": "web-infra-dev/rslint", "name": "rslint" },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/40",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "durationMs": 65580,
+        "logUrl": "https://example.com/logs/rslint-rsbuild-2"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "durationMs": 57610,
+        "logUrl": "https://example.com/logs/rslint-rslib-2"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "durationMs": 78290,
+        "logUrl": "https://example.com/logs/rslint-rspack-2"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "durationMs": 60325,
+        "logUrl": "https://example.com/logs/rslint-rstest-2"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "durationMs": 54860,
+        "logUrl": "https://example.com/logs/rslint-rsdoctor-2"
+      }
+    ]
+  },
+  {
+    "commitSha": "mockrslint001",
+    "commitTimestamp": "2024-07-17T10:20:00Z",
+    "commitMessage": "chore: switch default lint profile",
+    "author": {
+      "name": "lint-maintainer",
+      "login": "lint-maintainer",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/36?v=4"
+    },
+    "repository": { "fullName": "web-infra-dev/rslint", "name": "rslint" },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/38",
+    "overallStatus": "cancelled",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "cancelled",
+        "durationMs": 0,
+        "logUrl": "https://example.com/logs/rslint-rsbuild-1"
+      },
+      {
+        "name": "rslib",
+        "status": "cancelled",
+        "durationMs": 0,
+        "logUrl": "https://example.com/logs/rslint-rslib-1"
+      },
+      {
+        "name": "rspack",
+        "status": "cancelled",
+        "durationMs": 0,
+        "logUrl": "https://example.com/logs/rslint-rspack-1"
+      },
+      {
+        "name": "rstest",
+        "status": "cancelled",
+        "durationMs": 0,
+        "logUrl": "https://example.com/logs/rslint-rstest-1"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "cancelled",
+        "durationMs": 0,
+        "logUrl": "https://example.com/logs/rslint-rsdoctor-1"
+      }
+    ]
+  }
+]
