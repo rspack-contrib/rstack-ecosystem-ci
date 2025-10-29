@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 
 import { Timeline } from '@/components/timeline';
 import { Badge } from '@/components/ui/badge';
@@ -9,13 +9,16 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select';
-import mockHistory from '@/data/mock-history';
-import remoteHistory from '@/data/remote-history';
 import type { EcosystemCommitHistory, EcosystemCommitRecord } from '@/types';
+// @ts-ignore
+import history from '@data';
+
+const DATA_SOURCE =
+  import.meta.env.RSBUILD_PUBLIC_DATA_SOURCE === 'mock' ? 'mock' : 'remote';
 
 const STACKS = [
-  { id: 'rsbuild', label: 'Rsbuild' },
   { id: 'rspack', label: 'Rspack' },
+  { id: 'rsbuild', label: 'Rsbuild' },
   { id: 'rslib', label: 'Rslib' },
   { id: 'rstest', label: 'Rstest' },
 ] as const;
@@ -24,13 +27,41 @@ type StackId = (typeof STACKS)[number]['id'];
 
 const DEFAULT_STACK: StackId = 'rspack';
 
-const DATA_SOURCE =
-  import.meta.env.RSBUILD_PUBLIC_DATA_SOURCE === 'mock' ? 'mock' : 'remote';
+// Get URL parameters
+function getUrlParams() {
+  const params = new URLSearchParams(window.location.search);
+  return {
+    stack: params.get('stack') as StackId | null,
+    suite: params.get('suite') || 'all',
+  };
+}
+
+// Set URL parameters
+function setUrlParams(stack: StackId, suite: string) {
+  const params = new URLSearchParams();
+  params.set('stack', stack);
+  if (suite !== 'all') {
+    params.set('suite', suite);
+  }
+  const newUrl = `${window.location.pathname}?${params.toString()}`;
+  window.history.replaceState({}, '', newUrl);
+}
 
 export default function App() {
-  const historySource = (
-    DATA_SOURCE === 'mock' ? mockHistory : remoteHistory
-  ) as Record<StackId, EcosystemCommitHistory>;
+  const historySource = history as Record<StackId, EcosystemCommitHistory>;
+
+  const [selectedStack, setSelectedStack] = useState<StackId>(() => {
+    const urlParams = getUrlParams();
+    if (urlParams.stack && STACKS.some((s) => s.id === urlParams.stack)) {
+      return urlParams.stack;
+    }
+    return DEFAULT_STACK;
+  });
+
+  const [selectedSuite, setSelectedSuite] = useState<string>(() => {
+    const urlParams = getUrlParams();
+    return urlParams.suite;
+  });
 
   const historyByStack = useMemo(() => {
     const map = {} as Record<StackId, EcosystemCommitHistory>;
@@ -45,10 +76,10 @@ export default function App() {
     return map;
   }, [historySource]);
 
-  const defaultStack =
-    (historyByStack[DEFAULT_STACK]?.length ?? 0) ? DEFAULT_STACK : STACKS[0].id;
-
-  const [selectedStack, setSelectedStack] = useState<StackId>(defaultStack);
+  // Update URL when stack or suite changes
+  useEffect(() => {
+    setUrlParams(selectedStack, selectedSuite);
+  }, [selectedStack, selectedSuite]);
 
   const selectedStackMeta = useMemo(
     () => STACKS.find((stack) => stack.id === selectedStack),
@@ -74,14 +105,22 @@ export default function App() {
                 </Badge>
               ) : null}
             </div>
-            <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
-              Rstack main branch health dashboard
-            </h1>
-            <p className="max-w-2xl text-sm text-muted-foreground sm:text-base">
-              Inspect the latest ecosystem CI verdicts for each Rstack project.
-              Switch stacks to follow commit-by-commit health, view workflow
-              logs, and spot failing suites before they escalate.
-            </p>
+            <div className="flex items-center gap-3">
+              <span className="relative inline-flex h-12 w-12 items-center justify-center">
+                <span
+                  className="absolute left-1/2 top-1/2 h-16 w-16 -translate-x-1/2 -translate-y-1/2 rounded-full bg-cyan-400/35 blur-2xl"
+                  aria-hidden
+                />
+                <img
+                  src="https://assets.rspack.rs/rspack/rspack-logo.svg"
+                  alt="Rspack logo"
+                  className="relative h-10 w-10 drop-shadow-[0_4px_18px_rgba(34,211,238,0.75)]"
+                />
+              </span>
+              <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
+                Rstack Ecosystem CI Dashboard
+              </h1>
+            </div>
           </div>
           <div className="flex flex-col items-stretch gap-4 sm:w-72">
             <Select
@@ -130,7 +169,11 @@ export default function App() {
           <StatCard label="Last updated" value={stats.lastUpdated ?? '—'} />
         </section>
 
-        <Timeline entries={stackEntries} />
+        <Timeline
+          entries={stackEntries}
+          selectedSuite={selectedSuite}
+          onSuiteChange={setSelectedSuite}
+        />
       </div>
     </div>
   );

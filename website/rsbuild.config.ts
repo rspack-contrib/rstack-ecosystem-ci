@@ -1,3 +1,4 @@
+import path from 'node:path';
 import { defineConfig } from '@rsbuild/core';
 import { pluginReact } from '@rsbuild/plugin-react';
 
@@ -16,7 +17,11 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      '@': './src',
+      '@': path.resolve(__dirname, './src'),
+      '@data':
+        dataSource === 'mock'
+          ? path.resolve(__dirname, './src/data/mock/history.ts')
+          : path.resolve(__dirname, './src/data/remote/history.ts'),
     },
   },
   html: {

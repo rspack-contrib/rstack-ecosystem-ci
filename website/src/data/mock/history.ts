@@ -1,9 +1,9 @@
 import type { EcosystemCommitHistory } from '@/types';
 
-import rsbuild from './mock/rsbuild.json';
-import rslib from './mock/rslib.json';
-import rspack from './mock/rspack.json';
-import rstest from './mock/rstest.json';
+import rsbuild from './rsbuild.json';
+import rslib from './rslib.json';
+import rspack from './rspack.json';
+import rstest from './rstest.json';
 
 const mockHistory = {
   rsbuild,

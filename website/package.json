@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "fetch:history": "node ./scripts/update-remote-history.mjs",
+    "fetch:history": "node ./scripts/fetch-remote-history.mjs",
     "dev": "pnpm run fetch:history && rsbuild dev",
     "dev:mock": "cross-env RSBUILD_PUBLIC_DATA_SOURCE=mock pnpm run fetch:history && cross-env RSBUILD_PUBLIC_DATA_SOURCE=mock rsbuild dev",
     "build": "pnpm run fetch:history && rsbuild build",

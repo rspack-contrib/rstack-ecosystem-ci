@@ -19,3 +19,13 @@ body {
   backdrop-filter: blur(20px);
   border: 1px solid rgba(82, 82, 82, 0.24);
 }
+
+@keyframes glow-pulse {
+  0%,
+  100% {
+    filter: brightness(1);
+  }
+  50% {
+    filter: brightness(1.3);
+  }
+}

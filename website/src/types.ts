@@ -1,3 +1,5 @@
+/// <reference types="@rsbuild/core/types" />
+
 export interface EcosystemSuiteResult {
   name: string;
   status: 'success' | 'failure' | 'cancelled';
@@ -14,6 +16,7 @@ export interface EcosystemCommitRecord {
     name: string;
     email?: string;
     login?: string;
+    avatarUrl?: string;
   };
   repository: {
     fullName: string;

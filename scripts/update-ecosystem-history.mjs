@@ -77,7 +77,9 @@ function inferStack(workflowFile) {
 
 const STACK =
   process.env.STACK ??
-  (typeof CLIENT_PAYLOAD.stack === 'string' ? CLIENT_PAYLOAD.stack : undefined) ??
+  (typeof CLIENT_PAYLOAD.stack === 'string'
+    ? CLIENT_PAYLOAD.stack
+    : undefined) ??
   inferStack(WORKFLOW_FILE);
 const SOURCE_REPO =
   process.env.SOURCE_REPO ??

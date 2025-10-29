@@ -18,45 +18,40 @@ if (isMockMode) {
 }
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const outputPath = resolve(__dirname, '../src/data/remote-history.ts');
+const outputDir = resolve(__dirname, '../src/data/remote');
 
 async function fetchJson(url) {
   const response = await fetch(url);
   if (!response.ok) {
+    if (response.status === 404) {
+      console.warn(
+        `[update-remote-history] ${url} not found (404), using empty array.`,
+      );
+      return [];
+    }
     throw new Error(`Request failed (${response.status}): ${url}`);
   }
   return response.json();
 }
 
 async function main() {
-  const history = {};
-
   for (const stack of STACKS) {
     const url = `${DATA_BRANCH_URL}/${stack}.json`;
     try {
-      history[stack] = await fetchJson(url);
+      const data = await fetchJson(url);
+      const outputPath = resolve(outputDir, `${stack}.json`);
+      await writeFile(outputPath, JSON.stringify(data, null, 2), 'utf8');
       console.log(
-        `[update-remote-history] fetched ${stack} history (${history[stack]?.length ?? 0} entries).`,
+        `[update-remote-history] fetched ${stack} history (${data?.length ?? 0} entries).`,
       );
     } catch (error) {
-      console.warn(
+      console.error(
         `[update-remote-history] failed to fetch ${stack} history: ${error}`,
       );
-      console.warn(
-        '[update-remote-history] keeping existing remote history file.',
-      );
-      return;
+      throw error;
     }
   }
 
-  const fileContents = `import type { EcosystemCommitHistory } from '@/types';
-
-const remoteHistory = ${JSON.stringify(history, null, 2)} satisfies Record<string, EcosystemCommitHistory>;
-
-export default remoteHistory;
-`;
-
-  await writeFile(outputPath, fileContents, 'utf8');
   console.log('[update-remote-history] remote history updated.');
 }
 
