@@ -1,22 +1,19 @@
 # Repository Guidelines
 
 ## Project Structure & Module Organization
-The CLI entry point `ecosystem-ci.ts` handles argument parsing, stack selection, and GitHub Actions plumbing. Shared helpers such as `runInRepo`, workspace bootstrap logic, and git utilities live in `utils.ts`, while DTOs reside in `types.d.ts`. Integration suites are colocated under `tests/<stack>/` (for example `tests/rsbuild/plugins.ts`, `tests/rspack/nuxt.ts`, or `tests/rslib/rsbuild.ts`) and export an async `test(options: RunOptions)` function that delegates to the helpers. Runtime clones live under the generated `workspace/` directory, so keep it untracked and disposable.
+The CLI entry point lives in `ecosystem-ci.ts`, handling argument parsing, stack selection, and GitHub Actions plumbing. Shared helpers (`runInRepo`, git utilities, bootstrap logic) reside in `utils.ts`, while DTOs are defined in `types.d.ts`. Integration suites are colocated under `tests/<stack>/` (for example `tests/rspack/nuxt.ts` or `tests/rsbuild/plugins.ts`) and export an async `test(options: RunOptions)` function. Runtime clones are created under `workspace/`; treat this directory as disposable and keep it untracked. The `website/` directory hosts the deployed page, which pulls fresh data from the `data` branch via ecosystem CI rendering before the scheduled deployment jobs run.
 
-## Build, Test & Development Commands
-- `pnpm install` — install dependencies with pnpm 10 (Node ≥18 as declared in `package.json`).
-- `pnpm test -- --stack <stack>` — run every suite for the selected stack (`rsbuild`, `rspack`, `rstest`, `rslib`, `rsdoctor`, or `rslint`); append a suite name to narrow the scope (for example `pnpm test -- --stack rspack nuxt`).
-- `pnpm bisect -- --stack <stack>` — execute the bisect helper exposed by `ecosystem-ci.ts bisect` to isolate regressions within the chosen stack.
-- `pnpm lint` — run `biome check .`, which formats files, organizes imports, and enforces the shared rule set.
+## Build, Test, and Development Commands
+Use `pnpm install` to bootstrap dependencies (Node ≥18). Run targeted suites with `pnpm test -- --stack <stack> [suite]`, e.g. `pnpm test -- --stack rsbuild plugins`. Bisect regressions via `pnpm bisect -- --stack <stack>`. Execute `pnpm lint` to run `biome check .`. After cloning, `pnpm prepare` installs `simple-git-hooks` so the Biome pre-commit hook fires locally.
 
 ## Coding Style & Naming Conventions
-Biome enforces space indentation, single quotes, normalized imports, and recommended lint rules, and the pre-commit hook automatically runs `biome check . --write`. Honor the strict TypeScript configuration in `tsconfig.json` (ESNext target, NodeNext resolution, `noImplicitOverride`). Name suite files in lowercase or kebab-case (`tests/rspack/lynx-stack.ts`) and keep exported helpers camelCase; favor small, composable functions around `runInRepo`.
+Biome enforces space indentation, single quotes, normalized imports, and the shared lint rules. Follow the strict TypeScript settings in `tsconfig.json` (ESNext target, NodeNext resolution, `noImplicitOverride`). Name suite files in lowercase or kebab-case (`tests/rspack/lynx-stack.ts`), keep helpers camelCase, and reserve `test` exports for suite entry points.
 
 ## Testing Guidelines
-Suites boot via `setupEnvironment` and must stay idempotent because each invocation starts from a clean clone. Use `runInRepo` with explicit `repo`, `branch`, `test`, and overrides so reviewers can trace every step. Model new suites after the minimal examples in `tests/<stack>/` (for instance `tests/rsbuild/examples.ts`, which only defines `test: ['build:rsbuild']`). Before opening a PR, run the relevant suites locally (for example `pnpm test -- --stack rsbuild plugins`) and capture the final log lines for the PR description.
+Suites boot via `setupEnvironment` and must remain idempotent so reruns start clean. Prefer `runInRepo` with explicit `repo`, `branch`, `test`, and overrides so reviewers can audit each step. When adding scenarios, mirror the minimal patterns (for example `tests/rsbuild/examples.ts` with `test: ['build:rsbuild']`) and document any required environment tweaks.
 
 ## Commit & Pull Request Guidelines
-Commits are short, imperative statements (current history begins with `initial commit`); keep subjects ≤72 characters and elaborate in the body when behavior changes. Reference related issues or workflows when touching CI wiring. Pull requests should summarize the motivation, list impacted suites or utilities, and paste the exact command used for validation (for example, `pnpm test -- --stack rspack modernjs`). Attach logs or screenshots for GitHub Actions changes and call out any new secrets or webhooks reviewers must configure.
+Commits follow short, imperative subjects (≤72 chars), elaborating in the body only when behavior changes. PRs should justify the change, list affected stacks or utilities, and include the exact validation command, e.g. `pnpm test -- --stack rspack modernjs`. Attach logs or screenshots for CI changes and highlight any new secrets or webhooks reviewers must configure.
 
 ## Environment & Tooling Notes
-Run `pnpm prepare` once to install `simple-git-hooks`, otherwise the Biome pre-commit hook will be skipped. The runner exports `ECOSYSTEM_CI`, `TURBO_FORCE`, and memory-safe `NODE_OPTIONS`; avoid overriding them unless a suite explicitly needs different values.
+The runner exports `ECOSYSTEM_CI`, `TURBO_FORCE`, and memory-safe `NODE_OPTIONS`; avoid overriding them unless a suite explicitly requires it. Keep `workspace/` untracked, and never commit runtime artifacts. Remember that network-dependent steps may need explicit approval in restricted environments.
