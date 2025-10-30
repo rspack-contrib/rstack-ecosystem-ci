@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "91abb8ade02776f49d34fb813e7acdfe91fdda45",
+    "commitTimestamp": "2025-10-30T12:23:10Z",
+    "commitMessage": "chore(deps): update dependency vitest to v4 (#1306)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18940494947",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18940494947/job/54077797660"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18940494947/job/54077797662"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18940494947/job/54077797675"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18940494947/job/54077797676"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18940494947/job/54077797727"
+      }
+    ]
+  },
+  {
     "commitSha": "647f4d3acad8e2ae0b39da478a434de847d15a8a",
     "commitTimestamp": "2025-10-30T11:58:29Z",
     "commitMessage": "Release v0.17.0 (#1304)",
