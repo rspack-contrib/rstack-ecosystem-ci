@@ -36,7 +36,8 @@ runs:
           const owner = "rspack-contrib";
           const repo = "rstack-ecosystem-ci";
           const jobPrefix = process.env.JOB_PREFIX ?? 'execute-all ';
-          const heading = process.env.HEADING ?? 'Ran ecosystem CI';
+          const rawHeading = process.env.HEADING;
+          const heading = typeof rawHeading === 'string' ? rawHeading.charAt(0).toUpperCase() + rawHeading.slice(1) + ' Ecosystem CI' : 'Ran ecosystem CI';
 
           let runId;
           try {

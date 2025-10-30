@@ -19,10 +19,6 @@ inputs:
     description: "JSON payload passed to the downstream workflow dispatch"
     required: false
     default: "{}"
-  result-heading:
-    description: "Heading to use in the formatted summary output"
-    required: false
-    default: "Ran ecosystem CI"
   job-name-prefix:
     description: "Job name prefix to match when summarizing downstream jobs"
     required: false
@@ -78,7 +74,7 @@ runs:
       uses: rspack-contrib/rstack-ecosystem-ci/.github/actions/ecosystem-ci-result@main
       with:
         job-prefix: ${{ inputs.job-name-prefix }}
-        heading: ${{ inputs.result-heading }}
+        heading: ${{ inputs.ecosystem-repo }}
         workflow-output: ${{ toJson(steps.eco_ci.outputs) }}
 
     - id: create-commit-comment
