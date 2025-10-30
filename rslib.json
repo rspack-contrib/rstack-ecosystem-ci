@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "647f4d3acad8e2ae0b39da478a434de847d15a8a",
+    "commitTimestamp": "2025-10-30T11:58:29Z",
+    "commitMessage": "Release v0.17.0 (#1304)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18939840812",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18939840812/job/54075600681"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18939840812/job/54075600693"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18939840812/job/54075600694"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18939840812/job/54075600712"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18939840812/job/54075600722"
+      }
+    ]
+  },
+  {
     "commitSha": "1cc2fb9b436f035ed1dd15394ac8fc7f607bdc43",
     "commitTimestamp": "2025-10-30T11:27:14Z",
     "commitMessage": "chore(deps): bump Rsbuild 1.6.0 (#1303)",
