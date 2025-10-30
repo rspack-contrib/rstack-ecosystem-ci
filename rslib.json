@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "cb269698ffdd599162514ddaa181d69cebf537db",
+    "commitTimestamp": "2025-10-30T10:06:03Z",
+    "commitMessage": "ci: remove useless input (#1301)",
+    "author": {
+      "name": "Wei",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18937022935",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18937022935/job/54066322565"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18937022935/job/54066322579"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18937022935/job/54066322583"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18937022935/job/54066322596"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18937022935/job/54066322664"
+      }
+    ]
+  },
+  {
     "commitSha": "fe8ce3eb8287a16b5e78d9cccbb59a04b1ddbcd5",
     "commitTimestamp": "2025-10-30T09:43:17Z",
     "commitMessage": "feat: introduce `experiments.advancedEsm` with Rspack's EsmLibraryPlugin (#1273)",
