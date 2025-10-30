@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "7608f44dfb2dd7077e7a51f4ca152e8f1fe68b16",
+    "commitTimestamp": "2025-10-30T12:57:29Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#1307)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18941393746",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18941393746/job/54080832037"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18941393746/job/54080832049"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18941393746/job/54080832051"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18941393746/job/54080832080"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18941393746/job/54080832126"
+      }
+    ]
+  },
+  {
     "commitSha": "ae57a69b1d6f57d84023dcb2576a2b40a930d2a6",
     "commitTimestamp": "2025-10-30T12:23:49Z",
     "commitMessage": "chore(deps): update dependency @types/node to v24 (#1305)",
