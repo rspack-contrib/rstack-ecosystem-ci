@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "1cc2fb9b436f035ed1dd15394ac8fc7f607bdc43",
+    "commitTimestamp": "2025-10-30T11:27:14Z",
+    "commitMessage": "chore(deps): bump Rsbuild 1.6.0 (#1303)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18939184580",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18939184580/job/54073386073"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18939184580/job/54073386076"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18939184580/job/54073386078"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18939184580/job/54073386091"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18939184580/job/54073386099"
+      }
+    ]
+  },
+  {
     "commitSha": "cb269698ffdd599162514ddaa181d69cebf537db",
     "commitTimestamp": "2025-10-30T10:06:03Z",
     "commitMessage": "ci: remove useless input (#1301)",
