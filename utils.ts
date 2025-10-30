@@ -7,6 +7,7 @@ import actionsCore from '@actions/core';
 import { AGENTS, type Agent, detect, getCommand } from '@antfu/ni';
 import { getPackages } from '@manypkg/get-packages';
 import { type Options as ExecaOptions, execaCommand } from 'execa';
+import yaml from 'yaml';
 import type {
   EnvironmentData,
   Overrides,
@@ -632,6 +633,26 @@ async function patchBindingPackageJson(infos: RspackPackageInfo[]) {
   }
 }
 
+async function readPnpmWorkspaceYaml(
+  dir: string,
+): Promise<{ exists: boolean; content: any; filePath: string }> {
+  const filePath = path.join(dir, 'pnpm-workspace.yaml');
+  if (!fs.existsSync(filePath)) {
+    return { exists: false, content: null, filePath };
+  }
+  const content = await fs.promises.readFile(filePath, 'utf-8');
+  const parsed = yaml.parse(content);
+  return { exists: true, content: parsed || {}, filePath };
+}
+
+async function writePnpmWorkspaceYaml(
+  filePath: string,
+  content: any,
+): Promise<void> {
+  const yamlContent = yaml.stringify(content);
+  await fs.promises.writeFile(filePath, yamlContent, 'utf-8');
+}
+
 async function applyPackageOverrides({
   dir,
   pkg,
@@ -682,13 +703,39 @@ async function applyPackageOverrides({
       ...pkg.devDependencies,
       ...devOverrides,
     };
-    if (!pkg.pnpm) {
-      pkg.pnpm = {};
+
+    // Check for overrides location: pnpm-workspace.yaml or package.json
+    const workspace = await readPnpmWorkspaceYaml(dir);
+    const hasWorkspaceOverrides =
+      workspace.exists && workspace.content.overrides;
+    const hasPackageOverrides = pkg.pnpm?.overrides;
+
+    // Conflict check: overrides cannot exist in both locations
+    if (hasWorkspaceOverrides && hasPackageOverrides) {
+      throw new Error(
+        'Conflicting overrides detected: both pnpm-workspace.yaml and package.json contain pnpm overrides. ' +
+          'Please use only one location for overrides configuration.',
+      );
     }
-    pkg.pnpm.overrides = {
-      ...pkg.pnpm.overrides,
-      ...normalizedOverrides,
-    };
+
+    // Apply overrides to the appropriate location
+    if (hasWorkspaceOverrides) {
+      // Write to pnpm-workspace.yaml
+      workspace.content.overrides = {
+        ...workspace.content.overrides,
+        ...normalizedOverrides,
+      };
+      await writePnpmWorkspaceYaml(workspace.filePath, workspace.content);
+    } else {
+      // Write to package.json (default)
+      if (!pkg.pnpm) {
+        pkg.pnpm = {};
+      }
+      pkg.pnpm.overrides = {
+        ...pkg.pnpm.overrides,
+        ...normalizedOverrides,
+      };
+    }
   } else if (pm === 'yarn') {
     if (!pkg.devDependencies) {
       pkg.devDependencies = {};
