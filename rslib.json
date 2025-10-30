@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "006fcd5c49787141138896d5775a687c1d684ea5",
+    "commitTimestamp": "2025-10-30T05:24:03Z",
+    "commitMessage": "ci: add main branch to ecosystem-ci (#1300)",
+    "author": {
+      "name": "Wei",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18930802426",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18930802426/job/54047224407"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18930802426/job/54047224420"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18930802426/job/54047224430"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18930802426/job/54047224435"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/18930802426/job/54047224454"
+      }
+    ]
+  },
+  {
     "commitSha": "fe444497a89b0e14faa98f8ab1804f5982e2c3b6",
     "commitTimestamp": "2025-10-29T08:13:29Z",
     "commitMessage": "Update rslib.config.ts",
