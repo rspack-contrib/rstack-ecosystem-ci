@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "b974c30e16c80a2c33c62246c57e4194ef1a2ddd",
+    "commitTimestamp": "2025-11-03T11:13:05Z",
+    "commitMessage": "fix: verbose Rslib normalized config only in Rslib debug mode (#1312)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19032670740",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19032670740/job/54350080299"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19032670740/job/54350080313"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19032670740/job/54350080323"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19032670740/job/54350080324"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19032670740/job/54350080336"
+      }
+    ]
+  },
+  {
     "commitSha": "da7ef3443b04a55faa31ae720519db0e5f06ceaf",
     "commitTimestamp": "2025-11-03T08:13:20Z",
     "commitMessage": "fix(create-rslib): compatible with Storybook 10 (#1310)",
