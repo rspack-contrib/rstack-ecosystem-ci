@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "44daf8dd53c448f4fb3c73287d1849a70c780b88",
+    "commitTimestamp": "2025-11-03T07:16:42Z",
+    "commitMessage": "feat: support logHeapUsage (#666)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19026813290",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19026813290/job/54331904556"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19026813290/job/54331904559"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19026813290/job/54331904573"
+      }
+    ]
+  },
+  {
     "commitSha": "fa27aff1611331c537958e388420bced1ecc81ea",
     "commitTimestamp": "2025-10-31T09:45:21Z",
     "commitMessage": "ci: clean ecosystem (#665)",
