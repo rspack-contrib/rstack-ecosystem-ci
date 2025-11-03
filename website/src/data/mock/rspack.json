@@ -1,5 +1,40 @@
 [
   {
+    "commitSha": "mockrspack007",
+    "commitTimestamp": "2024-07-24T09:15:00Z",
+    "commitMessage": "chore(deps): update dependencies with renovate",
+    "author": {
+      "name": "renovate[bot]",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/22",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "durationMs": 154320,
+        "logUrl": "https://example.com/logs/rspack-modernjs-7"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "durationMs": 135480,
+        "logUrl": "https://example.com/logs/rspack-nuxt-7"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "durationMs": 100950,
+        "logUrl": "https://example.com/logs/rspack-plugin-7"
+      }
+    ]
+  },
+  {
     "commitSha": "mockrspack006",
     "commitTimestamp": "2024-07-23T04:30:00Z",
     "commitMessage": "perf: tune rspack optimizer for esm output",

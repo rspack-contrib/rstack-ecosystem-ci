@@ -152,11 +152,13 @@ export function Timeline({
           const commitUrl = `https://github.com/${entry.repository.fullName}/commit/${entry.commitSha}`;
           const isFirst = index === 0;
           const isLast = index === filteredEntries.length - 1;
-          const avatarUrl =
-            entry.author?.avatarUrl ??
-            (entry.author?.login
-              ? `https://github.com/${entry.author.login}.png`
-              : null);
+          const isRenovateBot = entry.author?.login === 'renovate[bot]';
+          const avatarUrl = isRenovateBot
+            ? 'https://avatars.githubusercontent.com/in/2740?s=80&v=4'
+            : entry.author?.avatarUrl ??
+              (entry.author?.login
+                ? `https://github.com/${entry.author.login}.png`
+                : null);
 
           return (
             <div
@@ -205,7 +207,10 @@ export function Timeline({
                     <img
                       src={avatarUrl}
                       alt={entry.author?.name ?? 'Author'}
-                      className="h-8 w-8 flex-none rounded-full border-2 border-border/40 bg-black/40"
+                      className={cn(
+                        'h-8 w-8 flex-none border-2 border-border/40 bg-black/40',
+                        isRenovateBot ? 'rounded-[6px]' : 'rounded-full',
+                      )}
                     />
                   ) : null}
 
