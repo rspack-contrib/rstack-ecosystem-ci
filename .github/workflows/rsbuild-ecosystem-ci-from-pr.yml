@@ -24,7 +24,7 @@ on:
         type: string
         default: "web-infra-dev/rsbuild"
       suite:
-        description: "testsuite to run. runs all testsuits when `-`."
+        description: "testsuite to run. runs all test suites when `-`."
         required: false
         type: choice
         options:
@@ -32,7 +32,7 @@ on:
           - modernjs
           - plugins
           - rspress
-          - 
+          -
           - examples
       suiteRefType:
         description: "type of suite ref to use"

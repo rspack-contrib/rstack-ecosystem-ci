@@ -1,5 +1,5 @@
-# integration tests for rslib ecosystem - run from pr comments
-name: rslib-ecosystem-ci-from-commit
+# integration tests for rspress ecosystem - run from pr comments
+name: rspress-ecosystem-ci-from-commit
 
 env:
   # 7 GiB by default on GitHub, setting to 6 GiB
@@ -14,21 +14,21 @@ on:
         required: true
         type: string
       repo:
-        description: "rslib repository to use"
+        description: "rspress repository to use"
         required: true
         type: string
-        default: "web-infra-dev/rslib"
+        default: "web-infra-dev/rspress"
       suite:
         description: "testsuite to run. runs all test suites when `-`."
         required: false
         type: choice
         options:
           - "-"
+          - netlify
           - rsbuild
+          - rslib
           - rspack
           - rstest
-          - rspress
-          - rsdoctor
       suiteRefType:
         description: "type of suite ref to use"
         required: true
@@ -56,7 +56,7 @@ jobs:
     if: "inputs.suite != '-'"
     steps:
       - uses: actions/checkout@v5
-      - uses: ./.github/actions/build-rslib
+      - uses: ./.github/actions/build-rspress
         with:
           repository: ${{ inputs.repo }}
           ref: ${{ inputs.commitSHA }}
@@ -66,7 +66,7 @@ jobs:
       - run: >-
           pnpm tsx ecosystem-ci.ts
           run-suites
-          --stack rslib
+          --stack rspress
           --suite-${{ inputs.suiteRefType }} ${{ inputs.suiteRef }}
           ${{ inputs.suite }}
 
@@ -75,15 +75,15 @@ jobs:
     strategy:
       matrix:
         include:
+          - suite: netlify
+            os: ubuntu-latest
           - suite: rsbuild
+            os: ubuntu-latest
+          - suite: rslib
             os: ubuntu-latest
           - suite: rspack
             os: ubuntu-latest
           - suite: rstest
-            os: ubuntu-latest
-          - suite: rspress
-            os: ubuntu-latest
-          - suite: rsdoctor
             os: ubuntu-latest
       fail-fast: false
     runs-on: ${{ matrix.os }}
@@ -91,7 +91,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - uses: moonrepo/setup-rust@v1
-      - uses: ./.github/actions/build-rslib
+      - uses: ./.github/actions/build-rspress
         with:
           repository: ${{ inputs.repo }}
           ref: ${{ inputs.commitSHA }}
@@ -101,5 +101,5 @@ jobs:
       - run: >-
           pnpm tsx ecosystem-ci.ts
           run-suites
-          --stack rslib
+          --stack rspress
           ${{ matrix.suite }}
