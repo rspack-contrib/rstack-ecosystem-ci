@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "2326c3c612f56453d6b0ded61684a1ac9561f38b",
+    "commitTimestamp": "2025-11-04T09:14:15Z",
+    "commitMessage": "chore: rename rsbuildConfig to config (#1315)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19063615788",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19063615788/job/54448812598"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19063615788/job/54448812618"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19063615788/job/54448812628"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19063615788/job/54448812635"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19063615788/job/54448812648"
+      }
+    ]
+  },
+  {
     "commitSha": "ebee2c831c8a7b94a13732a3b11e39828a2c1375",
     "commitTimestamp": "2025-11-04T09:03:47Z",
     "commitMessage": "feat: export Rsbuild types (#1314)",
