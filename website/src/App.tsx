@@ -172,12 +172,15 @@ export default function App() {
                 className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-border/40 bg-white/5 text-white/80 transition hover:bg-white/10 hover:text-white"
                 aria-label="Open GitHub repository"
               >
+                <span className="sr-only">GitHub</span>
                 <svg
-                  aria-hidden
+                  aria-hidden="true"
                   viewBox="0 0 24 24"
                   className="h-5 w-5"
                   fill="currentColor"
+                  role="img"
                 >
+                  <title>GitHub</title>
                   <path d="M12 0C5.37 0 0 5.48 0 12.24c0 5.41 3.44 9.99 8.2 11.61.6.12.82-.27.82-.59 0-.29-.01-1.05-.02-2.05-3.34.75-4.04-1.65-4.04-1.65-.55-1.43-1.35-1.81-1.35-1.81-1.1-.77.08-.75.08-.75 1.22.09 1.86 1.28 1.86 1.28 1.08 1.9 2.83 1.35 3.52 1.03.11-.81.42-1.35.76-1.66-2.67-.31-5.47-1.37-5.47-6.12 0-1.35.47-2.45 1.24-3.31-.13-.31-.54-1.56.12-3.26 0 0 1-.33 3.3 1.26a11.1 11.1 0 0 1 3-.41c1.02 0 2.05.14 3 .41 2.3-1.59 3.3-1.26 3.3-1.26.66 1.7.25 2.95.12 3.26.77.86 1.24 1.96 1.24 3.31 0 4.76-2.8 5.8-5.48 6.11.43.39.81 1.17.81 2.36 0 1.7-.02 3.07-.02 3.48 0 .32.22.71.82.59C20.56 22.23 24 17.65 24 12.24 24 5.48 18.63 0 12 0Z" />
                 </svg>
               </a>
@@ -192,11 +195,13 @@ export default function App() {
                 >
                   Rstack
                   <svg
-                    aria-hidden
+                    aria-hidden="true"
                     viewBox="0 0 12 12"
                     className={`h-3 w-3 transition-transform ${isRepoMenuOpen ? 'rotate-180' : ''}`}
                     fill="none"
+                    role="img"
                   >
+                    <title>Toggle menu</title>
                     <path
                       d="M2.2 4.2 6 8l3.8-3.8"
                       stroke="currentColor"
@@ -264,12 +269,8 @@ export default function App() {
           </div>
         </header>
 
-        <section className="grid gap-4 sm:grid-cols-3">
+        <section className="grid gap-4 sm:grid-cols-2">
           <StatCard label="Total tracked runs" value={stats.total} />
-          <StatCard
-            label="Pass ratio"
-            value={stats.total ? `${Math.round(stats.passRate * 100)}%` : '—'}
-          />
           <StatCard label="Last updated" value={stats.lastUpdated ?? '—'} />
         </section>
 
@@ -287,15 +288,11 @@ function buildStats(records: EcosystemCommitRecord[]) {
   if (!records.length) {
     return {
       total: 0,
-      passRate: 0,
       lastUpdated: null as string | null,
     };
   }
 
   const total = records.length;
-  const passed = records.filter(
-    (record) => record.overallStatus === 'success',
-  ).length;
   const lastUpdated = records[0]?.commitTimestamp
     ? (() => {
         const date = new Date(records[0].commitTimestamp);
@@ -314,7 +311,6 @@ function buildStats(records: EcosystemCommitRecord[]) {
 
   return {
     total,
-    passRate: total > 0 ? passed / total : 0,
     lastUpdated,
   };
 }

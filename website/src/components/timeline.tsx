@@ -155,10 +155,10 @@ export function Timeline({
           const isRenovateBot = entry.author?.login === 'renovate[bot]';
           const avatarUrl = isRenovateBot
             ? 'https://avatars.githubusercontent.com/in/2740?s=80&v=4'
-            : entry.author?.avatarUrl ??
+            : (entry.author?.avatarUrl ??
               (entry.author?.login
                 ? `https://github.com/${entry.author.login}.png`
-                : null);
+                : null));
 
           return (
             <div

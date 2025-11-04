@@ -10,7 +10,8 @@
       "@/*": ["src/*"]
     },
     "types": ["node"],
-    "noEmit": true
+    "noEmit": true,
+    "skipLibCheck": true
   },
   "include": [
     "rsbuild.config.ts",
