@@ -7,7 +7,8 @@ export type Stack =
   | 'rstest'
   | 'rslib'
   | 'rsdoctor'
-  | 'rslint';
+  | 'rslint'
+  | 'rspress';
 
 export interface EnvironmentData {
   stack: Stack;
@@ -23,6 +24,7 @@ export interface EnvironmentData {
   rslibPath?: string;
   rsdoctorPath?: string;
   rslintPath?: string;
+  rspressPath?: string;
 }
 
 export interface RunOptions {
@@ -39,12 +41,14 @@ export interface RunOptions {
   rslibPath?: string;
   rsdoctorPath?: string;
   rslintPath?: string;
+  rspressPath?: string;
   rsbuildMajor?: number;
   rspackMajor?: number;
   rstestMajor?: number;
   rslibMajor?: number;
   rsdoctorMajor?: number;
   rslintMajor?: number;
+  rspressMajor?: number;
   verify?: boolean;
   skipGit?: boolean;
   release?: string;

@@ -1,8 +1,7 @@
 import type { RunOptions } from '../../types';
 import { cd, runInRepo } from '../../utils';
-import { deployPreviewToNetlify } from './netlify';
+import { MESSAGE, deployPreviewToNetlify } from './utils/_netlify';
 
-const MESSAGE = 'rspress-rsbuild-preview';
 const SITE_ID_ENV = 'RSPRESS_NETLIFY_SITE_ID_RSBUILD';
 
 export async function test(options: RunOptions) {

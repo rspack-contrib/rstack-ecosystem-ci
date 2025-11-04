@@ -22,6 +22,7 @@ const STACK_CHOICES: Stack[] = [
   'rslib',
   'rsdoctor',
   'rslint',
+  'rspress',
 ];
 
 const cli = cac();
@@ -85,6 +86,7 @@ registerBuildAlias('build-rstest', 'rstest');
 registerBuildAlias('build-rslib', 'rslib');
 registerBuildAlias('build-rsdoctor', 'rsdoctor');
 registerBuildAlias('build-rslint', 'rslint');
+registerBuildAlias('build-rspress', 'rspress');
 
 cli
   .command(
@@ -316,5 +318,8 @@ function assignStackAliases(
   } else if (stack === 'rslint') {
     runOptions.rslintPath = stackPath;
     runOptions.rslintMajor = stackMajor;
+  } else if (stack === 'rspress') {
+    runOptions.rspressPath = stackPath;
+    runOptions.rspressMajor = stackMajor;
   }
 }

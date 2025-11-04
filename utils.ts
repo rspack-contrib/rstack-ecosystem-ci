@@ -26,6 +26,7 @@ const STACK_WORKSPACE_DIR: Record<Stack, string> = {
   rslib: 'rslib',
   rsdoctor: 'rsdoctor',
   rslint: 'rslint',
+  rspress: 'rspress',
 };
 
 const STACK_DEFAULT_REPO: Record<Stack, string> = {
@@ -35,6 +36,7 @@ const STACK_DEFAULT_REPO: Record<Stack, string> = {
   rslib: 'web-infra-dev/rslib',
   rsdoctor: 'web-infra-dev/rsdoctor',
   rslint: 'web-infra-dev/rslint',
+  rspress: 'web-infra-dev/rspress',
 };
 
 let activeStack: Stack = 'rsbuild';
@@ -45,7 +47,7 @@ let env: NodeJS.ProcessEnv;
 
 const monorepoPackagesCache: Partial<
   Record<
-    'rsbuild' | 'rstest' | 'rslib' | 'rsdoctor' | 'rslint',
+    'rsbuild' | 'rstest' | 'rslib' | 'rsdoctor' | 'rslint' | 'rspress',
     { name: string; directory: string }[]
   >
 > = {};
@@ -180,6 +182,8 @@ export async function setupEnvironment(stack: Stack): Promise<EnvironmentData> {
     data.rsdoctorPath = stackPath;
   } else if (stack === 'rslint') {
     data.rslintPath = stackPath;
+  } else if (stack === 'rspress') {
+    data.rspressPath = stackPath;
   }
   return data;
 }
@@ -291,7 +295,7 @@ function toCommand(
 }
 
 async function getMonorepoPackages(
-  stack: 'rsbuild' | 'rstest' | 'rslib' | 'rsdoctor' | 'rslint',
+  stack: 'rsbuild' | 'rstest' | 'rslib' | 'rsdoctor' | 'rslint' | 'rspress',
 ) {
   const cached = monorepoPackagesCache[stack];
   if (cached) {
@@ -418,7 +422,8 @@ export async function runInRepo(options: RunOptions & RepoOptions) {
     activeStack === 'rstest' ||
     activeStack === 'rslib' ||
     activeStack === 'rsdoctor' ||
-    activeStack === 'rslint'
+    activeStack === 'rslint' ||
+    activeStack === 'rspress'
   ) {
     const packages = await getMonorepoPackages(activeStack);
     if (options.release) {
@@ -519,7 +524,8 @@ export async function setupStackRepo(options: Partial<RepoOptions> = {}) {
     activeStack === 'rstest' ||
     activeStack === 'rslib' ||
     activeStack === 'rsdoctor' ||
-    activeStack === 'rslint'
+    activeStack === 'rslint' ||
+    activeStack === 'rspress'
   ) {
     delete monorepoPackagesCache[activeStack];
   } else if (activeStack === 'rspack') {

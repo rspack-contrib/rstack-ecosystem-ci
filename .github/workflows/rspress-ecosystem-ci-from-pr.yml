@@ -29,7 +29,6 @@ on:
         type: choice
         options:
           - "-"
-          - netlify
           - rsbuild
           - rslib
           - rspack
@@ -75,8 +74,6 @@ jobs:
     strategy:
       matrix:
         include:
-          - suite: netlify
-            os: ubuntu-latest
           - suite: rsbuild
             os: ubuntu-latest
           - suite: rslib

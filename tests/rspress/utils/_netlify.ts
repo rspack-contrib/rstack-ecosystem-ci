@@ -1,4 +1,4 @@
-import { $ } from '../../utils';
+import { $ } from '../../../utils';
 
 interface DeployOptions {
   alias?: string;
@@ -10,19 +10,28 @@ interface DeployOptions {
 const DEFAULT_OUTPUT_DIR = 'dist';
 const DEFAULT_NETLIFY_CLI = 'netlify-cli@17.38.1';
 const DEFAULT_ALIAS = process.env.RSPRESS_NETLIFY_ALIAS ?? 'ecosystem-ci';
+export const MESSAGE = `${process.env.ECOSYSTEM_CI_TYPE}:${process.env.ECOSYSTEM_CI_REF}`;
 
 export async function deployPreviewToNetlify(options: DeployOptions) {
   const { message, outputDir = DEFAULT_OUTPUT_DIR, siteIdEnvVar } = options;
-  const alias = options.alias ?? DEFAULT_ALIAS;
+  const defaultAlias =
+    process.env.ECOSYSTEM_CI_TYPE === 'commit'
+      ? DEFAULT_ALIAS
+      : (process.env.ECOSYSTEM_CI_REF ?? DEFAULT_ALIAS);
+  const alias = options.alias ?? defaultAlias;
   const authToken = process.env.NETLIFY_AUTH_TOKEN;
   const siteId = siteIdEnvVar ? process.env[siteIdEnvVar] : undefined;
+  const missingVars: string[] = [];
+  if (!authToken) {
+    missingVars.push('NETLIFY_AUTH_TOKEN');
+  }
+  if (!siteId) {
+    missingVars.push(siteIdEnvVar || 'site ID');
+  }
 
-  if (!authToken || !siteId) {
-    const siteHint = siteIdEnvVar
-      ? `${siteIdEnvVar} or NETLIFY_SITE_ID`
-      : 'NETLIFY_SITE_ID';
+  if (missingVars.length > 0) {
     console.log(
-      `[rspress][netlify] Missing NETLIFY_AUTH_TOKEN or ${siteHint}, skip deploying alias ${alias}`,
+      `[rspress][netlify] Missing ${missingVars.join(', ')}, skip deploying alias ${alias}`,
     );
     return;
   }
