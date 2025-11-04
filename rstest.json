@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "c633dd0b3378597e3e8ba2892f80933ea8b2e7de",
+    "commitTimestamp": "2025-11-04T11:27:25Z",
+    "commitMessage": "chore: rename rsbuildConfig option to config (#667)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19067152832",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19067152832/job/54460493414"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19067152832/job/54460493422"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19067152832/job/54460493426"
+      }
+    ]
+  },
+  {
     "commitSha": "44daf8dd53c448f4fb3c73287d1849a70c780b88",
     "commitTimestamp": "2025-11-03T07:16:42Z",
     "commitMessage": "feat: support logHeapUsage (#666)",
