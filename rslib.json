@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "30f42792df744566c97f0e4d0ae3a1287c7fee6d",
+    "commitTimestamp": "2025-11-05T13:30:01Z",
+    "commitMessage": "Release v0.17.1 (#1321)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19103664824",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19103664824/job/54581656706"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19103664824/job/54581656713"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19103664824/job/54581656723"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19103664824/job/54581656731"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19103664824/job/54581656732"
+      }
+    ]
+  },
+  {
     "commitSha": "4a9344a1c887d722b2d63bef8b52730e2095b980",
     "commitTimestamp": "2025-11-05T13:19:26Z",
     "commitMessage": "feat: runtime chunk name default to `rslib-runtime` (#1320)",
