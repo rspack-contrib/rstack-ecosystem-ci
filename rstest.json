@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "b154dfc52f6879817384f53cac07ae9f897fd42a",
+    "commitTimestamp": "2025-11-05T12:31:43Z",
+    "commitMessage": "release: 0.6.2 (#673)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19102092547",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19102092547/job/54576342738"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19102092547/job/54576342751"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19102092547/job/54576342772"
+      }
+    ]
+  },
+  {
     "commitSha": "65c27e214e29e7ed2774ae965e3d3ef6823730bb",
     "commitTimestamp": "2025-11-05T11:02:00Z",
     "commitMessage": "ci: publish to Open VSX registry (#672)",
