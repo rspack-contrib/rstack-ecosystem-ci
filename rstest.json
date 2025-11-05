@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "425e3549ca51f8eacf36aac433ec62399647874f",
+    "commitTimestamp": "2025-11-05T10:13:46Z",
+    "commitMessage": "fix: support npm package names in setupFiles (#671)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19098594173",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19098594173/job/54564722495"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19098594173/job/54564722508"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19098594173/job/54564722527"
+      }
+    ]
+  },
+  {
     "commitSha": "67e28f876e2195a815e512d2b2485bdf6e23426b",
     "commitTimestamp": "2025-11-05T09:44:09Z",
     "commitMessage": "feat: add `defineProject` helper (#670)",
