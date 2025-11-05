@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "4aa9012cbcb2277d8c761b14f701f2652121d1c7",
+    "commitTimestamp": "2025-11-05T10:22:01Z",
+    "commitMessage": "chore(theme/sidebar): use 1fr to toggleCollapse the sidebarGroup (#2723)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19098867627",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19098867627/job/54565621074"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19098867627/job/54565621103"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19098867627/job/54565621111"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19098867627/job/54565621145"
+      }
+    ]
+  },
+  {
     "commitSha": "d812ba21677b6ccf983a23664c193fe3ef0ebe6c",
     "commitTimestamp": "2025-11-05T03:25:53Z",
     "commitMessage": "fix: error stack is empty (#2716)",
