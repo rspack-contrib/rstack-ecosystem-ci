@@ -38,6 +38,44 @@
     ]
   },
   {
+    "commitSha": "f52964e5ac35f05b2b0e69694a4dc6b8221cee1b",
+    "commitTimestamp": "2025-11-05T10:20:59Z",
+    "commitMessage": "refactor(theme/Tabs)!: reimplement Tabs and PageTabs to bypass hydration error due to localStorage (#2719)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19098867627",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19098867627/job/54565621074"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19098867627/job/54565621103"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19098867627/job/54565621111"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19098867627/job/54565621145"
+      }
+    ]
+  },
+  {
     "commitSha": "d812ba21677b6ccf983a23664c193fe3ef0ebe6c",
     "commitTimestamp": "2025-11-05T03:25:53Z",
     "commitMessage": "fix: error stack is empty (#2716)",
