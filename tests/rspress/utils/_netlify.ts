@@ -7,8 +7,8 @@ interface DeployOptions {
   siteIdEnvVar?: string;
 }
 
-const DEFAULT_OUTPUT_DIR = 'dist';
-const DEFAULT_NETLIFY_CLI = 'netlify-cli@17.38.1';
+const DEFAULT_OUTPUT_DIR = './website/doc_build';
+const DEFAULT_NETLIFY_CLI = 'netlify-cli@23.10.0';
 const DEFAULT_ALIAS = process.env.RSPRESS_NETLIFY_ALIAS ?? 'ecosystem-ci';
 export const MESSAGE = `${process.env.ECOSYSTEM_CI_TYPE}:${process.env.ECOSYSTEM_CI_REF}`;
 
@@ -36,9 +36,11 @@ export async function deployPreviewToNetlify(options: DeployOptions) {
     return;
   }
 
+  console.log(`[rspress][netlify] Deploying with alias: ${alias}`);
+
   const cliSpecifier = process.env.RSPRESS_NETLIFY_CLI ?? DEFAULT_NETLIFY_CLI;
   const result =
-    await $`pnpm dlx ${cliSpecifier} deploy --dir=${outputDir} --alias=${alias} --message=${message} --site=${siteId} --confirm --json`;
+    await $`pnpm --package=${cliSpecifier} dlx netlify deploy --dir=${outputDir} --alias=${alias} --message=${message} --site=${siteId} --auth=${authToken} --json`;
 
   try {
     const parsed = JSON.parse(result);

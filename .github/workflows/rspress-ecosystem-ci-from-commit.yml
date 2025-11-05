@@ -56,6 +56,11 @@ jobs:
     env:
       ECOSYSTEM_CI_REF: ${{ inputs.commitSHA }}
       ECOSYSTEM_CI_TYPE: 'commit'
+      NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+      RSBUILD_NETLIFY_SITE_ID: ${{ secrets.RSBUILD_NETLIFY_SITE_ID }}
+      RSLIB_NETLIFY_SITE_ID: ${{ secrets.RSLIB_NETLIFY_SITE_ID }}
+      RSPACK_NETLIFY_SITE_ID: ${{ secrets.RSPACK_NETLIFY_SITE_ID }}
+      RSTEST_NETLIFY_SITE_ID: ${{ secrets.RSTEST_NETLIFY_SITE_ID }}
     steps:
       - uses: actions/checkout@v5
       - uses: ./.github/actions/build-rspress
@@ -91,6 +96,11 @@ jobs:
     env:
       ECOSYSTEM_CI_REF: ${{ inputs.commitSHA }}
       ECOSYSTEM_CI_TYPE: 'commit'
+      NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+      RSBUILD_NETLIFY_SITE_ID: ${{ secrets.RSBUILD_NETLIFY_SITE_ID }}
+      RSLIB_NETLIFY_SITE_ID: ${{ secrets.RSLIB_NETLIFY_SITE_ID }}
+      RSPACK_NETLIFY_SITE_ID: ${{ secrets.RSPACK_NETLIFY_SITE_ID }}
+      RSTEST_NETLIFY_SITE_ID: ${{ secrets.RSTEST_NETLIFY_SITE_ID }}
     steps:
       - uses: actions/checkout@v5
       - uses: moonrepo/setup-rust@v1

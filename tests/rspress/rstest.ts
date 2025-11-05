@@ -2,7 +2,7 @@ import type { RunOptions } from '../../types';
 import { cd, runInRepo } from '../../utils';
 import { MESSAGE, deployPreviewToNetlify } from './utils/_netlify';
 
-const SITE_ID_ENV = 'RSPRESS_NETLIFY_SITE_ID_RSTEST';
+const SITE_ID_ENV = 'RSTEST_NETLIFY_SITE_ID';
 
 export async function test(options: RunOptions) {
   await runInRepo({

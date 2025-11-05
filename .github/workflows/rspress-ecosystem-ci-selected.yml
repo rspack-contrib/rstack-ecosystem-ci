@@ -62,6 +62,11 @@ jobs:
     env:
       ECOSYSTEM_CI_REF: ${{ inputs.ref }}
       ECOSYSTEM_CI_TYPE: 'branch'
+      NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+      RSBUILD_NETLIFY_SITE_ID: ${{ secrets.RSBUILD_NETLIFY_SITE_ID }}
+      RSLIB_NETLIFY_SITE_ID: ${{ secrets.RSLIB_NETLIFY_SITE_ID }}
+      RSPACK_NETLIFY_SITE_ID: ${{ secrets.RSPACK_NETLIFY_SITE_ID }}
+      RSTEST_NETLIFY_SITE_ID: ${{ secrets.RSTEST_NETLIFY_SITE_ID }}
     steps:
       - uses: actions/checkout@v5
       - uses: ./.github/actions/build-rspress
@@ -83,6 +88,11 @@ jobs:
     env:
       ECOSYSTEM_CI_REF: ${{ inputs.ref }}
       ECOSYSTEM_CI_TYPE: 'branch'
+      NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+      RSBUILD_NETLIFY_SITE_ID: ${{ secrets.RSBUILD_NETLIFY_SITE_ID }}
+      RSLIB_NETLIFY_SITE_ID: ${{ secrets.RSLIB_NETLIFY_SITE_ID }}
+      RSPACK_NETLIFY_SITE_ID: ${{ secrets.RSPACK_NETLIFY_SITE_ID }}
+      RSTEST_NETLIFY_SITE_ID: ${{ secrets.RSTEST_NETLIFY_SITE_ID }}
     strategy:
       matrix:
         include:

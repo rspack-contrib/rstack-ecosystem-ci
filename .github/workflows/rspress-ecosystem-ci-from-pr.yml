@@ -53,6 +53,12 @@ jobs:
   execute-selected-suite:
     runs-on: ubuntu-latest
     if: "inputs.suite != '-'"
+    env:
+      NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+      RSBUILD_NETLIFY_SITE_ID: ${{ secrets.RSBUILD_NETLIFY_SITE_ID }}
+      RSLIB_NETLIFY_SITE_ID: ${{ secrets.RSLIB_NETLIFY_SITE_ID }}
+      RSPACK_NETLIFY_SITE_ID: ${{ secrets.RSPACK_NETLIFY_SITE_ID }}
+      RSTEST_NETLIFY_SITE_ID: ${{ secrets.RSTEST_NETLIFY_SITE_ID }}
     steps:
       - uses: actions/checkout@v5
       - uses: ./.github/actions/build-rspress
@@ -85,6 +91,12 @@ jobs:
       fail-fast: false
     runs-on: ${{ matrix.os }}
     name: execute-all (${{ matrix.suite }})
+    env:
+      NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+      RSBUILD_NETLIFY_SITE_ID: ${{ secrets.RSBUILD_NETLIFY_SITE_ID }}
+      RSLIB_NETLIFY_SITE_ID: ${{ secrets.RSLIB_NETLIFY_SITE_ID }}
+      RSPACK_NETLIFY_SITE_ID: ${{ secrets.RSPACK_NETLIFY_SITE_ID }}
+      RSTEST_NETLIFY_SITE_ID: ${{ secrets.RSTEST_NETLIFY_SITE_ID }}
     steps:
       - uses: actions/checkout@v5
       - uses: ./.github/actions/build-rspress
