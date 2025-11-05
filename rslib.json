@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "75d01f1c70e8901febf4a0f30aa5bb777da6ed97",
+    "commitTimestamp": "2025-11-05T12:19:36Z",
+    "commitMessage": "fix: remove externalsPresets.node (#1318)",
+    "author": {
+      "name": "Wei",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19101771205",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19101771205/job/54575293949"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19101771205/job/54575293958"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19101771205/job/54575293964"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19101771205/job/54575293967"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19101771205/job/54575294003"
+      }
+    ]
+  },
+  {
     "commitSha": "79b47e937e5184268cb8223e785890786944b33b",
     "commitTimestamp": "2025-11-05T10:16:48Z",
     "commitMessage": "feat(CLI): run `rslib` without any sub-command to trigger build (#1316)",
