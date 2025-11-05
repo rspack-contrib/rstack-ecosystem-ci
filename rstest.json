@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "65c27e214e29e7ed2774ae965e3d3ef6823730bb",
+    "commitTimestamp": "2025-11-05T11:02:00Z",
+    "commitMessage": "ci: publish to Open VSX registry (#672)",
+    "author": {
+      "name": "Wei",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19099829281",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19099829281/job/54568815840"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19099829281/job/54568815843"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19099829281/job/54568815864"
+      }
+    ]
+  },
+  {
     "commitSha": "425e3549ca51f8eacf36aac433ec62399647874f",
     "commitTimestamp": "2025-11-05T10:13:46Z",
     "commitMessage": "fix: support npm package names in setupFiles (#671)",
