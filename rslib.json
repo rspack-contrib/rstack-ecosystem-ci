@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "79b47e937e5184268cb8223e785890786944b33b",
+    "commitTimestamp": "2025-11-05T10:16:48Z",
+    "commitMessage": "feat(CLI): run `rslib` without any sub-command to trigger build (#1316)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19098660351",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19098660351/job/54564943989"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19098660351/job/54564944020"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19098660351/job/54564944021"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19098660351/job/54564944022"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19098660351/job/54564944032"
+      }
+    ]
+  },
+  {
     "commitSha": "2326c3c612f56453d6b0ded61684a1ac9561f38b",
     "commitTimestamp": "2025-11-04T09:14:15Z",
     "commitMessage": "chore: rename rsbuildConfig to config (#1315)",
