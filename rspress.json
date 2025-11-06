@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "44fa541a09648ce979ee7f8e208356393348052f",
+    "commitTimestamp": "2025-11-06T08:56:28Z",
+    "commitMessage": "chore: add Rsdoctor bundle diff CI (#2722)",
+    "author": {
+      "name": "yifancong",
+      "email": "easy_cong@126.com",
+      "login": "yifancong"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19130165493",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19130165493/job/54668760361"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19130165493/job/54668760366"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19130165493/job/54668760368"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19130165493/job/54668760383"
+      }
+    ]
+  },
+  {
     "commitSha": "d5dfeea188e3496ef98f91b292595bd9f3b20924",
     "commitTimestamp": "2025-11-05T11:47:18Z",
     "commitMessage": "chore(theme/Toc): upgrade Toc border line in mobile (#2724)",
