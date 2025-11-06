@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "b8fc13e834497e22092824740fab7aafc4bb05b3",
+    "commitTimestamp": "2025-11-06T03:58:05Z",
+    "commitMessage": "chore: bump rslib to fix rstest/core rebuild panic (#674)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19124353386",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19124353386/job/54651538904"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19124353386/job/54651538906"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19124353386/job/54651538917"
+      }
+    ]
+  },
+  {
     "commitSha": "b154dfc52f6879817384f53cac07ae9f897fd42a",
     "commitTimestamp": "2025-11-05T12:31:43Z",
     "commitMessage": "release: 0.6.2 (#673)",
