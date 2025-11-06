@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "fb0f6a7dc8d32a26159f92594a69236590364a0a",
+    "commitTimestamp": "2025-11-06T15:47:27Z",
+    "commitMessage": "fix(server): ensure historyApiFallback takes precedence over html falback (#6520)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19141399952",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19141399952/job/54707175464"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19141399952/job/54707175475"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19141399952/job/54707175487"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19141399952/job/54707175489"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19141399952/job/54707175509"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19141399952/job/54707175526"
+      }
+    ]
+  },
+  {
     "commitSha": "623959e8f1083825a532d0671050584ca58e846e",
     "commitTimestamp": "2025-11-06T13:16:46Z",
     "commitMessage": "ci: fix rstack-ecosystem-ci version (#6519)",
