@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "3578173ef1af675219d2e7f051fef05860895e1e",
+    "commitTimestamp": "2025-11-06T09:34:36Z",
+    "commitMessage": "chore(theme/homehero): upgrade home feature style and expose CSS vars (#2728)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19131180345",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19131180345/job/54672056089"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19131180345/job/54672056092"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19131180345/job/54672056099"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19131180345/job/54672056102"
+      }
+    ]
+  },
+  {
     "commitSha": "44fa541a09648ce979ee7f8e208356393348052f",
     "commitTimestamp": "2025-11-06T08:56:28Z",
     "commitMessage": "chore: add Rsdoctor bundle diff CI (#2722)",
