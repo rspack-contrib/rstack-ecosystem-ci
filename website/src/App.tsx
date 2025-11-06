@@ -1,14 +1,9 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 
 import { Timeline } from '@/components/timeline';
 import { Badge } from '@/components/ui/badge';
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from '@/components/ui/select';
+import { cn } from '@/lib/utils';
 import type { EcosystemCommitHistory, EcosystemCommitRecord } from '@/types';
 // @ts-ignore
 import history from '@data';
@@ -22,10 +17,11 @@ const STACKS = [
   { id: 'rslib', label: 'Rslib' },
   { id: 'rstest', label: 'Rstest' },
   { id: 'rsdoctor', label: 'Rsdoctor' },
-  { id: 'rslint', label: 'Rslint' },
+  { id: 'rspress', label: 'Rspress' },
 ] as const;
 
 type StackId = (typeof STACKS)[number]['id'];
+type StackStatus = EcosystemCommitRecord['overallStatus'] | 'missing';
 
 const DEFAULT_STACK: StackId = 'rspack';
 
@@ -37,46 +33,53 @@ const RSTACK_REPOS = [
   { label: 'Rslib', url: 'https://github.com/web-infra-dev/rslib' },
   { label: 'Rstest', url: 'https://github.com/web-infra-dev/rstest' },
   { label: 'Rsdoctor', url: 'https://github.com/web-infra-dev/rsdoctor' },
-  { label: 'Rslint', url: 'https://github.com/web-infra-dev/rslint' },
+  { label: 'Rspress', url: 'https://github.com/web-infra-dev/rspress' },
 ] as const;
 
-// Get URL parameters
-function getUrlParams() {
-  const params = new URLSearchParams(window.location.search);
-  return {
-    stack: params.get('stack') as StackId | null,
-    suite: params.get('suite') || 'all',
-  };
-}
-
-// Set URL parameters
-function setUrlParams(stack: StackId, suite: string) {
-  const params = new URLSearchParams();
-  params.set('stack', stack);
-  if (suite !== 'all') {
-    params.set('suite', suite);
-  }
-  const newUrl = `${window.location.pathname}?${params.toString()}`;
-  window.history.replaceState({}, '', newUrl);
-}
+const RSPRESS_PREVIEW_LINKS: Array<{
+  id: StackId;
+  label: string;
+  url: string;
+}> = [
+  {
+    id: 'rspack',
+    label: 'Rspack',
+    url: 'https://ecosystem-ci--rspack.netlify.app/',
+  },
+  {
+    id: 'rsbuild',
+    label: 'Rsbuild',
+    url: 'https://ecosystem-ci--rsbuild.netlify.app/',
+  },
+  {
+    id: 'rslib',
+    label: 'Rslib',
+    url: 'https://ecosystem-ci--rslib.netlify.app/',
+  },
+  {
+    id: 'rstest',
+    label: 'Rstest',
+    url: 'https://ecosystem-ci--rstest-dev.netlify.app/',
+  },
+];
 
 export default function App() {
   const historySource = history as Record<StackId, EcosystemCommitHistory>;
+  const [searchParams, setSearchParams] = useSearchParams();
 
   const [isRepoMenuOpen, setIsRepoMenuOpen] = useState(false);
-  const [selectedStack, setSelectedStack] = useState<StackId>(() => {
-    const urlParams = getUrlParams();
-    if (urlParams.stack && STACKS.some((s) => s.id === urlParams.stack)) {
-      return urlParams.stack;
-    }
-    return DEFAULT_STACK;
-  });
-
-  const [selectedSuite, setSelectedSuite] = useState<string>(() => {
-    const urlParams = getUrlParams();
-    return urlParams.suite;
-  });
   const repoMenuRef = useRef<HTMLDivElement | null>(null);
+  const [now, setNow] = useState(() => new Date());
+
+  const selectedStackParam = searchParams.get('stack') as StackId | null;
+  const hasValidStack =
+    selectedStackParam != null &&
+    STACKS.some((stack) => stack.id === selectedStackParam);
+  const selectedStack: StackId = hasValidStack
+    ? selectedStackParam
+    : DEFAULT_STACK;
+
+  const selectedSuite = searchParams.get('suite') ?? 'all';
 
   const historyByStack = useMemo(() => {
     const map = {} as Record<StackId, EcosystemCommitHistory>;
@@ -91,10 +94,26 @@ export default function App() {
     return map;
   }, [historySource]);
 
-  // Update URL when stack or suite changes
   useEffect(() => {
-    setUrlParams(selectedStack, selectedSuite);
-  }, [selectedStack, selectedSuite]);
+    if (!hasValidStack) {
+      const params = new URLSearchParams(searchParams);
+      params.set('stack', DEFAULT_STACK);
+      if ((params.get('suite') ?? 'all') === 'all') {
+        params.delete('suite');
+      }
+      setSearchParams(params, { replace: true });
+    }
+  }, [hasValidStack, searchParams, setSearchParams]);
+
+  useEffect(() => {
+    const interval = window.setInterval(() => {
+      setNow(new Date());
+    }, 30_000);
+
+    return () => {
+      window.clearInterval(interval);
+    };
+  }, []);
 
   useEffect(() => {
     if (!isRepoMenuOpen) {
@@ -122,13 +141,49 @@ export default function App() {
     };
   }, [isRepoMenuOpen]);
 
-  const selectedStackMeta = useMemo(
-    () => STACKS.find((stack) => stack.id === selectedStack),
-    [selectedStack],
+  const handleStackChange = useCallback(
+    (nextStack: StackId) => {
+      if (nextStack === selectedStack) {
+        return;
+      }
+      const params = new URLSearchParams(searchParams);
+      params.set('stack', nextStack);
+      setSearchParams(params);
+    },
+    [searchParams, selectedStack, setSearchParams],
+  );
+
+  const handleSuiteChange = useCallback(
+    (suite: string) => {
+      const params = new URLSearchParams(searchParams);
+      if (!params.get('stack')) {
+        params.set('stack', selectedStack);
+      }
+      if (!suite || suite === 'all') {
+        params.delete('suite');
+      } else {
+        params.set('suite', suite);
+      }
+      setSearchParams(params);
+    },
+    [searchParams, selectedStack, setSearchParams],
   );
 
   const stackEntries = historyByStack[selectedStack] ?? [];
-  const stats = useMemo(() => buildStats(stackEntries), [stackEntries]);
+  const stackStatusSummary = useMemo(
+    () => buildStackStatuses(historyByStack),
+    [historyByStack],
+  );
+  const stackOptions = useMemo(
+    () =>
+      STACKS.map((stack) => ({
+        id: stack.id,
+        label: stack.label,
+        runs: historyByStack[stack.id]?.length ?? 0,
+      })),
+    [historyByStack],
+  );
+  const schedule = useMemo(() => buildUpdateSchedule(now), [now]);
 
   return (
     <div className="min-h-screen bg-transparent px-4 py-12 text-foreground sm:px-8">
@@ -163,7 +218,7 @@ export default function App() {
               </h1>
             </div>
           </div>
-          <div className="flex flex-col items-stretch gap-4 sm:w-72">
+          <div className="flex flex-col items-end gap-4">
             <div className="flex items-center justify-end gap-2">
               <a
                 href={GITHUB_REPO_URL}
@@ -232,103 +287,212 @@ export default function App() {
                 ) : null}
               </div>
             </div>
-            <Select
-              value={selectedStack}
-              onValueChange={(value) => setSelectedStack(value as StackId)}
-            >
-              <SelectTrigger>
-                <div className="flex flex-1 items-center justify-between gap-3">
-                  <span className="truncate font-medium text-foreground/90">
-                    {selectedStackMeta?.label ?? 'Select stack'}
-                  </span>
-                  <Badge
-                    variant="outline"
-                    className="border-border/40 text-[11px]"
-                  >
-                    {historyByStack[selectedStack]?.length ?? 0} runs
-                  </Badge>
-                </div>
-                <SelectValue className="sr-only" placeholder="Select stack" />
-              </SelectTrigger>
-              <SelectContent>
-                {STACKS.map((stack) => {
-                  const total = historyByStack[stack.id]?.length ?? 0;
-                  return (
-                    <SelectItem key={stack.id} value={stack.id}>
-                      <div className="flex w-full items-center justify-between gap-3">
-                        <span>{stack.label}</span>
-                        <Badge variant="outline">
-                          {total === 0 ? 'No runs' : `${total} runs`}
-                        </Badge>
-                      </div>
-                    </SelectItem>
-                  );
-                })}
-              </SelectContent>
-            </Select>
           </div>
         </header>
 
         <section className="grid gap-4 sm:grid-cols-2">
-          <StatCard label="Total tracked runs" value={stats.total} />
-          <StatCard label="Last updated" value={stats.lastUpdated ?? '—'} />
+          <StackStatusCard
+            statuses={stackStatusSummary}
+            activeStack={selectedStack}
+            onSelect={handleStackChange}
+          />
+          <UpdateScheduleCard
+            lastUpdated={schedule.lastUpdated}
+            countdownMinutes={schedule.countdownMinutes}
+          />
         </section>
 
         <Timeline
           entries={stackEntries}
+          stacks={stackOptions}
+          selectedStack={selectedStack}
+          onStackChange={(value) => handleStackChange(value as StackId)}
           selectedSuite={selectedSuite}
-          onSuiteChange={setSelectedSuite}
+          onSuiteChange={handleSuiteChange}
+          previewLinks={RSPRESS_PREVIEW_LINKS}
         />
       </div>
     </div>
   );
 }
 
-function buildStats(records: EcosystemCommitRecord[]) {
-  if (!records.length) {
-    return {
-      total: 0,
-      lastUpdated: null as string | null,
-    };
-  }
+interface StackStatusSummary {
+  id: StackId;
+  label: string;
+  status: StackStatus;
+}
 
-  const total = records.length;
-  const lastUpdated = records[0]?.commitTimestamp
-    ? (() => {
-        const date = new Date(records[0].commitTimestamp);
-        const dateStr = new Intl.DateTimeFormat('en', {
-          year: 'numeric',
-          month: 'short',
-          day: 'numeric',
-          hour: 'numeric',
-          minute: '2-digit',
-        }).format(date);
-        const offset = -date.getTimezoneOffset() / 60;
-        const utcStr = `UTC${offset >= 0 ? '+' : ''}${offset}`;
-        return `${dateStr} ${utcStr}`;
-      })()
-    : null;
+function buildStackStatuses(
+  historyByStack: Record<StackId, EcosystemCommitHistory>,
+) {
+  return STACKS.map((stack) => {
+    const records = historyByStack[stack.id] ?? [];
+    const latest = records[0] ?? null;
+
+    return {
+      id: stack.id,
+      label: stack.label,
+      status: latest?.overallStatus ?? 'missing',
+    };
+  });
+}
+
+interface UpdateSchedule {
+  lastUpdated: string | null;
+  countdownMinutes: number | null;
+}
+
+function buildUpdateSchedule(referenceTime: Date): UpdateSchedule {
+  const lastUpdate = alignToHour(referenceTime, 'floor');
+  const nextUpdate = alignToHour(referenceTime, 'ceil');
+
+  const countdownMinutes = Math.max(
+    0,
+    Math.floor((nextUpdate.getTime() - referenceTime.getTime()) / 60_000),
+  );
 
   return {
-    total,
-    lastUpdated,
+    lastUpdated: formatTimestamp(lastUpdate),
+    countdownMinutes,
   };
 }
 
-interface StatCardProps {
-  label: string;
-  value: string | number | null;
+function formatTimestamp(date: Date) {
+  const dateStr = new Intl.DateTimeFormat('en', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+    hour: 'numeric',
+    minute: '2-digit',
+  }).format(date);
+  const offset = -date.getTimezoneOffset() / 60;
+  const utcStr = `UTC${offset >= 0 ? '+' : ''}${offset}`;
+  return `${dateStr} ${utcStr}`;
 }
 
-function StatCard({ label, value }: StatCardProps) {
+function alignToHour(date: Date, mode: 'floor' | 'ceil') {
+  const aligned = new Date(date);
+  aligned.setSeconds(0, 0);
+  aligned.setMinutes(0);
+
+  if (mode === 'floor' && aligned.getTime() > date.getTime()) {
+    aligned.setHours(aligned.getHours() - 1);
+  } else if (mode === 'ceil' && aligned.getTime() <= date.getTime()) {
+    aligned.setHours(aligned.getHours() + 1);
+  }
+
+  return aligned;
+}
+
+function formatCountdown(minutes: number | null) {
+  if (minutes == null) {
+    return null;
+  }
+
+  const safeMinutes = Math.max(0, minutes);
+  return `in ${safeMinutes}min`;
+}
+
+const STACK_STATUS_CLASS: Record<StackStatus, string> = {
+  success: 'bg-emerald-400 shadow-[0_0_12px_rgba(16,185,129,0.55)]',
+  failure: 'bg-rose-500 shadow-[0_0_12px_rgba(244,63,94,0.5)]',
+  cancelled: 'bg-amber-400 shadow-[0_0_12px_rgba(250,204,21,0.5)]',
+  missing: 'bg-white/60 shadow-[0_0_10px_rgba(255,255,255,0.35)]',
+};
+interface StackStatusCardProps {
+  statuses: StackStatusSummary[];
+  activeStack: StackId;
+  onSelect?: (stack: StackId) => void;
+}
+
+function StackStatusCard({
+  statuses,
+  activeStack,
+  onSelect,
+}: StackStatusCardProps) {
   return (
     <div className="glass-panel rounded-2xl border border-border/60 px-6 py-5 shadow-[0_10px_24px_-20px_rgba(0,0,0,0.65)]">
+      <div className="flex items-center justify-between">
+        <p className="text-xs uppercase tracking-[0.4em] text-muted-foreground/70">
+          Stack Health
+        </p>
+        <span className="text-[11px] uppercase tracking-[0.25em] text-muted-foreground/55">
+          Latest run
+        </span>
+      </div>
+      <div className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3">
+        {statuses.map((stack) => {
+          const isActive = stack.id === activeStack;
+          const baseClasses =
+            'flex items-center justify-between rounded-lg border border-white/10 bg-white/[0.04] px-3 py-3 transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/70 focus-visible:ring-offset-2 focus-visible:ring-offset-black/30';
+          return (
+            <button
+              type="button"
+              key={stack.id}
+              className={cn(
+                baseClasses,
+                onSelect ? 'hover:bg-white/[0.08] focus:bg-white/[0.08]' : '',
+                isActive ? 'border-white/40 bg-white/[0.08]' : '',
+                onSelect ? 'cursor-pointer' : 'cursor-default',
+              )}
+              onClick={() => onSelect?.(stack.id)}
+              aria-pressed={isActive}
+            >
+              <span className="text-sm font-medium text-foreground">
+                {stack.label}
+              </span>
+              <span
+                className={`inline-flex h-3.5 w-3.5 shrink-0 rounded-full ${STACK_STATUS_CLASS[stack.status]}`}
+                aria-hidden="true"
+              />
+            </button>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+interface UpdateScheduleCardProps {
+  lastUpdated: string | null;
+  countdownMinutes: number | null;
+}
+
+function UpdateScheduleCard({
+  lastUpdated,
+  countdownMinutes,
+}: UpdateScheduleCardProps) {
+  const countdownLabel = formatCountdown(countdownMinutes);
+
+  return (
+    <div className="glass-panel h-full rounded-2xl border border-border/60 bg-white/[0.03] px-6 py-5 shadow-[0_10px_24px_-20px_rgba(0,0,0,0.65)]">
       <p className="text-xs uppercase tracking-[0.4em] text-muted-foreground/70">
-        {label}
+        Ecosystem CI Window
       </p>
-      <p className="mt-3 text-lg font-semibold text-foreground">
-        {value ?? '—'}
-      </p>
+      <div className="mt-5 space-y-4">
+        <div className="flex items-start justify-between gap-4">
+          <div>
+            <p className="text-sm font-medium text-foreground">Last updated</p>
+            <p className="text-[11px] uppercase tracking-[0.25em] text-muted-foreground/55">
+              Data sync
+            </p>
+          </div>
+          <p className="text-right text-sm text-foreground">
+            {lastUpdated ?? '—'}
+          </p>
+        </div>
+        <div className="flex items-start justify-between gap-4 border-t border-white/10 pt-4">
+          <div>
+            <p className="text-sm font-medium text-foreground">Next refresh</p>
+            <p className="text-[11px] uppercase tracking-[0.25em] text-muted-foreground/55">
+              1h cron
+            </p>
+          </div>
+          <p className="text-right text-sm text-foreground">
+            {countdownLabel ?? '—'}
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
