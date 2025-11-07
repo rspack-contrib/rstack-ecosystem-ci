@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "893ba9f5795152e5201ad4d4fd1d2359e3f54bcd",
+    "commitTimestamp": "2025-11-07T00:09:05Z",
+    "commitMessage": "feat(loader): support buffer code (#6522)",
+    "author": {
+      "name": "Deku-nattsu",
+      "email": "aymenbeta@gmail.com",
+      "login": "Deku-nattsu"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19153770426",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19153770426/job/54749909140"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19153770426/job/54749909141"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19153770426/job/54749909143"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19153770426/job/54749909150"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19153770426/job/54749909151"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19153770426/job/54749909157"
+      }
+    ]
+  },
+  {
     "commitSha": "fb0f6a7dc8d32a26159f92594a69236590364a0a",
     "commitTimestamp": "2025-11-06T15:47:27Z",
     "commitMessage": "fix(server): ensure historyApiFallback takes precedence over html falback (#6520)",
