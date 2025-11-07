@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "8ac9a4d63c5f3125c74356b0c8ca41df58ae6ab7",
+    "commitTimestamp": "2025-11-07T03:08:47Z",
+    "commitMessage": "feat(vscode): support custom rstest package path (#679)",
+    "author": {
+      "name": "njzy",
+      "email": "njzydark@gmail.com",
+      "login": "njzydark"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19156911630",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19156911630/job/54759372259"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19156911630/job/54759372262"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19156911630/job/54759372265"
+      }
+    ]
+  },
+  {
     "commitSha": "374292e8c94bb4f81b75e6ed4e07998b50cc231a",
     "commitTimestamp": "2025-11-07T03:04:56Z",
     "commitMessage": "fix(coverage): defaultSummarizer pkg (#675)",
