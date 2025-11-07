@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7aee8635a7e3c04fc72def049861a2dc740f678f",
+    "commitTimestamp": "2025-11-07T02:52:33Z",
+    "commitMessage": "Revert \"build(core): enable advanced ESM (#6513)\" (#6524)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19156640990",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19156640990/job/54758577944"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19156640990/job/54758577946"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19156640990/job/54758577951"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19156640990/job/54758577952"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19156640990/job/54758577957"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19156640990/job/54758577961"
+      }
+    ]
+  },
+  {
     "commitSha": "893ba9f5795152e5201ad4d4fd1d2359e3f54bcd",
     "commitTimestamp": "2025-11-07T00:09:05Z",
     "commitMessage": "feat(loader): support buffer code (#6522)",
