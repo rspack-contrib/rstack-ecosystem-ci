@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "6d227f0c1f6d59da63fbf933bf7b38443e28079f",
+    "commitTimestamp": "2025-11-07T09:14:42Z",
+    "commitMessage": "chore: fix diff yaml (#2732)",
+    "author": {
+      "name": "yifancong",
+      "email": "easy_cong@126.com",
+      "login": "yifancong"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19163744897",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19163744897/job/54779475836"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19163744897/job/54779475856"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19163744897/job/54779475926"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19163744897/job/54779475931"
+      }
+    ]
+  },
+  {
     "commitSha": "3578173ef1af675219d2e7f051fef05860895e1e",
     "commitTimestamp": "2025-11-06T09:34:36Z",
     "commitMessage": "chore(theme/homehero): upgrade home feature style and expose CSS vars (#2728)",
