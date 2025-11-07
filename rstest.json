@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "4e21276e1f593a3b1150187e4db74452170e7fdb",
+    "commitTimestamp": "2025-11-07T02:57:55Z",
+    "commitMessage": "chore(vscode): adjust the compatible version of vscode to 1.97.0 (#678)",
+    "author": {
+      "name": "njzy",
+      "email": "njzydark@gmail.com",
+      "login": "njzydark"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19156725401",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19156725401/job/54758811432"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19156725401/job/54758811441"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19156725401/job/54758811445"
+      }
+    ]
+  },
+  {
     "commitSha": "b8fc13e834497e22092824740fab7aafc4bb05b3",
     "commitTimestamp": "2025-11-06T03:58:05Z",
     "commitMessage": "chore: bump rslib to fix rstest/core rebuild panic (#674)",
