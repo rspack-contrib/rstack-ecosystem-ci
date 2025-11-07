@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "bb634871433b4f1db792861185ce51faf0d63fc5",
+    "commitTimestamp": "2025-11-07T02:52:59Z",
+    "commitMessage": "docs: improve documentation for history api fallback (#6521)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19156649590",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19156649590/job/54758601112"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19156649590/job/54758601116"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19156649590/job/54758601117"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19156649590/job/54758601120"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19156649590/job/54758601121"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19156649590/job/54758601132"
+      }
+    ]
+  },
+  {
     "commitSha": "7aee8635a7e3c04fc72def049861a2dc740f678f",
     "commitTimestamp": "2025-11-07T02:52:33Z",
     "commitMessage": "Revert \"build(core): enable advanced ESM (#6513)\" (#6524)",
