@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "fd9d01298e8ed1433dad637f11a10f6e429bc198",
+    "commitTimestamp": "2025-11-08T03:11:01Z",
+    "commitMessage": "test(e2e): migrate test cases to ES modules (#6531)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19187104965",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19187104965/job/54855659958"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19187104965/job/54855659961"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19187104965/job/54855659963"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19187104965/job/54855659969"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19187104965/job/54855659979"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19187104965/job/54855659989"
+      }
+    ]
+  },
+  {
     "commitSha": "970c255bfefae4582e2b645fef136be023db80ca",
     "commitTimestamp": "2025-11-08T03:10:41Z",
     "commitMessage": "docs: correct cors default value (#6530)",
