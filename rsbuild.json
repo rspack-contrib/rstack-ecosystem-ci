@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "51eb98aea039329828745e35d90933aecc05256a",
+    "commitTimestamp": "2025-11-08T12:16:50Z",
+    "commitMessage": "fix(create-rsbuild): rename .mjs config files to .js (#6534)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19192899213",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19192899213/job/54869791862"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19192899213/job/54869791863"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19192899213/job/54869791864"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19192899213/job/54869791867"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19192899213/job/54869791868"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19192899213/job/54869791869"
+      }
+    ]
+  },
+  {
     "commitSha": "7a67ed3b5dd3049de7b12719c34ca6135409f601",
     "commitTimestamp": "2025-11-08T10:32:17Z",
     "commitMessage": "chore: add module type to package.json files (#6533)",
