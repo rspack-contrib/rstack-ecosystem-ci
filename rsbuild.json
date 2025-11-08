@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "3e068ebf45a7de01856cc594805bcdbb4aea1e01",
+    "commitTimestamp": "2025-11-08T23:26:57Z",
+    "commitMessage": "docs(create-rsbuild): add config documentation link to all templates (#6535)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19200099801",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19200099801/job/54886658872"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19200099801/job/54886658878"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19200099801/job/54886658880"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19200099801/job/54886658881"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19200099801/job/54886658883"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19200099801/job/54886658885"
+      }
+    ]
+  },
+  {
     "commitSha": "51eb98aea039329828745e35d90933aecc05256a",
     "commitTimestamp": "2025-11-08T12:16:50Z",
     "commitMessage": "fix(create-rsbuild): rename .mjs config files to .js (#6534)",
