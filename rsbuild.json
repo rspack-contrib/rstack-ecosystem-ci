@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7a67ed3b5dd3049de7b12719c34ca6135409f601",
+    "commitTimestamp": "2025-11-08T10:32:17Z",
+    "commitMessage": "chore: add module type to package.json files (#6533)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19191875721",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19191875721/job/54867425935"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19191875721/job/54867425936"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19191875721/job/54867425942"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19191875721/job/54867425943"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19191875721/job/54867425946"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19191875721/job/54867425948"
+      }
+    ]
+  },
+  {
     "commitSha": "fd9d01298e8ed1433dad637f11a10f6e429bc198",
     "commitTimestamp": "2025-11-08T03:11:01Z",
     "commitMessage": "test(e2e): migrate test cases to ES modules (#6531)",
