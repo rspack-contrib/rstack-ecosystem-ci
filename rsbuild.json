@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "35d0ec7efc2d5c5e4fa406275ae053472ed39006",
+    "commitTimestamp": "2025-11-10T03:39:12Z",
+    "commitMessage": "fix(format): add location to file name (#6540)",
+    "author": {
+      "name": "Deku-nattsu",
+      "email": "aymenbeta@gmail.com",
+      "login": "Deku-nattsu"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19219913803",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19219913803/job/54936016565"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19219913803/job/54936016566"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19219913803/job/54936016567"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19219913803/job/54936016572"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19219913803/job/54936016573"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19219913803/job/54936016578"
+      }
+    ]
+  },
+  {
     "commitSha": "56e28be78d7ddd8556de8d5119f71aada67126d2",
     "commitTimestamp": "2025-11-10T02:33:42Z",
     "commitMessage": "chore(deps): update dependency @shikijs/transformers to ^3.15.0 (#6543)",
