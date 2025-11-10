@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9daac17ecc5da4dffeec29ee6123ccca0a8e7a49",
+    "commitTimestamp": "2025-11-10T05:22:46Z",
+    "commitMessage": "chore(deps): update dependency @rstest/core to ^0.6.3 (#6546)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19221559688",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19221559688/job/54940483249"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19221559688/job/54940483256"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19221559688/job/54940483261"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19221559688/job/54940483267"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19221559688/job/54940483282"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19221559688/job/54940483307"
+      }
+    ]
+  },
+  {
     "commitSha": "d4f0ab218c999dab852ca4e0879a747fdb8931e0",
     "commitTimestamp": "2025-11-10T05:07:44Z",
     "commitMessage": "fix(core): improve error file location formatting (#6545)",
