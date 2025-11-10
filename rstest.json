@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "6e44cbb80e2fb8062751368a64a8bc2008dd011f",
+    "commitTimestamp": "2025-11-10T02:53:00Z",
+    "commitMessage": "chore: remove `SIGTERM` event handler (#680)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19219151947",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19219151947/job/54933712240"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19219151947/job/54933712241"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19219151947/job/54933712244"
+      }
+    ]
+  },
+  {
     "commitSha": "8ac9a4d63c5f3125c74356b0c8ca41df58ae6ab7",
     "commitTimestamp": "2025-11-07T03:08:47Z",
     "commitMessage": "feat(vscode): support custom rstest package path (#679)",
