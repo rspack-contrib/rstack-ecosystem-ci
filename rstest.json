@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "e2b4afb6e91e553cc9a81aac5814a9e6e03ac6ff",
+    "commitTimestamp": "2025-11-10T08:57:01Z",
+    "commitMessage": "chore: exports some Rstest API types (#682)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19226116212",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19226116212/job/54953629714"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19226116212/job/54953629716"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19226116212/job/54953629719"
+      }
+    ]
+  },
+  {
     "commitSha": "ad39bb5e44cbacbcfb763209ba0c56c55836b909",
     "commitTimestamp": "2025-11-10T03:30:07Z",
     "commitMessage": "release: 0.6.3 (#681)",
