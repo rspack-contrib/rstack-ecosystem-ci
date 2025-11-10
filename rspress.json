@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "c2dcb0e09f29d286d2487ba9867f928c7aca0bed",
+    "commitTimestamp": "2025-11-10T03:19:20Z",
+    "commitMessage": "chore(deps): update dependency @docsearch/css to ^4.3.1 (#2734)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19219507443",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19219507443/job/54934688467"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19219507443/job/54934688470"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19219507443/job/54934688479"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19219507443/job/54934688480"
+      }
+    ]
+  },
+  {
     "commitSha": "3472066a62a866fa4e5764f183d9e016bc940d94",
     "commitTimestamp": "2025-11-10T03:18:59Z",
     "commitMessage": "chore(deps): update all patch dependencies (#2733)",
