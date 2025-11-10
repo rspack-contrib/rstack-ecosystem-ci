@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "5582839644bed2c0dcb8138a4527a93f6bf059bf",
+    "commitTimestamp": "2025-11-10T04:32:54Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#1326)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19220731177",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19220731177/job/54938250974"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19220731177/job/54938250977"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19220731177/job/54938250981"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19220731177/job/54938250987"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19220731177/job/54938250988"
+      }
+    ]
+  },
+  {
     "commitSha": "796ab391b03773c7e6af0cd9e3600b45751addb4",
     "commitTimestamp": "2025-11-10T03:58:20Z",
     "commitMessage": "fix: upgrade MF@0.21.3 to fix lazy compilation issue (#1327)",
