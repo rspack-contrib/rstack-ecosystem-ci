@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "92879b35b5b4d372f3cccccf32264ca2b88c0a82",
+    "commitTimestamp": "2025-11-10T02:17:31Z",
+    "commitMessage": "chore(deps): pin rspack-contrib/rstack-ecosystem-ci action to d93d296 (#6541)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19218545158",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19218545158/job/54931932494"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19218545158/job/54931932495"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19218545158/job/54931932497"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19218545158/job/54931932512"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19218545158/job/54931932526"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19218545158/job/54931932535"
+      }
+    ]
+  },
+  {
     "commitSha": "3e068ebf45a7de01856cc594805bcdbb4aea1e01",
     "commitTimestamp": "2025-11-08T23:26:57Z",
     "commitMessage": "docs(create-rsbuild): add config documentation link to all templates (#6535)",
