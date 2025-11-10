@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "d58ada3a5ed957af0d0d17a185ab6d88f8bdeabb",
+    "commitTimestamp": "2025-11-10T06:21:21Z",
+    "commitMessage": "chore(theme): expose base css variables (#2731)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19222658686",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19222658686/job/54943463397"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19222658686/job/54943463406"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19222658686/job/54943463410"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19222658686/job/54943463414"
+      }
+    ]
+  },
+  {
     "commitSha": "2e1560b13a42d54284172518405cde1b58bf405b",
     "commitTimestamp": "2025-11-10T03:38:18Z",
     "commitMessage": "chore(deps): update dependency @docsearch/react to ^4.3.1 (#2735)",
