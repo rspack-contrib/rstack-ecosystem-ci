@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "3472066a62a866fa4e5764f183d9e016bc940d94",
+    "commitTimestamp": "2025-11-10T03:18:59Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#2733)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19219499147",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19219499147/job/54934666167"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19219499147/job/54934666170"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19219499147/job/54934666184"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19219499147/job/54934666198"
+      }
+    ]
+  },
+  {
     "commitSha": "6d227f0c1f6d59da63fbf933bf7b38443e28079f",
     "commitTimestamp": "2025-11-07T09:14:42Z",
     "commitMessage": "chore: fix diff yaml (#2732)",
