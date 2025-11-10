@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d4f0ab218c999dab852ca4e0879a747fdb8931e0",
+    "commitTimestamp": "2025-11-10T05:07:44Z",
+    "commitMessage": "fix(core): improve error file location formatting (#6545)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19221296554",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19221296554/job/54939785853"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19221296554/job/54939785858"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19221296554/job/54939785862"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19221296554/job/54939785863"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19221296554/job/54939785866"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19221296554/job/54939785906"
+      }
+    ]
+  },
+  {
     "commitSha": "cbc8a87ec40e1b2aaaa2bbe45daa75df2b4d07ba",
     "commitTimestamp": "2025-11-10T03:43:46Z",
     "commitMessage": "chore(deps): update pnpm to v10.21.0 (#6544)",
