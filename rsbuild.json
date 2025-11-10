@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "3b85613341564437fa2ef8c2ddde9ecd9b605c31",
+    "commitTimestamp": "2025-11-10T02:18:10Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#6542)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19218553250",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19218553250/job/54931954281"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19218553250/job/54931954287"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19218553250/job/54931954290"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19218553250/job/54931954296"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19218553250/job/54931954299"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19218553250/job/54931954301"
+      }
+    ]
+  },
+  {
     "commitSha": "92879b35b5b4d372f3cccccf32264ca2b88c0a82",
     "commitTimestamp": "2025-11-10T02:17:31Z",
     "commitMessage": "chore(deps): pin rspack-contrib/rstack-ecosystem-ci action to d93d296 (#6541)",
