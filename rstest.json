@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "16c214b756c5a0f24ee75b321e3af588359debe2",
+    "commitTimestamp": "2025-11-10T11:31:09Z",
+    "commitMessage": "feat:  support customize the chai config via `chaiConfig` configuration. (#683)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19230143494",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19230143494/job/54966537629"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19230143494/job/54966537642"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19230143494/job/54966537668"
+      }
+    ]
+  },
+  {
     "commitSha": "e2b4afb6e91e553cc9a81aac5814a9e6e03ac6ff",
     "commitTimestamp": "2025-11-10T08:57:01Z",
     "commitMessage": "chore: exports some Rstest API types (#682)",
