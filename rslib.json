@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "796ab391b03773c7e6af0cd9e3600b45751addb4",
+    "commitTimestamp": "2025-11-10T03:58:20Z",
+    "commitMessage": "fix: upgrade MF@0.21.3 to fix lazy compilation issue (#1327)",
+    "author": {
+      "name": "Hanric",
+      "email": "zhanghang.heal@bytedance.com",
+      "login": "2heal1"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19220152186",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19220152186/job/54936688252"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19220152186/job/54936688253"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19220152186/job/54936688254"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19220152186/job/54936688255"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19220152186/job/54936688256"
+      }
+    ]
+  },
+  {
     "commitSha": "6257169ad8e09b84d0eeaafddd017e880c808217",
     "commitTimestamp": "2025-11-06T11:19:27Z",
     "commitMessage": "chore(deps): bump Rstest 0.6.2 (#1324)",
