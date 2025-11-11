@@ -1,4 +1,4 @@
-import { $ } from '../../../utils';
+import { $, cd } from '../../../utils';
 
 interface DeployOptions {
   alias?: string;
@@ -39,21 +39,30 @@ export async function deployPreviewToNetlify(options: DeployOptions) {
   console.log(`[rspress][netlify] Deploying with alias: ${alias}`);
 
   const cliSpecifier = process.env.RSPRESS_NETLIFY_CLI ?? DEFAULT_NETLIFY_CLI;
-  const result =
-    await $`pnpm --package=${cliSpecifier} dlx netlify deploy --dir=${outputDir} --alias=${alias} --message=${message} --site=${siteId} --auth=${authToken} --json`;
-
   try {
-    const parsed = JSON.parse(result);
-    const previewUrl =
-      parsed?.deploy?.deploy_ssl_url ?? parsed?.deploy?.deploy_url;
-    if (previewUrl) {
+    cd('../');
+    const result =
+      await $`pnpm --package=${cliSpecifier} dlx netlify deploy --dir=${outputDir} --alias=${alias} --message=${message} --site=${siteId} --auth=${authToken} --json --filter=website --no-build`;
+
+    try {
+      const parsed = JSON.parse(result);
+      const previewUrl =
+        parsed?.deploy?.deploy_ssl_url ?? parsed?.deploy?.deploy_url;
+      if (previewUrl) {
+        console.log(
+          `[rspress][netlify] Alias ${alias} preview url: ${previewUrl}`,
+        );
+      }
+    } catch (error) {
       console.log(
-        `[rspress][netlify] Alias ${alias} preview url: ${previewUrl}`,
+        `[rspress][netlify] Unable to parse deploy response JSON: ${(error as Error).message}`,
       );
     }
   } catch (error) {
-    console.log(
-      `[rspress][netlify] Unable to parse deploy response JSON: ${(error as Error).message}`,
+    console.error(
+      `[rspress][netlify] Deploy failed for alias ${alias}:`,
+      error,
     );
+    throw error;
   }
 }
