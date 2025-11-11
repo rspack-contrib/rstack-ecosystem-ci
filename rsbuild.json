@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "fe5e5d8b08e562149ee5e87c3a75855545841571",
+    "commitTimestamp": "2025-11-11T06:40:58Z",
+    "commitMessage": "fix: print compilation error stacks in debug mode (#6551)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19257394888",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19257394888/job/55054547143"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19257394888/job/55054547145"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19257394888/job/55054547149"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19257394888/job/55054547154"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19257394888/job/55054547156"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19257394888/job/55054547161"
+      }
+    ]
+  },
+  {
     "commitSha": "b95e7362a7bc9414fd421f7b95fe1e00c47574d4",
     "commitTimestamp": "2025-11-11T03:04:00Z",
     "commitMessage": "fix: handle undefined values in mergeRsbuildConfig (#6550)",
