@@ -1,5 +1,5 @@
 [build]
-command = "pnpm install --frozen-lockfile && pnpm --filter ecosystem-ci-website build"
+command = "pnpm install --frozen-lockfile && pnpm run website:build"
 publish = "website/dist"
 
 [build.environment]
