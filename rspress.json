@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "a31b7be694797400b1a89927e28bac44c4add807",
+    "commitTimestamp": "2025-11-11T07:32:33Z",
+    "commitMessage": "feat(theme)!: add `config.i18nSource` and default i18n text and remove serveral i18nKeys in themeConfig (#2738)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19258430033",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19258430033/job/55057548003"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19258430033/job/55057548004"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19258430033/job/55057548007"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19258430033/job/55057548010"
+      }
+    ]
+  },
+  {
     "commitSha": "5106e606ae1eff9c3dd992531452ea751f924079",
     "commitTimestamp": "2025-11-11T06:23:20Z",
     "commitMessage": "fix(plugin-preview): @theme module not found regression  (#2741)",
