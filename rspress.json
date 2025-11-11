@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "5106e606ae1eff9c3dd992531452ea751f924079",
+    "commitTimestamp": "2025-11-11T06:23:20Z",
+    "commitMessage": "fix(plugin-preview): @theme module not found regression  (#2741)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19257019193",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19257019193/job/55053482790"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19257019193/job/55053482799"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19257019193/job/55053482802"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19257019193/job/55053482805"
+      }
+    ]
+  },
+  {
     "commitSha": "db2de426bb5d47acd29dfadb44ecf3cbcc395573",
     "commitTimestamp": "2025-11-11T05:01:17Z",
     "commitMessage": "fix: Outline font family was hardcoded (#2739)",
