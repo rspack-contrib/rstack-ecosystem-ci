@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b95e7362a7bc9414fd421f7b95fe1e00c47574d4",
+    "commitTimestamp": "2025-11-11T03:04:00Z",
+    "commitMessage": "fix: handle undefined values in mergeRsbuildConfig (#6550)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19253540427",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19253540427/job/55043242094"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19253540427/job/55043242095"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19253540427/job/55043242096"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19253540427/job/55043242099"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19253540427/job/55043242105"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19253540427/job/55043242111"
+      }
+    ]
+  },
+  {
     "commitSha": "9daac17ecc5da4dffeec29ee6123ccca0a8e7a49",
     "commitTimestamp": "2025-11-10T05:22:46Z",
     "commitMessage": "chore(deps): update dependency @rstest/core to ^0.6.3 (#6546)",
