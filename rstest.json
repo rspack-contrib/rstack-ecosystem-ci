@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "9fab8c032a3fd79e2949bbd436d7197ee7882ad4",
+    "commitTimestamp": "2025-11-11T08:49:48Z",
+    "commitMessage": "release: 0.6.4 (#686)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19260157654",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19260157654/job/55062908829"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19260157654/job/55062908853"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19260157654/job/55062908855"
+      }
+    ]
+  },
+  {
     "commitSha": "d5159f2dda63b15488681516c7e6796d6ae833e8",
     "commitTimestamp": "2025-11-11T06:01:07Z",
     "commitMessage": "feat: support bail tests (#684)",
