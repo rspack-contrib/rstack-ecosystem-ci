@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "8183fc04a0c3b8a5f29f5db4d073e4a01f008c8e",
+    "commitTimestamp": "2025-11-11T14:49:23Z",
+    "commitMessage": "fix: correct `importLoaders` count for node target (#6554)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19269341867",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19269341867/job/55093195119"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19269341867/job/55093195138"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19269341867/job/55093195146"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19269341867/job/55093195149"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19269341867/job/55093195151"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19269341867/job/55093195164"
+      }
+    ]
+  },
+  {
     "commitSha": "103ea8d37dc0d7927057d4cb6a85b109feb80578",
     "commitTimestamp": "2025-11-11T14:25:00Z",
     "commitMessage": "feat: apply CSS transformation for inlined CSS in Node bundles (#6553)",
