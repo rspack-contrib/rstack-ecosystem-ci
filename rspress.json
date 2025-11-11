@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "f075fea2cbd4fd7636557e372b5eea8a1a66e54d",
+    "commitTimestamp": "2025-11-11T08:00:50Z",
+    "commitMessage": "docs: update logo references to use SVG version (#2737)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19259012634",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19259012634/job/55059294792"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19259012634/job/55059294802"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19259012634/job/55059294803"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19259012634/job/55059294804"
+      }
+    ]
+  },
+  {
     "commitSha": "a31b7be694797400b1a89927e28bac44c4add807",
     "commitTimestamp": "2025-11-11T07:32:33Z",
     "commitMessage": "feat(theme)!: add `config.i18nSource` and default i18n text and remove serveral i18nKeys in themeConfig (#2738)",
