@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "d5159f2dda63b15488681516c7e6796d6ae833e8",
+    "commitTimestamp": "2025-11-11T06:01:07Z",
+    "commitMessage": "feat: support bail tests (#684)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19256579597",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19256579597/job/55052187954"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19256579597/job/55052187960"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19256579597/job/55052187961"
+      }
+    ]
+  },
+  {
     "commitSha": "16c214b756c5a0f24ee75b321e3af588359debe2",
     "commitTimestamp": "2025-11-10T11:31:09Z",
     "commitMessage": "feat:  support customize the chai config via `chaiConfig` configuration. (#683)",
