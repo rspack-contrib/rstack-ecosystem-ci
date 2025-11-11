@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "db2de426bb5d47acd29dfadb44ecf3cbcc395573",
+    "commitTimestamp": "2025-11-11T05:01:17Z",
+    "commitMessage": "fix: Outline font family was hardcoded (#2739)",
+    "author": {
+      "name": "Elliot Courant",
+      "email": "me@elliotcourant.dev",
+      "login": "elliotcourant"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19255502110",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19255502110/job/55049216383"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19255502110/job/55049216386"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19255502110/job/55049216389"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19255502110/job/55049216398"
+      }
+    ]
+  },
+  {
     "commitSha": "d58ada3a5ed957af0d0d17a185ab6d88f8bdeabb",
     "commitTimestamp": "2025-11-10T06:21:21Z",
     "commitMessage": "chore(theme): expose base css variables (#2731)",
