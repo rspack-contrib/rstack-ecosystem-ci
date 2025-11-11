@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "cebac7b30a9f0139c51f5d4721c0c198ac6d8fc2",
+    "commitTimestamp": "2025-11-11T10:07:03Z",
+    "commitMessage": "test: remove unused files (#2745)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19262134245",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19262134245/job/55069227259"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19262134245/job/55069227269"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19262134245/job/55069227286"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19262134245/job/55069227288"
+      }
+    ]
+  },
+  {
     "commitSha": "a66762443289c6dcd57beb3dfd2ecaed8d2fc52b",
     "commitTimestamp": "2025-11-11T09:25:10Z",
     "commitMessage": "chore(plugin-api-docgen): add default translation text for table comp  associated with i18n refactor (#2744)",
