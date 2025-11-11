@@ -19,10 +19,10 @@ Workflows are scheduled to run automatically every day
 
 - clone this repo
 - run `pnpm i`
-- run `pnpm test -- --stack <stack>` to run every suite under the selected stack (`rsbuild`, `rspack`, `rstest`, `rslib`, `rsdoctor`, or `rslint`)
-- run `pnpm test -- --stack rspack` to execute all Rspack suites (available stacks: `rsbuild`, `rspack`, `rstest`, `rslib`, `rsdoctor`, `rslint`)
-- run `pnpm test -- --stack rslib` to execute all Rslib suites
-- run `pnpm test -- --stack rsbuild plugins` to target a specific suite
+- run `pnpm test --stack <stack>` to run every suite under the selected stack (`rsbuild`, `rspack`, `rstest`, `rslib`, `rsdoctor`, or `rslint`)
+- run `pnpm test --stack rspack` to execute all Rspack suites (available stacks: `rsbuild`, `rspack`, `rstest`, `rslib`, `rsdoctor`, `rslint`)
+- run `pnpm test --stack rslib` to execute all Rslib suites
+- run `pnpm test --stack rsbuild plugins` to target a specific suite
 - or invoke `tsx ecosystem-ci.ts` directly for advanced commands such as `build`, `run-suites`, or `bisect`
 
 The version selection flags apply to the chosen stack:
@@ -34,8 +34,8 @@ The repositories are checked out into `workspace` subdirectory as shallow clones
 
 ### Cheat sheet
 
-- `pnpm test -- --stack rspack --release nightly <suite>`: run a nightly release of the selected stack
-- `pnpm test -- --stack rsbuild --branch main --suite-branch update-rsbuild <suite>`: use `update-rsbuild` branch for the suite to test `main`
+- `pnpm test --stack rspack --release nightly <suite>`: run a nightly release of the selected stack
+- `pnpm test --stack rsbuild --branch main --suite-branch update-rsbuild <suite>`: use `update-rsbuild` branch for the suite to test `main`
 
 # How to add a new integration test
 

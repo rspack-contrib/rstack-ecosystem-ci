@@ -17,6 +17,8 @@ import type {
   Task,
 } from './types';
 
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
 const isGitHubActions = !!process.env.GITHUB_ACTIONS;
 
 const STACK_WORKSPACE_DIR: Record<Stack, string> = {
@@ -382,132 +384,170 @@ export async function runInRepo(options: RunOptions & RepoOptions) {
   } else {
     cd(dir);
   }
-  if (options.agent == null) {
-    const detectedAgent = await detect({ cwd: dir, autoInstall: false });
-    if (detectedAgent == null) {
-      throw new Error(`Failed to detect packagemanager in ${dir}`);
-    }
-    options.agent = detectedAgent;
-  }
-  if (!AGENTS[options.agent]) {
-    throw new Error(
-      `Invalid agent ${options.agent}. Allowed values: ${Object.keys(
-        AGENTS,
-      ).join(', ')}`,
+  const workspaceFile = path.resolve(__dirname, 'pnpm-workspace.yaml');
+  const tempWorkspaceFile = path.resolve(__dirname, '_pnpm-workspace.yaml');
+  const isFileNotFoundError = (error: unknown) =>
+    Boolean(
+      error &&
+        typeof error === 'object' &&
+        'code' in error &&
+        (error as NodeJS.ErrnoException).code === 'ENOENT',
     );
+  let workspaceRenamed = false;
+  // weird, is the pnpm-workspace.yaml exists in the root dir, some package installation will fail.
+  // e.g. `pnpm test --stack rsbuild plugins`
+  try {
+    await fs.promises.rename(workspaceFile, tempWorkspaceFile);
+    workspaceRenamed = true;
+  } catch (error) {
+    if (!isFileNotFoundError(error)) {
+      throw error;
+    }
   }
-  const agent = options.agent;
-  const beforeInstallCommand = toCommand(beforeInstall, agent);
-  const afterInstallCommand = toCommand(afterInstall, agent);
-  const beforeBuildCommand = toCommand(beforeBuild, agent);
-  const beforeTestCommand = toCommand(beforeTest, agent);
-  const buildCommand = toCommand(build, agent);
-  const testCommand = toCommand(test, agent);
 
-  const pkgFile = path.join(dir, 'package.json');
-  const pkg = JSON.parse(await fs.promises.readFile(pkgFile, 'utf-8'));
+  const runWorkflow = async () => {
+    if (options.agent == null) {
+      const detectedAgent = await detect({ cwd: dir, autoInstall: false });
+      if (detectedAgent == null) {
+        throw new Error(`Failed to detect packagemanager in ${dir}`);
+      }
+      options.agent = detectedAgent;
+    }
+    if (!AGENTS[options.agent]) {
+      throw new Error(
+        `Invalid agent ${options.agent}. Allowed values: ${Object.keys(
+          AGENTS,
+        ).join(', ')}`,
+      );
+    }
+    const agent = options.agent;
+    const beforeInstallCommand = toCommand(beforeInstall, agent);
+    const afterInstallCommand = toCommand(afterInstall, agent);
+    const beforeBuildCommand = toCommand(beforeBuild, agent);
+    const beforeTestCommand = toCommand(beforeTest, agent);
+    const buildCommand = toCommand(build, agent);
+    const testCommand = toCommand(test, agent);
 
-  if (verify && test) {
-    const frozenInstall = getCommand(agent, 'frozen');
-    await $`${frozenInstall}`;
+    const pkgFile = path.join(dir, 'package.json');
+    const pkg = JSON.parse(await fs.promises.readFile(pkgFile, 'utf-8'));
+
+    if (verify && test) {
+      const frozenInstall = getCommand(agent, 'frozen');
+      await $`${frozenInstall}`;
+      await beforeBuildCommand?.(pkg.scripts);
+      await buildCommand?.(pkg.scripts);
+      await beforeTestCommand?.(pkg.scripts);
+      await testCommand?.(pkg.scripts);
+    }
+    const overrides: Overrides = { ...(options.overrides || {}) };
+
+    if (
+      activeStack === 'rsbuild' ||
+      activeStack === 'rstest' ||
+      activeStack === 'rslib' ||
+      activeStack === 'rsdoctor' ||
+      activeStack === 'rslint' ||
+      activeStack === 'rspress'
+    ) {
+      const packages = await getMonorepoPackages(activeStack);
+      if (options.release) {
+        for (const pkgInfo of packages) {
+          if (
+            overrides[pkgInfo.name] &&
+            overrides[pkgInfo.name] !== options.release
+          ) {
+            throw new Error(
+              `conflicting overrides[${pkgInfo.name}]=${overrides[pkgInfo.name]} and --release=${options.release} config. Use either one or the other`,
+            );
+          }
+          overrides[pkgInfo.name] = options.release;
+        }
+      } else {
+        for (const pkgInfo of packages) {
+          overrides[pkgInfo.name] ||= pkgInfo.directory;
+        }
+      }
+      await applyPackageOverrides({
+        dir,
+        pkg,
+        overrides,
+        agent,
+        beforeInstallCommand,
+        installArgs: {
+          pnpm: [
+            '--prefer-frozen-lockfile',
+            '--prefer-offline',
+            '--strict-peer-dependencies',
+            'false',
+          ],
+        },
+        devDependencyStrategy: 'local',
+      });
+    } else {
+      const { npm, binding, packages } = await getRspackPackageData();
+      const packageList = [
+        ...(options.release ? [] : npm),
+        ...binding,
+        ...packages,
+      ];
+      if (options.release) {
+        for (const pkgInfo of packageList) {
+          if (
+            overrides[pkgInfo.name] &&
+            overrides[pkgInfo.name] !== options.release
+          ) {
+            throw new Error(
+              `conflicting overrides[${pkgInfo.name}]=${overrides[pkgInfo.name]} and --release=${options.release} config. Use either one or the other`,
+            );
+          }
+          overrides[pkgInfo.name] = options.release;
+        }
+      } else {
+        await patchBindingPackageJson(binding);
+        for (const pkgInfo of packageList) {
+          overrides[pkgInfo.name] ||= pkgInfo.directory;
+        }
+      }
+      await applyPackageOverrides({
+        dir,
+        pkg,
+        overrides,
+        agent,
+        beforeInstallCommand,
+        installArgs: {
+          pnpm: [
+            '--prefer-frozen-lockfile',
+            '--prefer-offline',
+            '--no-strict-peer-dependencies',
+          ],
+        },
+        devDependencyStrategy: 'all',
+      });
+    }
+    await afterInstallCommand?.(pkg.scripts);
     await beforeBuildCommand?.(pkg.scripts);
     await buildCommand?.(pkg.scripts);
-    await beforeTestCommand?.(pkg.scripts);
-    await testCommand?.(pkg.scripts);
-  }
-  const overrides: Overrides = { ...(options.overrides || {}) };
+    if (test) {
+      await beforeTestCommand?.(pkg.scripts);
+      await testCommand?.(pkg.scripts);
+    }
+    return { dir };
+  };
 
-  if (
-    activeStack === 'rsbuild' ||
-    activeStack === 'rstest' ||
-    activeStack === 'rslib' ||
-    activeStack === 'rsdoctor' ||
-    activeStack === 'rslint' ||
-    activeStack === 'rspress'
-  ) {
-    const packages = await getMonorepoPackages(activeStack);
-    if (options.release) {
-      for (const pkgInfo of packages) {
-        if (
-          overrides[pkgInfo.name] &&
-          overrides[pkgInfo.name] !== options.release
-        ) {
-          throw new Error(
-            `conflicting overrides[${pkgInfo.name}]=${overrides[pkgInfo.name]} and --release=${options.release} config. Use either one or the other`,
-          );
+  try {
+    return await runWorkflow();
+  } finally {
+    if (workspaceRenamed) {
+      try {
+        await fs.promises.rename(tempWorkspaceFile, workspaceFile);
+      } catch (error) {
+        if (!isFileNotFoundError(error)) {
+          // biome-ignore lint/correctness/noUnsafeFinally: <explanation>
+          throw error;
         }
-        overrides[pkgInfo.name] = options.release;
-      }
-    } else {
-      for (const pkgInfo of packages) {
-        overrides[pkgInfo.name] ||= pkgInfo.directory;
       }
     }
-    await applyPackageOverrides({
-      dir,
-      pkg,
-      overrides,
-      agent,
-      beforeInstallCommand,
-      installArgs: {
-        pnpm: [
-          '--prefer-frozen-lockfile',
-          '--prefer-offline',
-          '--strict-peer-dependencies',
-          'false',
-        ],
-      },
-      devDependencyStrategy: 'local',
-    });
-  } else {
-    const { npm, binding, packages } = await getRspackPackageData();
-    const packageList = [
-      ...(options.release ? [] : npm),
-      ...binding,
-      ...packages,
-    ];
-    if (options.release) {
-      for (const pkgInfo of packageList) {
-        if (
-          overrides[pkgInfo.name] &&
-          overrides[pkgInfo.name] !== options.release
-        ) {
-          throw new Error(
-            `conflicting overrides[${pkgInfo.name}]=${overrides[pkgInfo.name]} and --release=${options.release} config. Use either one or the other`,
-          );
-        }
-        overrides[pkgInfo.name] = options.release;
-      }
-    } else {
-      await patchBindingPackageJson(binding);
-      for (const pkgInfo of packageList) {
-        overrides[pkgInfo.name] ||= pkgInfo.directory;
-      }
-    }
-    await applyPackageOverrides({
-      dir,
-      pkg,
-      overrides,
-      agent,
-      beforeInstallCommand,
-      installArgs: {
-        pnpm: [
-          '--prefer-frozen-lockfile',
-          '--prefer-offline',
-          '--no-strict-peer-dependencies',
-        ],
-      },
-      devDependencyStrategy: 'all',
-    });
   }
-  await afterInstallCommand?.(pkg.scripts);
-  await beforeBuildCommand?.(pkg.scripts);
-  await buildCommand?.(pkg.scripts);
-  if (test) {
-    await beforeTestCommand?.(pkg.scripts);
-    await testCommand?.(pkg.scripts);
-  }
-  return { dir };
 }
 
 export async function setupStackRepo(options: Partial<RepoOptions> = {}) {

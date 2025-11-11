@@ -40,7 +40,7 @@ export async function deployPreviewToNetlify(options: DeployOptions) {
 
   const cliSpecifier = process.env.RSPRESS_NETLIFY_CLI ?? DEFAULT_NETLIFY_CLI;
   const result =
-    await $`pnpm --package=${cliSpecifier} dlx netlify deploy --dir=${outputDir} --alias=${alias} --message=${message} --site=${siteId} --auth=${authToken} --json`;
+    await $`pnpm --package=${cliSpecifier} dlx netlify deploy --dir=${outputDir} --alias=${alias} --message=${message} --site=${siteId} --auth=${authToken} --json --no-build`;
 
   try {
     const parsed = JSON.parse(result);
