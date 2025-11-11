@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "95ae7d7da95c4603c092767fc0916ed29c161cd9",
+    "commitTimestamp": "2025-11-11T12:15:28Z",
+    "commitMessage": "fix(create-rslib): support repeatable `—tools` flag (#1328)",
+    "author": {
+      "name": "Wei",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19265299231",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19265299231/job/55079590749"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19265299231/job/55079590753"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19265299231/job/55079590755"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19265299231/job/55079590757"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19265299231/job/55079590760"
+      }
+    ]
+  },
+  {
     "commitSha": "f210f60887c8ea2519284e6835865b99bfc7b6de",
     "commitTimestamp": "2025-11-10T09:52:32Z",
     "commitMessage": "chore(build): use advanced ESM (#1325)",
