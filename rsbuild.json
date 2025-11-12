@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "234ed78f2ffcd410aa9dffb81bc23cacf9c14ed4",
+    "commitTimestamp": "2025-11-12T02:37:38Z",
+    "commitMessage": "feat: exposes environments in `tools.rspack` (#6555)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19284605293",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19284605293/job/55142588560"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19284605293/job/55142588562"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19284605293/job/55142588563"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19284605293/job/55142588565"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19284605293/job/55142588569"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19284605293/job/55142588586"
+      }
+    ]
+  },
+  {
     "commitSha": "8183fc04a0c3b8a5f29f5db4d073e4a01f008c8e",
     "commitTimestamp": "2025-11-11T14:49:23Z",
     "commitMessage": "fix: correct `importLoaders` count for node target (#6554)",
