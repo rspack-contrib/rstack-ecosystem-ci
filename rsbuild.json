@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "72fed9f323cff7f5676eec78552d1c28d9b2b9b1",
+    "commitTimestamp": "2025-11-12T03:30:26Z",
+    "commitMessage": "fix: ensure consistent CSS output for SSR and client hydration (#6558)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19285436506",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19285436506/job/55145291995"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19285436506/job/55145291998"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19285436506/job/55145292003"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19285436506/job/55145292006"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19285436506/job/55145292016"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19285436506/job/55145292019"
+      }
+    ]
+  },
+  {
     "commitSha": "234ed78f2ffcd410aa9dffb81bc23cacf9c14ed4",
     "commitTimestamp": "2025-11-12T02:37:38Z",
     "commitMessage": "feat: exposes environments in `tools.rspack` (#6555)",
