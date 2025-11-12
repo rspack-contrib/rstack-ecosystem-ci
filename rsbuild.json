@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "afa1dfd7f7369cd8b960f59a790a1b02772aef5a",
+    "commitTimestamp": "2025-11-12T14:17:19Z",
+    "commitMessage": "feat(deps): update dependency @rspack/core to v1.6.2 (#6561)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19300509234",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19300509234/job/55193411589"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19300509234/job/55193411595"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19300509234/job/55193411614"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19300509234/job/55193411638"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19300509234/job/55193411640"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19300509234/job/55193411652"
+      }
+    ]
+  },
+  {
     "commitSha": "f4a588c6a1951afef750eb755cd30fb23720dd65",
     "commitTimestamp": "2025-11-12T14:02:16Z",
     "commitMessage": "refactor: optimize environment handling with environmentList (#6560)",
