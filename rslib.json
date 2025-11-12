@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "06563fd1131acddd655ac40fb7caf25abff9a7eb",
+    "commitTimestamp": "2025-11-12T07:04:59Z",
+    "commitMessage": "feat: log a flag to mark first compile done in watch mode (#1330)",
+    "author": {
+      "name": "Wei",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19289340982",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19289340982/job/55156369774"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19289340982/job/55156369779"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19289340982/job/55156369785"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19289340982/job/55156369790"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19289340982/job/55156369796"
+      }
+    ]
+  },
+  {
     "commitSha": "95ae7d7da95c4603c092767fc0916ed29c161cd9",
     "commitTimestamp": "2025-11-11T12:15:28Z",
     "commitMessage": "fix(create-rslib): support repeatable `—tools` flag (#1328)",
