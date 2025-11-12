@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "8fd0c06d8837d3b98a23b1bc9dbfc14d842619e9",
+    "commitTimestamp": "2025-11-12T02:59:22Z",
+    "commitMessage": "fix: should get project's tsconfigPath correctly (#687)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19284901408",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19284901408/job/55143531727"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19284901408/job/55143531743"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19284901408/job/55143531753"
+      }
+    ]
+  },
+  {
     "commitSha": "9fab8c032a3fd79e2949bbd436d7197ee7882ad4",
     "commitTimestamp": "2025-11-11T08:49:48Z",
     "commitMessage": "release: 0.6.4 (#686)",
