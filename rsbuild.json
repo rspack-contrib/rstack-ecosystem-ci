@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f4a588c6a1951afef750eb755cd30fb23720dd65",
+    "commitTimestamp": "2025-11-12T14:02:16Z",
+    "commitMessage": "refactor: optimize environment handling with environmentList (#6560)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19300055280",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19300055280/job/55191810432"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19300055280/job/55191810448"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19300055280/job/55191810451"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19300055280/job/55191810458"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19300055280/job/55191810476"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19300055280/job/55191810477"
+      }
+    ]
+  },
+  {
     "commitSha": "097fcadb30d70b96ce10cf891a09bc01f0c52090",
     "commitTimestamp": "2025-11-12T12:39:39Z",
     "commitMessage": "feat: hint assets emit name conflict (#6559)",
