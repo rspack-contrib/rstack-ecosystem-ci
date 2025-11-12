@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "86a9c3da1186ebd34e6331a4587bcd2ce6fa0cc9",
+    "commitTimestamp": "2025-11-12T03:12:39Z",
+    "commitMessage": "feat(vscode): remove unnecessary logger code (#685)",
+    "author": {
+      "name": "claneo",
+      "email": "claneo@outlook.com",
+      "login": "claneo"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19285135033",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19285135033/job/55144221497"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19285135033/job/55144221498"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19285135033/job/55144221504"
+      }
+    ]
+  },
+  {
     "commitSha": "8fd0c06d8837d3b98a23b1bc9dbfc14d842619e9",
     "commitTimestamp": "2025-11-12T02:59:22Z",
     "commitMessage": "fix: should get project's tsconfigPath correctly (#687)",
