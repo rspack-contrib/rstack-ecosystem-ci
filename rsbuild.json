@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "097fcadb30d70b96ce10cf891a09bc01f0c52090",
+    "commitTimestamp": "2025-11-12T12:39:39Z",
+    "commitMessage": "feat: hint assets emit name conflict (#6559)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19297756672",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19297756672/job/55183890458"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19297756672/job/55183890459"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19297756672/job/55183890477"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19297756672/job/55183890479"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19297756672/job/55183890490"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19297756672/job/55183890511"
+      }
+    ]
+  },
+  {
     "commitSha": "72fed9f323cff7f5676eec78552d1c28d9b2b9b1",
     "commitTimestamp": "2025-11-12T03:30:26Z",
     "commitMessage": "fix: ensure consistent CSS output for SSR and client hydration (#6558)",
