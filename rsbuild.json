@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "5c3ae5048523ff20ac6a60a8a0b40f0fb2883b7e",
+    "commitTimestamp": "2025-11-13T01:36:31Z",
+    "commitMessage": "chore(deps): update dependency sass to ^1.94.0 (#6564)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19317610894",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19317610894/job/55252156784"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19317610894/job/55252156786"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19317610894/job/55252156790"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19317610894/job/55252156796"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19317610894/job/55252156803"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19317610894/job/55252156805"
+      }
+    ]
+  },
+  {
     "commitSha": "6dd55f3abb933c60f16ca8de36b778ec728fee84",
     "commitTimestamp": "2025-11-13T01:16:42Z",
     "commitMessage": "chore(deps): update all patch dependencies (#6563)",
