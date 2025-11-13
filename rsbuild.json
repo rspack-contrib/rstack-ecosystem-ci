@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c6d8f569f0beef2a0469e1ffbfa5566fa4a73238",
+    "commitTimestamp": "2025-11-13T07:20:09Z",
+    "commitMessage": "refactor: improve compiler hook handling and type safety (#6570)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19323915366",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19323915366/job/55270626609"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19323915366/job/55270626619"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19323915366/job/55270626623"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19323915366/job/55270626628"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19323915366/job/55270626638"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19323915366/job/55270626701"
+      }
+    ]
+  },
+  {
     "commitSha": "baf85fa42551844c73a92e237eb21b9a14560263",
     "commitTimestamp": "2025-11-13T05:51:38Z",
     "commitMessage": "chore(ci): update pnpm trust policy exclusions (#6569)",
