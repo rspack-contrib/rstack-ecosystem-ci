@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f6460bd64258a03ca0586ab7c7bafb3ae850afac",
+    "commitTimestamp": "2025-11-13T09:47:57Z",
+    "commitMessage": "fix: remove runtimeChunk config for ESM web app (#6573)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19327348076",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19327348076/job/55281631569"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19327348076/job/55281631574"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19327348076/job/55281631577"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19327348076/job/55281631578"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19327348076/job/55281631582"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19327348076/job/55281631583"
+      }
+    ]
+  },
+  {
     "commitSha": "bf91f28df1714652dda5d05d037433b8fca0c2cc",
     "commitTimestamp": "2025-11-13T09:14:26Z",
     "commitMessage": "fix(moduleFederation): remove split chunks patch (#6572)",
