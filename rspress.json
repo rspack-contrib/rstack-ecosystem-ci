@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "cc89f29acb8262b9a69ecb977aa421fdacc736e6",
+    "commitTimestamp": "2025-11-13T07:46:18Z",
+    "commitMessage": "security: enable pnpm's no-downgrade trustPolicy (#2751)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19324303212",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19324303212/job/55271782869"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19324303212/job/55271782880"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19324303212/job/55271782883"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19324303212/job/55271782885"
+      }
+    ]
+  },
+  {
     "commitSha": "4f7be36c95c718abc03d82ca7d34856c537bceb2",
     "commitTimestamp": "2025-11-13T03:27:38Z",
     "commitMessage": "fix(theme): use pointer cursor for menu (#2750)",
