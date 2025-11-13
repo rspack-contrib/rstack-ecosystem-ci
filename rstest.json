@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "8adf325b7049365e88ff60700ab314a11e70b673",
+    "commitTimestamp": "2025-11-13T09:10:13Z",
+    "commitMessage": "fix(vscode-extension): import rstest error on windows (#693)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19326318230",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19326318230/job/55278273469"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19326318230/job/55278273515"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19326318230/job/55278273528"
+      }
+    ]
+  },
+  {
     "commitSha": "5ab28b785abaeede4a8b1d1efb2e039e2274c7b6",
     "commitTimestamp": "2025-11-13T05:58:53Z",
     "commitMessage": "chore: only render status in tty context (#692)",
