@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "baf85fa42551844c73a92e237eb21b9a14560263",
+    "commitTimestamp": "2025-11-13T05:51:38Z",
+    "commitMessage": "chore(ci): update pnpm trust policy exclusions (#6569)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19321985137",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19321985137/job/55265031200"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19321985137/job/55265031203"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19321985137/job/55265031208"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19321985137/job/55265031212"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19321985137/job/55265031215"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19321985137/job/55265031217"
+      }
+    ]
+  },
+  {
     "commitSha": "0dd57ccfa33b5dad625d3e85a13bba5d7675f2c1",
     "commitTimestamp": "2025-11-13T02:21:34Z",
     "commitMessage": "release: v1.6.5 (#6568)",
