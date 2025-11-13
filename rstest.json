@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "bdafa1cfa42cc7a1a017028990e6553a2cab852c",
+    "commitTimestamp": "2025-11-13T11:36:07Z",
+    "commitMessage": "chore(vscode-extension): update default test file glob pattern (#694)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19330229000",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19330229000/job/55291187839"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19330229000/job/55291187841"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19330229000/job/55291187847"
+      }
+    ]
+  },
+  {
     "commitSha": "8adf325b7049365e88ff60700ab314a11e70b673",
     "commitTimestamp": "2025-11-13T09:10:13Z",
     "commitMessage": "fix(vscode-extension): import rstest error on windows (#693)",
