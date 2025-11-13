@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "9f34add762229d54e0c50900d6b689ad1303efe8",
+    "commitTimestamp": "2025-11-13T08:23:25Z",
+    "commitMessage": "chore(infra): run pnpm dedupe (#2752)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19325139950",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19325139950/job/55274407420"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19325139950/job/55274407423"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19325139950/job/55274407424"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19325139950/job/55274407436"
+      }
+    ]
+  },
+  {
     "commitSha": "fd2229b20850bb0e003d746c6e4ab6f28f5f54fb",
     "commitTimestamp": "2025-11-13T08:22:24Z",
     "commitMessage": "fix: pathnameToRouteService to handle URLs with hash and search parameters (#2743)",
