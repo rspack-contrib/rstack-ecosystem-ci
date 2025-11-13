@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "bf91f28df1714652dda5d05d037433b8fca0c2cc",
+    "commitTimestamp": "2025-11-13T09:14:26Z",
+    "commitMessage": "fix(moduleFederation): remove split chunks patch (#6572)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19326434116",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19326434116/job/55278649802"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19326434116/job/55278649805"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19326434116/job/55278649816"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19326434116/job/55278649823"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19326434116/job/55278649825"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19326434116/job/55278649828"
+      }
+    ]
+  },
+  {
     "commitSha": "fdbc74e555d9062a1ad242131897504e947d6833",
     "commitTimestamp": "2025-11-13T08:59:40Z",
     "commitMessage": "chore(deps): update dependency @rspack/lite-tapable to ~1.1.0 (#6557)",
