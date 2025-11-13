@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "5ab28b785abaeede4a8b1d1efb2e039e2274c7b6",
+    "commitTimestamp": "2025-11-13T05:58:53Z",
+    "commitMessage": "chore: only render status in tty context (#692)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19322098269",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19322098269/job/55265359366"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19322098269/job/55265359371"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19322098269/job/55265359374"
+      }
+    ]
+  },
+  {
     "commitSha": "0dbdfcbf69c71ea760ddd1c8d91cfbbb12359ad2",
     "commitTimestamp": "2025-11-12T08:10:53Z",
     "commitMessage": "chore: no need to run files when run list filesOnly (#689)",
