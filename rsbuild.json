@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "8fa84848ae0717b01015ad37d71554b2f3b4c965",
+    "commitTimestamp": "2025-11-13T11:36:24Z",
+    "commitMessage": "release: v1.6.6 (#6574)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19330322701",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19330322701/job/55291496462"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19330322701/job/55291496463"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19330322701/job/55291496469"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19330322701/job/55291496475"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19330322701/job/55291496495"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19330322701/job/55291496498"
+      }
+    ]
+  },
+  {
     "commitSha": "f6460bd64258a03ca0586ab7c7bafb3ae850afac",
     "commitTimestamp": "2025-11-13T09:47:57Z",
     "commitMessage": "fix: remove runtimeChunk config for ESM web app (#6573)",
