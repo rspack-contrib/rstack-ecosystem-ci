@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "fdbc74e555d9062a1ad242131897504e947d6833",
+    "commitTimestamp": "2025-11-13T08:59:40Z",
+    "commitMessage": "chore(deps): update dependency @rspack/lite-tapable to ~1.1.0 (#6557)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19326056241",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19326056241/job/55277407836"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19326056241/job/55277407837"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19326056241/job/55277407841"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19326056241/job/55277407850"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19326056241/job/55277407852"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19326056241/job/55277407902"
+      }
+    ]
+  },
+  {
     "commitSha": "14b0ac9ff68e078c742fab81892b2708b4e63399",
     "commitTimestamp": "2025-11-13T08:44:07Z",
     "commitMessage": "feat(deps): update dependency @rspack/core to v1.6.3 (#6571)",
