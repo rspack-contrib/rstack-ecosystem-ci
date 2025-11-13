@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c6095d9a9cee718d9885639077066664accbc828",
+    "commitTimestamp": "2025-11-13T02:17:20Z",
+    "commitMessage": "Revert \"feat(deps): update dependency @rspack/core to v1.6.2 (#6561)\" (#6567)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19318327906",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19318327906/job/55254207472"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19318327906/job/55254207475"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19318327906/job/55254207480"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19318327906/job/55254207482"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19318327906/job/55254207489"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19318327906/job/55254207490"
+      }
+    ]
+  },
+  {
     "commitSha": "c8f428f003c796ed3843a95f181702835093b1f7",
     "commitTimestamp": "2025-11-13T01:39:01Z",
     "commitMessage": "security: enable pnpm's no-downgrade trustPolicy (#6562)",
