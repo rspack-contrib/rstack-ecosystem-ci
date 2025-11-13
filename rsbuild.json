@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "14b0ac9ff68e078c742fab81892b2708b4e63399",
+    "commitTimestamp": "2025-11-13T08:44:07Z",
+    "commitMessage": "feat(deps): update dependency @rspack/core to v1.6.3 (#6571)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19325635526",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19325635526/job/55276002279"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19325635526/job/55276002280"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19325635526/job/55276002285"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19325635526/job/55276002298"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19325635526/job/55276002300"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19325635526/job/55276002305"
+      }
+    ]
+  },
+  {
     "commitSha": "c6d8f569f0beef2a0469e1ffbfa5566fa4a73238",
     "commitTimestamp": "2025-11-13T07:20:09Z",
     "commitMessage": "refactor: improve compiler hook handling and type safety (#6570)",
