@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "027ba466d8fb917231c684c0debecf6cd2efef06",
+    "commitTimestamp": "2025-11-13T09:34:20Z",
+    "commitMessage": "chore(theme): simplify scss structure (#2753)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19326980434",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19326980434/job/55280415491"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19326980434/job/55280415498"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19326980434/job/55280415499"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19326980434/job/55280415517"
+      }
+    ]
+  },
+  {
     "commitSha": "9f34add762229d54e0c50900d6b689ad1303efe8",
     "commitTimestamp": "2025-11-13T08:23:25Z",
     "commitMessage": "chore(infra): run pnpm dedupe (#2752)",
