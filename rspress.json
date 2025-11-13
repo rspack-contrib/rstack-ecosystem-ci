@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "fd2229b20850bb0e003d746c6e4ab6f28f5f54fb",
+    "commitTimestamp": "2025-11-13T08:22:24Z",
+    "commitMessage": "fix: pathnameToRouteService to handle URLs with hash and search parameters (#2743)",
+    "author": {
+      "name": "Copilot",
+      "email": "198982749+Copilot@users.noreply.github.com",
+      "login": "Copilot"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19325113064",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19325113064/job/55274321867"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19325113064/job/55274321874"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19325113064/job/55274321876"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19325113064/job/55274321890"
+      }
+    ]
+  },
+  {
     "commitSha": "b20cc39f6e6832204bb4ed0958f6ff505609a1b0",
     "commitTimestamp": "2025-11-13T07:48:55Z",
     "commitMessage": "feat(CLI): Add `rspress eject` CLI command for theme component customization (#2726)",
