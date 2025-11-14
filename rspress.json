@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "5ef68490cec91e4999caf21c5ae04798dcd9b3ae",
+    "commitTimestamp": "2025-11-14T08:21:56Z",
+    "commitMessage": "fix(theme): Edit link should show (#2763)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19358652433",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19358652433/job/55385109280"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19358652433/job/55385109288"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19358652433/job/55385109291"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19358652433/job/55385109293"
+      }
+    ]
+  },
+  {
     "commitSha": "e1c7926fcab25505d158cea181b9add77612412a",
     "commitTimestamp": "2025-11-14T07:03:22Z",
     "commitMessage": "chore: update pnpm trust policy exclusions (#2758)",
