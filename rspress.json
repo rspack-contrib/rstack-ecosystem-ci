@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "2137d7331e2f78a2a66e4d76e74d6b43e8d4683f",
+    "commitTimestamp": "2025-11-14T06:56:19Z",
+    "commitMessage": "fix: do not expose scrollToTarget as public API (#2761)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19356891337",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19356891337/job/55379800811"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19356891337/job/55379800812"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19356891337/job/55379800818"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19356891337/job/55379800823"
+      }
+    ]
+  },
+  {
     "commitSha": "fab6454d979df9313d3ce4f77cc14e611d7a12c6",
     "commitTimestamp": "2025-11-14T06:49:55Z",
     "commitMessage": "feat(theme): add pageType: doc-wide (#2759)",
