@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "7c0c11263d1113d8c2d3aad3015ff566bd4af209",
+    "commitTimestamp": "2025-11-14T08:02:03Z",
+    "commitMessage": "feat(vscode): communicate with worker using ipc instead of websocket (#691)",
+    "author": {
+      "name": "claneo",
+      "email": "claneo@outlook.com",
+      "login": "claneo"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19358205584",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19358205584/job/55383693083"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19358205584/job/55383693091"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19358205584/job/55383693101"
+      }
+    ]
+  },
+  {
     "commitSha": "10759506d164cedaf4d7a1afbc0c9d8f08d4ac2c",
     "commitTimestamp": "2025-11-13T12:01:55Z",
     "commitMessage": "release: 0.6.5 (#695)",
