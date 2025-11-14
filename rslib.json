@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "faf1711edc5e9d9f7ca61b6dfcf66746a78acfa0",
+    "commitTimestamp": "2025-11-14T08:46:12Z",
+    "commitMessage": "security: enable pnpm's no-downgrade trustPolicy (#1333)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19359214576",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19359214576/job/55386893198"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19359214576/job/55386893204"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19359214576/job/55386893211"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19359214576/job/55386893212"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19359214576/job/55386893217"
+      }
+    ]
+  },
+  {
     "commitSha": "241be517d63cce1c05953d6c45842f33baf0aa6a",
     "commitTimestamp": "2025-11-13T14:14:53Z",
     "commitMessage": "chore(deps): bump Rslib 0.17.2 (#1337)",
