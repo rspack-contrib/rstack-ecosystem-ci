@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "e1c7926fcab25505d158cea181b9add77612412a",
+    "commitTimestamp": "2025-11-14T07:03:22Z",
+    "commitMessage": "chore: update pnpm trust policy exclusions (#2758)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19357027782",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19357027782/job/55380194115"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19357027782/job/55380194118"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19357027782/job/55380194123"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19357027782/job/55380194152"
+      }
+    ]
+  },
+  {
     "commitSha": "2137d7331e2f78a2a66e4d76e74d6b43e8d4683f",
     "commitTimestamp": "2025-11-14T06:56:19Z",
     "commitMessage": "fix: do not expose scrollToTarget as public API (#2761)",
