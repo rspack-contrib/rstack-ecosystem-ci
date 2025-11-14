@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2798703e51c471b8f0b651cf050407ea633344e9",
+    "commitTimestamp": "2025-11-14T08:33:52Z",
+    "commitMessage": "chore: update pnpm trust policy exclusions (#6577)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19358946076",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19358946076/job/55386014180"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19358946076/job/55386014192"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19358946076/job/55386014193"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19358946076/job/55386014199"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19358946076/job/55386014210"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19358946076/job/55386014240"
+      }
+    ]
+  },
+  {
     "commitSha": "38d45de2e8ee049cf1ee4728bd51a831c7d2acc1",
     "commitTimestamp": "2025-11-14T02:17:31Z",
     "commitMessage": "build(core): enable advanced ESM (#6575)",
