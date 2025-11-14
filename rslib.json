@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "056432d9071bbc46bf71823afe91e39b8111b3a1",
+    "commitTimestamp": "2025-11-14T08:51:14Z",
+    "commitMessage": "feat: enable buildCache by default (#1334)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19359351841",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19359351841/job/55387343124"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19359351841/job/55387343133"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19359351841/job/55387343151"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19359351841/job/55387343161"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19359351841/job/55387343182"
+      }
+    ]
+  },
+  {
     "commitSha": "faf1711edc5e9d9f7ca61b6dfcf66746a78acfa0",
     "commitTimestamp": "2025-11-14T08:46:12Z",
     "commitMessage": "security: enable pnpm's no-downgrade trustPolicy (#1333)",
