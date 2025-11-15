@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4d9533fd31488c9c6a2b6a44aad96853d08b80ea",
+    "commitTimestamp": "2025-11-15T03:17:55Z",
+    "commitMessage": "fix: treat protocol-relative paths as URLs (#6582)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19383613784",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19383613784/job/55466993786"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19383613784/job/55466993789"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19383613784/job/55466993790"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19383613784/job/55466993794"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19383613784/job/55466993796"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19383613784/job/55466993810"
+      }
+    ]
+  },
+  {
     "commitSha": "4fe5c39babbc3be8f53db04115747a9a7a38f4bb",
     "commitTimestamp": "2025-11-15T01:00:54Z",
     "commitMessage": "docs: upgrade to Rspress V2 new UI (#6341)",
