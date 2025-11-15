@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c7da4f7cfb0a9ec0273873e0a1c5235673216586",
+    "commitTimestamp": "2025-11-15T03:24:41Z",
+    "commitMessage": "perf: reduce redundant array allocations in asset regex builder (#6581)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19383699527",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19383699527/job/55467245417"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19383699527/job/55467245419"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19383699527/job/55467245420"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19383699527/job/55467245421"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19383699527/job/55467245427"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19383699527/job/55467245428"
+      }
+    ]
+  },
+  {
     "commitSha": "4d9533fd31488c9c6a2b6a44aad96853d08b80ea",
     "commitTimestamp": "2025-11-15T03:17:55Z",
     "commitMessage": "fix: treat protocol-relative paths as URLs (#6582)",
