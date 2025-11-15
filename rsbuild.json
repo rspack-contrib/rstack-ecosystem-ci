@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4fe5c39babbc3be8f53db04115747a9a7a38f4bb",
+    "commitTimestamp": "2025-11-15T01:00:54Z",
+    "commitMessage": "docs: upgrade to Rspress V2 new UI (#6341)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19381873725",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19381873725/job/55462041286"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19381873725/job/55462041287"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19381873725/job/55462041289"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19381873725/job/55462041292"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19381873725/job/55462041295"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19381873725/job/55462041308"
+      }
+    ]
+  },
+  {
     "commitSha": "2798703e51c471b8f0b651cf050407ea633344e9",
     "commitTimestamp": "2025-11-14T08:33:52Z",
     "commitMessage": "chore: update pnpm trust policy exclusions (#6577)",
