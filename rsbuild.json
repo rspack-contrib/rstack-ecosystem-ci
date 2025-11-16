@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "dce4be01a9c710d9c49640caa4df9559d6901b9d",
+    "commitTimestamp": "2025-11-16T02:58:32Z",
+    "commitMessage": "docs: align dev config JSDoc with documentation (#6586)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19399361454",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19399361454/job/55504283573"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19399361454/job/55504283575"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19399361454/job/55504283576"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19399361454/job/55504283577"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19399361454/job/55504283580"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19399361454/job/55504283582"
+      }
+    ]
+  },
+  {
     "commitSha": "c7da4f7cfb0a9ec0273873e0a1c5235673216586",
     "commitTimestamp": "2025-11-15T03:24:41Z",
     "commitMessage": "perf: reduce redundant array allocations in asset regex builder (#6581)",
