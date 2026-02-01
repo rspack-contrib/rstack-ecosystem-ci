@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "1cbb803537e776645cb99464dcd55ffb6f61c886",
+    "commitTimestamp": "2026-02-01T11:51:13Z",
+    "commitMessage": " docs: add migration guide for `chunkSplit` (#7104)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21562380881",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21562380881/job/62128311089"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21562380881/job/62128311093"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21562380881/job/62128311096"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21562380881/job/62128311103"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21562380881/job/62128311104"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21562380881/job/62128311105"
+      }
+    ]
+  },
+  {
     "commitSha": "f31911cb3a6c328eded278b10cfea3fb265bd1f4",
     "commitTimestamp": "2026-02-01T00:44:49Z",
     "commitMessage": "chore(deps): update dependency @shikijs/transformers to ^3.22.0 (#7100)",
