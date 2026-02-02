@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "66f1c096c6ce31095ee26f6aa29e756671444bef",
+    "commitTimestamp": "2026-02-02T02:56:32Z",
+    "commitMessage": "chore(deps): update actions/upload-artifact digest to 47309c9 (#7105)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21575756434",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21575756434/job/62162650088"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21575756434/job/62162650090"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21575756434/job/62162650093"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21575756434/job/62162650096"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21575756434/job/62162650098"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21575756434/job/62162650120"
+      }
+    ]
+  },
+  {
     "commitSha": "1cbb803537e776645cb99464dcd55ffb6f61c886",
     "commitTimestamp": "2026-02-01T11:51:13Z",
     "commitMessage": " docs: add migration guide for `chunkSplit` (#7104)",
