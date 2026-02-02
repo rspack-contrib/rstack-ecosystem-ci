@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "1ea85bc72468d0e39e49870c9c493ae6e572ded2",
+    "commitTimestamp": "2026-02-02T03:05:12Z",
+    "commitMessage": "fix(vscode): stderr logs not written to output (#926)",
+    "author": {
+      "name": "claneo",
+      "email": "claneo@outlook.com",
+      "login": "claneo"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21575911022",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21575911022/job/62163133690"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21575911022/job/62163133691"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21575911022/job/62163133701"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21575911022/job/62163133702"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21575911022/job/62163133711"
+      }
+    ]
+  },
+  {
     "commitSha": "9fe38b22fb51febaada27a2f14d4c268afa5485a",
     "commitTimestamp": "2026-01-30T09:40:52Z",
     "commitMessage": "fix(coverage): only apply coverage plugin for main js rule (#925)",
