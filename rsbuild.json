@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "5737797b08e981424c37b092dd7d933cd0995bfe",
+    "commitTimestamp": "2026-02-02T03:13:45Z",
+    "commitMessage": "chore(deps): update babel to ^7.29.0 (#7108)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21576098123",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21576098123/job/62163698318"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21576098123/job/62163698321"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21576098123/job/62163698322"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21576098123/job/62163698323"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21576098123/job/62163698324"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21576098123/job/62163698331"
+      }
+    ]
+  },
+  {
     "commitSha": "66f1c096c6ce31095ee26f6aa29e756671444bef",
     "commitTimestamp": "2026-02-02T02:56:32Z",
     "commitMessage": "chore(deps): update actions/upload-artifact digest to 47309c9 (#7105)",
