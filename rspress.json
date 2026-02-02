@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "e82dc1707e102e02abb92be3fe4a7979d74ace5e",
+    "commitTimestamp": "2026-02-02T03:09:32Z",
+    "commitMessage": "fix(theme): Fixed overviewgroup item text wrapping (#3085)",
+    "author": {
+      "name": "Elliot Courant",
+      "email": "me@elliotcourant.dev",
+      "login": "elliotcourant"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21575991808",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21575991808/job/62163382627"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21575991808/job/62163382634"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21575991808/job/62163382642"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21575991808/job/62163382644"
+      }
+    ]
+  },
+  {
     "commitSha": "a49904fccb7170f2964ba41ae2de8e6d1fc58de8",
     "commitTimestamp": "2026-01-31T07:58:12Z",
     "commitMessage": "Release v2.0.1 (#3083)",
