@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "9ec8c3d2b4fe0e7525de8bd72019df22c6cbab90",
+    "commitTimestamp": "2026-02-02T07:19:38Z",
+    "commitMessage": "chore(deps): update rspress-plugin-file-tree to ^1.0.4 (#3096)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21580933381",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21580933381/job/62177921911"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21580933381/job/62177921914"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21580933381/job/62177921923"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21580933381/job/62177921932"
+      }
+    ]
+  },
+  {
     "commitSha": "49fc8fa547679c66621af9e4d9f6d295a44cec0a",
     "commitTimestamp": "2026-02-02T07:12:22Z",
     "commitMessage": "chore(deps): update playwright monorepo to v1.58.1 (#3094)",
