@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "2a73fa99f5d041cf104c4a88e5e1027cc4620787",
+    "commitTimestamp": "2026-02-02T06:53:48Z",
+    "commitMessage": "chore(deps): update dependency @microsoft/api-extractor to ^7.56.0 (#3089)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21580334217",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21580334217/job/62176174153"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21580334217/job/62176174160"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21580334217/job/62176174171"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21580334217/job/62176174180"
+      }
+    ]
+  },
+  {
     "commitSha": "8ce430948788a74dc306281a9d6beb01a685ef4a",
     "commitTimestamp": "2026-02-02T03:31:22Z",
     "commitMessage": "chore(deps): update dependency @rstest/core to ^0.8.1 (#3090)",
