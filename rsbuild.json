@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ab4a9d4351e8af42b14e09936d9d0a698ae4a215",
+    "commitTimestamp": "2026-02-02T05:29:14Z",
+    "commitMessage": "fix(plugin-vue): failed to split chunks with Rsbuild v1 (#7112)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21578524251",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21578524251/job/62170908982"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21578524251/job/62170908986"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21578524251/job/62170908987"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21578524251/job/62170908992"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21578524251/job/62170908993"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21578524251/job/62170909002"
+      }
+    ]
+  },
+  {
     "commitSha": "0759b0496af9ef7d429875d112da18afdb103ef2",
     "commitTimestamp": "2026-02-02T04:13:26Z",
     "commitMessage": "chore(deps): update all patch dependencies (#7106)",
