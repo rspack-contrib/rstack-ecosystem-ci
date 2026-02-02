@@ -1,77 +1,39 @@
 [
   {
-    "commitSha": "8a9ae06866aaeea70016cbeec6324ac237f3238b",
-    "commitTimestamp": "2026-02-02T03:19:26Z",
-    "commitMessage": "chore(deps): update dependency @babel/types to ^7.29.0 (#3087)",
+    "commitSha": "517a7561afa8d7943b4ff004591df51d2a837044",
+    "commitTimestamp": "2026-02-02T03:20:06Z",
+    "commitMessage": "chore(infra): update Node for development to 24.13.0 (#3084)",
     "author": {
-      "name": "renovate[bot]",
-      "email": "29139614+renovate[bot]@users.noreply.github.com",
-      "login": "renovate[bot]"
+      "name": "Tatsunori Uchino",
+      "email": "tats.u@live.jp",
+      "login": "tats-u"
     },
     "repository": {
       "fullName": "web-infra-dev/rspress",
       "name": "rspress"
     },
-    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21576302358",
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21576336559",
     "overallStatus": "failure",
     "suites": [
       {
-        "name": "rsbuild",
+        "name": "rslib",
         "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21576302358/job/62164317051"
-      },
-      {
-        "name": "rstest",
-        "status": "failure",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21576302358/job/62164317054"
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21576336559/job/62164405913"
       },
       {
         "name": "rspack",
         "status": "failure",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21576302358/job/62164317055"
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21576336559/job/62164405915"
       },
-      {
-        "name": "rslib",
-        "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21576302358/job/62164317076"
-      }
-    ]
-  },
-  {
-    "commitSha": "9f8f125423570b599bc934580f8624742f72c3d2",
-    "commitTimestamp": "2026-02-02T03:19:00Z",
-    "commitMessage": "chore(deps): update all patch dependencies (#3086)",
-    "author": {
-      "name": "renovate[bot]",
-      "email": "29139614+renovate[bot]@users.noreply.github.com",
-      "login": "renovate[bot]"
-    },
-    "repository": {
-      "fullName": "web-infra-dev/rspress",
-      "name": "rspress"
-    },
-    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21576283370",
-    "overallStatus": "failure",
-    "suites": [
       {
         "name": "rsbuild",
         "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21576283370/job/62164267707"
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21576336559/job/62164405923"
       },
       {
         "name": "rstest",
         "status": "failure",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21576283370/job/62164267713"
-      },
-      {
-        "name": "rslib",
-        "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21576283370/job/62164267716"
-      },
-      {
-        "name": "rspack",
-        "status": "failure",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21576283370/job/62164267733"
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21576336559/job/62164405932"
       }
     ]
   },
