@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4dd0262221680a068d06a40d7fb6b91207ea9e80",
+    "commitTimestamp": "2026-02-02T07:50:41Z",
+    "commitMessage": "chore: bundle dependency @rspack/lite-tapable (#7115)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21581713351",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21581713351/job/62180272416"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21581713351/job/62180272433"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21581713351/job/62180272434"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21581713351/job/62180272444"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21581713351/job/62180272451"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21581713351/job/62180272461"
+      }
+    ]
+  },
+  {
     "commitSha": "5253966430868d58e2cb9695adbf34cfb29b622a",
     "commitTimestamp": "2026-02-02T05:45:53Z",
     "commitMessage": "docs: enable Rspress's new llms generation (#7114)",
