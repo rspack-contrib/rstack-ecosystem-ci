@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "49fc8fa547679c66621af9e4d9f6d295a44cec0a",
+    "commitTimestamp": "2026-02-02T07:12:22Z",
+    "commitMessage": "chore(deps): update playwright monorepo to v1.58.1 (#3094)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21580766890",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21580766890/job/62177437116"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21580766890/job/62177437120"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21580766890/job/62177437123"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21580766890/job/62177437141"
+      }
+    ]
+  },
+  {
     "commitSha": "5bfbc95c9ae3057e550f6eaf861466e617ff7af5",
     "commitTimestamp": "2026-02-02T07:11:12Z",
     "commitMessage": "chore(deps): update dependency tm-themes to v1.11.0 (#3093)",
