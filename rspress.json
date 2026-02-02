@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "9f8f125423570b599bc934580f8624742f72c3d2",
+    "commitTimestamp": "2026-02-02T03:19:00Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#3086)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21576283370",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21576283370/job/62164267707"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21576283370/job/62164267713"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21576283370/job/62164267716"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21576283370/job/62164267733"
+      }
+    ]
+  },
+  {
     "commitSha": "e82dc1707e102e02abb92be3fe4a7979d74ace5e",
     "commitTimestamp": "2026-02-02T03:09:32Z",
     "commitMessage": "fix(theme): Fixed overviewgroup item text wrapping (#3085)",
