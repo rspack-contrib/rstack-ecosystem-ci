@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "a9bce473cfdc11425ab2bbe69f9ca83a6b0d217e",
+    "commitTimestamp": "2026-02-02T09:37:14Z",
+    "commitMessage": "fix(plugin-preview): support QR code scanning on mobile devices and first screen SSR (#3098)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21584829738",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21584829738/job/62190331139"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21584829738/job/62190331154"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21584829738/job/62190331155"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21584829738/job/62190331196"
+      }
+    ]
+  },
+  {
     "commitSha": "9ec8c3d2b4fe0e7525de8bd72019df22c6cbab90",
     "commitTimestamp": "2026-02-02T07:19:38Z",
     "commitMessage": "chore(deps): update rspress-plugin-file-tree to ^1.0.4 (#3096)",
