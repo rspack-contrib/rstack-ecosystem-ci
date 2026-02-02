@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "5bfbc95c9ae3057e550f6eaf861466e617ff7af5",
+    "commitTimestamp": "2026-02-02T07:11:12Z",
+    "commitMessage": "chore(deps): update dependency tm-themes to v1.11.0 (#3093)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21580737283",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21580737283/job/62177353843"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21580737283/job/62177353844"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21580737283/job/62177353862"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21580737283/job/62177353866"
+      }
+    ]
+  },
+  {
     "commitSha": "2a73fa99f5d041cf104c4a88e5e1027cc4620787",
     "commitTimestamp": "2026-02-02T06:53:48Z",
     "commitMessage": "chore(deps): update dependency @microsoft/api-extractor to ^7.56.0 (#3089)",
