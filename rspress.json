@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "8ce430948788a74dc306281a9d6beb01a685ef4a",
+    "commitTimestamp": "2026-02-02T03:31:22Z",
+    "commitMessage": "chore(deps): update dependency @rstest/core to ^0.8.1 (#3090)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21576374872",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21576374872/job/62164515948"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21576374872/job/62164515952"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21576374872/job/62164515954"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21576374872/job/62164515965"
+      }
+    ]
+  },
+  {
     "commitSha": "517a7561afa8d7943b4ff004591df51d2a837044",
     "commitTimestamp": "2026-02-02T03:20:06Z",
     "commitMessage": "chore(infra): update Node for development to 24.13.0 (#3084)",
