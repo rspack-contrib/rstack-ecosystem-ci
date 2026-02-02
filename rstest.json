@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "da6b94d4658dcc30fcf6fadfae7304d247500a64",
+    "commitTimestamp": "2026-02-02T14:29:22Z",
+    "commitMessage": "feat(core): use `md` reporter for AI agent by default (#911)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21594043031",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21594043031/job/62221444158"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21594043031/job/62221444163"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21594043031/job/62221444178"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21594043031/job/62221444220"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21594043031/job/62221444223"
+      }
+    ]
+  },
+  {
     "commitSha": "5fe1d27c063ee74492b5be393420e7da5c7dff0e",
     "commitTimestamp": "2026-02-02T03:39:38Z",
     "commitMessage": "fix(reporter): create jUnit output dir tree if needed (#927)",
