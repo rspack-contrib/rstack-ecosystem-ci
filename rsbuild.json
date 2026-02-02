@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ece48b7dd11ac97423075733e59a205985f34544",
+    "commitTimestamp": "2026-02-02T14:02:17Z",
+    "commitMessage": "feat!: streamline proxy config typing (#7120)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21593113063",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21593113063/job/62218110345"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21593113063/job/62218110388"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21593113063/job/62218110393"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21593113063/job/62218110399"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21593113063/job/62218110410"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21593113063/job/62218110492"
+      }
+    ]
+  },
+  {
     "commitSha": "cdf0c4543367f7a8eeca547cbf2ca331bcd7b219",
     "commitTimestamp": "2026-02-02T10:08:53Z",
     "commitMessage": "feat(deps)!: update http-proxy-middleware to v3 (#7116)",
