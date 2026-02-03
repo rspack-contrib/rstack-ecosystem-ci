@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "7d01dbdd8c8dbb9bbbf9f9e74eb840a1cdc57abe",
+    "commitTimestamp": "2026-02-03T06:38:50Z",
+    "commitMessage": "docs: add Tailwind CSS v4 & shadcn/ui guides with e2e tests (#3099)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21619946667",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21619946667/job/62306663940"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21619946667/job/62306663945"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21619946667/job/62306663946"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21619946667/job/62306663954"
+      }
+    ]
+  },
+  {
     "commitSha": "d4c1c85d086a1314d4bffc7659bac176ecf48f10",
     "commitTimestamp": "2026-02-03T04:10:23Z",
     "commitMessage": "chore(deps): update dependency react-router-dom to ^7.13.0 (#3092)",
