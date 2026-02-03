@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b6e7234d16f58370e7b7bddee05af596e27701be",
+    "commitTimestamp": "2026-02-03T10:52:40Z",
+    "commitMessage": "chore(deps): update dependency rslog to v2 (#7136)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21627365884",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21627365884/job/62330870342"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21627365884/job/62330870357"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21627365884/job/62330870370"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21627365884/job/62330870377"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21627365884/job/62330870384"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21627365884/job/62330870402"
+      }
+    ]
+  },
+  {
     "commitSha": "45738109b6c06697eef22f2af544589037d1ce75",
     "commitTimestamp": "2026-02-03T10:50:41Z",
     "commitMessage": "chore(deps): update all patch dependencies (#7135)",
