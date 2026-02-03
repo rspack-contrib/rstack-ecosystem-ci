@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "7c6ca1188f08e2df6f94b3db35fc9b5c4461b59d",
+    "commitTimestamp": "2026-02-03T04:09:21Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#3091)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21616611158",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21616611158/job/62296551266"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21616611158/job/62296551270"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21616611158/job/62296551276"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21616611158/job/62296551279"
+      }
+    ]
+  },
+  {
     "commitSha": "a9bce473cfdc11425ab2bbe69f9ca83a6b0d217e",
     "commitTimestamp": "2026-02-02T09:37:14Z",
     "commitMessage": "fix(plugin-preview): support QR code scanning on mobile devices and first screen SSR (#3098)",
