@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d946d6e51dbc1df359c3be54321c158f859f8d63",
+    "commitTimestamp": "2026-02-03T03:59:17Z",
+    "commitMessage": "chore(build): bundle http-proxy-middleware instead of using prebundle (#7125)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21616449325",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21616449325/job/62296043223"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21616449325/job/62296043234"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21616449325/job/62296043246"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21616449325/job/62296043253"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21616449325/job/62296043273"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21616449325/job/62296043312"
+      }
+    ]
+  },
+  {
     "commitSha": "dcc4d89e6c7d9aa5e0308d2d30fe924d08eadaa9",
     "commitTimestamp": "2026-02-02T14:05:46Z",
     "commitMessage": "release: 2.0.0-beta.1 (#7121)",
