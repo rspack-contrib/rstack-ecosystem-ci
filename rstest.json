@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "c29ec881c4cfe5fadab1b482e2e66a213b5b6997",
+    "commitTimestamp": "2026-02-03T05:32:10Z",
+    "commitMessage": "feat: support test sharding (#921)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21618394999",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21618394999/job/62302061622"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21618394999/job/62302061628"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21618394999/job/62302061635"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21618394999/job/62302061636"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21618394999/job/62302061637"
+      }
+    ]
+  },
+  {
     "commitSha": "da6b94d4658dcc30fcf6fadfae7304d247500a64",
     "commitTimestamp": "2026-02-02T14:29:22Z",
     "commitMessage": "feat(core): use `md` reporter for AI agent by default (#911)",
