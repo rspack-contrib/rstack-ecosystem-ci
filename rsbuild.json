@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4bfbcc0dd4658e108be03b35d781a9716fbe6a44",
+    "commitTimestamp": "2026-02-03T10:22:21Z",
+    "commitMessage": "fix: generate manifest with integrity when html plugin is disabled (#7132)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21626454878",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21626454878/job/62327761060"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21626454878/job/62327761067"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21626454878/job/62327761078"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21626454878/job/62327761096"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21626454878/job/62327761097"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21626454878/job/62327761107"
+      }
+    ]
+  },
+  {
     "commitSha": "78fe3b280e620067eb61197c7c1d54b03cc4dd05",
     "commitTimestamp": "2026-02-03T06:03:03Z",
     "commitMessage": "chore(deps): update module federation to v0.24.0 (#7128)",
