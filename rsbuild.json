@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "45738109b6c06697eef22f2af544589037d1ce75",
+    "commitTimestamp": "2026-02-03T10:50:41Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#7135)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21627300937",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21627300937/job/62330653231"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21627300937/job/62330653266"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21627300937/job/62330653270"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21627300937/job/62330653287"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21627300937/job/62330653307"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21627300937/job/62330653397"
+      }
+    ]
+  },
+  {
     "commitSha": "af320c12dffd5d0bb0a624415e7add7f0cb50eb8",
     "commitTimestamp": "2026-02-03T10:43:15Z",
     "commitMessage": "feat(deps): upgrade @rspack/core to 2.0.0-beta.0 (#7134)",
