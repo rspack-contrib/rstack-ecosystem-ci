@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b4016c0c76bb99e48e091fdb2229afe4b755ba92",
+    "commitTimestamp": "2026-02-03T06:00:34Z",
+    "commitMessage": "perf(deps): replace picocolors with styleText from node:util (#7126)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21619033498",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21619033498/job/62303926781"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21619033498/job/62303926782"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21619033498/job/62303926785"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21619033498/job/62303926791"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21619033498/job/62303926799"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21619033498/job/62303926802"
+      }
+    ]
+  },
+  {
     "commitSha": "d946d6e51dbc1df359c3be54321c158f859f8d63",
     "commitTimestamp": "2026-02-03T03:59:17Z",
     "commitMessage": "chore(build): bundle http-proxy-middleware instead of using prebundle (#7125)",
