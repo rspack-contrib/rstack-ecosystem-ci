@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "af320c12dffd5d0bb0a624415e7add7f0cb50eb8",
+    "commitTimestamp": "2026-02-03T10:43:15Z",
+    "commitMessage": "feat(deps): upgrade @rspack/core to 2.0.0-beta.0 (#7134)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21627068234",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21627068234/job/62329864719"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21627068234/job/62329864728"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21627068234/job/62329864737"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21627068234/job/62329864739"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21627068234/job/62329864776"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21627068234/job/62329864777"
+      }
+    ]
+  },
+  {
     "commitSha": "a14cb3af0b37f94bc365174bfc7acdcd52ac736e",
     "commitTimestamp": "2026-02-03T10:37:58Z",
     "commitMessage": "fix(sri): add integrity attributes with native html plugin (#7133)",
