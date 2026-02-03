@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a14cb3af0b37f94bc365174bfc7acdcd52ac736e",
+    "commitTimestamp": "2026-02-03T10:37:58Z",
+    "commitMessage": "fix(sri): add integrity attributes with native html plugin (#7133)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21626904194",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21626904194/job/62329299239"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21626904194/job/62329299258"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21626904194/job/62329299269"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21626904194/job/62329299275"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21626904194/job/62329299279"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21626904194/job/62329299346"
+      }
+    ]
+  },
+  {
     "commitSha": "4bfbcc0dd4658e108be03b35d781a9716fbe6a44",
     "commitTimestamp": "2026-02-03T10:22:21Z",
     "commitMessage": "fix: generate manifest with integrity when html plugin is disabled (#7132)",
