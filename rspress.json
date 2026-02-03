@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "f6b253d7b38f14cef3eeb037a9ace82ebc7a60fa",
+    "commitTimestamp": "2026-02-03T08:52:46Z",
+    "commitMessage": "Release v2.0.2 (#3102)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21623555344",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21623555344/job/62317968081"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21623555344/job/62317968108"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21623555344/job/62317968112"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21623555344/job/62317968304"
+      }
+    ]
+  },
+  {
     "commitSha": "7d01dbdd8c8dbb9bbbf9f9e74eb840a1cdc57abe",
     "commitTimestamp": "2026-02-03T06:38:50Z",
     "commitMessage": "docs: add Tailwind CSS v4 & shadcn/ui guides with e2e tests (#3099)",
