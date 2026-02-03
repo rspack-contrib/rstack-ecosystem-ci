@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "2ec45b50bfaaed077ad16b5ef3208cc4fe255364",
+    "commitTimestamp": "2026-02-03T06:42:27Z",
+    "commitMessage": "ci: fix E2E error (#930)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21620035086",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21620035086/job/62306925421"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21620035086/job/62306925429"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21620035086/job/62306925442"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21620035086/job/62306925452"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21620035086/job/62306925607"
+      }
+    ]
+  },
+  {
     "commitSha": "5de633246904c801b852f9e9c021fc67d533b1a9",
     "commitTimestamp": "2026-02-03T06:02:50Z",
     "commitMessage": "test(browser-mode): add comprehensive e2e test coverage (#929)",
