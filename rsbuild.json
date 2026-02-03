@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "1ff8273b203a8abc8ce3c6bc9bca47d014e6ecaf",
+    "commitTimestamp": "2026-02-03T11:04:02Z",
+    "commitMessage": "release: 2.0.0-beta.2 (#7137)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21627714693",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21627714693/job/62332051879"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21627714693/job/62332051884"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21627714693/job/62332051887"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21627714693/job/62332051915"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21627714693/job/62332051920"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21627714693/job/62332051926"
+      }
+    ]
+  },
+  {
     "commitSha": "b6e7234d16f58370e7b7bddee05af596e27701be",
     "commitTimestamp": "2026-02-03T10:52:40Z",
     "commitMessage": "chore(deps): update dependency rslog to v2 (#7136)",
