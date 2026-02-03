@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "758f6227be24eb02ea04a4a1b9f2bc495a33ecdf",
+    "commitTimestamp": "2026-02-03T06:47:22Z",
+    "commitMessage": "chore: gracefully explain unsupported interfaces (#12782)",
+    "author": {
+      "name": "Martin Jesper Low Madsen",
+      "email": "martin@martinjlowm.dk",
+      "login": "martinjlowm"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/21620141477",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "nuxt",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21620141477/job/62307536574"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21620141477/job/62307536576"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21620141477/job/62307536577"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21620141477/job/62307536578"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21620141477/job/62307536581"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21620141477/job/62307536594"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21620141477/job/62307536598"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21620141477/job/62307536600"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21620141477/job/62307536617"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21620141477/job/62307536623"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21620141477/job/62307537425"
+      }
+    ]
+  },
+  {
     "commitSha": "cae3ee7118acf6a27aa7841bff22e991436a67b4",
     "commitTimestamp": "2026-02-03T05:42:37Z",
     "commitMessage": "chore(test): remove rust flaky test  (#12914)",
