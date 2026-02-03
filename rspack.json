@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "2f3aa4e51df6a6a518ddbb3edf41d2eea232c228",
+    "commitTimestamp": "2026-02-03T02:35:05Z",
+    "commitMessage": "chore: bump swc_core from 55 to 56 and swc-experimental from 0.4.1 to 0.5.0 (#12906)",
+    "author": {
+      "name": "CPunisher",
+      "email": "1343316114@qq.com",
+      "login": "CPunisher"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/21614590040",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21614590040/job/62290794307"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21614590040/job/62290794311"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21614590040/job/62290794314"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21614590040/job/62290794317"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21614590040/job/62290794318"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21614590040/job/62290794322"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21614590040/job/62290794323"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21614590040/job/62290794324"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21614590040/job/62290794336"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21614590040/job/62290794344"
+      },
+      {
+        "name": "nuxt",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21614590040/job/62290794357"
+      }
+    ]
+  },
+  {
     "commitSha": "5d43d3b4d74b5adf62439a9e1454a9f03a705d64",
     "commitTimestamp": "2026-02-02T13:41:36Z",
     "commitMessage": "fix(rstest): `rstest.importActual` not work when imported from `@rstest/core`  (#12908)",
