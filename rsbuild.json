@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "1258fa9dba5c321a4629b591a6dadbd2e26c6963",
+    "commitTimestamp": "2026-02-04T07:55:37Z",
+    "commitMessage": "docs: update proxy examples to remove unnecessary path segments (#7140)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21663275334",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21663275334/job/62452554929"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21663275334/job/62452554949"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21663275334/job/62452554950"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21663275334/job/62452554953"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21663275334/job/62452554957"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21663275334/job/62452554973"
+      }
+    ]
+  },
+  {
     "commitSha": "c6e8b53f0a4134fe3991ceeac4218f8a9f3b3d7e",
     "commitTimestamp": "2026-02-04T02:45:05Z",
     "commitMessage": "test: refactor environment variable stubbing (#7139)",
