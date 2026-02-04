@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e27fc980e7211443e071eb51fe0790af7ebfc13a",
+    "commitTimestamp": "2026-02-04T09:29:15Z",
+    "commitMessage": "docs: enhance upgrade guide with Agent Skills instructions (#7141)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21666048000",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21666048000/job/62461678950"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21666048000/job/62461678952"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21666048000/job/62461678960"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21666048000/job/62461679022"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21666048000/job/62461679086"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21666048000/job/62461679133"
+      }
+    ]
+  },
+  {
     "commitSha": "1258fa9dba5c321a4629b591a6dadbd2e26c6963",
     "commitTimestamp": "2026-02-04T07:55:37Z",
     "commitMessage": "docs: update proxy examples to remove unnecessary path segments (#7140)",
