@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "38215b804626814b1630e5fa655d9cb860111642",
+    "commitTimestamp": "2026-02-04T08:47:42Z",
+    "commitMessage": "fix: should not load real implementation when module is mocked (#934)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21664711495",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21664711495/job/62457176192"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21664711495/job/62457176197"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21664711495/job/62457176199"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21664711495/job/62457176210"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21664711495/job/62457176245"
+      }
+    ]
+  },
+  {
     "commitSha": "b7509b83142a1c04a9a5550b5c71a5629a5a6c9c",
     "commitTimestamp": "2026-02-04T03:54:41Z",
     "commitMessage": "chore(deps): bump rsbuild v1.7.3 (#937)",
