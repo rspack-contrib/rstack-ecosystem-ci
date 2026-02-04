@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "5a5916e263c5faf579db77f81978c583f50b2f0e",
+    "commitTimestamp": "2026-02-04T09:26:34Z",
+    "commitMessage": "fix: should respect project's  `slowTestThreshold` configuration (#938)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21665940013",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21665940013/job/62461311024"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21665940013/job/62461311028"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21665940013/job/62461311035"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21665940013/job/62461311064"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21665940013/job/62461311065"
+      }
+    ]
+  },
+  {
     "commitSha": "38215b804626814b1630e5fa655d9cb860111642",
     "commitTimestamp": "2026-02-04T08:47:42Z",
     "commitMessage": "fix: should not load real implementation when module is mocked (#934)",
