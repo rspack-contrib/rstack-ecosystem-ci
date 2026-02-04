@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "b7509b83142a1c04a9a5550b5c71a5629a5a6c9c",
+    "commitTimestamp": "2026-02-04T03:54:41Z",
+    "commitMessage": "chore(deps): bump rsbuild v1.7.3 (#937)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21657798128",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21657798128/job/62436136691"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21657798128/job/62436136698"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21657798128/job/62436136715"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21657798128/job/62436136727"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21657798128/job/62436136745"
+      }
+    ]
+  },
+  {
     "commitSha": "f10b3d599a20c6279b2d24f14a1b41c6976ec626",
     "commitTimestamp": "2026-02-03T18:17:37Z",
     "commitMessage": "fix(core): align color env priority and improve agent detection (#936)",
