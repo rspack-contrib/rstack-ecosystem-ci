@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "6fd29f071b370752e0aca9a8d160715b4b208b2d",
+    "commitTimestamp": "2026-02-04T12:49:27Z",
+    "commitMessage": "test(browser): fix flaky (#940)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21672093906",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21672093906/job/62482354841"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21672093906/job/62482354857"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21672093906/job/62482354873"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21672093906/job/62482354877"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21672093906/job/62482354887"
+      }
+    ]
+  },
+  {
     "commitSha": "f7be9823538e06ef4cc12d9439b63e78962c7fc1",
     "commitTimestamp": "2026-02-04T10:03:45Z",
     "commitMessage": "fix(browser): avoid log out deleting virtual module (#939)",
