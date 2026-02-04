@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c6e8b53f0a4134fe3991ceeac4218f8a9f3b3d7e",
+    "commitTimestamp": "2026-02-04T02:45:05Z",
+    "commitMessage": "test: refactor environment variable stubbing (#7139)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21656392622",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21656392622/job/62431892133"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21656392622/job/62431892143"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21656392622/job/62431892152"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21656392622/job/62431892156"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21656392622/job/62431892157"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21656392622/job/62431892160"
+      }
+    ]
+  },
+  {
     "commitSha": "1ff8273b203a8abc8ce3c6bc9bca47d014e6ecaf",
     "commitTimestamp": "2026-02-03T11:04:02Z",
     "commitMessage": "release: 2.0.0-beta.2 (#7137)",
