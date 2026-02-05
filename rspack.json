@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "cd402a1ef1bd715dd5596e7cb9ae1d44166d48d5",
+    "commitTimestamp": "2026-02-05T05:14:44Z",
+    "commitMessage": "feat: support MF share treeshake  (#12250)",
+    "author": {
+      "name": "Hanric",
+      "email": "zhanghang.heal@bytedance.com",
+      "login": "2heal1"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/21699738684",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21699738684/job/62577883454"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21699738684/job/62577883457"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21699738684/job/62577883463"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21699738684/job/62577883465"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21699738684/job/62577883466"
+      },
+      {
+        "name": "nuxt",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21699738684/job/62577883476"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21699738684/job/62577883480"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21699738684/job/62577883481"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21699738684/job/62577883484"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21699738684/job/62577883491"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21699738684/job/62577883497"
+      }
+    ]
+  },
+  {
     "commitSha": "ca0b6a5c3b1286082641b95faf2e4c72f3e4fdd1",
     "commitTimestamp": "2026-02-05T04:53:20Z",
     "commitMessage": "fix: context dependencies hash calculation use cache.snapshot configuration (#12937)",
