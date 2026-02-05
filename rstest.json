@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "ec82895a16293ccdc62d9c74261edec9560b45c7",
+    "commitTimestamp": "2026-02-05T05:44:52Z",
+    "commitMessage": "test(e2e): unify timeout time, less flaky (#942)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21700413630",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21700413630/job/62579578960"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21700413630/job/62579578967"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21700413630/job/62579578970"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21700413630/job/62579578976"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21700413630/job/62579578980"
+      }
+    ]
+  },
+  {
     "commitSha": "7b64c24bad5a4691753ee91eb695bba40e7cf1be",
     "commitTimestamp": "2026-02-05T05:42:05Z",
     "commitMessage": "ci: add preview release summary to GitHub Actions (#941)",
