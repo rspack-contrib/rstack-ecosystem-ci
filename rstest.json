@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "7668e6a8a61b0b2c684a05e4d46b7bbc08ea0472",
+    "commitTimestamp": "2026-02-05T08:01:59Z",
+    "commitMessage": "release: 0.8.3 (#943)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21703582609",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21703582609/job/62589206475"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21703582609/job/62589206484"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21703582609/job/62589206486"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21703582609/job/62589206507"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21703582609/job/62589206615"
+      }
+    ]
+  },
+  {
     "commitSha": "ec82895a16293ccdc62d9c74261edec9560b45c7",
     "commitTimestamp": "2026-02-05T05:44:52Z",
     "commitMessage": "test(e2e): unify timeout time, less flaky (#942)",
