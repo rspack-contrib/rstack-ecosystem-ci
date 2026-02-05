@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "7b64c24bad5a4691753ee91eb695bba40e7cf1be",
+    "commitTimestamp": "2026-02-05T05:42:05Z",
+    "commitMessage": "ci: add preview release summary to GitHub Actions (#941)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21700338710",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21700338710/job/62579355118"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21700338710/job/62579355131"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21700338710/job/62579355133"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21700338710/job/62579355136"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21700338710/job/62579355158"
+      }
+    ]
+  },
+  {
     "commitSha": "6fd29f071b370752e0aca9a8d160715b4b208b2d",
     "commitTimestamp": "2026-02-04T12:49:27Z",
     "commitMessage": "test(browser): fix flaky (#940)",
