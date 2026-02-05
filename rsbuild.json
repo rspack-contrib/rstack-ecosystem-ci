@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "0a020409dd148c716966e74b20c6806b79f195b5",
+    "commitTimestamp": "2026-02-05T03:19:53Z",
+    "commitMessage": "chore: remove webpack dev dependency from core (#7146)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21697448511",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21697448511/job/62570635174"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21697448511/job/62570635183"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21697448511/job/62570635194"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21697448511/job/62570635199"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21697448511/job/62570635209"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21697448511/job/62570635215"
+      }
+    ]
+  },
+  {
     "commitSha": "15a0d4fe9cd458a1b09987c57d98c553f91e8fdb",
     "commitTimestamp": "2026-02-04T14:46:24Z",
     "commitMessage": "feat: add `liveReload.html` option to control HTML reload (#7144)",
