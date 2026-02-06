@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "08180abc2f8a819fc67bca635638d855ee501c0c",
+    "commitTimestamp": "2026-02-06T06:43:39Z",
+    "commitMessage": "fix: setup files run only once with no-isolate (#947)",
+    "author": {
+      "name": "claneo",
+      "email": "claneo@outlook.com",
+      "login": "claneo"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21741460362",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21741460362/job/62717650624"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21741460362/job/62717650631"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21741460362/job/62717650632"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21741460362/job/62717650634"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21741460362/job/62717650644"
+      }
+    ]
+  },
+  {
     "commitSha": "4aa05e0e02aff50c1e3ada462238a2b0d43a47a9",
     "commitTimestamp": "2026-02-06T05:44:00Z",
     "commitMessage": "feat(ui): add viewport option (#945)",
