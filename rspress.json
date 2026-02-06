@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "9e54ff780fea3b7d51d19baa619346444c00c1b5",
+    "commitTimestamp": "2026-02-06T07:23:11Z",
+    "commitMessage": "fix(theme/outline): prevent sidebar menu text and icons from overflowing on narrow screens and upgrade @rslib/core (#3108)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21742334788",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21742334788/job/62720244932"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21742334788/job/62720244937"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21742334788/job/62720244950"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21742334788/job/62720244978"
+      }
+    ]
+  },
+  {
     "commitSha": "56cd7d58bfb59ce1c342cbc5a8801a510b134522",
     "commitTimestamp": "2026-02-04T04:13:57Z",
     "commitMessage": "docs: expand brand color presets in CSS variables editor (#3107)",
