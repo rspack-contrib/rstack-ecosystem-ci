@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c6aee4a90aff63e3b6e403ee5baddf505a1d6688",
+    "commitTimestamp": "2026-02-06T10:00:15Z",
+    "commitMessage": "release: 2.0.0-beta.3 (#7155)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21746498639",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21746498639/job/62733543992"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21746498639/job/62733544001"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21746498639/job/62733544056"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21746498639/job/62733544067"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21746498639/job/62733544071"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21746498639/job/62733544105"
+      }
+    ]
+  },
+  {
     "commitSha": "84c856886e677a622aa88104ff1b438845112bd3",
     "commitTimestamp": "2026-02-06T02:34:13Z",
     "commitMessage": "feat: updates the default contenthash length in filenames from 8 to 10 (#7154)",
