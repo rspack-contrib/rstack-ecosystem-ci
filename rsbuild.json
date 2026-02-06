@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "84c856886e677a622aa88104ff1b438845112bd3",
+    "commitTimestamp": "2026-02-06T02:34:13Z",
+    "commitMessage": "feat: updates the default contenthash length in filenames from 8 to 10 (#7154)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21736563876",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21736563876/job/62702725296"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21736563876/job/62702725305"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21736563876/job/62702725308"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21736563876/job/62702725309"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21736563876/job/62702725313"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21736563876/job/62702725315"
+      }
+    ]
+  },
+  {
     "commitSha": "eda50087ca69b5c0ee8235b1e08d572bca05c9b0",
     "commitTimestamp": "2026-02-05T08:10:18Z",
     "commitMessage": "release: @rsbuild/plugin-vue v1.2.6 (#7151)",
