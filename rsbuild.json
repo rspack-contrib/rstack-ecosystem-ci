@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "bf78abde228705b3c3e276e7c622ca7c92eb290d",
+    "commitTimestamp": "2026-02-07T10:10:39Z",
+    "commitMessage": "fix(cleanOutput): prevent accidental deletion when root path is '/' (#7158)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21778433356",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21778433356/job/62838717682"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21778433356/job/62838717685"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21778433356/job/62838717686"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21778433356/job/62838717691"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21778433356/job/62838717699"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21778433356/job/62838717701"
+      }
+    ]
+  },
+  {
     "commitSha": "b0d774c199889b5db7bbef545e30b45171494ecf",
     "commitTimestamp": "2026-02-07T09:41:56Z",
     "commitMessage": "chore(deps): update module federation to v2 (major) (#7157)",
