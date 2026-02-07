@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "7654a9928299c931c2c1079d3e0fb2fc338bede7",
+    "commitTimestamp": "2026-02-07T15:51:11Z",
+    "commitMessage": "fix(browser): unify error reporting and avoid duplicate error messages (#950)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21782674405",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21782674405/job/62849081167"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21782674405/job/62849081168"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21782674405/job/62849081169"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21782674405/job/62849081170"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21782674405/job/62849081182"
+      }
+    ]
+  },
+  {
     "commitSha": "08180abc2f8a819fc67bca635638d855ee501c0c",
     "commitTimestamp": "2026-02-06T06:43:39Z",
     "commitMessage": "fix: setup files run only once with no-isolate (#947)",
