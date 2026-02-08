@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "6d412f4a2d987e6bbe6f910040d509fc5e121d8d",
+    "commitTimestamp": "2026-02-08T07:05:47Z",
+    "commitMessage": "refactor(browser): centralize browser config validation in @rstest/browser (#951)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21794102460",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21794102460/job/62878627591"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21794102460/job/62878627592"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21794102460/job/62878627598"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21794102460/job/62878627599"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21794102460/job/62878627601"
+      }
+    ]
+  },
+  {
     "commitSha": "7654a9928299c931c2c1079d3e0fb2fc338bede7",
     "commitTimestamp": "2026-02-07T15:51:11Z",
     "commitMessage": "fix(browser): unify error reporting and avoid duplicate error messages (#950)",
