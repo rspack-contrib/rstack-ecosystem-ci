@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7f670c7dd4092089a7bba027ebdd0763a61cc433",
+    "commitTimestamp": "2026-02-08T01:36:08Z",
+    "commitMessage": "feat: normalize shortcut input to handle whitespace and case (#7159)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21790231742",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21790231742/job/62868262294"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21790231742/job/62868262299"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21790231742/job/62868262302"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21790231742/job/62868262314"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21790231742/job/62868262351"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21790231742/job/62868262360"
+      }
+    ]
+  },
+  {
     "commitSha": "bf78abde228705b3c3e276e7c622ca7c92eb290d",
     "commitTimestamp": "2026-02-07T10:10:39Z",
     "commitMessage": "fix(cleanOutput): prevent accidental deletion when root path is '/' (#7158)",
