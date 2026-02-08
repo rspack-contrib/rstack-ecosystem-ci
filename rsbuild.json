@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "895b356a52aecd0a964bdef8961bc0b972e9cf2e",
+    "commitTimestamp": "2026-02-08T02:36:54Z",
+    "commitMessage": "fix(core): allow assetPrefix to be an empty string (#6971)",
+    "author": {
+      "name": "Moment",
+      "email": "73689580+xun082@users.noreply.github.com",
+      "login": "xun082"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21790946655",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21790946655/job/62870075345"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21790946655/job/62870075347"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21790946655/job/62870075348"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21790946655/job/62870075354"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21790946655/job/62870075359"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21790946655/job/62870075362"
+      }
+    ]
+  },
+  {
     "commitSha": "7f670c7dd4092089a7bba027ebdd0763a61cc433",
     "commitTimestamp": "2026-02-08T01:36:08Z",
     "commitMessage": "feat: normalize shortcut input to handle whitespace and case (#7159)",
