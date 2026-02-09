@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "90df49347d9e5de61c8db1fb75620971f2b789b5",
+    "commitTimestamp": "2026-02-09T06:36:58Z",
+    "commitMessage": "chore: no need to enable asyncWebAssembly (#7165)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21814962962",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21814962962/job/62934624030"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21814962962/job/62934624037"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21814962962/job/62934624043"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21814962962/job/62934624045"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21814962962/job/62934624046"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21814962962/job/62934624053"
+      }
+    ]
+  },
+  {
     "commitSha": "4be55a8d789f64e2c857961cbdbae60c690baa17",
     "commitTimestamp": "2026-02-09T06:28:20Z",
     "commitMessage": "chore: reduce duplicated parser merge calls (#7164)",
