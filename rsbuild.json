@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9d260aa04b4a5a860a4d07f0a634b69cf1add7e2",
+    "commitTimestamp": "2026-02-09T02:50:25Z",
+    "commitMessage": " chore(build): prebundle jiti (#7163)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21810672885",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21810672885/job/62921922344"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21810672885/job/62921922348"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21810672885/job/62921922351"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21810672885/job/62921922352"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21810672885/job/62921922353"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21810672885/job/62921922357"
+      }
+    ]
+  },
+  {
     "commitSha": "04b217491956699531a0dd1c7c58c57ada6109ff",
     "commitTimestamp": "2026-02-09T02:32:55Z",
     "commitMessage": "chore(deps): update pnpm to v10.29.1 (#7162)",
