@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4be55a8d789f64e2c857961cbdbae60c690baa17",
+    "commitTimestamp": "2026-02-09T06:28:20Z",
+    "commitMessage": "chore: reduce duplicated parser merge calls (#7164)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21814764123",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21814764123/job/62934029452"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21814764123/job/62934029455"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21814764123/job/62934029458"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21814764123/job/62934029460"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21814764123/job/62934029470"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21814764123/job/62934029475"
+      }
+    ]
+  },
+  {
     "commitSha": "9d260aa04b4a5a860a4d07f0a634b69cf1add7e2",
     "commitTimestamp": "2026-02-09T02:50:25Z",
     "commitMessage": " chore(build): prebundle jiti (#7163)",
