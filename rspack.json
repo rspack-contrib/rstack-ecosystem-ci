@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "649b67eea3a2cf125d6b35f7207d25af16704fc6",
+    "commitTimestamp": "2026-02-09T05:52:54Z",
+    "commitMessage": "feat: add support for readonly persistent cache (#12902)",
+    "author": {
+      "name": "Cole Ellison",
+      "email": "cellison@figma.com",
+      "login": "cellison-figma"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/21813999694",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21813999694/job/62932114904"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21813999694/job/62932114909"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21813999694/job/62932114911"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21813999694/job/62932114914"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21813999694/job/62932114918"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21813999694/job/62932114921"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21813999694/job/62932114925"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21813999694/job/62932114929"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21813999694/job/62932114930"
+      },
+      {
+        "name": "nuxt",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21813999694/job/62932114941"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21813999694/job/62932114952"
+      }
+    ]
+  },
+  {
     "commitSha": "5e3f3b2f45cad8d1ad998954bb32295b650a5ff6",
     "commitTimestamp": "2026-02-09T05:07:26Z",
     "commitMessage": "fix: port webpack fix for __webpack_module__ name collision (#12956)",
