@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "5e3f3b2f45cad8d1ad998954bb32295b650a5ff6",
+    "commitTimestamp": "2026-02-09T05:07:26Z",
+    "commitMessage": "fix: port webpack fix for __webpack_module__ name collision (#12956)",
+    "author": {
+      "name": "Copilot",
+      "email": "198982749+Copilot@users.noreply.github.com",
+      "login": "Copilot"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/21813119566",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21813119566/job/62929553462"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21813119566/job/62929553463"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21813119566/job/62929553466"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21813119566/job/62929553467"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21813119566/job/62929553470"
+      },
+      {
+        "name": "nuxt",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21813119566/job/62929553475"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21813119566/job/62929553476"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21813119566/job/62929553479"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21813119566/job/62929553481"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21813119566/job/62929553483"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21813119566/job/62929553492"
+      }
+    ]
+  },
+  {
     "commitSha": "2da0b6809a557fabd4a4d3ba357ca39b9e8cda10",
     "commitTimestamp": "2026-02-09T04:11:23Z",
     "commitMessage": "chore(ci): keep debug info in CI profile (#12981)",
