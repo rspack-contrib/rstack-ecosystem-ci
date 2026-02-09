@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "10ed5f505506751ff655bbb3bb1af106e36780a0",
+    "commitTimestamp": "2026-02-09T06:56:50Z",
+    "commitMessage": "fix(plugin-less): `parallelLoader` config is no longer needed in Rspack v2 (#7166)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21815399407",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21815399407/job/62935899561"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21815399407/job/62935899563"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21815399407/job/62935899565"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21815399407/job/62935899572"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21815399407/job/62935899575"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21815399407/job/62935899583"
+      }
+    ]
+  },
+  {
     "commitSha": "90df49347d9e5de61c8db1fb75620971f2b789b5",
     "commitTimestamp": "2026-02-09T06:36:58Z",
     "commitMessage": "chore: no need to enable asyncWebAssembly (#7165)",
