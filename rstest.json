@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "523ef62166a4b6692a05d7c6a618e9683d1582d4",
+    "commitTimestamp": "2026-02-09T07:34:19Z",
+    "commitMessage": "perf(browser): add lightweight scheduler page for headless mode (#952)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21816288141",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21816288141/job/62938543735"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21816288141/job/62938543746"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21816288141/job/62938543750"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21816288141/job/62938543754"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21816288141/job/62938543757"
+      }
+    ]
+  },
+  {
     "commitSha": "6d412f4a2d987e6bbe6f910040d509fc5e121d8d",
     "commitTimestamp": "2026-02-08T07:05:47Z",
     "commitMessage": "refactor(browser): centralize browser config validation in @rstest/browser (#951)",
