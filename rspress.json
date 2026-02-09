@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "6d7ba7ff4f97da7aa5400adbd5a3e5747f837dd3",
+    "commitTimestamp": "2026-02-09T05:05:18Z",
+    "commitMessage": "chore(deps): update actions/checkout digest to de0fac2 (#3112)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21813087255",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21813087255/job/62929131375"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21813087255/job/62929131376"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21813087255/job/62929131379"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21813087255/job/62929131393"
+      }
+    ]
+  },
+  {
     "commitSha": "9e54ff780fea3b7d51d19baa619346444c00c1b5",
     "commitTimestamp": "2026-02-06T07:23:11Z",
     "commitMessage": "fix(theme/outline): prevent sidebar menu text and icons from overflowing on narrow screens and upgrade @rslib/core (#3108)",
