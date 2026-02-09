@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "22f282a1bbaa3179ff9788a3925a16293ebc08ce",
+    "commitTimestamp": "2026-02-09T08:41:58Z",
+    "commitMessage": "refactor: wrap artifact in StealCell (#12979)",
+    "author": {
+      "name": "hardfist",
+      "email": "yangjianzju@gmail.com",
+      "login": "hardfist"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/21818097231",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21818097231/job/62944827967"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21818097231/job/62944828641"
+      },
+      {
+        "name": "nuxt",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21818097231/job/62944829102"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21818097231/job/62944829111"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21818097231/job/62944829202"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21818097231/job/62944829397"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21818097231/job/62944830069"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21818097231/job/62944830143"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21818097231/job/62944830192"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21818097231/job/62944830223"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21818097231/job/62944832017"
+      }
+    ]
+  },
+  {
     "commitSha": "fd0492cdfb0c25b143e5946c7297a7d8177c3e60",
     "commitTimestamp": "2026-02-09T07:55:24Z",
     "commitMessage": "feat(css): introduce `resolveImport` parser option for css parser to choose whether to resolve `@import` syntax (#12672)",
