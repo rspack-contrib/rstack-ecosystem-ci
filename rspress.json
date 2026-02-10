@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "85ba8b7a309edfd7038b7dc28ea339910d4adc23",
+    "commitTimestamp": "2026-02-10T05:01:45Z",
+    "commitMessage": "fix(theme): align text layout of live code editor with highlight code block (#3116)",
+    "author": {
+      "name": "山吹色御守",
+      "email": "85992002+KazariEX@users.noreply.github.com",
+      "login": "KazariEX"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21852399255",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21852399255/job/63061882393"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21852399255/job/63061882395"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21852399255/job/63061882398"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21852399255/job/63061882407"
+      }
+    ]
+  },
+  {
     "commitSha": "6d7ba7ff4f97da7aa5400adbd5a3e5747f837dd3",
     "commitTimestamp": "2026-02-09T05:05:18Z",
     "commitMessage": "chore(deps): update actions/checkout digest to de0fac2 (#3112)",
