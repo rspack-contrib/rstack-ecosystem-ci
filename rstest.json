@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "a921d3df7b5455cfc8afaeff404604f157de9756",
+    "commitTimestamp": "2026-02-10T03:38:17Z",
+    "commitMessage": "fix(core): include worker stderr in unexpected-exit summary (#956)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21850733915",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21850733915/job/63056567211"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21850733915/job/63056567217"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21850733915/job/63056567220"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21850733915/job/63056567221"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21850733915/job/63056567228"
+      }
+    ]
+  },
+  {
     "commitSha": "074162d42577a887687ba0430b8b8deb455344f4",
     "commitTimestamp": "2026-02-09T12:36:58Z",
     "commitMessage": "fix: should return the same spy instance when respy (#955)",
