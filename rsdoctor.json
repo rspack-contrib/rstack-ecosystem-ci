@@ -1,5 +1,28 @@
 [
   {
+    "commitSha": "9c29be641413dff0626e179817e49c8da183ed08",
+    "commitTimestamp": "2026-02-10T08:58:04Z",
+    "commitMessage": "fix[security]: path traversal vulnerability in MCP server resource loading (#1499)",
+    "author": {
+      "name": "Copilot",
+      "email": "198982749+Copilot@users.noreply.github.com",
+      "login": "Copilot"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsdoctor",
+      "name": "rsdoctor"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21858527388",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21858527388/job/63081227261"
+      }
+    ]
+  },
+  {
     "commitSha": "e12c06174f4f50daf3daf4cf643cb6e88699f419",
     "commitTimestamp": "2026-02-10T07:09:30Z",
     "commitMessage": "perf: Lazy-load loader input/output to reduce data volume by 90%+ (#1525)",
