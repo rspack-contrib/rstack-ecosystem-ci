@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "4be7ee4e1a118fe33c6b214aed50ec1166445d8c",
+    "commitTimestamp": "2026-02-10T06:52:40Z",
+    "commitMessage": "test(browser-mode): guard headed e2e case by display availability (#958)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21854854870",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21854854870/job/63069388013"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21854854870/job/63069388017"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21854854870/job/63069388023"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21854854870/job/63069388026"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21854854870/job/63069388027"
+      }
+    ]
+  },
+  {
     "commitSha": "a921d3df7b5455cfc8afaeff404604f157de9756",
     "commitTimestamp": "2026-02-10T03:38:17Z",
     "commitMessage": "fix(core): include worker stderr in unexpected-exit summary (#956)",
