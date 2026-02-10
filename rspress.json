@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "54db221b6e4fbb129e5abbff4b000cd41cf720db",
+    "commitTimestamp": "2026-02-10T07:46:11Z",
+    "commitMessage": "fix(ssg-md): assign useEffect and useLayoutEffect noop value when renderToMarkdownString to match real SSR behavior (renderToString) (#3121)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21856188235",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21856188235/job/63073497462"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21856188235/job/63073497463"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21856188235/job/63073497469"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21856188235/job/63073497481"
+      }
+    ]
+  },
+  {
     "commitSha": "99c56b6c2c2a7d5aac2bbebf602f97f7bde74518",
     "commitTimestamp": "2026-02-10T07:37:43Z",
     "commitMessage": "feat(SEO/custom-head): Make `og:description` set automatically (#3115)",
