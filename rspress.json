@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "21f9dc5f13c0ee7addf82a6aa56987e0d73e14b8",
+    "commitTimestamp": "2026-02-10T05:04:38Z",
+    "commitMessage": "chore(docs): sync zh docs tag from upgraded to new (#3120)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21852460846",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21852460846/job/63062070567"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21852460846/job/63062070578"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21852460846/job/63062070581"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21852460846/job/63062070590"
+      }
+    ]
+  },
+  {
     "commitSha": "85ba8b7a309edfd7038b7dc28ea339910d4adc23",
     "commitTimestamp": "2026-02-10T05:01:45Z",
     "commitMessage": "fix(theme): align text layout of live code editor with highlight code block (#3116)",
