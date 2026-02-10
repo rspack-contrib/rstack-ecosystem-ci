@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "0afec57efb90a772d04ed307a0129f435ae3517d",
+    "commitTimestamp": "2026-02-10T09:46:47Z",
+    "commitMessage": "test: add test cases to verify entry import array works (#7168)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21859872132",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21859872132/job/63085886555"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21859872132/job/63085886577"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21859872132/job/63085886579"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21859872132/job/63085886591"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21859872132/job/63085886612"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21859872132/job/63085886827"
+      }
+    ]
+  },
+  {
     "commitSha": "10ed5f505506751ff655bbb3bb1af106e36780a0",
     "commitTimestamp": "2026-02-09T06:56:50Z",
     "commitMessage": "fix(plugin-less): `parallelLoader` config is no longer needed in Rspack v2 (#7166)",
