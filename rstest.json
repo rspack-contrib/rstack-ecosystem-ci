@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "773ddb3c7ca80caef333c2f0cb9a119b74f01b01",
+    "commitTimestamp": "2026-02-10T07:20:45Z",
+    "commitMessage": "chore(deps): bump rspress 2.0 (#918)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21855526169",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21855526169/job/63071436267"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21855526169/job/63071436276"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21855526169/job/63071436277"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21855526169/job/63071436278"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21855526169/job/63071436294"
+      }
+    ]
+  },
+  {
     "commitSha": "4be7ee4e1a118fe33c6b214aed50ec1166445d8c",
     "commitTimestamp": "2026-02-10T06:52:40Z",
     "commitMessage": "test(browser-mode): guard headed e2e case by display availability (#958)",
