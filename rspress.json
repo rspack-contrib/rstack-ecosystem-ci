@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "f73a41d91bdff3cb30ccf79f259dcff2732d7872",
+    "commitTimestamp": "2026-02-10T08:07:22Z",
+    "commitMessage": "fix(ssg-md): should support MF (#3123)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21856743910",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21856743910/job/63075256677"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21856743910/job/63075256705"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21856743910/job/63075256707"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21856743910/job/63075256725"
+      }
+    ]
+  },
+  {
     "commitSha": "54db221b6e4fbb129e5abbff4b000cd41cf720db",
     "commitTimestamp": "2026-02-10T07:46:11Z",
     "commitMessage": "fix(ssg-md): assign useEffect and useLayoutEffect noop value when renderToMarkdownString to match real SSR behavior (renderToString) (#3121)",
