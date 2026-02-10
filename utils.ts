@@ -65,6 +65,9 @@ interface RspackPackageData {
 
 let rspackPackageData: RspackPackageData | null = null;
 
+const RSLIB_RSBUILD_COMPAT_VERSION = '1.7.3';
+const RSLIB_RSPACK_COMPAT_VERSION = '1.7.6';
+
 export function cd(dir: string) {
   cwd = path.resolve(cwd, dir);
 }
@@ -328,12 +331,24 @@ async function getRspackPackageData(): Promise<RspackPackageData> {
     name: pkg.name,
     directory: path.join(stackPath, pkg.directory),
   });
+  const normalizeAndFilterExisting = (pkgList: RspackPackageInfo[]) =>
+    pkgList.map(normalize).filter((pkg) => {
+      if (fs.existsSync(pkg.directory)) {
+        return true;
+      }
+      console.warn(
+        `[ecosystem-ci] skip missing rspack package override: ${pkg.name} -> ${pkg.directory}`,
+      );
+      return false;
+    });
   rspackPackageData = {
-    npm: npm[
-      optionalKey as 'darwin-arm64' | 'darwin-x64' | 'linux-x64' | 'win32-x64'
-    ].map(normalize),
-    binding: binding.map(normalize),
-    packages: packages.map(normalize),
+    npm: normalizeAndFilterExisting(
+      npm[
+        optionalKey as 'darwin-arm64' | 'darwin-x64' | 'linux-x64' | 'win32-x64'
+      ],
+    ),
+    binding: normalizeAndFilterExisting(binding),
+    packages: normalizeAndFilterExisting(packages),
   };
   return rspackPackageData;
 }
@@ -462,6 +477,9 @@ export async function runInRepo(options: RunOptions & RepoOptions) {
           overrides[pkgInfo.name] ||= pkgInfo.directory;
         }
       }
+      if (activeStack === 'rsbuild') {
+        overrides['@rslib/core>@rsbuild/core'] ||= RSLIB_RSBUILD_COMPAT_VERSION;
+      }
       await applyPackageOverrides({
         dir,
         pkg,
@@ -502,6 +520,18 @@ export async function runInRepo(options: RunOptions & RepoOptions) {
         for (const pkgInfo of packageList) {
           overrides[pkgInfo.name] ||= pkgInfo.directory;
         }
+      }
+      overrides['@rslib/core>@rsbuild/core'] ||= RSLIB_RSBUILD_COMPAT_VERSION;
+      overrides[
+        `@rsbuild/core@${RSLIB_RSBUILD_COMPAT_VERSION}>@rspack/core`
+      ] ||= RSLIB_RSPACK_COMPAT_VERSION;
+      overrides[
+        `@rspack/core@${RSLIB_RSPACK_COMPAT_VERSION}>@rspack/binding`
+      ] ||= RSLIB_RSPACK_COMPAT_VERSION;
+      for (const pkgInfo of npm) {
+        overrides[
+          `@rspack/binding@${RSLIB_RSPACK_COMPAT_VERSION}>${pkgInfo.name}`
+        ] ||= RSLIB_RSPACK_COMPAT_VERSION;
       }
       await applyPackageOverrides({
         dir,
@@ -714,6 +744,15 @@ async function applyPackageOverrides({
   };
   devDependencyStrategy?: 'all' | 'local';
 }) {
+  const isValidManifestDepName = (name: string): boolean => {
+    if (name.includes('>')) {
+      return false;
+    }
+    if (name.startsWith('@')) {
+      return name.indexOf('@', 1) === -1;
+    }
+    return !name.includes('@');
+  };
   const useFileProtocol = (v: string) =>
     isLocalOverride(v) ? `file:${path.resolve(v)}` : v;
   const normalizedOverrides = Object.fromEntries(
@@ -724,10 +763,16 @@ async function applyPackageOverrides({
 
   const devOverrides =
     devDependencyStrategy === 'all'
-      ? normalizedOverrides
+      ? Object.fromEntries(
+          Object.entries(normalizedOverrides).filter(([key]) =>
+            isValidManifestDepName(key),
+          ),
+        )
       : Object.fromEntries(
-          Object.entries(normalizedOverrides).filter(([_key, value]) =>
-            (value as string).startsWith('file:'),
+          Object.entries(normalizedOverrides).filter(
+            ([key, value]) =>
+              isValidManifestDepName(key) &&
+              (value as string).startsWith('file:'),
           ),
         );
 

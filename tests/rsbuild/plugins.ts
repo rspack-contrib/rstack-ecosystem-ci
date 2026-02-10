@@ -82,7 +82,7 @@ export async function test(options: RunOptions) {
       },
       overrides: {
         // not override rslib's rsbuild version
-        '@rslib/core>@rsbuild/core': 'latest',
+        '@rslib/core>@rsbuild/core': '1.7.3',
       },
       test: [
         'build',

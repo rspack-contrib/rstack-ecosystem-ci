@@ -19,7 +19,7 @@ outputs:
 runs:
   using: composite
   steps:
-    - uses: actions/setup-node@v3
+    - uses: actions/setup-node@v4
       with:
         node-version: 22
     - shell: bash
@@ -35,16 +35,37 @@ runs:
         repository: ${{ inputs.repository }}
         path: ${{ inputs.path }}
         ref: ${{ inputs.ref }}
+
+    - name: Setup Rust (non-Linux)
+      if: runner.os != 'Linux'
+      uses: actions-rust-lang/setup-rust-toolchain@v1
+
     - uses: actions/download-artifact@v4
+      if: runner.os == 'Linux'
       with:
         name: binding-linux-x64-gnu
         path: ${{ inputs.path }}/npm/linux-x64-gnu
+
     - name: Show restored binding
+      if: runner.os == 'Linux'
       shell: bash
       run: ls -lah ${{ inputs.path }}/npm/linux-x64-gnu/*.node
+
+    - name: Build Rspack Binding (non-Linux)
+      if: runner.os != 'Linux'
+      shell: bash
+      run: |
+        cd ${{ inputs.path }}
+        pnpm i --frozen-lockfile
+        cargo codegen
+        pnpm run build:binding:release
+        pnpm run --filter @rspack/binding move-binding
+
     - name: Build Rspack JS
       shell: bash
       run: |
         cd ${{ inputs.path }}
-        pnpm i
+        if [ '${{ runner.os }}' = 'Linux' ]; then
+          pnpm i
+        fi
         pnpm run build:js
