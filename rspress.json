@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "2ac96030b19761c54f05579c3c526b1f566e695e",
+    "commitTimestamp": "2026-02-10T06:49:04Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#3113)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21854773603",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21854773603/job/63069138227"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21854773603/job/63069138229"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21854773603/job/63069138242"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21854773603/job/63069138255"
+      }
+    ]
+  },
+  {
     "commitSha": "21f9dc5f13c0ee7addf82a6aa56987e0d73e14b8",
     "commitTimestamp": "2026-02-10T05:04:38Z",
     "commitMessage": "chore(docs): sync zh docs tag from upgraded to new (#3120)",
