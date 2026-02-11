@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "fe7210de8a0f81286d3f20eeb32478088add02f4",
+    "commitTimestamp": "2026-02-11T08:01:46Z",
+    "commitMessage": "feat(theme/tag): support updated tag and turn \"new\" tag from blue to green (#3128)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21897172368",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21897172368/job/63215886764"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21897172368/job/63215886767"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21897172368/job/63215886770"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21897172368/job/63215886787"
+      }
+    ]
+  },
+  {
     "commitSha": "a9cd4a1f4eb31357e02ca2dc28e03480e51eb11f",
     "commitTimestamp": "2026-02-11T07:30:26Z",
     "commitMessage": "fix(theme/OverviewGroup): limit max columns from 4 to 3 (#3127)",
