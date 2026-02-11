@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "a5793985bd13dc08de2245479f51d2fa00de6ff2",
+    "commitTimestamp": "2026-02-11T09:28:51Z",
+    "commitMessage": "chore: allow build script of `sharp` package (#3130)",
+    "author": {
+      "name": "Tatsunori Uchino",
+      "email": "tats.u@live.jp",
+      "login": "tats-u"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21899617377",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21899617377/job/63224183345"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21899617377/job/63224183352"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21899617377/job/63224183405"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21899617377/job/63224183411"
+      }
+    ]
+  },
+  {
     "commitSha": "f7da2a465bd6670c06a5c28c9542b15b04b02be9",
     "commitTimestamp": "2026-02-11T09:13:37Z",
     "commitMessage": "Release v2.0.3 (#3129)",
