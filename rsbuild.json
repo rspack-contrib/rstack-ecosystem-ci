@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "521f95686cad50acb930c81f85a09734144900d4",
+    "commitTimestamp": "2026-02-11T05:20:27Z",
+    "commitMessage": "feat(deps): update @rspack/core to 2.0.0-beta.2 (#7172)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21893720373",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21893720373/job/63205145968"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21893720373/job/63205145976"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21893720373/job/63205145981"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21893720373/job/63205145987"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21893720373/job/63205145999"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21893720373/job/63205146034"
+      }
+    ]
+  },
+  {
     "commitSha": "195374b708c67cbc473d03912c3ae74c8c675b19",
     "commitTimestamp": "2026-02-11T02:11:37Z",
     "commitMessage": "docs: add docs-en-improvement skill and remove old prompt file (#7171)",
