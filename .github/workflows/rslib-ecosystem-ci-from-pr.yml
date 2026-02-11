@@ -52,7 +52,7 @@ on:
 
 jobs:
   execute-selected-suite:
-    runs-on: ${{ inputs.suite == 'rspress' && 'macos-latest' || 'ubuntu-latest' }}
+    runs-on: ubuntu-latest
     if: "inputs.suite != '-'"
     steps:
       - uses: actions/checkout@v5
@@ -82,7 +82,7 @@ jobs:
           - suite: rstest
             os: ubuntu-latest
           - suite: rspress
-            os: macos-latest
+            os: ubuntu-latest
           - suite: rsdoctor
             os: ubuntu-latest
       fail-fast: false
