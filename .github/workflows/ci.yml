@@ -18,7 +18,7 @@ jobs:
           - suite: rstest
             os: ubuntu-latest
           - suite: rspress
-            os: macos-latest
+            os: ubuntu-latest
           - suite: plugins
             os: ubuntu-latest
           - suite: modernjs
@@ -52,7 +52,7 @@ jobs:
           - suite: rstest
             os: ubuntu-latest
           - suite: rspress
-            os: macos-latest
+            os: ubuntu-latest
           - suite: rsdoctor
             os: ubuntu-latest
       fail-fast: false
@@ -155,7 +155,7 @@ jobs:
           # - suite: nx
           #   os: ubuntu-22.04
           - suite: rspress
-            os: macos-latest
+            os: ubuntu-22.04
           - suite: rsbuild
             os: ubuntu-22.04
           - suite: examples

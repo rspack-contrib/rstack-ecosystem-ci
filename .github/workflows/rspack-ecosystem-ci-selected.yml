@@ -80,7 +80,7 @@ jobs:
 
   execute-selected-suite:
     needs: prepare-binding
-    runs-on: ${{ inputs.suite == 'rspress' && 'macos-latest' || 'ubuntu-22.04' }}
+    runs-on: ubuntu-22.04
     if: "inputs.suite != '-'"
     steps:
       - uses: actions/checkout@v4
@@ -109,7 +109,7 @@ jobs:
           # - suite: nx
           #   os: ubuntu-22.04
           - suite: rspress
-            os: macos-latest
+            os: ubuntu-22.04
           - suite: rslib
             os: ubuntu-22.04
           - suite: rstest

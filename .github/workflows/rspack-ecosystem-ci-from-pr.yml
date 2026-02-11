@@ -74,7 +74,7 @@ jobs:
           ref: ${{ inputs.branchName }}
 
   execute-selected-suite:
-    runs-on: ${{ inputs.suite == 'rspress' && 'macos-latest' || 'ubuntu-22.04' }}
+    runs-on: ubuntu-22.04
     needs: prepare-binding
     if: "inputs.suite != '-'"
     steps:
@@ -104,7 +104,7 @@ jobs:
           # - suite: nx
           #   os: ubuntu-22.04
           - suite: rspress
-            os: macos-latest
+            os: ubuntu-22.04
           - suite: rslib
             os: ubuntu-22.04
           - suite: rstest

@@ -16,7 +16,7 @@ inputs:
   node-version:
     description: 'The version of Node.js to set up'
     required: true
-    default: '18'
+    default: '22'
 outputs:
   artifact-name:
     description: 'The name of the uploaded artifact'
@@ -29,7 +29,7 @@ runs:
         repository: ${{ inputs.repository }}
         path: ${{ inputs.path }}
         ref: ${{ inputs.ref }}
-    - uses: actions/setup-node@v3
+    - uses: actions/setup-node@v4
       with:
         node-version: ${{ inputs.node-version }}
     - shell: bash
