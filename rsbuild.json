@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "195374b708c67cbc473d03912c3ae74c8c675b19",
+    "commitTimestamp": "2026-02-11T02:11:37Z",
+    "commitMessage": "docs: add docs-en-improvement skill and remove old prompt file (#7171)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21890100001",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21890100001/job/63193911846"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21890100001/job/63193911854"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21890100001/job/63193911863"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21890100001/job/63193911865"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21890100001/job/63193911867"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21890100001/job/63193911882"
+      }
+    ]
+  },
+  {
     "commitSha": "0afec57efb90a772d04ed307a0129f435ae3517d",
     "commitTimestamp": "2026-02-10T09:46:47Z",
     "commitMessage": "test: add test cases to verify entry import array works (#7168)",
