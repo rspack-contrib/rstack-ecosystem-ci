@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "38a636b8c12fd1ba146a555896db1db18fd0012d",
+    "commitTimestamp": "2026-02-11T08:03:21Z",
+    "commitMessage": "fix: normalize file dependencies paths in CopyPlugin to prevent incorrect rebuild triggers (#13043)",
+    "author": {
+      "name": "Cong-Cong Pan",
+      "email": "dacongsama@live.com",
+      "login": "SyMind"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/21897200802",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "nuxt",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21897200802/job/63216543235"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21897200802/job/63216543238"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21897200802/job/63216543239"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21897200802/job/63216543247"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21897200802/job/63216543254"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21897200802/job/63216543258"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21897200802/job/63216543265"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21897200802/job/63216543276"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21897200802/job/63216543287"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21897200802/job/63216543305"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21897200802/job/63216543327"
+      }
+    ]
+  },
+  {
     "commitSha": "3bb764b1daad6cb454e8d2891c6f837802631b5d",
     "commitTimestamp": "2026-02-11T07:08:56Z",
     "commitMessage": "fix: infinite loop in `is_available_chunk` when chunk groups form a cycle (#13042)",
