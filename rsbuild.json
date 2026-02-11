@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "619d78c5750941e7aa30447bbee04600ca9db9c9",
+    "commitTimestamp": "2026-02-11T05:27:24Z",
+    "commitMessage": "chore: no need to set exportsPresence error (#7173)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21893851785",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21893851785/job/63205541908"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21893851785/job/63205541911"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21893851785/job/63205541912"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21893851785/job/63205541914"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21893851785/job/63205541925"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21893851785/job/63205541945"
+      }
+    ]
+  },
+  {
     "commitSha": "521f95686cad50acb930c81f85a09734144900d4",
     "commitTimestamp": "2026-02-11T05:20:27Z",
     "commitMessage": "feat(deps): update @rspack/core to 2.0.0-beta.2 (#7172)",
