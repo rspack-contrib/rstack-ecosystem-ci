@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c8c26172486da503f07326535f958cbaf363b2a0",
+    "commitTimestamp": "2026-02-12T13:18:59Z",
+    "commitMessage": "test(e2e): consolidate test cases using runDevAndBuild helper (#7179)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21948244845",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21948244845/job/63391533079"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21948244845/job/63391533091"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21948244845/job/63391533094"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21948244845/job/63391533117"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21948244845/job/63391533162"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21948244845/job/63391533193"
+      }
+    ]
+  },
+  {
     "commitSha": "a3b3dd2fc79bc87a85e53e2c1dba660977df5582",
     "commitTimestamp": "2026-02-12T05:17:49Z",
     "commitMessage": "chore(deps): update dependency create-rstack to v1.8.0 (#7176)",
