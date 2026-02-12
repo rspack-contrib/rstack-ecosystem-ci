@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "788cf6ee176a98bd58f1648423c158bc82831ed4",
+    "commitTimestamp": "2026-02-12T07:17:50Z",
+    "commitMessage": "fix: generating correct types for `@rspack/lite-tapable` (#13048)",
+    "author": {
+      "name": "Qingyu Wang",
+      "email": "40660121+colinaaa@users.noreply.github.com",
+      "login": "colinaaa"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/21937215129",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21937215129/job/63354330436"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21937215129/job/63354330439"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21937215129/job/63354330443"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21937215129/job/63354330446"
+      },
+      {
+        "name": "nuxt",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21937215129/job/63354330449"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21937215129/job/63354330450"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21937215129/job/63354330451"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21937215129/job/63354330456"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21937215129/job/63354330458"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21937215129/job/63354330496"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21937215129/job/63354330639"
+      }
+    ]
+  },
+  {
     "commitSha": "9844498fea668b8b0b547fae2eca516ed8b5e405",
     "commitTimestamp": "2026-02-12T06:06:00Z",
     "commitMessage": "fix(module-federation): encode runtime data URI and support named wrappers (#12982)",
