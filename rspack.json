@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "9844498fea668b8b0b547fae2eca516ed8b5e405",
+    "commitTimestamp": "2026-02-12T06:06:00Z",
+    "commitMessage": "fix(module-federation): encode runtime data URI and support named wrappers (#12982)",
+    "author": {
+      "name": "Petr Glaser",
+      "email": "12586960+BleedingDev@users.noreply.github.com",
+      "login": "BleedingDev"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/21935575127",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21935575127/job/63349311608"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21935575127/job/63349311609"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21935575127/job/63349311612"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21935575127/job/63349311613"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21935575127/job/63349311615"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21935575127/job/63349311617"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21935575127/job/63349311628"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21935575127/job/63349311639"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21935575127/job/63349311648"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21935575127/job/63349311653"
+      },
+      {
+        "name": "nuxt",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21935575127/job/63349311655"
+      }
+    ]
+  },
+  {
     "commitSha": "dcb192a6833cfcb2460b4c451a70da32e7f5dcdc",
     "commitTimestamp": "2026-02-11T10:11:26Z",
     "commitMessage": "chore(workflow): remove API check from pre commit (#13044)",
