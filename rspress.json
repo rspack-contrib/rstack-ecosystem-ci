@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "6e86c476873c83e5b176c8096470c29733c25804",
+    "commitTimestamp": "2026-02-12T09:04:06Z",
+    "commitMessage": "fix(theme): disable text-autospace in pre elements (#3131)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21940135930",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21940135930/job/63363466823"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21940135930/job/63363466832"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21940135930/job/63363466852"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21940135930/job/63363467390"
+      }
+    ]
+  },
+  {
     "commitSha": "a5793985bd13dc08de2245479f51d2fa00de6ff2",
     "commitTimestamp": "2026-02-11T09:28:51Z",
     "commitMessage": "chore: allow build script of `sharp` package (#3130)",
