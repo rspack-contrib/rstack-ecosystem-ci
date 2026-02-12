@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a3b3dd2fc79bc87a85e53e2c1dba660977df5582",
+    "commitTimestamp": "2026-02-12T05:17:49Z",
+    "commitMessage": "chore(deps): update dependency create-rstack to v1.8.0 (#7176)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21934564653",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21934564653/job/63345890754"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21934564653/job/63345890756"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21934564653/job/63345890770"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21934564653/job/63345890774"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21934564653/job/63345890779"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21934564653/job/63345890793"
+      }
+    ]
+  },
+  {
     "commitSha": "0004cbc15f01a980c6334b66903a30ca3ea79259",
     "commitTimestamp": "2026-02-11T05:32:56Z",
     "commitMessage": "release: 2.0.0-beta.4 (#7175)",
