@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c5a6dc9b8fb9760b172826bbed72e4c2a8a78953",
+    "commitTimestamp": "2026-02-13T02:37:48Z",
+    "commitMessage": "test(e2e): consolidate test cases using helper (#7181)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21972527157",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21972527157/job/63476994335"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21972527157/job/63476994340"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21972527157/job/63476994343"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21972527157/job/63476994347"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21972527157/job/63476994348"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21972527157/job/63476994354"
+      }
+    ]
+  },
+  {
     "commitSha": "828c6846b69e1db4d1e71afa48ae8a0bb2ad23d8",
     "commitTimestamp": "2026-02-13T01:54:10Z",
     "commitMessage": "test(e2e): merging duplicate dev/build tests (#7180)",
