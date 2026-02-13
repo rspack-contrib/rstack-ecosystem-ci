@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "5e0d0c301c8de8394de54987ce9aa932e6801fc5",
+    "commitTimestamp": "2026-02-13T19:26:21Z",
+    "commitMessage": "fix(browser): register Rstest API before browser setup files (#966)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21999922485",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21999922485/job/63569681805"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21999922485/job/63569681817"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21999922485/job/63569681826"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21999922485/job/63569681829"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21999922485/job/63569681873"
+      }
+    ]
+  },
+  {
     "commitSha": "04002d08327253095554c6c18bd33aeece718655",
     "commitTimestamp": "2026-02-10T11:46:45Z",
     "commitMessage": "fix: prevent rpc timeout (#961)",
