@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "fb8c2cc1d940c4a0e10eba1660f0ad63e2eb1e7d",
+    "commitTimestamp": "2026-02-13T17:10:15Z",
+    "commitMessage": "feat: Add `pnp_manifest` option to resolver (#12417)",
+    "author": {
+      "name": "smeng9",
+      "email": "38666763+smeng9@users.noreply.github.com",
+      "login": "smeng9"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/21995731611",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21995731611/job/63555902961"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21995731611/job/63555902965"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21995731611/job/63555902969"
+      },
+      {
+        "name": "nuxt",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21995731611/job/63555902977"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21995731611/job/63555902979"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21995731611/job/63555902982"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21995731611/job/63555903023"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21995731611/job/63555903031"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21995731611/job/63555903046"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21995731611/job/63555903104"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21995731611/job/63555903239"
+      }
+    ]
+  },
+  {
     "commitSha": "e34c8b9aedff5404ee74e99019ff65fca293ddfc",
     "commitTimestamp": "2026-02-13T11:30:09Z",
     "commitMessage": "fix(rstest): replace `mockRequire` to `rstest_mock_require` (#13056)",
