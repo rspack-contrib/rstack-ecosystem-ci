@@ -48,6 +48,54 @@
     ]
   },
   {
+    "commitSha": "76a3705d80f90cb147f412235ecf25e902a42548",
+    "commitTimestamp": "2026-02-14T10:46:46Z",
+    "commitMessage": "chore(deps): update dependency rsbuild-plugin-arethetypeswrong to v0.2.0 (#7184)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22016046470",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22016046470/job/63617873098"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22016046470/job/63617873099"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22016046470/job/63617873101"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22016046470/job/63617873105"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22016046470/job/63617873107"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22016046470/job/63617873109"
+      }
+    ]
+  },
+  {
     "commitSha": "c5a6dc9b8fb9760b172826bbed72e4c2a8a78953",
     "commitTimestamp": "2026-02-13T02:37:48Z",
     "commitMessage": "test(e2e): consolidate test cases using helper (#7181)",
