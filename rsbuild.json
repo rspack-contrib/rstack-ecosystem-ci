@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e11ef37d2911cbc4147f08b7ce8bd4d68d8b3eb4",
+    "commitTimestamp": "2026-02-14T11:09:20Z",
+    "commitMessage": "test: refactor e2e tests to use runBoth helper (#7187)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22016327484",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22016327484/job/63618562540"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22016327484/job/63618562547"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22016327484/job/63618562548"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22016327484/job/63618562549"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22016327484/job/63618562550"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22016327484/job/63618562553"
+      }
+    ]
+  },
+  {
     "commitSha": "7cbcbf8998e6a22e0b3cfdc7c916bb5d07f1102f",
     "commitTimestamp": "2026-02-14T10:53:48Z",
     "commitMessage": "test(e2e): rename test helpers for consistency (#7182)",
