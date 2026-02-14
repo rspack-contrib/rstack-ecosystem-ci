@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2bfb30bfa6a2760fb09c5eed706c228dcc8b1ddb",
+    "commitTimestamp": "2026-02-14T10:47:02Z",
+    "commitMessage": "chore(deps): update dependency nx to ^22.5.1 (#7183)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22016049558",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22016049558/job/63617880475"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22016049558/job/63617880476"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22016049558/job/63617880477"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22016049558/job/63617880478"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22016049558/job/63617880485"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22016049558/job/63617880489"
+      }
+    ]
+  },
+  {
     "commitSha": "c5a6dc9b8fb9760b172826bbed72e4c2a8a78953",
     "commitTimestamp": "2026-02-13T02:37:48Z",
     "commitMessage": "test(e2e): consolidate test cases using helper (#7181)",
