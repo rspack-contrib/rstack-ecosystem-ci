@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7cbcbf8998e6a22e0b3cfdc7c916bb5d07f1102f",
+    "commitTimestamp": "2026-02-14T10:53:48Z",
+    "commitMessage": "test(e2e): rename test helpers for consistency (#7182)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22016129590",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22016129590/job/63618075341"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22016129590/job/63618075343"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22016129590/job/63618075344"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22016129590/job/63618075345"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22016129590/job/63618075346"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22016129590/job/63618075349"
+      }
+    ]
+  },
+  {
     "commitSha": "2bfb30bfa6a2760fb09c5eed706c228dcc8b1ddb",
     "commitTimestamp": "2026-02-14T10:47:02Z",
     "commitMessage": "chore(deps): update dependency nx to ^22.5.1 (#7183)",
