@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "fceab4340f41019f6aad854f5492373a84e0e45c",
+    "commitTimestamp": "2026-02-14T03:05:10Z",
+    "commitMessage": "fix(mockRequire): `__webpack_require__.r` is not a function (#965)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22010011979",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22010011979/job/63601823477"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22010011979/job/63601823488"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22010011979/job/63601823493"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22010011979/job/63601823503"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22010011979/job/63601823505"
+      }
+    ]
+  },
+  {
     "commitSha": "5e0d0c301c8de8394de54987ce9aa932e6801fc5",
     "commitTimestamp": "2026-02-13T19:26:21Z",
     "commitMessage": "fix(browser): register Rstest API before browser setup files (#966)",
