@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ded35c032438688bfb4bc3f093a649b98118de1c",
+    "commitTimestamp": "2026-02-15T08:12:47Z",
+    "commitMessage": "fix: set `client.overlay.runtime` by environments (#7189)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032323005",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032323005/job/63659425375"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032323005/job/63659425376"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032323005/job/63659425386"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032323005/job/63659425387"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032323005/job/63659425394"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032323005/job/63659425399"
+      }
+    ]
+  },
+  {
     "commitSha": "6706c343470e242e2e67d4366115696511fe21fb",
     "commitTimestamp": "2026-02-15T08:12:05Z",
     "commitMessage": "chore(deps): update dependency svelte to ^5.51.1 (#7190)",
