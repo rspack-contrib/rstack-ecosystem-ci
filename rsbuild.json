@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "6706c343470e242e2e67d4366115696511fe21fb",
+    "commitTimestamp": "2026-02-15T08:12:05Z",
+    "commitMessage": "chore(deps): update dependency svelte to ^5.51.1 (#7190)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032314839",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032314839/job/63659401569"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032314839/job/63659401573"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032314839/job/63659401576"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032314839/job/63659401581"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032314839/job/63659401584"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032314839/job/63659401586"
+      }
+    ]
+  },
+  {
     "commitSha": "e11ef37d2911cbc4147f08b7ce8bd4d68d8b3eb4",
     "commitTimestamp": "2026-02-14T11:09:20Z",
     "commitMessage": "test: refactor e2e tests to use runBoth helper (#7187)",
