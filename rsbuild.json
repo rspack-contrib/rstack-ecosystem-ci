@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "01142511e1ea8521d794aa27b6a1a15d6f022f20",
+    "commitTimestamp": "2026-02-15T08:21:41Z",
+    "commitMessage": "test: fix environments snapshots",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032439534",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032439534/job/63659730053"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032439534/job/63659730055"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032439534/job/63659730056"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032439534/job/63659730058"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032439534/job/63659730060"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032439534/job/63659730061"
+      }
+    ]
+  },
+  {
     "commitSha": "2691c8e6f3195ba4477e965f63f72f1246b783b9",
     "commitTimestamp": "2026-02-15T08:19:58Z",
     "commitMessage": "feat(core): add setupMiddlewares support for preview mode (#7145)",
