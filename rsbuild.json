@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2691c8e6f3195ba4477e965f63f72f1246b783b9",
+    "commitTimestamp": "2026-02-15T08:19:58Z",
+    "commitMessage": "feat(core): add setupMiddlewares support for preview mode (#7145)",
+    "author": {
+      "name": "T9-Forever",
+      "email": "914596827@qq.com",
+      "login": "T9-Forever"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032415257",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032415257/job/63659667657"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032415257/job/63659667658"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032415257/job/63659667660"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032415257/job/63659667661"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032415257/job/63659667666"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032415257/job/63659667668"
+      }
+    ]
+  },
+  {
     "commitSha": "ded35c032438688bfb4bc3f093a649b98118de1c",
     "commitTimestamp": "2026-02-15T08:12:47Z",
     "commitMessage": "fix: set `client.overlay.runtime` by environments (#7189)",
@@ -44,54 +92,6 @@
         "name": "examples",
         "status": "success",
         "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032323005/job/63659425399"
-      }
-    ]
-  },
-  {
-    "commitSha": "201ae5f5bdde69cfb81ba0bb5e8c629c607e58ef",
-    "commitTimestamp": "2026-02-15T08:12:29Z",
-    "commitMessage": "chore(deps): update dependency svelte-check to ^4.4.0 (#7191)",
-    "author": {
-      "name": "renovate[bot]",
-      "email": "29139614+renovate[bot]@users.noreply.github.com",
-      "login": "renovate[bot]"
-    },
-    "repository": {
-      "fullName": "web-infra-dev/rsbuild",
-      "name": "rsbuild"
-    },
-    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032319410",
-    "overallStatus": "failure",
-    "suites": [
-      {
-        "name": "plugins",
-        "status": "failure",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032319410/job/63659415213"
-      },
-      {
-        "name": "examples",
-        "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032319410/job/63659415215"
-      },
-      {
-        "name": "modernjs",
-        "status": "failure",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032319410/job/63659415216"
-      },
-      {
-        "name": "rstest",
-        "status": "failure",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032319410/job/63659415217"
-      },
-      {
-        "name": "rslib",
-        "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032319410/job/63659415219"
-      },
-      {
-        "name": "rspress",
-        "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22032319410/job/63659415223"
       }
     ]
   },
