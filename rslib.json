@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "fdab7ef88eb50ab3edb8175aa116ee336d9d5025",
+    "commitTimestamp": "2026-02-16T03:50:16Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#1488)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22049464901",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22049464901/job/63704412857"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22049464901/job/63704412861"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22049464901/job/63704412863"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22049464901/job/63704412867"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22049464901/job/63704412876"
+      }
+    ]
+  },
+  {
     "commitSha": "572a590f15b466f72e17b3da82633414907dd38e",
     "commitTimestamp": "2026-02-16T02:27:18Z",
     "commitMessage": "test: cleanup create-rslib unnecessary tests and suppress logs (#1490)",
