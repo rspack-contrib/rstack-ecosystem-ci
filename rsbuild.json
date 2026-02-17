@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "1711f2de0999eedb89b13cf95342907931faed46",
+    "commitTimestamp": "2026-02-17T09:11:13Z",
+    "commitMessage": "fix(devServer): move buildManager declaration to top level (#7199)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22092440980",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22092440980/job/63840811595"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22092440980/job/63840811644"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22092440980/job/63840811667"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22092440980/job/63840811688"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22092440980/job/63840811712"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22092440980/job/63840811741"
+      }
+    ]
+  },
+  {
     "commitSha": "ca5c7510df879f0e951cbf896640600bc8b101da",
     "commitTimestamp": "2026-02-17T09:02:27Z",
     "commitMessage": "docs: update documentation for `server.setup` config (#7198)",
