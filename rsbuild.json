@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "867fc08e7e2a8cd434bf86b4b8212f20ac5a243a",
+    "commitTimestamp": "2026-02-17T09:16:54Z",
+    "commitMessage": "fix: allow async cleanup in onBeforeStartDevServer hook (#7200)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22092626001",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22092626001/job/63841434143"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22092626001/job/63841434151"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22092626001/job/63841434155"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22092626001/job/63841434172"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22092626001/job/63841434182"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22092626001/job/63841434185"
+      }
+    ]
+  },
+  {
     "commitSha": "1711f2de0999eedb89b13cf95342907931faed46",
     "commitTimestamp": "2026-02-17T09:11:13Z",
     "commitMessage": "fix(devServer): move buildManager declaration to top level (#7199)",
