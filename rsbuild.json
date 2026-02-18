@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "696785746d88e8ea3d8129dcff47890bd285768f",
+    "commitTimestamp": "2026-02-18T06:15:23Z",
+    "commitMessage": "feat: add environments to prod server setup context (#7201)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22128992640",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22128992640/job/63964919586"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22128992640/job/63964919593"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22128992640/job/63964919603"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22128992640/job/63964919605"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22128992640/job/63964919623"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22128992640/job/63964919633"
+      }
+    ]
+  },
+  {
     "commitSha": "867fc08e7e2a8cd434bf86b4b8212f20ac5a243a",
     "commitTimestamp": "2026-02-17T09:16:54Z",
     "commitMessage": "fix: allow async cleanup in onBeforeStartDevServer hook (#7200)",
