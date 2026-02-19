@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "985bfe136ec2f3a8ff1035cd9ded1c42ecedce37",
+    "commitTimestamp": "2026-02-19T01:38:52Z",
+    "commitMessage": "fix(plugin-solid): fix missing parameter types (#7202)",
+    "author": {
+      "name": "Andrew Avsenin",
+      "email": "snatvb@ya.ru",
+      "login": "snatvb"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22165069152",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22165069152/job/64090478702"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22165069152/job/64090478704"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22165069152/job/64090478712"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22165069152/job/64090478713"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22165069152/job/64090478716"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22165069152/job/64090478723"
+      }
+    ]
+  },
+  {
     "commitSha": "696785746d88e8ea3d8129dcff47890bd285768f",
     "commitTimestamp": "2026-02-18T06:15:23Z",
     "commitMessage": "feat: add environments to prod server setup context (#7201)",
