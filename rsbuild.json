@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b80abb45a1784edab6f33341e950fba0e6be769c",
+    "commitTimestamp": "2026-02-19T01:42:50Z",
+    "commitMessage": "release: @rsbuild/plugin-solid v1.0.8 (#7203)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22165156739",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22165156739/job/64090756786"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22165156739/job/64090756787"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22165156739/job/64090756796"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22165156739/job/64090756797"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22165156739/job/64090756800"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22165156739/job/64090756879"
+      }
+    ]
+  },
+  {
     "commitSha": "985bfe136ec2f3a8ff1035cd9ded1c42ecedce37",
     "commitTimestamp": "2026-02-19T01:38:52Z",
     "commitMessage": "fix(plugin-solid): fix missing parameter types (#7202)",
