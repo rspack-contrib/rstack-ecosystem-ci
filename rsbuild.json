@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "06e4205447732928123e2559e5fb1b003803027f",
+    "commitTimestamp": "2026-02-19T04:29:23Z",
+    "commitMessage": "feat: expose `port` in prod server API (#7209)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22168560856",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22168560856/job/64101330220"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22168560856/job/64101330223"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22168560856/job/64101330230"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22168560856/job/64101330238"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22168560856/job/64101330247"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22168560856/job/64101330251"
+      }
+    ]
+  },
+  {
     "commitSha": "14a6b5303d153c1425997efb920fbb5cbaa99ad2",
     "commitTimestamp": "2026-02-19T02:39:37Z",
     "commitMessage": "refactor(server): simplify server types and options structure (#7208)",
