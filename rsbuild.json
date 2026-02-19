@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "3971d0b9b9fdb9272b334ee050d548273410a540",
+    "commitTimestamp": "2026-02-19T01:52:22Z",
+    "commitMessage": "chore(deps): update tailwindcss to ^4.2.0 (#7205)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22165357500",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22165357500/job/64091368461"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22165357500/job/64091368467"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22165357500/job/64091368471"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22165357500/job/64091368474"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22165357500/job/64091368476"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22165357500/job/64091368489"
+      }
+    ]
+  },
+  {
     "commitSha": "965b1497db1f6e15b26a960d7eb8b2ac019c7838",
     "commitTimestamp": "2026-02-19T01:51:11Z",
     "commitMessage": "chore(deps): update dependency launch-editor-middleware to ^2.13.0 (#7204)",
