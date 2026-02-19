@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "14a6b5303d153c1425997efb920fbb5cbaa99ad2",
+    "commitTimestamp": "2026-02-19T02:39:37Z",
+    "commitMessage": "refactor(server): simplify server types and options structure (#7208)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22166341338",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22166341338/job/64094296613"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22166341338/job/64094296614"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22166341338/job/64094296618"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22166341338/job/64094296623"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22166341338/job/64094296630"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22166341338/job/64094296636"
+      }
+    ]
+  },
+  {
     "commitSha": "c5c6f8bc746c184cd28c9a338b929351ccb6f00a",
     "commitTimestamp": "2026-02-19T02:09:09Z",
     "commitMessage": "feat: extend onBeforeStartProdServer hook with params (#7206)",
