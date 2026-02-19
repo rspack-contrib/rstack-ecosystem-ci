@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c5c6f8bc746c184cd28c9a338b929351ccb6f00a",
+    "commitTimestamp": "2026-02-19T02:09:09Z",
+    "commitMessage": "feat: extend onBeforeStartProdServer hook with params (#7206)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22165710407",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22165710407/job/64092426834"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22165710407/job/64092426836"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22165710407/job/64092426837"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22165710407/job/64092426841"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22165710407/job/64092426846"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22165710407/job/64092426864"
+      }
+    ]
+  },
+  {
     "commitSha": "3971d0b9b9fdb9272b334ee050d548273410a540",
     "commitTimestamp": "2026-02-19T01:52:22Z",
     "commitMessage": "chore(deps): update tailwindcss to ^4.2.0 (#7205)",
