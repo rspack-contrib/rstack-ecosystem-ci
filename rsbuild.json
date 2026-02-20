@@ -48,6 +48,54 @@
     ]
   },
   {
+    "commitSha": "baba371ea6411081c4fb6d594b436cd4ea3a6e89",
+    "commitTimestamp": "2026-02-20T01:02:02Z",
+    "commitMessage": "chore(deps): update dependency svelte to ^5.53.0 (#7211)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22206916975",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22206916975/job/64232813547"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22206916975/job/64232813549"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22206916975/job/64232813553"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22206916975/job/64232813555"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22206916975/job/64232813559"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22206916975/job/64232813584"
+      }
+    ]
+  },
+  {
     "commitSha": "59301393ce23e3ca4a07675076a7f3f6258db5e7",
     "commitTimestamp": "2026-02-20T00:55:43Z",
     "commitMessage": "refactor(server): convert ProdServer class to functional implementation (#7210)",
