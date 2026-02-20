@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "59301393ce23e3ca4a07675076a7f3f6258db5e7",
+    "commitTimestamp": "2026-02-20T00:55:43Z",
+    "commitMessage": "refactor(server): convert ProdServer class to functional implementation (#7210)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22206765552",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22206765552/job/64232336559"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22206765552/job/64232336560"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22206765552/job/64232336567"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22206765552/job/64232336580"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22206765552/job/64232336586"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22206765552/job/64232336598"
+      }
+    ]
+  },
+  {
     "commitSha": "06e4205447732928123e2559e5fb1b003803027f",
     "commitTimestamp": "2026-02-19T04:29:23Z",
     "commitMessage": "feat: expose `port` in prod server API (#7209)",
