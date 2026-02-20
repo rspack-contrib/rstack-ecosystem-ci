@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9f30b26a5514623f55b90b36e402b3df4a38bb25",
+    "commitTimestamp": "2026-02-20T09:07:15Z",
+    "commitMessage": "feat: expose `httpServer` for prod server (#7216)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22218044002",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22218044002/job/64266321980"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22218044002/job/64266321994"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22218044002/job/64266322002"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22218044002/job/64266322009"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22218044002/job/64266322036"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22218044002/job/64266322085"
+      }
+    ]
+  },
+  {
     "commitSha": "3b47ee592266ca875bf3ceda256268df5cae5c19",
     "commitTimestamp": "2026-02-20T02:08:57Z",
     "commitMessage": "feat: export full server API for `startDevServer` (#7215)",
