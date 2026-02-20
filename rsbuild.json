@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ffbd23627cfd0f054535c567215d6e9caa67deec",
+    "commitTimestamp": "2026-02-20T01:02:26Z",
+    "commitMessage": "chore(deps): update pnpm to v10.30.0 (#7212)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22206940209",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22206940209/job/64232886533"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22206940209/job/64232886534"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22206940209/job/64232886538"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22206940209/job/64232886542"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22206940209/job/64232886554"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22206940209/job/64232886555"
+      }
+    ]
+  },
+  {
     "commitSha": "59301393ce23e3ca4a07675076a7f3f6258db5e7",
     "commitTimestamp": "2026-02-20T00:55:43Z",
     "commitMessage": "refactor(server): convert ProdServer class to functional implementation (#7210)",
