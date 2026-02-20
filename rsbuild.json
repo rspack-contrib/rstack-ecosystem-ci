@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e42239970241609cede11d7d952b391e262159c7",
+    "commitTimestamp": "2026-02-20T01:48:37Z",
+    "commitMessage": "fix(server): failed to open https URL when previewing (#7214)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22208031229",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22208031229/job/64236185720"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22208031229/job/64236185725"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22208031229/job/64236185728"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22208031229/job/64236185733"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22208031229/job/64236185754"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22208031229/job/64236185755"
+      }
+    ]
+  },
+  {
     "commitSha": "277fb09615323ebc89d57f191b0a29a4c0b3d0f9",
     "commitTimestamp": "2026-02-20T01:11:09Z",
     "commitMessage": "refactor(server): simplify server config handling (#7213)",
