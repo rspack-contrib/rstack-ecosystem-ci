@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "6b3a860310f2d53ce4fd5c439e20fd374844d4f1",
+    "commitTimestamp": "2026-02-21T02:12:14Z",
+    "commitMessage": "refactor: rename prod server to preview server for clarity (#7220)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22248395037",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22248395037/job/64367041136"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22248395037/job/64367041138"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22248395037/job/64367041140"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22248395037/job/64367041143"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22248395037/job/64367041144"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22248395037/job/64367041149"
+      }
+    ]
+  },
+  {
     "commitSha": "300d9e8257011e1860d316973f57371574ec7ea6",
     "commitTimestamp": "2026-02-21T02:06:35Z",
     "commitMessage": "feat: expose preview server instance for `rsbuild.preview` (#7219)",
