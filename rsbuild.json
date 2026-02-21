@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "af24f7d335e5dad6b9aa0e8bf35b3ae3770ce519",
+    "commitTimestamp": "2026-02-21T06:49:49Z",
+    "commitMessage": "feat(server)!: rename prod server hooks to preview server (#7222)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22252279954",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22252279954/job/64377866981"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22252279954/job/64377866984"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22252279954/job/64377866988"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22252279954/job/64377866990"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22252279954/job/64377866991"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22252279954/job/64377866993"
+      }
+    ]
+  },
+  {
     "commitSha": "1a075543f6ae603551c527e3662e101b4395ea3d",
     "commitTimestamp": "2026-02-21T02:13:26Z",
     "commitMessage": "feat: export more server types (#7221)",
