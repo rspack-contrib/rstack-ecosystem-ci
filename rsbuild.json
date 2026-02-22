@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "535d4267ecbae6cc0f85e777a30e57f0eafa621a",
+    "commitTimestamp": "2026-02-22T12:37:45Z",
+    "commitMessage": "docs: update dev.setupMiddlewares references (#7230)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22277299260",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22277299260/job/64441480593"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22277299260/job/64441480599"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22277299260/job/64441480602"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22277299260/job/64441480603"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22277299260/job/64441480604"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22277299260/job/64441480605"
+      }
+    ]
+  },
+  {
     "commitSha": "80c58beff295da07f1b86f349a6e66b229178d22",
     "commitTimestamp": "2026-02-22T09:04:46Z",
     "commitMessage": "fix: deprecate `dev.setupMiddlewares` in favor of `server.setup` (#7229)",
