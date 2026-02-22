@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9d3827346e67798a89bb92d678d441033f68ae23",
+    "commitTimestamp": "2026-02-22T01:44:52Z",
+    "commitMessage": "feat: add  `open` and `printUrls` methods to preview server (#7224)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22268280444",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22268280444/job/64418372469"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22268280444/job/64418372471"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22268280444/job/64418372474"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22268280444/job/64418372475"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22268280444/job/64418372479"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22268280444/job/64418372527"
+      }
+    ]
+  },
+  {
     "commitSha": "4dea7fa268a10e83a96620a5d7e46e227440b315",
     "commitTimestamp": "2026-02-21T09:32:30Z",
     "commitMessage": "docs: improve server API docs (#7223)",
