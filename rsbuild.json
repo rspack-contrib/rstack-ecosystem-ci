@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "6523fb143bb11d775f4a16b299477e87972c2b51",
+    "commitTimestamp": "2026-02-22T08:37:42Z",
+    "commitMessage": "chore(deps): update dependency happy-dom to ^20.7.0 (#7227)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22273779431",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22273779431/job/64432537100"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22273779431/job/64432537103"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22273779431/job/64432537105"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22273779431/job/64432537107"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22273779431/job/64432537108"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22273779431/job/64432537111"
+      }
+    ]
+  },
+  {
     "commitSha": "9d3827346e67798a89bb92d678d441033f68ae23",
     "commitTimestamp": "2026-02-22T01:44:52Z",
     "commitMessage": "feat: add  `open` and `printUrls` methods to preview server (#7224)",
