@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "565ae10f150efca50a9e7251b1dd58437836096c",
+    "commitTimestamp": "2026-02-23T10:20:44Z",
+    "commitMessage": "chore: update @rslint/core to 0.2.1 and fix lint issues (#7234)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22301958925",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22301958925/job/64511742528"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22301958925/job/64511742541"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22301958925/job/64511742545"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22301958925/job/64511742550"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22301958925/job/64511742586"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22301958925/job/64511742589"
+      }
+    ]
+  },
+  {
     "commitSha": "3d07af26feb5d6c52158d4a4f67e2d60c0b07d3a",
     "commitTimestamp": "2026-02-23T10:14:41Z",
     "commitMessage": "fix: add lang attribute to Lit html templates (#7233)",
