@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2a82b0dbe1f6f592eefb7e85eb09d7d0585f2966",
+    "commitTimestamp": "2026-02-23T10:06:08Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#7232)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22301470434",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22301470434/job/64510107608"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22301470434/job/64510107609"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22301470434/job/64510107617"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22301470434/job/64510107647"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22301470434/job/64510107667"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22301470434/job/64510107690"
+      }
+    ]
+  },
+  {
     "commitSha": "b130ed89a731d1641ca5574c3401d5b6d9b37abf",
     "commitTimestamp": "2026-02-23T09:23:26Z",
     "commitMessage": "test(e2e): migrate setupMiddlewares to server.setup (#7231)",
