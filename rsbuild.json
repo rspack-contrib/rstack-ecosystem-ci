@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "3d07af26feb5d6c52158d4a4f67e2d60c0b07d3a",
+    "commitTimestamp": "2026-02-23T10:14:41Z",
+    "commitMessage": "fix: add lang attribute to Lit html templates (#7233)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22301756676",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22301756676/job/64511053469"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22301756676/job/64511053474"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22301756676/job/64511053476"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22301756676/job/64511053506"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22301756676/job/64511053515"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22301756676/job/64511053529"
+      }
+    ]
+  },
+  {
     "commitSha": "2a82b0dbe1f6f592eefb7e85eb09d7d0585f2966",
     "commitTimestamp": "2026-02-23T10:06:08Z",
     "commitMessage": "chore(deps): update all patch dependencies (#7232)",
