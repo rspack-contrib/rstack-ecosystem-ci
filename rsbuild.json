@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "dafdbe2a2e6c38426cf3ea1e3ba0d4a38ace5438",
+    "commitTimestamp": "2026-02-24T02:37:39Z",
+    "commitMessage": "test(e2e): add test case for tailwindcss loader (#7235)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22334235037",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22334235037/job/64623084826"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22334235037/job/64623084829"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22334235037/job/64623084837"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22334235037/job/64623084841"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22334235037/job/64623084843"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22334235037/job/64623084845"
+      }
+    ]
+  },
+  {
     "commitSha": "565ae10f150efca50a9e7251b1dd58437836096c",
     "commitTimestamp": "2026-02-23T10:20:44Z",
     "commitMessage": "chore: update @rslint/core to 0.2.1 and fix lint issues (#7234)",
