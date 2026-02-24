@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "059faf8dc0e2a60ade2ded4b82c124b05d743bdc",
+    "commitTimestamp": "2026-02-24T06:58:54Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#3147)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22340175254",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22340175254/job/64641523054"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22340175254/job/64641523059"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22340175254/job/64641523065"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22340175254/job/64641523071"
+      }
+    ]
+  },
+  {
     "commitSha": "49fe146ebb685b94b2e9ec26b9f07c89e43d1097",
     "commitTimestamp": "2026-02-24T06:37:51Z",
     "commitMessage": "chore(deps): update shiki monorepo to ^3.22.0 (#3095)",
