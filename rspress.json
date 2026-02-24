@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "8967c3ed457028d95070cd9151dc23d2f70fda41",
+    "commitTimestamp": "2026-02-24T07:41:58Z",
+    "commitMessage": "fix: allow custom-link type in root _meta.json without panic (#3146)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22341419178",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22341419178/job/64645378150"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22341419178/job/64645378151"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22341419178/job/64645378154"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22341419178/job/64645378173"
+      }
+    ]
+  },
+  {
     "commitSha": "059faf8dc0e2a60ade2ded4b82c124b05d743bdc",
     "commitTimestamp": "2026-02-24T06:58:54Z",
     "commitMessage": "chore(deps): update all patch dependencies (#3147)",
