@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "57baf6fbf94baf5e3b76d365fc570448396a2675",
+    "commitTimestamp": "2026-02-24T07:51:07Z",
+    "commitMessage": "fix: prevent hintSSGFailed log from printing multiple times (#3151)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22341586364",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22341586364/job/64645912929"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22341586364/job/64645912934"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22341586364/job/64645912941"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22341586364/job/64645912957"
+      }
+    ]
+  },
+  {
     "commitSha": "8967c3ed457028d95070cd9151dc23d2f70fda41",
     "commitTimestamp": "2026-02-24T07:41:58Z",
     "commitMessage": "fix: allow custom-link type in root _meta.json without panic (#3146)",
