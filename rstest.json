@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "96dae7ad18b52edc7e34097715673d742c240896",
+    "commitTimestamp": "2026-02-25T09:58:46Z",
+    "commitMessage": "fix(browser): align browser reporter lifecycle hooks across run and watch (#976)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22391757135",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22391757135/job/64815264814"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22391757135/job/64815264817"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22391757135/job/64815264818"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22391757135/job/64815264839"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22391757135/job/64815264840"
+      }
+    ]
+  },
+  {
     "commitSha": "7f01b7a80e5d83ead7f5669dc8369cb7e12e1a77",
     "commitTimestamp": "2026-02-25T09:34:18Z",
     "commitMessage": "feat(deps)!: update @rsbuild/core to v2 beta (#968)",
