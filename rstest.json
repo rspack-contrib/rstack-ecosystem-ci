@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "d7905703264bf849acd4d692f67ebd2c35dc9718",
+    "commitTimestamp": "2026-02-25T03:20:08Z",
+    "commitMessage": "refactor!: drop support for Node 18 (#969)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22380691551",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22380691551/job/64780585158"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22380691551/job/64780585160"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22380691551/job/64780585168"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22380691551/job/64780585174"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22380691551/job/64780585175"
+      }
+    ]
+  },
+  {
     "commitSha": "46eef326b56b4d8f8c84f7ecd9b682baf1778ef7",
     "commitTimestamp": "2026-02-24T07:33:34Z",
     "commitMessage": "refactor(browser): sessionize headless scheduler and unify dispatch RPC (#963)",
