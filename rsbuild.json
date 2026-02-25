@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "572c17ce31102b6d9e3d61b67df7d52d9a28ca29",
+    "commitTimestamp": "2026-02-25T02:56:12Z",
+    "commitMessage": "docs(config): improve server setup documentation (#7239)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22380132743",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22380132743/job/64778755662"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22380132743/job/64778755664"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22380132743/job/64778755677"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22380132743/job/64778755679"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22380132743/job/64778755680"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22380132743/job/64778755687"
+      }
+    ]
+  },
+  {
     "commitSha": "a4813db14b59151f09ee436ddf9d86ffb368e1a0",
     "commitTimestamp": "2026-02-24T02:46:00Z",
     "commitMessage": "release: 2.0.0-beta.5 (#7236)",
