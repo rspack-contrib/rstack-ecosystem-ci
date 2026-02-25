@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "74c44f1859aa94be1ba5a668016418d67b20a38b",
+    "commitTimestamp": "2026-02-25T03:46:51Z",
+    "commitMessage": "feat(ssg-md): support React 18 via react-render-to-markdown alias (#3152)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22381627034",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22381627034/job/64783387357"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22381627034/job/64783387358"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22381627034/job/64783387365"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22381627034/job/64783387368"
+      }
+    ]
+  },
+  {
     "commitSha": "d528315ebb92b15ef82299f8bfa43b55119f342a",
     "commitTimestamp": "2026-02-24T10:41:19Z",
     "commitMessage": "feat(search)!: default `search.versioned` to true (#3150)",
