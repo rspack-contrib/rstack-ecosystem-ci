@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "bc7d03b96f5fbeb3fe72f7eac2b5bb131de86b73",
+    "commitTimestamp": "2026-02-26T08:50:44Z",
+    "commitMessage": "fix: type issues caused by prebundle (#7248)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22434749015",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22434749015/job/64961626396"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22434749015/job/64961626398"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22434749015/job/64961626409"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22434749015/job/64961626418"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22434749015/job/64961626419"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22434749015/job/64961626449"
+      }
+    ]
+  },
+  {
     "commitSha": "846d02a70396e6c571537b0308ea17378d9baa9f",
     "commitTimestamp": "2026-02-26T08:10:11Z",
     "commitMessage": "fix(deps): update rspack-chain to 2.0.0-beta.0 (#7247)",
