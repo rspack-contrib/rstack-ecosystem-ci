@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "0a8156c0fc7200cda576b01e4b1dd5155b95633f",
+    "commitTimestamp": "2026-02-26T04:01:31Z",
+    "commitMessage": "chore(deps): update dependency tinypool to v2 (#979)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22427274542",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22427274542/job/64938107635"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22427274542/job/64938107641"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22427274542/job/64938107644"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22427274542/job/64938107671"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22427274542/job/64938107687"
+      }
+    ]
+  },
+  {
     "commitSha": "8c3b8803604726f7bab108e157cbe1142d670ad0",
     "commitTimestamp": "2026-02-26T04:01:14Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#890)",
