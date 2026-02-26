@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "049b96e3953fb644a0104d6efe31338ae371d38a",
+    "commitTimestamp": "2026-02-26T08:52:14Z",
+    "commitMessage": "chore: fix some lint errors (#984)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22434772925",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22434772925/job/64961707579"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22434772925/job/64961707612"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22434772925/job/64961707617"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22434772925/job/64961707636"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22434772925/job/64961707693"
+      }
+    ]
+  },
+  {
     "commitSha": "c5008b582fa28ef79058e4189c59d5b989178928",
     "commitTimestamp": "2026-02-26T07:45:33Z",
     "commitMessage": "feat: add `rs.waitFor` and `rs.waitUntil` utilities (#982)",
