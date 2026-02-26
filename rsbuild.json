@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e6bd09cd41314515acf3ac7196f2e42fdc699bd5",
+    "commitTimestamp": "2026-02-26T02:30:53Z",
+    "commitMessage": "release: 2.0.0-beta.6 (#7245)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22425279330",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22425279330/job/64931930274"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22425279330/job/64931930276"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22425279330/job/64931930282"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22425279330/job/64931930288"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22425279330/job/64931930292"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22425279330/job/64931930296"
+      }
+    ]
+  },
+  {
     "commitSha": "0c7c8fce327df44cd58a7cbda15bbb0f0e5055a3",
     "commitTimestamp": "2026-02-26T02:10:16Z",
     "commitMessage": "fix(hmr): ensure initial chunks are set for comparison (#7244)",
