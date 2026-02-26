@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "56af40fbcc6ecbfb439c629417fec37846df0114",
+    "commitTimestamp": "2026-02-26T03:48:25Z",
+    "commitMessage": "fix(CodeBlock/lineNumbers): When defaultWrapCode is set to true, line numbers greater than 1… (#3158)",
+    "author": {
+      "name": "D",
+      "email": "61317508+chanmazi@users.noreply.github.com",
+      "login": "chanmazi"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22426986897",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22426986897/job/64937230527"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22426986897/job/64937230528"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22426986897/job/64937230530"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22426986897/job/64937230532"
+      }
+    ]
+  },
+  {
     "commitSha": "3e5a81ae53841327ed148f336ee37604ebabb80d",
     "commitTimestamp": "2026-02-26T03:37:25Z",
     "commitMessage": "fix: global showLineNumbers/defaultWrapCode ignored when code block has meta (#3156)",
