@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "45b5cefb284d77fcdb28feae22bec733dc18652d",
+    "commitTimestamp": "2026-02-26T05:35:31Z",
+    "commitMessage": "feat(vscode): add editor diagnostics and clean up failure UI (#980)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22429384420",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22429384420/job/64944803114"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22429384420/job/64944803118"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22429384420/job/64944803120"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22429384420/job/64944803132"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22429384420/job/64944803150"
+      }
+    ]
+  },
+  {
     "commitSha": "0a8156c0fc7200cda576b01e4b1dd5155b95633f",
     "commitTimestamp": "2026-02-26T04:01:31Z",
     "commitMessage": "chore(deps): update dependency tinypool to v2 (#979)",
