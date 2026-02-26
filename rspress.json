@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "0a4dfd6f45d83d56c17eac69e84bca85d1880bf6",
+    "commitTimestamp": "2026-02-26T04:07:02Z",
+    "commitMessage": "fix(theme/Tab): increase tab item border-radius to match container (#3145)",
+    "author": {
+      "name": "Xuan Huang (黄玄)",
+      "email": "5563315+Huxpro@users.noreply.github.com",
+      "login": "Huxpro"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22427397577",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22427397577/job/64938492237"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22427397577/job/64938492241"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22427397577/job/64938492243"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22427397577/job/64938492260"
+      }
+    ]
+  },
+  {
     "commitSha": "56af40fbcc6ecbfb439c629417fec37846df0114",
     "commitTimestamp": "2026-02-26T03:48:25Z",
     "commitMessage": "fix(CodeBlock/lineNumbers): When defaultWrapCode is set to true, line numbers greater than 1… (#3158)",
