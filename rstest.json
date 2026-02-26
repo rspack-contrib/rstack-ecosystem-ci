@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "0bcdbb9b408f08c42494fcbd4c0ba1eca3ce1993",
+    "commitTimestamp": "2026-02-26T07:19:18Z",
+    "commitMessage": "fix(browser): remove default process shim while keep env stubbing support (#981)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22432030029",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22432030029/job/64952813029"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22432030029/job/64952813035"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22432030029/job/64952813038"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22432030029/job/64952813041"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22432030029/job/64952813049"
+      }
+    ]
+  },
+  {
     "commitSha": "45b5cefb284d77fcdb28feae22bec733dc18652d",
     "commitTimestamp": "2026-02-26T05:35:31Z",
     "commitMessage": "feat(vscode): add editor diagnostics and clean up failure UI (#980)",
