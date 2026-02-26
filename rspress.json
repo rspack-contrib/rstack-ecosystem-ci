@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "ff0396301c73d99f6d0a35650e650ffd6c3483e3",
+    "commitTimestamp": "2026-02-26T03:35:42Z",
+    "commitMessage": "fix(core): move react-render-to-markdown to dependencies (#3157)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22426724238",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22426724238/job/64936440937"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22426724238/job/64936440946"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22426724238/job/64936440948"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22426724238/job/64936440954"
+      }
+    ]
+  },
+  {
     "commitSha": "74c44f1859aa94be1ba5a668016418d67b20a38b",
     "commitTimestamp": "2026-02-25T03:46:51Z",
     "commitMessage": "feat(ssg-md): support React 18 via react-render-to-markdown alias (#3152)",
