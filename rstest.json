@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "c5008b582fa28ef79058e4189c59d5b989178928",
+    "commitTimestamp": "2026-02-26T07:45:33Z",
+    "commitMessage": "feat: add `rs.waitFor` and `rs.waitUntil` utilities (#982)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22432827919",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22432827919/job/64955313883"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22432827919/job/64955313887"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22432827919/job/64955313889"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22432827919/job/64955313915"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22432827919/job/64955313930"
+      }
+    ]
+  },
+  {
     "commitSha": "0bcdbb9b408f08c42494fcbd4c0ba1eca3ce1993",
     "commitTimestamp": "2026-02-26T07:19:18Z",
     "commitMessage": "fix(browser): remove default process shim while keep env stubbing support (#981)",
