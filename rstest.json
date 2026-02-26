@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "8c3b8803604726f7bab108e157cbe1142d670ad0",
+    "commitTimestamp": "2026-02-26T04:01:14Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#890)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22427268809",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22427268809/job/64938090696"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22427268809/job/64938090698"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22427268809/job/64938090705"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22427268809/job/64938090712"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22427268809/job/64938090716"
+      }
+    ]
+  },
+  {
     "commitSha": "96dae7ad18b52edc7e34097715673d742c240896",
     "commitTimestamp": "2026-02-25T09:58:46Z",
     "commitMessage": "fix(browser): align browser reporter lifecycle hooks across run and watch (#976)",
