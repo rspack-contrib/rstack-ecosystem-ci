@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "c7f4c7a982dba68dc755f6e1d521a9920d948077",
+    "commitTimestamp": "2026-02-27T08:51:57Z",
+    "commitMessage": "feat(mdx/Shiki): support `lineNumbers=false` and `wrapCode=false` in meta (#3166)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22479436991",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22479436991/job/65113722658"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22479436991/job/65113722662"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22479436991/job/65113722665"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22479436991/job/65113722675"
+      }
+    ]
+  },
+  {
     "commitSha": "f6a31371022bd771c60c899164d8800545d39309",
     "commitTimestamp": "2026-02-27T07:30:44Z",
     "commitMessage": "fix(Codeblock/lineNumbers): line numbers greater than 1 style, associated with #3158 (#3165)",
