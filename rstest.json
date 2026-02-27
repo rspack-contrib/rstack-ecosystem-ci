@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "69e91b39fbb3cda6284b5db1b5920a1b7d453757",
+    "commitTimestamp": "2026-02-27T06:22:40Z",
+    "commitMessage": "perf: use advanced serialization (#792)",
+    "author": {
+      "name": "claneo",
+      "email": "claneo@outlook.com",
+      "login": "claneo"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22475464242",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22475464242/job/65101363250"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22475464242/job/65101363251"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22475464242/job/65101363253"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22475464242/job/65101363256"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22475464242/job/65101363272"
+      }
+    ]
+  },
+  {
     "commitSha": "fc9393bfc74f54d72e66c006f2e006823d8af748",
     "commitTimestamp": "2026-02-27T06:19:30Z",
     "commitMessage": "release(adapter-rsbuild): 0.2.1 (#988)",
