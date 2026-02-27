@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "fc9393bfc74f54d72e66c006f2e006823d8af748",
+    "commitTimestamp": "2026-02-27T06:19:30Z",
+    "commitMessage": "release(adapter-rsbuild): 0.2.1 (#988)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22475449915",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22475449915/job/65101318954"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22475449915/job/65101318958"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22475449915/job/65101318960"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22475449915/job/65101318962"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22475449915/job/65101318974"
+      }
+    ]
+  },
+  {
     "commitSha": "4f4f8493ccb287aee03112f732df639ed4e5ac16",
     "commitTimestamp": "2026-02-27T05:45:42Z",
     "commitMessage": "feat(reporter): add `testLists` option to md reporter (#987)",
