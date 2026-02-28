@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "5e81d67e04967b40f7575ecadd445de5a6bb8cd5",
+    "commitTimestamp": "2026-02-28T06:38:40Z",
+    "commitMessage": "chore: replace pnpm commands with node --run (#7257)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22515423557",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22515423557/job/65232221261"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22515423557/job/65232221262"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22515423557/job/65232221266"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22515423557/job/65232221283"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22515423557/job/65232221286"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22515423557/job/65232221297"
+      }
+    ]
+  },
+  {
     "commitSha": "0d0def7228b77e2f38dd53a149a3556b7648f32e",
     "commitTimestamp": "2026-02-28T06:29:40Z",
     "commitMessage": "chore: use pnpm to run build scripts (#7256)",
