@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d9abe37aa3094311b1fe29b8e47eb084afd92a74",
+    "commitTimestamp": "2026-02-28T05:54:43Z",
+    "commitMessage": "chore(deps): update cac dependency from v6 to v7 (#7254)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22514708347",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22514708347/job/65230400616"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22514708347/job/65230400618"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22514708347/job/65230400619"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22514708347/job/65230400624"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22514708347/job/65230400630"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22514708347/job/65230400634"
+      }
+    ]
+  },
+  {
     "commitSha": "4faf2120edf2229da53c1a426bca030727bf5c86",
     "commitTimestamp": "2026-02-27T02:50:35Z",
     "commitMessage": "chore(deps): update dependency svelte to v5.53.5 [security] (#7252)",
