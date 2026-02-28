@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "06e17f1bd6999baed7594138a6ee0f74913f766d",
+    "commitTimestamp": "2026-02-28T06:11:10Z",
+    "commitMessage": "chore: refresh pnpm lock file (#7255)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22514974798",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22514974798/job/65231087095"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22514974798/job/65231087098"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22514974798/job/65231087100"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22514974798/job/65231087101"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22514974798/job/65231087105"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22514974798/job/65231087107"
+      }
+    ]
+  },
+  {
     "commitSha": "d9abe37aa3094311b1fe29b8e47eb084afd92a74",
     "commitTimestamp": "2026-02-28T05:54:43Z",
     "commitMessage": "chore(deps): update cac dependency from v6 to v7 (#7254)",
