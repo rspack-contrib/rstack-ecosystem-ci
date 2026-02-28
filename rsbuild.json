@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "aa13b6f4537a12055db5f21f32b1aae4305724b4",
+    "commitTimestamp": "2026-02-28T08:17:40Z",
+    "commitMessage": "chore(examples): fix missing MF runtime dependency (#7262)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22516982010",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22516982010/job/65236113062"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22516982010/job/65236113070"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22516982010/job/65236113071"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22516982010/job/65236113073"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22516982010/job/65236113077"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22516982010/job/65236113092"
+      }
+    ]
+  },
+  {
     "commitSha": "33d3da9ec60afb4d12184aa63a5a598d47955906",
     "commitTimestamp": "2026-02-28T08:05:36Z",
     "commitMessage": "release: @rsbuild/plugin-solid v1.1.0 (#7261)",
