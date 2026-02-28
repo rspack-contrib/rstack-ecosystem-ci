@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "56db516741d3b2d61a6bbea9a01de303c6a84c74",
+    "commitTimestamp": "2026-02-28T09:12:51Z",
+    "commitMessage": "fix(core/extractDescription): skip container directives (:::tip, :::info, etc.) (#3167)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22517826295",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22517826295/job/65238226587"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22517826295/job/65238226589"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22517826295/job/65238226594"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22517826295/job/65238226595"
+      }
+    ]
+  },
+  {
     "commitSha": "6b318df313e908029ff466d4666132e203e87543",
     "commitTimestamp": "2026-02-28T08:59:04Z",
     "commitMessage": "fix(theme/Outline): enable scrollable TOC on wide screens for long outlines (#3170)",
