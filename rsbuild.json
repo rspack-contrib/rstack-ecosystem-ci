@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "36336d46a399cad33d188f0f9f4231e6bb534802",
+    "commitTimestamp": "2026-02-28T06:50:18Z",
+    "commitMessage": "chore(deps): update dependency solid-refresh to v0.7.6 (#7258)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22515629028",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22515629028/job/65232732111"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22515629028/job/65232732113"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22515629028/job/65232732114"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22515629028/job/65232732115"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22515629028/job/65232732116"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22515629028/job/65232732117"
+      }
+    ]
+  },
+  {
     "commitSha": "5e81d67e04967b40f7575ecadd445de5a6bb8cd5",
     "commitTimestamp": "2026-02-28T06:38:40Z",
     "commitMessage": "chore: replace pnpm commands with node --run (#7257)",
