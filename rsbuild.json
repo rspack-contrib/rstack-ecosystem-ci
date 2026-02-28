@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "499603365a8d7910efa89583c18536c4f43b9deb",
+    "commitTimestamp": "2026-02-28T07:59:28Z",
+    "commitMessage": "test(e2e): fix flaky multi server test (#7260)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22516701183",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22516701183/job/65235353002"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22516701183/job/65235353015"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22516701183/job/65235353020"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22516701183/job/65235353025"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22516701183/job/65235353031"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22516701183/job/65235353110"
+      }
+    ]
+  },
+  {
     "commitSha": "89bd1a0b30146154b6f32037c2b90fb532f3c26a",
     "commitTimestamp": "2026-02-28T07:31:03Z",
     "commitMessage": "test(e2e): replace polka with hono (#7259)",
