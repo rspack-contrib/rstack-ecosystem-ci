@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "33d3da9ec60afb4d12184aa63a5a598d47955906",
+    "commitTimestamp": "2026-02-28T08:05:36Z",
+    "commitMessage": "release: @rsbuild/plugin-solid v1.1.0 (#7261)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22516803291",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22516803291/job/65235629753"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22516803291/job/65235629767"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22516803291/job/65235629782"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22516803291/job/65235629783"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22516803291/job/65235629786"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22516803291/job/65235629789"
+      }
+    ]
+  },
+  {
     "commitSha": "499603365a8d7910efa89583c18536c4f43b9deb",
     "commitTimestamp": "2026-02-28T07:59:28Z",
     "commitMessage": "test(e2e): fix flaky multi server test (#7260)",
