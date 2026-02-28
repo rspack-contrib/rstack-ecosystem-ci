@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "d2fe67932ba6859a58cbaad5cb142b7f3bcad18a",
+    "commitTimestamp": "2026-02-28T06:54:53Z",
+    "commitMessage": "fix(browser): resolve browser failure annotations to test sources in github-actions reporter (#989)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22515679671",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22515679671/job/65232854982"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22515679671/job/65232854985"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22515679671/job/65232854988"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22515679671/job/65232854990"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22515679671/job/65232854991"
+      }
+    ]
+  },
+  {
     "commitSha": "69e91b39fbb3cda6284b5db1b5920a1b7d453757",
     "commitTimestamp": "2026-02-27T06:22:40Z",
     "commitMessage": "perf: use advanced serialization (#792)",
