@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "160451580a64a0b79fea7a36ea1e0853404c1f39",
+    "commitTimestamp": "2026-02-28T09:34:38Z",
+    "commitMessage": "feat(theme/EditLink): add edit link to outline sidebar (#3164)",
+    "author": {
+      "name": "Xuan Huang (黄玄)",
+      "email": "5563315+Huxpro@users.noreply.github.com",
+      "login": "Huxpro"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22518159839",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22518159839/job/65239021143"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22518159839/job/65239021149"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22518159839/job/65239021153"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22518159839/job/65239021159"
+      }
+    ]
+  },
+  {
     "commitSha": "56db516741d3b2d61a6bbea9a01de303c6a84c74",
     "commitTimestamp": "2026-02-28T09:12:51Z",
     "commitMessage": "fix(core/extractDescription): skip container directives (:::tip, :::info, etc.) (#3167)",
