@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "533e189d16270c07e9fb9c4ab57e67b7b178ccf6",
+    "commitTimestamp": "2026-03-01T10:57:48Z",
+    "commitMessage": "chore(deps): update dependency @rsbuild/plugin-solid to ^1.1.0 (#7265)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22541966418",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22541966418/job/65298425629"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22541966418/job/65298425633"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22541966418/job/65298425635"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22541966418/job/65298425636"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22541966418/job/65298425639"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22541966418/job/65298425650"
+      }
+    ]
+  },
+  {
     "commitSha": "aa13b6f4537a12055db5f21f32b1aae4305724b4",
     "commitTimestamp": "2026-02-28T08:17:40Z",
     "commitMessage": "chore(examples): fix missing MF runtime dependency (#7262)",
