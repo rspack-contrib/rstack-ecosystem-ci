@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "278a2e34a244250f5efd8cbde9f3c008d55a17ca",
+    "commitTimestamp": "2026-03-02T07:51:38Z",
+    "commitMessage": "fix(plugin-babel): remove deepmerge dependency (#7274)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22566486861",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22566486861/job/65363667271"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22566486861/job/65363667274"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22566486861/job/65363667278"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22566486861/job/65363667280"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22566486861/job/65363667283"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22566486861/job/65363667322"
+      }
+    ]
+  },
+  {
     "commitSha": "c33e6638fd9f842fcf36127cd9ea3c7e481720d1",
     "commitTimestamp": "2026-03-02T07:30:48Z",
     "commitMessage": "fix: should override `dev.writeToDisk` config correctly (#7273)",
