@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d7a0ec765ffe29366bfe55d9364052f1f0f4e157",
+    "commitTimestamp": "2026-03-02T08:33:57Z",
+    "commitMessage": "fix: replace `module.hot` with import.meta (#7276)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22567823457",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22567823457/job/65367858915"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22567823457/job/65367858933"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22567823457/job/65367858936"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22567823457/job/65367858960"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22567823457/job/65367858989"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22567823457/job/65367859042"
+      }
+    ]
+  },
+  {
     "commitSha": "e7842ff52a074d67fd50b774e76265d9422212c0",
     "commitTimestamp": "2026-03-02T07:57:17Z",
     "commitMessage": "release: @rsbuild/plugin-babel v1.1.1 (#7275)",
