@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "dd83352c3d05d6ae6b91c80b9d4991b7eafd61e0",
+    "commitTimestamp": "2026-03-02T08:38:27Z",
+    "commitMessage": "fix(theme): unify copy and success SVG icons in code button group (#3179)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22567969848",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22567969848/job/65368323595"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22567969848/job/65368323623"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22567969848/job/65368323634"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22567969848/job/65368323648"
+      }
+    ]
+  },
+  {
     "commitSha": "f986303f3d6188e9d2153991b3ab9a88cdc71f20",
     "commitTimestamp": "2026-03-02T08:28:23Z",
     "commitMessage": "chore(infra): improve Renovate config based on historical upgrade patterns (#3178)",
