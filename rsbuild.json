@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b9a222165c5ab5e96c7af4461b82203cd89830c2",
+    "commitTimestamp": "2026-03-02T13:32:17Z",
+    "commitMessage": "chore: skip building test helper (#7278)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22578272591",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22578272591/job/65403117439"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22578272591/job/65403117447"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22578272591/job/65403117457"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22578272591/job/65403117458"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22578272591/job/65403117473"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22578272591/job/65403117482"
+      }
+    ]
+  },
+  {
     "commitSha": "d7a0ec765ffe29366bfe55d9364052f1f0f4e157",
     "commitTimestamp": "2026-03-02T08:33:57Z",
     "commitMessage": "fix: replace `module.hot` with import.meta (#7276)",
