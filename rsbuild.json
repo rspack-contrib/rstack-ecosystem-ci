@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "928fa921dbd8a8931dd2175c1280459d70dcb29e",
+    "commitTimestamp": "2026-03-02T04:57:39Z",
+    "commitMessage": "feat(deps)!: update style-loader to v4 (#7270)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22562083806",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22562083806/job/65350629338"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22562083806/job/65350629340"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22562083806/job/65350629341"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22562083806/job/65350629343"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22562083806/job/65350629347"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22562083806/job/65350629350"
+      }
+    ]
+  },
+  {
     "commitSha": "dddd4dc2721fcea1524742ad0dd80e3aed7f57cf",
     "commitTimestamp": "2026-03-02T03:42:54Z",
     "commitMessage": "fix(plugin-babel): remove upath dependency (#7269)",
