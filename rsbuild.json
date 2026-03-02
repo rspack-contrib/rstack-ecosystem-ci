@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "aefab08418be4cb81c9ef7b9864dc967ef09491b",
+    "commitTimestamp": "2026-03-02T05:10:47Z",
+    "commitMessage": "chore(deps): update tinyglobby to ^0.2.15 (#7271)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22562353067",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22562353067/job/65351405420"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22562353067/job/65351405421"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22562353067/job/65351405425"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22562353067/job/65351405428"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22562353067/job/65351405430"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22562353067/job/65351405444"
+      }
+    ]
+  },
+  {
     "commitSha": "928fa921dbd8a8931dd2175c1280459d70dcb29e",
     "commitTimestamp": "2026-03-02T04:57:39Z",
     "commitMessage": "feat(deps)!: update style-loader to v4 (#7270)",
