@@ -47,6 +47,6 @@ export async function test(options: RunOptions) {
       await $`pnpm playwright install chromium`;
       cd('../../../');
     },
-    test: ['test:rspack'],
+    test: ['test:framework', 'test:builder'],
   });
 }
