@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "e64a8783e334dfc6631848f01c4e5694ebf9c3bf",
+    "commitTimestamp": "2026-03-02T13:27:30Z",
+    "commitMessage": "fix(auto-nav-sidebar): exclude route.exclude files from auto-generated sidebars and place `index.md` at the top (#3171)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22578099885",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22578099885/job/65402512056"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22578099885/job/65402512059"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22578099885/job/65402512063"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22578099885/job/65402512092"
+      }
+    ]
+  },
+  {
     "commitSha": "4d01488bf0c9f04d6e271ab0a9131c7644340903",
     "commitTimestamp": "2026-03-02T10:24:59Z",
     "commitMessage": "refactor(theme): move LLMs components to Llms directory and support outline placement (#3180)",
