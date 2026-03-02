@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "f986303f3d6188e9d2153991b3ab9a88cdc71f20",
+    "commitTimestamp": "2026-03-02T08:28:23Z",
+    "commitMessage": "chore(infra): improve Renovate config based on historical upgrade patterns (#3178)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22567642452",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22567642452/job/65367275521"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22567642452/job/65367275533"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22567642452/job/65367275541"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22567642452/job/65367275549"
+      }
+    ]
+  },
+  {
     "commitSha": "66fe9f837f4cecab859b57f6f10efc6d4d413f1b",
     "commitTimestamp": "2026-03-02T07:36:03Z",
     "commitMessage": "refactor(theme/EditLink): merge EditLinkRow into EditLink and extract SVG icons (#3172)",
