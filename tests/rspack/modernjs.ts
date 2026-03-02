@@ -12,7 +12,7 @@ export async function test(options: RunOptions) {
   await runInRepo({
     ...options,
     repo: 'web-infra-dev/modern.js',
-    branch: process.env.MODERN_REF ?? 'v2',
+    branch: process.env.MODERN_REF ?? 'main',
     beforeInstall: async () => {
       if (isGitHubActions) {
         const modernJsDir = join(process.cwd(), 'workspace/modernjs/modern.js');
