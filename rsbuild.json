@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e7842ff52a074d67fd50b774e76265d9422212c0",
+    "commitTimestamp": "2026-03-02T07:57:17Z",
+    "commitMessage": "release: @rsbuild/plugin-babel v1.1.1 (#7275)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22566655271",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22566655271/job/65364158260"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22566655271/job/65364158267"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22566655271/job/65364158281"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22566655271/job/65364158331"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22566655271/job/65364158335"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22566655271/job/65364158344"
+      }
+    ]
+  },
+  {
     "commitSha": "278a2e34a244250f5efd8cbde9f3c008d55a17ca",
     "commitTimestamp": "2026-03-02T07:51:38Z",
     "commitMessage": "fix(plugin-babel): remove deepmerge dependency (#7274)",
