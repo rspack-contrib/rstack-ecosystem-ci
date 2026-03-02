@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c33e6638fd9f842fcf36127cd9ea3c7e481720d1",
+    "commitTimestamp": "2026-03-02T07:30:48Z",
+    "commitMessage": "fix: should override `dev.writeToDisk` config correctly (#7273)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22565895159",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22565895159/job/65361867117"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22565895159/job/65361867122"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22565895159/job/65361867128"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22565895159/job/65361867145"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22565895159/job/65361867148"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22565895159/job/65361867156"
+      }
+    ]
+  },
+  {
     "commitSha": "aefab08418be4cb81c9ef7b9864dc967ef09491b",
     "commitTimestamp": "2026-03-02T05:10:47Z",
     "commitMessage": "chore(deps): update tinyglobby to ^0.2.15 (#7271)",
