@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "6d92edd640450cb3a3e80334a6b376f0e926f749",
+    "commitTimestamp": "2026-03-02T09:16:14Z",
+    "commitMessage": "feat(javascript): align scope termination and DCE with webpack (#13147)",
+    "author": {
+      "name": "harpsealjs",
+      "email": "lingyucoder@gmail.com",
+      "login": "LingyuCoder"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/22569236608",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "nuxt",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22569236608/job/65373292583"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22569236608/job/65373292602"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22569236608/job/65373292632"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22569236608/job/65373292635"
+      },
+      {
+        "name": "rstest",
+        "status": "cancelled",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22569236608/job/65373292646"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22569236608/job/65373292664"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22569236608/job/65373292669"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22569236608/job/65373292680"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22569236608/job/65373292702"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22569236608/job/65373292707"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22569236608/job/65373292828"
+      }
+    ]
+  },
+  {
     "commitSha": "27c8fbf40912506fe8da0f6b3ac310075ab9e494",
     "commitTimestamp": "2026-03-02T04:48:31Z",
     "commitMessage": "feat: support `preserve-unknown` to keep unknown import.meta properties (#12796)",
