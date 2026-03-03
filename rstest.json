@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "545cd7a91c6373676087710df549f62449035a63",
+    "commitTimestamp": "2026-03-03T07:12:30Z",
+    "commitMessage": "fix: error messages not displayed due to stream interception (#993)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22612985707",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22612985707/job/65519163403"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22612985707/job/65519163406"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22612985707/job/65519163420"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22612985707/job/65519163423"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22612985707/job/65519163446"
+      }
+    ]
+  },
+  {
     "commitSha": "23f4db8acfe7ce089c9046d43aefe13eb17db3b0",
     "commitTimestamp": "2026-03-03T02:57:29Z",
     "commitMessage": "perf(CLI): change default config loader from `jiti` to `auto` (#992)",
