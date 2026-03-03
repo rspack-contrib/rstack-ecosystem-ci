@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "a9782b1e884b45f1ea178218f7eac9a94256a00f",
+    "commitTimestamp": "2026-03-03T04:30:31Z",
+    "commitMessage": "chore(deps): update dependency cac to v7 (#3184)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22608467637",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22608467637/job/65505767694"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22608467637/job/65505767706"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22608467637/job/65505767710"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22608467637/job/65505767713"
+      }
+    ]
+  },
+  {
     "commitSha": "e64a8783e334dfc6631848f01c4e5694ebf9c3bf",
     "commitTimestamp": "2026-03-02T13:27:30Z",
     "commitMessage": "fix(auto-nav-sidebar): exclude route.exclude files from auto-generated sidebars and place `index.md` at the top (#3171)",
