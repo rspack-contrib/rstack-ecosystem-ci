@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4992b9048cbbccc96dcbf5e72d44e3ac72003b6f",
+    "commitTimestamp": "2026-03-03T03:09:54Z",
+    "commitMessage": "test: migrate from createStubRsbuild to createRsbuild (#7281)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22606523037",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22606523037/job/65499676816"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22606523037/job/65499676825"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22606523037/job/65499676826"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22606523037/job/65499676828"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22606523037/job/65499676832"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22606523037/job/65499676835"
+      }
+    ]
+  },
+  {
     "commitSha": "a30a01e25d9d4af1e9902fa98fe283eb4948e2f7",
     "commitTimestamp": "2026-03-03T02:21:04Z",
     "commitMessage": "test(plugin-react): replace createStubRsbuild with createRsbuild (#7279)",
