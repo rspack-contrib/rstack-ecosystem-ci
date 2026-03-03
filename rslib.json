@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "342d8d7034d381deb3464af76cd7404272183c8b",
+    "commitTimestamp": "2026-03-03T09:05:22Z",
+    "commitMessage": "refactor!: drop support for Node 18 (#1509)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22616326275",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22616326275/job/65530018660"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22616326275/job/65530018674"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22616326275/job/65530018687"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22616326275/job/65530018704"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22616326275/job/65530018852"
+      }
+    ]
+  },
+  {
     "commitSha": "8ca6da9ace3066646f8284eaf34580ca92a9ec98",
     "commitTimestamp": "2026-03-02T04:05:33Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1500)",
