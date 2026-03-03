@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "aa4f4fdaf4a28417940e419013236767b98c81d7",
+    "commitTimestamp": "2026-03-03T08:56:59Z",
+    "commitMessage": "feat(browser): support Locator and Assertion (#948)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22615751508",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22615751508/job/65528036822"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22615751508/job/65528036834"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22615751508/job/65528036845"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22615751508/job/65528036863"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22615751508/job/65528036868"
+      }
+    ]
+  },
+  {
     "commitSha": "be5ed455eb67ad507d9faf60c690cd4ea72e5420",
     "commitTimestamp": "2026-03-03T08:45:44Z",
     "commitMessage": "fix(core): avoid misdetecting cursor terminal as agent (#994)",
