@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "715c7994bb266e803c72bf574b105ff35a0b4788",
+    "commitTimestamp": "2026-03-03T09:54:58Z",
+    "commitMessage": "chore(theme): export missing component props types (#3190)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22617746259",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22617746259/job/65534764276"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22617746259/job/65534764305"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22617746259/job/65534764328"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22617746259/job/65534764362"
+      }
+    ]
+  },
+  {
     "commitSha": "40f8895fb8f189a5a82057fc7ecac22635acbc81",
     "commitTimestamp": "2026-03-03T07:56:08Z",
     "commitMessage": "fix(PackageManagerTabs): correctly handle deno run args and add -A flag (#3188)",
