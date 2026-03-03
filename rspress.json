@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "40f8895fb8f189a5a82057fc7ecac22635acbc81",
+    "commitTimestamp": "2026-03-03T07:56:08Z",
+    "commitMessage": "fix(PackageManagerTabs): correctly handle deno run args and add -A flag (#3188)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22613644745",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22613644745/job/65521150664"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22613644745/job/65521150697"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22613644745/job/65521150701"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22613644745/job/65521150726"
+      }
+    ]
+  },
+  {
     "commitSha": "d33071610a68ffa6da2d35ee87eaa32ed48e148a",
     "commitTimestamp": "2026-03-03T05:19:00Z",
     "commitMessage": "fix(ssg-md): preserve mdxFlowExpression nodes in remarkSplitMdx (#3181)",
