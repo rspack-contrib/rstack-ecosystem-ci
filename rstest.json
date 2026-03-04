@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "60336da1db8a24240f8c4c637cf1a2533b1d44d3",
+    "commitTimestamp": "2026-03-04T09:14:22Z",
+    "commitMessage": "chore(deps): update dependency open-editor to v6 (#1002)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22662770198",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22662770198/job/65686887119"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22662770198/job/65686887122"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22662770198/job/65686887137"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22662770198/job/65686887140"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22662770198/job/65686887193"
+      }
+    ]
+  },
+  {
     "commitSha": "89d1b2fb3480f4c2533a584473605b56812f3f91",
     "commitTimestamp": "2026-03-04T07:36:14Z",
     "commitMessage": "fix:  wasm load error with dynamic import expression (#991)",
