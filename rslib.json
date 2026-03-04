@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "8ac6625ee72c35cc886f0f4a1af72f8a022c296e",
+    "commitTimestamp": "2026-03-04T07:41:01Z",
+    "commitMessage": "fix: validate glob entry correctness in bundle mode (#1512)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22659833099",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22659833099/job/65677305687"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22659833099/job/65677305693"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22659833099/job/65677305696"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22659833099/job/65677305711"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22659833099/job/65677305753"
+      }
+    ]
+  },
+  {
     "commitSha": "ea6d911247149a634b5d4ced85e39f7ea3280a96",
     "commitTimestamp": "2026-03-04T06:36:21Z",
     "commitMessage": "chore(deps): update dependency cac to v7 (#1502)",
