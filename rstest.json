@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "89d1b2fb3480f4c2533a584473605b56812f3f91",
+    "commitTimestamp": "2026-03-04T07:36:14Z",
+    "commitMessage": "fix:  wasm load error with dynamic import expression (#991)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22659764503",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22659764503/job/65677096850"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22659764503/job/65677096858"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22659764503/job/65677096864"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22659764503/job/65677096889"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22659764503/job/65677096896"
+      }
+    ]
+  },
+  {
     "commitSha": "7b2a36de350af56da137cefba358aff086356e1a",
     "commitTimestamp": "2026-03-04T07:35:12Z",
     "commitMessage": "fix(e2e): skip headed browser tests on Linux CI without display (#999)",
