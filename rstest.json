@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "0e43b4157c74a9aada090711cb72564acf2f979e",
+    "commitTimestamp": "2026-03-04T09:57:02Z",
+    "commitMessage": "chore(deps): update actions/checkout digest to de0fac2 (#1000)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22664251682",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22664251682/job/65691869269"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22664251682/job/65691869271"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22664251682/job/65691869282"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22664251682/job/65691869289"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22664251682/job/65691869339"
+      }
+    ]
+  },
+  {
     "commitSha": "60336da1db8a24240f8c4c637cf1a2533b1d44d3",
     "commitTimestamp": "2026-03-04T09:14:22Z",
     "commitMessage": "chore(deps): update dependency open-editor to v6 (#1002)",
