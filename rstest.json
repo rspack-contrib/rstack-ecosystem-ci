@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "baea33f763ec4ab6f0f6a9ae6bd881c0ced0fb3b",
+    "commitTimestamp": "2026-03-04T07:15:34Z",
+    "commitMessage": "fix(core): restore async doMock factory and doUnmock recovery (#998)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22659123914",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22659123914/job/65675130617"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22659123914/job/65675130620"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22659123914/job/65675130622"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22659123914/job/65675130623"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22659123914/job/65675130629"
+      }
+    ]
+  },
+  {
     "commitSha": "1369064a291bbec3525c3ceca3e283dc80161432",
     "commitTimestamp": "2026-03-04T03:03:05Z",
     "commitMessage": "fix: `bail` configuration should work with the test file error (#997)",
