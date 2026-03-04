@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "ea6d911247149a634b5d4ced85e39f7ea3280a96",
+    "commitTimestamp": "2026-03-04T06:36:21Z",
+    "commitMessage": "chore(deps): update dependency cac to v7 (#1502)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22658115417",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22658115417/job/65672142066"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22658115417/job/65672142069"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22658115417/job/65672142074"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22658115417/job/65672142081"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22658115417/job/65672142088"
+      }
+    ]
+  },
+  {
     "commitSha": "342d8d7034d381deb3464af76cd7404272183c8b",
     "commitTimestamp": "2026-03-03T09:05:22Z",
     "commitMessage": "refactor!: drop support for Node 18 (#1509)",
