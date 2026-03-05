@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "7dafd3730e6e13510493b04ffee4693237014f88",
+    "commitTimestamp": "2026-03-05T07:33:52Z",
+    "commitMessage": "test(create-rslib): split parseTemplateName into separate module (#1514)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22707353147",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22707353147/job/65837037713"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22707353147/job/65837037717"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22707353147/job/65837037722"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22707353147/job/65837037724"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22707353147/job/65837037726"
+      }
+    ]
+  },
+  {
     "commitSha": "74f4e5ea0105df9db4eb25c541b8fc2f06300284",
     "commitTimestamp": "2026-03-04T13:36:11Z",
     "commitMessage": "feat!: upgrade Rsbuild to v2 and deprecate `experiments.advancedEsm` (#1513)",
