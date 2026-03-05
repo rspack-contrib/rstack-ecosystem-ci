@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "fef2ca4edb3742e88b5989511dc61afb789e148c",
+    "commitTimestamp": "2026-03-05T12:04:37Z",
+    "commitMessage": "chore(deps): update dependency cac to v7 (#1007)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22717084085",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22717084085/job/65869338261"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22717084085/job/65869338271"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22717084085/job/65869338287"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22717084085/job/65869338289"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22717084085/job/65869338296"
+      }
+    ]
+  },
+  {
     "commitSha": "be1768d81a827c6d6efc6de85f26e90aed1af7e5",
     "commitTimestamp": "2026-03-05T11:35:18Z",
     "commitMessage": "fix(vscode): prevent hanging test runs on worker failures (#1014)",
