@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "9731774709ca4991404961af567d24e971260e02",
+    "commitTimestamp": "2026-03-05T12:04:08Z",
+    "commitMessage": "chore(deps): bump rspress to 2.0.4 and align migration docs (#1516)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22717064847",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22717064847/job/65869272127"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22717064847/job/65869272128"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22717064847/job/65869272132"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22717064847/job/65869272135"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22717064847/job/65869272163"
+      }
+    ]
+  },
+  {
     "commitSha": "57f1fccb31c96c373484ab4fc381c4d55bfbea38",
     "commitTimestamp": "2026-03-05T11:17:40Z",
     "commitMessage": "feat: updates the default contenthash length in filenames from 8 to 10 (#1515)",
