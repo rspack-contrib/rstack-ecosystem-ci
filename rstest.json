@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "850f55d1d6e32ac5fa0c201dc7e806a6bcf8d9b6",
+    "commitTimestamp": "2026-03-05T03:15:49Z",
+    "commitMessage": "fix: apply default watch ignore options for browser mode (#1006)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22700573678",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22700573678/job/65816596708"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22700573678/job/65816596710"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22700573678/job/65816596720"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22700573678/job/65816596727"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22700573678/job/65816596733"
+      }
+    ]
+  },
+  {
     "commitSha": "8a1b6ee8b213349c0e06586b0e9ca01fb430cead",
     "commitTimestamp": "2026-03-04T11:23:06Z",
     "commitMessage": "chore(deps): update dependency @clack/prompts to v1 (#1004)",
