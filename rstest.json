@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "533003be7362b6ac0eebceba3cefd8239a8be323",
+    "commitTimestamp": "2026-03-05T08:32:08Z",
+    "commitMessage": "fix(browser): disable rsbuild hmr outside watch mode (#1010)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22709735686",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22709735686/job/65844621373"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22709735686/job/65844621393"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22709735686/job/65844621407"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22709735686/job/65844621410"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22709735686/job/65844621963"
+      }
+    ]
+  },
+  {
     "commitSha": "850f55d1d6e32ac5fa0c201dc7e806a6bcf8d9b6",
     "commitTimestamp": "2026-03-05T03:15:49Z",
     "commitMessage": "fix: apply default watch ignore options for browser mode (#1006)",
