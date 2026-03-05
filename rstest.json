@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "be1768d81a827c6d6efc6de85f26e90aed1af7e5",
+    "commitTimestamp": "2026-03-05T11:35:18Z",
+    "commitMessage": "fix(vscode): prevent hanging test runs on worker failures (#1014)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22716041884",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22716041884/job/65865867776"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22716041884/job/65865867786"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22716041884/job/65865867789"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22716041884/job/65865867802"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22716041884/job/65865867842"
+      }
+    ]
+  },
+  {
     "commitSha": "2c1246ecbc63d0f9032062be4f5f6889654cb973",
     "commitTimestamp": "2026-03-05T11:24:25Z",
     "commitMessage": "ci(e2e): enable CI test-case retries (#1011)",
