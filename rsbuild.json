@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "10791a6cc07473c36a07c7b6c44d678eac61a94f",
+    "commitTimestamp": "2026-03-05T03:08:52Z",
+    "commitMessage": "fix(SSR): correct ESM default import (#7289)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22700413169",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22700413169/job/65816037300"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22700413169/job/65816037304"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22700413169/job/65816037311"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22700413169/job/65816037312"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22700413169/job/65816037318"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22700413169/job/65816037325"
+      }
+    ]
+  },
+  {
     "commitSha": "fc8ffd5d89e81435a955d7287c551a7faccb231e",
     "commitTimestamp": "2026-03-04T03:12:16Z",
     "commitMessage": "chore(create-rsbuild): use CLI flags instead of rslib config (#7287)",
