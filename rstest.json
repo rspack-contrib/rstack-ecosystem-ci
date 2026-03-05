@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "2c1246ecbc63d0f9032062be4f5f6889654cb973",
+    "commitTimestamp": "2026-03-05T11:24:25Z",
+    "commitMessage": "ci(e2e): enable CI test-case retries (#1011)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22715654206",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22715654206/job/65864582200"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22715654206/job/65864582206"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22715654206/job/65864582213"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22715654206/job/65864582267"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22715654206/job/65864582319"
+      }
+    ]
+  },
+  {
     "commitSha": "fc5f9334dc989a6bf994f1e1098b7789d6af83b5",
     "commitTimestamp": "2026-03-05T11:04:07Z",
     "commitMessage": "fix(watch): cleanup resources on Ctrl+Z exit (#1012)",
