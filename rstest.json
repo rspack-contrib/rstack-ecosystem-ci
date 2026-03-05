@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "fc5f9334dc989a6bf994f1e1098b7789d6af83b5",
+    "commitTimestamp": "2026-03-05T11:04:07Z",
+    "commitMessage": "fix(watch): cleanup resources on Ctrl+Z exit (#1012)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22714934900",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22714934900/job/65862121215"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22714934900/job/65862121217"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22714934900/job/65862121230"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22714934900/job/65862121244"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22714934900/job/65862121274"
+      }
+    ]
+  },
+  {
     "commitSha": "533003be7362b6ac0eebceba3cefd8239a8be323",
     "commitTimestamp": "2026-03-05T08:32:08Z",
     "commitMessage": "fix(browser): disable rsbuild hmr outside watch mode (#1010)",
