@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "3ff64835a05b4cc2e060e32d8d6af71de6826456",
+    "commitTimestamp": "2026-03-06T08:49:36Z",
+    "commitMessage": "refactor: replace compiled ws with dynamic import (#7250)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22756309970",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22756309970/job/66001658414"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22756309970/job/66001658419"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22756309970/job/66001658432"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22756309970/job/66001658435"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22756309970/job/66001658445"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22756309970/job/66001658449"
+      }
+    ]
+  },
+  {
     "commitSha": "08ea80d853d1b38f17b449bdff47beca51fc1738",
     "commitTimestamp": "2026-03-06T03:30:39Z",
     "commitMessage": "test: fix core-js resolved path unstable in eco-ci (#7290)",
