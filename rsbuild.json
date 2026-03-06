@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "08ea80d853d1b38f17b449bdff47beca51fc1738",
+    "commitTimestamp": "2026-03-06T03:30:39Z",
+    "commitMessage": "test: fix core-js resolved path unstable in eco-ci (#7290)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22747887356",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22747887356/job/65975663661"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22747887356/job/65975663675"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22747887356/job/65975663677"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22747887356/job/65975663678"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22747887356/job/65975663683"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22747887356/job/65975663685"
+      }
+    ]
+  },
+  {
     "commitSha": "c18a79678b5fb789d85ddacedfa0135a2f63ff57",
     "commitTimestamp": "2026-03-06T01:26:19Z",
     "commitMessage": "refactor(create-rsbuild): simplify path resolution (#7291)",
