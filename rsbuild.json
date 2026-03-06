@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "0ca84ce2681eb329c876d81f96152f33bce45bd4",
+    "commitTimestamp": "2026-03-06T01:07:18Z",
+    "commitMessage": "chore(deps): update dependency svgo to v3.3.3 [security] (#7288)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22744245715",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22744245715/job/65964449113"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22744245715/job/65964449121"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22744245715/job/65964449123"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22744245715/job/65964449128"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22744245715/job/65964449140"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22744245715/job/65964449142"
+      }
+    ]
+  },
+  {
     "commitSha": "10791a6cc07473c36a07c7b6c44d678eac61a94f",
     "commitTimestamp": "2026-03-05T03:08:52Z",
     "commitMessage": "fix(SSR): correct ESM default import (#7289)",
