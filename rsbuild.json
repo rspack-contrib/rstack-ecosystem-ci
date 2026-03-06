@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c18a79678b5fb789d85ddacedfa0135a2f63ff57",
+    "commitTimestamp": "2026-03-06T01:26:19Z",
+    "commitMessage": "refactor(create-rsbuild): simplify path resolution (#7291)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22744753188",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22744753188/job/65966009124"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22744753188/job/65966009127"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22744753188/job/65966009132"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22744753188/job/65966009134"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22744753188/job/65966009142"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22744753188/job/65966009158"
+      }
+    ]
+  },
+  {
     "commitSha": "0ca84ce2681eb329c876d81f96152f33bce45bd4",
     "commitTimestamp": "2026-03-06T01:07:18Z",
     "commitMessage": "chore(deps): update dependency svgo to v3.3.3 [security] (#7288)",
