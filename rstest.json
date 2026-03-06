@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "4867a020cff09a9a5da0093f86d9d2c33ef48df1",
+    "commitTimestamp": "2026-03-06T06:13:12Z",
+    "commitMessage": "chore(deps): update dependency prettier-plugin-packagejson to v3 (#1016)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22751624108",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22751624108/job/65987157292"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22751624108/job/65987157310"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22751624108/job/65987157311"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22751624108/job/65987157313"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22751624108/job/65987157321"
+      }
+    ]
+  },
+  {
     "commitSha": "7ff975df1fd00c39835bda5a557834099bba42b9",
     "commitTimestamp": "2026-03-06T03:08:54Z",
     "commitMessage": "chore(deps): update dependency sirv to v3 (#1008)",
