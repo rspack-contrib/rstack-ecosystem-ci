@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "ead4ea5b44f4c8510a45284c71f4d7ed5b819850",
+    "commitTimestamp": "2026-03-06T06:48:03Z",
+    "commitMessage": "fix(browser): serialize headed file execution (#1017)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22752530823",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22752530823/job/65989903240"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22752530823/job/65989903248"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22752530823/job/65989903254"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22752530823/job/65989903284"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22752530823/job/65989903285"
+      }
+    ]
+  },
+  {
     "commitSha": "dfb72ac4274086ed6aa2cbea6621a072b0100a32",
     "commitTimestamp": "2026-03-06T06:14:40Z",
     "commitMessage": "chore(deps): update dependency check-dependency-version-consistency to v6 (#1015)",
