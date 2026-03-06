@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9581d10bb26cec2ff6cd6dbc46c51adacd21892c",
+    "commitTimestamp": "2026-03-06T09:35:02Z",
+    "commitMessage": "chore: remove redundant esm format configs (#7292)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22757653627",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22757653627/job/66006152093"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22757653627/job/66006152097"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22757653627/job/66006152107"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22757653627/job/66006152111"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22757653627/job/66006152139"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22757653627/job/66006152142"
+      }
+    ]
+  },
+  {
     "commitSha": "000eb7a3de209af97747a17a4aa9e6a2d63a2929",
     "commitTimestamp": "2026-03-06T09:00:05Z",
     "commitMessage": "test: add type tests for `@rsbuild/core` public types (#7249)",
