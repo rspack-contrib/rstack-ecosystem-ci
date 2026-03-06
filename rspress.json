@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "fa15568f90c0a1c84c3b9cddb58b94ba05041f3a",
+    "commitTimestamp": "2026-03-06T09:06:03Z",
+    "commitMessage": "fix(core): keep dotted version directories in addRoutePrefix (#3173)",
+    "author": {
+      "name": "LiYang",
+      "email": "63987506+liyang8246@users.noreply.github.com",
+      "login": "liyang8246"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22756883197",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22756883197/job/66003562881"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22756883197/job/66003562902"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22756883197/job/66003562917"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22756883197/job/66003562924"
+      }
+    ]
+  },
+  {
     "commitSha": "b124bc2da60f2fe10213ecfea6eeb1b585bcc7b7",
     "commitTimestamp": "2026-03-06T05:12:34Z",
     "commitMessage": "fix(plugin-llms): use normalized markdown content for llms-full.txt generation (#3199)",
