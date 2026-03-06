@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "e5397dfeaa8724ca4e9e34c5effd1ee40a99635b",
+    "commitTimestamp": "2026-03-06T08:50:32Z",
+    "commitMessage": "test: fix MODULE_TYPELESS_PACKAGE_JSON warnings (#1018)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22756383676",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22756383676/job/66001898507"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22756383676/job/66001898508"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22756383676/job/66001898513"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22756383676/job/66001898516"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22756383676/job/66001898528"
+      }
+    ]
+  },
+  {
     "commitSha": "ead4ea5b44f4c8510a45284c71f4d7ed5b819850",
     "commitTimestamp": "2026-03-06T06:48:03Z",
     "commitMessage": "fix(browser): serialize headed file execution (#1017)",
