@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "81ba178cf7e70da7361e780f5dc4301866f84f76",
+    "commitTimestamp": "2026-03-06T08:33:35Z",
+    "commitMessage": "feat(mf): shareScope support array type (#13107)",
+    "author": {
+      "name": "Hanric",
+      "email": "zhanghang.heal@bytedance.com",
+      "login": "2heal1"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/22755578106",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22755578106/job/66000291724"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22755578106/job/66000291725"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22755578106/job/66000291728"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22755578106/job/66000291730"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22755578106/job/66000291735"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22755578106/job/66000291737"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22755578106/job/66000291749"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22755578106/job/66000291752"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22755578106/job/66000291759"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22755578106/job/66000291764"
+      },
+      {
+        "name": "nuxt",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22755578106/job/66000291767"
+      }
+    ]
+  },
+  {
     "commitSha": "159bb5926c987be6b3b5f59121bf741c4d75f7be",
     "commitTimestamp": "2026-03-06T08:29:53Z",
     "commitMessage": "perf(regex): enable case-insensitive endsWith fast path (#13232)",
