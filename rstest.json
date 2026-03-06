@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "dfb72ac4274086ed6aa2cbea6621a072b0100a32",
+    "commitTimestamp": "2026-03-06T06:14:40Z",
+    "commitMessage": "chore(deps): update dependency check-dependency-version-consistency to v6 (#1015)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22751663074",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22751663074/job/65987274886"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22751663074/job/65987274891"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22751663074/job/65987274895"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22751663074/job/65987274897"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22751663074/job/65987274902"
+      }
+    ]
+  },
+  {
     "commitSha": "4867a020cff09a9a5da0093f86d9d2c33ef48df1",
     "commitTimestamp": "2026-03-06T06:13:12Z",
     "commitMessage": "chore(deps): update dependency prettier-plugin-packagejson to v3 (#1016)",
