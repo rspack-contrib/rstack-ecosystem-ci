@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "311f2800bfefa2e6bde9820462e867ace66d4a4a",
+    "commitTimestamp": "2026-03-06T11:46:55Z",
+    "commitMessage": "test: enable headless mode by default in tests (#1019)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22762128724",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22762128724/job/66020914101"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22762128724/job/66020914108"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22762128724/job/66020914113"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22762128724/job/66020914124"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22762128724/job/66020914150"
+      }
+    ]
+  },
+  {
     "commitSha": "706c8ab6d3b3f750d7eaeca9970e81e8dcd6ac38",
     "commitTimestamp": "2026-03-06T09:54:52Z",
     "commitMessage": "fix(browser): eager compile setup files in watch mode (#1021)",
