@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "7ff975df1fd00c39835bda5a557834099bba42b9",
+    "commitTimestamp": "2026-03-06T03:08:54Z",
+    "commitMessage": "chore(deps): update dependency sirv to v3 (#1008)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22747282398",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22747282398/job/65973764813"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22747282398/job/65973764816"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22747282398/job/65973764817"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22747282398/job/65973764832"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22747282398/job/65973764841"
+      }
+    ]
+  },
+  {
     "commitSha": "fef2ca4edb3742e88b5989511dc61afb789e148c",
     "commitTimestamp": "2026-03-05T12:04:37Z",
     "commitMessage": "chore(deps): update dependency cac to v7 (#1007)",
