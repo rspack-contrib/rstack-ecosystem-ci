@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e536983b5e39143b980d28ab10bf92fd9c8de153",
+    "commitTimestamp": "2026-03-07T00:47:40Z",
+    "commitMessage": "chore(deps): update dependency babel-loader to v10.1.0 (#7295)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22788122218",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22788122218/job/66109252287"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22788122218/job/66109252289"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22788122218/job/66109252291"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22788122218/job/66109252296"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22788122218/job/66109252297"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22788122218/job/66109252310"
+      }
+    ]
+  },
+  {
     "commitSha": "28a271b6b2fb6c124306640b1338b86232290925",
     "commitTimestamp": "2026-03-06T09:40:28Z",
     "commitMessage": "test: add cwd option for more swc tests (#7293)",
