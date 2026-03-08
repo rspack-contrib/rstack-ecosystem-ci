@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "df9bf097becfdc2838bb092890cf9d7e0324fda0",
+    "commitTimestamp": "2026-03-08T01:18:16Z",
+    "commitMessage": "chore(deps): update rust crate cargo_toml to 0.22.3 (#12538)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/22811141362",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "nuxt",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22811141362/job/66168446037"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22811141362/job/66168446038"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22811141362/job/66168446039"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22811141362/job/66168446041"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22811141362/job/66168446042"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22811141362/job/66168446043"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22811141362/job/66168446044"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22811141362/job/66168446045"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22811141362/job/66168446047"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22811141362/job/66168446048"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22811141362/job/66168446058"
+      }
+    ]
+  },
+  {
     "commitSha": "42b83f0bbd78a91b7c19962effb448682197b548",
     "commitTimestamp": "2026-03-07T12:20:48Z",
     "commitMessage": "chore(deps): update dependency case-police to ~2.2.0 (#13245)",
