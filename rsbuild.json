@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4d809316b9ab035b4ab85e16e3c84854d66090cc",
+    "commitTimestamp": "2026-03-08T01:31:47Z",
+    "commitMessage": "chore(deps): update dependency @types/node to ^24.12.0 (#7297)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22811335175",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22811335175/job/66168727452"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22811335175/job/66168727453"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22811335175/job/66168727456"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22811335175/job/66168727457"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22811335175/job/66168727469"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22811335175/job/66168727472"
+      }
+    ]
+  },
+  {
     "commitSha": "5a70fe51a8aea2a93a81d6232bbe440336e33a23",
     "commitTimestamp": "2026-03-07T09:20:16Z",
     "commitMessage": "fix(core): add node version check (#7296)",
