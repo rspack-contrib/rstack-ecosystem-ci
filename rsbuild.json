@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "52abe8b04cd3cc9142cf0f1cb77616a26147a845",
+    "commitTimestamp": "2026-03-08T01:49:29Z",
+    "commitMessage": "refactor: migrate color utilities to rslog package (#7299)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22811587656",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22811587656/job/66169408286"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22811587656/job/66169408289"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22811587656/job/66169408292"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22811587656/job/66169408293"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22811587656/job/66169408307"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22811587656/job/66169408315"
+      }
+    ]
+  },
+  {
     "commitSha": "fbe53f5bd7be13a68a33a4f44488c776283f6963",
     "commitTimestamp": "2026-03-08T01:32:20Z",
     "commitMessage": "chore(deps): update module federation to v2.1.0 (#7298)",
