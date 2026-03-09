@@ -38,6 +38,44 @@
     ]
   },
   {
+    "commitSha": "1830fc94b0bb41a8e454ec2e0a852ed864375107",
+    "commitTimestamp": "2026-03-09T03:37:27Z",
+    "commitMessage": "chore(deps): update dependency @changesets/cli to ^2.30.0 (#3205)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22837486692",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22837486692/job/66236690839"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22837486692/job/66236690842"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22837486692/job/66236690845"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22837486692/job/66236690847"
+      }
+    ]
+  },
+  {
     "commitSha": "e5fb32e8bac5cf2e0496e3046709ee060ef59bec",
     "commitTimestamp": "2026-03-09T02:58:16Z",
     "commitMessage": "fix(plugin-preview): fix missing whitespace in calc() expression (#3198)",
