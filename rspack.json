@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "1aed1f4457b018647b6d34f2cc5b714c37c4c54d",
+    "commitTimestamp": "2026-03-09T11:51:31Z",
+    "commitMessage": "feat: rsc support disable client api checks (#13263)",
+    "author": {
+      "name": "Cong-Cong Pan",
+      "email": "dacongsama@live.com",
+      "login": "SyMind"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/22852117772",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22852117772/job/66283783646"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22852117772/job/66283783651"
+      },
+      {
+        "name": "nuxt",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22852117772/job/66283783656"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22852117772/job/66283783662"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22852117772/job/66283783669"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22852117772/job/66283783671"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22852117772/job/66283783673"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22852117772/job/66283783677"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22852117772/job/66283783680"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22852117772/job/66283783721"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22852117772/job/66283783722"
+      }
+    ]
+  },
+  {
     "commitSha": "fc5fee94e57faa027cae6aaa1b11fcd5d14a420a",
     "commitTimestamp": "2026-03-09T11:25:13Z",
     "commitMessage": "fix: merge exports info when merging external modules (#13257)",
