@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "c12109ec4248c2b8bdc28165ab88f95e3722699e",
+    "commitTimestamp": "2026-03-09T03:26:32Z",
+    "commitMessage": "chore(deps): update actions/setup-node digest to 53b8394 (#1520)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22837081537",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22837081537/job/66235593656"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22837081537/job/66235593660"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22837081537/job/66235593661"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22837081537/job/66235593662"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22837081537/job/66235593663"
+      }
+    ]
+  },
+  {
     "commitSha": "9731774709ca4991404961af567d24e971260e02",
     "commitTimestamp": "2026-03-05T12:04:08Z",
     "commitMessage": "chore(deps): bump rspress to 2.0.4 and align migration docs (#1516)",
