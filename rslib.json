@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "5a6ae6559704c5f4fd81bc5c6cd2e9d5958d2182",
+    "commitTimestamp": "2026-03-09T03:41:09Z",
+    "commitMessage": "chore(deps): update dependency @shikijs/transformers to ^4.0.2 (#1522)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22837514968",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22837514968/job/66236774465"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22837514968/job/66236774466"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22837514968/job/66236774467"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22837514968/job/66236774475"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22837514968/job/66236774479"
+      }
+    ]
+  },
+  {
     "commitSha": "d6fe22c6589a4e49f647f31e51b0dd43f3025dcf",
     "commitTimestamp": "2026-03-09T03:27:22Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1521)",
