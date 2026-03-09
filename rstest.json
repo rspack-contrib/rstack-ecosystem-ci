@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "86ec4f9fa6c92f900661a6f32acf02906230d4b6",
+    "commitTimestamp": "2026-03-09T03:28:11Z",
+    "commitMessage": "chore(deps): update dependency chai to v6 (#512)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22837113516",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22837113516/job/66235686824"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22837113516/job/66235686826"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22837113516/job/66235686828"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22837113516/job/66235686829"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22837113516/job/66235686836"
+      }
+    ]
+  },
+  {
     "commitSha": "7afa6f88505d52a886216a54801859bc210c66f7",
     "commitTimestamp": "2026-03-09T03:26:46Z",
     "commitMessage": "fix: should not exclude dist/ directory when collecting coverage (#1022)",
