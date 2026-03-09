@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "3e8aa8047adc66fdd1d0b45965bca403085562be",
+    "commitTimestamp": "2026-03-09T07:51:16Z",
+    "commitMessage": "feat(mdx): add opt-out CJK-friendly emphasis remark plugin and `markdown.cjkFriendlyEmphasis` (#3201)",
+    "author": {
+      "name": "Tatsunori Uchino",
+      "email": "tats.u@live.jp",
+      "login": "tats-u"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22843623605",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22843623605/job/66254807761"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22843623605/job/66254807771"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22843623605/job/66254807776"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22843623605/job/66254807791"
+      }
+    ]
+  },
+  {
     "commitSha": "9003fe7ef706ab2ece1b4412fa1eb006effc1a6c",
     "commitTimestamp": "2026-03-09T03:38:59Z",
     "commitMessage": "chore(deps): update dependency @rstest/core to ^0.9.0 (#3206)",
