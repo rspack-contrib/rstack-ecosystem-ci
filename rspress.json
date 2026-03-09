@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "8b0a15e23ae7499000c4ba34e873c276a58fafb5",
+    "commitTimestamp": "2026-03-09T09:30:29Z",
+    "commitMessage": "Release v2.0.5 (#3209)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22847006366",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22847006366/job/66265813330"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22847006366/job/66265813337"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22847006366/job/66265813344"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22847006366/job/66265813348"
+      }
+    ]
+  },
+  {
     "commitSha": "46700d4b6695718052e93fe0383cd65bdf79e0a1",
     "commitTimestamp": "2026-03-09T08:36:47Z",
     "commitMessage": "fix(ssg-md): avoid generating \"# undefined\" in llms.txt and warn when title is missing (#3207)",
