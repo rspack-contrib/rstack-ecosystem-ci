@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "1d6646eae362731c14c78ccc331dff397c696fac",
+    "commitTimestamp": "2026-03-09T08:18:06Z",
+    "commitMessage": "pref: fix cssFilterLoader not working with less / sass plugins (#1025)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22844392767",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22844392767/job/66257214042"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22844392767/job/66257214060"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22844392767/job/66257214062"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22844392767/job/66257214069"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22844392767/job/66257214079"
+      }
+    ]
+  },
+  {
     "commitSha": "6e2d5620b1aabb1c58ca6723cef5387ade0b6cc8",
     "commitTimestamp": "2026-03-09T06:30:12Z",
     "commitMessage": "fix: handle undefined env values correctly when applying worker runtime env (#1024)",
