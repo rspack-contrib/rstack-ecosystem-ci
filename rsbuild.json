@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9567f208ff0bd90858563a36e694c0d0c45b18c0",
+    "commitTimestamp": "2026-03-09T13:06:45Z",
+    "commitMessage": "refactor: replace connect with connect-next (#7305)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22854893609",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22854893609/job/66292503590"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22854893609/job/66292503591"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22854893609/job/66292503620"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22854893609/job/66292503647"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22854893609/job/66292503653"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22854893609/job/66292503671"
+      }
+    ]
+  },
+  {
     "commitSha": "31d763441921ebbcdb5efcba6d5a39bd94c2c86e",
     "commitTimestamp": "2026-03-09T02:29:00Z",
     "commitMessage": "chore: update Node.js version to 24 (#7301)",
