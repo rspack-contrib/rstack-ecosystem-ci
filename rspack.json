@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "cf05b8e1075da469a007125af29d138022725023",
+    "commitTimestamp": "2026-03-09T07:13:28Z",
+    "commitMessage": "perf: reduce replace source string alloc (#13150)",
+    "author": {
+      "name": "Cong-Cong Pan",
+      "email": "dacongsama@live.com",
+      "login": "SyMind"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/22842454871",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22842454871/job/66251754703"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22842454871/job/66251754704"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22842454871/job/66251754706"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22842454871/job/66251754714"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22842454871/job/66251754719"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22842454871/job/66251754720"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22842454871/job/66251754727"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22842454871/job/66251754757"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22842454871/job/66251754759"
+      },
+      {
+        "name": "nuxt",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22842454871/job/66251754769"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22842454871/job/66251754786"
+      }
+    ]
+  },
+  {
     "commitSha": "9bab3fdeefacce4dc1eec73fc8b1db8b825b7b07",
     "commitTimestamp": "2026-03-09T07:02:13Z",
     "commitMessage": "docs: update descriptions to reflect refined webpack API (#13254)",
