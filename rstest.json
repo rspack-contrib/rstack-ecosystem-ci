@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "14ad861d43edc863a515b299fd9cc493665a7c39",
+    "commitTimestamp": "2026-03-09T10:05:21Z",
+    "commitMessage": "release: 0.9.1 (#1027)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22848293836",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22848293836/job/66270131565"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22848293836/job/66270131603"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22848293836/job/66270131622"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22848293836/job/66270131627"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22848293836/job/66270131661"
+      }
+    ]
+  },
+  {
     "commitSha": "7fabf1896085f68f448c1cf1836d3416342fb3d1",
     "commitTimestamp": "2026-03-09T09:23:32Z",
     "commitMessage": "fix(browser): support quitting watch mode from the terminal (#1026)",
