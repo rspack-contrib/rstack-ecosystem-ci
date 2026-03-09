@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "df3fada6c1ac6f53610fa8cc8b70ebea69547a6c",
+    "commitTimestamp": "2026-03-09T08:23:38Z",
+    "commitMessage": "fix(core): allow preserve jsx in bundleless mode to coexist with bundle mode (#1523)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22844604710",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22844604710/job/66257890633"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22844604710/job/66257890636"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22844604710/job/66257890654"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22844604710/job/66257890667"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22844604710/job/66257890682"
+      }
+    ]
+  },
+  {
     "commitSha": "5a6ae6559704c5f4fd81bc5c6cd2e9d5958d2182",
     "commitTimestamp": "2026-03-09T03:41:09Z",
     "commitMessage": "chore(deps): update dependency @shikijs/transformers to ^4.0.2 (#1522)",
