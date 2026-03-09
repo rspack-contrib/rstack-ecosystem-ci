@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ffeef6ca02b83b0fa0e9651387567f8542569d73",
+    "commitTimestamp": "2026-03-09T02:28:20Z",
+    "commitMessage": "chore(deps): update pnpm to v10.31.0 (#7303)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22835874627",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22835874627/job/66232083097"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22835874627/job/66232083104"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22835874627/job/66232083109"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22835874627/job/66232083120"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22835874627/job/66232083124"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22835874627/job/66232083126"
+      }
+    ]
+  },
+  {
     "commitSha": "52abe8b04cd3cc9142cf0f1cb77616a26147a845",
     "commitTimestamp": "2026-03-08T01:49:29Z",
     "commitMessage": "refactor: migrate color utilities to rslog package (#7299)",
