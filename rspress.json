@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "e5fb32e8bac5cf2e0496e3046709ee060ef59bec",
+    "commitTimestamp": "2026-03-09T02:58:16Z",
+    "commitMessage": "fix(plugin-preview): fix missing whitespace in calc() expression (#3198)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22836478744",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22836478744/job/66233746884"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22836478744/job/66233746887"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22836478744/job/66233746896"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22836478744/job/66233746916"
+      }
+    ]
+  },
+  {
     "commitSha": "fa15568f90c0a1c84c3b9cddb58b94ba05041f3a",
     "commitTimestamp": "2026-03-06T09:06:03Z",
     "commitMessage": "fix(core): keep dotted version directories in addRoutePrefix (#3173)",
