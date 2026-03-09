@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "6e2d5620b1aabb1c58ca6723cef5387ade0b6cc8",
+    "commitTimestamp": "2026-03-09T06:30:12Z",
+    "commitMessage": "fix: handle undefined env values correctly when applying worker runtime env (#1024)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22841422068",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22841422068/job/66248256527"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22841422068/job/66248256532"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22841422068/job/66248256541"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22841422068/job/66248256549"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22841422068/job/66248256580"
+      }
+    ]
+  },
+  {
     "commitSha": "86ec4f9fa6c92f900661a6f32acf02906230d4b6",
     "commitTimestamp": "2026-03-09T03:28:11Z",
     "commitMessage": "chore(deps): update dependency chai to v6 (#512)",
