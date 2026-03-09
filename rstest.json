@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "7afa6f88505d52a886216a54801859bc210c66f7",
+    "commitTimestamp": "2026-03-09T03:26:46Z",
+    "commitMessage": "fix: should not exclude dist/ directory when collecting coverage (#1022)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22837085955",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22837085955/job/66235605512"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22837085955/job/66235605513"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22837085955/job/66235605517"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22837085955/job/66235605521"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22837085955/job/66235605524"
+      }
+    ]
+  },
+  {
     "commitSha": "311f2800bfefa2e6bde9820462e867ace66d4a4a",
     "commitTimestamp": "2026-03-06T11:46:55Z",
     "commitMessage": "test: enable headless mode by default in tests (#1019)",
