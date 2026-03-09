@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "7fabf1896085f68f448c1cf1836d3416342fb3d1",
+    "commitTimestamp": "2026-03-09T09:23:32Z",
+    "commitMessage": "fix(browser): support quitting watch mode from the terminal (#1026)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22846794553",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22846794553/job/66265092413"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22846794553/job/66265092427"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22846794553/job/66265092444"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22846794553/job/66265092445"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22846794553/job/66265092446"
+      }
+    ]
+  },
+  {
     "commitSha": "1d6646eae362731c14c78ccc331dff397c696fac",
     "commitTimestamp": "2026-03-09T08:18:06Z",
     "commitMessage": "pref: fix cssFilterLoader not working with less / sass plugins (#1025)",
