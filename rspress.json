@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "46700d4b6695718052e93fe0383cd65bdf79e0a1",
+    "commitTimestamp": "2026-03-09T08:36:47Z",
+    "commitMessage": "fix(ssg-md): avoid generating \"# undefined\" in llms.txt and warn when title is missing (#3207)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22845329358",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22845329358/job/66260219329"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22845329358/job/66260219337"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22845329358/job/66260219348"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22845329358/job/66260219356"
+      }
+    ]
+  },
+  {
     "commitSha": "1386cecdcbcc60820dc5a4fa7185e885c96c1e1d",
     "commitTimestamp": "2026-03-09T08:25:23Z",
     "commitMessage": "chore(infra): separate rstack and shiki into distinct renovate groups (#3208)",
