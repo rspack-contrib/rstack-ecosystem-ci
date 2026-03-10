@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "61db7a0d2b6987b1010520e24d48419876588450",
+    "commitTimestamp": "2026-03-10T05:27:06Z",
+    "commitMessage": "refactor(core): delegate agent detection to std-env (#1029)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22888539176",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22888539176/job/66406599617"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22888539176/job/66406599620"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22888539176/job/66406599627"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22888539176/job/66406599628"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22888539176/job/66406599635"
+      }
+    ]
+  },
+  {
     "commitSha": "876997c6c940f8c420263e9b184c47c09db563bf",
     "commitTimestamp": "2026-03-10T04:26:04Z",
     "commitMessage": "test: simplify browser e2e headless setup (#1028)",
