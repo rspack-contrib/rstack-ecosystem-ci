@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "ffe721df6377f9695cdf9d5cf75b204f4dd051d2",
+    "commitTimestamp": "2026-03-10T08:16:45Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#3203)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22893581680",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22893581680/job/66422054058"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22893581680/job/66422054065"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22893581680/job/66422054074"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22893581680/job/66422054079"
+      }
+    ]
+  },
+  {
     "commitSha": "654ff0ec73a96f4411c8beefb47101e00a80f730",
     "commitTimestamp": "2026-03-10T04:33:54Z",
     "commitMessage": "chore(deps): upgrade Rslib 0.20 canary version (#3211)",
