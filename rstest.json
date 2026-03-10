@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "03bdb5035fef30e3608d4207bed652a88ac99b0e",
+    "commitTimestamp": "2026-03-10T09:17:39Z",
+    "commitMessage": "chore(deps): update actions/setup-node digest to 53b8394 (#1001)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22895440265",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22895440265/job/66428232989"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22895440265/job/66428233014"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22895440265/job/66428233022"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22895440265/job/66428233033"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22895440265/job/66428233050"
+      }
+    ]
+  },
+  {
     "commitSha": "8189485d24afa6604cbb2ddecda88b9fbf40c91d",
     "commitTimestamp": "2026-03-10T07:58:25Z",
     "commitMessage": "chore(deps): upgrade Rslib 0.20 canary version (#1030)",
