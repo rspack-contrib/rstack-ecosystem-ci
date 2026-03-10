@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "1129b9a98dfd7b92a93d3ba4975c093db993f3ca",
+    "commitTimestamp": "2026-03-10T03:58:32Z",
+    "commitMessage": "ci: skip no-isolate e2e on Node 20 (#1023)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22886430449",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22886430449/job/66399992633"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22886430449/job/66399992642"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22886430449/job/66399992653"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22886430449/job/66399992658"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22886430449/job/66399992661"
+      }
+    ]
+  },
+  {
     "commitSha": "14ad861d43edc863a515b299fd9cc493665a7c39",
     "commitTimestamp": "2026-03-09T10:05:21Z",
     "commitMessage": "release: 0.9.1 (#1027)",
