@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "02e8d381a736fc9741cddfb46ee7bed0dcb1c1a9",
+    "commitTimestamp": "2026-03-10T07:41:22Z",
+    "commitMessage": "chore(deps): upgrade Rslib 0.20 canary version (#7306)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22892181169",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22892181169/job/66417634666"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22892181169/job/66417634669"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22892181169/job/66417634675"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22892181169/job/66417634693"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22892181169/job/66417634696"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22892181169/job/66417634700"
+      }
+    ]
+  },
+  {
     "commitSha": "9567f208ff0bd90858563a36e694c0d0c45b18c0",
     "commitTimestamp": "2026-03-09T13:06:45Z",
     "commitMessage": "refactor: replace connect with connect-next (#7305)",
