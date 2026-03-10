@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "876997c6c940f8c420263e9b184c47c09db563bf",
+    "commitTimestamp": "2026-03-10T04:26:04Z",
+    "commitMessage": "test: simplify browser e2e headless setup (#1028)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22887080722",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22887080722/job/66402226073"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22887080722/job/66402226076"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22887080722/job/66402226092"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22887080722/job/66402226094"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22887080722/job/66402226101"
+      }
+    ]
+  },
+  {
     "commitSha": "1129b9a98dfd7b92a93d3ba4975c093db993f3ca",
     "commitTimestamp": "2026-03-10T03:58:32Z",
     "commitMessage": "ci: skip no-isolate e2e on Node 20 (#1023)",
