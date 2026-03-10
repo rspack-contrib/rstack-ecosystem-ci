@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "0c4c5700e09f130794c1973be71d14db6442bea2",
+    "commitTimestamp": "2026-03-10T02:35:54Z",
+    "commitMessage": "fix(create-rspack): update @rspack/dev-server to 2.0.0-beta.4 (#13268)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/22884443455",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22884443455/job/66394402792"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22884443455/job/66394402793"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22884443455/job/66394402797"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22884443455/job/66394402800"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22884443455/job/66394402801"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22884443455/job/66394402804"
+      },
+      {
+        "name": "nuxt",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22884443455/job/66394402808"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22884443455/job/66394402811"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22884443455/job/66394402812"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22884443455/job/66394402823"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22884443455/job/66394402837"
+      }
+    ]
+  },
+  {
     "commitSha": "182619506ea0b3449400c7602a23e045ff1aad9c",
     "commitTimestamp": "2026-03-09T13:31:37Z",
     "commitMessage": "perf(core): cache ModuleId hash (#13264)",
