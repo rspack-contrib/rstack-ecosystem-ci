@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "2970e55720481da32250153a248c2e6af256dd2d",
+    "commitTimestamp": "2026-03-10T05:12:35Z",
+    "commitMessage": "chore(deps): upgrade latest Rslib/Rsbuild canary version (#1517)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22888190432",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22888190432/job/66405547584"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22888190432/job/66405547598"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22888190432/job/66405547600"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22888190432/job/66405547603"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22888190432/job/66405547608"
+      }
+    ]
+  },
+  {
     "commitSha": "df3fada6c1ac6f53610fa8cc8b70ebea69547a6c",
     "commitTimestamp": "2026-03-09T08:23:38Z",
     "commitMessage": "fix(core): allow preserve jsx in bundleless mode to coexist with bundle mode (#1523)",
