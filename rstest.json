@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "8cc4af7b62f8ed68545663c88e5c8261d69b448f",
+    "commitTimestamp": "2026-03-11T11:48:36Z",
+    "commitMessage": "fix(browser): move headed reload completion out of birpc (#1043)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22951102722",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22951102722/job/66615702602"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22951102722/job/66615702620"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22951102722/job/66615702625"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22951102722/job/66615702659"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22951102722/job/66615702709"
+      }
+    ]
+  },
+  {
     "commitSha": "a30e8dc6db09a4a8cddf6f1ca645abab81f3dbb1",
     "commitTimestamp": "2026-03-11T08:28:32Z",
     "commitMessage": "chore(deps): update dependency jsdom to v28 (#1038)",
