@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "93a595482482650d44e515bdb17f284728a5b8ab",
+    "commitTimestamp": "2026-03-11T09:10:27Z",
+    "commitMessage": "release: bump all plugin versions (#7319)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22945091328",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22945091328/job/66595385090"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22945091328/job/66595385134"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22945091328/job/66595385138"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22945091328/job/66595385758"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22945091328/job/66595385998"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22945091328/job/66595386031"
+      }
+    ]
+  },
+  {
     "commitSha": "0a5ba5884ce87a525610f3672deb88af78b5ddcb",
     "commitTimestamp": "2026-03-11T09:02:56Z",
     "commitMessage": "fix(plugin-less): update less to ^4.6.2 (#7318)",
