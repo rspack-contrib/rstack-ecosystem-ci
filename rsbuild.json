@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "369d405b5ba6ce3af47b5b08527636ad5096a09b",
+    "commitTimestamp": "2026-03-11T06:04:54Z",
+    "commitMessage": "fix: mark type-only plugin peers on @rsbuild/core as optional (#7316)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22939256627",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22939256627/job/66577161702"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22939256627/job/66577161710"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22939256627/job/66577161714"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22939256627/job/66577161717"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22939256627/job/66577161728"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22939256627/job/66577161756"
+      }
+    ]
+  },
+  {
     "commitSha": "fc8bf7766c7565a761cce4ddb85e63d2fa88ea00",
     "commitTimestamp": "2026-03-11T02:06:37Z",
     "commitMessage": "chore(deps): update @rslint/core from 0.2.1 to 0.2.2 (#7312)",
