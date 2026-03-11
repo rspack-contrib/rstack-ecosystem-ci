@@ -96,6 +96,54 @@
     ]
   },
   {
+    "commitSha": "3c2070ecf2c946fece8e96414fd80223cc1a4a1c",
+    "commitTimestamp": "2026-03-11T01:40:24Z",
+    "commitMessage": "chore: simplify linting setup (#7310)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22932552412",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22932552412/job/66557061029"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22932552412/job/66557061032"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22932552412/job/66557061034"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22932552412/job/66557061035"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22932552412/job/66557061036"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22932552412/job/66557061039"
+      }
+    ]
+  },
+  {
     "commitSha": "c98d73391491325b6aa092d9f5c1ac3ec4233043",
     "commitTimestamp": "2026-03-11T01:16:17Z",
     "commitMessage": "chore(deps): update @rslib/core to 0.20.0 (#7309)",
