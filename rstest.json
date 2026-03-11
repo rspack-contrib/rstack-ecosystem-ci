@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "4ce3a53049378455938b6a0e36506373126abbe6",
+    "commitTimestamp": "2026-03-11T07:19:22Z",
+    "commitMessage": "chore: enable `tsgo` in local (#1037)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22941381097",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22941381097/job/66583546568"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22941381097/job/66583546569"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22941381097/job/66583546574"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22941381097/job/66583546585"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22941381097/job/66583546601"
+      }
+    ]
+  },
+  {
     "commitSha": "2fe6cdf28612c67bb9620578fe8cade20ba81938",
     "commitTimestamp": "2026-03-11T06:01:49Z",
     "commitMessage": "ci: use pnpm to run scripts (#1036)",
