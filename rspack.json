@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "1af821843902d891f59a27c2ec63d1b4d2dd2550",
+    "commitTimestamp": "2026-03-11T05:07:31Z",
+    "commitMessage": "feat(create-rspack): add Rstest as an optional tool (#13300)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/22937750683",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22937750683/job/66573276524"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22937750683/job/66573276532"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22937750683/job/66573276533"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22937750683/job/66573276534"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22937750683/job/66573276541"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22937750683/job/66573276542"
+      },
+      {
+        "name": "nuxt",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22937750683/job/66573276543"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22937750683/job/66573276546"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22937750683/job/66573276549"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22937750683/job/66573276557"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22937750683/job/66573276572"
+      }
+    ]
+  },
+  {
     "commitSha": "bdd310b00f4599a98a930434b093d5effa1c083a",
     "commitTimestamp": "2026-03-11T01:18:03Z",
     "commitMessage": "chore(deps): update patch crates (#13295)",
