@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c98d73391491325b6aa092d9f5c1ac3ec4233043",
+    "commitTimestamp": "2026-03-11T01:16:17Z",
+    "commitMessage": "chore(deps): update @rslib/core to 0.20.0 (#7309)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22931983891",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22931983891/job/66555321700"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22931983891/job/66555321702"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22931983891/job/66555321705"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22931983891/job/66555321706"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22931983891/job/66555321713"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22931983891/job/66555321715"
+      }
+    ]
+  },
+  {
     "commitSha": "fe6c09ff60a2402032e5799daedb44887eda028c",
     "commitTimestamp": "2026-03-11T01:15:57Z",
     "commitMessage": "fix: move Node version check to Rspack core (#7300)",
