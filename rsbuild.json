@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "fc8bf7766c7565a761cce4ddb85e63d2fa88ea00",
+    "commitTimestamp": "2026-03-11T02:06:37Z",
+    "commitMessage": "chore(deps): update @rslint/core from 0.2.1 to 0.2.2 (#7312)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22933248507",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22933248507/job/66559103687"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22933248507/job/66559103690"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22933248507/job/66559103691"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22933248507/job/66559103693"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22933248507/job/66559103698"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22933248507/job/66559103706"
+      }
+    ]
+  },
+  {
     "commitSha": "2e76a923eb9c8c0734ad67df0149e56b43f6ad23",
     "commitTimestamp": "2026-03-11T01:45:25Z",
     "commitMessage": "chore(deps): update dependency hono to v4.12.7 [security] (#7311)",
