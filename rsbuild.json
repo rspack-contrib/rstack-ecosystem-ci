@@ -48,6 +48,54 @@
     ]
   },
   {
+    "commitSha": "f455fd17687a83f85857574f605d6ae87044abb1",
+    "commitTimestamp": "2026-03-11T05:53:42Z",
+    "commitMessage": "fix(plugin-svelte): replace imported logger with api logger (#7315)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22938952595",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22938952595/job/66576286557"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22938952595/job/66576286560"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22938952595/job/66576286562"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22938952595/job/66576286564"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22938952595/job/66576286567"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22938952595/job/66576286575"
+      }
+    ]
+  },
+  {
     "commitSha": "fc8bf7766c7565a761cce4ddb85e63d2fa88ea00",
     "commitTimestamp": "2026-03-11T02:06:37Z",
     "commitMessage": "chore(deps): update @rslint/core from 0.2.1 to 0.2.2 (#7312)",
