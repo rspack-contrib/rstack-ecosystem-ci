@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "2fe6cdf28612c67bb9620578fe8cade20ba81938",
+    "commitTimestamp": "2026-03-11T06:01:49Z",
+    "commitMessage": "ci: use pnpm to run scripts (#1036)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22939170267",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22939170267/job/66576905560"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22939170267/job/66576905569"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22939170267/job/66576905570"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22939170267/job/66576905571"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22939170267/job/66576905579"
+      }
+    ]
+  },
+  {
     "commitSha": "476fcc78dc3a1efd25ab9616c0510cae793862ef",
     "commitTimestamp": "2026-03-10T12:38:44Z",
     "commitMessage": "chore(deps): update dependency chokidar to v5 (#1031)",
