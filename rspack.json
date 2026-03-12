@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "7e7a80f00aebda3a4339df725ace5555e0ff0f54",
+    "commitTimestamp": "2026-03-12T06:14:04Z",
+    "commitMessage": "fix: dynamic import tree shaking used with named export (#13307)",
+    "author": {
+      "name": "Gengkun",
+      "email": "ahabhgk@gmail.com",
+      "login": "ahabhgk"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/22989148844",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22989148844/job/66746639740"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22989148844/job/66746639744"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22989148844/job/66746639746"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22989148844/job/66746639747"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22989148844/job/66746639748"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22989148844/job/66746639749"
+      },
+      {
+        "name": "nuxt",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22989148844/job/66746639750"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22989148844/job/66746639752"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22989148844/job/66746639758"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22989148844/job/66746639765"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/22989148844/job/66746639785"
+      }
+    ]
+  },
+  {
     "commitSha": "827cfd13490ac676b7b18e40ff7284e4d030d19b",
     "commitTimestamp": "2026-03-12T03:46:39Z",
     "commitMessage": "chore(deps): update rust crate rspack_resolver to 0.6.8 (#13187)",
