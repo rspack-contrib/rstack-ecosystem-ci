@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e0f6783c14cbd1403bd93a4101e35e3d2269fd92",
+    "commitTimestamp": "2026-03-12T07:41:40Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#7320)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22992009861",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22992009861/job/66754956332"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22992009861/job/66754956333"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22992009861/job/66754956337"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22992009861/job/66754956338"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22992009861/job/66754956347"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22992009861/job/66754956351"
+      }
+    ]
+  },
+  {
     "commitSha": "de1264385d6f1b33630dec144a4b79e43288f09b",
     "commitTimestamp": "2026-03-12T07:21:05Z",
     "commitMessage": "release: @rsbuild/plugin-less v1.6.2 (#7324)",
