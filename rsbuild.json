@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "de1264385d6f1b33630dec144a4b79e43288f09b",
+    "commitTimestamp": "2026-03-12T07:21:05Z",
+    "commitMessage": "release: @rsbuild/plugin-less v1.6.2 (#7324)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22991294106",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22991294106/job/66752721846"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22991294106/job/66752721848"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22991294106/job/66752721853"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22991294106/job/66752721865"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22991294106/job/66752721880"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22991294106/job/66752721894"
+      }
+    ]
+  },
+  {
     "commitSha": "88f520d65595ac593c841967fe85857ad24c2384",
     "commitTimestamp": "2026-03-12T07:12:49Z",
     "commitMessage": "fix(plugin-less): update less and use default implementation (#7323)",
