@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "488fb28ad3528784a451667334521dd838bf5f44",
+    "commitTimestamp": "2026-03-12T05:41:34Z",
+    "commitMessage": "feat(browser): add providerOptions for browser mode config (#1041)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22988334594",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22988334594/job/66743628246"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22988334594/job/66743628254"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22988334594/job/66743628257"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22988334594/job/66743628263"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22988334594/job/66743628266"
+      }
+    ]
+  },
+  {
     "commitSha": "8cc4af7b62f8ed68545663c88e5c8261d69b448f",
     "commitTimestamp": "2026-03-11T11:48:36Z",
     "commitMessage": "fix(browser): move headed reload completion out of birpc (#1043)",
