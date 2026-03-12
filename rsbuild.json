@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "88f520d65595ac593c841967fe85857ad24c2384",
+    "commitTimestamp": "2026-03-12T07:12:49Z",
+    "commitMessage": "fix(plugin-less): update less and use default implementation (#7323)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22990742970",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22990742970/job/66751003363"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22990742970/job/66751003373"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22990742970/job/66751003374"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22990742970/job/66751003377"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22990742970/job/66751003379"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22990742970/job/66751003383"
+      }
+    ]
+  },
+  {
     "commitSha": "885b8879a0bb3fca0af8fa5a9844fcac52e7d324",
     "commitTimestamp": "2026-03-12T02:30:43Z",
     "commitMessage": "chore(deps): update dependency preact to ^10.29.0 (#7321)",
