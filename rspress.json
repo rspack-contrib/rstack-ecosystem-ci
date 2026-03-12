@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "f4296ef735a2b8bcf6134dc36eb9fbd4a7d0e036",
+    "commitTimestamp": "2026-03-12T11:21:09Z",
+    "commitMessage": "fix(llms): ensure `llms.txt` ordering respects `_meta.json` (#3218)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22999839026",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22999839026/job/66781351753"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22999839026/job/66781351768"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22999839026/job/66781351778"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/22999839026/job/66781351816"
+      }
+    ]
+  },
+  {
     "commitSha": "c65c74aedab78a24e7b828446d5bbfa25a55f293",
     "commitTimestamp": "2026-03-12T03:20:40Z",
     "commitMessage": "docs: use `property` instead of `name` for Open Graph meta tags (#3215)",
