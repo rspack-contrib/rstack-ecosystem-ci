@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "1cd19040cdd3c59c328fd982e4547171a1c28512",
+    "commitTimestamp": "2026-03-12T12:01:37Z",
+    "commitMessage": "docs: add AI documentation for Rspress (#3221)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23000982156",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23000982156/job/66785138488"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23000982156/job/66785138490"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23000982156/job/66785138500"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23000982156/job/66785138501"
+      }
+    ]
+  },
+  {
     "commitSha": "f4296ef735a2b8bcf6134dc36eb9fbd4a7d0e036",
     "commitTimestamp": "2026-03-12T11:21:09Z",
     "commitMessage": "fix(llms): ensure `llms.txt` ordering respects `_meta.json` (#3218)",
