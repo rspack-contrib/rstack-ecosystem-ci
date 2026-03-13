@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "f287abc5c609b4c09e022b6e708e6736c913a6e8",
+    "commitTimestamp": "2026-03-13T06:47:26Z",
+    "commitMessage": "chore(ci): eco benchmark compare using by commits perf data (#13315)",
+    "author": {
+      "name": "pshu",
+      "email": "stormslowly@gmail.com",
+      "login": "stormslowly"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/23039640503",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23039640503/job/66915549791"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23039640503/job/66915549792"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23039640503/job/66915549794"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23039640503/job/66915549798"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23039640503/job/66915549805"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23039640503/job/66915549810"
+      },
+      {
+        "name": "nuxt",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23039640503/job/66915549812"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23039640503/job/66915549816"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23039640503/job/66915549820"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23039640503/job/66915549839"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23039640503/job/66915549858"
+      }
+    ]
+  },
+  {
     "commitSha": "b9e77bb6e9702f5f55011d921ab1d520c7fc0cc5",
     "commitTimestamp": "2026-03-13T06:22:12Z",
     "commitMessage": "fix(javascript): preserve live code after labeled breaks (#13325)",
