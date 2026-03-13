@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d7d23d3db6509bfe1d8f880b38826156f804d1a5",
+    "commitTimestamp": "2026-03-13T06:29:20Z",
+    "commitMessage": "chore(deps): update sass to ^1.98.0 (#7327)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23039385278",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23039385278/job/66914276943"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23039385278/job/66914276950"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23039385278/job/66914276964"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23039385278/job/66914276967"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23039385278/job/66914276969"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23039385278/job/66914276989"
+      }
+    ]
+  },
+  {
     "commitSha": "22edc24cba014e2b41b48807c09b67e19894bf27",
     "commitTimestamp": "2026-03-13T06:29:05Z",
     "commitMessage": "chore(deps): update dorny/paths-filter action to v4 (#7328)",
