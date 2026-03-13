@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "e4f902e28665e217e5e37e64af6770ea13108bb9",
+    "commitTimestamp": "2026-03-13T10:15:03Z",
+    "commitMessage": "chore(CI): speed up playwright browser setup (#3223)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23046285917",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23046285917/job/66936091493"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23046285917/job/66936091516"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23046285917/job/66936091524"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23046285917/job/66936091545"
+      }
+    ]
+  },
+  {
     "commitSha": "47392b9394d5e0e533228902dfa5db2f2269b23e",
     "commitTimestamp": "2026-03-13T09:51:49Z",
     "commitMessage": "feat: enable yarn pnp by `process.versions.pnp` (#3224)",
