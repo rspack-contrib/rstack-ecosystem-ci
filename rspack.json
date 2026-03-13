@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "25c5cae36508aed1c29e7666ec4d2e30669c608f",
+    "commitTimestamp": "2026-03-13T08:00:04Z",
+    "commitMessage": "perf: replace unnecessary usize and u64  with u32 (#13338)",
+    "author": {
+      "name": "hardfist",
+      "email": "yangjianzju@gmail.com",
+      "login": "hardfist"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/23041682189",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23041682189/job/66921873630"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23041682189/job/66921873631"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23041682189/job/66921873632"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23041682189/job/66921873633"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23041682189/job/66921873641"
+      },
+      {
+        "name": "nuxt",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23041682189/job/66921873642"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23041682189/job/66921873647"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23041682189/job/66921873674"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23041682189/job/66921873675"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23041682189/job/66921873688"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23041682189/job/66921873689"
+      }
+    ]
+  },
+  {
     "commitSha": "f287abc5c609b4c09e022b6e708e6736c913a6e8",
     "commitTimestamp": "2026-03-13T06:47:26Z",
     "commitMessage": "chore(ci): eco benchmark compare using by commits perf data (#13315)",
