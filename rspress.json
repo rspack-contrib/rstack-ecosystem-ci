@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "47392b9394d5e0e533228902dfa5db2f2269b23e",
+    "commitTimestamp": "2026-03-13T09:51:49Z",
+    "commitMessage": "feat: enable yarn pnp by `process.versions.pnp` (#3224)",
+    "author": {
+      "name": "pshu",
+      "email": "stormslowly@gmail.com",
+      "login": "stormslowly"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23045778240",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23045778240/job/66934389366"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23045778240/job/66934389376"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23045778240/job/66934389392"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23045778240/job/66934389399"
+      }
+    ]
+  },
+  {
     "commitSha": "8faea954eda12b7848832b751a6a307be52adda0",
     "commitTimestamp": "2026-03-13T09:39:44Z",
     "commitMessage": "chore(core): remove filename hash workaround for preserveModules build (#3225)",
