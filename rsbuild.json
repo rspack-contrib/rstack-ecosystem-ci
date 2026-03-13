@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "22edc24cba014e2b41b48807c09b67e19894bf27",
+    "commitTimestamp": "2026-03-13T06:29:05Z",
+    "commitMessage": "chore(deps): update dorny/paths-filter action to v4 (#7328)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23039337806",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23039337806/job/66914138459"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23039337806/job/66914138464"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23039337806/job/66914138467"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23039337806/job/66914138469"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23039337806/job/66914138472"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23039337806/job/66914138477"
+      }
+    ]
+  },
+  {
     "commitSha": "bc9ec3a8377d9dd45a6f125b4dc7f58be8c616ff",
     "commitTimestamp": "2026-03-12T10:45:48Z",
     "commitMessage": "docs: generate description for all documentations (#7326)",
