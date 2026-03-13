@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "93af830ed8e68288ba9f232e82bc572664d80f9c",
+    "commitTimestamp": "2026-03-13T10:28:21Z",
+    "commitMessage": "fix(parser): avoid treating require.resolve chains as require (#13341)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/23046719006",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23046719006/job/66938263009"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23046719006/job/66938263018"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23046719006/job/66938263026"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23046719006/job/66938263037"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23046719006/job/66938263042"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23046719006/job/66938263046"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23046719006/job/66938263051"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23046719006/job/66938263055"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23046719006/job/66938263059"
+      },
+      {
+        "name": "nuxt",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23046719006/job/66938263090"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23046719006/job/66938263166"
+      }
+    ]
+  },
+  {
     "commitSha": "cf2c8bc4eb784c467ce43cc8629d92d534127328",
     "commitTimestamp": "2026-03-13T09:24:00Z",
     "commitMessage": "refactor: remove Ukey DataBase abstraction (#13339)",
