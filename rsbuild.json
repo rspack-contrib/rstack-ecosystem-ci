@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "0083fe2a4a4261c2a6eed1d84c4098b7e630fec9",
+    "commitTimestamp": "2026-03-15T08:36:25Z",
+    "commitMessage": "docs: update benchmark descriptions and data (#7331)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23106827666",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23106827666/job/67117418577"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23106827666/job/67117418579"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23106827666/job/67117418580"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23106827666/job/67117418582"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23106827666/job/67117418584"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23106827666/job/67117418585"
+      }
+    ]
+  },
+  {
     "commitSha": "1bfeea68c6cd7a56471013181c01e66522f66e1f",
     "commitTimestamp": "2026-03-15T01:13:52Z",
     "commitMessage": "chore(deps): update module federation to v2.2.0 (#7330)",
