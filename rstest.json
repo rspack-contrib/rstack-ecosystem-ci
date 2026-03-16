@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "a15beab1f8a435f57eddf7f6fda4dc4bbf5d6598",
+    "commitTimestamp": "2026-03-16T03:10:00Z",
+    "commitMessage": "feat: support merging reports and coverage when using test sharding (#1054)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23126293279",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23126293279/job/67169969176"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23126293279/job/67169969178"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23126293279/job/67169969197"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23126293279/job/67169969210"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23126293279/job/67169969231"
+      }
+    ]
+  },
+  {
     "commitSha": "01ff962db81d60c50e7efc49e789be93efc5d2d7",
     "commitTimestamp": "2026-03-12T06:43:58Z",
     "commitMessage": "chore: enforce noNamespaceImport with targeted exceptions (#1047)",
