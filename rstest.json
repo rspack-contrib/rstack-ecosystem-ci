@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "8367391aaaba66824d3c84f86a4bcd5d85194313",
+    "commitTimestamp": "2026-03-16T06:45:19Z",
+    "commitMessage": "feat: add test adapter for Rspack (#1048)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23131482091",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23131482091/job/67185637608"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23131482091/job/67185637611"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23131482091/job/67185637614"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23131482091/job/67185637616"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23131482091/job/67185637630"
+      }
+    ]
+  },
+  {
     "commitSha": "313d5469b127783a66f4b5e83e6467fb19380527",
     "commitTimestamp": "2026-03-16T06:43:21Z",
     "commitMessage": "feat: support `coverage.allowExternal` option (#1050)",
