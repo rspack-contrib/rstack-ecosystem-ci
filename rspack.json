@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "d116a38473983030815d5e6ac5df832fde416adc",
+    "commitTimestamp": "2026-03-16T06:22:26Z",
+    "commitMessage": "ci(workflow): add condition to only run canary release in main  (#13359)",
+    "author": {
+      "name": "wChenonly",
+      "email": "37658262+wChenonly@users.noreply.github.com",
+      "login": "wChenonly"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/23130750483",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23130750483/job/67184074229"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23130750483/job/67184074230"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23130750483/job/67184074233"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23130750483/job/67184074237"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23130750483/job/67184074243"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23130750483/job/67184074250"
+      },
+      {
+        "name": "nuxt",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23130750483/job/67184074255"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23130750483/job/67184074262"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23130750483/job/67184074268"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23130750483/job/67184074272"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23130750483/job/67184074275"
+      }
+    ]
+  },
+  {
     "commitSha": "64256337a0842c7affbef2c51921d104a5f89333",
     "commitTimestamp": "2026-03-16T03:15:31Z",
     "commitMessage": "perf: dyn lint for default hash (#13346)",
