@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "78d5d7eed42c9feef0f9f7ae0b50ebad458c8cbe",
+    "commitTimestamp": "2026-03-16T14:20:20Z",
+    "commitMessage": "docs: add `publicDir.ignore` option (#7334)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23148457674",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23148457674/job/67243091751"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23148457674/job/67243091775"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23148457674/job/67243091794"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23148457674/job/67243091808"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23148457674/job/67243091818"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23148457674/job/67243091850"
+      }
+    ]
+  },
+  {
     "commitSha": "69389b92c0dc08ada5840df342223182646141af",
     "commitTimestamp": "2026-03-16T02:57:20Z",
     "commitMessage": "chore(deps): update all patch dependencies (#7332)",
