@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "717b07b4bfbb6329df96f38f55d847ee63eedef9",
+    "commitTimestamp": "2026-03-16T05:17:37Z",
+    "commitMessage": "chore(deps): update dorny/paths-filter action to v4 (#1534)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23129072273",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23129072273/job/67178504488"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23129072273/job/67178504499"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23129072273/job/67178504505"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23129072273/job/67178504509"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23129072273/job/67178504520"
+      }
+    ]
+  },
+  {
     "commitSha": "26b09d6e0776231c2ba7d29a9450c628c1c5fa8b",
     "commitTimestamp": "2026-03-13T07:42:17Z",
     "commitMessage": "chore(CI): speed up playwright browser setup (#1531)",
