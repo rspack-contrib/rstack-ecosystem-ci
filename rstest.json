@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "313d5469b127783a66f4b5e83e6467fb19380527",
+    "commitTimestamp": "2026-03-16T06:43:21Z",
+    "commitMessage": "feat: support `coverage.allowExternal` option (#1050)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23131455317",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23131455317/job/67185542314"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23131455317/job/67185542319"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23131455317/job/67185542341"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23131455317/job/67185542346"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23131455317/job/67185542349"
+      }
+    ]
+  },
+  {
     "commitSha": "0e3ad435dd1b83381ace85de4235042526968895",
     "commitTimestamp": "2026-03-16T06:04:40Z",
     "commitMessage": "fix(adapter-rsbuild): bundle `adapter-rsbuild` types (#1055)",
