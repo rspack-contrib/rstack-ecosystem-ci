@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "0e3ad435dd1b83381ace85de4235042526968895",
+    "commitTimestamp": "2026-03-16T06:04:40Z",
+    "commitMessage": "fix(adapter-rsbuild): bundle `adapter-rsbuild` types (#1055)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23130264361",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23130264361/job/67181974164"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23130264361/job/67181974165"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23130264361/job/67181974176"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23130264361/job/67181974184"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23130264361/job/67181974196"
+      }
+    ]
+  },
+  {
     "commitSha": "a15beab1f8a435f57eddf7f6fda4dc4bbf5d6598",
     "commitTimestamp": "2026-03-16T03:10:00Z",
     "commitMessage": "feat: support merging reports and coverage when using test sharding (#1054)",
