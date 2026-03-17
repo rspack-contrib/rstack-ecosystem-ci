@@ -86,6 +86,10 @@ jobs:
             os: ubuntu-latest
           - suite: rspress
             os: ubuntu-latest
+          - suite: examples
+            os: ubuntu-latest
+          - suite: modernjs
+            os: ubuntu-latest
       fail-fast: false
     runs-on: ${{ matrix.os }}
     name: rstest (${{ matrix.suite }})
