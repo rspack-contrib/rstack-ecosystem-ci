@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "62d8c0d455c59579d0a72a403674f6c45bc9381e",
+    "commitTimestamp": "2026-03-17T14:20:12Z",
+    "commitMessage": "release: 2.0.0-beta.9 (#7336)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23198937581",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23198937581/job/67415264380"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23198937581/job/67415264422"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23198937581/job/67415264432"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23198937581/job/67415264436"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23198937581/job/67415264446"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23198937581/job/67415264486"
+      }
+    ]
+  },
+  {
     "commitSha": "78d5d7eed42c9feef0f9f7ae0b50ebad458c8cbe",
     "commitTimestamp": "2026-03-16T14:20:20Z",
     "commitMessage": "docs: add `publicDir.ignore` option (#7334)",
