@@ -1,5 +1,5 @@
 import type { RunOptions } from '../../types';
-import { runInRepo } from '../../utils';
+import { $, runInRepo } from '../../utils';
 
 export async function test(options: RunOptions) {
   await runInRepo({
@@ -7,5 +7,8 @@ export async function test(options: RunOptions) {
     repo: 'rstackjs/rstack-examples',
     branch: 'main',
     test: ['test:rstest'],
+    beforeTest: async () => {
+      await $`npx playwright install chromium webkit --with-deps`;
+    },
   });
 }

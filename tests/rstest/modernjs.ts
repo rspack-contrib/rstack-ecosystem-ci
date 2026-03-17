@@ -1,7 +1,7 @@
 import { join } from 'node:path';
 import cache from '@actions/cache';
 import type { RunOptions } from '../../types';
-import { $, runInRepo } from '../../utils';
+import { $, cd, runInRepo } from '../../utils';
 
 const isGitHubActions = !!process.env.GITHUB_ACTIONS;
 
@@ -42,6 +42,14 @@ export async function test(options: RunOptions) {
         await cache.saveCache([nxCachePath], nxCacheKey);
       }
     },
-    test: ['test:ut', 'cd tests && pnpm test:rstest'],
+    test: [
+      'test:ut',
+      async () => {
+        cd('./tests');
+        await $`npx playwright install chromium webkit --with-deps`;
+        await $`pnpm run test:rstest`;
+        cd('..');
+      },
+    ],
   });
 }
