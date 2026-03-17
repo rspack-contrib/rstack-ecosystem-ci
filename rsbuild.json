@@ -48,6 +48,54 @@
     ]
   },
   {
+    "commitSha": "aceda4bcc04b05fa769fdd8269e8c74c9021a881",
+    "commitTimestamp": "2026-03-17T14:15:37Z",
+    "commitMessage": "feat(deps): update @rspack/core to 2.0.0-beta.7 (#7335)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23198723675",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23198723675/job/67414459214"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23198723675/job/67414459227"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23198723675/job/67414459243"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23198723675/job/67414459414"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23198723675/job/67414459425"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23198723675/job/67414459492"
+      }
+    ]
+  },
+  {
     "commitSha": "78d5d7eed42c9feef0f9f7ae0b50ebad458c8cbe",
     "commitTimestamp": "2026-03-16T14:20:20Z",
     "commitMessage": "docs: add `publicDir.ignore` option (#7334)",
