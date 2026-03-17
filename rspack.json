@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "35c2f4a27368947e7ebdd900b0c3f3f28e1887d9",
+    "commitTimestamp": "2026-03-17T12:21:04Z",
+    "commitMessage": "chore: release 2.0.0-beta.7 (#13385)",
+    "author": {
+      "name": "harpsealjs",
+      "email": "lingyucoder@gmail.com",
+      "login": "LingyuCoder"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/23193900040",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23193900040/job/67398206159"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23193900040/job/67398206174"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23193900040/job/67398206182"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23193900040/job/67398206185"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23193900040/job/67398206190"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23193900040/job/67398206202"
+      },
+      {
+        "name": "nuxt",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23193900040/job/67398206214"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23193900040/job/67398206260"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23193900040/job/67398206272"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23193900040/job/67398206281"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23193900040/job/67398206294"
+      }
+    ]
+  },
+  {
     "commitSha": "6dd75d2fa8c5f01a18b3883cbaf514e4411f6ad1",
     "commitTimestamp": "2026-03-17T09:15:24Z",
     "commitMessage": "feat: tree shaking for inlined members access dynamic import (#13381)",
