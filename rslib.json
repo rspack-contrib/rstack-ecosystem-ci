@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "350de935b83fa6870ffd7027bb910f8fb3ceb4ea",
+    "commitTimestamp": "2026-03-17T12:04:52Z",
+    "commitMessage": "chore(deps): upgrade chokidar to v5 (#1542)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23193433106",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23193433106/job/67395274447"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23193433106/job/67395274453"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23193433106/job/67395274463"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23193433106/job/67395274467"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23193433106/job/67395274488"
+      }
+    ]
+  },
+  {
     "commitSha": "41883269b5840da614b9c9e3729d2d5bc404574e",
     "commitTimestamp": "2026-03-17T11:02:55Z",
     "commitMessage": "perf: upgrade rslog and bundle into to main chunk (#1541)",
