@@ -41,7 +41,7 @@ on:
           - rsbuild
           - rsdoctor
           - modernjs
-          # - examples
+          - examples
       suiteRefType:
         description: "type of suite ref to use"
         required: true
@@ -95,8 +95,8 @@ jobs:
             os: ubuntu-latest
           - suite: modernjs
             os: ubuntu-latest
-          # - suite: examples
-          #   os: ubuntu-latest
+          - suite: examples
+            os: ubuntu-latest
       fail-fast: false
     runs-on: ${{ matrix.os }}
     name: execute-all (${{ matrix.suite }})
