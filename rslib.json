@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "41883269b5840da614b9c9e3729d2d5bc404574e",
+    "commitTimestamp": "2026-03-17T11:02:55Z",
+    "commitMessage": "perf: upgrade rslog and bundle into to main chunk (#1541)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23191902567",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23191902567/job/67389935408"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23191902567/job/67389935417"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23191902567/job/67389935419"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23191902567/job/67389935426"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23191902567/job/67389935435"
+      }
+    ]
+  },
+  {
     "commitSha": "8ab0e6f0660e98d1663617539593f1889480b80d",
     "commitTimestamp": "2026-03-17T10:11:04Z",
     "commitMessage": "fix(deps): upgrade rsbuild-plugin-unplugin-vue (#1540)",
