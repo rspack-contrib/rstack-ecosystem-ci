@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e5c40b662b4ed1b1ff76fd52c1366fb72033e3ba",
+    "commitTimestamp": "2026-03-17T08:54:48Z",
+    "commitMessage": "fix(browser-ui): sync case status before results arrive (#1063)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23186385279",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23186385279/job/67370836930"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23186385279/job/67370836951"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23186385279/job/67370836965"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23186385279/job/67370836970"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23186385279/job/67370836981"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23186385279/job/67370837010"
+      }
+    ]
+  },
+  {
     "commitSha": "cedcf74b91a8f56195cf51f63b5e960ac41ccf22",
     "commitTimestamp": "2026-03-17T07:53:24Z",
     "commitMessage": "fix(browser-ui): show collected cases before first result (#1062)",
