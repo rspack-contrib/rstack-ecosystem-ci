@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "93c3e9e12edd14c73a7dfaa038ef2868e8388cb0",
+    "commitTimestamp": "2026-03-18T10:41:11Z",
+    "commitMessage": "fix: avoid analyze cjs tree shaking for user defined require (#13401)",
+    "author": {
+      "name": "Gengkun",
+      "email": "ahabhgk@gmail.com",
+      "login": "ahabhgk"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/23240727452",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23240727452/job/67557061946"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23240727452/job/67557061953"
+      },
+      {
+        "name": "nuxt",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23240727452/job/67557061960"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23240727452/job/67557061962"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23240727452/job/67557061968"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23240727452/job/67557061970"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23240727452/job/67557061974"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23240727452/job/67557062005"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23240727452/job/67557062017"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23240727452/job/67557062043"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23240727452/job/67557062069"
+      }
+    ]
+  },
+  {
     "commitSha": "471a4ffb06708094a1cd7023fa53ef424d1b7887",
     "commitTimestamp": "2026-03-18T09:57:09Z",
     "commitMessage": "perf(esm-lib): optimize ESM library rendering performance (#13334)",
