@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "ceecf44a9a67a38af1ae02971dca1b409ec1e2d0",
+    "commitTimestamp": "2026-03-18T03:39:20Z",
+    "commitMessage": "feat: add EsmNodeTargetPlugin for ESM-aware node builtin externals (#13370)",
+    "author": {
+      "name": "Fy",
+      "email": "1114550440@qq.com",
+      "login": "JSerFeng"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/23227960122",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23227960122/job/67515159284"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23227960122/job/67515159286"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23227960122/job/67515159287"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23227960122/job/67515159288"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23227960122/job/67515159292"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23227960122/job/67515159294"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23227960122/job/67515159296"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23227960122/job/67515159297"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23227960122/job/67515159299"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23227960122/job/67515159300"
+      },
+      {
+        "name": "nuxt",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23227960122/job/67515159304"
+      }
+    ]
+  },
+  {
     "commitSha": "d1e0c18aaf36f28216ca65a64ca72d31ed41302f",
     "commitTimestamp": "2026-03-18T03:37:50Z",
     "commitMessage": "fix(esm-lib): avoid exporting __webpack_require__ and useless runtime when runtimeChunk is false (#13374)",
