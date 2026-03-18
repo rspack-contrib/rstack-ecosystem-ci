@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ff9b6ac4ea608026639dd82c679e33ee3f92378a",
+    "commitTimestamp": "2026-03-18T09:12:20Z",
+    "commitMessage": "chore(rsbuild-adapter): update rsbuild plugin name (#1068)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23237639480",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23237639480/job/67545528967"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23237639480/job/67545528971"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23237639480/job/67545528973"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23237639480/job/67545529017"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23237639480/job/67545529022"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23237639480/job/67545529094"
+      }
+    ]
+  },
+  {
     "commitSha": "0b54ab64b51fa03b48efabfca93ea3cf4c97c31d",
     "commitTimestamp": "2026-03-18T07:46:01Z",
     "commitMessage": "fix: should handle unhandledRejection error name correctly (#1067)",
