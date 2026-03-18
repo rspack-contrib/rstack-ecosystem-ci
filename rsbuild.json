@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "406d4a20178ea600b92e7890463f3d86ed554371",
+    "commitTimestamp": "2026-03-18T03:48:41Z",
+    "commitMessage": "fix: remove redundant main fields from package.json files (#7338)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23228384940",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23228384940/job/67516059566"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23228384940/job/67516059567"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23228384940/job/67516059578"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23228384940/job/67516059586"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23228384940/job/67516059594"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23228384940/job/67516059604"
+      }
+    ]
+  },
+  {
     "commitSha": "62d8c0d455c59579d0a72a403674f6c45bc9381e",
     "commitTimestamp": "2026-03-17T14:20:12Z",
     "commitMessage": "release: 2.0.0-beta.9 (#7336)",
