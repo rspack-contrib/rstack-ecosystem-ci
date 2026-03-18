@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "d8b1e286e392098464627207d8add0719bcba613",
+    "commitTimestamp": "2026-03-18T12:37:49Z",
+    "commitMessage": "Release v2.0.6 (#3240)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23245053929",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23245053929/job/67571168706"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23245053929/job/67571168719"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23245053929/job/67571168778"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23245053929/job/67571168814"
+      }
+    ]
+  },
+  {
     "commitSha": "fcbc64e7ffaa1c2903ce44be3a10ba94ba963f28",
     "commitTimestamp": "2026-03-18T11:57:47Z",
     "commitMessage": "fix(theme/search): reset selected suggestion to first when search query changes (#3227)",
