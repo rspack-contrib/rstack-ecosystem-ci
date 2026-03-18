@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "159757f9e8b74323599e36089031d8711f82b528",
+    "commitTimestamp": "2026-03-18T06:43:59Z",
+    "commitMessage": "chore: bump rslint to 0.3.1 & migrate rslint.json to rslint.config.ts (#7341)",
+    "author": {
+      "name": "senze.fan",
+      "email": "151665030@qq.com",
+      "login": "fansenze"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23232534237",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23232534237/job/67529006837"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23232534237/job/67529006838"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23232534237/job/67529006856"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23232534237/job/67529006857"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23232534237/job/67529006868"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23232534237/job/67529006875"
+      }
+    ]
+  },
+  {
     "commitSha": "fda1ca24e07319c04b82cdda504b36b19d3925ee",
     "commitTimestamp": "2026-03-18T03:50:13Z",
     "commitMessage": "chore(deps): update dependency core-js to ^3.49.0 (#7337)",
