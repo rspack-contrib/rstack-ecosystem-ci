@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "8b9417f1c7025fb94cb2ae2bee94a22dd8569af5",
+    "commitTimestamp": "2026-03-19T06:10:06Z",
+    "commitMessage": "perf: parallelize independent async work (#1071)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23282302090",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23282302090/job/67698176541"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23282302090/job/67698176549"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23282302090/job/67698176550"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23282302090/job/67698176554"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23282302090/job/67698176558"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23282302090/job/67698176624"
+      }
+    ]
+  },
+  {
     "commitSha": "076735f7b8fca1a69463b6f4b8eb8e0d3a9a8483",
     "commitTimestamp": "2026-03-18T11:35:21Z",
     "commitMessage": "docs: remove `mocking re-exported modules` tip (#1069)",
