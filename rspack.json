@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "b6512df8ca2508767163e6deb6ec1d4a4678f2f8",
+    "commitTimestamp": "2026-03-19T03:18:48Z",
+    "commitMessage": "perf(build_chunk_graph): optimize data structures in code splitter (#13403)",
+    "author": {
+      "name": "Fy",
+      "email": "1114550440@qq.com",
+      "login": "JSerFeng"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/23278210065",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23278210065/job/67686381306"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23278210065/job/67686381308"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23278210065/job/67686381312"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23278210065/job/67686381316"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23278210065/job/67686381317"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23278210065/job/67686381318"
+      },
+      {
+        "name": "nuxt",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23278210065/job/67686381332"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23278210065/job/67686381333"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23278210065/job/67686381334"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23278210065/job/67686381335"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23278210065/job/67686381353"
+      }
+    ]
+  },
+  {
     "commitSha": "5dbef6a5a00dd112d7075d9c0466e8b67867bd29",
     "commitTimestamp": "2026-03-19T03:11:44Z",
     "commitMessage": "refactor: flush storage when compiler close (#13395)",
