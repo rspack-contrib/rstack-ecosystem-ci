@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "8c19812648aa006f58ad8a041ff4a6bbb849e5c1",
+    "commitTimestamp": "2026-03-19T08:16:28Z",
+    "commitMessage": "chore(deps): update module federation (major) (#1493)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23286000865",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23286000865/job/67709521665"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23286000865/job/67709521669"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23286000865/job/67709521671"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23286000865/job/67709521676"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23286000865/job/67709521684"
+      }
+    ]
+  },
+  {
     "commitSha": "6932df11b7e044014b9acd2d198f7a8b01e36748",
     "commitTimestamp": "2026-03-17T13:11:05Z",
     "commitMessage": "perf(deps): replace picocolors with styleText from node:util (#1543)",
