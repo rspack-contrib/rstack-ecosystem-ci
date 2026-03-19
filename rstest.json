@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "3599eaefb98d2816ac23d34196fd39eb60ca843b",
+    "commitTimestamp": "2026-03-19T07:09:08Z",
+    "commitMessage": "fix(core): handle builtin imports in linked esm loader (#1070)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23283884050",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23283884050/job/67702926150"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23283884050/job/67702926152"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23283884050/job/67702926154"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23283884050/job/67702926155"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23283884050/job/67702926162"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23283884050/job/67702926164"
+      }
+    ]
+  },
+  {
     "commitSha": "8b9417f1c7025fb94cb2ae2bee94a22dd8569af5",
     "commitTimestamp": "2026-03-19T06:10:06Z",
     "commitMessage": "perf: parallelize independent async work (#1071)",
