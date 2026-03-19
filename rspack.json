@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "425a396b28cab1794819f8504add9577d33048b3",
+    "commitTimestamp": "2026-03-19T03:29:59Z",
+    "commitMessage": "perf: rspack_storage parallel write (#13407)",
+    "author": {
+      "name": "jinrui",
+      "email": "jerrykingxyz@gmail.com",
+      "login": "jerrykingxyz"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/23278467863",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23278467863/job/67687214242"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23278467863/job/67687214243"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23278467863/job/67687214252"
+      },
+      {
+        "name": "nuxt",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23278467863/job/67687214254"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23278467863/job/67687214255"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23278467863/job/67687214256"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23278467863/job/67687214258"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23278467863/job/67687214259"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23278467863/job/67687214263"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23278467863/job/67687214268"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23278467863/job/67687214273"
+      }
+    ]
+  },
+  {
     "commitSha": "b6512df8ca2508767163e6deb6ec1d4a4678f2f8",
     "commitTimestamp": "2026-03-19T03:18:48Z",
     "commitMessage": "perf(build_chunk_graph): optimize data structures in code splitter (#13403)",
