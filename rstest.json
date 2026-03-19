@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "5b257982c813a6e05390632049f30bc94f9c8cc8",
+    "commitTimestamp": "2026-03-19T08:09:33Z",
+    "commitMessage": "release: 0.9.4 (#1073)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23285665156",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23285665156/job/67708416521"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23285665156/job/67708416524"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23285665156/job/67708416526"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23285665156/job/67708416580"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23285665156/job/67708416588"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23285665156/job/67708416595"
+      }
+    ]
+  },
+  {
     "commitSha": "3599eaefb98d2816ac23d34196fd39eb60ca843b",
     "commitTimestamp": "2026-03-19T07:09:08Z",
     "commitMessage": "fix(core): handle builtin imports in linked esm loader (#1070)",
