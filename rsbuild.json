@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "04319a9b0a901d9d1dfbe998ff30933f5dc5632e",
+    "commitTimestamp": "2026-03-19T07:44:39Z",
+    "commitMessage": "fix: use dynamic padding for URL labels instead of fixed width (#7342)",
+    "author": {
+      "name": "Xuan Huang (黄玄)",
+      "email": "5563315+Huxpro@users.noreply.github.com",
+      "login": "Huxpro"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23284901347",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23284901347/job/67706034668"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23284901347/job/67706034690"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23284901347/job/67706034697"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23284901347/job/67706034705"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23284901347/job/67706034706"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23284901347/job/67706034707"
+      }
+    ]
+  },
+  {
     "commitSha": "eb6cd8756871b601d08b3cea28d3a5c46d7f36b9",
     "commitTimestamp": "2026-03-19T03:30:05Z",
     "commitMessage": "feat(source-map): add extraction option (#7340)",
