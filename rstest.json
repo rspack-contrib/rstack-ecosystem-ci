@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c2478e005fa9067bbd3894a9cd634cb0c459fa1e",
+    "commitTimestamp": "2026-03-19T11:33:45Z",
+    "commitMessage": "perf(core): cache TraceMap and parsed sourcemaps, use Set for coverage file lookup (#1074)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23292915284",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23292915284/job/67732830217"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23292915284/job/67732830239"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23292915284/job/67732830253"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23292915284/job/67732830269"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23292915284/job/67732830279"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23292915284/job/67732830312"
+      }
+    ]
+  },
+  {
     "commitSha": "fdd4c27ac80fd4317e0ea82f913d1a6dbc78a0e7",
     "commitTimestamp": "2026-03-19T10:10:59Z",
     "commitMessage": "chore(deps): update pnpm/action-setup action to v5 (#1077)",
