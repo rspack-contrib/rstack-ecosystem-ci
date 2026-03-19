@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "34d3323b6fcece7199d522058433b2a60bf12a3f",
+    "commitTimestamp": "2026-03-19T11:36:14Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#1546)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23293023684",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23293023684/job/67733189992"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23293023684/job/67733190000"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23293023684/job/67733190007"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23293023684/job/67733190022"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23293023684/job/67733190055"
+      }
+    ]
+  },
+  {
     "commitSha": "8dc7a51497df03471b88711b613e81fbbade2575",
     "commitTimestamp": "2026-03-19T08:50:26Z",
     "commitMessage": "chore(deps): update Rsbuild 2.0.0-beta.9 (#1545)",
