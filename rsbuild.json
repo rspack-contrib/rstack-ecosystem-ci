@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "eb6cd8756871b601d08b3cea28d3a5c46d7f36b9",
+    "commitTimestamp": "2026-03-19T03:30:05Z",
+    "commitMessage": "feat(source-map): add extraction option (#7340)",
+    "author": {
+      "name": "Alexander",
+      "email": "zalishchuk.me@gmail.com",
+      "login": "zalishchuk"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23278595260",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23278595260/job/67686854830"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23278595260/job/67686854837"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23278595260/job/67686854838"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23278595260/job/67686854839"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23278595260/job/67686854843"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23278595260/job/67686854844"
+      }
+    ]
+  },
+  {
     "commitSha": "159757f9e8b74323599e36089031d8711f82b528",
     "commitTimestamp": "2026-03-18T06:43:59Z",
     "commitMessage": "chore: bump rslint to 0.3.1 & migrate rslint.json to rslint.config.ts (#7341)",
