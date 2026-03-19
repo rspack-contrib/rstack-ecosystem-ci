@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "8dc7a51497df03471b88711b613e81fbbade2575",
+    "commitTimestamp": "2026-03-19T08:50:26Z",
+    "commitMessage": "chore(deps): update Rsbuild 2.0.0-beta.9 (#1545)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23287023140",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23287023140/job/67712876447"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23287023140/job/67712876469"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23287023140/job/67712876472"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23287023140/job/67712876476"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23287023140/job/67712876523"
+      }
+    ]
+  },
+  {
     "commitSha": "e69b227ebe549273681e2a4a706b640eac4b53ff",
     "commitTimestamp": "2026-03-19T08:27:56Z",
     "commitMessage": "perf(deps): upgrade tinyglobby and use dynamic import (#1544)",
