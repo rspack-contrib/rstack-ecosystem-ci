@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "6682e525cfebd1015376ab9c065ab1ba4ad68d5e",
+    "commitTimestamp": "2026-03-20T06:52:58Z",
+    "commitMessage": "test(core): use unique temp file paths in extends config tests (#1080)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23332353938",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23332353938/job/67866416779"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23332353938/job/67866416781"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23332353938/job/67866416788"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23332353938/job/67866416790"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23332353938/job/67866416791"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23332353938/job/67866416795"
+      }
+    ]
+  },
+  {
     "commitSha": "9c6b40f7ac65de27ebadbc959d5557fc15edcb3e",
     "commitTimestamp": "2026-03-20T06:41:35Z",
     "commitMessage": "perf(core): lazy load runtime diff formatting and fake timers (#1079)",
