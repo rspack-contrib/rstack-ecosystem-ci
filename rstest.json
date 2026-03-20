@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9c6b40f7ac65de27ebadbc959d5557fc15edcb3e",
+    "commitTimestamp": "2026-03-20T06:41:35Z",
+    "commitMessage": "perf(core): lazy load runtime diff formatting and fake timers (#1079)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23332081796",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23332081796/job/67865620941"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23332081796/job/67865620949"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23332081796/job/67865620957"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23332081796/job/67865620964"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23332081796/job/67865620972"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23332081796/job/67865620974"
+      }
+    ]
+  },
+  {
     "commitSha": "c2478e005fa9067bbd3894a9cd634cb0c459fa1e",
     "commitTimestamp": "2026-03-19T11:33:45Z",
     "commitMessage": "perf(core): cache TraceMap and parsed sourcemaps, use Set for coverage file lookup (#1074)",
