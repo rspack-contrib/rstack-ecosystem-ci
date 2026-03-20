@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "be0823e1b4540830bf9691c2bb35b3f1dea4e872",
+    "commitTimestamp": "2026-03-20T05:57:14Z",
+    "commitMessage": "chore: convert prebundle config files to ts (#1548)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23331046714",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23331046714/job/67862555663"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23331046714/job/67862555670"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23331046714/job/67862555672"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23331046714/job/67862555677"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23331046714/job/67862555681"
+      }
+    ]
+  },
+  {
     "commitSha": "5d34a4e5aafd03f132aa8bd8e1ce7d94e86ef8b5",
     "commitTimestamp": "2026-03-20T03:32:17Z",
     "commitMessage": "perf(dts): switch plugin-dts to multi-entry build (#1547)",
