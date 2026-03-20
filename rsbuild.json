@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "95fea2857f2e19543b47177c7a7201c53e18854b",
+    "commitTimestamp": "2026-03-20T08:29:15Z",
+    "commitMessage": "refactor: remove ts comments and fix type issues (#7351)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23334968744",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23334968744/job/67874449830"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23334968744/job/67874449843"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23334968744/job/67874449851"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23334968744/job/67874449852"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23334968744/job/67874449875"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23334968744/job/67874449880"
+      }
+    ]
+  },
+  {
     "commitSha": "f759a0ad6ae4c254009fcdc6fce4e8b6e308afc7",
     "commitTimestamp": "2026-03-20T07:42:15Z",
     "commitMessage": "refactor: remove webpack fallback in file size plugin (#7350)",
