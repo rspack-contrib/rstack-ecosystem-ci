@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "069476a9bdc7bebba84a43ef48baf505e73ecb42",
+    "commitTimestamp": "2026-03-20T07:38:44Z",
+    "commitMessage": "refactor(types): handle output fs type correctly (#7349)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23333565349",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23333565349/job/67870037335"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23333565349/job/67870037344"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23333565349/job/67870037351"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23333565349/job/67870037352"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23333565349/job/67870037354"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23333565349/job/67870037370"
+      }
+    ]
+  },
+  {
     "commitSha": "cf6b430d303db20e98c62bb6358f3405d7fdd504",
     "commitTimestamp": "2026-03-20T07:13:32Z",
     "commitMessage": "fix: should filter license from prefetch candidates (#7348)",
