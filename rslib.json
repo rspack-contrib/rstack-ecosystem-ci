@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "5d34a4e5aafd03f132aa8bd8e1ce7d94e86ef8b5",
+    "commitTimestamp": "2026-03-20T03:32:17Z",
+    "commitMessage": "perf(dts): switch plugin-dts to multi-entry build (#1547)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23327930806",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23327930806/job/67853069546"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23327930806/job/67853069555"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23327930806/job/67853069556"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23327930806/job/67853069558"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23327930806/job/67853069560"
+      }
+    ]
+  },
+  {
     "commitSha": "34d3323b6fcece7199d522058433b2a60bf12a3f",
     "commitTimestamp": "2026-03-19T11:36:14Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1546)",
