@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "8762b7600e3236d71f79e0482e9c45d4e9ea225c",
+    "commitTimestamp": "2026-03-23T02:40:40Z",
+    "commitMessage": "feat: use instance-level logger (#7360)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23419234241",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23419234241/job/68120641901"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23419234241/job/68120641907"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23419234241/job/68120641908"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23419234241/job/68120641910"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23419234241/job/68120641919"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23419234241/job/68120641923"
+      }
+    ]
+  },
+  {
     "commitSha": "f1599bb505d3a9ce74e09c2993212ca5aa5010c3",
     "commitTimestamp": "2026-03-23T02:28:44Z",
     "commitMessage": "chore(deps): update all patch dependencies (#7361)",
