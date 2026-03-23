@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "34a264f6075da1f96baa6519bfe49790e21c7fee",
+    "commitTimestamp": "2026-03-23T02:57:15Z",
+    "commitMessage": "fix(core): propagate color env to worker processes for correct ANSI output (#1081)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23419508822",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23419508822/job/68121424112"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23419508822/job/68121424113"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23419508822/job/68121424126"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23419508822/job/68121424127"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23419508822/job/68121424128"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23419508822/job/68121424133"
+      }
+    ]
+  },
+  {
     "commitSha": "6682e525cfebd1015376ab9c065ab1ba4ad68d5e",
     "commitTimestamp": "2026-03-20T06:52:58Z",
     "commitMessage": "test(core): use unique temp file paths in extends config tests (#1080)",
