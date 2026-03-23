@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "5fffa51a0f2a937d15cd5bc6d3fc3a2f283b281f",
+    "commitTimestamp": "2026-03-23T03:47:51Z",
+    "commitMessage": "fix(core): use instance logger for restart output (#7362)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23421330617",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23421330617/job/68126805655"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23421330617/job/68126805656"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23421330617/job/68126805657"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23421330617/job/68126805663"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23421330617/job/68126805684"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23421330617/job/68126805734"
+      }
+    ]
+  },
+  {
     "commitSha": "7e07b3f834e52774f7ee49d1d42432a28c168652",
     "commitTimestamp": "2026-03-23T03:26:56Z",
     "commitMessage": "chore(deps): update dependency ws to ^8.20.0 (#7359)",
