@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "a009a0f5661f8c323456a6ac60766ef01f3ddd02",
+    "commitTimestamp": "2026-03-23T04:33:20Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#1549)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23421732482",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23421732482/job/68128204241"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23421732482/job/68128204244"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23421732482/job/68128204248"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23421732482/job/68128204249"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23421732482/job/68128204255"
+      }
+    ]
+  },
+  {
     "commitSha": "be0823e1b4540830bf9691c2bb35b3f1dea4e872",
     "commitTimestamp": "2026-03-20T05:57:14Z",
     "commitMessage": "chore: convert prebundle config files to ts (#1548)",
