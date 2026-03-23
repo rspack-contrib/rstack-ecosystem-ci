@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7e07b3f834e52774f7ee49d1d42432a28c168652",
+    "commitTimestamp": "2026-03-23T03:26:56Z",
+    "commitMessage": "chore(deps): update dependency ws to ^8.20.0 (#7359)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23420633530",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23420633530/job/68124758816"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23420633530/job/68124758818"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23420633530/job/68124758821"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23420633530/job/68124758823"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23420633530/job/68124758834"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23420633530/job/68124758837"
+      }
+    ]
+  },
+  {
     "commitSha": "8762b7600e3236d71f79e0482e9c45d4e9ea225c",
     "commitTimestamp": "2026-03-23T02:40:40Z",
     "commitMessage": "feat: use instance-level logger (#7360)",
