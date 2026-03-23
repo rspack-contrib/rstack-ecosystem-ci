@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4813e31cb629fb0b2e5475f54a3325d47bb1ba4f",
+    "commitTimestamp": "2026-03-23T04:54:14Z",
+    "commitMessage": "refactor(core): rename global logger to defaultLogger (#7364)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23422079355",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23422079355/job/68129225791"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23422079355/job/68129225793"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23422079355/job/68129225794"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23422079355/job/68129225798"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23422079355/job/68129225801"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23422079355/job/68129225803"
+      }
+    ]
+  },
+  {
     "commitSha": "5fffa51a0f2a937d15cd5bc6d3fc3a2f283b281f",
     "commitTimestamp": "2026-03-23T03:47:51Z",
     "commitMessage": "fix(core): use instance logger for restart output (#7362)",
