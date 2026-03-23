@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "3474d219286825b002e66b646a3e86a18e50cea8",
+    "commitTimestamp": "2026-03-23T09:04:05Z",
+    "commitMessage": "fix(core): isolate logger per rsbuild instance (#7369)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23430564591",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23430564591/job/68155599817"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23430564591/job/68155599834"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23430564591/job/68155599837"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23430564591/job/68155599844"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23430564591/job/68155599933"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23430564591/job/68155599936"
+      }
+    ]
+  },
+  {
     "commitSha": "45b1a3a7204ddd6bc34ded42a438dd0d2ce4603b",
     "commitTimestamp": "2026-03-23T07:48:44Z",
     "commitMessage": "docs: add customLogger config docs (#7367)",
