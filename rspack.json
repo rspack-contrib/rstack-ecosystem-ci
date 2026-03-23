@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "6092bb4c36d1be230d66eaf0f8f896368b9d102b",
+    "commitTimestamp": "2026-03-23T08:27:10Z",
+    "commitMessage": "fix: should enforce orphan:false for concatenated module (#10317)",
+    "author": {
+      "name": "Fy",
+      "email": "1114550440@qq.com",
+      "login": "JSerFeng"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/23428057891",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23428057891/job/68150601930"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23428057891/job/68150601931"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23428057891/job/68150601939"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23428057891/job/68150601942"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23428057891/job/68150601948"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23428057891/job/68150601953"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23428057891/job/68150601956"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23428057891/job/68150601965"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23428057891/job/68150601971"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23428057891/job/68150601990"
+      },
+      {
+        "name": "nuxt",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23428057891/job/68150602033"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23428057891/job/68150602081"
+      }
+    ]
+  },
+  {
     "commitSha": "fe84534942107d6abd6ab505dc118b8cdeb4734d",
     "commitTimestamp": "2026-03-23T06:54:59Z",
     "commitMessage": "feat(rstest): support unmockRequire methods (#13412)",
