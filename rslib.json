@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "d06645a9b5eef0d808dff492274f43d42e02c0af",
+    "commitTimestamp": "2026-03-23T11:21:10Z",
+    "commitMessage": "chore(deps): upgrade rspack canary (#1550)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23435561993",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23435561993/job/68172633403"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23435561993/job/68172633409"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23435561993/job/68172633412"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23435561993/job/68172633414"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23435561993/job/68172633420"
+      }
+    ]
+  },
+  {
     "commitSha": "a009a0f5661f8c323456a6ac60766ef01f3ddd02",
     "commitTimestamp": "2026-03-23T04:33:20Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1549)",
