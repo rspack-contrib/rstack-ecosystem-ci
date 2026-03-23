@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "d47fb0f4bc55b7bb2d521b027f57f8e78cbcc42a",
+    "commitTimestamp": "2026-03-23T07:00:30Z",
+    "commitMessage": "chore(deps): update rstack (#3243)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23425391515",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23425391515/job/68139029616"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23425391515/job/68139029618"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23425391515/job/68139029630"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23425391515/job/68139029633"
+      }
+    ]
+  },
+  {
     "commitSha": "7b6f2f8084a16369e6b02ff412751335ea7f7e5e",
     "commitTimestamp": "2026-03-23T03:45:14Z",
     "commitMessage": "chore(deps): update dependency memfs to ^4.57.1 (#3245)",
