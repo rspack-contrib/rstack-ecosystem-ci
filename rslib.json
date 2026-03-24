@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "a4b4b64a201f10db8eb0a4cea0448578a2138920",
+    "commitTimestamp": "2026-03-24T07:19:59Z",
+    "commitMessage": "fix(core): update runtime chunk config for multiple entries (#1551)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23477896097",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23477896097/job/68314502853"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23477896097/job/68314502866"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23477896097/job/68314502871"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23477896097/job/68314502881"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23477896097/job/68314502910"
+      }
+    ]
+  },
+  {
     "commitSha": "d06645a9b5eef0d808dff492274f43d42e02c0af",
     "commitTimestamp": "2026-03-23T11:21:10Z",
     "commitMessage": "chore(deps): upgrade rspack canary (#1550)",
