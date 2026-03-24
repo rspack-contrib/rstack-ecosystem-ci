@@ -55,6 +55,8 @@ jobs:
             os: ubuntu-latest
           - suite: rsdoctor
             os: ubuntu-latest
+          - suite: modernjs
+            os: ubuntu-latest
       fail-fast: false
     runs-on: ${{ matrix.os }}
     name: rslib (${{ matrix.suite }})
