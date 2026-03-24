@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "ab1d84893cf383314cf79c0a135547cb172ba5d5",
+    "commitTimestamp": "2026-03-24T09:42:56Z",
+    "commitMessage": "fix(core): use esm-aware node built-in externals (#1552)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23483433285",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23483433285/job/68332774420"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23483433285/job/68332774435"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23483433285/job/68332774446"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23483433285/job/68332774451"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23483433285/job/68332774456"
+      }
+    ]
+  },
+  {
     "commitSha": "a4b4b64a201f10db8eb0a4cea0448578a2138920",
     "commitTimestamp": "2026-03-24T07:19:59Z",
     "commitMessage": "fix(core): update runtime chunk config for multiple entries (#1551)",
