@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "7381b4622e201cad597bc95516019c76abc033e9",
+    "commitTimestamp": "2026-03-24T13:37:00Z",
+    "commitMessage": "fix(theme): disable `text-autospace` in `<code>`, `<kbd>`, and `<samp>` (#3254)",
+    "author": {
+      "name": "Tatsunori Uchino",
+      "email": "tats.u@live.jp",
+      "login": "tats-u"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23492340619",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23492340619/job/68363706319"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23492340619/job/68363706347"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23492340619/job/68363706352"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23492340619/job/68363706416"
+      }
+    ]
+  },
+  {
     "commitSha": "dced4f53ce6b1ca364f1e3f9f4a2f243c60a662d",
     "commitTimestamp": "2026-03-24T08:10:01Z",
     "commitMessage": "refactor(mdx): rename code block `toggle` attribute to `fold` and className `--code-wrap` -> `--wrap-code` (#3251)",
