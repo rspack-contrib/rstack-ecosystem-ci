@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4a6f3176bc9422e991ee6380dbbe412072f76246",
+    "commitTimestamp": "2026-03-24T03:11:32Z",
+    "commitMessage": "fix(core): respect custom console in debug override (#7373)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23471427608",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23471427608/job/68294857654"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23471427608/job/68294857659"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23471427608/job/68294857661"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23471427608/job/68294857664"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23471427608/job/68294857665"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23471427608/job/68294857732"
+      }
+    ]
+  },
+  {
     "commitSha": "e2f8c979b908ff8207f9157f4009f214888f3710",
     "commitTimestamp": "2026-03-24T02:18:26Z",
     "commitMessage": "fix(core): inherit default logger options for isolated instances (#7370)",
