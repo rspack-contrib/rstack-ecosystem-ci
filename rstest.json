@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e7ec36c7fc706fb57b40437a59e17ff370aaabea",
+    "commitTimestamp": "2026-03-24T11:37:08Z",
+    "commitMessage": "feat(core): add output.bundleDependencies config option (#1072)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23487457953",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23487457953/job/68346619013"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23487457953/job/68346619017"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23487457953/job/68346619031"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23487457953/job/68346619032"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23487457953/job/68346619038"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23487457953/job/68346619039"
+      }
+    ]
+  },
+  {
     "commitSha": "c93c1fe862044ce92de295f649c42a90155eda12",
     "commitTimestamp": "2026-03-24T11:15:57Z",
     "commitMessage": "perf(core): replace jest-diff and pretty-format with @vitest/utils (#1087)",
