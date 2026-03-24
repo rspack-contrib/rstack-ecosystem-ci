@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "df57e4fd3c0d83066dd616d009775a69dd772a57",
+    "commitTimestamp": "2026-03-24T08:37:16Z",
+    "commitMessage": "chore: update @rslint/core to 0.3.2 (#7375)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23480805472",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23480805472/job/68323854673"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23480805472/job/68323854678"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23480805472/job/68323854691"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23480805472/job/68323854695"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23480805472/job/68323854702"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23480805472/job/68323854706"
+      }
+    ]
+  },
+  {
     "commitSha": "4a6f3176bc9422e991ee6380dbbe412072f76246",
     "commitTimestamp": "2026-03-24T03:11:32Z",
     "commitMessage": "fix(core): respect custom console in debug override (#7373)",
