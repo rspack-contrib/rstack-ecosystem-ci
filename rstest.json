@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c2324e95a13aca548c8f785119e5fdd3f11c1599",
+    "commitTimestamp": "2026-03-24T06:01:40Z",
+    "commitMessage": "fix: always bundle requests when using inline loader (#1089)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23475542346",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23475542346/job/68307433640"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23475542346/job/68307433644"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23475542346/job/68307433645"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23475542346/job/68307433647"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23475542346/job/68307433658"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23475542346/job/68307433689"
+      }
+    ]
+  },
+  {
     "commitSha": "31ed6c606c2069548c987b4aabd37909b9c74eaa",
     "commitTimestamp": "2026-03-24T03:43:03Z",
     "commitMessage": "perf(core): split monolithic worker bundle into lazy-loaded chunks (#1085)",
