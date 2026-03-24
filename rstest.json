@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "31ed6c606c2069548c987b4aabd37909b9c74eaa",
+    "commitTimestamp": "2026-03-24T03:43:03Z",
+    "commitMessage": "perf(core): split monolithic worker bundle into lazy-loaded chunks (#1085)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23472571027",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23472571027/job/68298297705"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23472571027/job/68298297710"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23472571027/job/68298297711"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23472571027/job/68298297715"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23472571027/job/68298297725"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23472571027/job/68298297741"
+      }
+    ]
+  },
+  {
     "commitSha": "34a264f6075da1f96baa6519bfe49790e21c7fee",
     "commitTimestamp": "2026-03-23T02:57:15Z",
     "commitMessage": "fix(core): propagate color env to worker processes for correct ANSI output (#1081)",
