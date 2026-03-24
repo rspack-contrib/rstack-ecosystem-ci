@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "3e624c9399818d57c8f2e3db678d6df831523e01",
+    "commitTimestamp": "2026-03-24T10:31:37Z",
+    "commitMessage": "chore(lint): resolve no-unused-vars violations (#7378)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23484927521",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23484927521/job/68337918650"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23484927521/job/68337918658"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23484927521/job/68337918678"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23484927521/job/68337918683"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23484927521/job/68337918706"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23484927521/job/68337918710"
+      }
+    ]
+  },
+  {
     "commitSha": "b9534463c858f4313a977b173efe6b9c1075260d",
     "commitTimestamp": "2026-03-24T09:01:46Z",
     "commitMessage": "chore(skills): update pr-creator instructions (#7377)",
