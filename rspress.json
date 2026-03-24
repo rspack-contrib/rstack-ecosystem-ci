@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "e3495773d4181fc761d19f6f752fd65b67157f90",
+    "commitTimestamp": "2026-03-24T06:39:54Z",
+    "commitMessage": "fix(theme): replace @theme imports with @rspress/core/theme to fix type resolve (#3250)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23476766094",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23476766094/job/68311108084"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23476766094/job/68311108094"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23476766094/job/68311108100"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23476766094/job/68311108107"
+      }
+    ]
+  },
+  {
     "commitSha": "829828ec62cdcc226b19e49c8c86e0b87e3f167b",
     "commitTimestamp": "2026-03-24T04:01:40Z",
     "commitMessage": "feat(mdx): code block toggle ````tsx toggle`(#2968) (#3241)",
