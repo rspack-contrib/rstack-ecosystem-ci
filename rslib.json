@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "502f799929604476fb3345d0c85828f986b3fb30",
+    "commitTimestamp": "2026-03-24T12:49:26Z",
+    "commitMessage": "feat(deps): update typescript to v6 and peer ranges (#1553)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23490318177",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23490318177/job/68356507880"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23490318177/job/68356507898"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23490318177/job/68356507901"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23490318177/job/68356507910"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23490318177/job/68356507927"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23490318177/job/68356507961"
+      }
+    ]
+  },
+  {
     "commitSha": "ab1d84893cf383314cf79c0a135547cb172ba5d5",
     "commitTimestamp": "2026-03-24T09:42:56Z",
     "commitMessage": "fix(core): use esm-aware node built-in externals (#1552)",
