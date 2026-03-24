@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "0fbc2ffcc22836cca0e9e3b72cc58557c6d83aba",
+    "commitTimestamp": "2026-03-24T06:43:08Z",
+    "commitMessage": "feat(auto-nav-sidebar): support download links in nav (#2926)",
+    "author": {
+      "name": "JounQin",
+      "email": "admin@1stg.me",
+      "login": "JounQin"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23476878247",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23476878247/job/68311453078"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23476878247/job/68311453088"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23476878247/job/68311453098"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23476878247/job/68311453123"
+      }
+    ]
+  },
+  {
     "commitSha": "e3495773d4181fc761d19f6f752fd65b67157f90",
     "commitTimestamp": "2026-03-24T06:39:54Z",
     "commitMessage": "fix(theme): replace @theme imports with @rspress/core/theme to fix type resolve (#3250)",
