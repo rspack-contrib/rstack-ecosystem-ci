@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "706c83b5e7d6032a46c72f680011b85fb919ae2b",
+    "commitTimestamp": "2026-03-24T14:01:15Z",
+    "commitMessage": "release: v2.0.0-beta.10 (#7382)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23493475963",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23493475963/job/68367826657"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23493475963/job/68367826663"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23493475963/job/68367826664"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23493475963/job/68367826685"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23493475963/job/68367826688"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23493475963/job/68367826725"
+      }
+    ]
+  },
+  {
     "commitSha": "0f988a8ba349a152b74072c5838d5d05a5d18880",
     "commitTimestamp": "2026-03-24T13:42:47Z",
     "commitMessage": "feat(create-rsbuild): update typescript to v6 (#7374)",
