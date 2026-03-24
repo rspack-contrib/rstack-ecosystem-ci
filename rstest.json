@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c93c1fe862044ce92de295f649c42a90155eda12",
+    "commitTimestamp": "2026-03-24T11:15:57Z",
+    "commitMessage": "perf(core): replace jest-diff and pretty-format with @vitest/utils (#1087)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23486681417",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23486681417/job/68343959856"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23486681417/job/68343959864"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23486681417/job/68343959865"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23486681417/job/68343959871"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23486681417/job/68343959875"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23486681417/job/68343959920"
+      }
+    ]
+  },
+  {
     "commitSha": "83800a5fb26d8bf6c0e7985d188c064ee1980121",
     "commitTimestamp": "2026-03-24T10:59:34Z",
     "commitMessage": "ci: update rsdoctor-action to latest commit (#1094)",
