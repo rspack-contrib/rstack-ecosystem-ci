@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "03cac34bc2d64c58cf07c27fb16a225f38afc6f4",
+    "commitTimestamp": "2026-03-24T13:26:24Z",
+    "commitMessage": "chore(deps): upgrade rspack to 2.0.0-beta.8 (#7380)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23491854579",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23491854579/job/68361945170"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23491854579/job/68361945178"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23491854579/job/68361945210"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23491854579/job/68361945221"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23491854579/job/68361945451"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23491854579/job/68361945479"
+      }
+    ]
+  },
+  {
     "commitSha": "667b898b67cd6dc13f07e78d855b93700df4a24e",
     "commitTimestamp": "2026-03-24T13:13:52Z",
     "commitMessage": "test(e2e): add custom logger serve coverage (#7379)",
