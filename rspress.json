@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "dced4f53ce6b1ca364f1e3f9f4a2f243c60a662d",
+    "commitTimestamp": "2026-03-24T08:10:01Z",
+    "commitMessage": "refactor(mdx): rename code block `toggle` attribute to `fold` and className `--code-wrap` -> `--wrap-code` (#3251)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23479789419",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23479789419/job/68320487333"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23479789419/job/68320487381"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23479789419/job/68320487408"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23479789419/job/68320487410"
+      }
+    ]
+  },
+  {
     "commitSha": "0fbc2ffcc22836cca0e9e3b72cc58557c6d83aba",
     "commitTimestamp": "2026-03-24T06:43:08Z",
     "commitMessage": "feat(auto-nav-sidebar): support download links in nav (#2926)",
