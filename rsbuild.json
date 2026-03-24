@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "667b898b67cd6dc13f07e78d855b93700df4a24e",
+    "commitTimestamp": "2026-03-24T13:13:52Z",
+    "commitMessage": "test(e2e): add custom logger serve coverage (#7379)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23491305669",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23491305669/job/68359977389"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23491305669/job/68359977422"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23491305669/job/68359977433"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23491305669/job/68359977450"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23491305669/job/68359977456"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23491305669/job/68359977469"
+      }
+    ]
+  },
+  {
     "commitSha": "3e624c9399818d57c8f2e3db678d6df831523e01",
     "commitTimestamp": "2026-03-24T10:31:37Z",
     "commitMessage": "chore(lint): resolve no-unused-vars violations (#7378)",
