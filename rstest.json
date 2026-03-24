@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "83800a5fb26d8bf6c0e7985d188c064ee1980121",
+    "commitTimestamp": "2026-03-24T10:59:34Z",
+    "commitMessage": "ci: update rsdoctor-action to latest commit (#1094)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23486024362",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23486024362/job/68341699398"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23486024362/job/68341699404"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23486024362/job/68341699417"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23486024362/job/68341699424"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23486024362/job/68341699463"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23486024362/job/68341699472"
+      }
+    ]
+  },
+  {
     "commitSha": "3d5df72b89055fe7048be2a22191441de5c20cb7",
     "commitTimestamp": "2026-03-24T09:44:46Z",
     "commitMessage": "feat: add `output.distPath.root` configuration (#1083)",
