@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4f1d8d44708eff5b98a40620de29db27c7e655e9",
+    "commitTimestamp": "2026-03-25T10:43:34Z",
+    "commitMessage": "chore(deps): update pnpm to v10.33.0 (#7384)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23537003918",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23537003918/job/68514651288"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23537003918/job/68514651334"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23537003918/job/68514651347"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23537003918/job/68514651379"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23537003918/job/68514651404"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23537003918/job/68514651455"
+      }
+    ]
+  },
+  {
     "commitSha": "ca27264dcb5eb6b2338d20c69f9c760d1d31019f",
     "commitTimestamp": "2026-03-25T02:54:40Z",
     "commitMessage": "fix: standardize the naming of fallback source maps (#7343)",
