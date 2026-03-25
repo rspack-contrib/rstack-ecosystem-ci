@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b3eb0859efc9960634724c056599b57599df4915",
+    "commitTimestamp": "2026-03-25T14:46:48Z",
+    "commitMessage": "ci: merge lint into test workflow and gate e2e on both lint and ut (#1105)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23547179338",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23547179338/job/68550691412"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23547179338/job/68550691423"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23547179338/job/68550691424"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23547179338/job/68550691425"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23547179338/job/68550691452"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23547179338/job/68550691529"
+      }
+    ]
+  },
+  {
     "commitSha": "a2bc7b27f7bf2446d16590a51a0c84eb9418252f",
     "commitTimestamp": "2026-03-25T13:02:10Z",
     "commitMessage": "fix: enable full knip checks and clean up unused exports and dead code (#1102)",
