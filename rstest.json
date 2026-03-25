@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "1a63c1e2e97a568f65fef571dc6ff27900cd95ee",
+    "commitTimestamp": "2026-03-25T06:44:55Z",
+    "commitMessage": "ci: add knip for unused dependencies detection (#1095)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23530249378",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23530249378/job/68492277315"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23530249378/job/68492277318"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23530249378/job/68492277340"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23530249378/job/68492277349"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23530249378/job/68492277358"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23530249378/job/68492277384"
+      }
+    ]
+  },
+  {
     "commitSha": "66d0d531d3968996efc1053a3dc8f8340b1966b4",
     "commitTimestamp": "2026-03-25T06:15:09Z",
     "commitMessage": "feat: add unmockRequire / doUnmockRequire API (#1098)",
