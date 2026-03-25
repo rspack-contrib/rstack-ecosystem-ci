@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b7a369c151b592347782adbccb1a7ee942d57340",
+    "commitTimestamp": "2026-03-25T10:44:30Z",
+    "commitMessage": "fix(deps): broken lockfile (#1558)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23537052993",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23537052993/job/68514814451"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23537052993/job/68514814454"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23537052993/job/68514814459"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23537052993/job/68514814463"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23537052993/job/68514814470"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23537052993/job/68514814488"
+      }
+    ]
+  },
+  {
     "commitSha": "33a32551755f3d0869cfd139288ffb744d1d493a",
     "commitTimestamp": "2026-03-25T09:41:23Z",
     "commitMessage": "chore(deps): bump rslib to 0.20.1 (#1557)",
