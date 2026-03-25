@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a2bc7b27f7bf2446d16590a51a0c84eb9418252f",
+    "commitTimestamp": "2026-03-25T13:02:10Z",
+    "commitMessage": "fix: enable full knip checks and clean up unused exports and dead code (#1102)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23542381278",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23542381278/job/68533116559"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23542381278/job/68533116568"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23542381278/job/68533116572"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23542381278/job/68533116598"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23542381278/job/68533116627"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23542381278/job/68533117059"
+      }
+    ]
+  },
+  {
     "commitSha": "e98a9972179cb99f9421016987d86d5bf0714acc",
     "commitTimestamp": "2026-03-25T12:38:58Z",
     "commitMessage": "feat(browser): support output browser inspect config files when DEBUG is enabled (#1104)",
