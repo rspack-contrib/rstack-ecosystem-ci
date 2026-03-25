@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "45a6aa9cb78b53ee1a22d0a7f97cd82e1b301014",
+    "commitTimestamp": "2026-03-25T03:30:09Z",
+    "commitMessage": "perf: pre-filter test projects to avoid unnecessary builds (#1092)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23524109897",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23524109897/job/68473490780"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23524109897/job/68473490781"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23524109897/job/68473490784"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23524109897/job/68473490789"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23524109897/job/68473490801"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23524109897/job/68473490802"
+      }
+    ]
+  },
+  {
     "commitSha": "e7ec36c7fc706fb57b40437a59e17ff370aaabea",
     "commitTimestamp": "2026-03-24T11:37:08Z",
     "commitMessage": "feat(core): add output.bundleDependencies config option (#1072)",
