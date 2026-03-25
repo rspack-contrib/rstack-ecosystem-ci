@@ -46,7 +46,7 @@ export async function test(options: RunOptions) {
       'test:ut',
       async () => {
         cd('./tests');
-        await $`npx playwright install chromium webkit --with-deps`;
+        await $`pnpm exec playwright install chromium --with-deps`;
         await $`pnpm run test:rstest`;
         cd('..');
       },

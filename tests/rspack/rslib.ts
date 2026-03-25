@@ -8,7 +8,7 @@ export async function test(options: RunOptions) {
     branch: process.env.RSLIB ?? 'main',
     beforeTest: async () => {
       cd('./tests');
-      await $`pnpm playwright install --with-deps`;
+      await $`pnpm exec playwright install --with-deps`;
       cd('..');
     },
     test: ['test:ecosystem-ci'],

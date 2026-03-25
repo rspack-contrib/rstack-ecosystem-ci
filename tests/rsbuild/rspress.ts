@@ -7,7 +7,7 @@ export async function test(options: RunOptions) {
     repo: 'web-infra-dev/rspress',
     branch: process.env.RSPRESS_REF ?? 'main',
     beforeTest: async () => {
-      await $`pnpm playwright install --with-deps`;
+      await $`pnpm exec playwright install --with-deps`;
     },
     test: ['test'],
   });

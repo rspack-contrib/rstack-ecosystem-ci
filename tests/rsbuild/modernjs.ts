@@ -44,7 +44,7 @@ export async function test(options: RunOptions) {
     },
     beforeTest: async () => {
       cd('tests/e2e/builder');
-      await $`pnpm playwright install chromium`;
+      await $`pnpm exec playwright install chromium`;
       cd('../../../');
     },
     test: ['test:framework', 'test:builder'],
