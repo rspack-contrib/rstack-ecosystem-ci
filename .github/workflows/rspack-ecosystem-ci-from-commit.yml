@@ -26,7 +26,6 @@ on:
           - "-"
           - _selftest
           - modernjs
-          # - nx
           - rspress
           - rslib
           - rstest
@@ -34,7 +33,6 @@ on:
           - rsdoctor
           - examples
           - devserver
-          - nuxt
           - plugin
           - lynx-stack
       suiteRefType:
@@ -99,8 +97,6 @@ jobs:
             os: ubuntu-22.04
           - suite: _selftest
             os: ubuntu-22.04
-          # - suite: nx
-          #   os: ubuntu-22.04
           - suite: rsdoctor
             os: ubuntu-22.04
           - suite: rspress
@@ -114,8 +110,6 @@ jobs:
           - suite: examples
             os: ubuntu-22.04
           - suite: devserver
-            os: ubuntu-22.04
-          - suite: nuxt
             os: ubuntu-22.04
           - suite: plugin
             os: ubuntu-22.04

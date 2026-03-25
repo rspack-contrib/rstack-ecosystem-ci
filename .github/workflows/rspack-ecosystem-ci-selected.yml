@@ -36,7 +36,6 @@ on:
         options:
           - "-"
           - modernjs
-          # - nx
           - rspress
           - rsbuild
           - rslib
@@ -106,8 +105,6 @@ jobs:
         include:
           - suite: modernjs
             os: ubuntu-22.04
-          # - suite: nx
-          #   os: ubuntu-22.04
           - suite: rspress
             os: ubuntu-22.04
           - suite: rslib
@@ -121,8 +118,6 @@ jobs:
           - suite: examples
             os: ubuntu-22.04
           - suite: devserver
-            os: ubuntu-22.04
-          - suite: nuxt
             os: ubuntu-22.04
           - suite: plugin
             os: ubuntu-22.04
