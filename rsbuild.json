@@ -1,49 +1,49 @@
 [
   {
-    "commitSha": "4f1d8d44708eff5b98a40620de29db27c7e655e9",
-    "commitTimestamp": "2026-03-25T10:43:34Z",
-    "commitMessage": "chore(deps): update pnpm to v10.33.0 (#7384)",
+    "commitSha": "8c0d50e722033100c3589a2f3bf46909bbb1bde6",
+    "commitTimestamp": "2026-03-25T10:43:59Z",
+    "commitMessage": "chore: use default rslib build command (#7385)",
     "author": {
-      "name": "renovate[bot]",
-      "email": "29139614+renovate[bot]@users.noreply.github.com",
-      "login": "renovate[bot]"
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
     },
     "repository": {
       "fullName": "web-infra-dev/rsbuild",
       "name": "rsbuild"
     },
-    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23537003918",
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23537050175",
     "overallStatus": "failure",
     "suites": [
       {
-        "name": "examples",
-        "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23537003918/job/68514651288"
-      },
-      {
-        "name": "plugins",
-        "status": "failure",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23537003918/job/68514651334"
-      },
-      {
-        "name": "rstest",
-        "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23537003918/job/68514651347"
-      },
-      {
         "name": "rslib",
         "status": "failure",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23537003918/job/68514651379"
-      },
-      {
-        "name": "rspress",
-        "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23537003918/job/68514651404"
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23537050175/job/68514805060"
       },
       {
         "name": "modernjs",
         "status": "failure",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23537003918/job/68514651455"
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23537050175/job/68514805062"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23537050175/job/68514805088"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23537050175/job/68514805106"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23537050175/job/68514805110"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23537050175/job/68514805131"
       }
     ]
   },
