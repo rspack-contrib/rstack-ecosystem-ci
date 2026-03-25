@@ -17,7 +17,7 @@ export async function test(options: RunOptions) {
       },
     ],
     beforeTest: async () => {
-      await $`npx playwright install chromium webkit --with-deps`;
+      await $`pnpm exec playwright install chromium webkit --with-deps`;
     },
   });
 }
