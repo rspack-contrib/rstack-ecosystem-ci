@@ -1,5 +1,5 @@
 import type { RunOptions } from '../../types';
-import { $, runInRepo } from '../../utils';
+import { $, cd, runInRepo } from '../../utils';
 
 export async function test(options: RunOptions) {
   await runInRepo({
@@ -7,7 +7,15 @@ export async function test(options: RunOptions) {
     repo: 'web-infra-dev/rstest',
     branch: process.env.RSTEST ?? 'main',
     // ignore snapshot changes
-    test: ['test -u', 'e2e'],
+    test: [
+      'test -u',
+      'test:examples',
+      async () => {
+        cd('./e2e');
+        await $`pnpm run test`;
+        cd('..');
+      },
+    ],
     beforeTest: async () => {
       await $`npx playwright install chromium webkit --with-deps`;
     },
