@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "9e00577a3517f32923b0b24ecc1a5aafd6bee64d",
+    "commitTimestamp": "2026-03-25T07:37:20Z",
+    "commitMessage": "feat(plugin-preview): use customLogger with prefix for rsbuild instance (#3256)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23530421113",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23530421113/job/68492803283"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23530421113/job/68492803288"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23530421113/job/68492803311"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23530421113/job/68492803321"
+      }
+    ]
+  },
+  {
     "commitSha": "8091665bab9e34ce652d88ec548d80a2c630798d",
     "commitTimestamp": "2026-03-25T04:34:40Z",
     "commitMessage": "feat(plugin-rss): add final output transform hook for atom/rss/json (#3238)",
