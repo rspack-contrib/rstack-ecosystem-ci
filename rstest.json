@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e98a9972179cb99f9421016987d86d5bf0714acc",
+    "commitTimestamp": "2026-03-25T12:38:58Z",
+    "commitMessage": "feat(browser): support output browser inspect config files when DEBUG is enabled (#1104)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23541432336",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23541432336/job/68529796839"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23541432336/job/68529796840"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23541432336/job/68529796843"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23541432336/job/68529796854"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23541432336/job/68529796866"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23541432336/job/68529796869"
+      }
+    ]
+  },
+  {
     "commitSha": "df8ab2e4b142925f6f6f6db76dca76e2520d1917",
     "commitTimestamp": "2026-03-25T10:22:16Z",
     "commitMessage": "chore(lint): migrate rslint to flat config (#1101)",
