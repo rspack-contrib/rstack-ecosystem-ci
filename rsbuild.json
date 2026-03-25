@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ca27264dcb5eb6b2338d20c69f9c760d1d31019f",
+    "commitTimestamp": "2026-03-25T02:54:40Z",
+    "commitMessage": "fix: standardize the naming of fallback source maps (#7343)",
+    "author": {
+      "name": "Cong-Cong Pan",
+      "email": "dacongsama@live.com",
+      "login": "SyMind"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23522657811",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23522657811/job/68468992512"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23522657811/job/68468992514"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23522657811/job/68468992521"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23522657811/job/68468992527"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23522657811/job/68468992529"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23522657811/job/68468992533"
+      }
+    ]
+  },
+  {
     "commitSha": "a064ef1386b43893341cededdcf748d45e251335",
     "commitTimestamp": "2026-03-25T02:22:20Z",
     "commitMessage": "chore: update release skill and remove bumpp scripts (#7383)",
