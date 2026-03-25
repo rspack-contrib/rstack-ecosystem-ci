@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c2129707d497c262d076b736bb68207c7f52da8e",
+    "commitTimestamp": "2026-03-25T07:16:22Z",
+    "commitMessage": "chore(deps): update Rsbuild 2.0.0-beta.10 (#1554)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23530266541",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23530266541/job/68492328457"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23530266541/job/68492328505"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23530266541/job/68492328507"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23530266541/job/68492328510"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23530266541/job/68492328515"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23530266541/job/68492328516"
+      }
+    ]
+  },
+  {
     "commitSha": "502f799929604476fb3345d0c85828f986b3fb30",
     "commitTimestamp": "2026-03-24T12:49:26Z",
     "commitMessage": "feat(deps): update typescript to v6 and peer ranges (#1553)",
