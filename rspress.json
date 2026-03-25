@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "a9b8bd124ab23c0cf1a2558e3efc0af503189fef",
+    "commitTimestamp": "2026-03-25T03:14:34Z",
+    "commitMessage": "chore(deps): upgrade @rsbuild/core from 2.0.0-beta.9 to 2.0.0-beta.10 (#3255)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23523340167",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23523340167/job/68471189366"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23523340167/job/68471189376"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23523340167/job/68471189379"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23523340167/job/68471189381"
+      }
+    ]
+  },
+  {
     "commitSha": "7381b4622e201cad597bc95516019c76abc033e9",
     "commitTimestamp": "2026-03-24T13:37:00Z",
     "commitMessage": "fix(theme): disable `text-autospace` in `<code>`, `<kbd>`, and `<samp>` (#3254)",
