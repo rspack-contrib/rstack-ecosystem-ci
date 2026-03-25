@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "825e5601bc734f59f7dba7403f405ba05df6b70c",
+    "commitTimestamp": "2026-03-25T08:09:16Z",
+    "commitMessage": "Release v2.0.7 (#3257)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23531446258",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23531446258/job/68496014464"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23531446258/job/68496014472"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23531446258/job/68496014475"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23531446258/job/68496014498"
+      }
+    ]
+  },
+  {
     "commitSha": "9e00577a3517f32923b0b24ecc1a5aafd6bee64d",
     "commitTimestamp": "2026-03-25T07:37:20Z",
     "commitMessage": "feat(plugin-preview): use customLogger with prefix for rsbuild instance (#3256)",
