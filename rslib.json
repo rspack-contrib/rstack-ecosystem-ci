@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "575de768a1fa4dce13568fefb290c0803d32c5a8",
+    "commitTimestamp": "2026-03-25T09:38:00Z",
+    "commitMessage": "chore(lint): migrate rslint to flat config (#1556)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23535438777",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23535438777/job/68509337135"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23535438777/job/68509337146"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23535438777/job/68509337189"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23535438777/job/68509337190"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23535438777/job/68509337242"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23535438777/job/68509337246"
+      }
+    ]
+  },
+  {
     "commitSha": "b3fadd5736d1373fb93865cbd67f0e26ca4b61ea",
     "commitTimestamp": "2026-03-25T08:49:46Z",
     "commitMessage": "Release v0.20.1 (#1555)",
