@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "bf41fe588ad21264e6751ad1c3948abc98e222d3",
+    "commitTimestamp": "2026-03-26T05:55:36Z",
+    "commitMessage": "chore(ci): fix MODULE_TYPELESS_PACKAGE_JSON warnings (#1106)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23579816530",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23579816530/job/68660126508"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23579816530/job/68660126515"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23579816530/job/68660126525"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23579816530/job/68660126534"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23579816530/job/68660126540"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23579816530/job/68660126564"
+      }
+    ]
+  },
+  {
     "commitSha": "b3eb0859efc9960634724c056599b57599df4915",
     "commitTimestamp": "2026-03-25T14:46:48Z",
     "commitMessage": "ci: merge lint into test workflow and gate e2e on both lint and ut (#1105)",
