@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f3b9e39794348d7bed836c2a16978068197b4d6c",
+    "commitTimestamp": "2026-03-26T10:53:31Z",
+    "commitMessage": "release: 0.9.5 (#1111)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23590558235",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23590558235/job/68694427318"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23590558235/job/68694427335"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23590558235/job/68694427339"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23590558235/job/68694427349"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23590558235/job/68694427375"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23590558235/job/68694427388"
+      }
+    ]
+  },
+  {
     "commitSha": "722f687b90d991269909cedee234c036548eacd0",
     "commitTimestamp": "2026-03-26T09:04:00Z",
     "commitMessage": "perf(worker): lazy-load coverage provider to reduce worker startup overhead (#1110)",
