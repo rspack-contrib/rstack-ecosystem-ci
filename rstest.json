@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "414823d6f6308e06967e2340a3730b345713cee8",
+    "commitTimestamp": "2026-03-26T09:03:22Z",
+    "commitMessage": "fix(browser): keep lazyCompilation and hmr enabled (#1109)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23586041286",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23586041286/job/68679291842"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23586041286/job/68679291843"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23586041286/job/68679291845"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23586041286/job/68679291847"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23586041286/job/68679291857"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23586041286/job/68679291879"
+      }
+    ]
+  },
+  {
     "commitSha": "f0de5f85f0a94044880805adcf3546a87e21de6f",
     "commitTimestamp": "2026-03-26T07:10:09Z",
     "commitMessage": "fix(core): scope cli options to relevant commands (#1107)",
