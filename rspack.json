@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "239982daddf8099f1bd19ec83ebbc643ab6076d5",
+    "commitTimestamp": "2026-03-26T03:05:10Z",
+    "commitMessage": "refactor: remove `swc_node_comments` (#13470)",
+    "author": {
+      "name": "CPunisher",
+      "email": "1343316114@qq.com",
+      "login": "CPunisher"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/23575442721",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23575442721/job/68647410437"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23575442721/job/68647410451"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23575442721/job/68647410461"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23575442721/job/68647410463"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23575442721/job/68647410466"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23575442721/job/68647410469"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23575442721/job/68647410476"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23575442721/job/68647410494"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23575442721/job/68647410498"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23575442721/job/68647410501"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23575442721/job/68647410524"
+      }
+    ]
+  },
+  {
     "commitSha": "3f8a976f500c7e6c414cc650d590f2cf4c816998",
     "commitTimestamp": "2026-03-26T02:42:48Z",
     "commitMessage": "fix: use Symbol.for() for shared symbol identity in module bindings (#13457)",
