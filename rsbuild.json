@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c55f60515f832a57cf16f256edd5db0cfb2e3582",
+    "commitTimestamp": "2026-03-26T02:15:29Z",
+    "commitMessage": "fix(create-rsbuild): remove React 18 templates (#7387)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23574178750",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23574178750/job/68643000909"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23574178750/job/68643000915"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23574178750/job/68643000919"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23574178750/job/68643000922"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23574178750/job/68643000928"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23574178750/job/68643000934"
+      }
+    ]
+  },
+  {
     "commitSha": "8c0d50e722033100c3589a2f3bf46909bbb1bde6",
     "commitTimestamp": "2026-03-25T10:43:59Z",
     "commitMessage": "chore: use default rslib build command (#7385)",
