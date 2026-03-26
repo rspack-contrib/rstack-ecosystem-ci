@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "67767850e87deca6a920dbcd410e45de46f714b5",
+    "commitTimestamp": "2026-03-26T07:02:03Z",
+    "commitMessage": "feat: use rslib as the default build command (#1560)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23581805424",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23581805424/job/68666075049"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23581805424/job/68666075056"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23581805424/job/68666075064"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23581805424/job/68666075071"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23581805424/job/68666075083"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23581805424/job/68666075091"
+      }
+    ]
+  },
+  {
     "commitSha": "b7a369c151b592347782adbccb1a7ee942d57340",
     "commitTimestamp": "2026-03-25T10:44:30Z",
     "commitMessage": "fix(deps): broken lockfile (#1558)",
