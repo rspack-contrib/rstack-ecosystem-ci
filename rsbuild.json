@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c81ec72dfb6111f977ef81e78bbe789bea432c9d",
+    "commitTimestamp": "2026-03-27T09:40:17Z",
+    "commitMessage": "chore: remove E2E report artifacts from CI (#7396)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23640222067",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23640222067/job/68858811435"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23640222067/job/68858811444"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23640222067/job/68858811448"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23640222067/job/68858811468"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23640222067/job/68858811571"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23640222067/job/68858811671"
+      }
+    ]
+  },
+  {
     "commitSha": "e4e38108ece8bfd957c57d3e2d10af5325a44f0f",
     "commitTimestamp": "2026-03-27T03:18:38Z",
     "commitMessage": "feat(core): support decorators version 2023-11 (#7394)",
