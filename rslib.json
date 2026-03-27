@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "04f53e177b33a9b461661ba986392780ada290f1",
+    "commitTimestamp": "2026-03-27T09:30:58Z",
+    "commitMessage": "fix(dts): redirect dts files for prebundled paths (#1561)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23639938813",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23639938813/job/68857869452"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23639938813/job/68857869455"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23639938813/job/68857869459"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23639938813/job/68857869464"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23639938813/job/68857869484"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23639938813/job/68857869603"
+      }
+    ]
+  },
+  {
     "commitSha": "67767850e87deca6a920dbcd410e45de46f714b5",
     "commitTimestamp": "2026-03-26T07:02:03Z",
     "commitMessage": "feat: use rslib as the default build command (#1560)",
