@@ -49,9 +49,12 @@ runs:
       run: ls -lah ${{ inputs.path }}/target
     - name: Build Rspack
       shell: bash
+      env:
+        TARGET_CC: clang
       run: |
         cd ${{ inputs.path }}
         pnpm i --frozen-lockfile
+        pnpm run install-binding-dependencies
         cargo codegen
         pnpm run build:binding:release
     - uses: actions/upload-artifact@v4

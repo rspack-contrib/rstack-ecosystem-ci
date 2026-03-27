@@ -155,29 +155,29 @@ jobs:
       matrix:
         include:
           - suite: modernjs
-            os: ubuntu-22.04
+            os: ubuntu-latest
           - suite: _selftest
-            os: ubuntu-22.04
+            os: ubuntu-latest
           - suite: rspress
-            os: ubuntu-22.04
+            os: ubuntu-latest
           - suite: rsbuild
-            os: ubuntu-22.04
+            os: ubuntu-latest
           - suite: examples
-            os: ubuntu-22.04
+            os: ubuntu-latest
           - suite: rslib
-            os: ubuntu-22.04
+            os: ubuntu-latest
           - suite: rstest
-            os: ubuntu-22.04
+            os: ubuntu-latest
           - suite: rsdoctor
-            os: ubuntu-22.04
+            os: ubuntu-latest
           - suite: devserver
-            os: ubuntu-22.04
+            os: ubuntu-latest
           - suite: plugin
-            os: ubuntu-22.04
+            os: ubuntu-latest
           - suite: lynx-stack
-            os: ubuntu-22.04
+            os: ubuntu-latest
           - suite: rsbuild-rsc-plugin
-            os: ubuntu-22.04
+            os: ubuntu-latest
       fail-fast: false
     runs-on: ${{ matrix.os }}
     name: rspack (${{ matrix.suite }})
@@ -187,6 +187,7 @@ jobs:
       - name: Install
         run: pnpm install --frozen-lockfile --prefer-offline
       - name: Lint
+        if: matrix.suite == '_selftest'
         run: pnpm lint
       - name: Setup Node.js
         if: matrix.suite == 'lynx-stack' || matrix.suite == '_selftest'
@@ -198,7 +199,37 @@ jobs:
         uses: actions-rust-lang/setup-rust-toolchain@v1
       - name: Expose GitHub Runtime
         uses: crazy-max/ghaction-github-runtime@v3
-      - run: >-
+      # Verdaccio is required for rspack-stack testing.
+      # pnpm has a known bug (pnpm/pnpm#9270) where file: protocol overrides
+      # for packages with native optionalDependencies cause version mismatch
+      # or silent registry fallback. Publishing to a local registry avoids this.
+      - name: Setup Verdaccio
+        if: matrix.suite != '_selftest'
+        run: |
+          pnpm verdaccio --config verdaccio.yaml &
+          printf '\n//localhost:4873/:_authToken="this-is-a-fake-token"\n' >> ~/.npmrc
+          sleep 3
+      - name: Publish rspack packages to Verdaccio
+        if: matrix.suite != '_selftest'
+        working-directory: workspace/rspack
+        run: |
+          for pkg in $(pnpm -r --filter "@rspack/binding*..." --filter "@rspack/core..." --filter "@rspack/tracing..." --filter "@rspack/test-tools..." exec -- node -p "process.cwd()"); do
+            jq 'del(.publishConfig.provenance)' "$pkg/package.json" > "$pkg/package.json.tmp"
+            mv "$pkg/package.json.tmp" "$pkg/package.json"
+          done
+          pnpm -r --filter "@rspack/binding*..." --filter "@rspack/core..." --filter "@rspack/tracing..." --filter "@rspack/test-tools..." publish --no-git-checks --provenance=false --access public --registry=http://localhost:4873
+      - name: Run suite (with Verdaccio)
+        if: matrix.suite != '_selftest'
+        run: >-
+          NPM_CONFIG_REGISTRY=http://localhost:4873
+          pnpm tsx ecosystem-ci.ts
+          run-suites
+          --stack rspack
+          --release "$(node -p "require('./workspace/rspack/packages/rspack/package.json').version")"
+          ${{ matrix.suite }}
+      - name: Run suite (selftest)
+        if: matrix.suite == '_selftest'
+        run: >-
           pnpm tsx ecosystem-ci.ts
           run-suites
           --stack rspack

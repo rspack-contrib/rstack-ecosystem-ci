@@ -39,6 +39,7 @@ on:
           - devserver
           - plugin
           - lynx-stack
+          - rsbuild-rsc-plugin
       suiteRefType:
         description: "type of suite ref to use"
         required: true
@@ -72,7 +73,7 @@ jobs:
           ref: ${{ inputs.branchName }}
 
   execute-selected-suite:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     needs: prepare-binding
     if: "inputs.suite != '-'"
     steps:
@@ -81,13 +82,36 @@ jobs:
         with:
           repository: ${{ inputs.repo }}
           ref: ${{ inputs.branchName }}
+      - name: Setup Rust
+        if: inputs.suite == 'lynx-stack'
+        uses: actions-rust-lang/setup-rust-toolchain@v1
       - run: pnpm i --frozen-lockfile
       - name: Expose GitHub Runtime
         uses: crazy-max/ghaction-github-runtime@v3
-      - run: >-
+      # Verdaccio is required for rspack-stack testing.
+      # pnpm has a known bug (pnpm/pnpm#9270) where file: protocol overrides
+      # for packages with native optionalDependencies cause version mismatch
+      # or silent registry fallback. Publishing to a local registry avoids this.
+      - name: Setup Verdaccio
+        run: |
+          pnpm verdaccio --config verdaccio.yaml &
+          printf '\n//localhost:4873/:_authToken="this-is-a-fake-token"\n' >> ~/.npmrc
+          sleep 3
+      - name: Publish rspack packages to Verdaccio
+        working-directory: workspace/rspack
+        run: |
+          for pkg in $(pnpm -r --filter "@rspack/binding*..." --filter "@rspack/core..." --filter "@rspack/tracing..." --filter "@rspack/test-tools..." exec -- node -p "process.cwd()"); do
+            jq 'del(.publishConfig.provenance)' "$pkg/package.json" > "$pkg/package.json.tmp"
+            mv "$pkg/package.json.tmp" "$pkg/package.json"
+          done
+          pnpm -r --filter "@rspack/binding*..." --filter "@rspack/core..." --filter "@rspack/tracing..." --filter "@rspack/test-tools..." publish --no-git-checks --provenance=false --access public --registry=http://localhost:4873
+      - name: Run suite
+        run: >-
+          NPM_CONFIG_REGISTRY=http://localhost:4873
           pnpm tsx ecosystem-ci.ts
           run-suites
           --stack rspack
+          --release "$(node -p "require('./workspace/rspack/packages/rspack/package.json').version")"
           --suite-${{ inputs.suiteRefType }} ${{ inputs.suiteRef }}
           ${{ inputs.suite }}
 
@@ -98,25 +122,27 @@ jobs:
       matrix:
         include:
           - suite: modernjs
-            os: ubuntu-22.04
+            os: ubuntu-latest
           - suite: rspress
-            os: ubuntu-22.04
+            os: ubuntu-latest
           - suite: rslib
-            os: ubuntu-22.04
+            os: ubuntu-latest
           - suite: rstest
-            os: ubuntu-22.04
+            os: ubuntu-latest
           - suite: rsbuild
-            os: ubuntu-22.04
+            os: ubuntu-latest
           - suite: rsdoctor
-            os: ubuntu-22.04
+            os: ubuntu-latest
           - suite: examples
-            os: ubuntu-22.04
+            os: ubuntu-latest
           - suite: devserver
-            os: ubuntu-22.04
+            os: ubuntu-latest
           - suite: plugin
-            os: ubuntu-22.04
+            os: ubuntu-latest
           - suite: lynx-stack
-            os: ubuntu-22.04
+            os: ubuntu-latest
+          - suite: rsbuild-rsc-plugin
+            os: ubuntu-latest
       fail-fast: false
     runs-on: ${{ matrix.os }}
     name: execute-all (${{ matrix.suite }})
@@ -130,8 +156,24 @@ jobs:
       - run: pnpm i --frozen-lockfile
       - name: Expose GitHub Runtime
         uses: crazy-max/ghaction-github-runtime@v3
-      - run: >-
+      - name: Setup Verdaccio
+        run: |
+          pnpm verdaccio --config verdaccio.yaml &
+          printf '\n//localhost:4873/:_authToken="this-is-a-fake-token"\n' >> ~/.npmrc
+          sleep 3
+      - name: Publish rspack packages to Verdaccio
+        working-directory: workspace/rspack
+        run: |
+          for pkg in $(pnpm -r --filter "@rspack/binding*..." --filter "@rspack/core..." --filter "@rspack/tracing..." --filter "@rspack/test-tools..." exec -- node -p "process.cwd()"); do
+            jq 'del(.publishConfig.provenance)' "$pkg/package.json" > "$pkg/package.json.tmp"
+            mv "$pkg/package.json.tmp" "$pkg/package.json"
+          done
+          pnpm -r --filter "@rspack/binding*..." --filter "@rspack/core..." --filter "@rspack/tracing..." --filter "@rspack/test-tools..." publish --no-git-checks --provenance=false --access public --registry=http://localhost:4873
+      - name: Run suite
+        run: >-
+          NPM_CONFIG_REGISTRY=http://localhost:4873
           pnpm tsx ecosystem-ci.ts
           run-suites
           --stack rspack
+          --release "$(node -p "require('./workspace/rspack/packages/rspack/package.json').version")"
           ${{ matrix.suite }}
