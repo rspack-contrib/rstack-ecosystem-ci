@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "374d0177c52efa907883ff5eaf9c7d2c557fb78e",
+    "commitTimestamp": "2026-03-27T02:47:53Z",
+    "commitMessage": "fix(create-rsbuild): update React Compiler babel config (#7393)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23628814764",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23628814764/job/68823454794"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23628814764/job/68823454803"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23628814764/job/68823454808"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23628814764/job/68823454815"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23628814764/job/68823454818"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23628814764/job/68823454824"
+      }
+    ]
+  },
+  {
     "commitSha": "03230a36e7d7efd973bbf9b966f97a03ce5832d9",
     "commitTimestamp": "2026-03-26T02:24:41Z",
     "commitMessage": "fix(create-rsbuild): use rsbuild as default dev command (#7386)",
