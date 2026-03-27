@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e4e38108ece8bfd957c57d3e2d10af5325a44f0f",
+    "commitTimestamp": "2026-03-27T03:18:38Z",
+    "commitMessage": "feat(core): support decorators version 2023-11 (#7394)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23629549504",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23629549504/job/68825711337"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23629549504/job/68825711346"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23629549504/job/68825711358"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23629549504/job/68825711365"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23629549504/job/68825711370"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23629549504/job/68825711410"
+      }
+    ]
+  },
+  {
     "commitSha": "374d0177c52efa907883ff5eaf9c7d2c557fb78e",
     "commitTimestamp": "2026-03-27T02:47:53Z",
     "commitMessage": "fix(create-rsbuild): update React Compiler babel config (#7393)",
