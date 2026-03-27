@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "6ecc18f784f9e8bb6946acc3a84272b5ec2dbcbf",
+    "commitTimestamp": "2026-03-27T13:55:10Z",
+    "commitMessage": "feat(deps): update @rspack/core to 2.0.0-beta.9 (#7397)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23649655731",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23649655731/job/68890791543"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23649655731/job/68890791544"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23649655731/job/68890791699"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23649655731/job/68890792033"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23649655731/job/68890792170"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23649655731/job/68890792203"
+      }
+    ]
+  },
+  {
     "commitSha": "c81ec72dfb6111f977ef81e78bbe789bea432c9d",
     "commitTimestamp": "2026-03-27T09:40:17Z",
     "commitMessage": "chore: remove E2E report artifacts from CI (#7396)",
