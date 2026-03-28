@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "16e9e41287f43ec2375f5f104dae7ee9f898fb8f",
+    "commitTimestamp": "2026-03-28T00:59:26Z",
+    "commitMessage": "chore(deps): update @rslint/core to v0.3.3 (#7398)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23673856065",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23673856065/job/68972951059"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23673856065/job/68972951062"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23673856065/job/68972951063"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23673856065/job/68972951067"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23673856065/job/68972951078"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23673856065/job/68972951087"
+      }
+    ]
+  },
+  {
     "commitSha": "6ecc18f784f9e8bb6946acc3a84272b5ec2dbcbf",
     "commitTimestamp": "2026-03-27T13:55:10Z",
     "commitMessage": "feat(deps): update @rspack/core to 2.0.0-beta.9 (#7397)",
