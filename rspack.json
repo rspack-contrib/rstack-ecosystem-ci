@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "155a73e10fd66856dbc63078e70b24b03356c9eb",
+    "commitTimestamp": "2026-03-29T02:06:17Z",
+    "commitMessage": "fix(watcher): rename typo `recursiron_directories` to `recurse_parent_directories` (#13510)",
+    "author": {
+      "name": "Lee Jaeha / Adam",
+      "email": "wogkdkrm112@gmail.com",
+      "login": "jaehafe"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/23699195618",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23699195618/job/69039995194"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23699195618/job/69039995197"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23699195618/job/69039995198"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23699195618/job/69039995199"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23699195618/job/69039995200"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23699195618/job/69039995201"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23699195618/job/69039995203"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23699195618/job/69039995204"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23699195618/job/69039995208"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23699195618/job/69039995209"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23699195618/job/69039995213"
+      }
+    ]
+  },
+  {
     "commitSha": "9989ea9cc0cb7bd0ea936f288f7c7ef4e384095c",
     "commitTimestamp": "2026-03-29T01:48:53Z",
     "commitMessage": "chore(ci): move renovate schedule to saturday (#13512)",
