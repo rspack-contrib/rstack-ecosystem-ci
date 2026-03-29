@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ee5dea1b662c80f93bd2d72045cf350da1a29c07",
+    "commitTimestamp": "2026-03-29T02:25:05Z",
+    "commitMessage": "test: restructure type tests into separate resolution modes (#7333)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23699496041",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23699496041/job/69040525555"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23699496041/job/69040525561"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23699496041/job/69040525562"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23699496041/job/69040525563"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23699496041/job/69040525569"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23699496041/job/69040525576"
+      }
+    ]
+  },
+  {
     "commitSha": "337456d1fd4280e9e0422f5a2e43b8df159451ff",
     "commitTimestamp": "2026-03-29T01:51:18Z",
     "commitMessage": "chore(deps): update dependency svelte to ^5.55.0 (#7400)",
