@@ -48,6 +48,54 @@
     ]
   },
   {
+    "commitSha": "5388766e804effbe61bc5dd273935ed130b0ba67",
+    "commitTimestamp": "2026-03-29T01:51:04Z",
+    "commitMessage": "chore(deps): update module federation to v2.3.0 (#7401)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23698965630",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23698965630/job/69039143497"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23698965630/job/69039143500"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23698965630/job/69039143502"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23698965630/job/69039143504"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23698965630/job/69039143506"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23698965630/job/69039143507"
+      }
+    ]
+  },
+  {
     "commitSha": "16e9e41287f43ec2375f5f104dae7ee9f898fb8f",
     "commitTimestamp": "2026-03-28T00:59:26Z",
     "commitMessage": "chore(deps): update @rslint/core to v0.3.3 (#7398)",
