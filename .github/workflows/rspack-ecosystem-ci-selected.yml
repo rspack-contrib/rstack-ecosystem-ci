@@ -81,6 +81,7 @@ jobs:
   execute-selected-suite:
     needs: prepare-binding
     runs-on: ubuntu-latest
+    name: execute-all (${{ inputs.suite }})
     if: "inputs.suite != '-'"
     steps:
       - uses: actions/checkout@v4
