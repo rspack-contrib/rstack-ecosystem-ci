@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "3948de7baebedf195fd1b308e9f5d2065d363240",
+    "commitTimestamp": "2026-03-30T14:00:28Z",
+    "commitMessage": "chore(deps): update dependency rsbuild-plugin-arethetypeswrong to v0.3.1 (#7404)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23748743471",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23748743471/job/69184479048"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23748743471/job/69184479066"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23748743471/job/69184479084"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23748743471/job/69184479086"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23748743471/job/69184479102"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23748743471/job/69184479145"
+      }
+    ]
+  },
+  {
     "commitSha": "ba442d2d0794b6c8661e16ff80a3e6b5b4443d30",
     "commitTimestamp": "2026-03-30T07:51:01Z",
     "commitMessage": "refactor(core): tighten runner module types (#7408)",
