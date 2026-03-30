@@ -23,8 +23,12 @@ inputs:
     description: "Job name prefix to match when summarizing downstream jobs"
     required: false
     default: "execute-all "
+  pr-number:
+    description: "Explicit PR number to comment on. When set, skips branch-based PR lookup."
+    required: false
+    default: ""
   branch:
-    description: "Branch name to match against open pull requests when locating the PR number"
+    description: "Branch name to match against open pull requests when locating the PR number. Used only when pr-number is not set."
     required: false
     default: ""
 
@@ -56,6 +60,22 @@ runs:
       name: Get PR Number
       with:
         script: |
+          const explicitPr = '${{ inputs.pr-number }}';
+          if (explicitPr) {
+            const num = Number(explicitPr);
+            const { data: pr } = await github.rest.pulls.get({
+              owner: '${{ inputs.ecosystem-owner }}',
+              repo: '${{ inputs.ecosystem-repo }}',
+              pull_number: num,
+            });
+            console.log(`Using explicit PR #${num}: ${pr.html_url}`);
+            return {
+              num,
+              branchName: pr.head.ref,
+              repo: pr.head.repo.full_name
+            };
+          }
+
           const { data: prs } = await github.rest.pulls.list({
             owner: '${{ inputs.ecosystem-owner }}',
             repo: '${{ inputs.ecosystem-repo }}',
