@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "3d669be9ef466ecb536016a8e6f103f1337cc85e",
+    "commitTimestamp": "2026-03-30T07:29:54Z",
+    "commitMessage": "fix(core): normalize non-object exports in module runner (#7409)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23733125165",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23733125165/job/69131215842"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23733125165/job/69131215845"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23733125165/job/69131215871"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23733125165/job/69131215895"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23733125165/job/69131215918"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23733125165/job/69131215927"
+      }
+    ]
+  },
+  {
     "commitSha": "a1f46f1ce6e08401107bda3312350fb8a04749db",
     "commitTimestamp": "2026-03-30T02:19:12Z",
     "commitMessage": "release: v2.0.0-beta.11 (#7405)",
