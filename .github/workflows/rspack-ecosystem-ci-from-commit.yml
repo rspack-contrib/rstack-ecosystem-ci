@@ -103,11 +103,10 @@ jobs:
         if: inputs.suite != '_selftest'
         working-directory: workspace/rspack
         run: |
-          for pkg in $(pnpm -r --filter "@rspack/binding*..." --filter "@rspack/core..." --filter "@rspack/tracing..." --filter "@rspack/test-tools..." exec -- node -p "process.cwd()"); do
-            jq 'del(.publishConfig.provenance)' "$pkg/package.json" > "$pkg/package.json.tmp"
-            mv "$pkg/package.json.tmp" "$pkg/package.json"
-          done
-          pnpm -r --filter "@rspack/binding*..." --filter "@rspack/core..." --filter "@rspack/tracing..." --filter "@rspack/test-tools..." publish --no-git-checks --provenance=false --access public --registry=http://localhost:4873
+          pnpm -r --filter "@rspack/binding*..." --filter "@rspack/core..." --filter "@rspack/tracing..." --filter "@rspack/test-tools..." \
+            exec sh -c 'jq "del(.publishConfig.provenance)" package.json > package.json.tmp && mv package.json.tmp package.json'
+          pnpm -r --filter "@rspack/binding*..." --filter "@rspack/core..." --filter "@rspack/tracing..." --filter "@rspack/test-tools..." \
+            publish --no-git-checks --provenance=false --access public --registry=http://localhost:4873
       - name: Run suite (with Verdaccio)
         if: inputs.suite != '_selftest'
         run: >-
@@ -180,11 +179,10 @@ jobs:
         if: matrix.suite != '_selftest'
         working-directory: workspace/rspack
         run: |
-          for pkg in $(pnpm -r --filter "@rspack/binding*..." --filter "@rspack/core..." --filter "@rspack/tracing..." --filter "@rspack/test-tools..." exec -- node -p "process.cwd()"); do
-            jq 'del(.publishConfig.provenance)' "$pkg/package.json" > "$pkg/package.json.tmp"
-            mv "$pkg/package.json.tmp" "$pkg/package.json"
-          done
-          pnpm -r --filter "@rspack/binding*..." --filter "@rspack/core..." --filter "@rspack/tracing..." --filter "@rspack/test-tools..." publish --no-git-checks --provenance=false --access public --registry=http://localhost:4873
+          pnpm -r --filter "@rspack/binding*..." --filter "@rspack/core..." --filter "@rspack/tracing..." --filter "@rspack/test-tools..." \
+            exec sh -c 'jq "del(.publishConfig.provenance)" package.json > package.json.tmp && mv package.json.tmp package.json'
+          pnpm -r --filter "@rspack/binding*..." --filter "@rspack/core..." --filter "@rspack/tracing..." --filter "@rspack/test-tools..." \
+            publish --no-git-checks --provenance=false --access public --registry=http://localhost:4873
       - name: Run suite (with Verdaccio)
         if: matrix.suite != '_selftest'
         run: >-
