@@ -2,8 +2,8 @@ name: cloudflare-pages-deploy
 
 on:
   schedule:
-    # Twice daily: 01:00 UTC (09:00 Beijing) and 13:00 UTC (21:00 Beijing)
-    - cron: '0 1,13 * * *'
+    # Hourly from 09:00 to 02:00+1 Beijing (01:00–18:00 UTC)
+    - cron: '0 1-18 * * *'
   workflow_dispatch:
 
 concurrency:

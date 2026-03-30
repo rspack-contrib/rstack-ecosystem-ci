@@ -323,8 +323,8 @@ interface UpdateSchedule {
   countdownMinutes: number | null;
 }
 
-/** Schedule times in UTC hours: 01:00 and 13:00 UTC (09:00 and 21:00 Beijing) */
-const SCHEDULE_HOURS_UTC = [1, 13] as const;
+/** Schedule times in UTC hours: 01:00–18:00 (09:00–02:00+1 Beijing, hourly) */
+const SCHEDULE_HOURS_UTC = Array.from({ length: 18 }, (_, i) => i + 1);
 
 function buildUpdateSchedule(referenceTime: Date): UpdateSchedule {
   const nextUpdate = getNextScheduledTime(referenceTime);
@@ -499,7 +499,7 @@ function UpdateScheduleCard({
           <div>
             <p className="text-sm font-medium text-foreground">Next refresh</p>
             <p className="text-[11px] uppercase tracking-[0.25em] text-muted-foreground/55">
-              12h cron
+              1h cron
             </p>
           </div>
           <p className="text-right text-sm text-foreground">
