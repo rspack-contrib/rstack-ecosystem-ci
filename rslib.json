@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d824f086e9a201d4d05ca0c5573847c54a1fc057",
+    "commitTimestamp": "2026-03-30T05:40:08Z",
+    "commitMessage": "chore(deps): upgrade Rsbuild 2.0.0-beta.11 and update decorators tests (#1564)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23729738774",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23729738774/job/69120772487"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23729738774/job/69120772493"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23729738774/job/69120772502"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23729738774/job/69120772506"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23729738774/job/69120772516"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23729738774/job/69120772521"
+      }
+    ]
+  },
+  {
     "commitSha": "04f53e177b33a9b461661ba986392780ada290f1",
     "commitTimestamp": "2026-03-27T09:30:58Z",
     "commitMessage": "fix(dts): redirect dts files for prebundled paths (#1561)",
