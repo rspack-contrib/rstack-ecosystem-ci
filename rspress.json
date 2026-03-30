@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "b5400999237690701eeb854894f09e9d01115002",
+    "commitTimestamp": "2026-03-30T06:54:36Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#3265)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23732001303",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23732001303/job/69127671451"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23732001303/job/69127671454"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23732001303/job/69127671455"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23732001303/job/69127671474"
+      }
+    ]
+  },
+  {
     "commitSha": "33a13e041e28b3a0c210cf49d24a9b0e81b18f63",
     "commitTimestamp": "2026-03-27T09:43:12Z",
     "commitMessage": "chore(e2e): add \"type\": \"module\" to all e2e fixture package.json files (#3258)",
