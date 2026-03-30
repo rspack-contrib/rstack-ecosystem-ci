@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "fac3b06b0e61e4db0a17ef11d32f852b63724f92",
+    "commitTimestamp": "2026-03-30T08:42:47Z",
+    "commitMessage": "chore(deps): update vulnerable dependencies (#1566)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23735879942",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23735879942/job/69140290341"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23735879942/job/69140290342"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23735879942/job/69140290350"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23735879942/job/69140290399"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23735879942/job/69140290421"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23735879942/job/69140290431"
+      }
+    ]
+  },
+  {
     "commitSha": "b0abd9f265124c7ed31358664f5816c677cd5b53",
     "commitTimestamp": "2026-03-30T07:48:46Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1563)",
