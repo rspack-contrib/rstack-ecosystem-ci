@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "74d568c384f7b9ee55bb73ed4eb73d2e5d6df83b",
+    "commitTimestamp": "2026-03-31T09:31:51Z",
+    "commitMessage": "chore(infra): add `pnpm-plugin-skills` and `rspress-custom-theme` skill (#3269)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23791093166",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23791093166/job/69326536257"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23791093166/job/69326536266"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23791093166/job/69326536309"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23791093166/job/69326536468"
+      }
+    ]
+  },
+  {
     "commitSha": "8df3d5e04e669072902790ae2dd20db2c0de2882",
     "commitTimestamp": "2026-03-31T07:31:58Z",
     "commitMessage": "feat(create-rspress): add custom theme scaffold option (#3268)",
