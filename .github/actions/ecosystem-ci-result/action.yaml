@@ -79,6 +79,7 @@ runs:
 
           const suites = jobs
             .filter((job) => job.name?.startsWith(jobPrefix))
+            .filter((job) => job.conclusion !== 'skipped' && job.conclusion !== null)
             .map((job) => {
               let suiteName = job.name.substring(jobPrefix.length);
               if (suiteName.startsWith('(') && suiteName.endsWith(')')) {

@@ -80,13 +80,15 @@ runs:
       uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
       if: steps.eco_ci.outcome == 'failure'
       name: Create Commit Comment
+      env:
+        SUMMARY: ${{ steps.eco-ci-result.outputs.summary }}
       with:
         script: |
           await github.rest.repos.createCommitComment({
             commit_sha: context.sha,
             owner: '${{ inputs.ecosystem-owner }}',
             repo: '${{ inputs.ecosystem-repo }}',
-            body: `${{ steps.eco-ci-result.outputs.summary }}`
+            body: process.env.SUMMARY
           })
 
     - name: Checkout ecosystem-ci repository

@@ -18,3 +18,6 @@ Commits follow short, imperative subjects (≤72 chars), elaborating in the body
 ## Environment & Tooling Notes
 The runner exports `ECOSYSTEM_CI`, `TURBO_FORCE`, and memory-safe `NODE_OPTIONS`; avoid overriding them unless a suite explicitly requires it. Keep `workspace/` untracked, and never commit runtime artifacts. Remember that network-dependent steps may need explicit approval in restricted environments.
 `verdaccio.yaml` lives at repo root for rspack flows that publish locally; it writes under `workspace/`.
+
+## Cross-Stack Isomorphism
+All stacks (rsbuild, rspack, rslib, rstest, rsdoctor, rspress) must follow the same structural patterns. When fixing a bug or adding a feature to one stack's workflows or shared actions, always check whether the same issue or gap exists in the other stacks and apply the fix uniformly. Avoid stack-specific workarounds that diverge from the common pattern — if a change cannot be made isomorphic, document the reason explicitly. Shared composite actions (`ecosystem_ci_dispatch`, `ecosystem_ci_per_commit`, `ecosystem-ci-result`) and workflow conventions (job naming, Verdaccio setup, suite execution) are designed to be stack-agnostic; keep them that way.

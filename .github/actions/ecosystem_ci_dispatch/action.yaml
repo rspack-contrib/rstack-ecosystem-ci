@@ -151,6 +151,6 @@ runs:
           await github.rest.issues.updateComment({
             owner: '${{ inputs.ecosystem-owner }}',
             repo: '${{ inputs.ecosystem-repo }}',
-            comment_id: ${{ steps.create-comment.outputs.result }},
-            body: `${{ steps.eco-ci-result.outputs.summary }}`
+            comment_id: process.env.COMMENT_ID,
+            body: process.env.SUMMARY
           })
