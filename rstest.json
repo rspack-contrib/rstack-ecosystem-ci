@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "54df96b8349db266c33e4557e9edf477357b58ba",
+    "commitTimestamp": "2026-03-31T11:59:06Z",
+    "commitMessage": "fix(browser): resolve actual port when devServer.listen() returns 0 (#1123)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23796131219",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23796131219/job/69343756759"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23796131219/job/69343756761"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23796131219/job/69343756766"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23796131219/job/69343756773"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23796131219/job/69343756789"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23796131219/job/69343756793"
+      }
+    ]
+  },
+  {
     "commitSha": "d59999ae72a542c97e04b1713bbe8e0ef3729e16",
     "commitTimestamp": "2026-03-30T06:50:38Z",
     "commitMessage": "chore(deps): bump rsbuild 2.0.0-beta.11 (#1116)",
