@@ -48,6 +48,54 @@
     ]
   },
   {
+    "commitSha": "4995faf68d048ff89b0374d1fd7ed80897430bf1",
+    "commitTimestamp": "2026-03-31T08:26:12Z",
+    "commitMessage": "feat(deps): update @rspack/core to 2.0.0-rc.0 (#7413)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23787849035",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23787849035/job/69315424080"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23787849035/job/69315424093"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23787849035/job/69315424107"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23787849035/job/69315424109"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23787849035/job/69315424122"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23787849035/job/69315424194"
+      }
+    ]
+  },
+  {
     "commitSha": "985c0eebcdce4c51036f7d7b6bc6140f3597db9b",
     "commitTimestamp": "2026-03-31T04:41:17Z",
     "commitMessage": "fix(source-map): correct sources in CSS source map (#7412)",
