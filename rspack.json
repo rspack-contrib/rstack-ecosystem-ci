@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "2ec536ba39d3d208b77e5678d323419bb005f84b",
+    "commitTimestamp": "2026-03-31T14:53:13Z",
+    "commitMessage": "fix(cli): surface fatal errors and unhandled rejections on process exit (#13506)",
+    "author": {
+      "name": "Brian Silah",
+      "email": "71752651+briansilah@users.noreply.github.com",
+      "login": "briansilah"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/23803863158",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23803863158/job/69372754472"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23803863158/job/69372754489"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23803863158/job/69372754490"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23803863158/job/69372754492"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23803863158/job/69372754496"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23803863158/job/69372754506"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23803863158/job/69372754534"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23803863158/job/69372754544"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23803863158/job/69372754563"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23803863158/job/69372754708"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23803863158/job/69372754860"
+      }
+    ]
+  },
+  {
     "commitSha": "1a49cbd1a3d0380fabce3c8a2954cc4c371308ea",
     "commitTimestamp": "2026-03-31T14:30:29Z",
     "commitMessage": "chore(deps): update dependency @rslint/core to v0.3.4 (#13561)",
