@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "809e7a8cd53ed57f52f3ddd31372ba94455b3ace",
+    "commitTimestamp": "2026-03-31T02:22:01Z",
+    "commitMessage": "chore(config): switch tsconfig-node16 to nodenext (#7411)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23777416332",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23777416332/job/69282255661"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23777416332/job/69282255670"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23777416332/job/69282255673"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23777416332/job/69282255676"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23777416332/job/69282255679"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23777416332/job/69282255693"
+      }
+    ]
+  },
+  {
     "commitSha": "3948de7baebedf195fd1b308e9f5d2065d363240",
     "commitTimestamp": "2026-03-30T14:00:28Z",
     "commitMessage": "chore(deps): update dependency rsbuild-plugin-arethetypeswrong to v0.3.1 (#7404)",
