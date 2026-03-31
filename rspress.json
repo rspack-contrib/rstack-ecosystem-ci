@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "6e0755c56411d01f8fdbf5cc4776e4cdc09f3319",
+    "commitTimestamp": "2026-03-31T09:49:32Z",
+    "commitMessage": "fix(core): avoid hanging ssg build when public assets are missing (#3270)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23791671931",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23791671931/job/69328527596"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23791671931/job/69328527625"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23791671931/job/69328527683"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23791671931/job/69328527740"
+      }
+    ]
+  },
+  {
     "commitSha": "74d568c384f7b9ee55bb73ed4eb73d2e5d6df83b",
     "commitTimestamp": "2026-03-31T09:31:51Z",
     "commitMessage": "chore(infra): add `pnpm-plugin-skills` and `rspress-custom-theme` skill (#3269)",
