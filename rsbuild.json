@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "985c0eebcdce4c51036f7d7b6bc6140f3597db9b",
+    "commitTimestamp": "2026-03-31T04:41:17Z",
+    "commitMessage": "fix(source-map): correct sources in CSS source map (#7412)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23780812873",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23780812873/job/69292763975"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23780812873/job/69292763978"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23780812873/job/69292763989"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23780812873/job/69292763990"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23780812873/job/69292763995"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23780812873/job/69292764004"
+      }
+    ]
+  },
+  {
     "commitSha": "809e7a8cd53ed57f52f3ddd31372ba94455b3ace",
     "commitTimestamp": "2026-03-31T02:22:01Z",
     "commitMessage": "chore(config): switch tsconfig-node16 to nodenext (#7411)",
