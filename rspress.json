@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "9129469c7098516fce4843f5884815aea8af9c18",
+    "commitTimestamp": "2026-03-31T11:30:15Z",
+    "commitMessage": "Release v2.0.8 (#3271)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23795036996",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23795036996/job/69340018603"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23795036996/job/69340018617"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23795036996/job/69340018625"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23795036996/job/69340018667"
+      }
+    ]
+  },
+  {
     "commitSha": "6e0755c56411d01f8fdbf5cc4776e4cdc09f3319",
     "commitTimestamp": "2026-03-31T09:49:32Z",
     "commitMessage": "fix(core): avoid hanging ssg build when public assets are missing (#3270)",
