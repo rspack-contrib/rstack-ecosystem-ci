@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "fb06ab0f953bee1a755c9bd518fe68bc1313ff78",
+    "commitTimestamp": "2026-04-01T06:01:07Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#1112)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23834420806",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23834420806/job/69475010919"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23834420806/job/69475010923"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23834420806/job/69475010926"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23834420806/job/69475010930"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23834420806/job/69475010938"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23834420806/job/69475010952"
+      }
+    ]
+  },
+  {
     "commitSha": "54df96b8349db266c33e4557e9edf477357b58ba",
     "commitTimestamp": "2026-03-31T11:59:06Z",
     "commitMessage": "fix(browser): resolve actual port when devServer.listen() returns 0 (#1123)",
