@@ -224,6 +224,7 @@ jobs:
           run-suites
           --stack rspack
           --release "$(node -p "require('./workspace/rspack/packages/rspack/package.json').version")"
+          --suite-${{ inputs.suiteRefType }} ${{ inputs.suiteRef }}
           ${{ matrix.suite }}
       - name: Run suite (selftest)
         if: matrix.suite == '_selftest'
@@ -231,4 +232,5 @@ jobs:
           pnpm tsx ecosystem-ci.ts
           run-suites
           --stack rspack
+          --suite-${{ inputs.suiteRefType }} ${{ inputs.suiteRef }}
           ${{ matrix.suite }}

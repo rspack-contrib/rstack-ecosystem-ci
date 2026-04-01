@@ -75,6 +75,7 @@ jobs:
   execute-selected-suite:
     runs-on: ubuntu-latest
     needs: prepare-binding
+    name: execute-all (${{ inputs.suite }})
     if: "inputs.suite != '-'"
     steps:
       - uses: actions/checkout@v4
@@ -174,4 +175,5 @@ jobs:
           run-suites
           --stack rspack
           --release "$(node -p "require('./workspace/rspack/packages/rspack/package.json').version")"
+          --suite-${{ inputs.suiteRefType }} ${{ inputs.suiteRef }}
           ${{ matrix.suite }}
