@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4f69ad15dc8259b8c14c4c91993185149b493750",
+    "commitTimestamp": "2026-04-01T08:42:55Z",
+    "commitMessage": "chore(deps): update rstackjs/rstack-ecosystem-ci action to v0.3.0 (#7419)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23840042516",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23840042516/job/69493079188"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23840042516/job/69493079191"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23840042516/job/69493079192"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23840042516/job/69493079204"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23840042516/job/69493079219"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23840042516/job/69493079242"
+      }
+    ]
+  },
+  {
     "commitSha": "d21e9832d4401e7f394da08930dc460b778d1b98",
     "commitTimestamp": "2026-04-01T08:42:30Z",
     "commitMessage": "chore(deps): update all patch dependencies (#7418)",
