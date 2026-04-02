@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "e7230745ae102de9fce7eaf3d25cf7e93c293abf",
+    "commitTimestamp": "2026-04-02T02:58:36Z",
+    "commitMessage": "refactor(watcher): clean up stale entries from watch_patterns after unwatch (#13511)",
+    "author": {
+      "name": "Lee Jaeha / Adam",
+      "email": "wogkdkrm112@gmail.com",
+      "login": "jaehafe"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/23881538881",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23881538881/job/69635999276"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23881538881/job/69635999277"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23881538881/job/69635999278"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23881538881/job/69635999280"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23881538881/job/69635999281"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23881538881/job/69635999303"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23881538881/job/69635999305"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23881538881/job/69635999313"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23881538881/job/69635999319"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23881538881/job/69635999320"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23881538881/job/69635999325"
+      }
+    ]
+  },
+  {
     "commitSha": "0a7585a9994b12865deb39de947e978cbe4a16a5",
     "commitTimestamp": "2026-04-01T11:47:52Z",
     "commitMessage": "chore: run `@rspack/cli`, `@rspack/tests` tests sequentially in wasm (#13557)",
