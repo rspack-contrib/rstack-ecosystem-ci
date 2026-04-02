@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "143a7c74d4a9a972fdc56f5ac9153fad7ce9e7d0",
+    "commitTimestamp": "2026-04-02T08:04:47Z",
+    "commitMessage": "test(e2e): remove lodash from transformImport case (#7425)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23890611173",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23890611173/job/69662855195"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23890611173/job/69662855216"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23890611173/job/69662855226"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23890611173/job/69662855244"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23890611173/job/69662855260"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23890611173/job/69662855347"
+      }
+    ]
+  },
+  {
     "commitSha": "9dbaa77cced2449d298b74219a14d913ecbc0fcb",
     "commitTimestamp": "2026-04-02T07:29:15Z",
     "commitMessage": "chore(deps): update all patch dependencies (#7421)",
