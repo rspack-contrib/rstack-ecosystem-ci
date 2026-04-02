@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "9704574249a5d72438cba68bebfeb0d54b34cace",
+    "commitTimestamp": "2026-04-02T11:45:25Z",
+    "commitMessage": "chore(deps): update dependency lodash-es to v4.18.1 [security] (#3274)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23898816549",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23898816549/job/69689984221"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23898816549/job/69689984236"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23898816549/job/69689984245"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23898816549/job/69689984267"
+      }
+    ]
+  },
+  {
     "commitSha": "66dfa8fad6ec3c97e4b581820ea776f14ef99531",
     "commitTimestamp": "2026-04-01T09:10:53Z",
     "commitMessage": "feat(runtime): export useHead hook from @rspress/core/runtime (#3272)",
