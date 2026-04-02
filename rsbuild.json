@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b1f86bc9f6ba551688e46ddbf98e103ddffc4a1b",
+    "commitTimestamp": "2026-04-02T05:48:53Z",
+    "commitMessage": "chore(deps): update dependency create-rstack to v1.9.0 (#7422)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23886100515",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23886100515/job/69649155617"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23886100515/job/69649155626"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23886100515/job/69649155641"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23886100515/job/69649155642"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23886100515/job/69649155643"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23886100515/job/69649155661"
+      }
+    ]
+  },
+  {
     "commitSha": "4f69ad15dc8259b8c14c4c91993185149b493750",
     "commitTimestamp": "2026-04-01T08:42:55Z",
     "commitMessage": "chore(deps): update rstackjs/rstack-ecosystem-ci action to v0.3.0 (#7419)",
