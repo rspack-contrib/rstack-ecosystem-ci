@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "70ac277d23fe4a73f63c1945ca7232b7aab2359f",
+    "commitTimestamp": "2026-04-02T12:12:36Z",
+    "commitMessage": "fix(core): log message include json file path in auto-nav-sidebar errors (#3273)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23899792392",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23899792392/job/69693218124"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23899792392/job/69693218141"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23899792392/job/69693218165"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23899792392/job/69693218185"
+      }
+    ]
+  },
+  {
     "commitSha": "9704574249a5d72438cba68bebfeb0d54b34cace",
     "commitTimestamp": "2026-04-02T11:45:25Z",
     "commitMessage": "chore(deps): update dependency lodash-es to v4.18.1 [security] (#3274)",
