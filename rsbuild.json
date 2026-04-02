@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4a1cb2a0bc6b1fa604e9ca77fd1219292e6e3178",
+    "commitTimestamp": "2026-04-02T07:20:21Z",
+    "commitMessage": "chore(deps): upgrade rspack-chain to 2.0.0-rc.1 (#7424)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23889144237",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23889144237/job/69658290922"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23889144237/job/69658290932"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23889144237/job/69658290960"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23889144237/job/69658290961"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23889144237/job/69658290963"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23889144237/job/69658290974"
+      }
+    ]
+  },
+  {
     "commitSha": "b1f86bc9f6ba551688e46ddbf98e103ddffc4a1b",
     "commitTimestamp": "2026-04-02T05:48:53Z",
     "commitMessage": "chore(deps): update dependency create-rstack to v1.9.0 (#7422)",
