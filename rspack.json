@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "619d00776949fcfc1207797ec76d05f9fbf16ac6",
+    "commitTimestamp": "2026-04-02T09:22:32Z",
+    "commitMessage": "refactor(storage): db switch to readonly mode when save failed (#13584)",
+    "author": {
+      "name": "jinrui",
+      "email": "jerrykingxyz@gmail.com",
+      "login": "jerrykingxyz"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/23893548554",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23893548554/job/69673407165"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23893548554/job/69673407173"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23893548554/job/69673407184"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23893548554/job/69673407186"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23893548554/job/69673407191"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23893548554/job/69673407222"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23893548554/job/69673407229"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23893548554/job/69673407242"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23893548554/job/69673407244"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23893548554/job/69673407276"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/23893548554/job/69673407283"
+      }
+    ]
+  },
+  {
     "commitSha": "713b7988814404a0bdaf0a6ac512e095236dbb38",
     "commitTimestamp": "2026-04-02T08:22:46Z",
     "commitMessage": "chore(deps): update dependency lodash to v4.18.1 [security] (#13586)",
