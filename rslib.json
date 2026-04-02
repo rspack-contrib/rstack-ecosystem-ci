@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e8baad2f4ad77210c577c8ec8f3aa621322b8133",
+    "commitTimestamp": "2026-04-02T03:30:00Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#1570)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23882361340",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23882361340/job/69638056631"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23882361340/job/69638056632"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23882361340/job/69638056635"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23882361340/job/69638056638"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23882361340/job/69638056643"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23882361340/job/69638056676"
+      }
+    ]
+  },
+  {
     "commitSha": "4248a3eeb0194becb19392ca1b5791ec410fa536",
     "commitTimestamp": "2026-04-02T03:20:42Z",
     "commitMessage": "chore(deps): update Rsbuild 2.0.0-rc.0 (#1568)",
