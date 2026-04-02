@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a3591b23fee630a65e81cbe535900eed05ff9966",
+    "commitTimestamp": "2026-04-02T10:27:51Z",
+    "commitMessage": "feat(core): support source.assetsInclude (#1130)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23896037686",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23896037686/job/69680910362"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23896037686/job/69680910364"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23896037686/job/69680910386"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23896037686/job/69680910400"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23896037686/job/69680910420"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23896037686/job/69680910461"
+      }
+    ]
+  },
+  {
     "commitSha": "2b31ee105f723303c4c840cdee7b4176d32aa9d0",
     "commitTimestamp": "2026-04-02T09:19:09Z",
     "commitMessage": "fix(pool): propagate parent execArgv to worker processes (#1129)",
