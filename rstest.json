@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "8b5af06737f39e1b0f97d35932160880f0251984",
+    "commitTimestamp": "2026-04-03T06:52:55Z",
+    "commitMessage": "ci: use CodSpeed to profile CPU and memory (#1090)",
+    "author": {
+      "name": "codspeed-hq[bot]",
+      "email": "117304815+codspeed-hq[bot]@users.noreply.github.com",
+      "login": "codspeed-hq[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23937400716",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23937400716/job/69816447971"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23937400716/job/69816447972"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23937400716/job/69816447985"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23937400716/job/69816447986"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23937400716/job/69816447989"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23937400716/job/69816447991"
+      }
+    ]
+  },
+  {
     "commitSha": "f9a66646c1ac5d57215eecc395a93d71d14b254f",
     "commitTimestamp": "2026-04-03T04:03:08Z",
     "commitMessage": "chore(ai): add .claude/skills symlink for Claude Code compatibility (#1134)",
