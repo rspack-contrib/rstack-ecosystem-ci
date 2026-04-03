@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "75230719b0b21e3e8b457b81a3f53dd0b0233e10",
+    "commitTimestamp": "2026-04-03T09:15:11Z",
+    "commitMessage": "feat(server): support full-reload socket type (#7426)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23941255877",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23941255877/job/69827868939"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23941255877/job/69827868940"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23941255877/job/69827868946"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23941255877/job/69827868950"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23941255877/job/69827868958"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23941255877/job/69827868976"
+      }
+    ]
+  },
+  {
     "commitSha": "143a7c74d4a9a972fdc56f5ac9153fad7ce9e7d0",
     "commitTimestamp": "2026-04-02T08:04:47Z",
     "commitMessage": "test(e2e): remove lodash from transformImport case (#7425)",
