@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "bde372c57a7c6e940f63682de983775d5f5741c1",
+    "commitTimestamp": "2026-04-03T12:53:39Z",
+    "commitMessage": "fix(create-rsbuild): ensure svelte-ts-template passes svelte-check (#7430)",
+    "author": {
+      "name": "Manuel Hutter",
+      "email": "mhutter@users.noreply.github.com",
+      "login": "mhutter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23946871769",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23946871769/job/69844905526"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23946871769/job/69844905527"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23946871769/job/69844905532"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23946871769/job/69844905533"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23946871769/job/69844905551"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23946871769/job/69844905555"
+      }
+    ]
+  },
+  {
     "commitSha": "451cdedfd2626a53525086c7783daefadb8f9832",
     "commitTimestamp": "2026-04-03T11:04:18Z",
     "commitMessage": "feat(server): support full-reload path option (#7427)",
