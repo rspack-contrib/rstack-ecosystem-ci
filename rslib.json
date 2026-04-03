@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "8742596732d180442384bdb1258f45166ed45774",
+    "commitTimestamp": "2026-04-03T09:13:35Z",
+    "commitMessage": "test: keep rspack eco ci passing after mangle output change (#1574)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23941128891",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23941128891/job/69827482306"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23941128891/job/69827482308"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23941128891/job/69827482317"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23941128891/job/69827482319"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23941128891/job/69827482320"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23941128891/job/69827482323"
+      }
+    ]
+  },
+  {
     "commitSha": "77fd88abef10870c1c6ba64d18116bc29b9b145f",
     "commitTimestamp": "2026-04-02T03:41:16Z",
     "commitMessage": "chore(deps): update dependency lodash to v4.18.1 [security] (#1569)",
