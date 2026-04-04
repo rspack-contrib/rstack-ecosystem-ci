@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b5b8861d9cddee33c96b6d07186347d6136afb54",
+    "commitTimestamp": "2026-04-04T01:08:32Z",
+    "commitMessage": "test(core): cover sockWrite full-reload wildcard path (#7431)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23968059411",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23968059411/job/69911935394"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23968059411/job/69911935399"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23968059411/job/69911935400"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23968059411/job/69911935417"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23968059411/job/69911935424"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23968059411/job/69911935429"
+      }
+    ]
+  },
+  {
     "commitSha": "7fb899a1052597ab4f1cf9e005498274b809d796",
     "commitTimestamp": "2026-04-04T00:52:07Z",
     "commitMessage": "fix(server): reload html routes without .html extension (#7428)",
