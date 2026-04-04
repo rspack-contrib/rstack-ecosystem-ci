@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7fb899a1052597ab4f1cf9e005498274b809d796",
+    "commitTimestamp": "2026-04-04T00:52:07Z",
+    "commitMessage": "fix(server): reload html routes without .html extension (#7428)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23967735912",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23967735912/job/69911019135"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23967735912/job/69911019142"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23967735912/job/69911019145"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23967735912/job/69911019147"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23967735912/job/69911019148"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23967735912/job/69911019169"
+      }
+    ]
+  },
+  {
     "commitSha": "bde372c57a7c6e940f63682de983775d5f5741c1",
     "commitTimestamp": "2026-04-03T12:53:39Z",
     "commitMessage": "fix(create-rsbuild): ensure svelte-ts-template passes svelte-check (#7430)",
