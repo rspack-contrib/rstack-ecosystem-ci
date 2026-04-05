@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "dc61ccdab4279d86458dc001a9e2797ff34d27f8",
+    "commitTimestamp": "2026-04-05T00:43:05Z",
+    "commitMessage": "test(e2e): enable linting for e2e directory (#7435)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23990965891",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23990965891/job/69970511472"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23990965891/job/69970511475"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23990965891/job/69970511476"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23990965891/job/69970511478"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23990965891/job/69970511484"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23990965891/job/69970511511"
+      }
+    ]
+  },
+  {
     "commitSha": "13c8b1a17d7a705301fb73193af3bad6deb59213",
     "commitTimestamp": "2026-04-05T00:29:35Z",
     "commitMessage": "chore(deps): update sass to ^1.99.0 (#7434)",
