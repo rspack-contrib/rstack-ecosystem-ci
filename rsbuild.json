@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9ccc6856e994188e68e574523c147321bf61794e",
+    "commitTimestamp": "2026-04-05T01:00:49Z",
+    "commitMessage": "feat(deps): upgrade http-proxy-middleware to v4.0.0-beta.2 (#7436)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23991231727",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23991231727/job/69971250507"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23991231727/job/69971250519"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23991231727/job/69971250523"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23991231727/job/69971250525"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23991231727/job/69971250526"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/23991231727/job/69971250533"
+      }
+    ]
+  },
+  {
     "commitSha": "dc61ccdab4279d86458dc001a9e2797ff34d27f8",
     "commitTimestamp": "2026-04-05T00:43:05Z",
     "commitMessage": "test(e2e): enable linting for e2e directory (#7435)",
