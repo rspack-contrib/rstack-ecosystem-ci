@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e25fb344709c2f59a01a23b4e602a59da818ce52",
+    "commitTimestamp": "2026-04-06T01:05:01Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#7438)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24014619409",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24014619409/job/70031848943"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24014619409/job/70031848944"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24014619409/job/70031848948"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24014619409/job/70031848949"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24014619409/job/70031848962"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24014619409/job/70031848971"
+      }
+    ]
+  },
+  {
     "commitSha": "0817c15bc9f19fc763673db189bebe0598c2de8e",
     "commitTimestamp": "2026-04-06T00:56:40Z",
     "commitMessage": "chore(deps): update swc monorepo to ^12.8.0 (#7440)",
