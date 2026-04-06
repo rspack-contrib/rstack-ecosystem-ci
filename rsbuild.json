@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "998574517fe90f9a5603d9e0b29e56c3eab9101d",
+    "commitTimestamp": "2026-04-06T01:18:46Z",
+    "commitMessage": "fix(server): use HTTP/2 server with HTTPS proxy (#7437)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24014892918",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24014892918/job/70032557172"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24014892918/job/70032557173"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24014892918/job/70032557174"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24014892918/job/70032557177"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24014892918/job/70032557180"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24014892918/job/70032557185"
+      }
+    ]
+  },
+  {
     "commitSha": "e25fb344709c2f59a01a23b4e602a59da818ce52",
     "commitTimestamp": "2026-04-06T01:05:01Z",
     "commitMessage": "chore(deps): update all patch dependencies (#7438)",
