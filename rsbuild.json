@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "37616514a00e4e8e187d9abc6f6048c022fd599b",
+    "commitTimestamp": "2026-04-06T00:56:32Z",
+    "commitMessage": "chore(deps): update dependency react-router-dom to ^7.14.0 (#7439)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24014452114",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24014452114/job/70031387820"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24014452114/job/70031387823"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24014452114/job/70031387826"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24014452114/job/70031387830"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24014452114/job/70031387831"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24014452114/job/70031387841"
+      }
+    ]
+  },
+  {
     "commitSha": "9ccc6856e994188e68e574523c147321bf61794e",
     "commitTimestamp": "2026-04-05T01:00:49Z",
     "commitMessage": "feat(deps): upgrade http-proxy-middleware to v4.0.0-beta.2 (#7436)",
