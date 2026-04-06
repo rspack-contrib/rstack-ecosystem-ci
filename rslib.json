@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "39335046e48bbc8d2e1138975994686c22e37010",
+    "commitTimestamp": "2026-04-06T09:06:39Z",
+    "commitMessage": "chore(deps): update rstackjs/rstack-ecosystem-ci digest to f6ea537 (#1576)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24025957069",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24025957069/job/70064385518"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24025957069/job/70064385523"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24025957069/job/70064385525"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24025957069/job/70064385536"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24025957069/job/70064385545"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24025957069/job/70064385608"
+      }
+    ]
+  },
+  {
     "commitSha": "8742596732d180442384bdb1258f45166ed45774",
     "commitTimestamp": "2026-04-03T09:13:35Z",
     "commitMessage": "test: keep rspack eco ci passing after mangle output change (#1574)",
