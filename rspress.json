@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "fe1bb914bbf04ea6fcc9f6282809e234744fe15e",
+    "commitTimestamp": "2026-04-07T11:36:06Z",
+    "commitMessage": "chore(deps): update dependency path-serializer to v0.6.0 (#3282)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24079307225",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24079307225/job/70235541651"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24079307225/job/70235541653"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24079307225/job/70235541656"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24079307225/job/70235541741"
+      }
+    ]
+  },
+  {
     "commitSha": "c9891939917e23dee9f40d6530b427dd1e3e424f",
     "commitTimestamp": "2026-04-07T11:22:56Z",
     "commitMessage": "chore(deps): update pnpm to 10.33.0 (#3288)",
