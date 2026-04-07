@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "68b2a107bbdafb74401a982b4d411f964f59487a",
+    "commitTimestamp": "2026-04-07T11:56:48Z",
+    "commitMessage": "chore(deps): update rstack (#3280)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24080078901",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24080078901/job/70238123202"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24080078901/job/70238123239"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24080078901/job/70238123282"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24080078901/job/70238123290"
+      }
+    ]
+  },
+  {
     "commitSha": "841a8f20cfe1aadbd1ff2a708c1a718a4fbc343a",
     "commitTimestamp": "2026-04-07T11:53:35Z",
     "commitMessage": "chore(deps): update dependency heading-case to ^1.1.0 (#3281)",
