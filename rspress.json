@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "311f03a906c02149e47545056ce4b7b17a759594",
+    "commitTimestamp": "2026-04-07T11:00:50Z",
+    "commitMessage": "chore(infra/agent): add pr-creator skill (#3286)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24077989659",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24077989659/job/70231135749"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24077989659/job/70231135754"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24077989659/job/70231135756"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24077989659/job/70231135860"
+      }
+    ]
+  },
+  {
     "commitSha": "4c5b91bc6375958de0286fc1e8f513c1752bf54e",
     "commitTimestamp": "2026-04-07T10:54:00Z",
     "commitMessage": "feat(mdx/image): Add dead image detection (#3275)",
