@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "0146c06ad9b5333843b4338706f04caad0de3fcb",
+    "commitTimestamp": "2026-04-07T09:04:58Z",
+    "commitMessage": "chore(deps): update pnpm-plugin-skills and rspress-custom-theme skill (#3285)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24073448764",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24073448764/job/70215877007"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24073448764/job/70215877011"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24073448764/job/70215877019"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24073448764/job/70215877086"
+      }
+    ]
+  },
+  {
     "commitSha": "70ac277d23fe4a73f63c1945ca7232b7aab2359f",
     "commitTimestamp": "2026-04-02T12:12:36Z",
     "commitMessage": "fix(core): log message include json file path in auto-nav-sidebar errors (#3273)",
