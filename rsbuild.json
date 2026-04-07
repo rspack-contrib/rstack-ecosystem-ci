@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "36f6d8922ee7b733d8b1b014d46814c6e3a4a3d9",
+    "commitTimestamp": "2026-04-07T03:05:05Z",
+    "commitMessage": "chore(deps): update playwright monorepo to v1.59.1 (#7442)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24062293966",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24062293966/job/70180836903"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24062293966/job/70180836910"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24062293966/job/70180836915"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24062293966/job/70180836921"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24062293966/job/70180836927"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24062293966/job/70180836957"
+      }
+    ]
+  },
+  {
     "commitSha": "998574517fe90f9a5603d9e0b29e56c3eab9101d",
     "commitTimestamp": "2026-04-06T01:18:46Z",
     "commitMessage": "fix(server): use HTTP/2 server with HTTPS proxy (#7437)",
