@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "61e7cc7a74953206e00ceaea04e8bf1997ca37e3",
+    "commitTimestamp": "2026-04-07T03:10:48Z",
+    "commitMessage": "chore(deps): upgrade http-proxy-middleware to v4.0.0-beta.3 (#7444)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24062478744",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24062478744/job/70181415455"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24062478744/job/70181415461"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24062478744/job/70181415464"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24062478744/job/70181415467"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24062478744/job/70181415469"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24062478744/job/70181415471"
+      }
+    ]
+  },
+  {
     "commitSha": "36f6d8922ee7b733d8b1b014d46814c6e3a4a3d9",
     "commitTimestamp": "2026-04-07T03:05:05Z",
     "commitMessage": "chore(deps): update playwright monorepo to v1.59.1 (#7442)",
