@@ -172,10 +172,14 @@ jobs:
           pnpm -r --filter "@rspack/binding*..." --filter "@rspack/core..." --filter "@rspack/test-tools..." \
             publish --no-git-checks --provenance=false --access public --registry=http://localhost:4873
       - name: Run suite
-        run: >-
-          NPM_CONFIG_REGISTRY=http://localhost:4873
-          pnpm tsx ecosystem-ci.ts
-          run-suites
-          --stack rspack
-          --release "$(node -p "require('./workspace/rspack/packages/rspack/package.json').version")"
-          ${{ matrix.suite }}
+        run: |
+          suite_ref_args=()
+          if [ "${{ inputs.suiteRefType }}" != "precoded" ]; then
+            suite_ref_args=(--suite-${{ inputs.suiteRefType }} "${{ inputs.suiteRef }}")
+          fi
+          NPM_CONFIG_REGISTRY=http://localhost:4873 \
+            pnpm tsx ecosystem-ci.ts run-suites \
+            --stack rspack \
+            --release "$(node -p "require('./workspace/rspack/packages/rspack/package.json').version")" \
+            "${suite_ref_args[@]}" \
+            ${{ matrix.suite }}
