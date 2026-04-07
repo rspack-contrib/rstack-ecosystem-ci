@@ -175,5 +175,4 @@ jobs:
           run-suites
           --stack rspack
           --release "$(node -p "require('./workspace/rspack/packages/rspack/package.json').version")"
-          --suite-${{ inputs.suiteRefType }} ${{ inputs.suiteRef }}
           ${{ matrix.suite }}
