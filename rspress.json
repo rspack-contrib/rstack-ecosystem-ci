@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "c9891939917e23dee9f40d6530b427dd1e3e424f",
+    "commitTimestamp": "2026-04-07T11:22:56Z",
+    "commitMessage": "chore(deps): update pnpm to 10.33.0 (#3288)",
+    "author": {
+      "name": "Copilot",
+      "email": "198982749+Copilot@users.noreply.github.com",
+      "login": "Copilot"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24078812141",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24078812141/job/70233879046"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24078812141/job/70233879110"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24078812141/job/70233879167"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24078812141/job/70233879243"
+      }
+    ]
+  },
+  {
     "commitSha": "311f03a906c02149e47545056ce4b7b17a759594",
     "commitTimestamp": "2026-04-07T11:00:50Z",
     "commitMessage": "chore(infra/agent): add pr-creator skill (#3286)",
