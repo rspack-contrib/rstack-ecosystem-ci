@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d6ce7e10f12fc4ba1862881d43f7183cffbd127a",
+    "commitTimestamp": "2026-04-08T07:41:48Z",
+    "commitMessage": "feat(core): add dot reporter (#1145)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24125046691",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24125046691/job/70387498931"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24125046691/job/70387498941"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24125046691/job/70387498956"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24125046691/job/70387498960"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24125046691/job/70387498966"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24125046691/job/70387499042"
+      }
+    ]
+  },
+  {
     "commitSha": "885c000aa3909a22a2e078effd7f241985fe57cc",
     "commitTimestamp": "2026-04-07T06:25:39Z",
     "commitMessage": "feat(core): support summary output in rstest list (#1139)",
