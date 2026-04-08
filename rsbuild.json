@@ -96,6 +96,54 @@
     ]
   },
   {
+    "commitSha": "c464d2a927e8cb9b95d130c6f4e1aba9e1bfc670",
+    "commitTimestamp": "2026-04-08T08:41:44Z",
+    "commitMessage": "release: v2.0.0-rc.1 (#7454)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24126298626",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24126298626/job/70391621299"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24126298626/job/70391621306"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24126298626/job/70391621309"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24126298626/job/70391621328"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24126298626/job/70391621349"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24126298626/job/70391621364"
+      }
+    ]
+  },
+  {
     "commitSha": "30711e6e1928e435010c33dd93a3df7800aa7e7b",
     "commitTimestamp": "2026-04-08T08:26:36Z",
     "commitMessage": "chore(deps): update dependency hono to v4.12.12 [security] (#7452)",
