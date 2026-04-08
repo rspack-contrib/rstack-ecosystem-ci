@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ce087496c6af9dad3630d41f12fad9f8764cd204",
+    "commitTimestamp": "2026-04-08T03:56:13Z",
+    "commitMessage": "feat(create-rslib): add optional rslib best practices skill (#1575)",
+    "author": {
+      "name": "Qingyu Wang",
+      "email": "40660121+colinaaa@users.noreply.github.com",
+      "login": "colinaaa"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24116850609",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24116850609/job/70362505741"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24116850609/job/70362505758"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24116850609/job/70362505763"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24116850609/job/70362505767"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24116850609/job/70362505770"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24116850609/job/70362505779"
+      }
+    ]
+  },
+  {
     "commitSha": "8be887600af84bbeff5cd2785099a0359fa37632",
     "commitTimestamp": "2026-04-08T03:42:50Z",
     "commitMessage": "fix(core): align Vue bundleless externals with plugin-vue (#1579)",
