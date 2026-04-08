@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d1b7e99b3918111b2a1340e50614f3f65cb7f8bc",
+    "commitTimestamp": "2026-04-08T13:08:38Z",
+    "commitMessage": "chore(deps): update Rslib 0.21.0 (#7457)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24137053639",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24137053639/job/70427904965"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24137053639/job/70427904969"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24137053639/job/70427905009"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24137053639/job/70427905069"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24137053639/job/70427905072"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24137053639/job/70427905118"
+      }
+    ]
+  },
+  {
     "commitSha": "7abc8b784c5a57294a66cd9d4b8914afbe4720bc",
     "commitTimestamp": "2026-04-08T10:34:53Z",
     "commitMessage": "chore(plugin-react): upgrade @rspack/plugin-react-refresh to v2.0.0 (#7456)",
