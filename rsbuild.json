@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "66e93214d1006291fc54f3b6c722b966786bda8b",
+    "commitTimestamp": "2026-04-08T08:26:20Z",
+    "commitMessage": "feat!: change default decorators version to 2023-11 (#7395)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24125993551",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24125993551/job/70390591507"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24125993551/job/70390591551"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24125993551/job/70390591560"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24125993551/job/70390591596"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24125993551/job/70390591610"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24125993551/job/70390591706"
+      }
+    ]
+  },
+  {
     "commitSha": "ad315e6917e7380bc39cf60eba43f0bc6a9938b0",
     "commitTimestamp": "2026-04-08T08:25:55Z",
     "commitMessage": "refactor(core): remove redundant plugin helpers (#7451)",
