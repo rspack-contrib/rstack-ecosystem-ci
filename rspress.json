@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "b4b0844378a0b7008cf1996f4baf9c543f322b84",
+    "commitTimestamp": "2026-04-08T08:08:09Z",
+    "commitMessage": "perf(deps): externalize `lodash-es` via shared to reduce install size (#3292)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24125576734",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24125576734/job/70389196669"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24125576734/job/70389196676"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24125576734/job/70389196713"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24125576734/job/70389196756"
+      }
+    ]
+  },
+  {
     "commitSha": "19a3e6db84e0ca75dabd8d200a91da2a5b4bba46",
     "commitTimestamp": "2026-04-08T07:58:16Z",
     "commitMessage": "chore(deps): migrate husky + lint-staged to simple-git-hooks + nano-staged (#3291)",
