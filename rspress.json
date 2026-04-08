@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "c79291c2e1a947f03b687d72f9dc484486f926bd",
+    "commitTimestamp": "2026-04-08T10:12:28Z",
+    "commitMessage": "perf(core): bundle cli deps `cac` `chokidar` `picocolors` to reduce install size (#3293)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24130089151",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24130089151/job/70404255442"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24130089151/job/70404255446"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24130089151/job/70404255452"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24130089151/job/70404255492"
+      }
+    ]
+  },
+  {
     "commitSha": "b4b0844378a0b7008cf1996f4baf9c543f322b84",
     "commitTimestamp": "2026-04-08T08:08:09Z",
     "commitMessage": "perf(deps): externalize `lodash-es` via shared to reduce install size (#3292)",
