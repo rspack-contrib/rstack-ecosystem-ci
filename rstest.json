@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "6a94b93a1c91a8c4d61f40d0a885faaba784f8a0",
+    "commitTimestamp": "2026-04-08T12:57:54Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#1149)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24136583266",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24136583266/job/70426233110"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24136583266/job/70426233114"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24136583266/job/70426233119"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24136583266/job/70426233121"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24136583266/job/70426233122"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24136583266/job/70426233129"
+      }
+    ]
+  },
+  {
     "commitSha": "d6ce7e10f12fc4ba1862881d43f7183cffbd127a",
     "commitTimestamp": "2026-04-08T07:41:48Z",
     "commitMessage": "feat(core): add dot reporter (#1145)",
