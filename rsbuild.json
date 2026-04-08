@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "005e99f8d1b38c47ba9fc95d37c43f300ddba2fc",
+    "commitTimestamp": "2026-04-08T08:43:40Z",
+    "commitMessage": "refactor(core): remove redundant bundlerInfo.force config (#7453)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24126381571",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24126381571/job/70391894973"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24126381571/job/70391894975"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24126381571/job/70391894977"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24126381571/job/70391894981"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24126381571/job/70391894987"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24126381571/job/70391894993"
+      }
+    ]
+  },
+  {
     "commitSha": "30711e6e1928e435010c33dd93a3df7800aa7e7b",
     "commitTimestamp": "2026-04-08T08:26:36Z",
     "commitMessage": "chore(deps): update dependency hono to v4.12.12 [security] (#7452)",
