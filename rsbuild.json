@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7abc8b784c5a57294a66cd9d4b8914afbe4720bc",
+    "commitTimestamp": "2026-04-08T10:34:53Z",
+    "commitMessage": "chore(plugin-react): upgrade @rspack/plugin-react-refresh to v2.0.0 (#7456)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24130959468",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24130959468/job/70407190170"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24130959468/job/70407190191"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24130959468/job/70407190198"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24130959468/job/70407190220"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24130959468/job/70407190226"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24130959468/job/70407190234"
+      }
+    ]
+  },
+  {
     "commitSha": "c503d7f6924e1d1b99e4e384967f6351e0098dd2",
     "commitTimestamp": "2026-04-08T09:09:35Z",
     "commitMessage": "refactor(core): merge ESM output handling into output plugin (#7455)",
