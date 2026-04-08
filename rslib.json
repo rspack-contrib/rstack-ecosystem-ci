@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "8be887600af84bbeff5cd2785099a0359fa37632",
+    "commitTimestamp": "2026-04-08T03:42:50Z",
+    "commitMessage": "fix(core): align Vue bundleless externals with plugin-vue (#1579)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24116482023",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24116482023/job/70361513479"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24116482023/job/70361513491"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24116482023/job/70361513496"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24116482023/job/70361513507"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24116482023/job/70361513514"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24116482023/job/70361513520"
+      }
+    ]
+  },
+  {
     "commitSha": "b3847076f6464403de3c11d98ece9d68a47f4fa4",
     "commitTimestamp": "2026-04-08T03:38:32Z",
     "commitMessage": "fix(core): improve nodenext type declarations (#1559)",
