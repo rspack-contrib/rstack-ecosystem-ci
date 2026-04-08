@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2a43ef34cb2c67ffbfe77fafa96f0661ccb09abe",
+    "commitTimestamp": "2026-04-08T06:58:18Z",
+    "commitMessage": "chore(deps): update dependency hono to v4.12.12 [security] (#7448)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24122432621",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24122432621/job/70379233582"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24122432621/job/70379233611"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24122432621/job/70379233613"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24122432621/job/70379233619"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24122432621/job/70379233624"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24122432621/job/70379233625"
+      }
+    ]
+  },
+  {
     "commitSha": "2fd2561d26e2620405b86ae394a8f3dd68858427",
     "commitTimestamp": "2026-04-08T06:58:14Z",
     "commitMessage": "chore(deps): update dependency @rsbuild/plugin-vue-jsx to v2 (#7449)",
