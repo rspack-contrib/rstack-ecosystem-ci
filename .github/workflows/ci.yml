@@ -203,20 +203,10 @@ jobs:
       # pnpm has a known bug (pnpm/pnpm#9270) where file: protocol overrides
       # for packages with native optionalDependencies cause version mismatch
       # or silent registry fallback. Publishing to a local registry avoids this.
-      - name: Setup Verdaccio
+      - name: Publish rspack to Verdaccio
+        id: publish-rspack
         if: matrix.suite != '_selftest'
-        run: |
-          pnpm verdaccio --config verdaccio.yaml &
-          printf '\n//localhost:4873/:_authToken="this-is-a-fake-token"\n' >> ~/.npmrc
-          sleep 3
-      - name: Publish rspack packages to Verdaccio
-        if: matrix.suite != '_selftest'
-        working-directory: workspace/rspack
-        run: |
-          pnpm -r --filter "@rspack/binding*..." --filter "@rspack/core..." --filter "@rspack/test-tools..." \
-            exec sh -c 'jq "del(.publishConfig.provenance)" package.json > package.json.tmp && mv package.json.tmp package.json'
-          pnpm -r --filter "@rspack/binding*..." --filter "@rspack/core..." --filter "@rspack/test-tools..." \
-            publish --no-git-checks --provenance=false --access public --registry=http://localhost:4873
+        uses: ./.github/actions/publish-rspack-to-verdaccio
       - name: Run suite (with Verdaccio)
         if: matrix.suite != '_selftest'
         run: >-
@@ -224,7 +214,7 @@ jobs:
           pnpm tsx ecosystem-ci.ts
           run-suites
           --stack rspack
-          --release "$(node -p "require('./workspace/rspack/packages/rspack/package.json').version")"
+          --release "${{ steps.publish-rspack.outputs.version }}"
           ${{ matrix.suite }}
       - name: Run suite (selftest)
         if: matrix.suite == '_selftest'

@@ -1,0 +1,77 @@
+name: Publish Rspack to Verdaccio
+description: |
+  Starts a local Verdaccio registry, bumps all @rspack/* workspace packages to a
+  unique sentinel version derived from the current workflow run, and publishes
+  them to Verdaccio. Outputs the sentinel version so callers can feed it to
+  `--release` in ecosystem-ci.ts.
+
+  Why bump the version?
+  Verdaccio is configured with an `npmjs` uplink (`proxy: npmjs`), so any
+  `pnpm publish` for a version that already exists on public npm becomes a
+  silent no-op. If rspack HEAD's package.json version happens to match a
+  previously published version (which is the common case for from-commit),
+  pnpm install downstream would then fall through the uplink and pull the
+  public tarball instead of the freshly built one — defeating the entire
+  point of eco-ci. Bumping to `<current>-fresh.<runId>.<runAttempt>` makes
+  the sentinel version globally unique per run, so publish always lands
+  locally and `--release <sentinel>` deterministically resolves to the
+  workspace build.
+
+inputs:
+  workspace-path:
+    description: Path to the rspack workspace checkout (containing packages/rspack, crates/node_binding, etc.)
+    required: false
+    default: workspace/rspack
+
+outputs:
+  version:
+    description: The sentinel version that was published to Verdaccio
+    value: ${{ steps.bump.outputs.version }}
+
+runs:
+  using: composite
+  steps:
+    - name: Start Verdaccio
+      shell: bash
+      run: |
+        pnpm verdaccio --config verdaccio.yaml &
+        printf '\n//localhost:4873/:_authToken="this-is-a-fake-token"\n' >> ~/.npmrc
+        sleep 3
+
+    - name: Bump @rspack/* versions to fresh sentinel
+      id: bump
+      shell: bash
+      working-directory: ${{ inputs.workspace-path }}
+      env:
+        GITHUB_RUN_ID: ${{ github.run_id }}
+        GITHUB_RUN_ATTEMPT: ${{ github.run_attempt }}
+      run: |
+        set -euo pipefail
+        CURRENT_VERSION=$(node -p "require('./packages/rspack/package.json').version")
+        FRESH_VERSION="${CURRENT_VERSION}-fresh.${GITHUB_RUN_ID}.${GITHUB_RUN_ATTEMPT}"
+        echo "Bumping all @rspack/* packages to ${FRESH_VERSION}"
+        echo "version=${FRESH_VERSION}" >> "$GITHUB_OUTPUT"
+        export FRESH_VERSION
+        # Rewrite .version for every matched package. Inter-package deps use
+        # `workspace:*`, which pnpm publish rewrites to the actual version, so
+        # no manual rewriting of dependencies is needed.
+        pnpm -r \
+          --filter "@rspack/binding*..." \
+          --filter "@rspack/core..." \
+          --filter "@rspack/test-tools..." \
+          exec sh -c 'jq --arg v "$FRESH_VERSION" ".version = \$v | del(.publishConfig.provenance)" package.json > package.json.tmp && mv package.json.tmp package.json'
+
+    - name: Publish to Verdaccio
+      shell: bash
+      working-directory: ${{ inputs.workspace-path }}
+      run: |
+        set -euo pipefail
+        pnpm -r \
+          --filter "@rspack/binding*..." \
+          --filter "@rspack/core..." \
+          --filter "@rspack/test-tools..." \
+          publish \
+          --no-git-checks \
+          --provenance=false \
+          --access public \
+          --registry=http://localhost:4873

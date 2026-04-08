@@ -93,25 +93,16 @@ jobs:
       # pnpm has a known bug (pnpm/pnpm#9270) where file: protocol overrides
       # for packages with native optionalDependencies cause version mismatch
       # or silent registry fallback. Publishing to a local registry avoids this.
-      - name: Setup Verdaccio
-        run: |
-          pnpm verdaccio --config verdaccio.yaml &
-          printf '\n//localhost:4873/:_authToken="this-is-a-fake-token"\n' >> ~/.npmrc
-          sleep 3
-      - name: Publish rspack packages to Verdaccio
-        working-directory: workspace/rspack
-        run: |
-          pnpm -r --filter "@rspack/binding*..." --filter "@rspack/core..." --filter "@rspack/test-tools..." \
-            exec sh -c 'jq "del(.publishConfig.provenance)" package.json > package.json.tmp && mv package.json.tmp package.json'
-          pnpm -r --filter "@rspack/binding*..." --filter "@rspack/core..." --filter "@rspack/test-tools..." \
-            publish --no-git-checks --provenance=false --access public --registry=http://localhost:4873
+      - name: Publish rspack to Verdaccio
+        id: publish-rspack
+        uses: ./.github/actions/publish-rspack-to-verdaccio
       - name: Run suite
         run: >-
           NPM_CONFIG_REGISTRY=http://localhost:4873
           pnpm tsx ecosystem-ci.ts
           run-suites
           --stack rspack
-          --release "$(node -p "require('./workspace/rspack/packages/rspack/package.json').version")"
+          --release "${{ steps.publish-rspack.outputs.version }}"
           --suite-${{ inputs.suiteRefType }} ${{ inputs.suiteRef }}
           ${{ inputs.suite }}
 
@@ -156,18 +147,9 @@ jobs:
       - run: pnpm i --frozen-lockfile
       - name: Expose GitHub Runtime
         uses: crazy-max/ghaction-github-runtime@v3
-      - name: Setup Verdaccio
-        run: |
-          pnpm verdaccio --config verdaccio.yaml &
-          printf '\n//localhost:4873/:_authToken="this-is-a-fake-token"\n' >> ~/.npmrc
-          sleep 3
-      - name: Publish rspack packages to Verdaccio
-        working-directory: workspace/rspack
-        run: |
-          pnpm -r --filter "@rspack/binding*..." --filter "@rspack/core..." --filter "@rspack/test-tools..." \
-            exec sh -c 'jq "del(.publishConfig.provenance)" package.json > package.json.tmp && mv package.json.tmp package.json'
-          pnpm -r --filter "@rspack/binding*..." --filter "@rspack/core..." --filter "@rspack/test-tools..." \
-            publish --no-git-checks --provenance=false --access public --registry=http://localhost:4873
+      - name: Publish rspack to Verdaccio
+        id: publish-rspack
+        uses: ./.github/actions/publish-rspack-to-verdaccio
       - name: Run suite
         run: |
           suite_ref_args=()
@@ -177,6 +159,6 @@ jobs:
           NPM_CONFIG_REGISTRY=http://localhost:4873 \
             pnpm tsx ecosystem-ci.ts run-suites \
             --stack rspack \
-            --release "$(node -p "require('./workspace/rspack/packages/rspack/package.json').version")" \
+            --release "${{ steps.publish-rspack.outputs.version }}" \
             "${suite_ref_args[@]}" \
             ${{ matrix.suite }}
