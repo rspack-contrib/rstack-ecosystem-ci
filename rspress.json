@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "bc8c79aa990ee8c03c4fffec27a5465fd059f6fb",
+    "commitTimestamp": "2026-04-08T12:32:22Z",
+    "commitMessage": "fix(theme/Steps): # for titles overlaps with the sequence number (#3276)",
+    "author": {
+      "name": "Elliot Courant",
+      "email": "me@elliotcourant.dev",
+      "login": "elliotcourant"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24135505329",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24135505329/job/70422469442"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24135505329/job/70422469481"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24135505329/job/70422469521"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24135505329/job/70422469536"
+      }
+    ]
+  },
+  {
     "commitSha": "77ee48ce3fcb604877c789323447fde7887d2430",
     "commitTimestamp": "2026-04-08T11:35:21Z",
     "commitMessage": "fix(theme/icon): use currentColor for success icons to follow theme color (#3294)",
