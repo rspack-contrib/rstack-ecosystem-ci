@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7caf12d5381b70460867095b5f6fe80238af48c4",
+    "commitTimestamp": "2026-04-08T08:44:00Z",
+    "commitMessage": "chore(deps): update dependency @hono/node-server to v1.19.13 [security] (#7447)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24126391285",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24126391285/job/70391927882"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24126391285/job/70391927894"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24126391285/job/70391927895"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24126391285/job/70391927910"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24126391285/job/70391927921"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24126391285/job/70391927938"
+      }
+    ]
+  },
+  {
     "commitSha": "005e99f8d1b38c47ba9fc95d37c43f300ddba2fc",
     "commitTimestamp": "2026-04-08T08:43:40Z",
     "commitMessage": "refactor(core): remove redundant bundlerInfo.force config (#7453)",
