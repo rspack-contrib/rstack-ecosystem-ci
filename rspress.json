@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "77ee48ce3fcb604877c789323447fde7887d2430",
+    "commitTimestamp": "2026-04-08T11:35:21Z",
+    "commitMessage": "fix(theme/icon): use currentColor for success icons to follow theme color (#3294)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24133912913",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24133912913/job/70417009697"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24133912913/job/70417009705"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24133912913/job/70417009706"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24133912913/job/70417009784"
+      }
+    ]
+  },
+  {
     "commitSha": "c79291c2e1a947f03b687d72f9dc484486f926bd",
     "commitTimestamp": "2026-04-08T10:12:28Z",
     "commitMessage": "perf(core): bundle cli deps `cac` `chokidar` `picocolors` to reduce install size (#3293)",
