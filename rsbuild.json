@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c503d7f6924e1d1b99e4e384967f6351e0098dd2",
+    "commitTimestamp": "2026-04-08T09:09:35Z",
+    "commitMessage": "refactor(core): merge ESM output handling into output plugin (#7455)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24127475460",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24127475460/job/70395533857"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24127475460/job/70395533871"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24127475460/job/70395533876"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24127475460/job/70395533882"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24127475460/job/70395533928"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24127475460/job/70395533969"
+      }
+    ]
+  },
+  {
     "commitSha": "7caf12d5381b70460867095b5f6fe80238af48c4",
     "commitTimestamp": "2026-04-08T08:44:00Z",
     "commitMessage": "chore(deps): update dependency @hono/node-server to v1.19.13 [security] (#7447)",
