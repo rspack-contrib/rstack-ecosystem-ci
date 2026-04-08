@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2fd2561d26e2620405b86ae394a8f3dd68858427",
+    "commitTimestamp": "2026-04-08T06:58:14Z",
+    "commitMessage": "chore(deps): update dependency @rsbuild/plugin-vue-jsx to v2 (#7449)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24122397658",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24122397658/job/70379125887"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24122397658/job/70379125902"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24122397658/job/70379125920"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24122397658/job/70379125921"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24122397658/job/70379125925"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24122397658/job/70379125975"
+      }
+    ]
+  },
+  {
     "commitSha": "8881a6b9675fdb0a5e0e62c8084f5cf629615094",
     "commitTimestamp": "2026-04-07T05:56:10Z",
     "commitMessage": "feat(create-rsbuild): add rsbuild best practices skill (#7445)",
