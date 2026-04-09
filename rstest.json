@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f5175cce50793801235f4ff54a866b2de524ee40",
+    "commitTimestamp": "2026-04-09T06:02:34Z",
+    "commitMessage": "feat(reporter): add progress reporting for non-TTY environments (#1146)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24175153520",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24175153520/job/70554874531"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24175153520/job/70554874542"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24175153520/job/70554874543"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24175153520/job/70554874548"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24175153520/job/70554874552"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24175153520/job/70554874563"
+      }
+    ]
+  },
+  {
     "commitSha": "df58a13635647bfbc00e8b5e341ee2a2095592fa",
     "commitTimestamp": "2026-04-09T03:28:15Z",
     "commitMessage": "chore(core): update build scripts (#1150)",
