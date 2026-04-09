@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2d4f2eb5997a0d3f784a9cdbc2cea2578c4a2d52",
+    "commitTimestamp": "2026-04-09T02:44:44Z",
+    "commitMessage": "chore(deps): update dependency nano-staged to v1 (#7459)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24169645461",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24169645461/job/70538439691"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24169645461/job/70538439697"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24169645461/job/70538439713"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24169645461/job/70538439720"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24169645461/job/70538439725"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24169645461/job/70538439741"
+      }
+    ]
+  },
+  {
     "commitSha": "920b9578a5e1241d63588164f1e5e8fe4864c9b0",
     "commitTimestamp": "2026-04-09T02:34:52Z",
     "commitMessage": "feat(plugin-react)!: drop Rsbuild v1 support (#7458)",
