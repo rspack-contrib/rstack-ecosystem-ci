@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "765c13059ee4a2dd9d43a32a5cb8b8f70d832084",
+    "commitTimestamp": "2026-04-09T07:11:06Z",
+    "commitMessage": "release: @rsbuild/plugin-react v2.0.0-rc.2 (#7468)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24177477501",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24177477501/job/70562101807"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24177477501/job/70562101816"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24177477501/job/70562101823"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24177477501/job/70562101833"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24177477501/job/70562101851"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24177477501/job/70562101878"
+      }
+    ]
+  },
+  {
     "commitSha": "7495c60d37b53134f6276b5cdcff756ac87cada5",
     "commitTimestamp": "2026-04-09T06:27:40Z",
     "commitMessage": "chore(deps): upgrade @rslint/core to 0.4.0 (#7467)",
