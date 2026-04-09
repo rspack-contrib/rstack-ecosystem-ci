@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7495c60d37b53134f6276b5cdcff756ac87cada5",
+    "commitTimestamp": "2026-04-09T06:27:40Z",
+    "commitMessage": "chore(deps): upgrade @rslint/core to 0.4.0 (#7467)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24175954038",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24175954038/job/70557289738"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24175954038/job/70557289743"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24175954038/job/70557289757"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24175954038/job/70557289768"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24175954038/job/70557289779"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24175954038/job/70557289794"
+      }
+    ]
+  },
+  {
     "commitSha": "03866ab8f0098b9e55fc2fe65001fe7993f16f1d",
     "commitTimestamp": "2026-04-09T05:30:30Z",
     "commitMessage": "test(e2e): remove router fixture dependencies (#7466)",
