@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ea98904cc298fa0746221740de7f59d7ebf2db85",
+    "commitTimestamp": "2026-04-09T03:10:32Z",
+    "commitMessage": "chore(deps): enable pnpm dedupePeers (#7464)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24170448387",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24170448387/job/70540865485"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24170448387/job/70540865486"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24170448387/job/70540865497"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24170448387/job/70540865505"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24170448387/job/70540865507"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24170448387/job/70540865509"
+      }
+    ]
+  },
+  {
     "commitSha": "6bb3f05309356ec63a0383d4c92b65f7b2906600",
     "commitTimestamp": "2026-04-09T03:10:25Z",
     "commitMessage": "refactor(plugin-react): inline react setup into index (#7462)",
