@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "5e2adb3ffee67174480c1d842d9c691032bc44e2",
+    "commitTimestamp": "2026-04-09T07:49:28Z",
+    "commitMessage": "feat: support `enforceSizeThreshold` option (#13576)",
+    "author": {
+      "name": "Lee Jaeha / Adam",
+      "email": "wogkdkrm112@gmail.com",
+      "login": "jaehafe"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24179256009",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24179256009/job/70567881796"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24179256009/job/70567881798"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24179256009/job/70567881799"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24179256009/job/70567881800"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24179256009/job/70567881803"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24179256009/job/70567881807"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24179256009/job/70567881828"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24179256009/job/70567881832"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24179256009/job/70567881837"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24179256009/job/70567881840"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24179256009/job/70567881842"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24179256009/job/70567881844"
+      }
+    ]
+  },
+  {
     "commitSha": "93cf48819345aa4985f3180e2f8d84ef98b54925",
     "commitTimestamp": "2026-04-09T07:22:37Z",
     "commitMessage": "chore(ci): add node 24 to release canary and debug workflows (#13656)",
