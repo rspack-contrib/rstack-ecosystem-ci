@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "233f212735ff7d298108a0331638203ce6612508",
+    "commitTimestamp": "2026-04-09T09:27:51Z",
+    "commitMessage": "perf(deps): bundle `gray-matter` to reduce install size and deps complexity (#3297)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24183116887",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24183116887/job/70580891705"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24183116887/job/70580891711"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24183116887/job/70580891738"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24183116887/job/70580891746"
+      }
+    ]
+  },
+  {
     "commitSha": "b351e75a0b84e49849688b6d500f704f540ef506",
     "commitTimestamp": "2026-04-09T08:45:33Z",
     "commitMessage": "perf(deps): bundle `github-slugger` to reduce install size (#3298)",
