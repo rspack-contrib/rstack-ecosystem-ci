@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "6bb3f05309356ec63a0383d4c92b65f7b2906600",
+    "commitTimestamp": "2026-04-09T03:10:25Z",
+    "commitMessage": "refactor(plugin-react): inline react setup into index (#7462)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24170437379",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24170437379/job/70540831665"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24170437379/job/70540831673"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24170437379/job/70540831676"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24170437379/job/70540831681"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24170437379/job/70540831690"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24170437379/job/70540831691"
+      }
+    ]
+  },
+  {
     "commitSha": "5cb2a6ab96018466156a5893809929a75380cea3",
     "commitTimestamp": "2026-04-09T02:55:20Z",
     "commitMessage": "feat(plugin-react)!: publish as pure ESM package (#7461)",
