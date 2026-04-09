@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "f292953a9cb2ff63b1fe944382ec7489a9d9257a",
+    "commitTimestamp": "2026-04-09T09:21:27Z",
+    "commitMessage": "fix: add `@emnapi/core` and `@emnapi/runtime` as dependencies (#13665)",
+    "author": {
+      "name": "CPunisher",
+      "email": "1343316114@qq.com",
+      "login": "CPunisher"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24183285691",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24183285691/job/70581541811"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24183285691/job/70581541822"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24183285691/job/70581541825"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24183285691/job/70581541862"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24183285691/job/70581541863"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24183285691/job/70581541866"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24183285691/job/70581541870"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24183285691/job/70581541881"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24183285691/job/70581541888"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24183285691/job/70581541895"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24183285691/job/70581541916"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24183285691/job/70581541922"
+      }
+    ]
+  },
+  {
     "commitSha": "4dba3763a5bd45fa257bc449b8bb09ac22f4706a",
     "commitTimestamp": "2026-04-09T08:29:32Z",
     "commitMessage": "feat: add support for assigning numbers in `beforeModuleIds` hook (#13222)",
