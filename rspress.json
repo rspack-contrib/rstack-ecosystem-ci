@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "b351e75a0b84e49849688b6d500f704f540ef506",
+    "commitTimestamp": "2026-04-09T08:45:33Z",
+    "commitMessage": "perf(deps): bundle `github-slugger` to reduce install size (#3298)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24181193261",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24181193261/job/70574313535"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24181193261/job/70574313550"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24181193261/job/70574313554"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24181193261/job/70574313566"
+      }
+    ]
+  },
+  {
     "commitSha": "543dca3f7fcd6b4befd97dc190b062af4baa5ade",
     "commitTimestamp": "2026-04-09T07:15:53Z",
     "commitMessage": "perf(deps): bundle tinyglobby and tinypool into core (#3296)",
