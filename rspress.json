@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "543dca3f7fcd6b4befd97dc190b062af4baa5ade",
+    "commitTimestamp": "2026-04-09T07:15:53Z",
+    "commitMessage": "perf(deps): bundle tinyglobby and tinypool into core (#3296)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24177652435",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24177652435/job/70562655177"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24177652435/job/70562655203"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24177652435/job/70562655212"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24177652435/job/70562655233"
+      }
+    ]
+  },
+  {
     "commitSha": "ebdb748aa88c74fd8d8fd516adecebd1c466b4b9",
     "commitTimestamp": "2026-04-08T13:48:49Z",
     "commitMessage": "chore(deps): update rstack (@rsbuild/core 2.0.0-rc.1, @rslib/core 0.21.0) (#3295)",
