@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "5c424d508766aa3c67cf751877a26326c4320279",
+    "commitTimestamp": "2026-04-10T13:08:13Z",
+    "commitMessage": "fix(core): Fixed async page data loading (#3278)",
+    "author": {
+      "name": "Elliot Courant",
+      "email": "me@elliotcourant.dev",
+      "login": "elliotcourant"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24244501995",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24244501995/job/70787139593"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24244501995/job/70787139608"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24244501995/job/70787139615"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24244501995/job/70787139666"
+      }
+    ]
+  },
+  {
     "commitSha": "4fef7e6ecd6d05436e72fe07ee3517b9b2db03f4",
     "commitTimestamp": "2026-04-10T06:21:35Z",
     "commitMessage": "feat(core): Improve search index building (#3283)",
