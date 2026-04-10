@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "8abd3645f859fbdd9df34be43415280d315a176a",
+    "commitTimestamp": "2026-04-10T06:22:21Z",
+    "commitMessage": "feat(core): support output.emitAssets (#1155)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24229584054",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24229584054/job/70738068077"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24229584054/job/70738068079"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24229584054/job/70738068085"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24229584054/job/70738068086"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24229584054/job/70738068088"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24229584054/job/70738068101"
+      }
+    ]
+  },
+  {
     "commitSha": "73f806000646c490f0c02265236e684019e88f72",
     "commitTimestamp": "2026-04-10T04:33:05Z",
     "commitMessage": "chore(deps): update dependency axios to v1.15.0 [security] (#1156)",
