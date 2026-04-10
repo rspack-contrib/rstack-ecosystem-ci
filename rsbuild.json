@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e409f14c915492c3106e2e6810c6fe266c43fc47",
+    "commitTimestamp": "2026-04-10T09:53:09Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#7478)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24237254456",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24237254456/job/70762854129"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24237254456/job/70762854135"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24237254456/job/70762854139"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24237254456/job/70762854142"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24237254456/job/70762854143"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24237254456/job/70762854159"
+      }
+    ]
+  },
+  {
     "commitSha": "c90c3132e3dbe1fcd59a14fbfdb0878eea05313d",
     "commitTimestamp": "2026-04-10T07:10:06Z",
     "commitMessage": "refactor(core): rename socket server send method (#7476)",
