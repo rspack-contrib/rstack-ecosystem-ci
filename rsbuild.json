@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "85e19eed3b4f4bd09c831adf2f8887e22d263da4",
+    "commitTimestamp": "2026-04-10T06:52:11Z",
+    "commitMessage": "feat(core): support environment.hot.send API (#7475)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24230556567",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24230556567/job/70741060702"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24230556567/job/70741060720"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24230556567/job/70741060723"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24230556567/job/70741060735"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24230556567/job/70741060744"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24230556567/job/70741060793"
+      }
+    ]
+  },
+  {
     "commitSha": "b2b0b1e8fcec8ee684431a97ae84907e6d6ca48a",
     "commitTimestamp": "2026-04-10T05:59:07Z",
     "commitMessage": "refactor(core): resolve prefer-const lint errors (#7474)",
