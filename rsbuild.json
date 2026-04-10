@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c90c3132e3dbe1fcd59a14fbfdb0878eea05313d",
+    "commitTimestamp": "2026-04-10T07:10:06Z",
+    "commitMessage": "refactor(core): rename socket server send method (#7476)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24231176356",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24231176356/job/70742950327"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24231176356/job/70742950330"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24231176356/job/70742950344"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24231176356/job/70742950346"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24231176356/job/70742950353"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24231176356/job/70742950362"
+      }
+    ]
+  },
+  {
     "commitSha": "85e19eed3b4f4bd09c831adf2f8887e22d263da4",
     "commitTimestamp": "2026-04-10T06:52:11Z",
     "commitMessage": "feat(core): support environment.hot.send API (#7475)",
