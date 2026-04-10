@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e84e0a1e3171ad3084a357548db464d1e0c560cc",
+    "commitTimestamp": "2026-04-10T03:39:42Z",
+    "commitMessage": "fix: use web condition names by default in browser-like test environment (#1152)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24225129735",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24225129735/job/70724645530"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24225129735/job/70724645533"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24225129735/job/70724645537"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24225129735/job/70724645540"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24225129735/job/70724645542"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24225129735/job/70724645561"
+      }
+    ]
+  },
+  {
     "commitSha": "f5175cce50793801235f4ff54a866b2de524ee40",
     "commitTimestamp": "2026-04-09T06:02:34Z",
     "commitMessage": "feat(reporter): add progress reporting for non-TTY environments (#1146)",
