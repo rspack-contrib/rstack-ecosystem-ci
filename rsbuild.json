@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b2b0b1e8fcec8ee684431a97ae84907e6d6ca48a",
+    "commitTimestamp": "2026-04-10T05:59:07Z",
+    "commitMessage": "refactor(core): resolve prefer-const lint errors (#7474)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24228878328",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24228878328/job/70735925340"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24228878328/job/70735925343"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24228878328/job/70735925345"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24228878328/job/70735925346"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24228878328/job/70735925347"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24228878328/job/70735925349"
+      }
+    ]
+  },
+  {
     "commitSha": "0d90bf868ee7bab3a8bdbce1723ae299f72ee26f",
     "commitTimestamp": "2026-04-10T05:37:26Z",
     "commitMessage": "fix(core): prioritize common config files in lookup (#7473)",
