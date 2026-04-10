@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "0d90bf868ee7bab3a8bdbce1723ae299f72ee26f",
+    "commitTimestamp": "2026-04-10T05:37:26Z",
+    "commitMessage": "fix(core): prioritize common config files in lookup (#7473)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24228271925",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24228271925/job/70734057005"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24228271925/job/70734057007"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24228271925/job/70734057009"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24228271925/job/70734057010"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24228271925/job/70734057019"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24228271925/job/70734057032"
+      }
+    ]
+  },
+  {
     "commitSha": "9fdf7626014582e6094d835d20e4e6456abc3fbe",
     "commitTimestamp": "2026-04-09T07:21:10Z",
     "commitMessage": "release: @rsbuild/plugin-svgr v2.0.0-rc.2 (#7469)",
