@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "73f806000646c490f0c02265236e684019e88f72",
+    "commitTimestamp": "2026-04-10T04:33:05Z",
+    "commitMessage": "chore(deps): update dependency axios to v1.15.0 [security] (#1156)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24226533357",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24226533357/job/70728724157"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24226533357/job/70728724164"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24226533357/job/70728724167"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24226533357/job/70728724169"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24226533357/job/70728724174"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24226533357/job/70728724175"
+      }
+    ]
+  },
+  {
     "commitSha": "e84e0a1e3171ad3084a357548db464d1e0c560cc",
     "commitTimestamp": "2026-04-10T03:39:42Z",
     "commitMessage": "fix: use web condition names by default in browser-like test environment (#1152)",
