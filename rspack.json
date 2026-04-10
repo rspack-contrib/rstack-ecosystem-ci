@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "5c345714ed11de364bf1f935675135141613c107",
+    "commitTimestamp": "2026-04-10T05:42:29Z",
+    "commitMessage": "fix(hash): keep fullhash in sync with css-only content changes (#13491)",
+    "author": {
+      "name": "qixuan",
+      "email": "58852732+GiveMe-A-Name@users.noreply.github.com",
+      "login": "GiveMe-A-Name"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24228598025",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24228598025/job/70735109229"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24228598025/job/70735109242"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24228598025/job/70735109255"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24228598025/job/70735109274"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24228598025/job/70735109290"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24228598025/job/70735109303"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24228598025/job/70735109322"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24228598025/job/70735109327"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24228598025/job/70735109334"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24228598025/job/70735109336"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24228598025/job/70735109339"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24228598025/job/70735109355"
+      }
+    ]
+  },
+  {
     "commitSha": "2e0d7a33e8dc1d82f9c4bf9427f3c86cd289c6b9",
     "commitTimestamp": "2026-04-09T10:46:17Z",
     "commitMessage": "fix(cli): disable hmr in preview (#13669)",
