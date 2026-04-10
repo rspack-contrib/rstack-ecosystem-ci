@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e094670ea09707b4aa4e1d57aa14a6114c8592ba",
+    "commitTimestamp": "2026-04-10T14:16:47Z",
+    "commitMessage": "fix(coverage): strip coverage from browser results and add explanatory comments (#1158)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24247420883",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24247420883/job/70797361861"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24247420883/job/70797361866"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24247420883/job/70797361876"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24247420883/job/70797361879"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24247420883/job/70797361883"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24247420883/job/70797361931"
+      }
+    ]
+  },
+  {
     "commitSha": "41297d36db44559fbafb2d33b80563d21f0a1909",
     "commitTimestamp": "2026-04-10T08:29:45Z",
     "commitMessage": "fix(coverage): reduce coverage memory usage (#1154)",
