@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "c7e0ed4f444b3136119ce725b09ab3b5a1448fcd",
+    "commitTimestamp": "2026-04-11T12:49:02Z",
+    "commitMessage": "refactor: replace expect(\"TODO\") with descriptive error messages (#13685)",
+    "author": {
+      "name": "Lee Jaeha / Adam",
+      "email": "wogkdkrm112@gmail.com",
+      "login": "jaehafe"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24282918152",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24282918152/job/70907540852"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24282918152/job/70907540854"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24282918152/job/70907540857"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24282918152/job/70907540860"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24282918152/job/70907540868"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24282918152/job/70907540879"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24282918152/job/70907540880"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24282918152/job/70907540882"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24282918152/job/70907540883"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24282918152/job/70907540884"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24282918152/job/70907540894"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24282918152/job/70907540895"
+      }
+    ]
+  },
+  {
     "commitSha": "2f2a5586cb57a403876bd2361938b5683c8df36a",
     "commitTimestamp": "2026-04-11T11:54:42Z",
     "commitMessage": "fix: fix flaky wasm tests  (#13655)",
