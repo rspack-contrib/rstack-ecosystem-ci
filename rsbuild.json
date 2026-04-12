@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c6d430f798bf4a21064ed51d287215aeadee3abe",
+    "commitTimestamp": "2026-04-12T01:24:10Z",
+    "commitMessage": "refactor(plugin-svgr): use import.meta.dirname for loaders (#7483)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24295822634",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24295822634/job/70940560408"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24295822634/job/70940560411"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24295822634/job/70940560412"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24295822634/job/70940560414"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24295822634/job/70940560417"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24295822634/job/70940560419"
+      }
+    ]
+  },
+  {
     "commitSha": "1b311e9466515be59b1a15c1ef734c11d4d560d8",
     "commitTimestamp": "2026-04-11T12:22:24Z",
     "commitMessage": "refactor(plugin-svgr): use internal asset loader (#7482)",
