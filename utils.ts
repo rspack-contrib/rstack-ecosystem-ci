@@ -300,10 +300,20 @@ async function getMonorepoPackages(
     return cached;
   }
   const packages = await getPackages(stackPath);
-  const packageList = packages.packages.map((pkg) => ({
-    name: pkg.packageJson.name,
-    directory: pkg.dir,
-  }));
+  const packageList = packages.packages.flatMap((pkg) => {
+    const { name, private: isPrivate } = pkg.packageJson;
+
+    if (!name || isPrivate) {
+      return [];
+    }
+
+    return [
+      {
+        name,
+        directory: pkg.dir,
+      },
+    ];
+  });
   monorepoPackagesCache[stack] = packageList;
   return packageList;
 }
