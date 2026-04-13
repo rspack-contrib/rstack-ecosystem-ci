@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "be95173b4f7b613649fa85a6829bfade7b941e20",
+    "commitTimestamp": "2026-04-13T06:09:13Z",
+    "commitMessage": "test(e2e): add loadBundle CJS runner coverage (#7486)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24328433197",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24328433197/job/71028602091"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24328433197/job/71028602096"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24328433197/job/71028602098"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24328433197/job/71028602112"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24328433197/job/71028602116"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24328433197/job/71028602124"
+      }
+    ]
+  },
+  {
     "commitSha": "9c479d22619fea2e7d3f54ac3293d19c6bc0941c",
     "commitTimestamp": "2026-04-13T05:38:06Z",
     "commitMessage": "fix(core): avoid string-built CJS runner wrapper (#7485)",
