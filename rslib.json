@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "30648fe43f62e034398caa395e9d7dcbded753ca",
+    "commitTimestamp": "2026-04-13T09:44:31Z",
+    "commitMessage": "fix(create-rslib): add rootDir to tsconfig templates for TypeScript 6.0 compatibility (#1589)",
+    "author": {
+      "name": "intellild",
+      "email": "intellild@outlook.com",
+      "login": "intellild"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24336745740",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24336745740/job/71055377057"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24336745740/job/71055377060"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24336745740/job/71055377069"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24336745740/job/71055377071"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24336745740/job/71055377075"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24336745740/job/71055377108"
+      }
+    ]
+  },
+  {
     "commitSha": "d59dd8d0b8e23c50c24d8d171814a6f7aba5e5c2",
     "commitTimestamp": "2026-04-13T03:59:57Z",
     "commitMessage": "chore(deps): update dependency nano-staged to v1 (#1587)",
