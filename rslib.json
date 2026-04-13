@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "eb8f80587bc636139d5cbd690e65181d92c60a7c",
+    "commitTimestamp": "2026-04-13T03:22:50Z",
+    "commitMessage": "chore(deps): update rstackjs/rstack-ecosystem-ci digest to 45a8018 (#1585)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24324272940",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24324272940/job/71016372656"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24324272940/job/71016372665"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24324272940/job/71016372667"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24324272940/job/71016372668"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24324272940/job/71016372671"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24324272940/job/71016372674"
+      }
+    ]
+  },
+  {
     "commitSha": "359992a0aa6f3c89770dfcc56d405d4ea729c093",
     "commitTimestamp": "2026-04-09T03:52:21Z",
     "commitMessage": "chore(deps): enable pnpm dedupePeers (#1584)",
