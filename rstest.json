@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7c1ec3abb252133c78fd1264d41bab5bdd0d372c",
+    "commitTimestamp": "2026-04-13T06:57:41Z",
+    "commitMessage": "fix(watch): track chunk hashes by file path for dynamic import detection (#1162)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24330034180",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24330034180/job/71033551772"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24330034180/job/71033551775"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24330034180/job/71033551785"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24330034180/job/71033551790"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24330034180/job/71033551798"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24330034180/job/71033551815"
+      }
+    ]
+  },
+  {
     "commitSha": "14a6f658f81fd9e7ab3ef372d94fa90d65f8a02a",
     "commitTimestamp": "2026-04-13T06:16:58Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1163)",
