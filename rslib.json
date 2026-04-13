@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e69da48a4648147e690d0ce0e67b4f4f31bf6b05",
+    "commitTimestamp": "2026-04-13T11:08:54Z",
+    "commitMessage": "fix(dts): align tinyglobby root resolution (#1591)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24340285198",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24340285198/job/71067243283"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24340285198/job/71067243294"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24340285198/job/71067243297"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24340285198/job/71067243298"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24340285198/job/71067243308"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24340285198/job/71067243331"
+      }
+    ]
+  },
+  {
     "commitSha": "30648fe43f62e034398caa395e9d7dcbded753ca",
     "commitTimestamp": "2026-04-13T09:44:31Z",
     "commitMessage": "fix(create-rslib): add rootDir to tsconfig templates for TypeScript 6.0 compatibility (#1589)",
