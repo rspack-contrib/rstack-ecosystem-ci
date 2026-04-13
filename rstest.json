@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "14a6f658f81fd9e7ab3ef372d94fa90d65f8a02a",
+    "commitTimestamp": "2026-04-13T06:16:58Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#1163)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24328677863",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24328677863/job/71029335520"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24328677863/job/71029335521"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24328677863/job/71029335528"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24328677863/job/71029335530"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24328677863/job/71029335535"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24328677863/job/71029335538"
+      }
+    ]
+  },
+  {
     "commitSha": "8051432801aecde888bdd2e0c626d8ad8ee12ea1",
     "commitTimestamp": "2026-04-11T08:42:27Z",
     "commitMessage": "ci(codspeed): enable memory benchmark on PRs (#1161)",
