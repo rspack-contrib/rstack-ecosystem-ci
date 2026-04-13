@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "629365010ef8e73ede1047546c06b024163e3a03",
+    "commitTimestamp": "2026-04-13T07:23:08Z",
+    "commitMessage": "chore(deps): update dependency @rsbuild/plugin-vue-jsx to v2 (#1164)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24330951573",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24330951573/job/71036479011"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24330951573/job/71036479021"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24330951573/job/71036479027"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24330951573/job/71036479028"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24330951573/job/71036479057"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24330951573/job/71036479075"
+      }
+    ]
+  },
+  {
     "commitSha": "7c1ec3abb252133c78fd1264d41bab5bdd0d372c",
     "commitTimestamp": "2026-04-13T06:57:41Z",
     "commitMessage": "fix(watch): track chunk hashes by file path for dynamic import detection (#1162)",
