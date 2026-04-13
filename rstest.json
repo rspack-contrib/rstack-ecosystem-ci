@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9b5f2875a698a389f61dadf3cbf0de1acd4c13a5",
+    "commitTimestamp": "2026-04-13T07:23:31Z",
+    "commitMessage": "chore(deps): update dependency @rspack/plugin-react-refresh to v2 (#1165)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24330965295",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24330965295/job/71036519616"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24330965295/job/71036519619"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24330965295/job/71036519620"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24330965295/job/71036519629"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24330965295/job/71036519630"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24330965295/job/71036519639"
+      }
+    ]
+  },
+  {
     "commitSha": "629365010ef8e73ede1047546c06b024163e3a03",
     "commitTimestamp": "2026-04-13T07:23:08Z",
     "commitMessage": "chore(deps): update dependency @rsbuild/plugin-vue-jsx to v2 (#1164)",
