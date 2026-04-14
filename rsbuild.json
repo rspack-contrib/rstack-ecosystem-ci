@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "97bbbed613655d0df1f881581e3444d35cfa793f",
+    "commitTimestamp": "2026-04-14T13:10:10Z",
+    "commitMessage": "test(e2e): stabilize environment hot send case (#7492)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24400855875",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24400855875/job/71270755929"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24400855875/job/71270755936"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24400855875/job/71270755950"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24400855875/job/71270755959"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24400855875/job/71270756056"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24400855875/job/71270756081"
+      }
+    ]
+  },
+  {
     "commitSha": "4599eee3731c4a61bfe2f1bd4db06e7818f72477",
     "commitTimestamp": "2026-04-14T13:09:52Z",
     "commitMessage": "chore(deps): update all patch dependencies (#7493)",
