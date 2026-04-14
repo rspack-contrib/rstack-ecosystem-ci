@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "24616733f085f763559d52bb4ef6a17b0a76d6f2",
+    "commitTimestamp": "2026-04-14T13:54:11Z",
+    "commitMessage": "feat(create-rsbuild): support create-rstack 2.0.0 (#7494)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24402982967",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24402982967/job/71278440064"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24402982967/job/71278440065"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24402982967/job/71278440083"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24402982967/job/71278440107"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24402982967/job/71278440136"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24402982967/job/71278440203"
+      }
+    ]
+  },
+  {
     "commitSha": "97bbbed613655d0df1f881581e3444d35cfa793f",
     "commitTimestamp": "2026-04-14T13:10:10Z",
     "commitMessage": "test(e2e): stabilize environment hot send case (#7492)",
