@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "2ac3c1b9624c23b230e8bd9a8d534e355e11b685",
+    "commitTimestamp": "2026-04-14T08:11:50Z",
+    "commitMessage": "fix(theme/Link): support custom URI schemes in external URL detection (#3304)",
+    "author": {
+      "name": "Copilot",
+      "email": "198982749+Copilot@users.noreply.github.com",
+      "login": "Copilot"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24388327540",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24388327540/job/71227547676"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24388327540/job/71227547684"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24388327540/job/71227547685"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24388327540/job/71227547690"
+      }
+    ]
+  },
+  {
     "commitSha": "b7e1adc98d62c518bc6502a7e79b449221b7ccbf",
     "commitTimestamp": "2026-04-13T12:24:51Z",
     "commitMessage": "chore(deps): update pnpm-plugin-skills to 0.5.0 (#3305)",
