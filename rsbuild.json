@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "5660f69e9eec04131ab1b1ea7359a24ccb6f0a1b",
+    "commitTimestamp": "2026-04-14T09:28:23Z",
+    "commitMessage": "chore: remove ignored dependencies from renovate config (#7489)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24391550369",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24391550369/job/71238595889"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24391550369/job/71238595898"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24391550369/job/71238595901"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24391550369/job/71238595905"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24391550369/job/71238595915"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24391550369/job/71238595942"
+      }
+    ]
+  },
+  {
     "commitSha": "199ef914dba0d974fd849ba0f244f74f00c516b5",
     "commitTimestamp": "2026-04-14T08:37:37Z",
     "commitMessage": "feat(create-rsbuild): add rstest-best-practices skill entry (#7488)",
