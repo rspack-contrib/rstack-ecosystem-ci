@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4fe38f74581ac69cec7f79d7016ff9d6b453bf72",
+    "commitTimestamp": "2026-04-15T10:40:55Z",
+    "commitMessage": "fix(core): only rewrite requests whose context is in outBase in bundleless mode (#1599)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24450060004",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24450060004/job/71436404426"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24450060004/job/71436404430"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24450060004/job/71436404438"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24450060004/job/71436404440"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24450060004/job/71436404449"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24450060004/job/71436404452"
+      }
+    ]
+  },
+  {
     "commitSha": "5a459e8f1ca28afb642262c6daae83943dcd5e6b",
     "commitTimestamp": "2026-04-14T11:52:17Z",
     "commitMessage": "Release v0.21.1 (#1598)",
