@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d1db27ceca1a3da2f846bed4e84d04bfa31835fa",
+    "commitTimestamp": "2026-04-15T11:54:14Z",
+    "commitMessage": "feat(create-rslib): add conditional optional skills (#1600)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24453106697",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24453106697/job/71446692325"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24453106697/job/71446692332"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24453106697/job/71446692342"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24453106697/job/71446692344"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24453106697/job/71446692352"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24453106697/job/71446692355"
+      }
+    ]
+  },
+  {
     "commitSha": "4fe38f74581ac69cec7f79d7016ff9d6b453bf72",
     "commitTimestamp": "2026-04-15T10:40:55Z",
     "commitMessage": "fix(core): only rewrite requests whose context is in outBase in bundleless mode (#1599)",
