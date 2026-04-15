@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "581a1ff8d5ef27f1ae51527ed44b3728151fd292",
+    "commitTimestamp": "2026-04-15T07:29:49Z",
+    "commitMessage": "feat(reporter): add GitHub step summary for github-actions reporter (#1170)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24442161833",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24442161833/job/71409527458"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24442161833/job/71409527463"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24442161833/job/71409527469"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24442161833/job/71409527484"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24442161833/job/71409527485"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24442161833/job/71409527493"
+      }
+    ]
+  },
+  {
     "commitSha": "4552ade052c6b5dee8c79ea8f4d4fdf9f4083594",
     "commitTimestamp": "2026-04-15T07:18:01Z",
     "commitMessage": "feat(core): support bundleDependencies patterns (#1118)",
