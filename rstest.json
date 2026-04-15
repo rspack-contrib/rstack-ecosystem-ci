@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "78fe73f56f5b2a26d0100b167db28c3d676ad26d",
+    "commitTimestamp": "2026-04-15T07:32:27Z",
+    "commitMessage": "fix(coverage): stream-merge coverage data to reduce memory usage (#1169)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24442710981",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24442710981/job/71411351782"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24442710981/job/71411351785"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24442710981/job/71411351786"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24442710981/job/71411351799"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24442710981/job/71411351801"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24442710981/job/71411351841"
+      }
+    ]
+  },
+  {
     "commitSha": "581a1ff8d5ef27f1ae51527ed44b3728151fd292",
     "commitTimestamp": "2026-04-15T07:29:49Z",
     "commitMessage": "feat(reporter): add GitHub step summary for github-actions reporter (#1170)",
