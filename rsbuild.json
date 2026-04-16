@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "de69ab55317c0db13ca8c152696745fa96693555",
+    "commitTimestamp": "2026-04-16T06:42:32Z",
+    "commitMessage": "feat(create-rsbuild): remove Vue 2 templates (#7501)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24496509027",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24496509027/job/71592622380"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24496509027/job/71592622383"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24496509027/job/71592622389"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24496509027/job/71592622403"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24496509027/job/71592622405"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24496509027/job/71592622421"
+      }
+    ]
+  },
+  {
     "commitSha": "eb1a663d4b55ee550405bbf7b781450b2bb01efd",
     "commitTimestamp": "2026-04-16T06:19:05Z",
     "commitMessage": "fix(create-rsbuild): gate rstest skill by selected tools (#7500)",
