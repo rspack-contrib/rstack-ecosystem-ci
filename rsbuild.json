@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e4c2fc53de6821d1b63cd4b8ca32f04f28ebdad7",
+    "commitTimestamp": "2026-04-16T10:28:30Z",
+    "commitMessage": "chore: normalize tsconfig output paths (#7503)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24505317821",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24505317821/job/71622239504"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24505317821/job/71622239513"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24505317821/job/71622239517"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24505317821/job/71622239520"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24505317821/job/71622239521"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24505317821/job/71622239527"
+      }
+    ]
+  },
+  {
     "commitSha": "19e5f5479b01ecd2cb113259ca2614f957fc0dd8",
     "commitTimestamp": "2026-04-16T07:30:16Z",
     "commitMessage": "feat(create-rsbuild): add react best practices skill (#7502)",
