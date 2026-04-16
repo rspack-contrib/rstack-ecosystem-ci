@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "eb1a663d4b55ee550405bbf7b781450b2bb01efd",
+    "commitTimestamp": "2026-04-16T06:19:05Z",
+    "commitMessage": "fix(create-rsbuild): gate rstest skill by selected tools (#7500)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24496232027",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24496232027/job/71591713884"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24496232027/job/71591713892"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24496232027/job/71591713905"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24496232027/job/71591713908"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24496232027/job/71591713912"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24496232027/job/71591713993"
+      }
+    ]
+  },
+  {
     "commitSha": "11a3825fa56a3103ead48c302c47768c7177af78",
     "commitTimestamp": "2026-04-16T02:43:30Z",
     "commitMessage": "chore(deps): update dependency hono to v4.12.14 [security] (#7499)",
