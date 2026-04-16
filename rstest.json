@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b6019624aee8af53d1bf6a3dd1b6f1b414c1edf4",
+    "commitTimestamp": "2026-04-16T03:58:55Z",
+    "commitMessage": "ci: add paths filter and concurrency to CI workflows (#1175)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24491599013",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24491599013/job/71577579470"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24491599013/job/71577579481"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24491599013/job/71577579483"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24491599013/job/71577579486"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24491599013/job/71577579489"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24491599013/job/71577579495"
+      }
+    ]
+  },
+  {
     "commitSha": "3fea26b2e6d4874e62c1226bd98148d6c49e1197",
     "commitTimestamp": "2026-04-16T02:59:24Z",
     "commitMessage": "fix(core): auto-create default export for factory mock of CJS modules (#1174)",
