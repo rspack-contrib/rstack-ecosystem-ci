@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "19e5f5479b01ecd2cb113259ca2614f957fc0dd8",
+    "commitTimestamp": "2026-04-16T07:30:16Z",
+    "commitMessage": "feat(create-rsbuild): add react best practices skill (#7502)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24497933639",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24497933639/job/71597210558"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24497933639/job/71597210569"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24497933639/job/71597210576"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24497933639/job/71597210583"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24497933639/job/71597210599"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24497933639/job/71597210697"
+      }
+    ]
+  },
+  {
     "commitSha": "de69ab55317c0db13ca8c152696745fa96693555",
     "commitTimestamp": "2026-04-16T06:42:32Z",
     "commitMessage": "feat(create-rsbuild): remove Vue 2 templates (#7501)",
