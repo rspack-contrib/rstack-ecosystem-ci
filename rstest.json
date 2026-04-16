@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "3fea26b2e6d4874e62c1226bd98148d6c49e1197",
+    "commitTimestamp": "2026-04-16T02:59:24Z",
+    "commitMessage": "fix(core): auto-create default export for factory mock of CJS modules (#1174)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24489620882",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24489620882/job/71571723933"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24489620882/job/71571723934"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24489620882/job/71571723937"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24489620882/job/71571723943"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24489620882/job/71571723950"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24489620882/job/71571723981"
+      }
+    ]
+  },
+  {
     "commitSha": "78fe73f56f5b2a26d0100b167db28c3d676ad26d",
     "commitTimestamp": "2026-04-15T07:32:27Z",
     "commitMessage": "fix(coverage): stream-merge coverage data to reduce memory usage (#1169)",
