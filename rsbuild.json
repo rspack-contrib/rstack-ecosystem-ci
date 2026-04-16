@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "11a3825fa56a3103ead48c302c47768c7177af78",
+    "commitTimestamp": "2026-04-16T02:43:30Z",
+    "commitMessage": "chore(deps): update dependency hono to v4.12.14 [security] (#7499)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24489182254",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24489182254/job/71570467358"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24489182254/job/71570467362"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24489182254/job/71570467363"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24489182254/job/71570467365"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24489182254/job/71570467368"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24489182254/job/71570467374"
+      }
+    ]
+  },
+  {
     "commitSha": "127067541023acdf0a39fe16e27ffec9866a52ec",
     "commitTimestamp": "2026-04-15T09:34:40Z",
     "commitMessage": "docs: clarify output.externals usage (#7497)",
