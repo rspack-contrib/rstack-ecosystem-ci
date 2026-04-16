@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "dbf6901f1fae0fb6673a2977b1d9d6fa13ba8ac9",
+    "commitTimestamp": "2026-04-16T05:53:02Z",
+    "commitMessage": "chore: replace nano-staged + simple-git-hooks with lefthook (#1176)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24494547759",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24494547759/job/71586454938"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24494547759/job/71586454942"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24494547759/job/71586454945"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24494547759/job/71586454951"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24494547759/job/71586454952"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24494547759/job/71586454959"
+      }
+    ]
+  },
+  {
     "commitSha": "b6019624aee8af53d1bf6a3dd1b6f1b414c1edf4",
     "commitTimestamp": "2026-04-16T03:58:55Z",
     "commitMessage": "ci: add paths filter and concurrency to CI workflows (#1175)",
