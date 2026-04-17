@@ -1,5 +1,5 @@
 import { useWindowVirtualizer } from '@tanstack/react-virtual';
-import { useCallback, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -10,6 +10,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select';
+import { buildAgentPrompt } from '@/lib/agent-prompt';
 import { cn } from '@/lib/utils';
 import type { EcosystemCommitRecord } from '@/types';
 
@@ -80,6 +81,68 @@ export function Timeline({
   const [internalSelectedSuite, setInternalSelectedSuite] =
     useState<string>('all');
   const [internalSearchQuery, setInternalSearchQuery] = useState('');
+  const [copyState, setCopyState] = useState<{
+    sha: string;
+    status: 'copied' | 'failed';
+  } | null>(null);
+  const copyTimerRef = useRef<number | null>(null);
+
+  useEffect(
+    () => () => {
+      if (copyTimerRef.current != null) {
+        window.clearTimeout(copyTimerRef.current);
+      }
+    },
+    [],
+  );
+
+  const handleCopyPrompt = useCallback(
+    async (entry: EcosystemCommitRecord) => {
+      if (!externalSelectedStack) return;
+      const prompt = buildAgentPrompt({
+        entry,
+        stackId: externalSelectedStack,
+        history: entries,
+      });
+
+      const setState = (status: 'copied' | 'failed') => {
+        setCopyState({ sha: entry.commitSha, status });
+        if (copyTimerRef.current != null) {
+          window.clearTimeout(copyTimerRef.current);
+        }
+        copyTimerRef.current = window.setTimeout(() => {
+          setCopyState(null);
+          copyTimerRef.current = null;
+        }, 2000);
+      };
+
+      try {
+        await navigator.clipboard.writeText(prompt);
+        setState('copied');
+        return;
+      } catch {
+        // Fall through to legacy execCommand path (headless / non-secure contexts).
+      }
+
+      try {
+        const ta = document.createElement('textarea');
+        ta.value = prompt;
+        ta.setAttribute('readonly', '');
+        ta.style.position = 'fixed';
+        ta.style.top = '0';
+        ta.style.left = '0';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        const ok = document.execCommand('copy');
+        document.body.removeChild(ta);
+        setState(ok ? 'copied' : 'failed');
+      } catch {
+        setState('failed');
+      }
+    },
+    [entries, externalSelectedStack],
+  );
 
   // Use external state if provided, otherwise use internal state
   const selectedSuite = externalSelectedSuite ?? internalSelectedSuite;
@@ -280,12 +343,43 @@ export function Timeline({
                 </div>
 
                 <div className="flex flex-none items-center gap-2 sm:flex-col sm:items-end">
-                  <Badge
-                    variant={commitStyles.badge}
-                    className="px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide sm:px-2.5"
-                  >
-                    {commitStyles.label}
-                  </Badge>
+                  <div className="flex items-center gap-2">
+                    {entry.overallStatus === 'failure' ? (
+                      <button
+                        type="button"
+                        onClick={() => handleCopyPrompt(entry)}
+                        className="relative inline-flex w-[104px] items-center justify-center overflow-hidden rounded-full border border-transparent px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-[#e9e9e9] sm:w-[110px] sm:px-2.5"
+                        title="Copy a prompt to paste into an AI agent to diagnose this failure"
+                      >
+                        <span
+                          aria-hidden
+                          className="absolute inset-0 transition-[filter]"
+                          style={{
+                            backgroundImage:
+                              'linear-gradient(135deg,#a5f3fc 0%,#c4b5fd 22%,#f9a8d4 45%,#fde68a 68%,#bbf7d0 88%,#a5f3fc 100%)',
+                            filter:
+                              copyState?.sha === entry.commitSha &&
+                              copyState.status === 'copied'
+                                ? 'none'
+                                : 'brightness(0.42)',
+                          }}
+                        />
+                        <span className="relative">
+                          {copyState?.sha === entry.commitSha
+                            ? copyState.status === 'copied'
+                              ? 'Copied!'
+                              : 'Copy failed'
+                            : 'Inspect prompt'}
+                        </span>
+                      </button>
+                    ) : null}
+                    <Badge
+                      variant={commitStyles.badge}
+                      className="px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide sm:px-2.5"
+                    >
+                      {commitStyles.label}
+                    </Badge>
+                  </div>
                   <a
                     href={entry.workflowRunUrl}
                     className="text-[11px] text-muted-foreground transition-[color] hover:text-foreground/90"
@@ -347,7 +441,7 @@ export function Timeline({
         </div>
       );
     },
-    [filteredEntries.length, formatter],
+    [filteredEntries.length, formatter, handleCopyPrompt, copyState],
   );
 
   return (
