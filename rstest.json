@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a012211cf5af210be95721b407f17f532b7b8616",
+    "commitTimestamp": "2026-04-17T03:13:29Z",
+    "commitMessage": "feat: provide unique testId via testContext (#1178)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24545786046",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24545786046/job/71760949920"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24545786046/job/71760949923"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24545786046/job/71760949924"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24545786046/job/71760949928"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24545786046/job/71760949930"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24545786046/job/71760949932"
+      }
+    ]
+  },
+  {
     "commitSha": "dbf6901f1fae0fb6673a2977b1d9d6fa13ba8ac9",
     "commitTimestamp": "2026-04-16T05:53:02Z",
     "commitMessage": "chore: replace nano-staged + simple-git-hooks with lefthook (#1176)",
