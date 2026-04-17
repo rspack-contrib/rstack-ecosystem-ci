@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "0006a7ebfcd8e362309865744b2d7bfd9119f397",
+    "commitTimestamp": "2026-04-17T03:47:22Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#3302)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24546661426",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24546661426/job/71763635014"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24546661426/job/71763635017"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24546661426/job/71763635021"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24546661426/job/71763635025"
+      }
+    ]
+  },
+  {
     "commitSha": "c4b60b3b6224edf3c2b5a10cfd201604efb06c15",
     "commitTimestamp": "2026-04-17T03:34:59Z",
     "commitMessage": "chore(infra): migrate to skills-package-manager CLI and upgrade to skills-package-manager@0.7.0 (#3312)",
