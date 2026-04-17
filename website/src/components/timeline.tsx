@@ -348,7 +348,13 @@ export function Timeline({
                       <button
                         type="button"
                         onClick={() => handleCopyPrompt(entry)}
-                        className="relative inline-flex w-[104px] items-center justify-center overflow-hidden rounded-full border border-transparent px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-[#e9e9e9] sm:w-[110px] sm:px-2.5"
+                        className={cn(
+                          'relative inline-flex w-[104px] items-center justify-center overflow-hidden rounded-full border border-transparent px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide transition-colors sm:w-[110px] sm:px-2.5',
+                          copyState?.sha === entry.commitSha &&
+                            copyState.status === 'copied'
+                            ? 'text-black'
+                            : 'text-[#e9e9e9]',
+                        )}
                         title="Copy a prompt to paste into an AI agent to diagnose this failure"
                       >
                         <span
