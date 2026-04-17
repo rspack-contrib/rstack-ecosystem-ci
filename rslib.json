@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "1e782fd1e9af4ff47e9d4123d0303283f8bb20c4",
+    "commitTimestamp": "2026-04-17T03:14:57Z",
+    "commitMessage": "chore: replace changeset release flow with release skill (#1604)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24545863584",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24545863584/job/71761200185"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24545863584/job/71761200193"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24545863584/job/71761200198"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24545863584/job/71761200200"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24545863584/job/71761200203"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24545863584/job/71761200204"
+      }
+    ]
+  },
+  {
     "commitSha": "a158f618d507a6cbdccb90108ebc9d6c7d52f661",
     "commitTimestamp": "2026-04-16T11:52:16Z",
     "commitMessage": "chore: align rslint defaults and rstest commands (#1603)",
