@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "767220e0defc0cd2a927e57dafc67d4a6bb018db",
+    "commitTimestamp": "2026-04-17T04:06:27Z",
+    "commitMessage": "release: v2.0.0-rc.4 (#7505)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24547101489",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24547101489/job/71764983851"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24547101489/job/71764983855"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24547101489/job/71764983857"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24547101489/job/71764983859"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24547101489/job/71764983861"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24547101489/job/71764983871"
+      }
+    ]
+  },
+  {
     "commitSha": "d27d4a48a69784bf8c171432d460e5603fa9b12e",
     "commitTimestamp": "2026-04-17T03:47:22Z",
     "commitMessage": "feat(deps): update @rspack/core to 2.0.0-rc.3 (#7504)",
