@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2fd7997e1c23aa0dcdb18c214de4b7291cb448c0",
+    "commitTimestamp": "2026-04-17T06:07:24Z",
+    "commitMessage": "fix(core): improve bun compatibility and tty status rendering (#1179)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24550581229",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24550581229/job/71775331446"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24550581229/job/71775331450"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24550581229/job/71775331456"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24550581229/job/71775331467"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24550581229/job/71775331473"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24550581229/job/71775331488"
+      }
+    ]
+  },
+  {
     "commitSha": "a012211cf5af210be95721b407f17f532b7b8616",
     "commitTimestamp": "2026-04-17T03:13:29Z",
     "commitMessage": "feat: provide unique testId via testContext (#1178)",
