@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "217a6ef6b0542674b755baed032a0047ec554292",
+    "commitTimestamp": "2026-04-17T07:59:17Z",
+    "commitMessage": "release: 0.9.8 (#1185)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24554525161",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24554525161/job/71787673005"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24554525161/job/71787673010"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24554525161/job/71787673017"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24554525161/job/71787673023"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24554525161/job/71787673044"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24554525161/job/71787673428"
+      }
+    ]
+  },
+  {
     "commitSha": "e5ef150f47aef25049bb46b0d16d900ba6901d99",
     "commitTimestamp": "2026-04-17T07:41:10Z",
     "commitMessage": "fix(core): preserve esm sourcemaps in bun vm modules (#1184)",
