@@ -34,14 +34,19 @@ function isReleaseCommit(message: string): boolean {
 }
 
 interface HistoryWindow {
+  /** Newest → oldest, inclusive of both the target commit and the prev release (when found). */
   window: EcosystemCommitHistory;
+  /** The prev release commit that bounds the window (included as the last entry of `window`). */
   bound: EcosystemCommitRecord | null;
 }
 
 /**
  * Returns the slice of history starting AT the target commit and extending
- * backward to (not including) the most recent release commit older than the
- * target. Capped at WINDOW_CAP entries when no release commit is found.
+ * backward through (and INCLUDING) the most recent release commit older than
+ * the target. Capped at WINDOW_CAP entries when no release commit is found.
+ *
+ * The prev release commit is included because the diagnosis flow may need to
+ * compare its failure signature against the current one (Case B below).
  */
 function buildWindow(
   history: EcosystemCommitHistory,
@@ -57,11 +62,11 @@ function buildWindow(
 
   for (let i = startIdx; i < history.length; i++) {
     const entry = history[i];
+    windowEntries.push(entry);
     if (i > startIdx && isReleaseCommit(entry.commitMessage)) {
       bound = entry;
       break;
     }
-    windowEntries.push(entry);
     if (windowEntries.length >= WINDOW_CAP) {
       break;
     }
@@ -70,15 +75,26 @@ function buildWindow(
   return { window: windowEntries, bound };
 }
 
+interface SuiteTableResult {
+  table: string;
+  /** True if every row with data for this suite is a failure. */
+  allFailure: boolean;
+}
+
 function buildSuiteTable(
   suiteName: string,
   window: EcosystemCommitHistory,
-): string {
+  boundSha: string | null,
+): SuiteTableResult {
+  // Render oldest → newest so that a ✓→✗ transition reads naturally
+  // top-to-bottom (forward in time).
+  const ordered = [...window].reverse();
+
   const rows: string[] = [];
   let seenSuccess = false;
   let sawSuite = false;
 
-  for (const entry of window) {
+  for (const entry of ordered) {
     const suite = entry.suites.find((s) => s.name === suiteName);
     if (!suite) {
       continue;
@@ -94,23 +110,24 @@ function buildSuiteTable(
           ? '✓'
           : '— (cancelled)';
     const msg = entry.commitMessage.replace(/\|/g, '\\|');
-    rows.push(`| ${shortSha(entry.commitSha)} | ${msg} | ${statusCell} |`);
+    const tag = entry.commitSha === boundSha ? ' _(prev release)_' : '';
+    rows.push(
+      `| ${shortSha(entry.commitSha)} | ${msg}${tag} | ${statusCell} |`,
+    );
   }
 
   const header =
-    '| Commit | Message | Status / Log |\n|--------|---------|--------------|';
+    '| Commit (oldest → newest) | Message | Status / Log |\n|--------------------------|---------|--------------|';
 
   const body =
     rows.length > 0
       ? rows.join('\n')
       : '| — | (suite not present in window) | — |';
 
-  const note =
-    sawSuite && !seenSuccess
-      ? '\n\n_Note: this suite has been ✗ for the entire window — there is no ✓→✗ transition. Treat the oldest ✗ row as the bisect starting point and inspect every commit after it._'
-      : '';
-
-  return `${header}\n${body}${note}`;
+  return {
+    table: `${header}\n${body}`,
+    allFailure: sawSuite && !seenSuccess,
+  };
 }
 
 export interface BuildPromptInput {
@@ -139,20 +156,37 @@ export function buildAgentPrompt({
   ).sort();
 
   const boundDescription = bound
-    ? `bounded by the most recent release commit (\`${shortSha(bound.commitSha)}\` — "${bound.commitMessage}")`
+    ? `bounded by (and including) the most recent release commit \`${shortSha(bound.commitSha)}\` — "${bound.commitMessage}"`
     : `capped at the ${window.length} most recent commits (no release commit found within that range)`;
 
-  const perSuiteSections = failingSuites
-    .map(
-      (suite) => `### ${suite.name}\n\n${buildSuiteTable(suite.name, window)}`,
-    )
+  const suiteSections = failingSuites.map((suite) => {
+    const { table, allFailure } = buildSuiteTable(
+      suite.name,
+      window,
+      bound?.commitSha ?? null,
+    );
+    return { name: suite.name, table, allFailure };
+  });
+
+  const perSuiteMarkdown = suiteSections
+    .map(({ name, table }) => `### ${name}\n\n${table}`)
     .join('\n\n');
+
+  const anyAllFailure = suiteSections.some((s) => s.allFailure);
 
   const failingSuiteList = failingSuites.map((s) => `\`${s.name}\``).join(', ');
 
   const suiteListSentence = suiteNames.length
     ? `Each "suite" is one downstream project (${suiteNames.map((n) => `\`${n}\``).join(', ')}) running its own test/build command against the ${stackId} under test.`
     : `Each "suite" is one downstream project running its own test/build command against the ${stackId} under test.`;
+
+  const allFailureBlock = anyAllFailure
+    ? `
+- **Case B — all ✗ in the window.** At least one suite has been failing since (or before) the prev release row. For those suites, compare the current failure log against the **prev release row's** log:
+  - **Same root cause** (same error at a similar spot — you decide; don't require identical stack frames): stop here. Report "this has been broken since at least ${bound ? shortSha(bound.commitSha) : 'the window boundary'}; the current run is the same failure."
+  - **Different root cause**: the failure mutated somewhere in between. Binary-search the ✗ rows to find where the signature changes (≈log₂N log fetches, not N). Report that pivot commit as the one that changed the failure mode.
+`
+    : '';
 
   return `I'm a maintainer of ${stackId}. Please help me investigate why the rstack-ecosystem-ci pipeline is failing on a recent commit to ${stackId} \`main\`.
 
@@ -167,32 +201,47 @@ rstack-ecosystem-ci (https://github.com/rstackjs/rstack-ecosystem-ci) is an inte
 - Eco-CI workflow run: ${entry.workflowRunUrl}
 - Failing suites: ${failingSuiteList}
 
-## Per-suite history (current commit → previous release)
+## Per-suite history (current commit → prev release, inclusive)
 
-Tables below are pre-filtered eco-ci history for each failing suite, ${boundDescription}. Each row is one eco-ci run against a ${stackId} \`main\` commit (newest → oldest, top-to-bottom). The first ✓→✗ transition reading *bottom-up* (i.e. forward in time) marks the candidate breaking commit.
+Tables below are pre-filtered eco-ci history for each failing suite, ${boundDescription}. Rows are **oldest → newest top-to-bottom**, so ✓→✗ transitions read forward in time. The prev release row is tagged \`(prev release)\` and is the hard lower bound — don't look further back. \`✗\` rows include the job log URL; \`✓\` rows are shown without a URL (skip them).
 
-${perSuiteSections}
+${perSuiteMarkdown}
 
 ## What I need you to do
 
-For each failing suite:
+Treat each failing suite independently and produce one diagnosis per suite. Two shapes to handle:
 
-1. **Find the breaking commit.** The first commit in the table where status went ✓ → ✗ (reading bottom-up, i.e. forward in time) is the candidate. Fetch \`--log-failed\` for the current commit *and* the candidate:
+- **Case A — there is a ✓→✗ transition.** The \`✗\` row directly below the last \`✓\` is the candidate breaking commit. Read its log and the current commit's log and confirm they look like the same underlying failure. If they clearly don't, walk forward from the candidate until the signature matches the current one, and report that commit instead.
+${allFailureBlock}
+Use rough judgement on "same root cause" — matching error message and roughly-similar failure spot is enough. You don't need identical stack traces or file paths.
 
-   \`\`\`
-   gh run view <job-id> --repo rstackjs/rstack-ecosystem-ci --log-failed
-   \`\`\`
+### Pulling logs
 
-   (job id = last path segment of the log URL). Confirm both logs share the same error signature — same exception class, same file / symbol, same assertion. If they diverge, the current failure is a *different* regression; report the commit where the current signature first appears instead.
+Job ID is the **last path segment** of each log URL (URL shape: \`.../actions/runs/<runId>/job/<jobId>\`). Pull the log with:
 
-2. **Link the PR.** Extract \`(#NNNN)\` from the breaking commit's message → \`https://github.com/${upstreamRepo}/pull/NNNN\`. Include author and date.
+    gh run view --job <job-id> --repo rstackjs/rstack-ecosystem-ci --log | grep -E -i -C 3 'error|fail|panic|✖' | head -200
 
-3. **Brief root-cause analysis** (3–5 sentences per suite). Read the breaking commit's diff plus the failure log and say *plausibly* what in the change broke the suite. Stay surface-level.
+If that misses the real failure, fall back to the full log (\`gh run view --job <job-id> --repo rstackjs/rstack-ecosystem-ci --log\`) or the HTML URL directly.
 
-## Notes
+### Reading ${stackId} commits
 
-- You are likely inside a \`${upstreamRepo}\` checkout. Always pass \`--repo rstackjs/rstack-ecosystem-ci\` to \`gh run view\` / \`gh api\` calls — otherwise they resolve to the wrong repo.
-- Don't clone the eco-ci repo. Read via \`gh\` only.
-- If a log is long, grep the first \`error|FAIL|panic|✖\` to locate the failure.
+You are likely inside a \`${upstreamRepo}\` checkout that may be behind \`main\` — fetch first so every SHA below resolves locally:
+
+    git fetch origin main
+
+Then use \`git show <sha>\` / \`git log <sha>\` directly instead of \`gh api\`. Extract \`(#NNNN)\` from each breaking commit's message for the PR link: \`https://github.com/${upstreamRepo}/pull/NNNN\`.
+
+## Deliverable
+
+Per failing suite, one short section with:
+
+1. **Attribution line** — pick exactly one shape based on what you found:
+   - Case A (✓→✗ transition): \`This failure started from <sha> — "<commit msg>"\` + PR link + author + date.
+   - Case B, same root cause as prev release: \`The prev release ${bound ? shortSha(bound.commitSha) : '(window boundary)'} was already failing with this same error.\`
+   - Case B, pivot found mid-window: \`This specific failure started from <sha> — "<commit msg>"; before that the suite was failing for a different reason already at prev release ${bound ? shortSha(bound.commitSha) : '(window boundary)'}.\` Include PR link + author + date for the pivot commit.
+2. **Root cause, 3–5 sentences.** Read the diff and the failure log; say plausibly what in that change broke the suite. Stay surface-level; it's OK to say "likely".
+3. **Evidence**: the log URL(s) you actually read.
+
+Keep it tight — I'm triaging, not writing a postmortem.
 `;
 }
