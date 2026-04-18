@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "24c17fb8dcb3cdb8d0dcd819e344da5dac0a03c5",
+    "commitTimestamp": "2026-04-18T15:07:21Z",
+    "commitMessage": "ci(codspeed): run CPU benchmark weekly instead of every 6 hours (#1191)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24607468148",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24607468148/job/71955986549"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24607468148/job/71955986551"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24607468148/job/71955986552"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24607468148/job/71955986553"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24607468148/job/71955986556"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24607468148/job/71955986557"
+      }
+    ]
+  },
+  {
     "commitSha": "518ab81f3e15729777c7faff574f01ff9d7bca0d",
     "commitTimestamp": "2026-04-17T09:45:24Z",
     "commitMessage": "fix: should respect user's resolve.conditionNames configuration (#1186)",
