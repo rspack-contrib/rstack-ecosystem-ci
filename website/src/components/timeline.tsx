@@ -1,5 +1,13 @@
 import { useWindowVirtualizer } from '@tanstack/react-virtual';
-import { useCallback, useMemo, useState } from 'react';
+import {
+  useCallback,
+  useEffect,
+  useLayoutEffect,
+  useMemo,
+  useRef,
+  useState,
+} from 'react';
+import { createPortal } from 'react-dom';
 
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -10,8 +18,16 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select';
-import { cn } from '@/lib/utils';
+import { buildAgentPrompt } from '@/lib/agent-prompt';
+import { cn, shortSha } from '@/lib/utils';
 import type { EcosystemCommitRecord } from '@/types';
+
+type CopyStatus = 'copied' | 'failed';
+
+const COPY_LABELS: Record<CopyStatus, string> = {
+  copied: 'Copied!',
+  failed: 'Copy failed',
+};
 
 const commitStatusStyles = {
   success: {
@@ -52,6 +68,105 @@ const suiteStatusStyles = {
   },
 } as const;
 
+interface InspectPromptButtonProps {
+  copyStatus: CopyStatus | null;
+  stackLabel: string | null;
+  onClick: () => void;
+}
+
+const INSPECT_BUTTON_BG = '#2747c5';
+const INSPECT_BUTTON_BG_COPIED = '#ffffff';
+const INSPECT_BUTTON_TEXT = '#e9e9e9';
+const INSPECT_BUTTON_BORDER = '#6387e3';
+
+function InspectPromptButton({
+  copyStatus,
+  stackLabel,
+  onClick,
+}: InspectPromptButtonProps) {
+  const buttonRef = useRef<HTMLButtonElement>(null);
+  const [tooltipPos, setTooltipPos] = useState<{
+    top: number;
+    left: number;
+  } | null>(null);
+  const isCopied = copyStatus === 'copied';
+
+  useLayoutEffect(() => {
+    if (!isCopied) {
+      setTooltipPos(null);
+      return;
+    }
+    const update = () => {
+      const rect = buttonRef.current?.getBoundingClientRect();
+      if (!rect) return;
+      const next = { top: rect.top, left: rect.left + rect.width / 2 };
+      // Diff numerically — without this, every scroll tick allocates a
+      // fresh object and re-renders the portal, defeating React's bail-out.
+      setTooltipPos((prev) =>
+        prev && prev.top === next.top && prev.left === next.left ? prev : next,
+      );
+    };
+    update();
+    window.addEventListener('scroll', update, true);
+    window.addEventListener('resize', update);
+    return () => {
+      window.removeEventListener('scroll', update, true);
+      window.removeEventListener('resize', update);
+    };
+  }, [isCopied]);
+
+  return (
+    <>
+      <button
+        ref={buttonRef}
+        type="button"
+        onClick={onClick}
+        className="relative inline-flex w-[104px] items-center justify-center overflow-hidden rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide transition-colors duration-200 sm:w-[110px] sm:px-2.5"
+        style={{ color: isCopied ? INSPECT_BUTTON_BG : INSPECT_BUTTON_TEXT }}
+        title="Copy a prompt to paste into an AI agent to diagnose this failure"
+      >
+        <span
+          aria-hidden
+          className="absolute inset-0 transition-colors duration-200"
+          style={{
+            backgroundColor: isCopied
+              ? INSPECT_BUTTON_BG_COPIED
+              : INSPECT_BUTTON_BG,
+          }}
+        />
+        <span
+          aria-hidden
+          className="absolute inset-0 rounded-full border border-dashed transition-colors duration-200"
+          style={{
+            borderColor: isCopied
+              ? INSPECT_BUTTON_BG_COPIED
+              : INSPECT_BUTTON_BORDER,
+          }}
+        />
+        <span className="relative">
+          {copyStatus ? COPY_LABELS[copyStatus] : 'Inspect prompt'}
+        </span>
+      </button>
+      {isCopied && stackLabel && tooltipPos
+        ? createPortal(
+            <div
+              role="tooltip"
+              className="pointer-events-none fixed z-50 -translate-x-1/2 -translate-y-full whitespace-nowrap rounded-md border border-border/60 bg-black/95 px-3 py-1.5 text-[11px] font-medium text-foreground shadow-lg"
+              style={{ top: tooltipPos.top - 8, left: tooltipPos.left }}
+            >
+              Paste the prompt to agent within {stackLabel} to inspect
+              <span
+                aria-hidden
+                className="absolute left-1/2 top-full h-2 w-2 -translate-x-1/2 -translate-y-1/2 rotate-45 border-b border-r border-border/60 bg-black/95"
+              />
+            </div>,
+            document.body,
+          )
+        : null}
+    </>
+  );
+}
+
 interface TimelineProps {
   entries: EcosystemCommitRecord[];
   selectedSuite?: string;
@@ -80,8 +195,74 @@ export function Timeline({
   const [internalSelectedSuite, setInternalSelectedSuite] =
     useState<string>('all');
   const [internalSearchQuery, setInternalSearchQuery] = useState('');
+  const [copyState, setCopyState] = useState<{
+    sha: string;
+    status: CopyStatus;
+  } | null>(null);
+  const copyTimerRef = useRef<number | null>(null);
 
-  // Use external state if provided, otherwise use internal state
+  useEffect(
+    () => () => {
+      if (copyTimerRef.current != null) {
+        window.clearTimeout(copyTimerRef.current);
+      }
+    },
+    [],
+  );
+
+  const handleCopyPrompt = useCallback(
+    async (entry: EcosystemCommitRecord) => {
+      if (!externalSelectedStack) return;
+      // When a suite filter is active, `entry` comes from `suiteFilteredEntries`
+      // with a narrowed `suites` array — look up the unfiltered record by SHA
+      // so the prompt reflects every failing suite on the commit.
+      const fullEntry =
+        entries.find((e) => e.commitSha === entry.commitSha) ?? entry;
+      const prompt = buildAgentPrompt({
+        entry: fullEntry,
+        stackId: externalSelectedStack,
+        history: entries,
+      });
+
+      const setState = (status: CopyStatus) => {
+        setCopyState({ sha: entry.commitSha, status });
+        if (copyTimerRef.current != null) {
+          window.clearTimeout(copyTimerRef.current);
+        }
+        copyTimerRef.current = window.setTimeout(() => {
+          setCopyState(null);
+          copyTimerRef.current = null;
+        }, 2000);
+      };
+
+      try {
+        await navigator.clipboard.writeText(prompt);
+        setState('copied');
+        return;
+      } catch {
+        // Fall through to legacy execCommand path (headless / non-secure contexts).
+      }
+
+      try {
+        const ta = document.createElement('textarea');
+        ta.value = prompt;
+        ta.setAttribute('readonly', '');
+        ta.style.position = 'fixed';
+        ta.style.top = '0';
+        ta.style.left = '0';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        const ok = document.execCommand('copy');
+        document.body.removeChild(ta);
+        setState(ok ? 'copied' : 'failed');
+      } catch {
+        setState('failed');
+      }
+    },
+    [entries, externalSelectedStack],
+  );
+
   const selectedSuite = externalSelectedSuite ?? internalSelectedSuite;
   const setSelectedSuite = onSuiteChange ?? setInternalSelectedSuite;
   const searchQuery = externalSearchQuery ?? internalSearchQuery;
@@ -96,7 +277,6 @@ export function Timeline({
     [],
   );
 
-  // Get all unique suite names
   const allSuiteNames = useMemo(() => {
     const names = new Set<string>();
     for (const entry of entries) {
@@ -107,7 +287,6 @@ export function Timeline({
     return Array.from(names).sort();
   }, [entries]);
 
-  // Filter entries based on selected suite
   const suiteFilteredEntries = useMemo(() => {
     if (selectedSuite === 'all') {
       return entries;
@@ -120,7 +299,6 @@ export function Timeline({
       .filter((entry) => entry.suites.length > 0);
   }, [entries, selectedSuite]);
 
-  // Filter entries based on search query
   const filteredEntries = useMemo(() => {
     const q = searchQuery.trim().toLowerCase();
     if (!q) {
@@ -159,10 +337,11 @@ export function Timeline({
       const commitStyles =
         commitStatusStyles[entry.overallStatus] ?? commitStatusStyles.failure;
       const formattedDate = formatter.format(new Date(entry.commitTimestamp));
-      const shortSha = entry.commitSha.slice(0, 7);
+      const sha = shortSha(entry.commitSha);
       const commitUrl = `https://github.com/${entry.repository.fullName}/commit/${entry.commitSha}`;
       const isFirst = index === 0;
       const isLast = index === filteredEntries.length - 1;
+      const stackLabel = selectedStackMeta?.label;
       const isRenovateBot = entry.author?.login === 'renovate[bot]';
       const avatarUrl = isRenovateBot
         ? 'https://avatars.githubusercontent.com/in/2740?s=80&v=4'
@@ -244,7 +423,7 @@ export function Timeline({
                       target="_blank"
                       rel="noreferrer"
                     >
-                      {shortSha}
+                      {sha}
                       <span className="text-[10px] text-muted-foreground/80">
                         ↗
                       </span>
@@ -280,12 +459,25 @@ export function Timeline({
                 </div>
 
                 <div className="flex flex-none items-center gap-2 sm:flex-col sm:items-end">
-                  <Badge
-                    variant={commitStyles.badge}
-                    className="px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide sm:px-2.5"
-                  >
-                    {commitStyles.label}
-                  </Badge>
+                  <div className="flex items-center gap-2">
+                    {entry.overallStatus === 'failure' ? (
+                      <InspectPromptButton
+                        copyStatus={
+                          copyState?.sha === entry.commitSha
+                            ? copyState.status
+                            : null
+                        }
+                        stackLabel={stackLabel ?? null}
+                        onClick={() => handleCopyPrompt(entry)}
+                      />
+                    ) : null}
+                    <Badge
+                      variant={commitStyles.badge}
+                      className="px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide sm:px-2.5"
+                    >
+                      {commitStyles.label}
+                    </Badge>
+                  </div>
                   <a
                     href={entry.workflowRunUrl}
                     className="text-[11px] text-muted-foreground transition-[color] hover:text-foreground/90"
@@ -347,7 +539,13 @@ export function Timeline({
         </div>
       );
     },
-    [filteredEntries.length, formatter],
+    [
+      filteredEntries.length,
+      formatter,
+      handleCopyPrompt,
+      copyState,
+      selectedStackMeta,
+    ],
   );
 
   return (
