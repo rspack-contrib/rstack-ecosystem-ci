@@ -1,83 +1,5 @@
 [
   {
-    "commitSha": "e2d96850eaff8b3c5df2f53ffc71bb65bd03363c",
-    "commitTimestamp": "2026-04-18T01:05:25Z",
-    "commitMessage": "chore: bump emnapi from `1.9.2` to `1.10.0` (#13744)",
-    "author": {
-      "name": "CPunisher",
-      "email": "1343316114@qq.com",
-      "login": "CPunisher"
-    },
-    "repository": {
-      "fullName": "web-infra-dev/rspack",
-      "name": "rspack"
-    },
-    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24593466033",
-    "overallStatus": "failure",
-    "suites": [
-      {
-        "name": "rsdoctor",
-        "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24593466033/job/71919082294"
-      },
-      {
-        "name": "modernjs",
-        "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24593466033/job/71919082295"
-      },
-      {
-        "name": "rslib",
-        "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24593466033/job/71919082296"
-      },
-      {
-        "name": "rspress",
-        "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24593466033/job/71919082297"
-      },
-      {
-        "name": "rstest",
-        "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24593466033/job/71919082299"
-      },
-      {
-        "name": "lynx-stack",
-        "status": "failure",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24593466033/job/71919082300"
-      },
-      {
-        "name": "devserver",
-        "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24593466033/job/71919082301"
-      },
-      {
-        "name": "rsbuild",
-        "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24593466033/job/71919082303"
-      },
-      {
-        "name": "_selftest",
-        "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24593466033/job/71919082304"
-      },
-      {
-        "name": "rsbuild-rsc-plugin",
-        "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24593466033/job/71919082307"
-      },
-      {
-        "name": "plugin",
-        "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24593466033/job/71919082309"
-      },
-      {
-        "name": "examples",
-        "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24593466033/job/71919082310"
-      }
-    ]
-  },
-  {
     "commitSha": "98b4874e2a3963ddc48e52a2752b63574afd04a4",
     "commitTimestamp": "2026-04-18T01:05:10Z",
     "commitMessage": "chore(deps): update dependency @rslint/core to v0.4.2 (#13747)",
@@ -152,6 +74,84 @@
         "name": "plugin",
         "status": "success",
         "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24593434391/job/71918842660"
+      }
+    ]
+  },
+  {
+    "commitSha": "b7c84dbb1da8f092443ec2f282a9409d4aba3af6",
+    "commitTimestamp": "2026-04-18T01:04:16Z",
+    "commitMessage": "chore(deps): update dependency @codspeed/vitest-plugin to ^5.3.0 (#13752)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24593423245",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24593423245/job/71918811746"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24593423245/job/71918811755"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24593423245/job/71918811757"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24593423245/job/71918811761"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24593423245/job/71918811762"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24593423245/job/71918811763"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24593423245/job/71918811764"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24593423245/job/71918811766"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24593423245/job/71918811767"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24593423245/job/71918811768"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24593423245/job/71918811769"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24593423245/job/71918811770"
       }
     ]
   },
