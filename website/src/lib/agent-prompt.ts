@@ -1,3 +1,4 @@
+import { shortSha } from '@/lib/utils';
 import type { EcosystemCommitHistory, EcosystemCommitRecord } from '@/types';
 
 /**
@@ -19,10 +20,6 @@ const RELEASE_PATTERN = /^(chore(\([^)]+\))?:\s*)?release[:\s]*v?\d/i;
 
 /** Fallback cap when no release commit is found in the history window. */
 const WINDOW_CAP = 50;
-
-function shortSha(sha: string) {
-  return sha.slice(0, 7);
-}
 
 function extractPrNumber(message: string): number | null {
   const m = message.match(/\(#(\d+)\)\s*$/);
@@ -83,18 +80,14 @@ interface SuiteTableResult {
 
 function buildSuiteTable(
   suiteName: string,
-  window: EcosystemCommitHistory,
+  orderedWindow: EcosystemCommitHistory,
   boundSha: string | null,
 ): SuiteTableResult {
-  // Render oldest → newest so that a ✓→✗ transition reads naturally
-  // top-to-bottom (forward in time).
-  const ordered = [...window].reverse();
-
   const rows: string[] = [];
   let seenSuccess = false;
   let sawSuite = false;
 
-  for (const entry of ordered) {
+  for (const entry of orderedWindow) {
     const suite = entry.suites.find((s) => s.name === suiteName);
     if (!suite) {
       continue;
@@ -150,19 +143,23 @@ export function buildAgentPrompt({
     : null;
 
   const { window, bound } = buildWindow(history, entry.commitSha);
+  // Render oldest → newest so ✓→✗ transitions read top-to-bottom in the
+  // suite tables (forward in time). Reversed once here, reused per suite.
+  const orderedWindow = [...window].reverse();
+  const boundLabel = bound ? shortSha(bound.commitSha) : 'the window boundary';
 
   const suiteNames = Array.from(
     new Set(history.flatMap((r) => r.suites.map((s) => s.name))),
   ).sort();
 
   const boundDescription = bound
-    ? `bounded by (and including) the most recent release commit \`${shortSha(bound.commitSha)}\` — "${bound.commitMessage}"`
+    ? `bounded by (and including) the most recent release commit \`${boundLabel}\` — "${bound.commitMessage}"`
     : `capped at the ${window.length} most recent commits (no release commit found within that range)`;
 
   const suiteSections = failingSuites.map((suite) => {
     const { table, allFailure } = buildSuiteTable(
       suite.name,
-      window,
+      orderedWindow,
       bound?.commitSha ?? null,
     );
     return { name: suite.name, table, allFailure };
@@ -183,7 +180,7 @@ export function buildAgentPrompt({
   const allFailureBlock = anyAllFailure
     ? `
 - **Case B — all ✗ in the window.** At least one suite has been failing since (or before) the prev release row. For those suites, compare the current failure log against the **prev release row's** log:
-  - **Same root cause** (same error at a similar spot — you decide; don't require identical stack frames): stop here. Report "this has been broken since at least ${bound ? shortSha(bound.commitSha) : 'the window boundary'}; the current run is the same failure."
+  - **Same root cause** (same error at a similar spot — you decide; don't require identical stack frames): stop here. Report "this has been broken since at least ${boundLabel}; the current run is the same failure."
   - **Different root cause**: the failure mutated somewhere in between. Binary-search the ✗ rows to find where the signature changes (≈log₂N log fetches, not N). Report that pivot commit as the one that changed the failure mode.
 `
     : '';
@@ -237,8 +234,8 @@ Per failing suite, one short section with:
 
 1. **Attribution line** — pick exactly one shape based on what you found:
    - Case A (✓→✗ transition): \`This failure started from <sha> — "<commit msg>"\` + PR link + author + date.
-   - Case B, same root cause as prev release: \`The prev release ${bound ? shortSha(bound.commitSha) : '(window boundary)'} was already failing with this same error.\`
-   - Case B, pivot found mid-window: \`This specific failure started from <sha> — "<commit msg>"; before that the suite was failing for a different reason already at prev release ${bound ? shortSha(bound.commitSha) : '(window boundary)'}.\` Include PR link + author + date for the pivot commit.
+   - Case B, same root cause as prev release: \`The prev release ${boundLabel} was already failing with this same error.\`
+   - Case B, pivot found mid-window: \`This specific failure started from <sha> — "<commit msg>"; before that the suite was failing for a different reason already at prev release ${boundLabel}.\` Include PR link + author + date for the pivot commit.
 2. **Root cause, 3–5 sentences.** Read the diff and the failure log; say plausibly what in that change broke the suite. Stay surface-level; it's OK to say "likely".
 3. **Evidence**: the log URL(s) you actually read.
 

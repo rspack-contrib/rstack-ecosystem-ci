@@ -19,8 +19,15 @@ import {
   SelectValue,
 } from '@/components/ui/select';
 import { buildAgentPrompt } from '@/lib/agent-prompt';
-import { cn } from '@/lib/utils';
+import { cn, shortSha } from '@/lib/utils';
 import type { EcosystemCommitRecord } from '@/types';
+
+type CopyStatus = 'copied' | 'failed';
+
+const COPY_LABELS: Record<CopyStatus, string> = {
+  copied: 'Copied!',
+  failed: 'Copy failed',
+};
 
 const commitStatusStyles = {
   success: {
@@ -62,10 +69,15 @@ const suiteStatusStyles = {
 } as const;
 
 interface InspectPromptButtonProps {
-  copyStatus: 'copied' | 'failed' | null;
+  copyStatus: CopyStatus | null;
   stackLabel: string | null;
   onClick: () => void;
 }
+
+const INSPECT_BUTTON_BG = '#2747c5';
+const INSPECT_BUTTON_BG_COPIED = '#ffffff';
+const INSPECT_BUTTON_TEXT = '#e9e9e9';
+const INSPECT_BUTTON_BORDER = '#6387e3';
 
 function InspectPromptButton({
   copyStatus,
@@ -87,7 +99,12 @@ function InspectPromptButton({
     const update = () => {
       const rect = buttonRef.current?.getBoundingClientRect();
       if (!rect) return;
-      setTooltipPos({ top: rect.top, left: rect.left + rect.width / 2 });
+      const next = { top: rect.top, left: rect.left + rect.width / 2 };
+      // Diff numerically — without this, every scroll tick allocates a
+      // fresh object and re-renders the portal, defeating React's bail-out.
+      setTooltipPos((prev) =>
+        prev && prev.top === next.top && prev.left === next.left ? prev : next,
+      );
     };
     update();
     window.addEventListener('scroll', update, true);
@@ -104,37 +121,30 @@ function InspectPromptButton({
         ref={buttonRef}
         type="button"
         onClick={onClick}
-        className={cn(
-          'relative inline-flex w-[104px] items-center justify-center overflow-hidden rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide transition-colors duration-200 sm:w-[110px] sm:px-2.5',
-        )}
-        style={{
-          color: isCopied ? '#2747c5' : '#e9e9e9',
-          transition: 'color 200ms',
-        }}
+        className="relative inline-flex w-[104px] items-center justify-center overflow-hidden rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide transition-colors duration-200 sm:w-[110px] sm:px-2.5"
+        style={{ color: isCopied ? INSPECT_BUTTON_BG : INSPECT_BUTTON_TEXT }}
         title="Copy a prompt to paste into an AI agent to diagnose this failure"
       >
         <span
           aria-hidden
-          className="absolute inset-0"
+          className="absolute inset-0 transition-colors duration-200"
           style={{
-            backgroundColor: isCopied ? '#ffffff' : '#2747c5',
-            transition: 'background-color 200ms',
+            backgroundColor: isCopied
+              ? INSPECT_BUTTON_BG_COPIED
+              : INSPECT_BUTTON_BG,
           }}
         />
         <span
           aria-hidden
-          className="absolute inset-0 rounded-full border border-dashed"
+          className="absolute inset-0 rounded-full border border-dashed transition-colors duration-200"
           style={{
-            borderColor: isCopied ? '#ffffff' : '#6387e3',
-            transition: 'border-color 200ms',
+            borderColor: isCopied
+              ? INSPECT_BUTTON_BG_COPIED
+              : INSPECT_BUTTON_BORDER,
           }}
         />
         <span className="relative">
-          {copyStatus === 'copied'
-            ? 'Copied!'
-            : copyStatus === 'failed'
-              ? 'Copy failed'
-              : 'Inspect prompt'}
+          {copyStatus ? COPY_LABELS[copyStatus] : 'Inspect prompt'}
         </span>
       </button>
       {isCopied && stackLabel && tooltipPos
@@ -187,7 +197,7 @@ export function Timeline({
   const [internalSearchQuery, setInternalSearchQuery] = useState('');
   const [copyState, setCopyState] = useState<{
     sha: string;
-    status: 'copied' | 'failed';
+    status: CopyStatus;
   } | null>(null);
   const copyTimerRef = useRef<number | null>(null);
 
@@ -214,7 +224,7 @@ export function Timeline({
         history: entries,
       });
 
-      const setState = (status: 'copied' | 'failed') => {
+      const setState = (status: CopyStatus) => {
         setCopyState({ sha: entry.commitSha, status });
         if (copyTimerRef.current != null) {
           window.clearTimeout(copyTimerRef.current);
@@ -253,7 +263,6 @@ export function Timeline({
     [entries, externalSelectedStack],
   );
 
-  // Use external state if provided, otherwise use internal state
   const selectedSuite = externalSelectedSuite ?? internalSelectedSuite;
   const setSelectedSuite = onSuiteChange ?? setInternalSelectedSuite;
   const searchQuery = externalSearchQuery ?? internalSearchQuery;
@@ -268,7 +277,6 @@ export function Timeline({
     [],
   );
 
-  // Get all unique suite names
   const allSuiteNames = useMemo(() => {
     const names = new Set<string>();
     for (const entry of entries) {
@@ -279,7 +287,6 @@ export function Timeline({
     return Array.from(names).sort();
   }, [entries]);
 
-  // Filter entries based on selected suite
   const suiteFilteredEntries = useMemo(() => {
     if (selectedSuite === 'all') {
       return entries;
@@ -292,7 +299,6 @@ export function Timeline({
       .filter((entry) => entry.suites.length > 0);
   }, [entries, selectedSuite]);
 
-  // Filter entries based on search query
   const filteredEntries = useMemo(() => {
     const q = searchQuery.trim().toLowerCase();
     if (!q) {
@@ -331,7 +337,7 @@ export function Timeline({
       const commitStyles =
         commitStatusStyles[entry.overallStatus] ?? commitStatusStyles.failure;
       const formattedDate = formatter.format(new Date(entry.commitTimestamp));
-      const shortSha = entry.commitSha.slice(0, 7);
+      const sha = shortSha(entry.commitSha);
       const commitUrl = `https://github.com/${entry.repository.fullName}/commit/${entry.commitSha}`;
       const isFirst = index === 0;
       const isLast = index === filteredEntries.length - 1;
@@ -417,7 +423,7 @@ export function Timeline({
                       target="_blank"
                       rel="noreferrer"
                     >
-                      {shortSha}
+                      {sha}
                       <span className="text-[10px] text-muted-foreground/80">
                         ↗
                       </span>
