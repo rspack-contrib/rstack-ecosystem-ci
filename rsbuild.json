@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "71aeb3e6049e31a23547aeda073cc04c5e1c779e",
+    "commitTimestamp": "2026-04-19T01:09:55Z",
+    "commitMessage": "test(e2e): add case for #/ package imports resolution (#7511)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24617885994",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24617885994/job/71983218480"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24617885994/job/71983218481"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24617885994/job/71983218484"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24617885994/job/71983218488"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24617885994/job/71983218491"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24617885994/job/71983218517"
+      }
+    ]
+  },
+  {
     "commitSha": "2423931296b6152d80aa2cf77f3c900fd698e06d",
     "commitTimestamp": "2026-04-19T01:09:34Z",
     "commitMessage": "chore(deps): update dependency dotenv-expand to v13 (#7510)",
