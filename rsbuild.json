@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2423931296b6152d80aa2cf77f3c900fd698e06d",
+    "commitTimestamp": "2026-04-19T01:09:34Z",
+    "commitMessage": "chore(deps): update dependency dotenv-expand to v13 (#7510)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24617881226",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24617881226/job/71983203107"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24617881226/job/71983203109"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24617881226/job/71983203110"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24617881226/job/71983203111"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24617881226/job/71983203113"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24617881226/job/71983203116"
+      }
+    ]
+  },
+  {
     "commitSha": "a013147040f05c6efb803f3a19e5cc4d0586e8ec",
     "commitTimestamp": "2026-04-17T06:12:58Z",
     "commitMessage": "fix(create-rsbuild): use plugin-react rc.4 in react templates (#7506)",
