@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "905b1aa35a8f3d07db460dfb5e28e281968feb28",
+    "commitTimestamp": "2026-04-20T06:46:02Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#3314)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24652454757",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24652454757/job/72078040810"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24652454757/job/72078040835"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24652454757/job/72078040853"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24652454757/job/72078040862"
+      }
+    ]
+  },
+  {
     "commitSha": "46fe94d41c7d9242ce1b51647d521b41c83e59b9",
     "commitTimestamp": "2026-04-17T08:30:03Z",
     "commitMessage": "fix(create-rspress): add env.d.ts to generated templates (#3310)",
