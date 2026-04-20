@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f41e9b26a5d10189f0df88113c06c807783e0b15",
+    "commitTimestamp": "2026-04-20T06:47:02Z",
+    "commitMessage": "fix(core): prefer root name in github actions summary (#1187)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24652532068",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24652532068/job/72078286039"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24652532068/job/72078286042"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24652532068/job/72078286045"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24652532068/job/72078286051"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24652532068/job/72078286057"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24652532068/job/72078286063"
+      }
+    ]
+  },
+  {
     "commitSha": "c7b23d8e9c4f66c19eb5bf5f0c78d36eae726df9",
     "commitTimestamp": "2026-04-20T06:19:54Z",
     "commitMessage": "fix(core): preserve runtime meta url for named projects (#1188)",
