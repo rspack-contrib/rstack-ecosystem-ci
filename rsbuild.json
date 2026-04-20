@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "66217a679246710832b1449864f076f86cdbb0b6",
+    "commitTimestamp": "2026-04-20T02:09:44Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#7512)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24645176256",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24645176256/job/72056428307"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24645176256/job/72056428309"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24645176256/job/72056428323"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24645176256/job/72056428327"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24645176256/job/72056428329"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24645176256/job/72056428333"
+      }
+    ]
+  },
+  {
     "commitSha": "71aeb3e6049e31a23547aeda073cc04c5e1c779e",
     "commitTimestamp": "2026-04-19T01:09:55Z",
     "commitMessage": "test(e2e): add case for #/ package imports resolution (#7511)",
