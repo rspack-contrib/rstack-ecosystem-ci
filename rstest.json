@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c7b23d8e9c4f66c19eb5bf5f0c78d36eae726df9",
+    "commitTimestamp": "2026-04-20T06:19:54Z",
+    "commitMessage": "fix(core): preserve runtime meta url for named projects (#1188)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24651572405",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24651572405/job/72075338411"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24651572405/job/72075338417"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24651572405/job/72075338433"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24651572405/job/72075338434"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24651572405/job/72075338439"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24651572405/job/72075338505"
+      }
+    ]
+  },
+  {
     "commitSha": "24c17fb8dcb3cdb8d0dcd819e344da5dac0a03c5",
     "commitTimestamp": "2026-04-18T15:07:21Z",
     "commitMessage": "ci(codspeed): run CPU benchmark weekly instead of every 6 hours (#1191)",
