@@ -78,6 +78,84 @@
     ]
   },
   {
+    "commitSha": "a48bd25c874320609d837607dd1307bfd7d5a3be",
+    "commitTimestamp": "2026-04-21T08:25:56Z",
+    "commitMessage": "perf: Replace parser hook dispatch SmallVecs with bitmasks (#13774)",
+    "author": {
+      "name": "hardfist",
+      "email": "yangjianzju@gmail.com",
+      "login": "hardfist"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24712525651",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24712525651/job/72280583304"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24712525651/job/72280583305"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24712525651/job/72280583311"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24712525651/job/72280583312"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24712525651/job/72280583314"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24712525651/job/72280583325"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24712525651/job/72280583327"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24712525651/job/72280583329"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24712525651/job/72280583341"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24712525651/job/72280583344"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24712525651/job/72280583351"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24712525651/job/72280583354"
+      }
+    ]
+  },
+  {
     "commitSha": "c0e1eea1143b10fda3cc0916244610f19153a2c8",
     "commitTimestamp": "2026-04-21T06:47:56Z",
     "commitMessage": "fix(mf): remove debug assertions from collect_expose_requirements function (#13773)",
