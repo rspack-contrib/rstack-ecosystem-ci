@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "6a1a829fc80c991d3850839c796b5dddcfefec43",
+    "commitTimestamp": "2026-04-21T06:47:46Z",
+    "commitMessage": "feat(core): include flaky tests in github actions summary (#1193)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24708297223",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24708297223/job/72266534054"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24708297223/job/72266534058"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24708297223/job/72266534062"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24708297223/job/72266534063"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24708297223/job/72266534065"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24708297223/job/72266534066"
+      }
+    ]
+  },
+  {
     "commitSha": "cca75a388ec3ca09880f3b32799adb9e07b23885",
     "commitTimestamp": "2026-04-21T06:27:57Z",
     "commitMessage": "docs(agent-install): route to migration when Jest/Vitest is detected (#1180)",
