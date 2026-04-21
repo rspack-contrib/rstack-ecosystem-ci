@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "1ae75eccd86256821946b18145a67ad6fcf2b6dc",
+    "commitTimestamp": "2026-04-21T12:24:37Z",
+    "commitMessage": "feat(cli): add --open / --no-open to rspack dev / serve (#13777)",
+    "author": {
+      "name": "Matt Van Horn",
+      "email": "mvanhorn@users.noreply.github.com",
+      "login": "mvanhorn"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24722433613",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24722433613/job/72314592292"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24722433613/job/72314592311"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24722433613/job/72314592325"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24722433613/job/72314592327"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24722433613/job/72314592340"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24722433613/job/72314592348"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24722433613/job/72314592349"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24722433613/job/72314592357"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24722433613/job/72314592374"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24722433613/job/72314592382"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24722433613/job/72314592393"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24722433613/job/72314592815"
+      }
+    ]
+  },
+  {
     "commitSha": "e7927e392dd277d1af9ad70361e90110d660c996",
     "commitTimestamp": "2026-04-21T10:42:34Z",
     "commitMessage": "fix(rsc): render client component CSS as stylesheet resources (#13769)",
