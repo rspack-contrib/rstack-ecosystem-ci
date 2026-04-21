@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "cca75a388ec3ca09880f3b32799adb9e07b23885",
+    "commitTimestamp": "2026-04-21T06:27:57Z",
+    "commitMessage": "docs(agent-install): route to migration when Jest/Vitest is detected (#1180)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24707610277",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24707610277/job/72264317661"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24707610277/job/72264317666"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24707610277/job/72264317667"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24707610277/job/72264317670"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24707610277/job/72264317671"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24707610277/job/72264317681"
+      }
+    ]
+  },
+  {
     "commitSha": "f41e9b26a5d10189f0df88113c06c807783e0b15",
     "commitTimestamp": "2026-04-20T06:47:02Z",
     "commitMessage": "fix(core): prefer root name in github actions summary (#1187)",
