@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "869f6e34925fcfb7d51ed0f823e53e1a7843b3a3",
+    "commitTimestamp": "2026-04-21T12:51:15Z",
+    "commitMessage": "fix(test-tools): move wast-loader to dependencies (#13782)",
+    "author": {
+      "name": "Qingyu Wang",
+      "email": "40660121+colinaaa@users.noreply.github.com",
+      "login": "colinaaa"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24723648490",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24723648490/job/72318802509"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24723648490/job/72318802515"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24723648490/job/72318802530"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24723648490/job/72318802531"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24723648490/job/72318802555"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24723648490/job/72318802556"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24723648490/job/72318802559"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24723648490/job/72318802560"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24723648490/job/72318802571"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24723648490/job/72318802577"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24723648490/job/72318802595"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24723648490/job/72318802654"
+      }
+    ]
+  },
+  {
     "commitSha": "1ae75eccd86256821946b18145a67ad6fcf2b6dc",
     "commitTimestamp": "2026-04-21T12:24:37Z",
     "commitMessage": "feat(cli): add --open / --no-open to rspack dev / serve (#13777)",
