@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "893c5fc0a2d534023dd9c12c81103ad1d9233fd3",
+    "commitTimestamp": "2026-04-22T02:58:26Z",
+    "commitMessage": "fix(core): warn on flaky github actions summary (#1197)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24757828337",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24757828337/job/72434692711"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24757828337/job/72434692712"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24757828337/job/72434692714"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24757828337/job/72434692718"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24757828337/job/72434692722"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24757828337/job/72434692728"
+      }
+    ]
+  },
+  {
     "commitSha": "6a1a829fc80c991d3850839c796b5dddcfefec43",
     "commitTimestamp": "2026-04-21T06:47:46Z",
     "commitMessage": "feat(core): include flaky tests in github actions summary (#1193)",
