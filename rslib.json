@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "1b6821c79707e128ec808256cda95bf91eee0283",
+    "commitTimestamp": "2026-04-22T06:51:32Z",
+    "commitMessage": "chore(deps): update actions/setup-node digest to 48b55a0 (#1609)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24764635185",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24764635185/job/72455895961"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24764635185/job/72455895965"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24764635185/job/72455895970"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24764635185/job/72455895974"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24764635185/job/72455895975"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24764635185/job/72455896112"
+      }
+    ]
+  },
+  {
     "commitSha": "6488bee3cd6e2d53d086125025c5077743ada80a",
     "commitTimestamp": "2026-04-22T06:40:32Z",
     "commitMessage": "feat(deps): upgrade Rsbuild to 2.0.0 (#1608)",
