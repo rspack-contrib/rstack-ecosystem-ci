@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "98d8c3b6f61752bfaa811d50daad7c9f32d15bfa",
+    "commitTimestamp": "2026-04-22T05:11:10Z",
+    "commitMessage": "chore(deps): update dependency @rstack-dev/doc-ui to ^1.13.2 (#7515)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24761390639",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24761390639/job/72445757926"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24761390639/job/72445757930"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24761390639/job/72445757936"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24761390639/job/72445757937"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24761390639/job/72445757940"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24761390639/job/72445757953"
+      }
+    ]
+  },
+  {
     "commitSha": "76738aa45148a14d63ad779189e7084eeb1c2356",
     "commitTimestamp": "2026-04-21T09:03:08Z",
     "commitMessage": "chore(deps): update actions/setup-node action to v6.4.0 (#7514)",
