@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b57bc58593e97f474527428deb72e69ce2c792b5",
+    "commitTimestamp": "2026-04-22T07:48:05Z",
+    "commitMessage": "docs: add new blog post page (#7521)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24766741072",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24766741072/job/72462724861"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24766741072/job/72462724866"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24766741072/job/72462724868"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24766741072/job/72462724882"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24766741072/job/72462724896"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24766741072/job/72462724911"
+      }
+    ]
+  },
+  {
     "commitSha": "e5d164b60a947f31a0f4adfb3ade1deddae8f3a5",
     "commitTimestamp": "2026-04-22T06:44:45Z",
     "commitMessage": "docs: Rsbuild 2.0 announcement (#7471)",
