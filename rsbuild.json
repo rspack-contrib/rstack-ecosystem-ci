@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e5d164b60a947f31a0f4adfb3ade1deddae8f3a5",
+    "commitTimestamp": "2026-04-22T06:44:45Z",
+    "commitMessage": "docs: Rsbuild 2.0 announcement (#7471)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24764476485",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24764476485/job/72455374442"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24764476485/job/72455374450"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24764476485/job/72455374452"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24764476485/job/72455374465"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24764476485/job/72455374467"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24764476485/job/72455374471"
+      }
+    ]
+  },
+  {
     "commitSha": "a3dcc73e815dad78f9614be1e93d09fcd10e081c",
     "commitTimestamp": "2026-04-22T05:32:25Z",
     "commitMessage": "chore(create-rsbuild): update plugin-react workspace range (#7520)",
