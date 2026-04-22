@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "3e2e262a8dce9f81d45bb56d46d59e75e8a7b0b7",
+    "commitTimestamp": "2026-04-22T07:12:18Z",
+    "commitMessage": "feat(deps): upgrade Rsbuild to 2.0.0 (#1199)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24765356434",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24765356434/job/72458203901"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24765356434/job/72458203913"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24765356434/job/72458203921"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24765356434/job/72458203928"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24765356434/job/72458203940"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24765356434/job/72458203957"
+      }
+    ]
+  },
+  {
     "commitSha": "893c5fc0a2d534023dd9c12c81103ad1d9233fd3",
     "commitTimestamp": "2026-04-22T02:58:26Z",
     "commitMessage": "fix(core): warn on flaky github actions summary (#1197)",
