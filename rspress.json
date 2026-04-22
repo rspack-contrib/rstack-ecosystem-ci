@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "c74268281e65e06b575abf9bbbb2e501ea851ea1",
+    "commitTimestamp": "2026-04-22T06:54:17Z",
+    "commitMessage": "feat(deps): upgrade Rsbuild to 2.0.0 (#3322)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24764688960",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24764688960/job/72456073455"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24764688960/job/72456073467"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24764688960/job/72456073474"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24764688960/job/72456073505"
+      }
+    ]
+  },
+  {
     "commitSha": "716e3cd23bef345ab47b4d189cdb574522c49b24",
     "commitTimestamp": "2026-04-22T03:28:23Z",
     "commitMessage": "feat(cli): add --base CLI option to build, dev, and preview commands (#3316)",
