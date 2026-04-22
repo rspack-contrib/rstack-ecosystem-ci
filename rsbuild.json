@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "132bc951dec6e6dba98272583d34a02cac4f763c",
+    "commitTimestamp": "2026-04-22T08:55:35Z",
+    "commitMessage": "release: @rsbuild/plugin-svgr v2.0.1 (#7524)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24769819387",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24769819387/job/72473082956"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24769819387/job/72473082975"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24769819387/job/72473082976"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24769819387/job/72473082980"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24769819387/job/72473082985"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24769819387/job/72473082993"
+      }
+    ]
+  },
+  {
     "commitSha": "fdf34e06ff3a51793909071f81d4c0a304437531",
     "commitTimestamp": "2026-04-22T08:01:41Z",
     "commitMessage": "docs: fix v2.0 og image (#7522)",
