@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "aa291f190fa31aa6b07999c3ce29147a1183bb90",
+    "commitTimestamp": "2026-04-23T03:16:52Z",
+    "commitMessage": "chore: enable tsgo in CI (#7531)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24814797441",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24814797441/job/72626841649"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24814797441/job/72626841656"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24814797441/job/72626841659"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24814797441/job/72626841661"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24814797441/job/72626841668"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24814797441/job/72626841674"
+      }
+    ]
+  },
+  {
     "commitSha": "e3703e0ce81e5f2f1abae9ada3f667e9832f9ad0",
     "commitTimestamp": "2026-04-23T02:44:42Z",
     "commitMessage": "chore(deps): update all patch dependencies (#7530)",
