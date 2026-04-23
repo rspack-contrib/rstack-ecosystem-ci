@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e41110393c1d6da716cf4b0051eb6c7228423f5f",
+    "commitTimestamp": "2026-04-23T02:28:14Z",
+    "commitMessage": "chore(deps): bump @rslint/core to 0.5.0 and fix lint errors (#7526)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24813407829",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24813407829/job/72622732311"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24813407829/job/72622732314"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24813407829/job/72622732316"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24813407829/job/72622732317"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24813407829/job/72622732321"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24813407829/job/72622732323"
+      }
+    ]
+  },
+  {
     "commitSha": "cdb816992f470419e68df094ad3c4de21049673b",
     "commitTimestamp": "2026-04-22T10:50:25Z",
     "commitMessage": "docs: fix v1/v2 links and enable v2 announcement (#7525)",
