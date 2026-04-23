@@ -83,6 +83,7 @@ jobs:
     runs-on: ubuntu-latest
     name: execute-all (${{ inputs.suite }})
     if: "inputs.suite != '-'"
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
       - uses: moonrepo/setup-rust@v1
@@ -141,6 +142,7 @@ jobs:
       fail-fast: false
     runs-on: ${{ matrix.os }}
     name: execute-all (${{ matrix.suite }})
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/build-rspack
