@@ -62,7 +62,7 @@ jobs:
     runs-on: ubuntu-latest
     if: "inputs.suite != '-'"
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - uses: ./.github/actions/build-rslib
         with:
           repository: ${{ inputs.repo }}
@@ -98,7 +98,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     name: execute-all (${{ matrix.suite }})
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - uses: ./.github/actions/build-rslib
         with:
           repository: ${{ inputs.repo }}

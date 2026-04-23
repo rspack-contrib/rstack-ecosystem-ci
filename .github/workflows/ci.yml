@@ -29,7 +29,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     name: rsbuild (${{ matrix.suite }})
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - uses: ./.github/actions/build-rsbuild
       - name: Install
         run: pnpm install --frozen-lockfile --prefer-offline
@@ -61,7 +61,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     name: rslib (${{ matrix.suite }})
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - uses: ./.github/actions/build-rslib
       - uses: moonrepo/setup-rust@v1
       - name: Install
@@ -96,7 +96,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     name: rstest (${{ matrix.suite }})
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - uses: ./.github/actions/build-rstest
       - name: Install
         run: |
@@ -120,7 +120,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     name: rsdoctor (${{ matrix.suite }})
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - uses: ./.github/actions/build-rsdoctor
       - uses: moonrepo/setup-rust@v1
       - name: Install
@@ -144,7 +144,7 @@ jobs:
     needs: get-runner-labels
     runs-on: ${{ fromJSON(needs.get-runner-labels.outputs.LINUX_RUNNER_LABELS) }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: ./.github/actions/prepare-rspack-binding
 
   rspack:
@@ -182,7 +182,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     name: rspack (${{ matrix.suite }})
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: ./.github/actions/build-rspack
       - name: Install
         run: pnpm install --frozen-lockfile --prefer-offline

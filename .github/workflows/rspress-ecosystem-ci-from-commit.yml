@@ -57,7 +57,7 @@ jobs:
       ECOSYSTEM_CI_REF: ${{ inputs.commitSHA }}
       ECOSYSTEM_CI_TYPE: 'commit'
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - uses: ./.github/actions/build-rspress
         with:
           repository: ${{ inputs.repo }}
@@ -92,7 +92,7 @@ jobs:
       ECOSYSTEM_CI_REF: ${{ inputs.commitSHA }}
       ECOSYSTEM_CI_TYPE: 'commit'
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - uses: moonrepo/setup-rust@v1
       - uses: ./.github/actions/build-rspress
         with:

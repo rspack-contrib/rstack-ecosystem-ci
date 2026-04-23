@@ -24,7 +24,7 @@ runs:
   using: composite
   steps:
     - name: Checkout Rspack repo
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
       with:
         repository: ${{ inputs.repository }}
         path: ${{ inputs.path }}
