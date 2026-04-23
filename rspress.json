@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "cee0e362d455763b721e4fdaf7d0569a6f1b29e2",
+    "commitTimestamp": "2026-04-23T07:19:45Z",
+    "commitMessage": "chore(deps): update rstack (#3324)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24822405772",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24822405772/job/72649991517"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24822405772/job/72649991534"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24822405772/job/72649991539"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24822405772/job/72649991556"
+      }
+    ]
+  },
+  {
     "commitSha": "f6bb655a44c9781b58eca925ba5b897c6a9669f4",
     "commitTimestamp": "2026-04-22T07:51:40Z",
     "commitMessage": "chore(deps): upgrade rsbuild plugins to latest (#3323)",
