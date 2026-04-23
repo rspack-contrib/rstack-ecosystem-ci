@@ -96,6 +96,54 @@
     ]
   },
   {
+    "commitSha": "6efd78c073bfb095631067154ccf2bece7decdfc",
+    "commitTimestamp": "2026-04-23T02:27:59Z",
+    "commitMessage": "chore: simplify renovate config (#7528)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24813398484",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24813398484/job/72622705972"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24813398484/job/72622705976"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24813398484/job/72622705980"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24813398484/job/72622705982"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24813398484/job/72622705986"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24813398484/job/72622705993"
+      }
+    ]
+  },
+  {
     "commitSha": "cdb816992f470419e68df094ad3c4de21049673b",
     "commitTimestamp": "2026-04-22T10:50:25Z",
     "commitMessage": "docs: fix v1/v2 links and enable v2 announcement (#7525)",
