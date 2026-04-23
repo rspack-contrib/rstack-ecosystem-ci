@@ -110,6 +110,7 @@ jobs:
     needs: [get-runner-labels, prepare-binding]
     name: execute-all (${{ inputs.suite }})
     if: "inputs.suite != '-'"
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/build-rspack
@@ -182,6 +183,7 @@ jobs:
       fail-fast: false
     runs-on: ${{ matrix.os }}
     name: execute-all (${{ matrix.suite }})
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
       - uses: moonrepo/setup-rust@v1
