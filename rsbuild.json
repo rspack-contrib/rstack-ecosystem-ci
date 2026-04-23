@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e3703e0ce81e5f2f1abae9ada3f667e9832f9ad0",
+    "commitTimestamp": "2026-04-23T02:44:42Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#7530)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24813878989",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24813878989/job/72624099701"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24813878989/job/72624099703"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24813878989/job/72624099707"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24813878989/job/72624099710"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24813878989/job/72624099714"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24813878989/job/72624099720"
+      }
+    ]
+  },
+  {
     "commitSha": "836e7951eea85f72dff65e8bf8b904003b5b3591",
     "commitTimestamp": "2026-04-23T02:28:42Z",
     "commitMessage": "test(type-tests): add plugin package coverage (#7527)",
