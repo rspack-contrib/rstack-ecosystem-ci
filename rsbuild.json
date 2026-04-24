@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b54af68b27274fdaf15d205fbd03ccb9898365e9",
+    "commitTimestamp": "2026-04-24T03:26:18Z",
+    "commitMessage": "fix(deps): update all patch dependencies (#7535)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24870940964",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24870940964/job/72817146273"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24870940964/job/72817146274"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24870940964/job/72817146277"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24870940964/job/72817146282"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24870940964/job/72817146284"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24870940964/job/72817146285"
+      }
+    ]
+  },
+  {
     "commitSha": "de8a224c9b3d4fead3cc6d9174d1a7ab146c84cf",
     "commitTimestamp": "2026-04-24T03:21:49Z",
     "commitMessage": "fix(core): print fallback URL when HTML is disabled (#7534)",
