@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "bc597b3b808fb5fe731948a1234e2243ca3c8cff",
+    "commitTimestamp": "2026-04-26T06:04:33Z",
+    "commitMessage": "feat(core): support CSS url imports (#7541)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24949752730",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24949752730/job/73057665009"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24949752730/job/73057665010"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24949752730/job/73057665012"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24949752730/job/73057665017"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24949752730/job/73057665019"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24949752730/job/73057665024"
+      }
+    ]
+  },
+  {
     "commitSha": "65506b5368ef2d3b61474135a20e2cad65e6be86",
     "commitTimestamp": "2026-04-25T14:42:40Z",
     "commitMessage": "chore(types): update swc decorator types (#7539)",
