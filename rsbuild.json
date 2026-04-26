@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "da5a5cf953fde6e6b8c3b0e30315627f34310036",
+    "commitTimestamp": "2026-04-26T06:35:22Z",
+    "commitMessage": "fix(core): pass asset info to CSS url filenames (#7543)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24950267543",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24950267543/job/73058988640"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24950267543/job/73058988641"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24950267543/job/73058988642"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24950267543/job/73058988644"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24950267543/job/73058988646"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24950267543/job/73058988650"
+      }
+    ]
+  },
+  {
     "commitSha": "bc597b3b808fb5fe731948a1234e2243ca3c8cff",
     "commitTimestamp": "2026-04-26T06:04:33Z",
     "commitMessage": "feat(core): support CSS url imports (#7541)",
