@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "34ae5531f867f5461bcd86563f37d5c47ce121d6",
+    "commitTimestamp": "2026-04-26T09:32:36Z",
+    "commitMessage": "test(e2e): cover CSS Modules url query error (#7544)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24953411003",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24953411003/job/73067480932"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24953411003/job/73067480934"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24953411003/job/73067480935"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24953411003/job/73067480942"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24953411003/job/73067480945"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24953411003/job/73067480955"
+      }
+    ]
+  },
+  {
     "commitSha": "b590bdb69ba197802b42d718ca31b7a91dfdca32",
     "commitTimestamp": "2026-04-26T09:13:07Z",
     "commitMessage": "fix(core): avoid CSS url asset name conflicts (#7542)",
