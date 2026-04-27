@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "098c9dc14b6e04dcdfc2f4934ed44a2349dc9586",
+    "commitTimestamp": "2026-04-27T02:11:53Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#7548)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24973315300",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24973315300/job/73120347029"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24973315300/job/73120347033"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24973315300/job/73120347042"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24973315300/job/73120347043"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24973315300/job/73120347048"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24973315300/job/73120347068"
+      }
+    ]
+  },
+  {
     "commitSha": "7213a69e04ce03376852d6b7f3ccccd7b0f27ebc",
     "commitTimestamp": "2026-04-26T13:16:53Z",
     "commitMessage": "test(e2e): cover Tailwind CSS url query (#7545)",
