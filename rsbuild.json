@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b5625b43acc81e0c4fa0ea3301cc5fb83c186b98",
+    "commitTimestamp": "2026-04-27T14:01:42Z",
+    "commitMessage": "feat(source-map): update source map extract schema (#7547)",
+    "author": {
+      "name": "Alex",
+      "email": "zalishchuk.me@gmail.com",
+      "login": "zalishchuk"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24999598232",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24999598232/job/73205748522"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24999598232/job/73205748545"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24999598232/job/73205748547"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24999598232/job/73205748561"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24999598232/job/73205748565"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24999598232/job/73205748593"
+      }
+    ]
+  },
+  {
     "commitSha": "2cff267edd73c653de62b1ea7128da364f9f6b21",
     "commitTimestamp": "2026-04-27T08:10:25Z",
     "commitMessage": "test(e2e): cover CSS url query edge cases (#7553)",
