@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "09f7f511400fdb3ea992dd8d3928b3355f88dfb1",
+    "commitTimestamp": "2026-04-27T08:28:01Z",
+    "commitMessage": "fix(cli): respect devServer port in preview (#13838)",
+    "author": {
+      "name": "wei",
+      "email": "126435040+Sylar-W@users.noreply.github.com",
+      "login": "Sylar-W"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24984975844",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24984975844/job/73155990148"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24984975844/job/73155990161"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24984975844/job/73155990171"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24984975844/job/73155990174"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24984975844/job/73155990179"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24984975844/job/73155990183"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24984975844/job/73155990188"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24984975844/job/73155990190"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24984975844/job/73155990191"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24984975844/job/73155990192"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24984975844/job/73155990195"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24984975844/job/73155990198"
+      }
+    ]
+  },
+  {
     "commitSha": "a82c1196eb53c7e5471fe5e2e79a662bf2846843",
     "commitTimestamp": "2026-04-27T08:16:37Z",
     "commitMessage": "feat(pure-functions): accept any top-level binding and trust consumer-side hints (#13810)",
