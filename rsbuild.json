@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "92f7ffd4492270191f4d048dc8519d1fc454aaf6",
+    "commitTimestamp": "2026-04-27T07:15:32Z",
+    "commitMessage": "refactor(core): simplify CSS url loader request (#7551)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24981673835",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24981673835/job/73145112841"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24981673835/job/73145112845"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24981673835/job/73145112882"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24981673835/job/73145112883"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24981673835/job/73145112884"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24981673835/job/73145112897"
+      }
+    ]
+  },
+  {
     "commitSha": "90bce25f69783d8a3022d9863e1dfa9f05a3c13d",
     "commitTimestamp": "2026-04-27T02:12:24Z",
     "commitMessage": "chore(deps): restrict rspack minor upgrades (#7546)",
