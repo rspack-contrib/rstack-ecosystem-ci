@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7f7b0e0f8f1c12485815cf8d079632d1e1d40e8f",
+    "commitTimestamp": "2026-04-27T03:27:54Z",
+    "commitMessage": "ci(codspeed): temporarily disable on PR/push (#1208)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24975142637",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24975142637/job/73125545940"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24975142637/job/73125545943"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24975142637/job/73125545952"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24975142637/job/73125545958"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24975142637/job/73125545960"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24975142637/job/73125545961"
+      }
+    ]
+  },
+  {
     "commitSha": "1494fd390ed8805c063fb5a351163309e7ad9ad0",
     "commitTimestamp": "2026-04-24T06:39:23Z",
     "commitMessage": "chore: clear existing lint warnings (#1204)",
