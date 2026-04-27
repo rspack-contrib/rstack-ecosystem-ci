@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2cff267edd73c653de62b1ea7128da364f9f6b21",
+    "commitTimestamp": "2026-04-27T08:10:25Z",
+    "commitMessage": "test(e2e): cover CSS url query edge cases (#7553)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24983867683",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24983867683/job/73152225672"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24983867683/job/73152225681"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24983867683/job/73152225690"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24983867683/job/73152225702"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24983867683/job/73152225708"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24983867683/job/73152225720"
+      }
+    ]
+  },
+  {
     "commitSha": "36b3ac327469404b6658f93db5c4cf34a43388ef",
     "commitTimestamp": "2026-04-27T07:36:39Z",
     "commitMessage": "release: v2.0.2 (#7552)",
