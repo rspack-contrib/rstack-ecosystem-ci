@@ -27,7 +27,7 @@ runs:
         corepack enable
 
     - name: Checkout Rsdoctor repo
-      uses: actions/checkout@v5
+      uses: actions/checkout@v6
       with:
         repository: ${{ inputs.repository }}
         path: ${{ inputs.path }}

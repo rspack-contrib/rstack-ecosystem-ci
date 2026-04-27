@@ -66,7 +66,7 @@ jobs:
     needs: get-runner-labels
     runs-on: ${{ fromJSON(needs.get-runner-labels.outputs.LINUX_RUNNER_LABELS) }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: ./.github/actions/prepare-rspack-binding
         with:
           repository: ${{ inputs.repo }}
@@ -79,7 +79,7 @@ jobs:
     if: "inputs.suite != '-'"
     timeout-minutes: 40
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: ./.github/actions/build-rspack
         with:
           repository: ${{ inputs.repo }}
@@ -140,7 +140,7 @@ jobs:
     name: execute-all (${{ matrix.suite }})
     timeout-minutes: 40
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: moonrepo/setup-rust@v1
       - uses: ./.github/actions/build-rspack
         with:
