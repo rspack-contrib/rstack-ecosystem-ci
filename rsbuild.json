@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a2c456633f7eb9581c9144a9aa415c3b08b07e84",
+    "commitTimestamp": "2026-04-27T07:27:46Z",
+    "commitMessage": "fix: preserve console argument side effects (#7550)",
+    "author": {
+      "name": "Aiello",
+      "email": "Aiello.Chan@Gmail.com",
+      "login": "AielloChan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24982132898",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24982132898/job/73146599419"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24982132898/job/73146599450"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24982132898/job/73146599451"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24982132898/job/73146599455"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24982132898/job/73146599460"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24982132898/job/73146599490"
+      }
+    ]
+  },
+  {
     "commitSha": "92f7ffd4492270191f4d048dc8519d1fc454aaf6",
     "commitTimestamp": "2026-04-27T07:15:32Z",
     "commitMessage": "refactor(core): simplify CSS url loader request (#7551)",
