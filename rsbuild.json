@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "36b3ac327469404b6658f93db5c4cf34a43388ef",
+    "commitTimestamp": "2026-04-27T07:36:39Z",
+    "commitMessage": "release: v2.0.2 (#7552)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24982489643",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24982489643/job/73147753559"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24982489643/job/73147753567"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24982489643/job/73147753571"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24982489643/job/73147753577"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24982489643/job/73147753586"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/24982489643/job/73147753623"
+      }
+    ]
+  },
+  {
     "commitSha": "a2c456633f7eb9581c9144a9aa415c3b08b07e84",
     "commitTimestamp": "2026-04-27T07:27:46Z",
     "commitMessage": "fix: preserve console argument side effects (#7550)",
