@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "da6caa2f50e59de75ffc3d6ed1dca307d5215e50",
+    "commitTimestamp": "2026-04-28T10:45:54Z",
+    "commitMessage": "fix(theme/Prompt): address review follow-ups (#3333)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25049879501",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25049879501/job/73374595011"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25049879501/job/73374595028"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25049879501/job/73374595037"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25049879501/job/73374595049"
+      }
+    ]
+  },
+  {
     "commitSha": "88ece22e223ba6614b0e010c086b101f6dfbb7e7",
     "commitTimestamp": "2026-04-28T10:43:20Z",
     "commitMessage": "feat(theme)!: support `sidebar: false` and `sidebar: placeholder` mode (#3331)",
