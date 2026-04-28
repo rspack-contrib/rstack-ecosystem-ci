@@ -60,6 +60,12 @@ runs:
       uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
       with:
         fetch-depth: 1
+        # checkout@v6 persists credentials via includeIf gitdir, which leaks
+        # GITHUB_TOKEN auth into the worktree later created by
+        # JamesIves/github-pages-deploy-action and overrides the PAT in `token`,
+        # causing 403 on cross-repo push.
+        # See https://github.com/JamesIves/github-pages-deploy-action/issues/1928
+        persist-credentials: false
 
     - name: Setup Node.js
       if: steps.eco_ci.outcome == 'failure'
@@ -98,6 +104,7 @@ runs:
         ref: main
         path: ecosystem-ci-repo
         fetch-depth: 1
+        persist-credentials: false
 
     - name: Update Ecosystem History
       id: update-history
