@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b253c316a05aae71ad0650f42968415b73ffe504",
+    "commitTimestamp": "2026-04-28T13:20:26Z",
+    "commitMessage": "test: fix environment hot send e2e (#7567)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25055301793",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25055301793/job/73393811425"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25055301793/job/73393811431"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25055301793/job/73393811527"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25055301793/job/73393811540"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25055301793/job/73393811562"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25055301793/job/73393811597"
+      }
+    ]
+  },
+  {
     "commitSha": "629b6a73ad3a3911e559e4759bcbdbd9ef115c42",
     "commitTimestamp": "2026-04-28T12:54:53Z",
     "commitMessage": "feat(deps): update @rspack/core to 2.0.1 (#7566)",
