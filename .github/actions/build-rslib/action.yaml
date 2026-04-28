@@ -1,21 +1,21 @@
-name: "Build Rslib"
-description: "Checkout, build rslib"
+name: 'Build Rslib'
+description: 'Checkout, build rslib'
 inputs:
   repository:
-    description: "The rslib repository to use"
+    description: 'The rslib repository to use'
     required: true
-    default: "web-infra-dev/rslib"
+    default: 'web-infra-dev/rslib'
   path:
-    description: "Destination path to the rslib repository"
+    description: 'Destination path to the rslib repository'
     required: true
-    default: "workspace/rslib"
+    default: 'workspace/rslib'
   ref:
-    description: "The branch, tag or SHA to checkout"
+    description: 'The branch, tag or SHA to checkout'
     required: true
-    default: "main"
+    default: 'main'
 outputs:
   artifact-name:
-    description: "The name of the uploaded artifact"
+    description: 'The name of the uploaded artifact'
 runs:
   using: composite
   steps:

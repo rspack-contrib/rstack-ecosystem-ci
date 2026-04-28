@@ -1,44 +1,44 @@
-name: "ecosystem_ci_per_commit"
-description: "Trigger downstream ecosystem CI for commits and comment on failures"
+name: 'ecosystem_ci_per_commit'
+description: 'Trigger downstream ecosystem CI for commits and comment on failures'
 
 inputs:
   github-token:
-    description: "Token with access to the downstream ecosystem CI repository"
+    description: 'Token with access to the downstream ecosystem CI repository'
     required: true
   ecosystem-owner:
-    description: "Owner of the downstream ecosystem CI repository"
+    description: 'Owner of the downstream ecosystem CI repository'
     required: false
-    default: "rstackjs"
+    default: 'rstackjs'
   ecosystem-repo:
-    description: "Repository containing the downstream workflow"
+    description: 'Repository containing the downstream workflow'
     required: true
   workflow-file:
-    description: "Workflow file to execute in the downstream repository"
+    description: 'Workflow file to execute in the downstream repository'
     required: true
   client-payload:
-    description: "JSON payload passed to the downstream workflow dispatch"
+    description: 'JSON payload passed to the downstream workflow dispatch'
     required: false
-    default: "{}"
+    default: '{}'
   job-name-prefix:
-    description: "Job name prefix to match when summarizing downstream jobs"
+    description: 'Job name prefix to match when summarizing downstream jobs'
     required: false
-    default: "execute-all "
+    default: 'execute-all '
 
 outputs:
   workflow-id:
-    description: "ID of the triggered downstream workflow run"
+    description: 'ID of the triggered downstream workflow run'
     value: ${{ steps.eco_ci.outputs.workflow_id }}
   workflow-url:
-    description: "URL of the triggered downstream workflow run"
+    description: 'URL of the triggered downstream workflow run'
     value: ${{ steps.eco_ci.outputs.workflow_url }}
   conclusion:
-    description: "Conclusion reported by the downstream workflow"
+    description: 'Conclusion reported by the downstream workflow'
     value: ${{ steps.eco_ci.outputs.conclusion }}
   summary:
-    description: "Formatted markdown summary of downstream job results"
+    description: 'Formatted markdown summary of downstream job results'
     value: ${{ steps.eco-ci-result.outputs.summary }}
   results:
-    description: "JSON payload describing downstream workflow run and suites"
+    description: 'JSON payload describing downstream workflow run and suites'
     value: ${{ steps.eco-ci-result.outputs.results }}
 
 runs:
@@ -53,7 +53,7 @@ runs:
         repo: rstack-ecosystem-ci
         workflow_file_name: ${{ inputs.workflow-file }}
         github_token: ${{ inputs.github-token }}
-        ref: "main"
+        ref: 'main'
         client_payload: ${{ inputs.client-payload }}
 
     - name: Checkout

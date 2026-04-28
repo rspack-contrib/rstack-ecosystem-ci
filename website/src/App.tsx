@@ -5,7 +5,7 @@ import { Timeline } from '@/components/timeline';
 import { Badge } from '@/components/ui/badge';
 import { cn } from '@/lib/utils';
 import type { EcosystemCommitHistory, EcosystemCommitRecord } from '@/types';
-// @ts-ignore
+// @ts-expect-error dynamic data source alias
 import history from '@data';
 
 const DATA_SOURCE =

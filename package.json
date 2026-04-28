@@ -14,16 +14,14 @@
   "type": "module",
   "scripts": {
     "bisect": "tsx ecosystem-ci.ts bisect",
-    "lint": "biome check .",
+    "lint": "rslint && prettier -c .",
+    "lint:write": "rslint --fix && prettier -w .",
     "prepare": "pnpm exec simple-git-hooks",
     "test": "tsx ecosystem-ci.ts",
     "build:website": "pnpm --filter ecosystem-ci-website build"
   },
   "simple-git-hooks": {
-    "pre-commit": "pnpm exec nano-staged"
-  },
-  "nano-staged": {
-    "*": ["biome check . --write"]
+    "pre-commit": "pnpm run lint:write"
   },
   "dependencies": {
     "@actions/cache": "^4.0.1",
@@ -36,11 +34,11 @@
   },
   "devDependencies": {
     "@antfu/ni": "^0.20.0",
-    "@biomejs/biome": "^1.9.4",
+    "@rslint/core": "^0.5.0",
     "@types/node": "^24.10.1",
     "@types/semver": "^7.3.13",
     "bumpp": "^10.3.2",
-    "nano-staged": "^0.8.0",
+    "prettier": "^3.8.3",
     "semver": "^7.3.8",
     "simple-git-hooks": "^2.8.1",
     "tsx": "^4.19.2",

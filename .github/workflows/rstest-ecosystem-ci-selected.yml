@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
     inputs:
       refType:
-        description: "type of rstest ref to use"
+        description: 'type of rstest ref to use'
         required: true
         type: choice
         options:
@@ -18,23 +18,23 @@ on:
           - tag
           - commit
           - release
-        default: "branch"
+        default: 'branch'
       ref:
-        description: "rstest ref to use"
+        description: 'rstest ref to use'
         required: true
         type: string
-        default: "main"
+        default: 'main'
       repo:
-        description: "rstest repository to use"
+        description: 'rstest repository to use'
         required: true
         type: string
-        default: "web-infra-dev/rstest"
+        default: 'web-infra-dev/rstest'
       suite:
-        description: "testsuite to run. runs all test suites when `-`."
+        description: 'testsuite to run. runs all test suites when `-`.'
         required: true
         type: choice
         options:
-          - "-"
+          - '-'
           # - plugins
           - rspress
           - rslib
@@ -43,7 +43,7 @@ on:
           - modernjs
           - examples
       suiteRefType:
-        description: "type of suite ref to use"
+        description: 'type of suite ref to use'
         required: true
         type: choice
         options:
@@ -51,12 +51,12 @@ on:
           - branch
           - tag
           - commit
-        default: "precoded"
+        default: 'precoded'
       suiteRef:
-        description: "suite ref to use"
+        description: 'suite ref to use'
         required: true
         type: string
-        default: "precoded"
+        default: 'precoded'
 
 jobs:
   execute-selected-suite:

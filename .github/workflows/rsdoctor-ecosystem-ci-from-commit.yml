@@ -10,23 +10,23 @@ on:
   workflow_dispatch:
     inputs:
       commitSHA:
-        description: "commit sha"
+        description: 'commit sha'
         required: true
         type: string
       repo:
-        description: "rsdoctor repository to use"
+        description: 'rsdoctor repository to use'
         required: true
         type: string
-        default: "web-infra-dev/rsdoctor"
+        default: 'web-infra-dev/rsdoctor'
       suite:
-        description: "testsuite to run. runs all test suites when `-`."
+        description: 'testsuite to run. runs all test suites when `-`.'
         required: false
         type: choice
         options:
-          - "-"
+          - '-'
           - rsbuild
       suiteRefType:
-        description: "type of suite ref to use"
+        description: 'type of suite ref to use'
         required: true
         type: choice
         options:
@@ -34,14 +34,14 @@ on:
           - branch
           - tag
           - commit
-        default: "precoded"
+        default: 'precoded'
       suiteRef:
-        description: "suite ref to use"
+        description: 'suite ref to use'
         required: true
         type: string
-        default: "precoded"
+        default: 'precoded'
       updateComment:
-        description: "update comment"
+        description: 'update comment'
         required: false
         type: boolean
         default: false

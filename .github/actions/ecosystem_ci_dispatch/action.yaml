@@ -1,55 +1,55 @@
-name: "ecosystem_ci_dispatch"
-description: "Trigger downstream ecosystem CI from a manual dispatch and manage PR comments"
+name: 'ecosystem_ci_dispatch'
+description: 'Trigger downstream ecosystem CI from a manual dispatch and manage PR comments'
 
 inputs:
   github-token:
-    description: "Token with access to the downstream ecosystem CI repository"
+    description: 'Token with access to the downstream ecosystem CI repository'
     required: true
   ecosystem-owner:
-    description: "Owner of the downstream ecosystem CI repository"
+    description: 'Owner of the downstream ecosystem CI repository'
     required: false
-    default: "rstackjs"
+    default: 'rstackjs'
   ecosystem-repo:
-    description: "Repository containing the downstream workflow"
+    description: 'Repository containing the downstream workflow'
     required: true
   workflow-file:
-    description: "Workflow file to execute in the downstream repository"
+    description: 'Workflow file to execute in the downstream repository'
     required: true
   client-payload:
-    description: "JSON payload passed to the downstream workflow dispatch"
+    description: 'JSON payload passed to the downstream workflow dispatch'
     required: false
-    default: "{}"
+    default: '{}'
   job-name-prefix:
-    description: "Job name prefix to match when summarizing downstream jobs"
+    description: 'Job name prefix to match when summarizing downstream jobs'
     required: false
-    default: "execute-all "
+    default: 'execute-all '
   pr-number:
-    description: "Explicit PR number to comment on. When set, skips branch-based PR lookup."
+    description: 'Explicit PR number to comment on. When set, skips branch-based PR lookup.'
     required: false
-    default: ""
+    default: ''
   branch:
-    description: "Branch name to match against open pull requests when locating the PR number. Used only when pr-number is not set."
+    description: 'Branch name to match against open pull requests when locating the PR number. Used only when pr-number is not set.'
     required: false
-    default: ""
+    default: ''
 
 outputs:
   workflow-id:
-    description: "ID of the triggered downstream workflow run"
+    description: 'ID of the triggered downstream workflow run'
     value: ${{ steps.eco_ci.outputs.workflow_id }}
   workflow-url:
-    description: "URL of the triggered downstream workflow run"
+    description: 'URL of the triggered downstream workflow run'
     value: ${{ steps.eco_ci.outputs.workflow_url }}
   conclusion:
-    description: "Conclusion reported by the downstream workflow"
+    description: 'Conclusion reported by the downstream workflow'
     value: ${{ steps.eco_ci.outputs.conclusion }}
   summary:
-    description: "Formatted markdown summary of downstream job results"
+    description: 'Formatted markdown summary of downstream job results'
     value: ${{ steps.eco-ci-result.outputs.summary }}
   comment-id:
-    description: "Identifier of the PR comment that was created or updated"
+    description: 'Identifier of the PR comment that was created or updated'
     value: ${{ steps.create-comment.outputs.result }}
   detected-pr-number:
-    description: "Pull request number auto-detected from the branch lookup"
+    description: 'Pull request number auto-detected from the branch lookup'
     value: ${{ steps.get-pr-number.outputs.result }}
 
 runs:

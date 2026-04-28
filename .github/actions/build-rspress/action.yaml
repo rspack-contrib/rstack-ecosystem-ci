@@ -1,21 +1,21 @@
-name: "Build Rspress"
-description: "Checkout, build rspress"
+name: 'Build Rspress'
+description: 'Checkout, build rspress'
 inputs:
   repository:
-    description: "The rspress repository to use"
+    description: 'The rspress repository to use'
     required: true
-    default: "web-infra-dev/rspress"
+    default: 'web-infra-dev/rspress'
   path:
-    description: "Destination path to the rspress repository"
+    description: 'Destination path to the rspress repository'
     required: true
-    default: "workspace/rspress"
+    default: 'workspace/rspress'
   ref:
-    description: "The branch, tag or SHA to checkout"
+    description: 'The branch, tag or SHA to checkout'
     required: true
-    default: "main"
+    default: 'main'
 outputs:
   artifact-name:
-    description: "The name of the uploaded artifact"
+    description: 'The name of the uploaded artifact'
 runs:
   using: composite
   steps:

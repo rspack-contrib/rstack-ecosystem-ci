@@ -1,35 +1,45 @@
 # Repository Guidelines
 
 ## Project Structure & Module Organization
+
 The CLI entry point lives in `ecosystem-ci.ts`, handling argument parsing, stack selection, and GitHub Actions plumbing. Shared helpers (`runInRepo`, git utilities, bootstrap logic) reside in `utils.ts`, while DTOs are defined in `types.d.ts`. Integration suites are colocated under `tests/<stack>/` (for example `tests/rsbuild/plugins.ts`) and export an async `test(options: RunOptions)` function. Runtime clones are created under `workspace/`; treat this directory as disposable and keep it untracked. The `website/` directory hosts the deployed page, which pulls fresh data from the `data` branch via ecosystem CI rendering before the scheduled deployment jobs run.
 
 ## Build, Test, and Development Commands
-Use `pnpm install` to bootstrap dependencies (Node ≥18). Run targeted suites with `pnpm test --stack <stack> [suite]`, e.g. `pnpm test --stack rsbuild plugins`. Bisect regressions via `pnpm bisect --stack <stack>`. Execute `pnpm lint` to run `biome check .`. After cloning, `pnpm prepare` installs `simple-git-hooks` so the Biome pre-commit hook fires locally.
+
+Use `pnpm install` to bootstrap dependencies (Node ≥18). Run targeted suites with `pnpm test --stack <stack> [suite]`, e.g. `pnpm test --stack rsbuild plugins`. Bisect regressions via `pnpm bisect --stack <stack>`. Execute `pnpm lint` to run Rslint and Prettier checks. After cloning, `pnpm prepare` installs `simple-git-hooks` so the Rslint and Prettier pre-commit hook fires locally.
 
 ## Coding Style & Naming Conventions
-Biome enforces space indentation, single quotes, normalized imports, and the shared lint rules. Follow the strict TypeScript settings in `tsconfig.json` (ESNext target, NodeNext resolution, `noImplicitOverride`). Name suite files in lowercase or kebab-case (`tests/rspack/lynx-stack.ts`), keep helpers camelCase, and reserve `test` exports for suite entry points.
+
+Rslint enforces TypeScript lint rules, while Prettier enforces space indentation, single quotes, and formatting. Follow the strict TypeScript settings in `tsconfig.json` (ESNext target, NodeNext resolution, `noImplicitOverride`). Name suite files in lowercase or kebab-case (`tests/rspack/lynx-stack.ts`), keep helpers camelCase, and reserve `test` exports for suite entry points.
 
 ## Testing Guidelines
+
 Suites boot via `setupEnvironment` and must remain idempotent so reruns start clean. Prefer `runInRepo` with explicit `repo`, `branch`, `test`, and overrides so reviewers can audit each step. When adding scenarios, mirror the minimal patterns (for example `tests/rsbuild/examples.ts` with `test: ['build:rsbuild']`) and document any required environment tweaks.
 
 ## Commit & Pull Request Guidelines
+
 Commits follow short, imperative subjects (≤72 chars), elaborating in the body only when behavior changes. PRs should justify the change, list affected stacks or utilities, and include the exact validation command, e.g. `pnpm test --stack rspack modernjs`. Attach logs or screenshots for CI changes and highlight any new secrets or webhooks reviewers must configure.
 
 ## Environment & Tooling Notes
+
 The runner exports `ECOSYSTEM_CI`, `TURBO_FORCE`, and memory-safe `NODE_OPTIONS`; avoid overriding them unless a suite explicitly requires it. Keep `workspace/` untracked, and never commit runtime artifacts. Remember that network-dependent steps may need explicit approval in restricted environments.
 `verdaccio.yaml` lives at repo root for rspack flows that publish locally; it writes under `workspace/`.
 
 ## Cross-Stack Isomorphism
+
 All stacks (rsbuild, rspack, rslib, rstest, rsdoctor, rspress) must follow the same structural patterns. When fixing a bug or adding a feature to one stack's workflows or shared actions, always check whether the same issue or gap exists in the other stacks and apply the fix uniformly. Avoid stack-specific workarounds that diverge from the common pattern — if a change cannot be made isomorphic, document the reason explicitly. Shared composite actions (`ecosystem_ci_dispatch`, `ecosystem_ci_per_commit`, `ecosystem-ci-result`) and workflow conventions (job naming, Verdaccio setup, suite execution) are designed to be stack-agnostic; keep them that way.
 
 ## Execution Flow
-All stacks use the same split-repo dispatch model. The **upstream stack repo** (rspack, rsbuild, rslib, rstest, rsdoctor, rspress) calls a composite action hosted in *this* repo, which in turn fires `workflow_dispatch` on a stack-specific workflow (`<stack>-ecosystem-ci-from-pr.yml` / `<stack>-ecosystem-ci-from-commit.yml`) via `convictional/trigger-workflow-and-wait`. When the downstream run finishes, the composite action pulls the job list through `ecosystem-ci-result` and writes the summary back to the upstream PR / commit.
+
+All stacks use the same split-repo dispatch model. The **upstream stack repo** (rspack, rsbuild, rslib, rstest, rsdoctor, rspress) calls a composite action hosted in _this_ repo, which in turn fires `workflow_dispatch` on a stack-specific workflow (`<stack>-ecosystem-ci-from-pr.yml` / `<stack>-ecosystem-ci-from-commit.yml`) via `convictional/trigger-workflow-and-wait`. When the downstream run finishes, the composite action pulls the job list through `ecosystem-ci-result` and writes the summary back to the upstream PR / commit.
 
 Rspack is the only stack that needs extra setup:
+
 - **`prepare-binding` job** builds (or downloads) the native `.node` artifact before any suite can install `@rspack/*`.
 - **`publish-rspack-to-verdaccio` step** bumps every `@rspack/*` package to a fresh sentinel version (`<current>-fresh.<runId>.<runAttempt>`) and publishes it to a local Verdaccio on `http://localhost:4873`, so downstream `pnpm install` deterministically pulls the workspace build instead of falling through the `npmjs` uplink (works around pnpm/pnpm#9270 — see `.github/actions/publish-rspack-to-verdaccio/action.yaml`). The sentinel is then passed to `ecosystem-ci.ts` as `--release`.
 
 ### from-pr
+
 Manually triggered to test a PR branch and post the summary back as a PR comment.
 
 ```mermaid
@@ -99,6 +109,7 @@ flowchart TD
 ```
 
 ### from-commit
+
 Automatically triggered by upstream CI on each push to main; posts a commit comment on failure and feeds successful runs into the website's `data` branch.
 
 ```mermaid

@@ -36,7 +36,7 @@ The repositories are checked out into `workspace` subdirectory as shallow clones
 
 - `pnpm test --stack rspack --release nightly <suite>`: run a nightly release of the selected stack
 - `pnpm test --stack rsbuild --branch main --suite-branch update-rsbuild <suite>`: use `update-rsbuild` branch for the suite to test `main`
-- `pnpm test --stack rspack modernjs` (rspack suites include modernjs, rspress, rsbuild, rslib, rstest, rsdoctor, examples, devserver, plugin, lynx-stack, _selftest)
+- `pnpm test --stack rspack modernjs` (rspack suites include modernjs, rspress, rsbuild, rslib, rstest, rsdoctor, examples, devserver, plugin, lynx-stack, \_selftest)
 
 # How to add a new integration test
 
