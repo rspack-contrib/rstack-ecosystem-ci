@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d316f26d84b41524b7d10f626954d0bf4c99d949",
+    "commitTimestamp": "2026-04-28T06:07:06Z",
+    "commitMessage": "chore: update skills (#7563)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25036863428",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25036863428/job/73330466699"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25036863428/job/73330466704"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25036863428/job/73330466708"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25036863428/job/73330466709"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25036863428/job/73330466717"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25036863428/job/73330466743"
+      }
+    ]
+  },
+  {
     "commitSha": "da26710210e89a49b983905a824e1bfeb70537a2",
     "commitTimestamp": "2026-04-28T05:56:58Z",
     "commitMessage": "fix(core): filter Rspack runtime stack frames (#7562)",
