@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "dc03fe09782db96ba4c611dbe87dcb0998380bd7",
+    "commitTimestamp": "2026-04-28T02:43:11Z",
+    "commitMessage": "feat(plugin-sass): support Sass URL query (#7554)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25031035398",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25031035398/job/73312500007"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25031035398/job/73312500009"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25031035398/job/73312500011"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25031035398/job/73312500012"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25031035398/job/73312500017"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25031035398/job/73312500020"
+      }
+    ]
+  },
+  {
     "commitSha": "b5625b43acc81e0c4fa0ea3301cc5fb83c186b98",
     "commitTimestamp": "2026-04-27T14:01:42Z",
     "commitMessage": "feat(source-map): update source map extract schema (#7547)",
