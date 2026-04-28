@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2f34e4918652ccd0a8dd4ad156f658ac5992d7ed",
+    "commitTimestamp": "2026-04-28T09:32:21Z",
+    "commitMessage": "feat(core): add overlay errors option (#7564)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25046923472",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25046923472/job/73364343073"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25046923472/job/73364343076"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25046923472/job/73364343079"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25046923472/job/73364343082"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25046923472/job/73364343100"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25046923472/job/73364343110"
+      }
+    ]
+  },
+  {
     "commitSha": "d316f26d84b41524b7d10f626954d0bf4c99d949",
     "commitTimestamp": "2026-04-28T06:07:06Z",
     "commitMessage": "chore: update skills (#7563)",
