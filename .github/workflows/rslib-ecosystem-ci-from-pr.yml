@@ -10,25 +10,25 @@ on:
   workflow_dispatch:
     inputs:
       prNumber:
-        description: "PR number (e.g. 9887)"
+        description: 'PR number (e.g. 9887)'
         required: true
         type: string
       branchName:
-        description: "rslib branch to use"
+        description: 'rslib branch to use'
         required: true
         type: string
-        default: "main"
+        default: 'main'
       repo:
-        description: "rslib repository to use"
+        description: 'rslib repository to use'
         required: true
         type: string
-        default: "web-infra-dev/rslib"
+        default: 'web-infra-dev/rslib'
       suite:
-        description: "testsuite to run. runs all test suites when `-`."
+        description: 'testsuite to run. runs all test suites when `-`.'
         required: false
         type: choice
         options:
-          - "-"
+          - '-'
           - rsbuild
           - rspack
           - rstest
@@ -36,7 +36,7 @@ on:
           - rsdoctor
           - modernjs
       suiteRefType:
-        description: "type of suite ref to use"
+        description: 'type of suite ref to use'
         required: true
         type: choice
         options:
@@ -44,12 +44,12 @@ on:
           - branch
           - tag
           - commit
-        default: "precoded"
+        default: 'precoded'
       suiteRef:
-        description: "suite ref to use"
+        description: 'suite ref to use'
         required: true
         type: string
-        default: "precoded"
+        default: 'precoded'
 
 jobs:
   execute-selected-suite:

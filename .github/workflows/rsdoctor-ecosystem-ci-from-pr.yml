@@ -10,28 +10,28 @@ on:
   workflow_dispatch:
     inputs:
       prNumber:
-        description: "PR number (e.g. 1234)"
+        description: 'PR number (e.g. 1234)'
         required: true
         type: string
       branchName:
-        description: "rsdoctor branch to use"
+        description: 'rsdoctor branch to use'
         required: true
         type: string
-        default: "main"
+        default: 'main'
       repo:
-        description: "rsdoctor repository to use"
+        description: 'rsdoctor repository to use'
         required: true
         type: string
-        default: "web-infra-dev/rsdoctor"
+        default: 'web-infra-dev/rsdoctor'
       suite:
-        description: "testsuite to run. runs all test suites when `-`."
+        description: 'testsuite to run. runs all test suites when `-`.'
         required: false
         type: choice
         options:
-          - "-"
+          - '-'
           - rsbuild
       suiteRefType:
-        description: "type of suite ref to use"
+        description: 'type of suite ref to use'
         required: true
         type: choice
         options:
@@ -39,12 +39,12 @@ on:
           - branch
           - tag
           - commit
-        default: "precoded"
+        default: 'precoded'
       suiteRef:
-        description: "suite ref to use"
+        description: 'suite ref to use'
         required: true
         type: string
-        default: "precoded"
+        default: 'precoded'
 
 jobs:
   execute-selected-suite:

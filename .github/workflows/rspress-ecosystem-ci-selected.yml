@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
     inputs:
       refType:
-        description: "type of rspress ref to use"
+        description: 'type of rspress ref to use'
         required: true
         type: choice
         options:
@@ -18,29 +18,29 @@ on:
           - tag
           - commit
           - release
-        default: "branch"
+        default: 'branch'
       ref:
-        description: "rspress ref to use"
+        description: 'rspress ref to use'
         required: true
         type: string
-        default: "main"
+        default: 'main'
       repo:
-        description: "rspress repository to use"
+        description: 'rspress repository to use'
         required: true
         type: string
-        default: "web-infra-dev/rspress"
+        default: 'web-infra-dev/rspress'
       suite:
-        description: "testsuite to run. runs all test suites when `-`."
+        description: 'testsuite to run. runs all test suites when `-`.'
         required: true
         type: choice
         options:
-          - "-"
+          - '-'
           - rsbuild
           - rslib
           - rspack
           - rstest
       suiteRefType:
-        description: "type of suite ref to use"
+        description: 'type of suite ref to use'
         required: true
         type: choice
         options:
@@ -48,12 +48,12 @@ on:
           - branch
           - tag
           - commit
-        default: "precoded"
+        default: 'precoded'
       suiteRef:
-        description: "suite ref to use"
+        description: 'suite ref to use'
         required: true
         type: string
-        default: "precoded"
+        default: 'precoded'
 
 jobs:
   execute-selected-suite:

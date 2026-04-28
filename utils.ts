@@ -212,7 +212,8 @@ export async function setupRepo(options: RepoOptions) {
     options.shallow = true;
   }
 
-  let { repo, commit, branch, tag, dir, shallow } = options;
+  let { repo } = options;
+  const { commit, branch, tag, dir, shallow } = options;
   if (!dir) {
     throw new Error('setupRepo must be called with options.dir');
   }
@@ -395,9 +396,9 @@ export async function runInRepo(options: RunOptions & RepoOptions) {
   const isFileNotFoundError = (error: unknown) =>
     Boolean(
       error &&
-        typeof error === 'object' &&
-        'code' in error &&
-        (error as NodeJS.ErrnoException).code === 'ENOENT',
+      typeof error === 'object' &&
+      'code' in error &&
+      (error as NodeJS.ErrnoException).code === 'ENOENT',
     );
   let workspaceRenamed = false;
   // weird, is the pnpm-workspace.yaml exists in the root dir, some package installation will fail.
@@ -547,7 +548,6 @@ export async function runInRepo(options: RunOptions & RepoOptions) {
         await fs.promises.rename(tempWorkspaceFile, workspaceFile);
       } catch (error) {
         if (!isFileNotFoundError(error)) {
-          // biome-ignore lint/correctness/noUnsafeFinally: <explanation>
           throw error;
         }
       }

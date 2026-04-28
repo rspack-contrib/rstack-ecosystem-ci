@@ -1,25 +1,25 @@
-name: "Eco CI Result"
-description: "Fetch ecosystem CI jobs for a run and format a markdown summary"
+name: 'Eco CI Result'
+description: 'Fetch ecosystem CI jobs for a run and format a markdown summary'
 
 inputs:
   workflow-output:
-    description: "JSON stringified output returned by trigger-workflow-and-wait"
+    description: 'JSON stringified output returned by trigger-workflow-and-wait'
     required: true
   job-prefix:
-    description: "Job name prefix to include in the summary table"
+    description: 'Job name prefix to include in the summary table'
     required: false
-    default: "execute-all "
+    default: 'execute-all '
   heading:
-    description: "Short sentence describing the executed workflow"
+    description: 'Short sentence describing the executed workflow'
     required: false
-    default: "Ran ecosystem CI"
+    default: 'Ran ecosystem CI'
 
 outputs:
   summary:
-    description: "Formatted markdown summary of the ecosystem CI jobs"
+    description: 'Formatted markdown summary of the ecosystem CI jobs'
     value: ${{ steps.get-result.outputs.summary }}
   results:
-    description: "JSON string with workflow URL, run id, and suite entries"
+    description: 'JSON string with workflow URL, run id, and suite entries'
     value: ${{ steps.get-result.outputs.results }}
 
 runs:

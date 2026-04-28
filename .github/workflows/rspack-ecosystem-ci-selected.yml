@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
     inputs:
       refType:
-        description: "type of rspack ref to use"
+        description: 'type of rspack ref to use'
         required: true
         type: choice
         options:
@@ -18,23 +18,23 @@ on:
           - tag
           - commit
           - release
-        default: "branch"
+        default: 'branch'
       ref:
-        description: "rspack ref to use"
+        description: 'rspack ref to use'
         required: true
         type: string
-        default: "main"
+        default: 'main'
       repo:
-        description: "rspack repository to use"
+        description: 'rspack repository to use'
         required: true
         type: string
-        default: "web-infra-dev/rspack"
+        default: 'web-infra-dev/rspack'
       suite:
-        description: "testsuite to run. runs all test suites when `-`."
+        description: 'testsuite to run. runs all test suites when `-`.'
         required: true
         type: choice
         options:
-          - "-"
+          - '-'
           - modernjs
           - rspress
           - rsbuild
@@ -47,7 +47,7 @@ on:
           - lynx-stack
           - rsbuild-rsc-plugin
       suiteRefType:
-        description: "type of suite ref to use"
+        description: 'type of suite ref to use'
         required: true
         type: choice
         options:
@@ -55,12 +55,12 @@ on:
           - branch
           - tag
           - commit
-        default: "precoded"
+        default: 'precoded'
       suiteRef:
-        description: "suite ref to use"
+        description: 'suite ref to use'
         required: true
         type: string
-        default: "precoded"
+        default: 'precoded'
 
 jobs:
   get-runner-labels:
