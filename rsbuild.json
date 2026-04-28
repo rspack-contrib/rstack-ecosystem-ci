@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a688400eae483928769cf44106f7966596e6795f",
+    "commitTimestamp": "2026-04-28T03:06:35Z",
+    "commitMessage": "feat(plugin-less): support Less URL query (#7557)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25031923951",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25031923951/job/73315250405"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25031923951/job/73315250411"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25031923951/job/73315250419"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25031923951/job/73315250421"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25031923951/job/73315250426"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25031923951/job/73315250432"
+      }
+    ]
+  },
+  {
     "commitSha": "a6d4e54c7bb904dca6a9bb05534f0aa5d4e1249f",
     "commitTimestamp": "2026-04-28T02:55:42Z",
     "commitMessage": "chore(deps): update swc monorepo to ^12.9.0 (#7555)",
