@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f124f6c71afa6b4c2fb497aa0fdad5b1e36a16a7",
+    "commitTimestamp": "2026-04-28T14:04:07Z",
+    "commitMessage": "feat(core): support filtering overlay build errors (#7568)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25057579684",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25057579684/job/73402148146"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25057579684/job/73402148153"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25057579684/job/73402148168"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25057579684/job/73402148174"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25057579684/job/73402148186"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25057579684/job/73402148312"
+      }
+    ]
+  },
+  {
     "commitSha": "b253c316a05aae71ad0650f42968415b73ffe504",
     "commitTimestamp": "2026-04-28T13:20:26Z",
     "commitMessage": "test: fix environment hot send e2e (#7567)",
