@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "95be76cc295913b4dbcb4008791bee393da8c7e0",
+    "commitTimestamp": "2026-04-28T14:14:29Z",
+    "commitMessage": "fix(core): override merged overlay error filters (#7570)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25058127287",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25058127287/job/73404175777"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25058127287/job/73404175783"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25058127287/job/73404175797"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25058127287/job/73404175808"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25058127287/job/73404175817"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25058127287/job/73404176021"
+      }
+    ]
+  },
+  {
     "commitSha": "f124f6c71afa6b4c2fb497aa0fdad5b1e36a16a7",
     "commitTimestamp": "2026-04-28T14:04:07Z",
     "commitMessage": "feat(core): support filtering overlay build errors (#7568)",
