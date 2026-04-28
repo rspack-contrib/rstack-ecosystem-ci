@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "629b6a73ad3a3911e559e4759bcbdbd9ef115c42",
+    "commitTimestamp": "2026-04-28T12:54:53Z",
+    "commitMessage": "feat(deps): update @rspack/core to 2.0.1 (#7566)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25054071828",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25054071828/job/73389382507"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25054071828/job/73389382530"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25054071828/job/73389382534"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25054071828/job/73389382545"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25054071828/job/73389382550"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25054071828/job/73389382637"
+      }
+    ]
+  },
+  {
     "commitSha": "2f34e4918652ccd0a8dd4ad156f658ac5992d7ed",
     "commitTimestamp": "2026-04-28T09:32:21Z",
     "commitMessage": "feat(core): add overlay errors option (#7564)",
