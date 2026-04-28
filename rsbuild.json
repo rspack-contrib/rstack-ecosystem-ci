@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7a63e02f63b472f1327861b36c2d602e6450f6a5",
+    "commitTimestamp": "2026-04-28T02:47:32Z",
+    "commitMessage": "chore: update renovate range strategy (#7556)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25031166836",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25031166836/job/73312895141"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25031166836/job/73312895149"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25031166836/job/73312895151"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25031166836/job/73312895156"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25031166836/job/73312895157"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25031166836/job/73312895161"
+      }
+    ]
+  },
+  {
     "commitSha": "dc03fe09782db96ba4c611dbe87dcb0998380bd7",
     "commitTimestamp": "2026-04-28T02:43:11Z",
     "commitMessage": "feat(plugin-sass): support Sass URL query (#7554)",
