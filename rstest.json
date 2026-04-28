@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7912a4245cae1685504b8c0e105965d5e234a004",
+    "commitTimestamp": "2026-04-28T03:12:45Z",
+    "commitMessage": "docs(website): improve rstest feature messaging (#1205)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25037466407",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25037466407/job/73332383566"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25037466407/job/73332383569"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25037466407/job/73332383571"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25037466407/job/73332383576"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25037466407/job/73332383586"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25037466407/job/73332383626"
+      }
+    ]
+  },
+  {
     "commitSha": "7f7b0e0f8f1c12485815cf8d079632d1e1d40e8f",
     "commitTimestamp": "2026-04-27T03:27:54Z",
     "commitMessage": "ci(codspeed): temporarily disable on PR/push (#1208)",
