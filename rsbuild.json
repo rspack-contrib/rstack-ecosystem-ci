@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2acffd3715cfb0238290a7a7c5236309d955d091",
+    "commitTimestamp": "2026-04-29T02:19:22Z",
+    "commitMessage": "fix(core): override single callback configs (#7571)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25087719642",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25087719642/job/73506816248"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25087719642/job/73506816252"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25087719642/job/73506816258"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25087719642/job/73506816262"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25087719642/job/73506816268"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25087719642/job/73506816272"
+      }
+    ]
+  },
+  {
     "commitSha": "24af468c37e1a4510245652264469b93a4acee7f",
     "commitTimestamp": "2026-04-28T14:38:20Z",
     "commitMessage": "release: v2.0.3 (#7573)",
