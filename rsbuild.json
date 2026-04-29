@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "775f3bab62ebe929fe38e26a3aecb80c48c0326b",
+    "commitTimestamp": "2026-04-29T07:37:40Z",
+    "commitMessage": "feat(core): support runtime overlay filter (#7575)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25096709021",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25096709021/job/73535203774"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25096709021/job/73535203794"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25096709021/job/73535203799"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25096709021/job/73535203802"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25096709021/job/73535203803"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25096709021/job/73535203819"
+      }
+    ]
+  },
+  {
     "commitSha": "7b56024fa0512db240f6dfdafb92265413569cb6",
     "commitTimestamp": "2026-04-29T02:30:21Z",
     "commitMessage": "fix(core): support url query with params (#7572)",
