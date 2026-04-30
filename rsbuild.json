@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ebeba656a9a1d1be556efba8a8a7ed0a3267ef08",
+    "commitTimestamp": "2026-04-30T14:47:18Z",
+    "commitMessage": "fix(plugin-svgr): handle string svg base64 encoding (#7581)",
+    "author": {
+      "name": "yifancong",
+      "email": "congzhe@bytedance.com",
+      "login": "yifancong"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25172092954",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25172092954/job/73794040656"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25172092954/job/73794040664"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25172092954/job/73794040665"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25172092954/job/73794040677"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25172092954/job/73794040680"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25172092954/job/73794040783"
+      }
+    ]
+  },
+  {
     "commitSha": "6df272672376e3f79be62eeb4fbc9faf8b5045c5",
     "commitTimestamp": "2026-04-30T02:20:46Z",
     "commitMessage": "test(types): remove problematic plugin checks (#7579)",
