@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "de841ba0031c28fb7b4c6a3c76200b21385d1dd2",
+    "commitTimestamp": "2026-04-30T04:49:22Z",
+    "commitMessage": "fix(rsc): scope server-entry CSS collection by entry (#13878)",
+    "author": {
+      "name": "Cong-Cong Pan",
+      "email": "dacongsama@live.com",
+      "login": "SyMind"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25148179932",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25148179932/job/73712461059"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25148179932/job/73712461082"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25148179932/job/73712461090"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25148179932/job/73712461097"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25148179932/job/73712461104"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25148179932/job/73712461109"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25148179932/job/73712461115"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25148179932/job/73712461116"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25148179932/job/73712461125"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25148179932/job/73712461126"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25148179932/job/73712461132"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25148179932/job/73712461134"
+      }
+    ]
+  },
+  {
     "commitSha": "9d8c7cf59b88440c4660fe005bc3c7a7ca1c1e31",
     "commitTimestamp": "2026-04-30T03:16:29Z",
     "commitMessage": "feat(create-rspack): support rslint template mapping (#13882)",
