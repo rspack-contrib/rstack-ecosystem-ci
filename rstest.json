@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "68815f2adc959d9954b9856b2af452fb95fe3a97",
+    "commitTimestamp": "2026-04-30T09:10:50Z",
+    "commitMessage": "fix(pool): restore stderr truncation and settle wait lost in #1171 (#1216)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25157272877",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25157272877/job/73742238896"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25157272877/job/73742238901"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25157272877/job/73742238914"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25157272877/job/73742238916"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25157272877/job/73742238945"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25157272877/job/73742238961"
+      }
+    ]
+  },
+  {
     "commitSha": "183f82788c964f5e1c1687466c98cf0001caba8b",
     "commitTimestamp": "2026-04-30T07:30:24Z",
     "commitMessage": "feat(pool): replace tinypool with self-owned worker pool (#1171)",
