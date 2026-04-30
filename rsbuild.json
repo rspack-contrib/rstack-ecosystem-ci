@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f80e0f5f6988bcabc19b12dcfbd7cb8fd5d2e12c",
+    "commitTimestamp": "2026-04-30T01:25:32Z",
+    "commitMessage": "feat(create-rsbuild): support rslint template mapping (#7578)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25142579208",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25142579208/job/73695442253"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25142579208/job/73695442255"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25142579208/job/73695442258"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25142579208/job/73695442259"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25142579208/job/73695442271"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25142579208/job/73695442277"
+      }
+    ]
+  },
+  {
     "commitSha": "eb6d3b049b388d004820054bd98f84d2fef6f27d",
     "commitTimestamp": "2026-04-29T09:21:41Z",
     "commitMessage": "chore: update rslint config (#7576)",
