@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "33efef15e66b11592f3f8f03797bfcf72ca2ef7c",
+    "commitTimestamp": "2026-04-30T04:56:04Z",
+    "commitMessage": "fix(core): clean coverage at run start instead of from rsbuild compile hook (#1214)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25148170920",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25148170920/job/73712394394"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25148170920/job/73712394397"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25148170920/job/73712394400"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25148170920/job/73712394404"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25148170920/job/73712394407"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25148170920/job/73712394418"
+      }
+    ]
+  },
+  {
     "commitSha": "6da55587dc5d441c965ed3b1848b45885d07c0dd",
     "commitTimestamp": "2026-04-29T04:58:53Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1198)",
