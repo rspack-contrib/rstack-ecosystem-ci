@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e6615b7f7eb2be0cec0ff9134931b928b15695cc",
+    "commitTimestamp": "2026-04-30T07:46:37Z",
+    "commitMessage": "chore: enable tsgo in CI (#1620)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25153777901",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25153777901/job/73730354637"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25153777901/job/73730354645"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25153777901/job/73730354646"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25153777901/job/73730354658"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25153777901/job/73730354661"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25153777901/job/73730354668"
+      }
+    ]
+  },
+  {
     "commitSha": "71e8f016db2396ba52110504011d7ecff159e588",
     "commitTimestamp": "2026-04-30T07:36:40Z",
     "commitMessage": "chore: update pr creator skill (#1619)",
