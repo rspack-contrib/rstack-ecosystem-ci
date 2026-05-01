@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4a98d7d1b8918b81a1fa105ae1e4935218e89211",
+    "commitTimestamp": "2026-05-01T00:29:42Z",
+    "commitMessage": "fix(plugin-styles): remove unused reduce-configs dep (#7580)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25196265160",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25196265160/job/73877442158"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25196265160/job/73877442167"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25196265160/job/73877442168"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25196265160/job/73877442171"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25196265160/job/73877442177"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25196265160/job/73877442196"
+      }
+    ]
+  },
+  {
     "commitSha": "01a44bb111212d5ecdf641454445e043d6ac3775",
     "commitTimestamp": "2026-05-01T00:29:27Z",
     "commitMessage": "release: @rsbuild/plugin-svgr v2.0.2 (#7582)",
