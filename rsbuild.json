@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "01a44bb111212d5ecdf641454445e043d6ac3775",
+    "commitTimestamp": "2026-05-01T00:29:27Z",
+    "commitMessage": "release: @rsbuild/plugin-svgr v2.0.2 (#7582)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25196261723",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25196261723/job/73877433113"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25196261723/job/73877433114"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25196261723/job/73877433120"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25196261723/job/73877433121"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25196261723/job/73877433124"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25196261723/job/73877433127"
+      }
+    ]
+  },
+  {
     "commitSha": "ebeba656a9a1d1be556efba8a8a7ed0a3267ef08",
     "commitTimestamp": "2026-04-30T14:47:18Z",
     "commitMessage": "fix(plugin-svgr): handle string svg base64 encoding (#7581)",
