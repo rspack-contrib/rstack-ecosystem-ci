@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "aee5a2dc3ac462c91afdb752047bdd5f454996a3",
+    "commitTimestamp": "2026-05-02T10:10:20Z",
+    "commitMessage": "docs: use Rspress Prompt component and upgrade to the latest version (#1213)",
+    "author": {
+      "name": "Soon",
+      "email": "a1149625757@126.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25249599630",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25249599630/job/74039506162"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25249599630/job/74039506163"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25249599630/job/74039506169"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25249599630/job/74039506170"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25249599630/job/74039506173"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25249599630/job/74039506176"
+      }
+    ]
+  },
+  {
     "commitSha": "68815f2adc959d9954b9856b2af452fb95fe3a97",
     "commitTimestamp": "2026-04-30T09:10:50Z",
     "commitMessage": "fix(pool): restore stderr truncation and settle wait lost in #1171 (#1216)",
