@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "399258db4361b4176025d50290bd8b0462364008",
+    "commitTimestamp": "2026-05-02T02:14:03Z",
+    "commitMessage": "perf(core): replace webpack-merge with rspack-merge (#7583)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25241293394",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25241293394/job/74017539425"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25241293394/job/74017539426"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25241293394/job/74017539429"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25241293394/job/74017539434"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25241293394/job/74017539435"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25241293394/job/74017539436"
+      }
+    ]
+  },
+  {
     "commitSha": "4a98d7d1b8918b81a1fa105ae1e4935218e89211",
     "commitTimestamp": "2026-05-01T00:29:42Z",
     "commitMessage": "fix(plugin-styles): remove unused reduce-configs dep (#7580)",
