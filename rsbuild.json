@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "00f35f45ee0f45a33f8060c3c76a20585a17598e",
+    "commitTimestamp": "2026-05-03T12:20:27Z",
+    "commitMessage": "chore(deps): update http-proxy-middleware to 4.0.0-beta.6 (#7586)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25279063378",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25279063378/job/74113384203"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25279063378/job/74113384207"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25279063378/job/74113384212"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25279063378/job/74113384213"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25279063378/job/74113384214"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25279063378/job/74113384216"
+      }
+    ]
+  },
+  {
     "commitSha": "053f933a4236d878cee36055ef727d832bbf8907",
     "commitTimestamp": "2026-05-03T12:08:58Z",
     "commitMessage": "fix(deps): update module federation to v2.4.0 (#7585)",
