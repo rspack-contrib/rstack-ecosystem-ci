@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "053f933a4236d878cee36055ef727d832bbf8907",
+    "commitTimestamp": "2026-05-03T12:08:58Z",
+    "commitMessage": "fix(deps): update module federation to v2.4.0 (#7585)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25278844819",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25278844819/job/74112822483"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25278844819/job/74112822489"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25278844819/job/74112822490"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25278844819/job/74112822491"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25278844819/job/74112822494"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25278844819/job/74112822499"
+      }
+    ]
+  },
+  {
     "commitSha": "399258db4361b4176025d50290bd8b0462364008",
     "commitTimestamp": "2026-05-02T02:14:03Z",
     "commitMessage": "perf(core): replace webpack-merge with rspack-merge (#7583)",
