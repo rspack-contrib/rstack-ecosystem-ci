@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "de9e4d9cd12e0af529b4ac6c755c2d60dfa0005c",
+    "commitTimestamp": "2026-05-04T02:12:03Z",
+    "commitMessage": "chore(deps): update rstack (#3344)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25297715865",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25297715865/job/74159225310"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25297715865/job/74159225314"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25297715865/job/74159225321"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25297715865/job/74159225323"
+      }
+    ]
+  },
+  {
     "commitSha": "0adbdfc0263599584f4f029e64efedeee2f3582d",
     "commitTimestamp": "2026-05-04T02:04:03Z",
     "commitMessage": "chore(deps): update actions/setup-node action to v6.4.0 (#3345)",
