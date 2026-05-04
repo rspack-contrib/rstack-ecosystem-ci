@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "26b9922a3c273815698e1c0cfb1de61829d1b776",
+    "commitTimestamp": "2026-05-04T03:23:55Z",
+    "commitMessage": "chore(deps): update pnpm to v10.33.2 (#1628)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25299447846",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25299447846/job/74163731828"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25299447846/job/74163731837"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25299447846/job/74163731838"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25299447846/job/74163731841"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25299447846/job/74163731844"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25299447846/job/74163732015"
+      }
+    ]
+  },
+  {
     "commitSha": "c7ebd53ec23f4f154ede78bcc7eb253999ee8be3",
     "commitTimestamp": "2026-05-04T03:17:18Z",
     "commitMessage": "chore: simplify renovate config (#1627)",
