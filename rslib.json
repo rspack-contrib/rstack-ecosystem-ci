@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c7ebd53ec23f4f154ede78bcc7eb253999ee8be3",
+    "commitTimestamp": "2026-05-04T03:17:18Z",
+    "commitMessage": "chore: simplify renovate config (#1627)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25299284470",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25299284470/job/74163279575"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25299284470/job/74163279577"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25299284470/job/74163279580"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25299284470/job/74163279587"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25299284470/job/74163279589"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25299284470/job/74163279618"
+      }
+    ]
+  },
+  {
     "commitSha": "bbd321497221a3b20e9886fb46c023fdc0bb0d6b",
     "commitTimestamp": "2026-05-04T01:52:20Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1626)",
