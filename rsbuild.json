@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "673a0552a3836ce09dbd7219ae8e662a652c7751",
+    "commitTimestamp": "2026-05-04T08:49:46Z",
+    "commitMessage": "chore: ignore node engine updates in renovate (#7591)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25309855180",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25309855180/job/74193963195"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25309855180/job/74193963198"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25309855180/job/74193963199"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25309855180/job/74193963208"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25309855180/job/74193963223"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25309855180/job/74193963235"
+      }
+    ]
+  },
+  {
     "commitSha": "8c54fe01c02345d316d391faccbc31f808a200ce",
     "commitTimestamp": "2026-05-04T08:47:15Z",
     "commitMessage": "chore(deps): update node.js to 24.15.0 (#7590)",
