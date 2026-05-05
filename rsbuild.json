@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f8a5541a2ace5b9aca095694c877996dfe13c701",
+    "commitTimestamp": "2026-05-05T09:22:15Z",
+    "commitMessage": "feat(plugin-solid): add solid resolve condition (#7592)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25368241053",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25368241053/job/74384630801"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25368241053/job/74384630820"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25368241053/job/74384630824"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25368241053/job/74384630842"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25368241053/job/74384630843"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25368241053/job/74384630912"
+      }
+    ]
+  },
+  {
     "commitSha": "673a0552a3836ce09dbd7219ae8e662a652c7751",
     "commitTimestamp": "2026-05-04T08:49:46Z",
     "commitMessage": "chore: ignore node engine updates in renovate (#7591)",
