@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "6e773ac66f32b1b3db589f311a0a46d34265fe1b",
+    "commitTimestamp": "2026-05-05T10:07:19Z",
+    "commitMessage": "fix(plugin-solid): use rspack esm refresh mode (#7594)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25370201243",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25370201243/job/74391459606"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25370201243/job/74391459630"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25370201243/job/74391459646"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25370201243/job/74391459665"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25370201243/job/74391459670"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25370201243/job/74391459702"
+      }
+    ]
+  },
+  {
     "commitSha": "f8a5541a2ace5b9aca095694c877996dfe13c701",
     "commitTimestamp": "2026-05-05T09:22:15Z",
     "commitMessage": "feat(plugin-solid): add solid resolve condition (#7592)",
