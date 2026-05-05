@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "32a7cb86bd6e089c517a94a0fd01a79fe3aca4f4",
+    "commitTimestamp": "2026-05-05T12:55:16Z",
+    "commitMessage": "feat(plugin-solid): add refresh disabled option (#7596)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25377652200",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25377652200/job/74417004985"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25377652200/job/74417004993"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25377652200/job/74417005009"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25377652200/job/74417005025"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25377652200/job/74417005040"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25377652200/job/74417005100"
+      }
+    ]
+  },
+  {
     "commitSha": "6e773ac66f32b1b3db589f311a0a46d34265fe1b",
     "commitTimestamp": "2026-05-05T10:07:19Z",
     "commitMessage": "fix(plugin-solid): use rspack esm refresh mode (#7594)",
