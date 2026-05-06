@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "1c9c87c3252c60a9c15c89d4b5906a90246a5511",
+    "commitTimestamp": "2026-05-06T11:42:36Z",
+    "commitMessage": "fix(ssg): experimentalWorker \"Cannot find module '@rspress/core/dist/entry/worker.js'\" (#3354)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25433199405",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25433199405/job/74604399569"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25433199405/job/74604399589"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25433199405/job/74604399627"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25433199405/job/74604399755"
+      }
+    ]
+  },
+  {
     "commitSha": "634d30d309f0ac33a5f3ce0ca626d40b4a5843bd",
     "commitTimestamp": "2026-05-06T11:42:28Z",
     "commitMessage": "chore(infra): replace changeset with bumpp (#3355)",
