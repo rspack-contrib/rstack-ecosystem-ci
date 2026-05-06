@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "6a8e8cb07d4d05d89a146a62caef3a3c8a9cdc66",
+    "commitTimestamp": "2026-05-06T07:05:14Z",
+    "commitMessage": "chore(deps): update rsbuild plugins to v2 (major) (#1223)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25422239802",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25422239802/job/74566939198"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25422239802/job/74566939208"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25422239802/job/74566939215"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25422239802/job/74566939218"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25422239802/job/74566939222"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25422239802/job/74566939228"
+      }
+    ]
+  },
+  {
     "commitSha": "4400024c604d73479e24b41ef6af3169171d0eb6",
     "commitTimestamp": "2026-05-06T03:38:21Z",
     "commitMessage": "fix: handle `toNotFake` option in useFakeTimers properly (#1219)",
