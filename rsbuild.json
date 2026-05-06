@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "6df9eec3f82536ecb9cba537ccab23e6ad797ba8",
+    "commitTimestamp": "2026-05-06T07:30:10Z",
+    "commitMessage": "feat(core): support filenameHash object config (#7603)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25423007194",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25423007194/job/74569459569"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25423007194/job/74569459573"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25423007194/job/74569459574"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25423007194/job/74569459577"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25423007194/job/74569459595"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25423007194/job/74569459620"
+      }
+    ]
+  },
+  {
     "commitSha": "12f0a9858a14c3fbec899d38460bd8351650f0ca",
     "commitTimestamp": "2026-05-06T07:28:49Z",
     "commitMessage": "chore(deps): update dependency jiti to ^2.7.0 (#7602)",
