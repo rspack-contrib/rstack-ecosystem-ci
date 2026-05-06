@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "40eec47920323e3f5c15fcc657f9adb98a25ca4c",
+    "commitTimestamp": "2026-05-06T02:52:07Z",
+    "commitMessage": "feat(plugin-solid): add solid option (#7598)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25414165721",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25414165721/job/74541982907"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25414165721/job/74541982912"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25414165721/job/74541982920"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25414165721/job/74541982929"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25414165721/job/74541982945"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25414165721/job/74541982969"
+      }
+    ]
+  },
+  {
     "commitSha": "26d780292092f2c1f629145607b4f4c502d4ec40",
     "commitTimestamp": "2026-05-06T02:30:58Z",
     "commitMessage": "feat(plugin-solid): add ssr option (#7597)",
