@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "26d780292092f2c1f629145607b4f4c502d4ec40",
+    "commitTimestamp": "2026-05-06T02:30:58Z",
+    "commitMessage": "feat(plugin-solid): add ssr option (#7597)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25413310196",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25413310196/job/74539466763"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25413310196/job/74539466764"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25413310196/job/74539466765"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25413310196/job/74539466766"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25413310196/job/74539466772"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25413310196/job/74539466774"
+      }
+    ]
+  },
+  {
     "commitSha": "32a7cb86bd6e089c517a94a0fd01a79fe3aca4f4",
     "commitTimestamp": "2026-05-05T12:55:16Z",
     "commitMessage": "feat(plugin-solid): add refresh disabled option (#7596)",
