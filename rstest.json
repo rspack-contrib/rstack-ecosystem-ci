@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4400024c604d73479e24b41ef6af3169171d0eb6",
+    "commitTimestamp": "2026-05-06T03:38:21Z",
+    "commitMessage": "fix: handle `toNotFake` option in useFakeTimers properly (#1219)",
+    "author": {
+      "name": "Felix Mosheev",
+      "email": "9304194+felixmosh@users.noreply.github.com",
+      "login": "felixmosh"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25415661216",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25415661216/job/74546502479"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25415661216/job/74546502481"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25415661216/job/74546502486"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25415661216/job/74546502487"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25415661216/job/74546502488"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25415661216/job/74546502489"
+      }
+    ]
+  },
+  {
     "commitSha": "aee5a2dc3ac462c91afdb752047bdd5f454996a3",
     "commitTimestamp": "2026-05-02T10:10:20Z",
     "commitMessage": "docs: use Rspress Prompt component and upgrade to the latest version (#1213)",
