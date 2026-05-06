@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "5e902d4593ba862e19b8ba599aab003915332c7e",
+    "commitTimestamp": "2026-05-06T07:59:03Z",
+    "commitMessage": "test(e2e): cover filenameHash for node target (#7605)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25423725789",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25423725789/job/74571831738"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25423725789/job/74571831740"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25423725789/job/74571831775"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25423725789/job/74571831780"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25423725789/job/74571831794"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25423725789/job/74571831816"
+      }
+    ]
+  },
+  {
     "commitSha": "6df9eec3f82536ecb9cba537ccab23e6ad797ba8",
     "commitTimestamp": "2026-05-06T07:30:10Z",
     "commitMessage": "feat(core): support filenameHash object config (#7603)",
