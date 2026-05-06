@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "12f0a9858a14c3fbec899d38460bd8351650f0ca",
+    "commitTimestamp": "2026-05-06T07:28:49Z",
+    "commitMessage": "chore(deps): update dependency jiti to ^2.7.0 (#7602)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25422860893",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25422860893/job/74568979428"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25422860893/job/74568979438"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25422860893/job/74568979439"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25422860893/job/74568979452"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25422860893/job/74568979462"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25422860893/job/74568979480"
+      }
+    ]
+  },
+  {
     "commitSha": "9ac3873fd1378feca5dbbba7684565b7deb20291",
     "commitTimestamp": "2026-05-06T07:28:25Z",
     "commitMessage": "chore(deps): update dependency @rsbuild/plugin-solid to ^1.2.0 (#7601)",
