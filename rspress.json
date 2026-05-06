@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "370de23312663deb903a0aa1d49bb19fe7605168",
+    "commitTimestamp": "2026-05-06T06:12:46Z",
+    "commitMessage": "fix(theme/Search): NFD normalization causes search to highlight wrong characters in Japanese or backtrack in an infinite loop (#3335)",
+    "author": {
+      "name": "Nutchanon Taechasuk",
+      "email": "58178159+Quatton@users.noreply.github.com",
+      "login": "Quatton"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25419552138",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25419552138/job/74558324772"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25419552138/job/74558324786"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25419552138/job/74558324830"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25419552138/job/74558324834"
+      }
+    ]
+  },
+  {
     "commitSha": "9067bc5f81864e89095198ee388395787f4abe83",
     "commitTimestamp": "2026-05-04T02:16:28Z",
     "commitMessage": "chore(deps): update dependency react-router-dom to ^7.14.2 (#3348)",
