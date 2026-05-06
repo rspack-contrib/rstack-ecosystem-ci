@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "634d30d309f0ac33a5f3ce0ca626d40b4a5843bd",
+    "commitTimestamp": "2026-05-06T11:42:28Z",
+    "commitMessage": "chore(infra): replace changeset with bumpp (#3355)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25433169460",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25433169460/job/74604296904"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25433169460/job/74604296925"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25433169460/job/74604296931"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25433169460/job/74604296991"
+      }
+    ]
+  },
+  {
     "commitSha": "f6d02c1fb48e6dea85d4c737bc31d71391b222b9",
     "commitTimestamp": "2026-05-06T09:27:32Z",
     "commitMessage": "chore: export `remarkImage` for reusing like `remarkLink` (#3353)",
