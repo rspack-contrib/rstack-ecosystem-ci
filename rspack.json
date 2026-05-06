@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "e58f145e2793aee4c46ee4e91d5267d49f23f0b1",
+    "commitTimestamp": "2026-05-06T04:27:59Z",
+    "commitMessage": "fix(plugin-library): skip unused exports in ModuleLibraryPlugin (#13920)",
+    "author": {
+      "name": "Sai Asish Y",
+      "email": "say.apm35@gmail.com",
+      "login": "SAY-5"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25416817503",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25416817503/job/74549953884"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25416817503/job/74549953888"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25416817503/job/74549953889"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25416817503/job/74549953891"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25416817503/job/74549953892"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25416817503/job/74549953895"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25416817503/job/74549953899"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25416817503/job/74549953901"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25416817503/job/74549953904"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25416817503/job/74549953914"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25416817503/job/74549953915"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25416817503/job/74549953916"
+      }
+    ]
+  },
+  {
     "commitSha": "3f77a93aaf921914580ace5f214e78a65e3a46e4",
     "commitTimestamp": "2026-05-05T01:24:46Z",
     "commitMessage": "chore(deps): update dependency @discoveryjs/json-ext to v1 (#13916)",
