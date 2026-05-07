@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e8b7618ca8d23240a3c0eb6bfd33df50f439f863",
+    "commitTimestamp": "2026-05-07T04:54:40Z",
+    "commitMessage": "chore: update VS Code TypeScript SDK setting (#7619)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25476828166",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25476828166/job/74751988717"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25476828166/job/74751988720"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25476828166/job/74751988721"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25476828166/job/74751988723"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25476828166/job/74751988728"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25476828166/job/74751988733"
+      }
+    ]
+  },
+  {
     "commitSha": "02b10261c8b3176daa4c6baa448a415c84cdcc80",
     "commitTimestamp": "2026-05-07T03:50:10Z",
     "commitMessage": "chore: add rstest VS Code extension (#7618)",
