@@ -754,38 +754,27 @@ async function applyPackageOverrides({
       ...devOverrides,
     };
 
-    // Centralise every override in pnpm-workspace.yaml. pnpm 11+ no longer
-    // reads the `pnpm` field of package.json (pnpm/pnpm#10086), and on pnpm 10
-    // a dual-location setup silently picks package.json over the yaml — which
-    // would let stack-defined pins shadow our injected `file:` overrides.
-    // Migrating any pre-existing `pkg.pnpm.overrides` into the yaml first
-    // keeps behaviour identical across pnpm 10 and 11.
+    // pnpm 11 ignores `pkg.pnpm.overrides` (pnpm/pnpm#10086); on pnpm 10 it
+    // shadows the yaml. Migrate any pre-existing pkg overrides into the yaml
+    // so the result is identical across pnpm 10 and 11.
     const workspace = await readPnpmWorkspaceYaml(dir);
+    const inheritedOverrides = pkg.pnpm?.overrides;
 
-    // Sanity check: a stack repo must not define its own overrides in both
-    // locations simultaneously — that's an upstream misconfiguration.
-    if (
-      workspace.exists &&
-      workspace.content.overrides &&
-      pkg.pnpm?.overrides
-    ) {
+    if (workspace.content?.overrides && inheritedOverrides) {
       throw new Error(
         'Conflicting overrides detected: both pnpm-workspace.yaml and package.json contain pnpm overrides. ' +
           'Please use only one location for overrides configuration.',
       );
     }
 
-    const inheritedOverrides = pkg.pnpm?.overrides ?? {};
-    if (pkg.pnpm?.overrides) {
+    if (inheritedOverrides) {
       delete pkg.pnpm.overrides;
-      if (Object.keys(pkg.pnpm).length === 0) {
-        delete pkg.pnpm;
-      }
+      if (Object.keys(pkg.pnpm).length === 0) delete pkg.pnpm;
     }
 
-    const wsContent = workspace.exists ? workspace.content : {};
+    const wsContent = workspace.content ?? {};
     wsContent.overrides = {
-      ...(wsContent.overrides ?? {}),
+      ...wsContent.overrides,
       ...inheritedOverrides,
       ...normalizedOverrides,
     };
