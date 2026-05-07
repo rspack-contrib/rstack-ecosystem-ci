@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "afa896bef189d1caca80c49fb6daefc9af911711",
+    "commitTimestamp": "2026-05-07T01:58:23Z",
+    "commitMessage": "test: align rspack config naming (#7611)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25471711313",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25471711313/job/74736761673"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25471711313/job/74736761681"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25471711313/job/74736761682"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25471711313/job/74736761684"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25471711313/job/74736761685"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25471711313/job/74736761696"
+      }
+    ]
+  },
+  {
     "commitSha": "a105f027f0a2938fb3eef026a81c30574919d063",
     "commitTimestamp": "2026-05-06T13:55:39Z",
     "commitMessage": "release: v2.0.4 (#7610)",
