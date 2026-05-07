@@ -754,10 +754,12 @@ async function applyPackageOverrides({
       ...devOverrides,
     };
 
-    // Always write overrides to pnpm-workspace.yaml — pnpm 11+ no longer reads
-    // the `pnpm` field of package.json (pnpm/pnpm#10086), and pnpm 9.5+ reads
-    // overrides from pnpm-workspace.yaml, so this location is correct across
-    // every pnpm version we target.
+    // Centralise every override in pnpm-workspace.yaml. pnpm 11+ no longer
+    // reads the `pnpm` field of package.json (pnpm/pnpm#10086), and on pnpm 10
+    // a dual-location setup silently picks package.json over the yaml — which
+    // would let stack-defined pins shadow our injected `file:` overrides.
+    // Migrating any pre-existing `pkg.pnpm.overrides` into the yaml first
+    // keeps behaviour identical across pnpm 10 and 11.
     const workspace = await readPnpmWorkspaceYaml(dir);
 
     // Sanity check: a stack repo must not define its own overrides in both
@@ -773,9 +775,18 @@ async function applyPackageOverrides({
       );
     }
 
+    const inheritedOverrides = pkg.pnpm?.overrides ?? {};
+    if (pkg.pnpm?.overrides) {
+      delete pkg.pnpm.overrides;
+      if (Object.keys(pkg.pnpm).length === 0) {
+        delete pkg.pnpm;
+      }
+    }
+
     const wsContent = workspace.exists ? workspace.content : {};
     wsContent.overrides = {
       ...(wsContent.overrides ?? {}),
+      ...inheritedOverrides,
       ...normalizedOverrides,
     };
     await writePnpmWorkspaceYaml(workspace.filePath, wsContent);
