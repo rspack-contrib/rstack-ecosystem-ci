@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "070e5a34c72e1feace15bcb8989840ac227fc72a",
+    "commitTimestamp": "2026-05-07T05:09:35Z",
+    "commitMessage": "test(e2e): avoid custom server port collision (#7620)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25477238161",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25477238161/job/74753238419"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25477238161/job/74753238420"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25477238161/job/74753238430"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25477238161/job/74753238439"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25477238161/job/74753238445"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25477238161/job/74753238449"
+      }
+    ]
+  },
+  {
     "commitSha": "e8b7618ca8d23240a3c0eb6bfd33df50f439f863",
     "commitTimestamp": "2026-05-07T04:54:40Z",
     "commitMessage": "chore: update VS Code TypeScript SDK setting (#7619)",
