@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b8a71dae5eee078fcb8550ea17c2e76d3204b9ff",
+    "commitTimestamp": "2026-05-07T06:42:29Z",
+    "commitMessage": "chore: consolidate type checking into rslint (#1633)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25480425356",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25480425356/job/74763094087"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25480425356/job/74763094089"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25480425356/job/74763094101"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25480425356/job/74763094102"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25480425356/job/74763094106"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25480425356/job/74763094128"
+      }
+    ]
+  },
+  {
     "commitSha": "c914c362b88aebb19c8204260ea455026539c52f",
     "commitTimestamp": "2026-05-07T05:29:24Z",
     "commitMessage": "chore(deps): update rsbuild to 2.0.5 (#1632)",
