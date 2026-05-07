@@ -754,38 +754,31 @@ async function applyPackageOverrides({
       ...devOverrides,
     };
 
-    // Check for overrides location: pnpm-workspace.yaml or package.json
+    // pnpm 11 ignores `pkg.pnpm.overrides` (pnpm/pnpm#10086); on pnpm 10 it
+    // shadows the yaml. Migrate any pre-existing pkg overrides into the yaml
+    // so the result is identical across pnpm 10 and 11.
     const workspace = await readPnpmWorkspaceYaml(dir);
-    const hasWorkspaceOverrides =
-      workspace.exists && workspace.content.overrides;
-    const hasPackageOverrides = pkg.pnpm?.overrides;
+    const inheritedOverrides = pkg.pnpm?.overrides;
 
-    // Conflict check: overrides cannot exist in both locations
-    if (hasWorkspaceOverrides && hasPackageOverrides) {
+    if (workspace.content?.overrides && inheritedOverrides) {
       throw new Error(
         'Conflicting overrides detected: both pnpm-workspace.yaml and package.json contain pnpm overrides. ' +
           'Please use only one location for overrides configuration.',
       );
     }
 
-    // Apply overrides to the appropriate location
-    if (hasWorkspaceOverrides) {
-      // Write to pnpm-workspace.yaml
-      workspace.content.overrides = {
-        ...workspace.content.overrides,
-        ...normalizedOverrides,
-      };
-      await writePnpmWorkspaceYaml(workspace.filePath, workspace.content);
-    } else {
-      // Write to package.json (default)
-      if (!pkg.pnpm) {
-        pkg.pnpm = {};
-      }
-      pkg.pnpm.overrides = {
-        ...pkg.pnpm.overrides,
-        ...normalizedOverrides,
-      };
+    if (inheritedOverrides) {
+      delete pkg.pnpm.overrides;
+      if (Object.keys(pkg.pnpm).length === 0) delete pkg.pnpm;
     }
+
+    const wsContent = workspace.content ?? {};
+    wsContent.overrides = {
+      ...wsContent.overrides,
+      ...inheritedOverrides,
+      ...normalizedOverrides,
+    };
+    await writePnpmWorkspaceYaml(workspace.filePath, wsContent);
   } else if (pm === 'yarn') {
     if (!pkg.devDependencies) {
       pkg.devDependencies = {};
