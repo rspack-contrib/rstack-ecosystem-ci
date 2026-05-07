@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "91650d06d58b6e0d3d876a35afb18d147130f318",
+    "commitTimestamp": "2026-05-07T02:07:04Z",
+    "commitMessage": "test(e2e): cover solid decorators (#7612)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25471996816",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25471996816/job/74737598780"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25471996816/job/74737598786"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25471996816/job/74737598797"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25471996816/job/74737598800"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25471996816/job/74737598807"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25471996816/job/74737598823"
+      }
+    ]
+  },
+  {
     "commitSha": "6d28ad2178caa1a0148b1b19cecb9412a5adb4f4",
     "commitTimestamp": "2026-05-07T02:05:42Z",
     "commitMessage": "fix: support header array passed to gzipMiddlware's writeHead (#7613)",
