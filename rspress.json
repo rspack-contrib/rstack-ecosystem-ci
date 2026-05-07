@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "3f13b65341cdeca42c8395b3dc15cf4bd9d5ca3a",
+    "commitTimestamp": "2026-05-07T04:08:14Z",
+    "commitMessage": "fix(plugin-preview): widen react-router-dom peer compatibility (#3350)",
+    "author": {
+      "name": "Copilot",
+      "email": "198982749+Copilot@users.noreply.github.com",
+      "login": "Copilot"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25475793649",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25475793649/job/74748866478"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25475793649/job/74748866483"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25475793649/job/74748866484"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25475793649/job/74748866491"
+      }
+    ]
+  },
+  {
     "commitSha": "ad4ed1b364a6ee042a30a97be2dc2f25c3157327",
     "commitTimestamp": "2026-05-07T04:07:20Z",
     "commitMessage": "fix(theme/darkMode): restore auto appearance when toggle matches system theme (#3352)",
