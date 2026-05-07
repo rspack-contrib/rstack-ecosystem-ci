@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "1e879c9883a58ed249d12d4f8aadb91fe8e37216",
+    "commitTimestamp": "2026-05-07T11:54:00Z",
+    "commitMessage": "fix(theme/Prompt): avoid gradients in dark mode (#3338)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25494190495",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25494190495/job/74809545917"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25494190495/job/74809545931"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25494190495/job/74809545965"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25494190495/job/74809545988"
+      }
+    ]
+  },
+  {
     "commitSha": "3f13b65341cdeca42c8395b3dc15cf4bd9d5ca3a",
     "commitTimestamp": "2026-05-07T04:08:14Z",
     "commitMessage": "fix(plugin-preview): widen react-router-dom peer compatibility (#3350)",
