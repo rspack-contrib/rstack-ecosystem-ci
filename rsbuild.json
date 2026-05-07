@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "02b10261c8b3176daa4c6baa448a415c84cdcc80",
+    "commitTimestamp": "2026-05-07T03:50:10Z",
+    "commitMessage": "chore: add rstest VS Code extension (#7618)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25475458106",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25475458106/job/74747848710"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25475458106/job/74747848711"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25475458106/job/74747848714"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25475458106/job/74747848723"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25475458106/job/74747848744"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25475458106/job/74747848745"
+      }
+    ]
+  },
+  {
     "commitSha": "e62d66cf80ac134a278ec721c13cbe9d7aa41d3a",
     "commitTimestamp": "2026-05-07T03:24:07Z",
     "commitMessage": "fix(deps): update all patch dependencies (#7617)",
