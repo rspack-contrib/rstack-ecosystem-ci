@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ff3d9a357cdaad4239a282a434e3f1b3c8efa94d",
+    "commitTimestamp": "2026-05-07T07:16:32Z",
+    "commitMessage": "chore(core): silence pool unit test stderr noise on CI (#1225)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25481755844",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25481755844/job/74767374561"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25481755844/job/74767374565"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25481755844/job/74767374570"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25481755844/job/74767374583"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25481755844/job/74767374633"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25481755844/job/74767374648"
+      }
+    ]
+  },
+  {
     "commitSha": "dec1746e0d9a1f02a36431158c9e57657aac77ad",
     "commitTimestamp": "2026-05-06T09:36:31Z",
     "commitMessage": "feat: support run related tests (#1172)",
