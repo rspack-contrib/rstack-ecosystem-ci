@@ -754,38 +754,31 @@ async function applyPackageOverrides({
       ...devOverrides,
     };
 
-    // Check for overrides location: pnpm-workspace.yaml or package.json
+    // Always write overrides to pnpm-workspace.yaml — pnpm 11+ no longer reads
+    // the `pnpm` field of package.json (pnpm/pnpm#10086), and pnpm 9.5+ reads
+    // overrides from pnpm-workspace.yaml, so this location is correct across
+    // every pnpm version we target.
     const workspace = await readPnpmWorkspaceYaml(dir);
-    const hasWorkspaceOverrides =
-      workspace.exists && workspace.content.overrides;
-    const hasPackageOverrides = pkg.pnpm?.overrides;
 
-    // Conflict check: overrides cannot exist in both locations
-    if (hasWorkspaceOverrides && hasPackageOverrides) {
+    // Sanity check: a stack repo must not define its own overrides in both
+    // locations simultaneously — that's an upstream misconfiguration.
+    if (
+      workspace.exists &&
+      workspace.content.overrides &&
+      pkg.pnpm?.overrides
+    ) {
       throw new Error(
         'Conflicting overrides detected: both pnpm-workspace.yaml and package.json contain pnpm overrides. ' +
           'Please use only one location for overrides configuration.',
       );
     }
 
-    // Apply overrides to the appropriate location
-    if (hasWorkspaceOverrides) {
-      // Write to pnpm-workspace.yaml
-      workspace.content.overrides = {
-        ...workspace.content.overrides,
-        ...normalizedOverrides,
-      };
-      await writePnpmWorkspaceYaml(workspace.filePath, workspace.content);
-    } else {
-      // Write to package.json (default)
-      if (!pkg.pnpm) {
-        pkg.pnpm = {};
-      }
-      pkg.pnpm.overrides = {
-        ...pkg.pnpm.overrides,
-        ...normalizedOverrides,
-      };
-    }
+    const wsContent = workspace.exists ? workspace.content : {};
+    wsContent.overrides = {
+      ...(wsContent.overrides ?? {}),
+      ...normalizedOverrides,
+    };
+    await writePnpmWorkspaceYaml(workspace.filePath, wsContent);
   } else if (pm === 'yarn') {
     if (!pkg.devDependencies) {
       pkg.devDependencies = {};
