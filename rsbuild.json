@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "6d28ad2178caa1a0148b1b19cecb9412a5adb4f4",
+    "commitTimestamp": "2026-05-07T02:05:42Z",
+    "commitMessage": "fix: support header array passed to gzipMiddlware's writeHead (#7613)",
+    "author": {
+      "name": "Manuel Schiller",
+      "email": "meisterpink@gmail.com",
+      "login": "schiller-manuel"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25471944483",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25471944483/job/74737446493"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25471944483/job/74737446496"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25471944483/job/74737446504"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25471944483/job/74737446506"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25471944483/job/74737446509"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25471944483/job/74737446576"
+      }
+    ]
+  },
+  {
     "commitSha": "afa896bef189d1caca80c49fb6daefc9af911711",
     "commitTimestamp": "2026-05-07T01:58:23Z",
     "commitMessage": "test: align rspack config naming (#7611)",
