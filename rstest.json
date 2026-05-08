@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2eb674396b85911866be08e4f13255d708b17516",
+    "commitTimestamp": "2026-05-08T10:42:01Z",
+    "commitMessage": "chore(deps): update @rspack/core to 2.0.1 (#1233)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25551795986",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25551795986/job/75001209110"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25551795986/job/75001209118"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25551795986/job/75001209119"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25551795986/job/75001209125"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25551795986/job/75001209129"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25551795986/job/75001209142"
+      }
+    ]
+  },
+  {
     "commitSha": "5953475b5ca04a300367a412d50bc1ba769c4de7",
     "commitTimestamp": "2026-05-08T09:33:29Z",
     "commitMessage": "build: enable tsgo in CI (#1232)",
