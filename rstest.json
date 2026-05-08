@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c9907eb0be22a136b72e9026972c68f77f15ac1a",
+    "commitTimestamp": "2026-05-08T03:15:55Z",
+    "commitMessage": "feat(core): support build cache (#1196)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25534651677",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25534651677/job/74947894095"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25534651677/job/74947894097"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25534651677/job/74947894098"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25534651677/job/74947894102"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25534651677/job/74947894103"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25534651677/job/74947894122"
+      }
+    ]
+  },
+  {
     "commitSha": "ff3d9a357cdaad4239a282a434e3f1b3c8efa94d",
     "commitTimestamp": "2026-05-07T07:16:32Z",
     "commitMessage": "chore(core): silence pool unit test stderr noise on CI (#1225)",
