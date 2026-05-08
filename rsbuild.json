@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c6ad9582ef236b0a08deb6c45183bda13f8fbad3",
+    "commitTimestamp": "2026-05-08T10:00:24Z",
+    "commitMessage": "fix(plugin-vue): align CSS Modules hashes for SSR (#7625)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25550084365",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25550084365/job/74995649578"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25550084365/job/74995649590"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25550084365/job/74995649604"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25550084365/job/74995649605"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25550084365/job/74995649610"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25550084365/job/74995649689"
+      }
+    ]
+  },
+  {
     "commitSha": "0419692b364b6a58b5bf7c47d296a95a16439473",
     "commitTimestamp": "2026-05-08T03:32:43Z",
     "commitMessage": "test: run configure-rspack in both serve modes (#7624)",
