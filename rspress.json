@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "d4772f2d3e7b0e5f3fc5a9f58780e6fcf1b60b89",
+    "commitTimestamp": "2026-05-08T09:09:37Z",
+    "commitMessage": "fix(layout): Fixed mobile doc layout menu showing unnecessarily (#3342)",
+    "author": {
+      "name": "Elliot Courant",
+      "email": "me@elliotcourant.dev",
+      "login": "elliotcourant"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25547401557",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25547401557/job/74986866875"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25547401557/job/74986866882"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25547401557/job/74986866884"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25547401557/job/74986867008"
+      }
+    ]
+  },
+  {
     "commitSha": "1e879c9883a58ed249d12d4f8aadb91fe8e37216",
     "commitTimestamp": "2026-05-07T11:54:00Z",
     "commitMessage": "fix(theme/Prompt): avoid gradients in dark mode (#3338)",
