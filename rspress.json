@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "44a7b0996f340e35b06ca649c77665cbd16c2a23",
+    "commitTimestamp": "2026-05-08T09:55:38Z",
+    "commitMessage": "chore(rslib): clean up config and align ES target (#3358)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25549628480",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25549628480/job/74994139797"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25549628480/job/74994139838"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25549628480/job/74994139847"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25549628480/job/74994139888"
+      }
+    ]
+  },
+  {
     "commitSha": "d4772f2d3e7b0e5f3fc5a9f58780e6fcf1b60b89",
     "commitTimestamp": "2026-05-08T09:09:37Z",
     "commitMessage": "fix(layout): Fixed mobile doc layout menu showing unnecessarily (#3342)",
