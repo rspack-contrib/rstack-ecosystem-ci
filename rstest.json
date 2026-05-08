@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "66b10f407b50336f4082f91c6b6024cef6529565",
+    "commitTimestamp": "2026-05-08T09:21:10Z",
+    "commitMessage": "chore(deps): update actions/github-script action to v9 (#1230)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25548423344",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25548423344/job/74990179924"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25548423344/job/74990179926"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25548423344/job/74990179935"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25548423344/job/74990179942"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25548423344/job/74990179944"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25548423344/job/74990179949"
+      }
+    ]
+  },
+  {
     "commitSha": "de8797d9e82844d68555004e2088d3f5e5bc3f47",
     "commitTimestamp": "2026-05-08T09:14:03Z",
     "commitMessage": "feat: support silent logs (#1224)",
