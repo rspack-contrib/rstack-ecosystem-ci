@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "927de457a31163e5f54e11034f91851951371ad4",
+    "commitTimestamp": "2026-05-09T05:13:29Z",
+    "commitMessage": "chore(infra/lint): migrate to Rslint and Prettier (#3337)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25592647900",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25592647900/job/75132894169"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25592647900/job/75132894178"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25592647900/job/75132894192"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25592647900/job/75132894227"
+      }
+    ]
+  },
+  {
     "commitSha": "aa3e45b08a0a6b2583ee1f93f57b21564bb6d837",
     "commitTimestamp": "2026-05-08T09:58:00Z",
     "commitMessage": "feat(mdx/FileCodeblock): support file codeblock starts with / prefix (#3357)",
