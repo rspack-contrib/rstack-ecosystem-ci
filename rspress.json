@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "f263103d12ecfa1fe080eaf9c14e9c0adf13b1da",
+    "commitTimestamp": "2026-05-09T09:10:24Z",
+    "commitMessage": "feat(theme): add BrowserOnly runtime component for sideEffects import and deprecate NoSSR (#3360)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25597352958",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25597352958/job/75145448741"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25597352958/job/75145448753"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25597352958/job/75145448760"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25597352958/job/75145448761"
+      }
+    ]
+  },
+  {
     "commitSha": "b1b7940b159d0e1683496967df7dd3debe8d11bd",
     "commitTimestamp": "2026-05-09T07:28:34Z",
     "commitMessage": "fix(core): preserve false ssg option (#3361)",
