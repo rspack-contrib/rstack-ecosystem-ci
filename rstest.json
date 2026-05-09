@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "0129db12a7750256c7c99454059f359b64e3dffb",
+    "commitTimestamp": "2026-05-09T05:40:07Z",
+    "commitMessage": "fix(core): guard interop has trap against primitive default export (#1234)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25593160121",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25593160121/job/75134380080"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25593160121/job/75134380083"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25593160121/job/75134380085"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25593160121/job/75134380095"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25593160121/job/75134380102"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25593160121/job/75134380106"
+      }
+    ]
+  },
+  {
     "commitSha": "130762b375312b2040f28dc8d8b1b262031c20ca",
     "commitTimestamp": "2026-05-09T05:05:08Z",
     "commitMessage": "feat(core): resolve dynamic imports against source module origin (#1210)",
