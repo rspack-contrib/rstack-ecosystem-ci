@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "b1b7940b159d0e1683496967df7dd3debe8d11bd",
+    "commitTimestamp": "2026-05-09T07:28:34Z",
+    "commitMessage": "fix(core): preserve false ssg option (#3361)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25595352118",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25595352118/job/75140214245"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25595352118/job/75140214248"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25595352118/job/75140214251"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25595352118/job/75140214255"
+      }
+    ]
+  },
+  {
     "commitSha": "927de457a31163e5f54e11034f91851951371ad4",
     "commitTimestamp": "2026-05-09T05:13:29Z",
     "commitMessage": "chore(infra/lint): migrate to Rslint and Prettier (#3337)",
