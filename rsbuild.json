@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "0dabc35f56f29d0096e37ed04d457683aa380d82",
+    "commitTimestamp": "2026-05-10T13:38:04Z",
+    "commitMessage": "fix(core): skip compression for 'text/event-stream' (#7631)",
+    "author": {
+      "name": "Sekiro",
+      "email": "yang4130qq@gmail.com",
+      "login": "JarvisGG"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25630178749",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25630178749/job/75232357614"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25630178749/job/75232357616"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25630178749/job/75232357620"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25630178749/job/75232357628"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25630178749/job/75232357633"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25630178749/job/75232357636"
+      }
+    ]
+  },
+  {
     "commitSha": "2d31ad5ce40e55cee62683ce8e97baee014c23da",
     "commitTimestamp": "2026-05-10T09:38:13Z",
     "commitMessage": "test: add e2e config coverage cases (#7630)",
