@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "43deafa209ab449ad3fcbe94be9d31c091d78836",
+    "commitTimestamp": "2026-05-11T02:51:44Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#3362)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25647779718",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25647779718/job/75279831531"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25647779718/job/75279831532"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25647779718/job/75279831542"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25647779718/job/75279831544"
+      }
+    ]
+  },
+  {
     "commitSha": "f263103d12ecfa1fe080eaf9c14e9c0adf13b1da",
     "commitTimestamp": "2026-05-09T09:10:24Z",
     "commitMessage": "feat(theme): add BrowserOnly runtime component for sideEffects import and deprecate NoSSR (#3360)",
