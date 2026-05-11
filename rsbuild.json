@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7e5eb5f70c7a866bd26b22a3a57f5ac63c2565ed",
+    "commitTimestamp": "2026-05-11T02:51:51Z",
+    "commitMessage": "fix(deps): update all patch dependencies (#7632)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25647785227",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25647785227/job/75279846195"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25647785227/job/75279846198"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25647785227/job/75279846199"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25647785227/job/75279846202"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25647785227/job/75279846205"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25647785227/job/75279846211"
+      }
+    ]
+  },
+  {
     "commitSha": "0dabc35f56f29d0096e37ed04d457683aa380d82",
     "commitTimestamp": "2026-05-10T13:38:04Z",
     "commitMessage": "fix(core): skip compression for 'text/event-stream' (#7631)",
