@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "5034f79d5565e11923571ca38efe0eb489649dfd",
+    "commitTimestamp": "2026-05-11T06:12:59Z",
+    "commitMessage": "fix(adapter-rslib): use `mergeRslibConfig` instead of `mergeRsbuildConfig` (#1238)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25653552947",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25653552947/job/75296758944"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25653552947/job/75296758948"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25653552947/job/75296758950"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25653552947/job/75296758960"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25653552947/job/75296758980"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25653552947/job/75296759004"
+      }
+    ]
+  },
+  {
     "commitSha": "0129db12a7750256c7c99454059f359b64e3dffb",
     "commitTimestamp": "2026-05-09T05:40:07Z",
     "commitMessage": "fix(core): guard interop has trap against primitive default export (#1234)",
