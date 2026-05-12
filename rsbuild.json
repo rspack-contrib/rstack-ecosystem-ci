@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2c96194e830db5eb027b73cb787ac355794abfb0",
+    "commitTimestamp": "2026-05-12T13:12:29Z",
+    "commitMessage": "feat(deps): update @rspack/core to 2.0.3 (#7639)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25736773652",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25736773652/job/75575782103"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25736773652/job/75575782106"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25736773652/job/75575782123"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25736773652/job/75575782127"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25736773652/job/75575782167"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25736773652/job/75575782201"
+      }
+    ]
+  },
+  {
     "commitSha": "095b72821f76bacbcf0e5ec1f83e010640870a22",
     "commitTimestamp": "2026-05-12T03:18:33Z",
     "commitMessage": "chore: strengthen pnpm install safety (#7635)",
