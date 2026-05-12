@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "471673b0e63e974a835f6cbcf3010dbdab682d75",
+    "commitTimestamp": "2026-05-12T12:11:34Z",
+    "commitMessage": "feat(core): add --trace flag to dump Perfetto-compatible profile (#1226)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25733680249",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25733680249/job/75564978188"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25733680249/job/75564978214"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25733680249/job/75564978215"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25733680249/job/75564978298"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25733680249/job/75564978345"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25733680249/job/75564978378"
+      }
+    ]
+  },
+  {
     "commitSha": "906506a0d877b1deee572ce1b10867bfa4a3cf98",
     "commitTimestamp": "2026-05-12T09:39:15Z",
     "commitMessage": "fix(core): include coverage config in build cache digest (#1245)",
