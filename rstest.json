@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "fbd8ecad6bd58ebd93b1a1b036d30876777e7304",
+    "commitTimestamp": "2026-05-12T04:33:12Z",
+    "commitMessage": "fix(browser-react): drop React 17 from peer deps (#1240)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25713555736",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25713555736/job/75498654577"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25713555736/job/75498654592"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25713555736/job/75498654601"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25713555736/job/75498654602"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25713555736/job/75498654609"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25713555736/job/75498654612"
+      }
+    ]
+  },
+  {
     "commitSha": "5034f79d5565e11923571ca38efe0eb489649dfd",
     "commitTimestamp": "2026-05-11T06:12:59Z",
     "commitMessage": "fix(adapter-rslib): use `mergeRslibConfig` instead of `mergeRsbuildConfig` (#1238)",
