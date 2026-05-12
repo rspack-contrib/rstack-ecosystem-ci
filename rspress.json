@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "6ac220d246c83c4a5ead9ef6efca5e1de62a761b",
+    "commitTimestamp": "2026-05-12T06:03:49Z",
+    "commitMessage": "chore(deps): harden pnpm install settings (#3375)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25716636319",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25716636319/job/75507946492"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25716636319/job/75507946506"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25716636319/job/75507946512"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25716636319/job/75507946513"
+      }
+    ]
+  },
+  {
     "commitSha": "7509695cbb67adf72d01b88a842df577ed1a356a",
     "commitTimestamp": "2026-05-11T09:08:23Z",
     "commitMessage": "docs(blog): integrate shared blog list (#3369)",
