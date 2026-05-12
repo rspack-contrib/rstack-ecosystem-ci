@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "5b1b1a2a702b257ac0171b646f420229fac2fab7",
+    "commitTimestamp": "2026-05-12T09:01:53Z",
+    "commitMessage": "fix(core): split taskContext to remove node:async_hooks from browser bundle (#1244)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25725371882",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25725371882/job/75536650693"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25725371882/job/75536650707"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25725371882/job/75536650721"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25725371882/job/75536650726"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25725371882/job/75536650735"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25725371882/job/75536650810"
+      }
+    ]
+  },
+  {
     "commitSha": "9a875bdc9559cc7def1b808eb8d20b1c46e3fdf1",
     "commitTimestamp": "2026-05-12T05:59:47Z",
     "commitMessage": "chore(deps): update pnpm workspace settings (#1241)",
