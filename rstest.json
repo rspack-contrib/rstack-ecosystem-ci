@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "906506a0d877b1deee572ce1b10867bfa4a3cf98",
+    "commitTimestamp": "2026-05-12T09:39:15Z",
+    "commitMessage": "fix(core): include coverage config in build cache digest (#1245)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25727223760",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25727223760/job/75542992624"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25727223760/job/75542992634"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25727223760/job/75542992636"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25727223760/job/75542992649"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25727223760/job/75542992667"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25727223760/job/75542992675"
+      }
+    ]
+  },
+  {
     "commitSha": "5b1b1a2a702b257ac0171b646f420229fac2fab7",
     "commitTimestamp": "2026-05-12T09:01:53Z",
     "commitMessage": "fix(core): split taskContext to remove node:async_hooks from browser bundle (#1244)",
