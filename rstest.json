@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2708045de788a254ee5182503c4625657959033e",
+    "commitTimestamp": "2026-05-12T12:16:00Z",
+    "commitMessage": "test(e2e): assert no framework warnings in browser-mode CLI output (#1242)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25733988269",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25733988269/job/75566031030"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25733988269/job/75566031034"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25733988269/job/75566031096"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25733988269/job/75566031178"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25733988269/job/75566031199"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25733988269/job/75566031225"
+      }
+    ]
+  },
+  {
     "commitSha": "471673b0e63e974a835f6cbcf3010dbdab682d75",
     "commitTimestamp": "2026-05-12T12:11:34Z",
     "commitMessage": "feat(core): add --trace flag to dump Perfetto-compatible profile (#1226)",
