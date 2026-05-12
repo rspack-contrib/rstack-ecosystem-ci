@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "095b72821f76bacbcf0e5ec1f83e010640870a22",
+    "commitTimestamp": "2026-05-12T03:18:33Z",
+    "commitMessage": "chore: strengthen pnpm install safety (#7635)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25711230460",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25711230460/job/75491723204"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25711230460/job/75491723211"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25711230460/job/75491723218"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25711230460/job/75491723235"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25711230460/job/75491723237"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25711230460/job/75491723255"
+      }
+    ]
+  },
+  {
     "commitSha": "9af45310cebfbd2e6c513ca129b8366c54846e5c",
     "commitTimestamp": "2026-05-11T05:02:56Z",
     "commitMessage": "fix(core): refine SSE compression guard (#7634)",
