@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9a875bdc9559cc7def1b808eb8d20b1c46e3fdf1",
+    "commitTimestamp": "2026-05-12T05:59:47Z",
+    "commitMessage": "chore(deps): update pnpm workspace settings (#1241)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25716487505",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25716487505/job/75507478391"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25716487505/job/75507478407"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25716487505/job/75507478410"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25716487505/job/75507478421"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25716487505/job/75507478436"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25716487505/job/75507478445"
+      }
+    ]
+  },
+  {
     "commitSha": "fbd8ecad6bd58ebd93b1a1b036d30876777e7304",
     "commitTimestamp": "2026-05-12T04:33:12Z",
     "commitMessage": "fix(browser-react): drop React 17 from peer deps (#1240)",
