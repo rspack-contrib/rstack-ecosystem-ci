@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "34bbcd81698aede404c2c3b7114ad2d892473312",
+    "commitTimestamp": "2026-05-12T14:37:53Z",
+    "commitMessage": "test(e2e): isolate build/ rstest spawns to per-fixture cwd (#1247)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25741645751",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25741645751/job/75593369674"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25741645751/job/75593369689"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25741645751/job/75593369714"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25741645751/job/75593369725"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25741645751/job/75593369750"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25741645751/job/75593369799"
+      }
+    ]
+  },
+  {
     "commitSha": "2708045de788a254ee5182503c4625657959033e",
     "commitTimestamp": "2026-05-12T12:16:00Z",
     "commitMessage": "test(e2e): assert no framework warnings in browser-mode CLI output (#1242)",
