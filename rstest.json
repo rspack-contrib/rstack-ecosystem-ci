@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "fe6a23882a53fbd098830c400176c4d43047c3eb",
+    "commitTimestamp": "2026-05-13T07:46:13Z",
+    "commitMessage": "ci: split PR baseline and cron supplemental e2e coverage (#1248)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25785883573",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25785883573/job/75739078142"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25785883573/job/75739078152"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25785883573/job/75739078159"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25785883573/job/75739078163"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25785883573/job/75739078183"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25785883573/job/75739078189"
+      }
+    ]
+  },
+  {
     "commitSha": "5011ea5da977b08dcff8e19af96418a4bc76a9fe",
     "commitTimestamp": "2026-05-13T06:06:06Z",
     "commitMessage": "chore(deps): update rspack and rsbuild (#1250)",
