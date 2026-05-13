@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9c972556676501777c47c5b1709db0759a29db99",
+    "commitTimestamp": "2026-05-13T05:08:10Z",
+    "commitMessage": "chore: add release notes skill (#1249)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25779601963",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25779601963/job/75719181062"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25779601963/job/75719181067"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25779601963/job/75719181068"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25779601963/job/75719181073"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25779601963/job/75719181075"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25779601963/job/75719181180"
+      }
+    ]
+  },
+  {
     "commitSha": "34bbcd81698aede404c2c3b7114ad2d892473312",
     "commitTimestamp": "2026-05-12T14:37:53Z",
     "commitMessage": "test(e2e): isolate build/ rstest spawns to per-fixture cwd (#1247)",
