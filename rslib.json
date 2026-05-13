@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c27ea6220e5798849afcada1f929ada3dd93ec31",
+    "commitTimestamp": "2026-05-13T10:17:08Z",
+    "commitMessage": "chore: exclude rsbuild-plugin-dts from release age (#1647)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25792908936",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25792908936/job/75762806562"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25792908936/job/75762806563"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25792908936/job/75762806567"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25792908936/job/75762806569"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25792908936/job/75762806570"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25792908936/job/75762806580"
+      }
+    ]
+  },
+  {
     "commitSha": "71e5f64eca4e7b9bc998368bfdb22a0f79b51edd",
     "commitTimestamp": "2026-05-13T09:56:51Z",
     "commitMessage": "release: v0.21.5 (#1646)",
