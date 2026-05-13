@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "375f2d4f973dedac103cae1a43958c3da4a065bf",
+    "commitTimestamp": "2026-05-13T08:43:57Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#1251)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25788659911",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25788659911/job/75748246072"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25788659911/job/75748246073"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25788659911/job/75748246081"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25788659911/job/75748246084"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25788659911/job/75748246158"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25788659911/job/75748246168"
+      }
+    ]
+  },
+  {
     "commitSha": "0f48e01d1b72e64a42bcffd5d80223e042c2d87d",
     "commitTimestamp": "2026-05-13T08:23:03Z",
     "commitMessage": "chore: enable Renovate security preset (#1253)",
