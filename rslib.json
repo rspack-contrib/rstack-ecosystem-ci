@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b724c77e6321ee541b1be3751d53d5bece928bb8",
+    "commitTimestamp": "2026-05-13T03:52:19Z",
+    "commitMessage": "chore: add release notes skill (#1643)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25777565317",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25777565317/job/75713266124"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25777565317/job/75713266126"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25777565317/job/75713266128"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25777565317/job/75713266130"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25777565317/job/75713266131"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25777565317/job/75713266140"
+      }
+    ]
+  },
+  {
     "commitSha": "1602d2aaa89916c64c98eb84adac23580c5bfcc4",
     "commitTimestamp": "2026-05-13T03:23:56Z",
     "commitMessage": "fix(core): set iife chunk output defaults (#1642)",
