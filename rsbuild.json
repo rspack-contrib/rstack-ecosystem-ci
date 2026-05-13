@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ae63db93f8a46abfd3440fdec8cd38c831d1dc6f",
+    "commitTimestamp": "2026-05-13T02:37:31Z",
+    "commitMessage": "release: v2.0.6 (#7641)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25774820352",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25774820352/job/75705158532"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25774820352/job/75705158536"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25774820352/job/75705158543"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25774820352/job/75705158550"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25774820352/job/75705158557"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25774820352/job/75705158560"
+      }
+    ]
+  },
+  {
     "commitSha": "50d62e3418994c1f7103d2b024c388cb4383898e",
     "commitTimestamp": "2026-05-12T13:38:12Z",
     "commitMessage": "chore: remove release note workflow (#7640)",
