@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c9e85fee6bc4cc040a5fca601ddbfc0a635f03db",
+    "commitTimestamp": "2026-05-13T03:12:15Z",
+    "commitMessage": "chore: add draft release notes skill (#7642)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25776127339",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25776127339/job/75709013706"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25776127339/job/75709013708"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25776127339/job/75709013710"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25776127339/job/75709013716"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25776127339/job/75709013718"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25776127339/job/75709013723"
+      }
+    ]
+  },
+  {
     "commitSha": "ae63db93f8a46abfd3440fdec8cd38c831d1dc6f",
     "commitTimestamp": "2026-05-13T02:37:31Z",
     "commitMessage": "release: v2.0.6 (#7641)",
