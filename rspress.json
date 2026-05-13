@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "7c895a874b84b18d6ead18b2737e0a838889328f",
+    "commitTimestamp": "2026-05-13T07:40:55Z",
+    "commitMessage": "chore(deps): add renovate security preset (#3380)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25785816705",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25785816705/job/75738854759"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25785816705/job/75738854763"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25785816705/job/75738854784"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25785816705/job/75738854797"
+      }
+    ]
+  },
+  {
     "commitSha": "818f5517967ec5d363d785e451068206c83b7a5f",
     "commitTimestamp": "2026-05-13T05:22:43Z",
     "commitMessage": "chore(release): use draft release notes skill (#3379)",
