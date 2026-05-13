@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "628c54e9e091c9947084b74fe9cc193403abcab4",
+    "commitTimestamp": "2026-05-13T10:08:25Z",
+    "commitMessage": "chore(deps): upgrade TypeScript v6 (#3382)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25792649892",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25792649892/job/75761914837"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25792649892/job/75761914841"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25792649892/job/75761914850"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25792649892/job/75761914860"
+      }
+    ]
+  },
+  {
     "commitSha": "05e93a34000caba7915713496a486ec94ebbc93c",
     "commitTimestamp": "2026-05-13T09:45:11Z",
     "commitMessage": "chore: lint script include type-checking (#3383)",
