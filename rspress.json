@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "818f5517967ec5d363d785e451068206c83b7a5f",
+    "commitTimestamp": "2026-05-13T05:22:43Z",
+    "commitMessage": "chore(release): use draft release notes skill (#3379)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25780168324",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25780168324/job/75720865829"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25780168324/job/75720865830"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25780168324/job/75720865847"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25780168324/job/75720865852"
+      }
+    ]
+  },
+  {
     "commitSha": "6ac220d246c83c4a5ead9ef6efca5e1de62a761b",
     "commitTimestamp": "2026-05-12T06:03:49Z",
     "commitMessage": "chore(deps): harden pnpm install settings (#3375)",
