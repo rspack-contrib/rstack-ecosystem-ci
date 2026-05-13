@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "58277b1eb37b26863f67a6a4119943ecffcf6760",
+    "commitTimestamp": "2026-05-13T09:58:40Z",
+    "commitMessage": "feat(core): add threads pool implementation (#1235)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25792038288",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25792038288/job/75759795561"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25792038288/job/75759795562"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25792038288/job/75759795574"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25792038288/job/75759795601"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25792038288/job/75759795604"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25792038288/job/75759795643"
+      }
+    ]
+  },
+  {
     "commitSha": "375f2d4f973dedac103cae1a43958c3da4a065bf",
     "commitTimestamp": "2026-05-13T08:43:57Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1251)",
