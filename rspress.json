@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "05e93a34000caba7915713496a486ec94ebbc93c",
+    "commitTimestamp": "2026-05-13T09:45:11Z",
+    "commitMessage": "chore: lint script include type-checking (#3383)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25791395545",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25791395545/job/75757588764"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25791395545/job/75757588784"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25791395545/job/75757588792"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25791395545/job/75757588809"
+      }
+    ]
+  },
+  {
     "commitSha": "7c895a874b84b18d6ead18b2737e0a838889328f",
     "commitTimestamp": "2026-05-13T07:40:55Z",
     "commitMessage": "chore(deps): add renovate security preset (#3380)",
