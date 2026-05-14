@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a541fa349def87fbbd5a740b7ee1141e57ccafcb",
+    "commitTimestamp": "2026-05-14T09:14:46Z",
+    "commitMessage": "feat(core): auto install missing runtime dependencies (#1252)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25852269760",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25852269760/job/75961440671"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25852269760/job/75961440675"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25852269760/job/75961440692"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25852269760/job/75961440700"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25852269760/job/75961440701"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25852269760/job/75961440710"
+      }
+    ]
+  },
+  {
     "commitSha": "ee9d410acd5bb519a43e819a76b183fea0ba64eb",
     "commitTimestamp": "2026-05-14T09:01:30Z",
     "commitMessage": "chore: enforce publint and arethetypeswrong on every package build (#1256)",
