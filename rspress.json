@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "c861c0ffcb5b2b522b35864307e688de6be253a7",
+    "commitTimestamp": "2026-05-14T15:53:45Z",
+    "commitMessage": "fix: `remarkImage` lint compatibility with plain markdown files (#3388)",
+    "author": {
+      "name": "JounQin",
+      "email": "admin@1stg.me",
+      "login": "JounQin"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25870219509",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25870219509/job/76023153612"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25870219509/job/76023153644"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25870219509/job/76023153728"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25870219509/job/76023153734"
+      }
+    ]
+  },
+  {
     "commitSha": "6690c56c93b959088d033f1c717f6a66d9dcccc8",
     "commitTimestamp": "2026-05-14T07:32:25Z",
     "commitMessage": "feat(create-rspress): upgrade `create-rstack` and add Rslint choice (#3386)",
