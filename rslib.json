@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "89855623661ff12dd1c144537bd70ef739b5eb53",
+    "commitTimestamp": "2026-05-14T09:38:02Z",
+    "commitMessage": "fix(dts): preserve explicit module extensions (#1648)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25853154730",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25853154730/job/75964355662"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25853154730/job/75964355668"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25853154730/job/75964355677"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25853154730/job/75964355683"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25853154730/job/75964355695"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25853154730/job/75964355714"
+      }
+    ]
+  },
+  {
     "commitSha": "c27ea6220e5798849afcada1f929ada3dd93ec31",
     "commitTimestamp": "2026-05-13T10:17:08Z",
     "commitMessage": "chore: exclude rsbuild-plugin-dts from release age (#1647)",
