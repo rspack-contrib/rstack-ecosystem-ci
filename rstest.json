@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ee9d410acd5bb519a43e819a76b183fea0ba64eb",
+    "commitTimestamp": "2026-05-14T09:01:30Z",
+    "commitMessage": "chore: enforce publint and arethetypeswrong on every package build (#1256)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25851488482",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25851488482/job/75958865112"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25851488482/job/75958865113"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25851488482/job/75958865122"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25851488482/job/75958865124"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25851488482/job/75958865146"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25851488482/job/75958865147"
+      }
+    ]
+  },
+  {
     "commitSha": "e2dbcabc8d92f5e600bf1c46dba80cfd43b162c5",
     "commitTimestamp": "2026-05-14T08:11:58Z",
     "commitMessage": "feat(core): support run changed tests (#1243)",
