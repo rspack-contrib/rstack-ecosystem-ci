@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "1dc6817ff82bfc22a5973ecb1f998edc19498bec",
+    "commitTimestamp": "2026-05-14T08:56:49Z",
+    "commitMessage": "chore(deps): update playwright monorepo to v1.60.0 (#7643)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25851294375",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25851294375/job/75958215747"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25851294375/job/75958215757"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25851294375/job/75958215759"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25851294375/job/75958215799"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25851294375/job/75958215894"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25851294375/job/75958215980"
+      }
+    ]
+  },
+  {
     "commitSha": "c9e85fee6bc4cc040a5fca601ddbfc0a635f03db",
     "commitTimestamp": "2026-05-13T03:12:15Z",
     "commitMessage": "chore: add draft release notes skill (#7642)",
