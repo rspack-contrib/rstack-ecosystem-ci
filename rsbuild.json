@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "44be1ef4b0c344769015e9cabf61a51d62c74a10",
+    "commitTimestamp": "2026-05-14T09:27:11Z",
+    "commitMessage": "test: add inline source map e2e case (#7644)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25852775375",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25852775375/job/75963110694"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25852775375/job/75963110699"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25852775375/job/75963110708"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25852775375/job/75963110724"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25852775375/job/75963110725"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25852775375/job/75963110733"
+      }
+    ]
+  },
+  {
     "commitSha": "1dc6817ff82bfc22a5973ecb1f998edc19498bec",
     "commitTimestamp": "2026-05-14T08:56:49Z",
     "commitMessage": "chore(deps): update playwright monorepo to v1.60.0 (#7643)",
