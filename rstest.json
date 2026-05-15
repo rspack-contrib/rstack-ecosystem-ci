@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "8bdb7865bff11db18990562f1fd8099ef7ee7273",
+    "commitTimestamp": "2026-05-15T02:56:29Z",
+    "commitMessage": "chore: replace local pr skill with rstackjs/agent-skills pr-creator (#1255)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25897736166",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25897736166/job/76114251732"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25897736166/job/76114251736"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25897736166/job/76114251738"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25897736166/job/76114251752"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25897736166/job/76114251754"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25897736166/job/76114251760"
+      }
+    ]
+  },
+  {
     "commitSha": "a541fa349def87fbbd5a740b7ee1141e57ccafcb",
     "commitTimestamp": "2026-05-14T09:14:46Z",
     "commitMessage": "feat(core): auto install missing runtime dependencies (#1252)",
