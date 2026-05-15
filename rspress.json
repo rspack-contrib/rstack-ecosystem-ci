@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "d30309d36a9aac32b209f020ecbdd47fea34b117",
+    "commitTimestamp": "2026-05-15T08:33:08Z",
+    "commitMessage": "fix(mdx/title): preserve whitespace in code block title meta (#3374)",
+    "author": {
+      "name": "Copilot",
+      "email": "198982749+Copilot@users.noreply.github.com",
+      "login": "Copilot"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25908369413",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25908369413/job/76146990801"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25908369413/job/76146990824"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25908369413/job/76146990855"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25908369413/job/76146990860"
+      }
+    ]
+  },
+  {
     "commitSha": "ec69161476c9e7a8a6377e44b8328c472fc07168",
     "commitTimestamp": "2026-05-15T04:41:33Z",
     "commitMessage": "chore: enable tsgo for dts generation (#3389)",
