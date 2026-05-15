@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d22de711060bdaa2d79e5d90d0eb782d740d8579",
+    "commitTimestamp": "2026-05-15T05:57:44Z",
+    "commitMessage": "feat(core): add force rerun triggers (#1257)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25902934375",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25902934375/job/76130022139"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25902934375/job/76130022140"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25902934375/job/76130022143"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25902934375/job/76130022158"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25902934375/job/76130022164"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25902934375/job/76130022167"
+      }
+    ]
+  },
+  {
     "commitSha": "8bdb7865bff11db18990562f1fd8099ef7ee7273",
     "commitTimestamp": "2026-05-15T02:56:29Z",
     "commitMessage": "chore: replace local pr skill with rstackjs/agent-skills pr-creator (#1255)",
