@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "94cdc321987913c7da0d52e43497bb5e02b70348",
+    "commitTimestamp": "2026-05-15T01:49:35Z",
+    "commitMessage": "feat: add output.autoExternal for package dependency externalization (#7638)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25895862508",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25895862508/job/76108701047"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25895862508/job/76108701050"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25895862508/job/76108701053"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25895862508/job/76108701054"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25895862508/job/76108701055"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25895862508/job/76108701058"
+      }
+    ]
+  },
+  {
     "commitSha": "149115b536b8dd1b44cba458dda167309c31b7e8",
     "commitTimestamp": "2026-05-15T01:28:44Z",
     "commitMessage": "fix(deps): update dependency svelte to v5.55.7 [security] (#7645)",
