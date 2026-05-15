@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "ec69161476c9e7a8a6377e44b8328c472fc07168",
+    "commitTimestamp": "2026-05-15T04:41:33Z",
+    "commitMessage": "chore: enable tsgo for dts generation (#3389)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25900646475",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25900646475/job/76123091535"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25900646475/job/76123091537"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25900646475/job/76123091540"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25900646475/job/76123091595"
+      }
+    ]
+  },
+  {
     "commitSha": "c861c0ffcb5b2b522b35864307e688de6be253a7",
     "commitTimestamp": "2026-05-14T15:53:45Z",
     "commitMessage": "fix: `remarkImage` lint compatibility with plain markdown files (#3388)",
