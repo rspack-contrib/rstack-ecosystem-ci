@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b83eecb3a58d0ecc0b03b616c94a410145a6811d",
+    "commitTimestamp": "2026-05-16T12:58:01Z",
+    "commitMessage": "docs: improve plugin documentation (#7651)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25962533671",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25962533671/job/76320250166"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25962533671/job/76320250167"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25962533671/job/76320250169"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25962533671/job/76320250173"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25962533671/job/76320250175"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25962533671/job/76320250180"
+      }
+    ]
+  },
+  {
     "commitSha": "116d1dab70f155134afd76a15947d9bbbef6369e",
     "commitTimestamp": "2026-05-16T12:57:50Z",
     "commitMessage": "docs: update JavaScript API references (#7650)",
