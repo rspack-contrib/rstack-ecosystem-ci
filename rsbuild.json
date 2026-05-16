@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a318949fb7ebd70cd8a2c35f4748631580b15d26",
+    "commitTimestamp": "2026-05-16T07:53:08Z",
+    "commitMessage": "chore(deps): update dependency svelte to v5.55.7 [security] (#7647)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25956656164",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25956656164/job/76304439735"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25956656164/job/76304439737"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25956656164/job/76304439738"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25956656164/job/76304439739"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25956656164/job/76304439740"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25956656164/job/76304439741"
+      }
+    ]
+  },
+  {
     "commitSha": "94cdc321987913c7da0d52e43497bb5e02b70348",
     "commitTimestamp": "2026-05-15T01:49:35Z",
     "commitMessage": "feat: add output.autoExternal for package dependency externalization (#7638)",
