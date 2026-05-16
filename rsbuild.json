@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "116d1dab70f155134afd76a15947d9bbbef6369e",
+    "commitTimestamp": "2026-05-16T12:57:50Z",
+    "commitMessage": "docs: update JavaScript API references (#7650)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25962529391",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25962529391/job/76320239491"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25962529391/job/76320239493"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25962529391/job/76320239497"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25962529391/job/76320239499"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25962529391/job/76320239503"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25962529391/job/76320239504"
+      }
+    ]
+  },
+  {
     "commitSha": "a318949fb7ebd70cd8a2c35f4748631580b15d26",
     "commitTimestamp": "2026-05-16T07:53:08Z",
     "commitMessage": "chore(deps): update dependency svelte to v5.55.7 [security] (#7647)",
