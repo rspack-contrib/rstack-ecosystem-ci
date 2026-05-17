@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "26af903ec17b713567801b12832dee5ea065b4d8",
+    "commitTimestamp": "2026-05-17T01:29:35Z",
+    "commitMessage": "perf(CLI): remove process title update (#7657)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25978036864",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25978036864/job/76361620264"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25978036864/job/76361620265"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25978036864/job/76361620267"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25978036864/job/76361620269"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25978036864/job/76361620271"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25978036864/job/76361620272"
+      }
+    ]
+  },
+  {
     "commitSha": "ccbc5190e4e10e6e61fdc3507e9eb9cb42d7e973",
     "commitTimestamp": "2026-05-16T13:16:59Z",
     "commitMessage": "fix(create-rsbuild): list missing templates in help (#7654)",
