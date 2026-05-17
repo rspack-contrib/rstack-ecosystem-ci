@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "818e439808f3e0cd6409811fea8415cfd6b02cb2",
+    "commitTimestamp": "2026-05-17T05:17:53Z",
+    "commitMessage": "perf(core): skip resource hints when disabled (#7659)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25982195623",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25982195623/job/76372801317"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25982195623/job/76372801318"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25982195623/job/76372801321"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25982195623/job/76372801322"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25982195623/job/76372801325"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/25982195623/job/76372801329"
+      }
+    ]
+  },
+  {
     "commitSha": "601218be5c2030ca60faf0db80a079e7812b665c",
     "commitTimestamp": "2026-05-17T01:42:43Z",
     "commitMessage": "perf(core): reduce CLI startup work (#7658)",
