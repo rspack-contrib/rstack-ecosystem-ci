@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a6c74e0d0ada7f729882317f082788be51ed08df",
+    "commitTimestamp": "2026-05-18T05:22:59Z",
+    "commitMessage": "chore(deps): update rstest to ^0.10.0 (#7671)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26015141770",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26015141770/job/76463536043"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26015141770/job/76463536059"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26015141770/job/76463536063"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26015141770/job/76463536066"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26015141770/job/76463536070"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26015141770/job/76463536073"
+      }
+    ]
+  },
+  {
     "commitSha": "5c85e5a73bf803396850c2625485c7bc0d491c6c",
     "commitTimestamp": "2026-05-18T04:42:31Z",
     "commitMessage": "chore(deps): group rstest renovate updates (#7669)",
