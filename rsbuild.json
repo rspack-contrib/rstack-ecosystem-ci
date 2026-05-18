@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c50294891650625f96715d0b106d17936b395a30",
+    "commitTimestamp": "2026-05-18T14:07:36Z",
+    "commitMessage": "fix(core): respect worker output filenames (#7678)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26038728418",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26038728418/job/76544036496"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26038728418/job/76544036501"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26038728418/job/76544036524"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26038728418/job/76544036532"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26038728418/job/76544036555"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26038728418/job/76544036741"
+      }
+    ]
+  },
+  {
     "commitSha": "cb8b515948f8d6e0a55c4d6660059955d5be6922",
     "commitTimestamp": "2026-05-18T13:32:52Z",
     "commitMessage": "fix(core): inline dynamic imports in inline workers (#7677)",
