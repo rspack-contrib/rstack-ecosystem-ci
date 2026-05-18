@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "5c85e5a73bf803396850c2625485c7bc0d491c6c",
+    "commitTimestamp": "2026-05-18T04:42:31Z",
+    "commitMessage": "chore(deps): group rstest renovate updates (#7669)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26013964655",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26013964655/job/76460094232"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26013964655/job/76460094235"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26013964655/job/76460094238"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26013964655/job/76460094241"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26013964655/job/76460094249"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26013964655/job/76460094287"
+      }
+    ]
+  },
+  {
     "commitSha": "4640b86885a3503b742ba9eaac8b41198e065374",
     "commitTimestamp": "2026-05-18T04:41:43Z",
     "commitMessage": "docs: clarify JavaScript API behavior (#7668)",
