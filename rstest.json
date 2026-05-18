@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "75a9c0ae146e806157a01ebbfd0a057c06955b8b",
+    "commitTimestamp": "2026-05-18T06:04:07Z",
+    "commitMessage": "chore(deps): update pnpm/action-setup action to v6 (#1272)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26016480240",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26016480240/job/76467519696"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26016480240/job/76467519701"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26016480240/job/76467519703"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26016480240/job/76467519706"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26016480240/job/76467519708"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26016480240/job/76467519713"
+      }
+    ]
+  },
+  {
     "commitSha": "c5aecc357b80041047a5c6b5f934b18e1a5356bf",
     "commitTimestamp": "2026-05-18T03:30:30Z",
     "commitMessage": "perf(cli): remove process title startup overhead (#1268)",
