@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "cb8b515948f8d6e0a55c4d6660059955d5be6922",
+    "commitTimestamp": "2026-05-18T13:32:52Z",
+    "commitMessage": "fix(core): inline dynamic imports in inline workers (#7677)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26036792688",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26036792688/job/76537071831"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26036792688/job/76537071841"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26036792688/job/76537071842"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26036792688/job/76537071860"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26036792688/job/76537071865"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26036792688/job/76537071892"
+      }
+    ]
+  },
+  {
     "commitSha": "73333790e8e29f4c82b2f512cfa2c1e54bf7fa13",
     "commitTimestamp": "2026-05-18T12:45:31Z",
     "commitMessage": "refactor(core): simplify worker template plugin usage (#7676)",
