@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e19dcee33bcb6ca701d3345159887de85bab63f7",
+    "commitTimestamp": "2026-05-18T07:09:17Z",
+    "commitMessage": "test(e2e): loosen github-actions Duration regex to avoid Windows flakes (#1266)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26018888184",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26018888184/job/76475265476"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26018888184/job/76475265490"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26018888184/job/76475265493"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26018888184/job/76475265514"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26018888184/job/76475265593"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26018888184/job/76475265658"
+      }
+    ]
+  },
+  {
     "commitSha": "19c8cde4deb9a1169d06b05983b4a85f1866aa1a",
     "commitTimestamp": "2026-05-18T06:39:31Z",
     "commitMessage": "docs: scaffold release blog with create-release-blog skill (#1259)",
