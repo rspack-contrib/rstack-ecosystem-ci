@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7a12dd7677cc947d997981b70dd6b864a5713779",
+    "commitTimestamp": "2026-05-18T03:57:05Z",
+    "commitMessage": "perf(cli): remove process title startup overhead (#1649)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26012878815",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26012878815/job/76456949184"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26012878815/job/76456949190"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26012878815/job/76456949197"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26012878815/job/76456949199"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26012878815/job/76456949210"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26012878815/job/76456949234"
+      }
+    ]
+  },
+  {
     "commitSha": "a27c7a1b7b4d854689384cca62b65f9eb66913a6",
     "commitTimestamp": "2026-05-18T03:15:16Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1651)",
