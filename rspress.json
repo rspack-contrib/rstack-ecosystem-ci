@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "fb5550c87252d3757b7ff2ea2376adc737d1fec5",
+    "commitTimestamp": "2026-05-18T03:03:52Z",
+    "commitMessage": "chore(deps): pin dependencies (#3395)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26011264274",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26011264274/job/76452203593"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26011264274/job/76452203595"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26011264274/job/76452203598"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26011264274/job/76452203611"
+      }
+    ]
+  },
+  {
     "commitSha": "e7f32f558b8d3cc386c5e0697dfaf6fa1c87126c",
     "commitTimestamp": "2026-05-15T08:34:51Z",
     "commitMessage": "fix(theme/Sidebar): add rp-doc class to inline-code sidebar titles (#3372)",
