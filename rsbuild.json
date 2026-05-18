@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c4902a1f846f031e3140066fae7b2be9f2117406",
+    "commitTimestamp": "2026-05-18T02:51:29Z",
+    "commitMessage": "chore(deps): update dependency @rstest/adapter-rsbuild to ^0.10.0 (#7665)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26010929251",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26010929251/job/76451234333"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26010929251/job/76451234334"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26010929251/job/76451234335"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26010929251/job/76451234341"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26010929251/job/76451234344"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26010929251/job/76451234349"
+      }
+    ]
+  },
+  {
     "commitSha": "4ae607368d9846b53cde9f43b65324343485e60c",
     "commitTimestamp": "2026-05-17T13:23:12Z",
     "commitMessage": "docs: correct compiler and server references (#7662)",
