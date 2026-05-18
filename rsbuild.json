@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b8b0e25da5ef7d5a05f798a08a0798f77575db5c",
+    "commitTimestamp": "2026-05-18T05:50:59Z",
+    "commitMessage": "perf(core): reuse base environment config (#7663)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26016048633",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26016048633/job/76466208271"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26016048633/job/76466208272"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26016048633/job/76466208280"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26016048633/job/76466208282"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26016048633/job/76466208283"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26016048633/job/76466208284"
+      }
+    ]
+  },
+  {
     "commitSha": "a6c74e0d0ada7f729882317f082788be51ed08df",
     "commitTimestamp": "2026-05-18T05:22:59Z",
     "commitMessage": "chore(deps): update rstest to ^0.10.0 (#7671)",
