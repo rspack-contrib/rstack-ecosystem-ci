@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "19c8cde4deb9a1169d06b05983b4a85f1866aa1a",
+    "commitTimestamp": "2026-05-18T06:39:31Z",
+    "commitMessage": "docs: scaffold release blog with create-release-blog skill (#1259)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26017764929",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26017764929/job/76471682168"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26017764929/job/76471682180"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26017764929/job/76471682184"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26017764929/job/76471682186"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26017764929/job/76471682190"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26017764929/job/76471682245"
+      }
+    ]
+  },
+  {
     "commitSha": "75a9c0ae146e806157a01ebbfd0a057c06955b8b",
     "commitTimestamp": "2026-05-18T06:04:07Z",
     "commitMessage": "chore(deps): update pnpm/action-setup action to v6 (#1272)",
