@@ -56,14 +56,14 @@ jobs:
     runs-on: ubuntu-latest
     if: "inputs.suite != '-'"
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
       - uses: ./.github/actions/build-rslib
         with:
           repository: ${{ inputs.repo }}
           ref: ${{ inputs.branchName }}
       - run: pnpm i --frozen-lockfile
       - name: Expose GitHub Runtime
-        uses: crazy-max/ghaction-github-runtime@v3
+        uses: crazy-max/ghaction-github-runtime@3cb05d89e1f492524af3d41a1c98c83bc3025124 # v3
       - run: >-
           pnpm tsx ecosystem-ci.ts
           run-suites
@@ -92,14 +92,14 @@ jobs:
     runs-on: ${{ matrix.os }}
     name: execute-all (${{ matrix.suite }})
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
       - uses: ./.github/actions/build-rslib
         with:
           repository: ${{ inputs.repo }}
           ref: ${{ inputs.branchName }}
       - run: pnpm i --frozen-lockfile
       - name: Expose GitHub Runtime
-        uses: crazy-max/ghaction-github-runtime@v3
+        uses: crazy-max/ghaction-github-runtime@3cb05d89e1f492524af3d41a1c98c83bc3025124 # v3
       - run: >-
           pnpm tsx ecosystem-ci.ts
           run-suites
