@@ -66,7 +66,7 @@ jobs:
     needs: get-runner-labels
     runs-on: ${{ fromJSON(needs.get-runner-labels.outputs.LINUX_RUNNER_LABELS) }}
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
       - uses: ./.github/actions/prepare-rspack-binding
         with:
           repository: ${{ inputs.repo }}
@@ -79,17 +79,17 @@ jobs:
     if: "inputs.suite != '-'"
     timeout-minutes: 40
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
       - uses: ./.github/actions/build-rspack
         with:
           repository: ${{ inputs.repo }}
           ref: ${{ inputs.branchName }}
       - name: Setup Rust
         if: inputs.suite == 'lynx-stack'
-        uses: actions-rust-lang/setup-rust-toolchain@v1
+        uses: actions-rust-lang/setup-rust-toolchain@46268bd060767258de96ed93c1251119784f2ab6 # v1
       - run: pnpm i --frozen-lockfile
       - name: Expose GitHub Runtime
-        uses: crazy-max/ghaction-github-runtime@v3
+        uses: crazy-max/ghaction-github-runtime@3cb05d89e1f492524af3d41a1c98c83bc3025124 # v3
       # Verdaccio is required for rspack-stack testing.
       # pnpm has a known bug (pnpm/pnpm#9270) where file: protocol overrides
       # for packages with native optionalDependencies cause version mismatch
@@ -140,15 +140,15 @@ jobs:
     name: execute-all (${{ matrix.suite }})
     timeout-minutes: 40
     steps:
-      - uses: actions/checkout@v6
-      - uses: moonrepo/setup-rust@v1
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+      - uses: moonrepo/setup-rust@abb2d32350334249b178c401e5ec5836e0cd88d3 # v1
       - uses: ./.github/actions/build-rspack
         with:
           repository: ${{ inputs.repo }}
           ref: ${{ inputs.branchName }}
       - run: pnpm i --frozen-lockfile
       - name: Expose GitHub Runtime
-        uses: crazy-max/ghaction-github-runtime@v3
+        uses: crazy-max/ghaction-github-runtime@3cb05d89e1f492524af3d41a1c98c83bc3025124 # v3
       - name: Publish rspack to Verdaccio
         id: publish-rspack
         uses: ./.github/actions/publish-rspack-to-verdaccio

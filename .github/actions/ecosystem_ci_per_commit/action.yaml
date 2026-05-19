@@ -76,7 +76,7 @@ runs:
 
     - name: Get CI Result
       id: eco-ci-result
-      uses: rstackjs/rstack-ecosystem-ci/.github/actions/ecosystem-ci-result@main
+      uses: rstackjs/rstack-ecosystem-ci/.github/actions/ecosystem-ci-result@50cb8bd52335a977e6f37af922549906ee5b619e # main
       with:
         job-prefix: ${{ inputs.job-name-prefix }}
         heading: ${{ inputs.ecosystem-repo }}
@@ -122,7 +122,7 @@ runs:
 
     - name: Publish History
       if: ${{ steps.update-history.outcome == 'success' }}
-      uses: JamesIves/github-pages-deploy-action@v4
+      uses: JamesIves/github-pages-deploy-action@d92aa235d04922e8f08b40ce78cc5442fcfbfa2f # v4
       with:
         branch: data
         folder: data-artifacts
