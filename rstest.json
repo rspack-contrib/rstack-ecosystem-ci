@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b625fbbabbeeda134e095ed8f182b66d3be0320f",
+    "commitTimestamp": "2026-05-19T03:01:38Z",
+    "commitMessage": "fix(core): only merge performance.buildCache when user opts in (#1276)",
+    "author": {
+      "name": "Peter Kasarda",
+      "email": "peter.kasarda@visma.com",
+      "login": "pkasarda"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26073545969",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26073545969/job/76659691725"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26073545969/job/76659691731"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26073545969/job/76659691732"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26073545969/job/76659691733"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26073545969/job/76659691747"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26073545969/job/76659691754"
+      }
+    ]
+  },
+  {
     "commitSha": "a6d420b9a3f9b6e961daf9b271897fd6721b8848",
     "commitTimestamp": "2026-05-18T09:41:22Z",
     "commitMessage": "chore(deps): update dependency svelte to v5.55.7 [security] (#1260)",
