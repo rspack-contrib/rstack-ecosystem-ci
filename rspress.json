@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "940f5af52c869ca713c57c8279547661cb11b719",
+    "commitTimestamp": "2026-05-19T12:40:42Z",
+    "commitMessage": "chore(ci): harden workflow permissions and setup-node caching (#3401)",
+    "author": {
+      "name": "Copilot",
+      "email": "198982749+Copilot@users.noreply.github.com",
+      "login": "Copilot"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26097807725",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26097807725/job/76740172629"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26097807725/job/76740172645"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26097807725/job/76740172648"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26097807725/job/76740172685"
+      }
+    ]
+  },
+  {
     "commitSha": "5ef404db82112056e37646f209f27ffaed52c0e6",
     "commitTimestamp": "2026-05-19T12:16:30Z",
     "commitMessage": "chore(deps): update rstackjs/rstack-ecosystem-ci digest to ca8d345 (#3400)",
