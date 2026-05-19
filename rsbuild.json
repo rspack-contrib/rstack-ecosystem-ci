@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7f537646e579ffa5fa47bd031738cb374229f60f",
+    "commitTimestamp": "2026-05-19T13:38:21Z",
+    "commitMessage": "fix(core): revoke inline worker Blob URL before fallback (#7693)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26100937063",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26100937063/job/76751434620"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26100937063/job/76751434624"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26100937063/job/76751434644"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26100937063/job/76751434666"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26100937063/job/76751434767"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26100937063/job/76751435007"
+      }
+    ]
+  },
+  {
     "commitSha": "521f37e6555d5965367a1f093471a4ce7664a603",
     "commitTimestamp": "2026-05-19T13:24:21Z",
     "commitMessage": "ci: allow ecosystem CI commit comments (#7694)",
