@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e45a10a72f8912a168ba37d787afb64e9a9366da",
+    "commitTimestamp": "2026-05-19T05:02:20Z",
+    "commitMessage": "fix(types): export missing public types (#1277)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26077325580",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26077325580/job/76670946606"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26077325580/job/76670946616"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26077325580/job/76670946620"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26077325580/job/76670946621"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26077325580/job/76670946627"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26077325580/job/76670946630"
+      }
+    ]
+  },
+  {
     "commitSha": "b625fbbabbeeda134e095ed8f182b66d3be0320f",
     "commitTimestamp": "2026-05-19T03:01:38Z",
     "commitMessage": "fix(core): only merge performance.buildCache when user opts in (#1276)",
