@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "53c3c90272afc0417bedf6a20c1bdd97e96c8f20",
+    "commitTimestamp": "2026-05-19T12:13:25Z",
+    "commitMessage": "chore: harden GitHub Actions permissions (#1656)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26096424693",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26096424693/job/76735284815"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26096424693/job/76735284843"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26096424693/job/76735284844"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26096424693/job/76735284854"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26096424693/job/76735284857"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26096424693/job/76735284952"
+      }
+    ]
+  },
+  {
     "commitSha": "7a12dd7677cc947d997981b70dd6b864a5713779",
     "commitTimestamp": "2026-05-18T03:57:05Z",
     "commitMessage": "perf(cli): remove process title startup overhead (#1649)",
