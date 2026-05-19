@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a0ad19f06631d18a91b0b757db4574f5077bc21f",
+    "commitTimestamp": "2026-05-19T05:33:08Z",
+    "commitMessage": "chore(security): replace issues helper action (#7683)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26078363064",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26078363064/job/76674048396"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26078363064/job/76674048400"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26078363064/job/76674048404"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26078363064/job/76674048408"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26078363064/job/76674048418"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26078363064/job/76674048423"
+      }
+    ]
+  },
+  {
     "commitSha": "dd78740ef486e953d0806010f3f7b9a18a78b65b",
     "commitTimestamp": "2026-05-19T02:48:08Z",
     "commitMessage": "fix(core): support worker query in SSR builds (#7681)",
