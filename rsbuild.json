@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "51e8ce5f7184cba0bf28f18b25bc703387c61465",
+    "commitTimestamp": "2026-05-20T03:46:42Z",
+    "commitMessage": "docs(blog): add author list to blog pages (#7686)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26140009592",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26140009592/job/76883390301"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26140009592/job/76883390305"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26140009592/job/76883390311"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26140009592/job/76883390328"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26140009592/job/76883390333"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26140009592/job/76883390344"
+      }
+    ]
+  },
+  {
     "commitSha": "7f537646e579ffa5fa47bd031738cb374229f60f",
     "commitTimestamp": "2026-05-19T13:38:21Z",
     "commitMessage": "fix(core): revoke inline worker Blob URL before fallback (#7693)",
