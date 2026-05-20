@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c248e099e1f194ffa63de8d44d44dc683b310da3",
+    "commitTimestamp": "2026-05-20T03:39:13Z",
+    "commitMessage": "ci: allow ecosystem CI commit comments (#1657)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26139803116",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26139803116/job/76882785648"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26139803116/job/76882785654"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26139803116/job/76882785657"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26139803116/job/76882785659"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26139803116/job/76882785669"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26139803116/job/76882785673"
+      }
+    ]
+  },
+  {
     "commitSha": "53c3c90272afc0417bedf6a20c1bdd97e96c8f20",
     "commitTimestamp": "2026-05-19T12:13:25Z",
     "commitMessage": "chore: harden GitHub Actions permissions (#1656)",
