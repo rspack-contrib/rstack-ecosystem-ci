@@ -703,6 +703,118 @@ async function writePnpmWorkspaceYaml(
   await fs.promises.writeFile(filePath, yamlContent, 'utf-8');
 }
 
+const FILE_PROTOCOL = 'file:';
+const CATALOG_PROTOCOL = 'catalog:';
+const DEP_SECTIONS = [
+  'dependencies',
+  'devDependencies',
+  'peerDependencies',
+  'optionalDependencies',
+] as const;
+
+interface SourceWorkspaceYaml {
+  catalog?: Record<string, string>;
+  catalogs?: Record<string, Record<string, string>>;
+}
+
+async function findAncestorWorkspaceYaml(
+  startDir: string,
+  cache: Map<string, SourceWorkspaceYaml | null>,
+): Promise<SourceWorkspaceYaml | null> {
+  const visited: string[] = [];
+  let cursor = startDir;
+  let result: SourceWorkspaceYaml | null = null;
+
+  while (true) {
+    if (cache.has(cursor)) {
+      result = cache.get(cursor) ?? null;
+      break;
+    }
+    visited.push(cursor);
+    const ws = await readPnpmWorkspaceYaml(cursor);
+    if (ws.exists) {
+      result = (ws.content ?? {}) as SourceWorkspaceYaml;
+      break;
+    }
+    const parent = path.dirname(cursor);
+    if (parent === cursor) break;
+    cursor = parent;
+  }
+
+  for (const c of visited) cache.set(c, result);
+  return result;
+}
+
+function resolveCatalogSpec(
+  spec: string,
+  depName: string,
+  ws: SourceWorkspaceYaml,
+): string | undefined {
+  const catalogName = spec.slice(CATALOG_PROTOCOL.length) || 'default';
+  if (catalogName === 'default') {
+    return ws.catalog?.[depName];
+  }
+  return ws.catalogs?.[catalogName]?.[depName];
+}
+
+// pnpm publish replaces `catalog:` specs with concrete versions at pack time.
+// When ecosystem-ci links a workspace package via `file:`, the catalog refs
+// in its manifest leak into the consuming workspace, which usually has a
+// different (or missing) catalog block. Replicate publish-time resolution by
+// rewriting the linked manifest in place.
+async function inlineCatalogsInLinkedPackages(
+  overrides: Record<string, string>,
+): Promise<void> {
+  const yamlCache = new Map<string, SourceWorkspaceYaml | null>();
+
+  await Promise.all(
+    Object.values(overrides).map(async (spec) => {
+      if (!spec.startsWith(FILE_PROTOCOL)) return;
+      const pkgDir = spec.slice(FILE_PROTOCOL.length);
+      const pkgJsonPath = path.join(pkgDir, 'package.json');
+      if (!fs.existsSync(pkgJsonPath)) return;
+
+      const pkgJson = JSON.parse(
+        await fs.promises.readFile(pkgJsonPath, 'utf-8'),
+      );
+      let sourceWs: SourceWorkspaceYaml | null | undefined;
+      let modified = false;
+
+      for (const section of DEP_SECTIONS) {
+        const deps = pkgJson[section];
+        if (!deps || typeof deps !== 'object') continue;
+        for (const [depName, depSpec] of Object.entries(deps)) {
+          if (typeof depSpec !== 'string') continue;
+          if (!depSpec.startsWith(CATALOG_PROTOCOL)) continue;
+
+          if (sourceWs === undefined) {
+            sourceWs = await findAncestorWorkspaceYaml(pkgDir, yamlCache);
+          }
+          const resolved = sourceWs
+            ? resolveCatalogSpec(depSpec, depName, sourceWs)
+            : undefined;
+          if (resolved === undefined) {
+            throw new Error(
+              `cannot resolve "${depSpec}" for "${depName}" in ${pkgJsonPath}: ` +
+                'entry not found in source pnpm-workspace.yaml catalog',
+            );
+          }
+          deps[depName] = resolved;
+          modified = true;
+        }
+      }
+
+      if (modified) {
+        await fs.promises.writeFile(
+          pkgJsonPath,
+          JSON.stringify(pkgJson, null, 2),
+          'utf-8',
+        );
+      }
+    }),
+  );
+}
+
 async function applyPackageOverrides({
   dir,
   pkg,
@@ -725,7 +837,7 @@ async function applyPackageOverrides({
   devDependencyStrategy?: 'all' | 'local';
 }) {
   const useFileProtocol = (v: string) =>
-    isLocalOverride(v) ? `file:${path.resolve(v)}` : v;
+    isLocalOverride(v) ? `${FILE_PROTOCOL}${path.resolve(v)}` : v;
   const normalizedOverrides = Object.fromEntries(
     Object.entries(overrides)
       .filter(([_key, value]) => typeof value === 'string')
@@ -737,7 +849,7 @@ async function applyPackageOverrides({
       ? normalizedOverrides
       : Object.fromEntries(
           Object.entries(normalizedOverrides).filter(([_key, value]) =>
-            (value as string).startsWith('file:'),
+            (value as string).startsWith(FILE_PROTOCOL),
           ),
         );
 
@@ -778,7 +890,23 @@ async function applyPackageOverrides({
       ...inheritedOverrides,
       ...normalizedOverrides,
     };
+    // Mirror vite-ecosystem-ci: relax workspace constraints that would
+    // conflict with the override-mutated dependency graph (e.g. a freshly
+    // linked package can introduce build scripts or younger versions that
+    // the upstream lockfile never had to clear).
+    if (wsContent.strictDepBuilds) {
+      wsContent.strictDepBuilds = false;
+    }
+    if (wsContent.minimumReleaseAge != null) {
+      delete wsContent.minimumReleaseAge;
+      delete wsContent.minimumReleaseAgeExclude;
+    }
+    if (wsContent.blockExoticSubdeps != null) {
+      delete wsContent.blockExoticSubdeps;
+    }
     await writePnpmWorkspaceYaml(workspace.filePath, wsContent);
+
+    await inlineCatalogsInLinkedPackages(normalizedOverrides);
   } else if (pm === 'yarn') {
     if (!pkg.devDependencies) {
       pkg.devDependencies = {};
