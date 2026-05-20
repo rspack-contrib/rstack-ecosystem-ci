@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "fb942aae1617d94c2605bb930f28d68a2f1fe377",
+    "commitTimestamp": "2026-05-20T07:27:29Z",
+    "commitMessage": "docs(blog): add author list to blog pages (#1282)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26148867560",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26148867560/job/76910956528"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26148867560/job/76910956535"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26148867560/job/76910956536"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26148867560/job/76910956560"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26148867560/job/76910956562"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26148867560/job/76910956582"
+      }
+    ]
+  },
+  {
     "commitSha": "90f4f1bfe14d1fc4a21ff6b807ff5be643bf6b20",
     "commitTimestamp": "2026-05-20T07:21:29Z",
     "commitMessage": "fix(core): prevent pool.close() hang on forks pool (#1285)",
