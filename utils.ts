@@ -941,7 +941,14 @@ async function applyPackageOverrides({
   await beforeInstallCommand?.(pkg.scripts);
 
   if (pm === 'pnpm') {
-    const pnpmArgs = installArgs?.pnpm ?? [];
+    const pnpmArgs = [...(installArgs?.pnpm ?? [])];
+    // pnpm 11 dropped `NPM_CONFIG_*` env vars in favor of `PNPM_CONFIG_*`
+    // (see pnpm/pnpm#11189), so rspack suites that publish to a local
+    // Verdaccio can no longer rely on `NPM_CONFIG_REGISTRY`. Forward it as
+    // a CLI flag, which works for both pnpm 10 and 11.
+    if (process.env.NPM_CONFIG_REGISTRY) {
+      pnpmArgs.push(`--registry=${process.env.NPM_CONFIG_REGISTRY}`);
+    }
     const command = ['pnpm', 'install', ...pnpmArgs].join(' ');
     await $`${command}`;
   } else if (pm === 'yarn') {
