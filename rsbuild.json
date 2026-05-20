@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "16d3d3bf121acb181ba0fa23b62b82f55bc64c38",
+    "commitTimestamp": "2026-05-20T13:02:28Z",
+    "commitMessage": "feat(deps): update @rspack/core to 2.0.4 (#7706)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26164315305",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26164315305/job/76964132607"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26164315305/job/76964132625"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26164315305/job/76964132700"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26164315305/job/76964132741"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26164315305/job/76964132804"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26164315305/job/76964132928"
+      }
+    ]
+  },
+  {
     "commitSha": "03ad4579699f5eead3432573c435a6d8fe6d99c9",
     "commitTimestamp": "2026-05-20T12:36:34Z",
     "commitMessage": "docs: align documentation anchor IDs (#7704)",
