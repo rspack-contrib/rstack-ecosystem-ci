@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "1e8dab765cb3e799e0f198c8787da40bc6d84712",
+    "commitTimestamp": "2026-05-20T06:48:03Z",
+    "commitMessage": "feat(core): support import.meta.env.SSR (#7700)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26146654714",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26146654714/job/76903662532"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26146654714/job/76903662541"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26146654714/job/76903662570"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26146654714/job/76903662576"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26146654714/job/76903662586"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26146654714/job/76903662653"
+      }
+    ]
+  },
+  {
     "commitSha": "51e8ce5f7184cba0bf28f18b25bc703387c61465",
     "commitTimestamp": "2026-05-20T03:46:42Z",
     "commitMessage": "docs(blog): add author list to blog pages (#7686)",
