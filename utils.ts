@@ -894,9 +894,10 @@ async function applyPackageOverrides({
     // conflict with the override-mutated dependency graph (e.g. a freshly
     // linked package can introduce build scripts or younger versions that
     // the upstream lockfile never had to clear).
-    if (wsContent.strictDepBuilds) {
-      wsContent.strictDepBuilds = false;
-    }
+    // pnpm 11 treats `allowBuilds:` as implicit strict mode, so this must
+    // be set unconditionally — guarding on a truthy value silently leaves
+    // repos that have `allowBuilds` but no explicit `strictDepBuilds`.
+    wsContent.strictDepBuilds = false;
     if (wsContent.minimumReleaseAge != null) {
       delete wsContent.minimumReleaseAge;
       delete wsContent.minimumReleaseAgeExclude;
