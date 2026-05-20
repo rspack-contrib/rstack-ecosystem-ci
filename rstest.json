@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "90f4f1bfe14d1fc4a21ff6b807ff5be643bf6b20",
+    "commitTimestamp": "2026-05-20T07:21:29Z",
+    "commitMessage": "fix(core): prevent pool.close() hang on forks pool (#1285)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26147751969",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26147751969/job/76907276611"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26147751969/job/76907276619"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26147751969/job/76907276621"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26147751969/job/76907276643"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26147751969/job/76907276695"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26147751969/job/76907276731"
+      }
+    ]
+  },
+  {
     "commitSha": "bf0bd713f03bc7bb75be40f79ab04e13b5fc318c",
     "commitTimestamp": "2026-05-19T09:19:57Z",
     "commitMessage": "feat(core): add detectAsyncLeaks option (#1262)",
