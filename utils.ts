@@ -894,10 +894,9 @@ async function applyPackageOverrides({
     // conflict with the override-mutated dependency graph (e.g. a freshly
     // linked package can introduce build scripts or younger versions that
     // the upstream lockfile never had to clear).
-    // Note: pnpm 11 treats `allowBuilds:` as implicit strict mode, so we
-    // must set this unconditionally — gating on a pre-existing truthy
-    // value would silently leave pnpm 11 callers (e.g. rspack-contrib
-    // plugin repos on pnpm@11.1.2) failing with ERR_PNPM_IGNORED_BUILDS.
+    // pnpm 11 treats `allowBuilds:` as implicit strict mode, so this must
+    // be set unconditionally — guarding on a truthy value silently leaves
+    // repos that have `allowBuilds` but no explicit `strictDepBuilds`.
     wsContent.strictDepBuilds = false;
     if (wsContent.minimumReleaseAge != null) {
       delete wsContent.minimumReleaseAge;
