@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "d841521ef3a4c7111c1547f2f9f6fd71b1c9c4d0",
+    "commitTimestamp": "2026-05-20T03:39:49Z",
+    "commitMessage": "ci: allow ecosystem CI commit comments (#3402)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26139827878",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26139827878/job/76882857267"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26139827878/job/76882857269"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26139827878/job/76882857276"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26139827878/job/76882857280"
+      }
+    ]
+  },
+  {
     "commitSha": "940f5af52c869ca713c57c8279547661cb11b719",
     "commitTimestamp": "2026-05-19T12:40:42Z",
     "commitMessage": "chore(ci): harden workflow permissions and setup-node caching (#3401)",
