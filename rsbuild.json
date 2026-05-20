@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "03ad4579699f5eead3432573c435a6d8fe6d99c9",
+    "commitTimestamp": "2026-05-20T12:36:34Z",
+    "commitMessage": "docs: align documentation anchor IDs (#7704)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26162959357",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26162959357/job/76959329772"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26162959357/job/76959329773"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26162959357/job/76959329783"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26162959357/job/76959329786"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26162959357/job/76959329816"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26162959357/job/76959329865"
+      }
+    ]
+  },
+  {
     "commitSha": "ed76d220beeacb7a51ead577c551f0e05b9135f7",
     "commitTimestamp": "2026-05-20T09:23:38Z",
     "commitMessage": "test: add public manifest html case (#7702)",
