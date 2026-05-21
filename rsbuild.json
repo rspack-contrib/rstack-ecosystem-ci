@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "630d7ca4c96c1da77eaa349d9b6dabccdbcb1dc9",
+    "commitTimestamp": "2026-05-21T02:45:47Z",
+    "commitMessage": "fix(core): write rspack logger trace to file by default (#7707)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26202392206",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26202392206/job/77094885750"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26202392206/job/77094885756"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26202392206/job/77094885758"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26202392206/job/77094885761"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26202392206/job/77094885762"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26202392206/job/77094885765"
+      }
+    ]
+  },
+  {
     "commitSha": "16d3d3bf121acb181ba0fa23b62b82f55bc64c38",
     "commitTimestamp": "2026-05-20T13:02:28Z",
     "commitMessage": "feat(deps): update @rspack/core to 2.0.4 (#7706)",
