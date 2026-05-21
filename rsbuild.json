@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "0cc0557e8ba270d72dc4f72e33001a4817f16f9d",
+    "commitTimestamp": "2026-05-21T09:28:59Z",
+    "commitMessage": "chore(deps): update module federation to v2.4.0 (#7717)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26217665515",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26217665515/job/77144133704"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26217665515/job/77144133707"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26217665515/job/77144133709"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26217665515/job/77144133713"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26217665515/job/77144133744"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26217665515/job/77144133776"
+      }
+    ]
+  },
+  {
     "commitSha": "a2df62a68f510113b44a00a013eab877501073b2",
     "commitTimestamp": "2026-05-21T07:44:22Z",
     "commitMessage": "chore: restore Renovate workspace scanning (#7716)",
