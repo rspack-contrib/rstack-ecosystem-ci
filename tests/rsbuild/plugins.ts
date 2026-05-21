@@ -36,6 +36,7 @@ export async function test(options: RunOptions) {
     'rstackjs/rsbuild-plugin-vue-jsx',
     'rstackjs/rsbuild-plugin-assets-retry',
     'rstackjs/rsbuild-plugin-tailwindcss',
+    'rstackjs/rsbuild-plugin-stylus',
   ];
 
   const { workspace } = options;
