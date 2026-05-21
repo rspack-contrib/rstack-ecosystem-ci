@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a2df62a68f510113b44a00a013eab877501073b2",
+    "commitTimestamp": "2026-05-21T07:44:22Z",
+    "commitMessage": "chore: restore Renovate workspace scanning (#7716)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26213185393",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26213185393/job/77128870330"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26213185393/job/77128870356"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26213185393/job/77128870365"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26213185393/job/77128870371"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26213185393/job/77128870372"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26213185393/job/77128870375"
+      }
+    ]
+  },
+  {
     "commitSha": "52248202203561a5120f356e2ffc5fc863b91139",
     "commitTimestamp": "2026-05-21T06:22:19Z",
     "commitMessage": "refactor: move plugin-stylus to separate repo (#7715)",
