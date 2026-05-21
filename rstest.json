@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "0296eef9ba43b024bab7c150dcf08e83b4eef022",
+    "commitTimestamp": "2026-05-21T10:40:39Z",
+    "commitMessage": "feat: implement V8 coverage provider (#1117)",
+    "author": {
+      "name": "Qingyu Wang",
+      "email": "40660121+colinaaa@users.noreply.github.com",
+      "login": "colinaaa"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26221013864",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26221013864/job/77155699463"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26221013864/job/77155699472"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26221013864/job/77155699484"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26221013864/job/77155699500"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26221013864/job/77155699535"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26221013864/job/77155699621"
+      }
+    ]
+  },
+  {
     "commitSha": "67c8e138b6b7f94ab3b5bbee34c69bfcf369ab1b",
     "commitTimestamp": "2026-05-21T06:28:07Z",
     "commitMessage": "feat(core): support using for mock restore (#1293)",
