@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d9ba024f3ce55b0e0602c9bd43301300e3b2c1f0",
+    "commitTimestamp": "2026-05-21T03:20:59Z",
+    "commitMessage": "fix(core): align rspack trace output path (#7709)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26203461332",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26203461332/job/77098191710"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26203461332/job/77098191729"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26203461332/job/77098191739"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26203461332/job/77098191751"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26203461332/job/77098191752"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26203461332/job/77098191758"
+      }
+    ]
+  },
+  {
     "commitSha": "a7b9047c04abd261377c1307d0751b325c5a654f",
     "commitTimestamp": "2026-05-21T03:18:50Z",
     "commitMessage": "chore(deps): reduce peer dependency installs (#7708)",
