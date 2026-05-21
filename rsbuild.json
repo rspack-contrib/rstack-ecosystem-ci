@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a2728732220a6f36f1f1208ea25b6f01b1508e2f",
+    "commitTimestamp": "2026-05-21T05:09:06Z",
+    "commitMessage": "fix(core): remove redundant autoExternal rules (#7713)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26206734270",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26206734270/job/77108118015"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26206734270/job/77108118016"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26206734270/job/77108118021"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26206734270/job/77108118030"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26206734270/job/77108118051"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26206734270/job/77108118102"
+      }
+    ]
+  },
+  {
     "commitSha": "b30d5789710950adba699f718a78665ae0861115",
     "commitTimestamp": "2026-05-21T03:58:57Z",
     "commitMessage": "chore: update skills (#7711)",
