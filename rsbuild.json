@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9c38301c60a2f33d7c31fb68ebac65a746562d65",
+    "commitTimestamp": "2026-05-21T05:35:03Z",
+    "commitMessage": "test(e2e): replace vue react mix with solid react (#7714)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26207587874",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26207587874/job/77110723114"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26207587874/job/77110723116"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26207587874/job/77110723121"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26207587874/job/77110723123"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26207587874/job/77110723130"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26207587874/job/77110723132"
+      }
+    ]
+  },
+  {
     "commitSha": "a2728732220a6f36f1f1208ea25b6f01b1508e2f",
     "commitTimestamp": "2026-05-21T05:09:06Z",
     "commitMessage": "fix(core): remove redundant autoExternal rules (#7713)",
