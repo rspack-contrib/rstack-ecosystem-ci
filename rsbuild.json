@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b30d5789710950adba699f718a78665ae0861115",
+    "commitTimestamp": "2026-05-21T03:58:57Z",
+    "commitMessage": "chore: update skills (#7711)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26204581320",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26204581320/job/77101605595"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26204581320/job/77101605596"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26204581320/job/77101605607"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26204581320/job/77101605610"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26204581320/job/77101605612"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26204581320/job/77101605614"
+      }
+    ]
+  },
+  {
     "commitSha": "dcb15197a9bac91b33f11a88d3362a99556eea2f",
     "commitTimestamp": "2026-05-21T03:30:06Z",
     "commitMessage": "release: v2.0.7 (#7710)",
