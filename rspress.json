@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "73b6a85af27c9f68686212517057f8c88e2fcbd0",
+    "commitTimestamp": "2026-05-21T06:52:46Z",
+    "commitMessage": "fix(plugin-preview): avoid emitting ~demo without iframe previews (#3404)",
+    "author": {
+      "name": "Copilot",
+      "email": "198982749+Copilot@users.noreply.github.com",
+      "login": "Copilot"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26210445964",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26210445964/job/77119817597"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26210445964/job/77119817601"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26210445964/job/77119817628"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26210445964/job/77119817630"
+      }
+    ]
+  },
+  {
     "commitSha": "d841521ef3a4c7111c1547f2f9f6fd71b1c9c4d0",
     "commitTimestamp": "2026-05-20T03:39:49Z",
     "commitMessage": "ci: allow ecosystem CI commit comments (#3402)",
