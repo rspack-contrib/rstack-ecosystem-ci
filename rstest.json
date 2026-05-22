@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "0a3dd16f0897b2dc2902d311bed0c4f2d96aec2a",
+    "commitTimestamp": "2026-05-22T09:16:49Z",
+    "commitMessage": "fix(core): flush before final summary output (#1309)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26279805022",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26279805022/job/77352917280"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26279805022/job/77352917281"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26279805022/job/77352917283"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26279805022/job/77352917289"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26279805022/job/77352917310"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26279805022/job/77352917364"
+      }
+    ]
+  },
+  {
     "commitSha": "7f202947e4ac8915f6943263de93a9cca70e08c8",
     "commitTimestamp": "2026-05-22T08:02:36Z",
     "commitMessage": "ci: tolerate Playwright browser cache failures (#1305)",
