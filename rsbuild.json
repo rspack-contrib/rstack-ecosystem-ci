@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "8d4013149d4c6611132e52cee81246e3a3162bca",
+    "commitTimestamp": "2026-05-22T03:28:47Z",
+    "commitMessage": "docs: recommend autoExternal for SSR (#7718)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26266800482",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26266800482/job/77311768531"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26266800482/job/77311768539"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26266800482/job/77311768544"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26266800482/job/77311768546"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26266800482/job/77311768547"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26266800482/job/77311768557"
+      }
+    ]
+  },
+  {
     "commitSha": "acd628e63cdb3093d0a24015b42856295681f068",
     "commitTimestamp": "2026-05-22T03:19:07Z",
     "commitMessage": "test: cover SSR autoExternal (#7719)",
