@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2a24dec6e0eb0afe0fa0184b516884068259d5bb",
+    "commitTimestamp": "2026-05-22T08:00:24Z",
+    "commitMessage": "fix(core): surface fatal-error stack on worker IPC drop (#1306)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26276523722",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26276523722/job/77341993050"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26276523722/job/77341993069"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26276523722/job/77341993071"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26276523722/job/77341993100"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26276523722/job/77341993158"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26276523722/job/77341993256"
+      }
+    ]
+  },
+  {
     "commitSha": "34e32908bf6273adbfe36ef5cbe6ee90068fafee",
     "commitTimestamp": "2026-05-22T07:40:55Z",
     "commitMessage": "fix(core): serialize reporter output on CI (#1304)",
