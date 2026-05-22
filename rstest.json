@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "91caeee287be7607f1c68cbefd1c0e7502ebd9e5",
+    "commitTimestamp": "2026-05-22T07:16:45Z",
+    "commitMessage": "fix(core): disable memory gate for threads pool (#1307)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26274094203",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26274094203/job/77334112710"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26274094203/job/77334112728"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26274094203/job/77334112729"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26274094203/job/77334112736"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26274094203/job/77334112745"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26274094203/job/77334112765"
+      }
+    ]
+  },
+  {
     "commitSha": "0fe631e658b04ecabc96f1104130688c18ff2497",
     "commitTimestamp": "2026-05-22T06:25:19Z",
     "commitMessage": "perf(coverage-v8): skip unnecessary coverage conversion (#1298)",
