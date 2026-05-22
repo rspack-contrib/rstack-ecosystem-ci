@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ff73efedddd7e023ab92071b514f57b7325bd52c",
+    "commitTimestamp": "2026-05-22T05:18:54Z",
+    "commitMessage": "feat(core): support autoExternal exclude (#7722)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26269910291",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26269910291/job/77320962947"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26269910291/job/77320962957"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26269910291/job/77320962960"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26269910291/job/77320962967"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26269910291/job/77320962971"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26269910291/job/77320963009"
+      }
+    ]
+  },
+  {
     "commitSha": "88f44faa9d254adc8fb283323d3a6f7b8bd13a30",
     "commitTimestamp": "2026-05-22T03:42:04Z",
     "commitMessage": "chore(deps): migrate workspace deps to pnpm catalog (#7720)",
