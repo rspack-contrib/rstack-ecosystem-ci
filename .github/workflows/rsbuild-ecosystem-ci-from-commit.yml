@@ -62,7 +62,7 @@ jobs:
           ref: ${{ inputs.commitSHA }}
       - run: pnpm i --frozen-lockfile
       - name: Expose GitHub Runtime
-        uses: crazy-max/ghaction-github-runtime@3cb05d89e1f492524af3d41a1c98c83bc3025124 # v3
+        uses: crazy-max/ghaction-github-runtime@04d248b84655b509d8c44dc1d6f990c879747487 # v4
       - run: >-
           pnpm tsx ecosystem-ci.ts
           run-suites
@@ -99,7 +99,7 @@ jobs:
           ref: ${{ inputs.commitSHA }}
       - run: pnpm i --frozen-lockfile
       - name: Expose GitHub Runtime
-        uses: crazy-max/ghaction-github-runtime@3cb05d89e1f492524af3d41a1c98c83bc3025124 # v3
+        uses: crazy-max/ghaction-github-runtime@04d248b84655b509d8c44dc1d6f990c879747487 # v4
       - run: >-
           pnpm tsx ecosystem-ci.ts
           run-suites

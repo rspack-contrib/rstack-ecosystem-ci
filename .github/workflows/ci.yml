@@ -34,7 +34,7 @@ jobs:
       - name: Install
         run: pnpm install --frozen-lockfile --prefer-offline
       - name: Expose GitHub Runtime
-        uses: crazy-max/ghaction-github-runtime@3cb05d89e1f492524af3d41a1c98c83bc3025124 # v3
+        uses: crazy-max/ghaction-github-runtime@04d248b84655b509d8c44dc1d6f990c879747487 # v4
       - run: >-
           pnpm tsx ecosystem-ci.ts
           run-suites
@@ -69,7 +69,7 @@ jobs:
           corepack enable
           pnpm install --frozen-lockfile --prefer-offline
       - name: Expose GitHub Runtime
-        uses: crazy-max/ghaction-github-runtime@3cb05d89e1f492524af3d41a1c98c83bc3025124 # v3
+        uses: crazy-max/ghaction-github-runtime@04d248b84655b509d8c44dc1d6f990c879747487 # v4
       - run: >-
           pnpm tsx ecosystem-ci.ts
           run-suites
@@ -103,7 +103,7 @@ jobs:
           corepack enable
           pnpm install --frozen-lockfile --prefer-offline
       - name: Expose GitHub Runtime
-        uses: crazy-max/ghaction-github-runtime@3cb05d89e1f492524af3d41a1c98c83bc3025124 # v3
+        uses: crazy-max/ghaction-github-runtime@04d248b84655b509d8c44dc1d6f990c879747487 # v4
       - run: >-
           pnpm tsx ecosystem-ci.ts
           run-suites
@@ -128,7 +128,7 @@ jobs:
           corepack enable
           pnpm install --frozen-lockfile --prefer-offline
       - name: Expose GitHub Runtime
-        uses: crazy-max/ghaction-github-runtime@3cb05d89e1f492524af3d41a1c98c83bc3025124 # v3
+        uses: crazy-max/ghaction-github-runtime@04d248b84655b509d8c44dc1d6f990c879747487 # v4
       - run: >-
           pnpm tsx ecosystem-ci.ts
           run-suites
@@ -198,7 +198,7 @@ jobs:
         if: matrix.suite == 'lynx-stack'
         uses: actions-rust-lang/setup-rust-toolchain@46268bd060767258de96ed93c1251119784f2ab6 # v1
       - name: Expose GitHub Runtime
-        uses: crazy-max/ghaction-github-runtime@3cb05d89e1f492524af3d41a1c98c83bc3025124 # v3
+        uses: crazy-max/ghaction-github-runtime@04d248b84655b509d8c44dc1d6f990c879747487 # v4
       # Verdaccio is required for rspack-stack testing.
       # pnpm has a known bug (pnpm/pnpm#9270) where file: protocol overrides
       # for packages with native optionalDependencies cause version mismatch

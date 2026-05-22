@@ -93,7 +93,7 @@ jobs:
           ref: ${{ inputs.ref }}
       - run: pnpm i --frozen-lockfile
       - name: Expose GitHub Runtime
-        uses: crazy-max/ghaction-github-runtime@3cb05d89e1f492524af3d41a1c98c83bc3025124 # v3
+        uses: crazy-max/ghaction-github-runtime@04d248b84655b509d8c44dc1d6f990c879747487 # v4
       # Verdaccio is required for rspack-stack testing.
       # pnpm has a known bug (pnpm/pnpm#9270) where file: protocol overrides
       # for packages with native optionalDependencies cause version mismatch
@@ -151,7 +151,7 @@ jobs:
           ref: ${{ inputs.ref }}
       - run: pnpm i --frozen-lockfile
       - name: Expose GitHub Runtime
-        uses: crazy-max/ghaction-github-runtime@3cb05d89e1f492524af3d41a1c98c83bc3025124 # v3
+        uses: crazy-max/ghaction-github-runtime@04d248b84655b509d8c44dc1d6f990c879747487 # v4
       - name: Publish rspack to Verdaccio
         id: publish-rspack
         uses: ./.github/actions/publish-rspack-to-verdaccio
