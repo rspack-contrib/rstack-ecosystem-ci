@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "eaf1d2d8327d81fe8e28a2a8fdcc4686c09ab25f",
+    "commitTimestamp": "2026-05-22T10:24:38Z",
+    "commitMessage": "feat(core): make --reporters the canonical CLI flag (#1299)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26282694375",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26282694375/job/77362580724"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26282694375/job/77362580742"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26282694375/job/77362580745"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26282694375/job/77362580757"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26282694375/job/77362580774"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26282694375/job/77362580814"
+      }
+    ]
+  },
+  {
     "commitSha": "0a3dd16f0897b2dc2902d311bed0c4f2d96aec2a",
     "commitTimestamp": "2026-05-22T09:16:49Z",
     "commitMessage": "fix(core): flush before final summary output (#1309)",
