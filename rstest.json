@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7f202947e4ac8915f6943263de93a9cca70e08c8",
+    "commitTimestamp": "2026-05-22T08:02:36Z",
+    "commitMessage": "ci: tolerate Playwright browser cache failures (#1305)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26276645945",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26276645945/job/77342406055"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26276645945/job/77342406068"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26276645945/job/77342406070"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26276645945/job/77342406104"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26276645945/job/77342406109"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26276645945/job/77342406139"
+      }
+    ]
+  },
+  {
     "commitSha": "2a24dec6e0eb0afe0fa0184b516884068259d5bb",
     "commitTimestamp": "2026-05-22T08:00:24Z",
     "commitMessage": "fix(core): surface fatal-error stack on worker IPC drop (#1306)",
