@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "acd628e63cdb3093d0a24015b42856295681f068",
+    "commitTimestamp": "2026-05-22T03:19:07Z",
+    "commitMessage": "test: cover SSR autoExternal (#7719)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26266675651",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26266675651/job/77311363236"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26266675651/job/77311363237"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26266675651/job/77311363239"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26266675651/job/77311363240"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26266675651/job/77311363241"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26266675651/job/77311363245"
+      }
+    ]
+  },
+  {
     "commitSha": "0cc0557e8ba270d72dc4f72e33001a4817f16f9d",
     "commitTimestamp": "2026-05-21T09:28:59Z",
     "commitMessage": "chore(deps): update module federation to v2.4.0 (#7717)",
