@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "0fe631e658b04ecabc96f1104130688c18ff2497",
+    "commitTimestamp": "2026-05-22T06:25:19Z",
+    "commitMessage": "perf(coverage-v8): skip unnecessary coverage conversion (#1298)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26272297666",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26272297666/job/77328379001"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26272297666/job/77328379007"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26272297666/job/77328379009"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26272297666/job/77328379017"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26272297666/job/77328379021"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26272297666/job/77328379055"
+      }
+    ]
+  },
+  {
     "commitSha": "024e550fe0d2fa54ccd6ae8464240aee37ae7cc0",
     "commitTimestamp": "2026-05-22T03:21:22Z",
     "commitMessage": "feat(core): trace coverage pipeline (#1297)",
