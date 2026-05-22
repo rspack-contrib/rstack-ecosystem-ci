@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "0e99ed3ced61b989e2a5808cf46220747925847e",
+    "commitTimestamp": "2026-05-22T11:09:42Z",
+    "commitMessage": "chore: include coverage-v8 in bump group (#1308)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26284485793",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26284485793/job/77368565854"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26284485793/job/77368565877"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26284485793/job/77368565883"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26284485793/job/77368565887"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26284485793/job/77368565889"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26284485793/job/77368566152"
+      }
+    ]
+  },
+  {
     "commitSha": "cfbc6d9f5a5853a1366a8e4b2d91a26a8df673cb",
     "commitTimestamp": "2026-05-22T10:54:40Z",
     "commitMessage": "fix(core): handle stream write callbacks in status renderer (#1312)",
