@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "024e550fe0d2fa54ccd6ae8464240aee37ae7cc0",
+    "commitTimestamp": "2026-05-22T03:21:22Z",
+    "commitMessage": "feat(core): trace coverage pipeline (#1297)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26266704805",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26266704805/job/77311458595"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26266704805/job/77311458606"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26266704805/job/77311458611"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26266704805/job/77311458620"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26266704805/job/77311458623"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26266704805/job/77311458642"
+      }
+    ]
+  },
+  {
     "commitSha": "1dff40fbef806be1f0355f36c36ee42d61094ccb",
     "commitTimestamp": "2026-05-22T03:15:25Z",
     "commitMessage": "perf(coverage-istanbul): optimize sourcemap URL scanning (#1296)",
