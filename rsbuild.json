@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "88f44faa9d254adc8fb283323d3a6f7b8bd13a30",
+    "commitTimestamp": "2026-05-22T03:42:04Z",
+    "commitMessage": "chore(deps): migrate workspace deps to pnpm catalog (#7720)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26267149261",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26267149261/job/77312793632"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26267149261/job/77312793639"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26267149261/job/77312793641"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26267149261/job/77312793648"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26267149261/job/77312793656"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26267149261/job/77312793664"
+      }
+    ]
+  },
+  {
     "commitSha": "8d4013149d4c6611132e52cee81246e3a3162bca",
     "commitTimestamp": "2026-05-22T03:28:47Z",
     "commitMessage": "docs: recommend autoExternal for SSR (#7718)",
