@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "cfbc6d9f5a5853a1366a8e4b2d91a26a8df673cb",
+    "commitTimestamp": "2026-05-22T10:54:40Z",
+    "commitMessage": "fix(core): handle stream write callbacks in status renderer (#1312)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26283838261",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26283838261/job/77366371016"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26283838261/job/77366371017"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26283838261/job/77366371020"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26283838261/job/77366371025"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26283838261/job/77366371029"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26283838261/job/77366371141"
+      }
+    ]
+  },
+  {
     "commitSha": "eaf1d2d8327d81fe8e28a2a8fdcc4686c09ab25f",
     "commitTimestamp": "2026-05-22T10:24:38Z",
     "commitMessage": "feat(core): make --reporters the canonical CLI flag (#1299)",
