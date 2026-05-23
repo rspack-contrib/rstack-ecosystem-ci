@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "97ab45abc9477d4689922bf1c57462645272ac00",
+    "commitTimestamp": "2026-05-23T14:48:29Z",
+    "commitMessage": "test: improve autoExternal e2e cases (#7730)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26335712068",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26335712068/job/77528962384"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26335712068/job/77528962385"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26335712068/job/77528962390"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26335712068/job/77528962391"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26335712068/job/77528962397"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26335712068/job/77528962401"
+      }
+    ]
+  },
+  {
     "commitSha": "14591f9f6a31839456547fb2083ee6f259f8742a",
     "commitTimestamp": "2026-05-23T14:47:42Z",
     "commitMessage": "chore(deps): update swc monorepo to ^12.10.0 (#7734)",
