@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "dfdeb93ab3a5438f733aa19fce41b5e471e7fcb7",
+    "commitTimestamp": "2026-05-23T23:08:22Z",
+    "commitMessage": "chore(deps): update module federation to v2.5.0 (#7732)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26345998195",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26345998195/job/77555884459"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26345998195/job/77555884461"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26345998195/job/77555884477"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26345998195/job/77555884483"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26345998195/job/77555884486"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26345998195/job/77555884496"
+      }
+    ]
+  },
+  {
     "commitSha": "97ab45abc9477d4689922bf1c57462645272ac00",
     "commitTimestamp": "2026-05-23T14:48:29Z",
     "commitMessage": "test: improve autoExternal e2e cases (#7730)",
