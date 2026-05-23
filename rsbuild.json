@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "5abbf33d0b0b4ee74e3d129da8b032a65c177a63",
+    "commitTimestamp": "2026-05-23T14:10:16Z",
+    "commitMessage": "feat(core): support autoExternal packageJson option (#7728)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26334875411",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26334875411/job/77526817556"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26334875411/job/77526817559"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26334875411/job/77526817560"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26334875411/job/77526817567"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26334875411/job/77526817568"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26334875411/job/77526817578"
+      }
+    ]
+  },
+  {
     "commitSha": "e071f9d352b24d36b9815d571c5dba2d95077dd2",
     "commitTimestamp": "2026-05-22T08:06:48Z",
     "commitMessage": "test: cover externals overriding autoExternal (#7725)",
