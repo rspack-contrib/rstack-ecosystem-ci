@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "dee0db793cdc0b2567e97f98722671ed18cc4f58",
+    "commitTimestamp": "2026-05-24T01:35:38Z",
+    "commitMessage": "chore(deps): update dependency ws to ^8.21.0 (#7736)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26348701399",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26348701399/job/77563020841"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26348701399/job/77563020842"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26348701399/job/77563020847"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26348701399/job/77563020848"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26348701399/job/77563020854"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26348701399/job/77563020859"
+      }
+    ]
+  },
+  {
     "commitSha": "b6b164e434db14c9fbabfff5e707f7f950af32fb",
     "commitTimestamp": "2026-05-24T01:35:29Z",
     "commitMessage": "chore(deps): update dependency @shikijs/transformers to ^4.1.0 (#7735)",
