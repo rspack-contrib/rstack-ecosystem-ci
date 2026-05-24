@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "897cd135bab78a99b159e6aa383f6cade2f71332",
+    "commitTimestamp": "2026-05-24T09:15:57Z",
+    "commitMessage": "refactor(core): simplify autoExternal rules (#7738)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26357328596",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26357328596/job/77586364265"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26357328596/job/77586364267"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26357328596/job/77586364268"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26357328596/job/77586364269"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26357328596/job/77586364282"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26357328596/job/77586364283"
+      }
+    ]
+  },
+  {
     "commitSha": "eb1909112f073f6a8495ff83b5b46fd6835840e8",
     "commitTimestamp": "2026-05-24T09:10:57Z",
     "commitMessage": "chore: externalize supports-color in core build (#7737)",
