@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "eb1909112f073f6a8495ff83b5b46fd6835840e8",
+    "commitTimestamp": "2026-05-24T09:10:57Z",
+    "commitMessage": "chore: externalize supports-color in core build (#7737)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26357227986",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26357227986/job/77586086839"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26357227986/job/77586086842"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26357227986/job/77586086845"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26357227986/job/77586086848"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26357227986/job/77586086850"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26357227986/job/77586086851"
+      }
+    ]
+  },
+  {
     "commitSha": "dee0db793cdc0b2567e97f98722671ed18cc4f58",
     "commitTimestamp": "2026-05-24T01:35:38Z",
     "commitMessage": "chore(deps): update dependency ws to ^8.21.0 (#7736)",
