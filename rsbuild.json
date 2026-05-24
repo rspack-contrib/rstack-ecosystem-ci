@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d0ef8fd7ddd86eec3883269c033e05dd1c4e52be",
+    "commitTimestamp": "2026-05-24T09:17:02Z",
+    "commitMessage": "test: cover autoExternal web CommonJS output (#7739)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26357351513",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26357351513/job/77586427691"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26357351513/job/77586427693"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26357351513/job/77586427694"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26357351513/job/77586427695"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26357351513/job/77586427696"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26357351513/job/77586427698"
+      }
+    ]
+  },
+  {
     "commitSha": "897cd135bab78a99b159e6aa383f6cade2f71332",
     "commitTimestamp": "2026-05-24T09:15:57Z",
     "commitMessage": "refactor(core): simplify autoExternal rules (#7738)",
