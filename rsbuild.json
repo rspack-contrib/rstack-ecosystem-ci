@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b6b164e434db14c9fbabfff5e707f7f950af32fb",
+    "commitTimestamp": "2026-05-24T01:35:29Z",
+    "commitMessage": "chore(deps): update dependency @shikijs/transformers to ^4.1.0 (#7735)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26348698391",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26348698391/job/77563014000"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26348698391/job/77563014001"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26348698391/job/77563014003"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26348698391/job/77563014029"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26348698391/job/77563014037"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26348698391/job/77563014039"
+      }
+    ]
+  },
+  {
     "commitSha": "dfdeb93ab3a5438f733aa19fce41b5e471e7fcb7",
     "commitTimestamp": "2026-05-23T23:08:22Z",
     "commitMessage": "chore(deps): update module federation to v2.5.0 (#7732)",
