@@ -865,12 +865,6 @@ async function applyPackageOverrides({
     // catalogs / etc. into pnpm-workspace.yaml as project-level config, so we
     // require >=10 here and fail loudly instead of producing that confusing
     // install-time error downstream.
-    if (agent === 'pnpm@6') {
-      throw new Error(
-        `${dir}: consumer agent is pnpm@6; rstack-ecosystem-ci requires pnpm >= 10. ` +
-          `Bump the consumer's \`packageManager\` field to pnpm@10.x or newer.`,
-      );
-    }
     const declaredPm: unknown = pkg?.packageManager;
     if (typeof declaredPm === 'string' && declaredPm.startsWith('pnpm@')) {
       const major = parseInt(declaredPm.slice('pnpm@'.length), 10);
