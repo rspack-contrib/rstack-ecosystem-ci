@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "451d811253980f0802da90dc1273e1483aef8943",
+    "commitTimestamp": "2026-05-25T02:20:47Z",
+    "commitMessage": "chore(deps): update node.js to v24.16.0 (#7742)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26379873698",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26379873698/job/77646957007"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26379873698/job/77646957013"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26379873698/job/77646957014"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26379873698/job/77646957021"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26379873698/job/77646957033"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26379873698/job/77646957035"
+      }
+    ]
+  },
+  {
     "commitSha": "d0ef8fd7ddd86eec3883269c033e05dd1c4e52be",
     "commitTimestamp": "2026-05-24T09:17:02Z",
     "commitMessage": "test: cover autoExternal web CommonJS output (#7739)",
