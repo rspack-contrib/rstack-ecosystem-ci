@@ -858,6 +858,26 @@ async function applyPackageOverrides({
   const pm = agent.split('@')[0];
 
   if (pm === 'pnpm') {
+    // applyPackageOverrides writes overrides into the consumer's
+    // pnpm-workspace.yaml. pnpm <10 treats that file strictly as a workspace
+    // definition and errors with `ERROR  packages field missing or empty`
+    // when it exists without a `packages:` field. pnpm 10 moved overrides /
+    // catalogs / etc. into pnpm-workspace.yaml as project-level config, so we
+    // require >=10 here and fail loudly instead of producing that confusing
+    // install-time error downstream.
+    const declaredPm: unknown = pkg?.packageManager;
+    if (typeof declaredPm === 'string' && declaredPm.startsWith('pnpm@')) {
+      const major = parseInt(declaredPm.slice('pnpm@'.length), 10);
+      if (Number.isFinite(major) && major < 10) {
+        throw new Error(
+          `${dir}: consumer pins \`packageManager: "${declaredPm}"\`; ` +
+            `rstack-ecosystem-ci requires pnpm >= 10. applyPackageOverrides writes ` +
+            `overrides into pnpm-workspace.yaml, which pnpm <10 rejects without a ` +
+            `\`packages:\` field. Bump the consumer's \`packageManager\` field to pnpm@10.x or newer.`,
+        );
+      }
+    }
+
     if (!pkg.devDependencies) {
       pkg.devDependencies = {};
     }
