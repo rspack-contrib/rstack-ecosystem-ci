@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "3228296347b72583e1be513d19645869fc2974db",
+    "commitTimestamp": "2026-05-25T11:25:03Z",
+    "commitMessage": "feat(dts): support isolated declaration emit (#1664)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26398039194",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26398039194/job/77703287068"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26398039194/job/77703287069"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26398039194/job/77703287075"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26398039194/job/77703287076"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26398039194/job/77703287078"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26398039194/job/77703287135"
+      }
+    ]
+  },
+  {
     "commitSha": "2fd015abe2671f585a4a6342346b55989dec2534",
     "commitTimestamp": "2026-05-25T04:07:00Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1661)",
