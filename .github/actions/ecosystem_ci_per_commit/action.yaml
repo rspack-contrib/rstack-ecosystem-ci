@@ -76,7 +76,7 @@ runs:
 
     - name: Get CI Result
       id: eco-ci-result
-      uses: rstackjs/rstack-ecosystem-ci/.github/actions/ecosystem-ci-result@50cb8bd52335a977e6f37af922549906ee5b619e # main
+      uses: rstackjs/rstack-ecosystem-ci/.github/actions/ecosystem-ci-result@d08cee7941dc013a898700b9cbe6ac2c13e67821 # main
       with:
         job-prefix: ${{ inputs.job-name-prefix }}
         heading: ${{ inputs.ecosystem-repo }}
