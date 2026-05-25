@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "a0f6d60b24befb31ac71932fa3a9026965bc4df2",
+    "commitTimestamp": "2026-05-25T09:46:56Z",
+    "commitMessage": "fix(ssg): remove unused boolean define for import.meta.env.SSR after Rsbuild 2.0.7 (#3405)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26394373335",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26394373335/job/77691426515"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26394373335/job/77691426516"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26394373335/job/77691426523"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26394373335/job/77691426532"
+      }
+    ]
+  },
+  {
     "commitSha": "981f1211bbff2237fdf35dda527958452e43e369",
     "commitTimestamp": "2026-05-25T07:52:31Z",
     "commitMessage": "chore(deps): update dependency typedoc-plugin-markdown to v4.11.0 (#3417)",
