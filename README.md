@@ -45,6 +45,10 @@ The repositories are checked out into `workspace` subdirectory as shallow clones
 
 > the current utilities focus on pnpm based projects. Consider switching to pnpm or contribute utilities for other pms
 
+# Self-checking with an agent
+
+This repo ships an `eco-ci-selfcheck` skill (under `.agents/skills/eco-ci-selfcheck/SKILL.md`) that audits the latest run of each `*-ecosystem-ci-from-commit` workflow and returns a table separating eco-ci framework failures from legitimate downstream test failures. Invoke it from whichever coding agent you use that loads `.agents/skills/` (in Claude Code: `/eco-ci-selfcheck`, via the `.claude/skills/eco-ci-selfcheck` symlink). Requires `gh` authenticated against `rstackjs/rstack-ecosystem-ci`.
+
 # Reporting results
 
 ### On your own server
