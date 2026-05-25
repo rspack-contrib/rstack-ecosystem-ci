@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e1fa6ffb6d8abc71c443e124e14db15d3544bf8d",
+    "commitTimestamp": "2026-05-25T05:41:46Z",
+    "commitMessage": "chore(deps): upgrade transitive deps for CVE remediation [security] (#1316)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26385332060",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26385332060/job/77662556764"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26385332060/job/77662556765"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26385332060/job/77662556766"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26385332060/job/77662556769"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26385332060/job/77662556776"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26385332060/job/77662556788"
+      }
+    ]
+  },
+  {
     "commitSha": "d7c3e20eabe90ee652bd26c4c8eae4a44bcd3310",
     "commitTimestamp": "2026-05-25T04:07:31Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1302)",
