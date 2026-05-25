@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "0ce7ed03b564bf5fe411e1556bae8b81d7e202d5",
+    "commitTimestamp": "2026-05-25T10:45:33Z",
+    "commitMessage": "test(plugin-tailwindcss): add injectStyles e2e (#7749)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26396614367",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26396614367/job/77698687292"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26396614367/job/77698687294"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26396614367/job/77698687303"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26396614367/job/77698687306"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26396614367/job/77698687309"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26396614367/job/77698687315"
+      }
+    ]
+  },
+  {
     "commitSha": "212bcb50ce17fb799b1a0c9d83b446732f3e8542",
     "commitTimestamp": "2026-05-25T09:15:58Z",
     "commitMessage": "fix(plugin-tailwindcss): skip main rule when css is not emitted (#7748)",
