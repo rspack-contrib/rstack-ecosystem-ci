@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "212bcb50ce17fb799b1a0c9d83b446732f3e8542",
+    "commitTimestamp": "2026-05-25T09:15:58Z",
+    "commitMessage": "fix(plugin-tailwindcss): skip main rule when css is not emitted (#7748)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26393026530",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26393026530/job/77687004251"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26393026530/job/77687004257"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26393026530/job/77687004266"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26393026530/job/77687004271"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26393026530/job/77687004281"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26393026530/job/77687004288"
+      }
+    ]
+  },
+  {
     "commitSha": "4b4ace80b788d0978b624628d0e396f423619477",
     "commitTimestamp": "2026-05-25T08:38:18Z",
     "commitMessage": "fix(deps): update all patch dependencies (#7741)",
