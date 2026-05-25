@@ -4,11 +4,12 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import actionsCore from '@actions/core';
 //eslint-disable-next-line n/no-unpublished-import
-import { AGENTS, type Agent, detect, getCommand } from '@antfu/ni';
+import { AGENTS, detect, getCommand, serializeCommand } from '@antfu/ni';
 import { getPackages } from '@manypkg/get-packages';
 import { type Options as ExecaOptions, execaCommand } from 'execa';
 import yaml from 'yaml';
 import type {
+  Agent,
   EnvironmentData,
   Overrides,
   RepoOptions,
@@ -275,9 +276,15 @@ function toCommand(
         continue;
       }
       if (typeof task === 'string') {
-        const scriptOrBin = task.trim().split(/\s+/)[0];
+        const taskParts = task.trim().split(/\s+/);
+        const scriptOrBin = taskParts[0];
         if (scripts?.[scriptOrBin] != null) {
-          const runTaskWithAgent = getCommand(agent, 'run', [task]);
+          // `@antfu/ni` ≥ 0.21 quotes any arg containing whitespace, so we
+          // must split multi-word tasks (e.g. `test -u`) ourselves and pass
+          // each token as a separate arg before serializing.
+          const runTaskWithAgent = serializeCommand(
+            getCommand(agent, 'run', taskParts),
+          );
           await $`${runTaskWithAgent}`;
         } else {
           await $`${task}`;
@@ -420,11 +427,9 @@ export async function runInRepo(options: RunOptions & RepoOptions) {
       }
       options.agent = detectedAgent;
     }
-    if (!AGENTS[options.agent]) {
+    if (!AGENTS.includes(options.agent)) {
       throw new Error(
-        `Invalid agent ${options.agent}. Allowed values: ${Object.keys(
-          AGENTS,
-        ).join(', ')}`,
+        `Invalid agent ${options.agent}. Allowed values: ${AGENTS.join(', ')}`,
       );
     }
     const agent = options.agent;
@@ -439,7 +444,7 @@ export async function runInRepo(options: RunOptions & RepoOptions) {
     const pkg = JSON.parse(await fs.promises.readFile(pkgFile, 'utf-8'));
 
     if (verify && test) {
-      const frozenInstall = getCommand(agent, 'frozen');
+      const frozenInstall = serializeCommand(getCommand(agent, 'frozen'));
       await $`${frozenInstall}`;
       await beforeBuildCommand?.(pkg.scripts);
       await buildCommand?.(pkg.scripts);
@@ -591,30 +596,39 @@ export async function getPermanentRef() {
 export async function buildStack({ verify = false }: { verify?: boolean }) {
   cd(stackPath);
   if (activeStack === 'rspack') {
-    const frozenInstall = getCommand('pnpm', 'frozen');
-    const runBuildBinding = getCommand('pnpm', 'run', [
-      'build:binding:release',
-    ]);
-    const runMoveBinding = getCommand('pnpm', 'run', [
-      '--filter @rspack/binding move-binding',
-    ]);
-    const runBuildJs = getCommand('pnpm', 'run', ['build:js']);
+    const frozenInstall = serializeCommand(getCommand('pnpm', 'frozen'));
+    const runBuildBinding = serializeCommand(
+      getCommand('pnpm', 'run', ['build:binding:release']),
+    );
+    // `@antfu/ni` ≥ 0.21 quotes any arg containing whitespace; pass each
+    // token separately so the resulting `pnpm run --filter ... move-binding`
+    // is not collapsed into a single quoted positional.
+    const runMoveBinding = serializeCommand(
+      getCommand('pnpm', 'run', [
+        '--filter',
+        '@rspack/binding',
+        'move-binding',
+      ]),
+    );
+    const runBuildJs = serializeCommand(
+      getCommand('pnpm', 'run', ['build:js']),
+    );
     await $`${frozenInstall}`;
     await $`cargo codegen`;
     await $`${runBuildBinding}`;
     await $`${runMoveBinding}`;
     await $`${runBuildJs}`;
     if (verify) {
-      const runTest = getCommand('pnpm', 'run', ['test:js']);
+      const runTest = serializeCommand(getCommand('pnpm', 'run', ['test:js']));
       await $`${runTest}`;
     }
   } else {
-    const frozenInstall = getCommand('pnpm', 'frozen');
-    const runBuild = getCommand('pnpm', 'run', ['build']);
+    const frozenInstall = serializeCommand(getCommand('pnpm', 'frozen'));
+    const runBuild = serializeCommand(getCommand('pnpm', 'run', ['build']));
     await $`${frozenInstall}`;
     await $`${runBuild}`;
     if (verify) {
-      const runTest = getCommand('pnpm', 'run', ['test']);
+      const runTest = serializeCommand(getCommand('pnpm', 'run', ['test']));
       await $`${runTest}`;
     }
   }

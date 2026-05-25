@@ -1,5 +1,9 @@
 // eslint-disable-next-line n/no-unpublished-import
-import type { Agent } from '@antfu/ni';
+import { AGENTS } from '@antfu/ni';
+
+// `@antfu/ni` ≥ 0.21 no longer exports the `Agent` type. Derive it from the
+// `AGENTS` array so the union stays in sync with the installed version.
+export type Agent = (typeof AGENTS)[number];
 
 export type Stack =
   | 'rsbuild'
