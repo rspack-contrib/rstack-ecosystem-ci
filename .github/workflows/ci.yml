@@ -193,7 +193,7 @@ jobs:
         if: matrix.suite == 'lynx-stack' || matrix.suite == '_selftest'
         uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
-          node-version: 22
+          node-version: 22.22.3
       - name: Setup Rust
         if: matrix.suite == 'lynx-stack'
         uses: actions-rust-lang/setup-rust-toolchain@46268bd060767258de96ed93c1251119784f2ab6 # v1
