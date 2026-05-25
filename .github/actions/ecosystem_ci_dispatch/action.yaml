@@ -56,7 +56,7 @@ runs:
   using: composite
   steps:
     - id: get-pr-number
-      uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
+      uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9
       name: Get PR Number
       with:
         script: |
@@ -97,7 +97,7 @@ runs:
 
     - id: create-comment
       name: Create Comment
-      uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
+      uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9
       if: steps.get-pr-number.outputs.result
       with:
         result-encoding: string
@@ -142,7 +142,7 @@ runs:
     - id: update-comment
       name: Update Comment
       if: steps.get-pr-number.outputs.result
-      uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
+      uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9
       env:
         COMMENT_ID: ${{ steps.create-comment.outputs.result }}
         SUMMARY: ${{ steps.eco-ci-result.outputs.summary }}
