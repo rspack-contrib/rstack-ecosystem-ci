@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "15d1dd0480bb88ff6dcb34eb04af913af0474288",
+    "commitTimestamp": "2026-05-26T07:35:30Z",
+    "commitMessage": "test(plugin-tailwindcss): add Vue and Svelte e2e cases (#7762)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26438934640",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26438934640/job/77828295332"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26438934640/job/77828295336"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26438934640/job/77828295342"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26438934640/job/77828295343"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26438934640/job/77828295360"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26438934640/job/77828295369"
+      }
+    ]
+  },
+  {
     "commitSha": "d1c48fb4622a133aad34e900b4673cc7d0bbc672",
     "commitTimestamp": "2026-05-26T02:39:59Z",
     "commitMessage": "fix(core): correct base middleware path matching (#7761)",
