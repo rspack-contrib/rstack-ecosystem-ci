@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e6c0d58c2884d6b31277c1e94ec45a40a7f0dc4d",
+    "commitTimestamp": "2026-05-26T14:47:01Z",
+    "commitMessage": "feat(plugin-babel): support multiple babel rules (#7764)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26455605024",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26455605024/job/77888570065"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26455605024/job/77888570090"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26455605024/job/77888570125"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26455605024/job/77888570126"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26455605024/job/77888570270"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26455605024/job/77888570327"
+      }
+    ]
+  },
+  {
     "commitSha": "e5861c2e4d96113eed3f8b91d4ba75beab34c30d",
     "commitTimestamp": "2026-05-26T14:20:46Z",
     "commitMessage": "fix(deps): update @swc/helpers to v0.5.22 (#7763)",
