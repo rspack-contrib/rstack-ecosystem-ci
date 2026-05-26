@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "c6fb557e2d1dc7705331a1ae3f16ade46613e704",
+    "commitTimestamp": "2026-05-26T03:01:04Z",
+    "commitMessage": "chore: upgrade swc_core from 66 to 67 (#14135)",
+    "author": {
+      "name": "hardfist",
+      "email": "yangjianzju@gmail.com",
+      "login": "hardfist"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26429965976",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26429965976/job/77801032351"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26429965976/job/77801032353"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26429965976/job/77801032356"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26429965976/job/77801032357"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26429965976/job/77801032359"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26429965976/job/77801032360"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26429965976/job/77801032364"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26429965976/job/77801032374"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26429965976/job/77801032378"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26429965976/job/77801032383"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26429965976/job/77801032389"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26429965976/job/77801032451"
+      }
+    ]
+  },
+  {
     "commitSha": "b0bdcf836770d24a6303eeb97470a2990fce8fce",
     "commitTimestamp": "2026-05-25T04:47:25Z",
     "commitMessage": "test: satisfy socket.dev security (#14138)",
