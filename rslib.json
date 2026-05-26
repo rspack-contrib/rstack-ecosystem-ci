@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "79c19fe81fa0023dc0a512b1465d29a70937f191",
+    "commitTimestamp": "2026-05-26T10:03:47Z",
+    "commitMessage": "test: cover Tailwind CSS plugin (#1670)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26445790503",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26445790503/job/77851659641"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26445790503/job/77851659682"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26445790503/job/77851659771"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26445790503/job/77851659854"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26445790503/job/77851659880"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26445790503/job/77851660078"
+      }
+    ]
+  },
+  {
     "commitSha": "7e5915f6a0cb4887d8e3573c9c2e93bcc4b5758d",
     "commitTimestamp": "2026-05-26T09:59:47Z",
     "commitMessage": "feat(create-rslib): add svelte template and related-doc (#1653)",
