@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7fe760a1c858edd7bd51a6f4d71540da5b60fa92",
+    "commitTimestamp": "2026-05-26T00:46:43Z",
+    "commitMessage": "test: reorganize tailwindcss e2e cases (#7758)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26425960925",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26425960925/job/77789523594"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26425960925/job/77789523597"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26425960925/job/77789523599"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26425960925/job/77789523600"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26425960925/job/77789523601"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26425960925/job/77789523602"
+      }
+    ]
+  },
+  {
     "commitSha": "197b54276b7337a17d48bc1a607d9b955dc4c43e",
     "commitTimestamp": "2026-05-25T23:47:29Z",
     "commitMessage": "test(plugin-tailwindcss): add React HMR e2e case (#7755)",
