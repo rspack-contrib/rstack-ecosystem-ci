@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "12990a9774c2fb10ccb236c5cb7acd83a2fc5fbb",
+    "commitTimestamp": "2026-05-26T03:56:06Z",
+    "commitMessage": "Release v2.0.13 (#3419)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26431440329",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26431440329/job/77805310736"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26431440329/job/77805310753"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26431440329/job/77805310756"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26431440329/job/77805310763"
+      }
+    ]
+  },
+  {
     "commitSha": "a0f6d60b24befb31ac71932fa3a9026965bc4df2",
     "commitTimestamp": "2026-05-25T09:46:56Z",
     "commitMessage": "fix(ssg): remove unused boolean define for import.meta.env.SSR after Rsbuild 2.0.7 (#3405)",
