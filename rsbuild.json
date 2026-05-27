@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "780e463c9cfdc178bcaa3fe4fc1229c9e9acab3e",
+    "commitTimestamp": "2026-05-27T01:39:12Z",
+    "commitMessage": "fix(plugin-babel): restrict Babel rule ID matching (#7765)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26485553490",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26485553490/job/77992120907"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26485553490/job/77992120908"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26485553490/job/77992120916"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26485553490/job/77992120923"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26485553490/job/77992120927"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26485553490/job/77992120950"
+      }
+    ]
+  },
+  {
     "commitSha": "e6c0d58c2884d6b31277c1e94ec45a40a7f0dc4d",
     "commitTimestamp": "2026-05-26T14:47:01Z",
     "commitMessage": "feat(plugin-babel): support multiple babel rules (#7764)",
