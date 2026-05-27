@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "dce799451441ec2d84d3a5efe4dd25bd8768dbb5",
+    "commitTimestamp": "2026-05-27T03:47:23Z",
+    "commitMessage": "release: @rsbuild/plugin-babel v1.2.0 (#7766)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26489545055",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26489545055/job/78004200331"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26489545055/job/78004200335"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26489545055/job/78004200341"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26489545055/job/78004200346"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26489545055/job/78004200347"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26489545055/job/78004200388"
+      }
+    ]
+  },
+  {
     "commitSha": "eccd6362b63f2031db6f4d33624d49b6f82f6a91",
     "commitTimestamp": "2026-05-27T03:37:44Z",
     "commitMessage": "chore(deps): update babel to ^7.29.7 (#7756)",
