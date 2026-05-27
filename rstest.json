@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d910dcd37181f3c905746594f58bbe682dae8089",
+    "commitTimestamp": "2026-05-27T10:43:58Z",
+    "commitMessage": "ci(preview): post pkg.pr.new install URLs back to the dispatched PR (#1330)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26506422165",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26506422165/job/78059872228"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26506422165/job/78059872251"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26506422165/job/78059872253"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26506422165/job/78059872255"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26506422165/job/78059872265"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26506422165/job/78059872268"
+      }
+    ]
+  },
+  {
     "commitSha": "1e3902c57d0aa5687b62482b21ba54bdf357affa",
     "commitTimestamp": "2026-05-27T03:48:05Z",
     "commitMessage": "fix(cli): support filter args after coverage (#1325)",
