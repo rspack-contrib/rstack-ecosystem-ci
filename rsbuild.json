@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "eccd6362b63f2031db6f4d33624d49b6f82f6a91",
+    "commitTimestamp": "2026-05-27T03:37:44Z",
+    "commitMessage": "chore(deps): update babel to ^7.29.7 (#7756)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26489253995",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26489253995/job/78003334255"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26489253995/job/78003334263"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26489253995/job/78003334264"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26489253995/job/78003334268"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26489253995/job/78003334270"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26489253995/job/78003334298"
+      }
+    ]
+  },
+  {
     "commitSha": "780e463c9cfdc178bcaa3fe4fc1229c9e9acab3e",
     "commitTimestamp": "2026-05-27T01:39:12Z",
     "commitMessage": "fix(plugin-babel): restrict Babel rule ID matching (#7765)",
