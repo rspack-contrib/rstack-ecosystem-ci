@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "5ef809db135126e785d4ff0e351ff94d5face105",
+    "commitTimestamp": "2026-05-27T09:21:48Z",
+    "commitMessage": "fix(plugin-algolia): Add `react-dom` dependency and optimize Search component preconnect ⚡ (#3413)",
+    "author": {
+      "name": "Sanjaiyan Parthipan",
+      "email": "parthipankalayini@gmail.com",
+      "login": "sanjaiyan-dev"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26503299809",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26503299809/job/78049094833"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26503299809/job/78049094886"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26503299809/job/78049094895"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26503299809/job/78049094914"
+      }
+    ]
+  },
+  {
     "commitSha": "f75d13a20b4edff102386d7c2f8982876608deae",
     "commitTimestamp": "2026-05-27T07:33:30Z",
     "commitMessage": "fix(theme): Optimize search highlight extraction and improve accessibility (#3421)",
