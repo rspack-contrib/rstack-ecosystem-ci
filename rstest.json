@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "1e3902c57d0aa5687b62482b21ba54bdf357affa",
+    "commitTimestamp": "2026-05-27T03:48:05Z",
+    "commitMessage": "fix(cli): support filter args after coverage (#1325)",
+    "author": {
+      "name": "OJ Kwon",
+      "email": "1210596+kwonoj@users.noreply.github.com",
+      "login": "kwonoj"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26489566210",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26489566210/job/78004263381"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26489566210/job/78004263384"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26489566210/job/78004263387"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26489566210/job/78004263389"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26489566210/job/78004263420"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26489566210/job/78004263434"
+      }
+    ]
+  },
+  {
     "commitSha": "8ca264b006431c152362b65892aeb2ae4f0d2654",
     "commitTimestamp": "2026-05-25T10:52:13Z",
     "commitMessage": "perf(coverage): speed up coverage map merges (#1319)",
