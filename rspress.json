@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "f75d13a20b4edff102386d7c2f8982876608deae",
+    "commitTimestamp": "2026-05-27T07:33:30Z",
+    "commitMessage": "fix(theme): Optimize search highlight extraction and improve accessibility (#3421)",
+    "author": {
+      "name": "Sanjaiyan Parthipan",
+      "email": "parthipankalayini@gmail.com",
+      "login": "sanjaiyan-dev"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26497515016",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26497515016/job/78029267252"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26497515016/job/78029267262"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26497515016/job/78029267266"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26497515016/job/78029267292"
+      }
+    ]
+  },
+  {
     "commitSha": "90f048efa39bd7d8f862bbe16c0706e8ac1261a4",
     "commitTimestamp": "2026-05-26T08:32:26Z",
     "commitMessage": "docs(ui): align Tailwind v4 with Rsbuild plugin (#3420)",
