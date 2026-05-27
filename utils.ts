@@ -932,13 +932,23 @@ async function applyPackageOverrides({
     // be set unconditionally — guarding on a truthy value silently leaves
     // repos that have `allowBuilds` but no explicit `strictDepBuilds`.
     wsContent.strictDepBuilds = false;
-    if (wsContent.minimumReleaseAge != null) {
-      delete wsContent.minimumReleaseAge;
-      delete wsContent.minimumReleaseAgeExclude;
-    }
-    if (wsContent.blockExoticSubdeps != null) {
-      delete wsContent.blockExoticSubdeps;
-    }
+    // pnpm 11 ships a built-in default `minimumReleaseAge: 1440` (24h
+    // supply-chain gate; pnpm/pnpm config/reader/src/index.ts:176 @ v11.3.0).
+    // Deleting the key falls back to that default and rejects lockfile entries
+    // published in the past day, so the override-mutated tree fails to install.
+    // Per the pnpm 11 changelog the opt-out is an explicit `0`; pnpm 10 reads
+    // it as "policy off" too, so the same write works on both supported majors.
+    wsContent.minimumReleaseAge = 0;
+    delete wsContent.minimumReleaseAgeExclude;
+    // Same default-flip pattern as minimumReleaseAge above:
+    // pnpm 10 defaults `block-exotic-subdeps` to `false`, pnpm 11 to `true`
+    // (config/reader/src/index.ts:187 @ v11.3.0; 11.0 changelog
+    // "blockExoticSubdeps is true by default"). The override-mutated graph may
+    // pull in transitively-resolved git/http subdeps that the upstream lockfile
+    // accepted; under pnpm 11 they would now throw ERR_PNPM_EXOTIC_SUBDEP.
+    // `file:` overrides themselves are `local-filesystem` and are trusted, so
+    // disabling the policy is safe here (resolveDependencies.ts:1831-1844).
+    wsContent.blockExoticSubdeps = false;
     await writePnpmWorkspaceYaml(workspace.filePath, wsContent);
 
     await inlineCatalogsInLinkedPackages(normalizedOverrides);
