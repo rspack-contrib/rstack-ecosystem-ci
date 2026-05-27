@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d89fcff16bae128f4474cc1ac4f68c1844f4daaa",
+    "commitTimestamp": "2026-05-27T04:49:46Z",
+    "commitMessage": "chore(deps): upgrade pnpm to 11.3.0 (#7767)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26491474317",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26491474317/job/78010014353"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26491474317/job/78010014356"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26491474317/job/78010014359"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26491474317/job/78010014363"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26491474317/job/78010014367"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26491474317/job/78010014380"
+      }
+    ]
+  },
+  {
     "commitSha": "dce799451441ec2d84d3a5efe4dd25bd8768dbb5",
     "commitTimestamp": "2026-05-27T03:47:23Z",
     "commitMessage": "release: @rsbuild/plugin-babel v1.2.0 (#7766)",
