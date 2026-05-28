@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7bd281f6489d1e71c646df80123c920b4ea428d4",
+    "commitTimestamp": "2026-05-28T15:36:44Z",
+    "commitMessage": "chore(deps): update dependency tinybench to v6 (#1303)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26584965555",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26584965555/job/78328279508"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26584965555/job/78328279589"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26584965555/job/78328279624"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26584965555/job/78328279627"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26584965555/job/78328279697"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26584965555/job/78328279725"
+      }
+    ]
+  },
+  {
     "commitSha": "ffd74291a580f3db799163fdfe991451361c5132",
     "commitTimestamp": "2026-05-28T14:03:33Z",
     "commitMessage": "fix(core): avoid cloning URL objects in ESM resolution (#1338)",
