@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "1bc3fd3bee2c558f49b817a9ce5f1c40859a356f",
+    "commitTimestamp": "2026-05-28T08:06:10Z",
+    "commitMessage": "refactor(core): use interface for TestContext and SuiteContext (#1323)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26562889291",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26562889291/job/78250031242"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26562889291/job/78250031247"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26562889291/job/78250031260"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26562889291/job/78250031267"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26562889291/job/78250031296"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26562889291/job/78250031368"
+      }
+    ]
+  },
+  {
     "commitSha": "a6b317fe438df0d663a87eca3e8c96922a9e4906",
     "commitTimestamp": "2026-05-28T07:30:39Z",
     "commitMessage": "feat(core): support TestOptions as third arg of test/it (#1324)",
