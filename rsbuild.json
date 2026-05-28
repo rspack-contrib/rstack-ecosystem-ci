@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4dfeadef5e58a7b4a7404014f08e2f8f9228c6fc",
+    "commitTimestamp": "2026-05-28T05:50:00Z",
+    "commitMessage": "test: simplify path resolution in entry (#7778)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26557329578",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26557329578/job/78231831854"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26557329578/job/78231831855"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26557329578/job/78231831861"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26557329578/job/78231831863"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26557329578/job/78231831870"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26557329578/job/78231831879"
+      }
+    ]
+  },
+  {
     "commitSha": "c84542db8f9fa6db0256687196d00c95b0ce4b86",
     "commitTimestamp": "2026-05-28T02:10:39Z",
     "commitMessage": "fix(core): support async html template parameters (#7773)",
