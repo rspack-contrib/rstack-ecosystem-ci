@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a6b317fe438df0d663a87eca3e8c96922a9e4906",
+    "commitTimestamp": "2026-05-28T07:30:39Z",
+    "commitMessage": "feat(core): support TestOptions as third arg of test/it (#1324)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26561198059",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26561198059/job/78244404236"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26561198059/job/78244404259"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26561198059/job/78244404263"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26561198059/job/78244404274"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26561198059/job/78244404347"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26561198059/job/78244404357"
+      }
+    ]
+  },
+  {
     "commitSha": "98dda60324cbaff406fc060a2cf5b28faeebea6a",
     "commitTimestamp": "2026-05-28T07:30:01Z",
     "commitMessage": "feat(core): add --coverage.reporters CLI flag (#1335)",
