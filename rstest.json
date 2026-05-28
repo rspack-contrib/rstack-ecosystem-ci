@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "98dda60324cbaff406fc060a2cf5b28faeebea6a",
+    "commitTimestamp": "2026-05-28T07:30:01Z",
+    "commitMessage": "feat(core): add --coverage.reporters CLI flag (#1335)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26561122586",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26561122586/job/78244148157"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26561122586/job/78244148183"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26561122586/job/78244148222"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26561122586/job/78244148229"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26561122586/job/78244148727"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26561122586/job/78244148760"
+      }
+    ]
+  },
+  {
     "commitSha": "0a221c1bd8a5e2fecf2986c655567beb50219f93",
     "commitTimestamp": "2026-05-28T06:03:07Z",
     "commitMessage": "fix(core): round duration before minute formatting (#1333)",
