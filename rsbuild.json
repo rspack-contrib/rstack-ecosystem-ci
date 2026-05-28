@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "5664b146fc25991fe2331d26213adee35cc2d06d",
+    "commitTimestamp": "2026-05-28T02:09:25Z",
+    "commitMessage": "chore(deps): update dependency @rsbuild/plugin-babel to ^1.2.0 (#7774)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26550328341",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26550328341/job/78210972220"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26550328341/job/78210972234"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26550328341/job/78210972238"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26550328341/job/78210972243"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26550328341/job/78210972250"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26550328341/job/78210972284"
+      }
+    ]
+  },
+  {
     "commitSha": "447fb4b3d8e1c773983b99e47ae5ddeca40a9175",
     "commitTimestamp": "2026-05-27T13:50:16Z",
     "commitMessage": "fix(types): update rspack plugin types (#7772)",
