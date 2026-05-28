@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c84542db8f9fa6db0256687196d00c95b0ce4b86",
+    "commitTimestamp": "2026-05-28T02:10:39Z",
+    "commitMessage": "fix(core): support async html template parameters (#7773)",
+    "author": {
+      "name": "Max Coplan",
+      "email": "mchcopl@gmail.com",
+      "login": "vegerot"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26550368866",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26550368866/job/78211096658"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26550368866/job/78211096661"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26550368866/job/78211096670"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26550368866/job/78211096679"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26550368866/job/78211096682"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26550368866/job/78211096715"
+      }
+    ]
+  },
+  {
     "commitSha": "5664b146fc25991fe2331d26213adee35cc2d06d",
     "commitTimestamp": "2026-05-28T02:09:25Z",
     "commitMessage": "chore(deps): update dependency @rsbuild/plugin-babel to ^1.2.0 (#7774)",
