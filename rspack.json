@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "2e9b8d16e77f14c58a9c4ae6b0facfcfec479f79",
+    "commitTimestamp": "2026-05-28T01:56:34Z",
+    "commitMessage": "chore(deps): upgrade pnpm to 11.3.0 (#14184)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26550146962",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26550146962/job/78210468306"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26550146962/job/78210468311"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26550146962/job/78210468312"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26550146962/job/78210468317"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26550146962/job/78210468318"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26550146962/job/78210468332"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26550146962/job/78210468335"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26550146962/job/78210468372"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26550146962/job/78210468380"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26550146962/job/78210468400"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26550146962/job/78210468421"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26550146962/job/78210468438"
+      }
+    ]
+  },
+  {
     "commitSha": "1c498e15a03af9d8f21c30f10795477d58f3827c",
     "commitTimestamp": "2026-05-27T11:28:38Z",
     "commitMessage": "fix: compat es5 for define property getters runtime (#14177)",
