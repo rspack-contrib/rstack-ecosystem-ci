@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ffd74291a580f3db799163fdfe991451361c5132",
+    "commitTimestamp": "2026-05-28T14:03:33Z",
+    "commitMessage": "fix(core): avoid cloning URL objects in ESM resolution (#1338)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26579631052",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26579631052/job/78308588244"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26579631052/job/78308588245"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26579631052/job/78308588285"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26579631052/job/78308588390"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26579631052/job/78308588577"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26579631052/job/78308588619"
+      }
+    ]
+  },
+  {
     "commitSha": "13ed59c88b0f9f8b2dd144fd6594236b5564bb6d",
     "commitTimestamp": "2026-05-28T08:53:02Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1340)",
