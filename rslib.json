@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "0cb2c811885bca0c30a762dc989177bb96d147b6",
+    "commitTimestamp": "2026-05-29T09:11:26Z",
+    "commitMessage": "chore(deps): update dependency rsbuild-plugin-workspace-dev to v1 (#1679)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26629608980",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26629608980/job/78474864500"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26629608980/job/78474864515"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26629608980/job/78474864516"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26629608980/job/78474864554"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26629608980/job/78474864679"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26629608980/job/78474864700"
+      }
+    ]
+  },
+  {
     "commitSha": "3ddbdfc6026bff8727c1c97eefc33084de80ae77",
     "commitTimestamp": "2026-05-28T08:55:40Z",
     "commitMessage": "chore(deps): upgrade rsbuild to 2.0.8 (#1676)",
