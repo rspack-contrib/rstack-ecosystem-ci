@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "cb81ecb4e3c6257205042261a78cb4de7953e06c",
+    "commitTimestamp": "2026-05-29T10:49:55Z",
+    "commitMessage": "perf(ssg/experimentalWorker): write SSG worker output to disk directly and skip processAssets for memory (#3426)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26633349583",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26633349583/job/78487382971"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26633349583/job/78487382974"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26633349583/job/78487382978"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26633349583/job/78487382981"
+      }
+    ]
+  },
+  {
     "commitSha": "badb5094ac52abe6eb4581d9fc694af84fc1d8a4",
     "commitTimestamp": "2026-05-28T11:26:42Z",
     "commitMessage": "feat(theme): Add onTouchStart event to preload links on touch devices 📱 (#3422)",
