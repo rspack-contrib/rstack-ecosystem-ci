@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9653f42f6bc371e87b468d3f957917d4abc168f1",
+    "commitTimestamp": "2026-05-30T08:28:16Z",
+    "commitMessage": "chore(deps): update dependency @rsbuild/plugin-check-syntax to v2 (#7786)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26679249112",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26679249112/job/78636596965"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26679249112/job/78636596973"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26679249112/job/78636596974"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26679249112/job/78636596975"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26679249112/job/78636596976"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26679249112/job/78636597003"
+      }
+    ]
+  },
+  {
     "commitSha": "558b447cb85010747c0a32e1b7fbcfba905be7f6",
     "commitTimestamp": "2026-05-30T02:50:37Z",
     "commitMessage": "chore: use npm staged publishing (#7788)",
