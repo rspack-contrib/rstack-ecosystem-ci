@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "bc1c3a56f815487706cac6aeeb95ea251af42294",
+    "commitTimestamp": "2026-05-30T09:36:15Z",
+    "commitMessage": "release: v2.0.9 (#7790)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26680554193",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26680554193/job/78640062953"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26680554193/job/78640062959"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26680554193/job/78640062961"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26680554193/job/78640062962"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26680554193/job/78640062965"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26680554193/job/78640062967"
+      }
+    ]
+  },
+  {
     "commitSha": "c1e2aebd6b1bbdaece15265572c3284f934b674d",
     "commitTimestamp": "2026-05-30T08:58:25Z",
     "commitMessage": "fix(core): avoid shell interpolation in browser opener (#7789)",
