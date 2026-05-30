@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "558b447cb85010747c0a32e1b7fbcfba905be7f6",
+    "commitTimestamp": "2026-05-30T02:50:37Z",
+    "commitMessage": "chore: use npm staged publishing (#7788)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26672467029",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26672467029/job/78618134439"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26672467029/job/78618134440"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26672467029/job/78618134441"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26672467029/job/78618134443"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26672467029/job/78618134444"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26672467029/job/78618134449"
+      }
+    ]
+  },
+  {
     "commitSha": "b967d9af3e3c22e47f5d81ac060ce7dc7d585441",
     "commitTimestamp": "2026-05-29T11:41:52Z",
     "commitMessage": "chore(build): enable Rslib isolated declarations (#7785)",
