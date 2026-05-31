@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ed14d05868aaf6925778bb5ea171bc873624fac2",
+    "commitTimestamp": "2026-05-31T03:21:46Z",
+    "commitMessage": "chore(deps): update swc plugins to ^12.12.0 (#7775)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26702036857",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26702036857/job/78696564904"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26702036857/job/78696564910"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26702036857/job/78696564911"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26702036857/job/78696564913"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26702036857/job/78696564914"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26702036857/job/78696564918"
+      }
+    ]
+  },
+  {
     "commitSha": "0ea29be7374c862142acc44db92b1c3ed109fa14",
     "commitTimestamp": "2026-05-31T03:16:31Z",
     "commitMessage": "chore(deps): update dependency launch-editor-middleware to ^2.14.0 (#7791)",
