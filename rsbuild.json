@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "0ea29be7374c862142acc44db92b1c3ed109fa14",
+    "commitTimestamp": "2026-05-31T03:16:31Z",
+    "commitMessage": "chore(deps): update dependency launch-editor-middleware to ^2.14.0 (#7791)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26701943087",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26701943087/job/78696282249"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26701943087/job/78696282252"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26701943087/job/78696282253"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26701943087/job/78696282254"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26701943087/job/78696282255"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26701943087/job/78696282257"
+      }
+    ]
+  },
+  {
     "commitSha": "bc1c3a56f815487706cac6aeeb95ea251af42294",
     "commitTimestamp": "2026-05-30T09:36:15Z",
     "commitMessage": "release: v2.0.9 (#7790)",
