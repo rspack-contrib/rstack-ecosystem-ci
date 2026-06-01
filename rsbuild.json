@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "adb4699b0bbc405727b5adeeab6aa146623947b7",
+    "commitTimestamp": "2026-06-01T01:46:37Z",
+    "commitMessage": "fix: remove v2 prerelease from peer dependency ranges (#7798)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26730936316",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26730936316/job/78774670850"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26730936316/job/78774670853"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26730936316/job/78774670862"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26730936316/job/78774670867"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26730936316/job/78774670874"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26730936316/job/78774670876"
+      }
+    ]
+  },
+  {
     "commitSha": "21cd2eb72eb9eaa4a8b5e7de7ed50ecb6d94b853",
     "commitTimestamp": "2026-06-01T01:02:48Z",
     "commitMessage": "fix(plugin-preact): enable Prefresh on Windows (#7794)",
