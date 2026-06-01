@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "0ffa4320090d50b20237459186576c1166f3280c",
+    "commitTimestamp": "2026-06-01T13:42:21Z",
+    "commitMessage": "feat(core): emit agent-readable timing summary for --trace (#1355)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26758692720",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26758692720/job/78865660153"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26758692720/job/78865660178"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26758692720/job/78865660221"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26758692720/job/78865660231"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26758692720/job/78865660252"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26758692720/job/78865660396"
+      }
+    ]
+  },
+  {
     "commitSha": "4b1d5776996ba28021cd18d6825b73a3f79686bb",
     "commitTimestamp": "2026-06-01T09:01:06Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1346)",
