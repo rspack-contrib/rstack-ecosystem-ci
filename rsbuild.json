@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "901a67985f73c15675074dbdec102d994625caf0",
+    "commitTimestamp": "2026-06-01T14:02:18Z",
+    "commitMessage": "feat(plugin-preact)!: publish as pure ESM package (#7799)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26759798890",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26759798890/job/78869768887"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26759798890/job/78869768894"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26759798890/job/78869768901"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26759798890/job/78869768932"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26759798890/job/78869769000"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26759798890/job/78869769018"
+      }
+    ]
+  },
+  {
     "commitSha": "6cf0aa3d615498dce2ad7dc47a6f9cf356180036",
     "commitTimestamp": "2026-06-01T12:44:53Z",
     "commitMessage": "release: @rsbuild/plugin-svelte v2.0.0 (#7805)",
