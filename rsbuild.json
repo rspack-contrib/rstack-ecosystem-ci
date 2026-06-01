@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ebe42c018a134dd9af3c0b20b0f5f907a926a663",
+    "commitTimestamp": "2026-06-01T07:55:02Z",
+    "commitMessage": "feat(plugin-svelte)!: remove Rsbuild 1.x support (#7803)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26744213115",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26744213115/job/78815472955"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26744213115/job/78815472958"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26744213115/job/78815472972"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26744213115/job/78815472980"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26744213115/job/78815473026"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26744213115/job/78815473027"
+      }
+    ]
+  },
+  {
     "commitSha": "5c94fdfc7bb71018d03ece8773fc379419b7fd3c",
     "commitTimestamp": "2026-06-01T06:21:22Z",
     "commitMessage": "feat(plugin-svelte)!: publish as pure ESM package (#7800)",
