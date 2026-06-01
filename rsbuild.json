@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "6cf0aa3d615498dce2ad7dc47a6f9cf356180036",
+    "commitTimestamp": "2026-06-01T12:44:53Z",
+    "commitMessage": "release: @rsbuild/plugin-svelte v2.0.0 (#7805)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26755711459",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26755711459/job/78854929622"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26755711459/job/78854929647"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26755711459/job/78854929677"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26755711459/job/78854929682"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26755711459/job/78854929698"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26755711459/job/78854929747"
+      }
+    ]
+  },
+  {
     "commitSha": "c641d65058b943da835ea4a40acd8b9b9f095370",
     "commitTimestamp": "2026-06-01T11:01:06Z",
     "commitMessage": "feat(plugin-svelte)!: drop Svelte 4 support (#7804)",
