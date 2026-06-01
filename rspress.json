@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "fa9ea448ebe122bb516e32cb301fc7b1f693972f",
+    "commitTimestamp": "2026-06-01T03:13:09Z",
+    "commitMessage": "chore(deps): update rstackjs/rstack-ecosystem-ci digest to 3cbb846 (#3428)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26733153790",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26733153790/job/78781002002"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26733153790/job/78781002014"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26733153790/job/78781002031"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26733153790/job/78781002050"
+      }
+    ]
+  },
+  {
     "commitSha": "cb81ecb4e3c6257205042261a78cb4de7953e06c",
     "commitTimestamp": "2026-05-29T10:49:55Z",
     "commitMessage": "perf(ssg/experimentalWorker): write SSG worker output to disk directly and skip processAssets for memory (#3426)",
