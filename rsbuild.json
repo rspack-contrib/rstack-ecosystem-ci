@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "21cd2eb72eb9eaa4a8b5e7de7ed50ecb6d94b853",
+    "commitTimestamp": "2026-06-01T01:02:48Z",
+    "commitMessage": "fix(plugin-preact): enable Prefresh on Windows (#7794)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26729807249",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26729807249/job/78771511980"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26729807249/job/78771511982"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26729807249/job/78771511983"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26729807249/job/78771511988"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26729807249/job/78771511989"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26729807249/job/78771511990"
+      }
+    ]
+  },
+  {
     "commitSha": "6fa1b2fdfc1c18e3d77692afc6696668e44bca9d",
     "commitTimestamp": "2026-06-01T00:16:51Z",
     "commitMessage": "chore(deps): update actions/stale action to v10.3.0 (#7796)",
