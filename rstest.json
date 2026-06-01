@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "df714b45fda1164577f260f679960d15327a745f",
+    "commitTimestamp": "2026-06-01T15:03:09Z",
+    "commitMessage": "fix(browser): expose process.env.RSTEST in browser mode (#1356)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26763264124",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26763264124/job/78882471987"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26763264124/job/78882471992"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26763264124/job/78882471999"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26763264124/job/78882472017"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26763264124/job/78882472040"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26763264124/job/78882472116"
+      }
+    ]
+  },
+  {
     "commitSha": "0ffa4320090d50b20237459186576c1166f3280c",
     "commitTimestamp": "2026-06-01T13:42:21Z",
     "commitMessage": "feat(core): emit agent-readable timing summary for --trace (#1355)",
