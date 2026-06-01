@@ -48,6 +48,54 @@
     ]
   },
   {
+    "commitSha": "78b6b1f4fd077cde24d0ccc1dd8d0bf593bff5c8",
+    "commitTimestamp": "2026-06-01T01:02:32Z",
+    "commitMessage": "test(e2e): enable Windows skipped cases (#7797)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26729803521",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26729803521/job/78771502242"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26729803521/job/78771502245"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26729803521/job/78771502249"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26729803521/job/78771502251"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26729803521/job/78771502252"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26729803521/job/78771502299"
+      }
+    ]
+  },
+  {
     "commitSha": "6fa1b2fdfc1c18e3d77692afc6696668e44bca9d",
     "commitTimestamp": "2026-06-01T00:16:51Z",
     "commitMessage": "chore(deps): update actions/stale action to v10.3.0 (#7796)",
