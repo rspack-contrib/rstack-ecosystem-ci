@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4b1d5776996ba28021cd18d6825b73a3f79686bb",
+    "commitTimestamp": "2026-06-01T09:01:06Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#1346)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26745607172",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26745607172/job/78820190002"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26745607172/job/78820190018"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26745607172/job/78820190022"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26745607172/job/78820190033"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26745607172/job/78820190047"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26745607172/job/78820190099"
+      }
+    ]
+  },
+  {
     "commitSha": "36c74eff2f65ab406a661b987135acb5893a304d",
     "commitTimestamp": "2026-06-01T08:36:45Z",
     "commitMessage": "feat(core): add host-side trace spans (#1344)",
