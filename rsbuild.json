@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "6fa1b2fdfc1c18e3d77692afc6696668e44bca9d",
+    "commitTimestamp": "2026-06-01T00:16:51Z",
+    "commitMessage": "chore(deps): update actions/stale action to v10.3.0 (#7796)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26728660450",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26728660450/job/78768260765"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26728660450/job/78768260766"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26728660450/job/78768260770"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26728660450/job/78768260778"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26728660450/job/78768260779"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26728660450/job/78768260786"
+      }
+    ]
+  },
+  {
     "commitSha": "999590be62e1019922c6a8d85a7a5c29d84c13fc",
     "commitTimestamp": "2026-06-01T00:16:31Z",
     "commitMessage": "fix(deps): update all patch dependencies (#7795)",
