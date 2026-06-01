@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "999590be62e1019922c6a8d85a7a5c29d84c13fc",
+    "commitTimestamp": "2026-06-01T00:16:31Z",
+    "commitMessage": "fix(deps): update all patch dependencies (#7795)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26728649980",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26728649980/job/78768235175"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26728649980/job/78768235182"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26728649980/job/78768235186"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26728649980/job/78768235187"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26728649980/job/78768235193"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26728649980/job/78768235265"
+      }
+    ]
+  },
+  {
     "commitSha": "53847a41eeac480753265a0534749de683d98596",
     "commitTimestamp": "2026-05-31T08:14:37Z",
     "commitMessage": "test(e2e): enable template cache case on Windows (#7792)",
