@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c339d4ba2415d5b28ec0ea1d578812bb1f1536c9",
+    "commitTimestamp": "2026-06-01T05:56:42Z",
+    "commitMessage": "chore(deps): update pnpm to v11.5.0 (#7802)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26738046621",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26738046621/job/78795313051"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26738046621/job/78795313056"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26738046621/job/78795313059"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26738046621/job/78795313068"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26738046621/job/78795313069"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26738046621/job/78795313074"
+      }
+    ]
+  },
+  {
     "commitSha": "adb4699b0bbc405727b5adeeab6aa146623947b7",
     "commitTimestamp": "2026-06-01T01:46:37Z",
     "commitMessage": "fix: remove v2 prerelease from peer dependency ranges (#7798)",
