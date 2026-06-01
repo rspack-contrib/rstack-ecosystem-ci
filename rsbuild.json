@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "53770e96efe786123bad12738f01f49c015f23d5",
+    "commitTimestamp": "2026-06-01T05:56:56Z",
+    "commitMessage": "chore(deps): update dependency node to v24.16.0 (#7801)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26738085080",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26738085080/job/78795435322"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26738085080/job/78795435334"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26738085080/job/78795435336"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26738085080/job/78795435339"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26738085080/job/78795435346"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26738085080/job/78795435353"
+      }
+    ]
+  },
+  {
     "commitSha": "c339d4ba2415d5b28ec0ea1d578812bb1f1536c9",
     "commitTimestamp": "2026-06-01T05:56:42Z",
     "commitMessage": "chore(deps): update pnpm to v11.5.0 (#7802)",
