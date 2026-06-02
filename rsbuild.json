@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "21241079e42ea67b7e2c0898a3dbe4c4b83a660f",
+    "commitTimestamp": "2026-06-02T10:50:07Z",
+    "commitMessage": "feat(deps): update @rspack/core to 2.0.6 (#7812)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26815127058",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26815127058/job/79054852723"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26815127058/job/79054852751"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26815127058/job/79054852771"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26815127058/job/79054852820"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26815127058/job/79054852832"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26815127058/job/79054852852"
+      }
+    ]
+  },
+  {
     "commitSha": "4128b8cf9d2183010bd920afced557e5fe4d0d16",
     "commitTimestamp": "2026-06-02T10:34:18Z",
     "commitMessage": "release: @rsbuild/plugin-preact v2.0.0 (#7811)",
