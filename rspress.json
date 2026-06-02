@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "b60a1c27e15729fea8511ae7c9929168cd7d3dfb",
+    "commitTimestamp": "2026-06-02T12:50:23Z",
+    "commitMessage": "revert(theme): remove image preload support (#3432)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26820855294",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26820855294/job/79074761961"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26820855294/job/79074761979"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26820855294/job/79074762067"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26820855294/job/79074762127"
+      }
+    ]
+  },
+  {
     "commitSha": "e79ecb6e11fe896ea02a92dc490324a00b8e4157",
     "commitTimestamp": "2026-06-02T02:57:10Z",
     "commitMessage": "feat(theme): Add React DOM-based preloading to Image component 🖼️ (#3425)",
