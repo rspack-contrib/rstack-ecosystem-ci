@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "956d5cc2e69e4909ddd8eba4295882b247e021fb",
+    "commitTimestamp": "2026-06-02T07:37:09Z",
+    "commitMessage": "refactor(core): move internal browser host subpaths under ./internal (#1358)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26805837397",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26805837397/job/79022988614"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26805837397/job/79022988615"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26805837397/job/79022988617"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26805837397/job/79022988626"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26805837397/job/79022988627"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26805837397/job/79022988706"
+      }
+    ]
+  },
+  {
     "commitSha": "df714b45fda1164577f260f679960d15327a745f",
     "commitTimestamp": "2026-06-01T15:03:09Z",
     "commitMessage": "fix(browser): expose process.env.RSTEST in browser mode (#1356)",
