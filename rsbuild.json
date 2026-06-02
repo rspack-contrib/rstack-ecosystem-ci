@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b27290cde249b09447f16baa9fbe7645fc8abf3e",
+    "commitTimestamp": "2026-06-02T08:56:27Z",
+    "commitMessage": "feat(plugin-preact)!: require Rsbuild v2 (#7810)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26810166904",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26810166904/job/79037759007"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26810166904/job/79037759019"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26810166904/job/79037759047"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26810166904/job/79037759148"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26810166904/job/79037759165"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26810166904/job/79037759235"
+      }
+    ]
+  },
+  {
     "commitSha": "dd66d1700d43751554981e166e89bec1d10029a2",
     "commitTimestamp": "2026-06-02T05:51:20Z",
     "commitMessage": "feat(plugin-preact)!: update refresh options (#7809)",
