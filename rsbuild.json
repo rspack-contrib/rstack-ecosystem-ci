@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "980c049f64b382535d9614c0da462673de9e8402",
+    "commitTimestamp": "2026-06-02T02:27:21Z",
+    "commitMessage": "feat(plugin-preact)!: update @rspack/plugin-preact-refresh to v2.0.0 (#7808)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26794968312",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26794968312/job/78989231342"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26794968312/job/78989231360"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26794968312/job/78989231373"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26794968312/job/78989231374"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26794968312/job/78989231376"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26794968312/job/78989231389"
+      }
+    ]
+  },
+  {
     "commitSha": "901a67985f73c15675074dbdec102d994625caf0",
     "commitTimestamp": "2026-06-01T14:02:18Z",
     "commitMessage": "feat(plugin-preact)!: publish as pure ESM package (#7799)",
