@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b71edc07e2eef0fa023a11d483c4b30baed2b879",
+    "commitTimestamp": "2026-06-03T05:40:19Z",
+    "commitMessage": "fix(core): match asset prefix by pathname boundary (#7819)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26866028782",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26866028782/job/79229793067"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26866028782/job/79229793069"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26866028782/job/79229793072"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26866028782/job/79229793078"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26866028782/job/79229793081"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26866028782/job/79229793100"
+      }
+    ]
+  },
+  {
     "commitSha": "d47b1b472da1a5a68051758400feedd056229c57",
     "commitTimestamp": "2026-06-03T02:17:44Z",
     "commitMessage": "chore(deps): update dependency @rsbuild/plugin-preact to v2 (#7816)",
