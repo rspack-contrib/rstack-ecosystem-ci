@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "14f49edafea5cdff429f06ab27c24e605e393d9a",
+    "commitTimestamp": "2026-06-03T10:45:25Z",
+    "commitMessage": "fix(core): preserve query when removing base path (#7823)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26879751560",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26879751560/job/79276438219"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26879751560/job/79276438232"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26879751560/job/79276438236"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26879751560/job/79276438257"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26879751560/job/79276438273"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26879751560/job/79276438283"
+      }
+    ]
+  },
+  {
     "commitSha": "83aae83bb327e56e211fb90a0fe79c117a3bee76",
     "commitTimestamp": "2026-06-03T08:51:32Z",
     "commitMessage": "fix(core): align preview asset serving with dev (#7822)",
