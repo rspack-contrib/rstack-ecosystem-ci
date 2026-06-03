@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "83aae83bb327e56e211fb90a0fe79c117a3bee76",
+    "commitTimestamp": "2026-06-03T08:51:32Z",
+    "commitMessage": "fix(core): align preview asset serving with dev (#7822)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26874174551",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26874174551/job/79256916516"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26874174551/job/79256916519"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26874174551/job/79256916536"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26874174551/job/79256916572"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26874174551/job/79256916620"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26874174551/job/79256916659"
+      }
+    ]
+  },
+  {
     "commitSha": "c94294f32504cc062d7858529de470068b134ca0",
     "commitTimestamp": "2026-06-03T07:57:11Z",
     "commitMessage": "fix(core): serve preview assets from web dist paths (#7820)",
