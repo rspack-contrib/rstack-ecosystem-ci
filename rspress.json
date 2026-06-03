@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "8aab3b509ebaea2a91dda3352192bfc7967ea880",
+    "commitTimestamp": "2026-06-03T08:57:06Z",
+    "commitMessage": "feat(theme/SocialLinks): add github-stars mode to socialLinks (#3433)",
+    "author": {
+      "name": "Xuan Huang (黄玄)",
+      "email": "5563315+Huxpro@users.noreply.github.com",
+      "login": "Huxpro"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26874455851",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26874455851/job/79257872266"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26874455851/job/79257872392"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26874455851/job/79257872581"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26874455851/job/79257872617"
+      }
+    ]
+  },
+  {
     "commitSha": "b60a1c27e15729fea8511ae7c9929168cd7d3dfb",
     "commitTimestamp": "2026-06-02T12:50:23Z",
     "commitMessage": "revert(theme): remove image preload support (#3432)",
