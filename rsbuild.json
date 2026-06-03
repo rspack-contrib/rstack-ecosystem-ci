@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "aa8c29f96454a022a326c297a7150d82954cc54a",
+    "commitTimestamp": "2026-06-03T10:53:00Z",
+    "commitMessage": "feat(core): enable Rspack pureFunctions optimization (#7824)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26880114749",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26880114749/job/79277682860"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26880114749/job/79277682867"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26880114749/job/79277682888"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26880114749/job/79277682906"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26880114749/job/79277682977"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26880114749/job/79277683089"
+      }
+    ]
+  },
+  {
     "commitSha": "14f49edafea5cdff429f06ab27c24e605e393d9a",
     "commitTimestamp": "2026-06-03T10:45:25Z",
     "commitMessage": "fix(core): preserve query when removing base path (#7823)",
