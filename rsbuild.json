@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c94294f32504cc062d7858529de470068b134ca0",
+    "commitTimestamp": "2026-06-03T07:57:11Z",
+    "commitMessage": "fix(core): serve preview assets from web dist paths (#7820)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26871570705",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26871570705/job/79247934988"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26871570705/job/79247935001"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26871570705/job/79247935009"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26871570705/job/79247935010"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26871570705/job/79247935152"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26871570705/job/79247935164"
+      }
+    ]
+  },
+  {
     "commitSha": "2114974f62da85243a12698486ba85f5381053fc",
     "commitTimestamp": "2026-06-03T07:48:32Z",
     "commitMessage": "fix(core): correct one-byte asset response length (#7821)",
