@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ad1c4b69e90568b363373db37c182539d62c8204",
+    "commitTimestamp": "2026-06-03T11:08:25Z",
+    "commitMessage": "release: v2.0.11 (#7825)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26880850008",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26880850008/job/79280204332"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26880850008/job/79280204383"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26880850008/job/79280204390"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26880850008/job/79280204413"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26880850008/job/79280204415"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26880850008/job/79280204440"
+      }
+    ]
+  },
+  {
     "commitSha": "aa8c29f96454a022a326c297a7150d82954cc54a",
     "commitTimestamp": "2026-06-03T10:53:00Z",
     "commitMessage": "feat(core): enable Rspack pureFunctions optimization (#7824)",
