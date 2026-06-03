@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2114974f62da85243a12698486ba85f5381053fc",
+    "commitTimestamp": "2026-06-03T07:48:32Z",
+    "commitMessage": "fix(core): correct one-byte asset response length (#7821)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26871156137",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26871156137/job/79246559444"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26871156137/job/79246559445"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26871156137/job/79246559453"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26871156137/job/79246559454"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26871156137/job/79246559498"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26871156137/job/79246559513"
+      }
+    ]
+  },
+  {
     "commitSha": "b71edc07e2eef0fa023a11d483c4b30baed2b879",
     "commitTimestamp": "2026-06-03T05:40:19Z",
     "commitMessage": "fix(core): match asset prefix by pathname boundary (#7819)",
