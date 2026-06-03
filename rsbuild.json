@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "be2209b6135c902a9fc0d683e05311903bddd5f0",
+    "commitTimestamp": "2026-06-03T02:17:54Z",
+    "commitMessage": "chore(deps): update dependency @rsbuild/plugin-svelte to v2 (#7817)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26859722316",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26859722316/job/79210457287"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26859722316/job/79210457289"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26859722316/job/79210457295"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26859722316/job/79210457298"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26859722316/job/79210457310"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26859722316/job/79210457326"
+      }
+    ]
+  },
+  {
     "commitSha": "6fe2a3c7d4d145106c2dbaa7a8d1aa982cb849ea",
     "commitTimestamp": "2026-06-02T13:45:19Z",
     "commitMessage": "docs: disable top banner (#7814)",
