@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "5ec35913bc02f9bab1cf6d84a070a1cac5f7e676",
+    "commitTimestamp": "2026-06-03T05:01:30Z",
+    "commitMessage": "feat(core): pass stdout/stderr stream type as second onConsoleLog argument (#1361)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26864784994",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26864784994/job/79225991175"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26864784994/job/79225991183"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26864784994/job/79225991190"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26864784994/job/79225991191"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26864784994/job/79225991204"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26864784994/job/79225991206"
+      }
+    ]
+  },
+  {
     "commitSha": "7d6ae94d1b8651d89c5ff00eb50430f04e64e269",
     "commitTimestamp": "2026-06-02T10:32:43Z",
     "commitMessage": "refactor(core): unify dynamic-import resolver across CJS/ESM worker loaders (#1359)",
