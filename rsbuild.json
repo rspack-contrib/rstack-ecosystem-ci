@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f0949f630ed511e7d371924e0691955f31519b7d",
+    "commitTimestamp": "2026-06-04T07:47:38Z",
+    "commitMessage": "feat(core): add WebSocket URL resolver (#7829)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26939232723",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26939232723/job/79476316236"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26939232723/job/79476316252"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26939232723/job/79476316273"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26939232723/job/79476316283"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26939232723/job/79476316305"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26939232723/job/79476316312"
+      }
+    ]
+  },
+  {
     "commitSha": "53c5f324e16ea89dc37b148beac8071b4af17c5e",
     "commitTimestamp": "2026-06-04T03:38:47Z",
     "commitMessage": "test: simplify e2e configs (#7827)",
