@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "53c5f324e16ea89dc37b148beac8071b4af17c5e",
+    "commitTimestamp": "2026-06-04T03:38:47Z",
+    "commitMessage": "test: simplify e2e configs (#7827)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26929033513",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26929033513/job/79444928859"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26929033513/job/79444928861"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26929033513/job/79444928863"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26929033513/job/79444928870"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26929033513/job/79444928879"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26929033513/job/79444928880"
+      }
+    ]
+  },
+  {
     "commitSha": "3831edf8ad1f12b5dcf3fb876375922d865a3f26",
     "commitTimestamp": "2026-06-04T02:46:47Z",
     "commitMessage": "fix(core): support loadBundle with natural chunk ids (#7826)",
