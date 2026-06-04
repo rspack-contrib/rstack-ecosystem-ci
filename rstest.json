@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "849a8577928421c5a35bb30ac92c24c93b940c0f",
+    "commitTimestamp": "2026-06-04T08:12:35Z",
+    "commitMessage": "refactor(core): gate global setup once and co-locate run verdict (#1371)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26939933613",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26939933613/job/79478651101"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26939933613/job/79478651115"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26939933613/job/79478651125"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26939933613/job/79478651131"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26939933613/job/79478651132"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26939933613/job/79478651137"
+      }
+    ]
+  },
+  {
     "commitSha": "9cbf70b5411132a5efea3b1999583bb8cd62e71d",
     "commitTimestamp": "2026-06-04T06:51:44Z",
     "commitMessage": "refactor(core): derive hook registration signatures from RunnerAPI (#1370)",
