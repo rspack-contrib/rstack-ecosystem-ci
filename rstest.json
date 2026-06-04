@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "5fb70d4ad4535aa4c34e268f1dead1cbca685712",
+    "commitTimestamp": "2026-06-04T15:55:54Z",
+    "commitMessage": "refactor(core): single-source RSTEST_* env-var names (#1387)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26963358561",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26963358561/job/79559356785"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26963358561/job/79559356830"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26963358561/job/79559356843"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26963358561/job/79559356851"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26963358561/job/79559356889"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26963358561/job/79559356995"
+      }
+    ]
+  },
+  {
     "commitSha": "f08d6a9afb53f13c7cb2381a7088c547b58fd19a",
     "commitTimestamp": "2026-06-04T15:36:57Z",
     "commitMessage": "refactor(core, adapters): single-source adapter cache-key & target→env logic (#1384)",
