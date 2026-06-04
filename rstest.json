@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "bbe7cdfbe9bbf2ff083ae276acb4a02696a5b9d8",
+    "commitTimestamp": "2026-06-04T11:17:47Z",
+    "commitMessage": "refactor(browser): single-source the runner dispatch method vocabulary (#1380)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26948521521",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26948521521/job/79507490962"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26948521521/job/79507490989"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26948521521/job/79507491012"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26948521521/job/79507491013"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26948521521/job/79507491066"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26948521521/job/79507491095"
+      }
+    ]
+  },
+  {
     "commitSha": "4adbc29c0f4f30ff4f8b3cedc99c43df015e8175",
     "commitTimestamp": "2026-06-04T11:17:25Z",
     "commitMessage": "chore: use pnpm stage publish for release (#1375)",
