@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "bc04dddabb25fcea8a7372dcadb10235c73f56d0",
+    "commitTimestamp": "2026-06-04T13:16:59Z",
+    "commitMessage": "refactor(core): single-source test-execution runtime contracts (#1381)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26954192899",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26954192899/job/79526915237"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26954192899/job/79526915284"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26954192899/job/79526915299"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26954192899/job/79526915304"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26954192899/job/79526915320"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26954192899/job/79526915584"
+      }
+    ]
+  },
+  {
     "commitSha": "0295781b885a78e45a5f4b9c754ef956a5915631",
     "commitTimestamp": "2026-06-04T12:48:56Z",
     "commitMessage": "refactor(browser): deepen core↔browser seam and close browser-mode drift hazards (#1382)",
