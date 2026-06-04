@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "fdb9bfb4925ff5e2ff5c35dccc0cc68ae8027cbb",
+    "commitTimestamp": "2026-06-04T09:44:50Z",
+    "commitMessage": "refactor(core): single-source reporter run-count derivation and CLI/init owners (#1374)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26944105114",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26944105114/job/79492630801"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26944105114/job/79492630838"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26944105114/job/79492630857"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26944105114/job/79492630883"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26944105114/job/79492630922"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26944105114/job/79492630955"
+      }
+    ]
+  },
+  {
     "commitSha": "849a8577928421c5a35bb30ac92c24c93b940c0f",
     "commitTimestamp": "2026-06-04T08:12:35Z",
     "commitMessage": "refactor(core): gate global setup once and co-locate run verdict (#1371)",
