@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9cbf70b5411132a5efea3b1999583bb8cd62e71d",
+    "commitTimestamp": "2026-06-04T06:51:44Z",
+    "commitMessage": "refactor(core): derive hook registration signatures from RunnerAPI (#1370)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26936654787",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26936654787/job/79467917688"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26936654787/job/79467917690"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26936654787/job/79467917702"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26936654787/job/79467917732"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26936654787/job/79467917747"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26936654787/job/79467917784"
+      }
+    ]
+  },
+  {
     "commitSha": "e41c99b00271ae1ec8a9681a10655f268a6115d1",
     "commitTimestamp": "2026-06-04T06:43:49Z",
     "commitMessage": "refactor(core): own runtime-contract grammar for chunk names and worker import hooks (#1366)",
