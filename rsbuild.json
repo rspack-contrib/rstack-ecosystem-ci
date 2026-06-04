@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "3831edf8ad1f12b5dcf3fb876375922d865a3f26",
+    "commitTimestamp": "2026-06-04T02:46:47Z",
+    "commitMessage": "fix(core): support loadBundle with natural chunk ids (#7826)",
+    "author": {
+      "name": "Cong-Cong Pan",
+      "email": "dacongsama@live.com",
+      "login": "SyMind"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26927313102",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26927313102/job/79439821724"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26927313102/job/79439821736"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26927313102/job/79439821737"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26927313102/job/79439821746"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26927313102/job/79439821753"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26927313102/job/79439821764"
+      }
+    ]
+  },
+  {
     "commitSha": "ad1c4b69e90568b363373db37c182539d62c8204",
     "commitTimestamp": "2026-06-03T11:08:25Z",
     "commitMessage": "release: v2.0.11 (#7825)",
