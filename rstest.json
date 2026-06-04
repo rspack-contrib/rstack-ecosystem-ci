@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "0295781b885a78e45a5f4b9c754ef956a5915631",
+    "commitTimestamp": "2026-06-04T12:48:56Z",
+    "commitMessage": "refactor(browser): deepen core↔browser seam and close browser-mode drift hazards (#1382)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26952740384",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26952740384/job/79521861629"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26952740384/job/79521861633"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26952740384/job/79521861637"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26952740384/job/79521861672"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26952740384/job/79521861677"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26952740384/job/79521861691"
+      }
+    ]
+  },
+  {
     "commitSha": "64c13e53d5bb98d88690cd4aff47c132189695df",
     "commitTimestamp": "2026-06-04T11:24:29Z",
     "commitMessage": "refactor(core): consolidate runtime primitives (file task-id, env-loader registry, scoped-restore LIFO) (#1379)",
