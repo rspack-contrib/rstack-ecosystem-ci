@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "fc76d8b7f93662596f6adf56b77dc848e5b7e2ce",
+    "commitTimestamp": "2026-06-04T06:27:26Z",
+    "commitMessage": "fix(css): align dashed idents with webpack (#14261)",
+    "author": {
+      "name": "AsyncIter",
+      "email": "intellild@outlook.com",
+      "login": "intellild"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26935914756",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26935914756/job/79465572835"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26935914756/job/79465572837"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26935914756/job/79465572839"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26935914756/job/79465572841"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26935914756/job/79465572848"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26935914756/job/79465572851"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26935914756/job/79465572857"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26935914756/job/79465572862"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26935914756/job/79465572865"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26935914756/job/79465572866"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26935914756/job/79465572871"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26935914756/job/79465572903"
+      }
+    ]
+  },
+  {
     "commitSha": "ac43bc23b92525041c4fcb109bd2b745e818f50c",
     "commitTimestamp": "2026-06-03T18:56:52Z",
     "commitMessage": "test(module-federation): add lazyCompilation entries case (#14203)",
