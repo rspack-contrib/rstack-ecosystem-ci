@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "64c13e53d5bb98d88690cd4aff47c132189695df",
+    "commitTimestamp": "2026-06-04T11:24:29Z",
+    "commitMessage": "refactor(core): consolidate runtime primitives (file task-id, env-loader registry, scoped-restore LIFO) (#1379)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26948760072",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26948760072/job/79508309441"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26948760072/job/79508309449"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26948760072/job/79508309452"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26948760072/job/79508309455"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26948760072/job/79508309456"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26948760072/job/79508309488"
+      }
+    ]
+  },
+  {
     "commitSha": "bbe7cdfbe9bbf2ff083ae276acb4a02696a5b9d8",
     "commitTimestamp": "2026-06-04T11:17:47Z",
     "commitMessage": "refactor(browser): single-source the runner dispatch method vocabulary (#1380)",
