@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4adbc29c0f4f30ff4f8b3cedc99c43df015e8175",
+    "commitTimestamp": "2026-06-04T11:17:25Z",
+    "commitMessage": "chore: use pnpm stage publish for release (#1375)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26948439494",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26948439494/job/79507200376"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26948439494/job/79507200385"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26948439494/job/79507200392"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26948439494/job/79507200397"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26948439494/job/79507200401"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26948439494/job/79507200414"
+      }
+    ]
+  },
+  {
     "commitSha": "abc525015d1e88d43a014fdf6150ac475c8ab9e4",
     "commitTimestamp": "2026-06-04T10:52:13Z",
     "commitMessage": "ci: trim pre-merge PR workload, keep full coverage on main (#1378)",
