@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "40cbc1c60421b2ee04fd83cb616b50fb16c243ed",
+    "commitTimestamp": "2026-06-04T06:06:08Z",
+    "commitMessage": "fix(core): type runtime hook registration as sync (#1364)",
+    "author": {
+      "name": "Noel Kim (김민혁)",
+      "email": "minhyuk@clobe.com",
+      "login": "nnnnoel"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26934247730",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26934247730/job/79460191373"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26934247730/job/79460191381"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26934247730/job/79460191386"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26934247730/job/79460191391"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26934247730/job/79460191407"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26934247730/job/79460191422"
+      }
+    ]
+  },
+  {
     "commitSha": "d8598dbd529e885e78bd10faa0fffddf3a9300bf",
     "commitTimestamp": "2026-06-04T05:33:26Z",
     "commitMessage": "fix(core): prevent late console logs from failing the run (isolate: false) (#1368)",
