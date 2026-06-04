@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "abc525015d1e88d43a014fdf6150ac475c8ab9e4",
+    "commitTimestamp": "2026-06-04T10:52:13Z",
+    "commitMessage": "ci: trim pre-merge PR workload, keep full coverage on main (#1378)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26947754254",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26947754254/job/79504878504"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26947754254/job/79504878506"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26947754254/job/79504878507"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26947754254/job/79504878508"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26947754254/job/79504878514"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26947754254/job/79504878564"
+      }
+    ]
+  },
+  {
     "commitSha": "08d27df56600691849a329fbbeaf1703bc23c6e4",
     "commitTimestamp": "2026-06-04T10:39:05Z",
     "commitMessage": "refactor(browser): single-source the snapshot RPC method/args contract (#1377)",
