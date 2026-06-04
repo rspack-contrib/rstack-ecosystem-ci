@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "1a0e2de693467bc4eaeda7f144989fd99831a4e6",
+    "commitTimestamp": "2026-06-04T03:28:45Z",
+    "commitMessage": "chore(deps): upgrade rsbuild to 2.0.11 (#1686)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26928841090",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26928841090/job/79444381832"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26928841090/job/79444381844"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26928841090/job/79444381849"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26928841090/job/79444381862"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26928841090/job/79444381864"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26928841090/job/79444381887"
+      }
+    ]
+  },
+  {
     "commitSha": "50af7c59f65c9219f74d9de6c1e9cb61ae3637fe",
     "commitTimestamp": "2026-06-01T06:56:17Z",
     "commitMessage": "chore(deps): update rstackjs/rstack-ecosystem-ci digest to e853652 (#1684)",
