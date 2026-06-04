@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ae9253eb35c5be659667d1230e0aea1db3640ef4",
+    "commitTimestamp": "2026-06-04T13:17:34Z",
+    "commitMessage": "refactor(core): single-source reporter map and GitHub Actions detection (#1383)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26954221197",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26954221197/job/79527013496"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26954221197/job/79527013516"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26954221197/job/79527013580"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26954221197/job/79527013592"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26954221197/job/79527013676"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26954221197/job/79527013773"
+      }
+    ]
+  },
+  {
     "commitSha": "bc04dddabb25fcea8a7372dcadb10235c73f56d0",
     "commitTimestamp": "2026-06-04T13:16:59Z",
     "commitMessage": "refactor(core): single-source test-execution runtime contracts (#1381)",
