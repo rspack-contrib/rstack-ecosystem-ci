@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f08d6a9afb53f13c7cb2381a7088c547b58fd19a",
+    "commitTimestamp": "2026-06-04T15:36:57Z",
+    "commitMessage": "refactor(core, adapters): single-source adapter cache-key & target→env logic (#1384)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26962317236",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26962317236/job/79555672632"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26962317236/job/79555672637"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26962317236/job/79555672648"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26962317236/job/79555672650"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26962317236/job/79555672691"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26962317236/job/79555672839"
+      }
+    ]
+  },
+  {
     "commitSha": "c53e9e77a6cfa8589184c868460cb25849c28853",
     "commitTimestamp": "2026-06-04T15:23:54Z",
     "commitMessage": "refactor(coverage): single-source provider contract and align collect error handling (#1385)",
