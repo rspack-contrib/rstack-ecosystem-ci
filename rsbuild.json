@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "5bb72b06b21ed61c33ed8004370995f8da0614d1",
+    "commitTimestamp": "2026-06-05T09:01:51Z",
+    "commitMessage": "docs: generalize deployment guide (#7837)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27007620728",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27007620728/job/79703064497"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27007620728/job/79703064498"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27007620728/job/79703064507"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27007620728/job/79703064517"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27007620728/job/79703064531"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27007620728/job/79703064603"
+      }
+    ]
+  },
+  {
     "commitSha": "d31dadbaa58cbe8b54149309254fe65fc7de52a0",
     "commitTimestamp": "2026-06-05T08:02:23Z",
     "commitMessage": "docs: add full-stack framework references (#7836)",
