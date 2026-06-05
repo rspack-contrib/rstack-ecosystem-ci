@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "213a73678f941f96b3cadce5a43410a780683ca2",
+    "commitTimestamp": "2026-06-05T06:29:46Z",
+    "commitMessage": "perf(auto-nav-sidebar): cache site data module in production (#3441)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26999411479",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26999411479/job/79676203504"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26999411479/job/79676203527"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26999411479/job/79676203535"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26999411479/job/79676203542"
+      }
+    ]
+  },
+  {
     "commitSha": "cef83e52c12e99933a926da869f7e324469c7e21",
     "commitTimestamp": "2026-06-04T13:54:33Z",
     "commitMessage": "perf(core): optimize node rspack builds (#3440)",
