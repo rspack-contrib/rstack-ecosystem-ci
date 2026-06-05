@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "98deedc877ab1eeec067d4c10895bff99dbc6b9a",
+    "commitTimestamp": "2026-06-05T05:54:40Z",
+    "commitMessage": "fix(core): exit browser mode when a sibling node project has no tests (#1386)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26998174714",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26998174714/job/79672291718"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26998174714/job/79672291727"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26998174714/job/79672291730"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26998174714/job/79672291733"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26998174714/job/79672291737"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26998174714/job/79672291738"
+      }
+    ]
+  },
+  {
     "commitSha": "5fb70d4ad4535aa4c34e268f1dead1cbca685712",
     "commitTimestamp": "2026-06-04T15:55:54Z",
     "commitMessage": "refactor(core): single-source RSTEST_* env-var names (#1387)",
