@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "76820c4adeffdd7c8d18428b5fe2320fb4bbc9c6",
+    "commitTimestamp": "2026-06-05T14:38:17Z",
+    "commitMessage": "perf(server): optimize mime lookup in dev middleware (#7839)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27021354026",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27021354026/job/79749831853"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27021354026/job/79749831882"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27021354026/job/79749831886"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27021354026/job/79749831910"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27021354026/job/79749832050"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27021354026/job/79749832093"
+      }
+    ]
+  },
+  {
     "commitSha": "5bb72b06b21ed61c33ed8004370995f8da0614d1",
     "commitTimestamp": "2026-06-05T09:01:51Z",
     "commitMessage": "docs: generalize deployment guide (#7837)",
