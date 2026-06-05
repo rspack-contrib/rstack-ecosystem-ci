@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "88e6bc3f7c56a2e7ac9de4c3e899ef77352bea3e",
+    "commitTimestamp": "2026-06-05T06:50:43Z",
+    "commitMessage": "feat(theme/lastUpdated): support displaying `lastUpdated.author` (#3391)",
+    "author": {
+      "name": "nate fang",
+      "email": "110927910+natefzz@users.noreply.github.com",
+      "login": "natefzz"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27000197435",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27000197435/job/79678707613"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27000197435/job/79678707618"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27000197435/job/79678707644"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27000197435/job/79678707653"
+      }
+    ]
+  },
+  {
     "commitSha": "213a73678f941f96b3cadce5a43410a780683ca2",
     "commitTimestamp": "2026-06-05T06:29:46Z",
     "commitMessage": "perf(auto-nav-sidebar): cache site data module in production (#3441)",
