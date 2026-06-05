@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "36ac75da25ef8f0b0714af283e5f50b2f48e33ec",
+    "commitTimestamp": "2026-06-05T02:25:42Z",
+    "commitMessage": "fix(plugin-solid): downgrade solid-refresh to 0.6.3 (#7832)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26991602271",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26991602271/job/79652711431"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26991602271/job/79652711436"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26991602271/job/79652711437"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26991602271/job/79652711448"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26991602271/job/79652711449"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26991602271/job/79652711450"
+      }
+    ]
+  },
+  {
     "commitSha": "e0802b3ab840d11bc295567556fd02fc42943526",
     "commitTimestamp": "2026-06-04T08:10:16Z",
     "commitMessage": "feat(plugin-tailwindcss): enable optimize in production by default (#7828)",
