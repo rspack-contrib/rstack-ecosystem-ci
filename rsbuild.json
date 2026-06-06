@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "afa9f6ce12afa61dc958ab686b752f111a5be29e",
+    "commitTimestamp": "2026-06-06T09:50:54Z",
+    "commitMessage": "perf(core): lazy load open editor middleware (#7843)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27059109755",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27059109755/job/79868741355"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27059109755/job/79868741357"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27059109755/job/79868741358"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27059109755/job/79868741360"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27059109755/job/79868741372"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27059109755/job/79868741375"
+      }
+    ]
+  },
+  {
     "commitSha": "ecdc74caddb9feb016cafbecf515e1bd6d2ff0e8",
     "commitTimestamp": "2026-06-06T09:50:30Z",
     "commitMessage": "chore(deps): update shiki monorepo to ^4.2.0 (#7847)",
