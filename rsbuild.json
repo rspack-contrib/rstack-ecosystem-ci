@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "aeb02b5bba6d8a89de769c3ad4551aa6934328e4",
+    "commitTimestamp": "2026-06-06T09:41:20Z",
+    "commitMessage": "chore: migrate formatter to Oxfmt (#7842)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27058923948",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27058923948/job/79868229240"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27058923948/job/79868229242"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27058923948/job/79868229246"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27058923948/job/79868229249"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27058923948/job/79868229253"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27058923948/job/79868229254"
+      }
+    ]
+  },
+  {
     "commitSha": "6290c525a7e42e8a9712da397cd7924dc8eb79e9",
     "commitTimestamp": "2026-06-06T09:03:13Z",
     "commitMessage": "refactor(core): simplify dev asset stream helper (#7841)",
