@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "fb2ff81e960c6f79265e3e608b991ab85d212a67",
+    "commitTimestamp": "2026-06-06T09:50:02Z",
+    "commitMessage": "chore: use default Oxfmt options (#7846)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27059093906",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27059093906/job/79868697273"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27059093906/job/79868697274"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27059093906/job/79868697276"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27059093906/job/79868697279"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27059093906/job/79868697281"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27059093906/job/79868697288"
+      }
+    ]
+  },
+  {
     "commitSha": "a696793bc50bf994ce54ca4386548606648c509a",
     "commitTimestamp": "2026-06-06T09:44:44Z",
     "commitMessage": "chore(deps): update dependency svelte-check to ^4.6.0 (#7844)",
