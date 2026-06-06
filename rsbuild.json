@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "6290c525a7e42e8a9712da397cd7924dc8eb79e9",
+    "commitTimestamp": "2026-06-06T09:03:13Z",
+    "commitMessage": "refactor(core): simplify dev asset stream helper (#7841)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27058158593",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27058158593/job/79866220327"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27058158593/job/79866220329"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27058158593/job/79866220330"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27058158593/job/79866220335"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27058158593/job/79866220340"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27058158593/job/79866220343"
+      }
+    ]
+  },
+  {
     "commitSha": "735fdb5652fe33db8c881afdd33c9848ded49c3c",
     "commitTimestamp": "2026-06-06T05:35:41Z",
     "commitMessage": "perf(core): improve dev asset stream throughput (#7840)",
