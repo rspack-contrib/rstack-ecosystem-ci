@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e17dd28bf9be9c0cd62894491b0b3a31db5cdf4f",
+    "commitTimestamp": "2026-06-07T09:57:56Z",
+    "commitMessage": "chore(deps): update happy-dom monorepo to ^20.10.1 (#7848)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27089276591",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27089276591/job/79949661536"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27089276591/job/79949661537"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27089276591/job/79949661541"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27089276591/job/79949661559"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27089276591/job/79949661566"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27089276591/job/79949661567"
+      }
+    ]
+  },
+  {
     "commitSha": "afa9f6ce12afa61dc958ab686b752f111a5be29e",
     "commitTimestamp": "2026-06-06T09:50:54Z",
     "commitMessage": "perf(core): lazy load open editor middleware (#7843)",
