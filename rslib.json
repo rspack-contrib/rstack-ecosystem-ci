@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b8ffef1b31ef99afb6d8d952f8b35f865ed39640",
+    "commitTimestamp": "2026-06-08T04:16:28Z",
+    "commitMessage": "chore(deps): update Rspress to v2.0.14 (#1690)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27115980663",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27115980663/job/80022859183"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27115980663/job/80022859200"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27115980663/job/80022859201"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27115980663/job/80022859204"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27115980663/job/80022859217"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27115980663/job/80022859223"
+      }
+    ]
+  },
+  {
     "commitSha": "306a18ca3ccd5a70f9c22ec6677aba4be9456eaf",
     "commitTimestamp": "2026-06-08T03:29:52Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1688)",
