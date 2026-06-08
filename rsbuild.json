@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "018ee84e143b763fc293f638d0f488c5542d8c14",
+    "commitTimestamp": "2026-06-08T13:54:07Z",
+    "commitMessage": "ci: use pinned pnpm setup action (#7856)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27142565214",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27142565214/job/80111440237"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27142565214/job/80111440279"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27142565214/job/80111440319"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27142565214/job/80111440341"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27142565214/job/80111440357"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27142565214/job/80111440540"
+      }
+    ]
+  },
+  {
     "commitSha": "a00d84830d06986ad8ff79f0bdd3fb1717bb6e7f",
     "commitTimestamp": "2026-06-08T10:49:37Z",
     "commitMessage": "release: @rsbuild/plugin-tailwindcss v2.0.2 (#7855)",
