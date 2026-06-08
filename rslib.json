@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d5c5a485921d43fb3e1781fb224062fd0d56e868",
+    "commitTimestamp": "2026-06-08T02:18:58Z",
+    "commitMessage": "chore(deps): update dependency @rsbuild/plugin-preact to v2 (#1689)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27112659273",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27112659273/job/80013374437"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27112659273/job/80013374445"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27112659273/job/80013374446"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27112659273/job/80013374448"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27112659273/job/80013374451"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27112659273/job/80013374457"
+      }
+    ]
+  },
+  {
     "commitSha": "5db2e95cfa10eced242cc2e8fecfcda2756f803d",
     "commitTimestamp": "2026-06-04T10:00:15Z",
     "commitMessage": "chore: use pnpm staged publishing (#1687)",
