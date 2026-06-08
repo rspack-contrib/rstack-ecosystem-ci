@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "8312a99176a9619a82f705bbaa09bc459e217688",
+    "commitTimestamp": "2026-06-08T10:29:26Z",
+    "commitMessage": "feat(core): support runtime test skip (#1392)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27133698133",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27133698133/job/80080729703"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27133698133/job/80080729711"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27133698133/job/80080729718"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27133698133/job/80080729773"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27133698133/job/80080729788"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27133698133/job/80080729816"
+      }
+    ]
+  },
+  {
     "commitSha": "98deedc877ab1eeec067d4c10895bff99dbc6b9a",
     "commitTimestamp": "2026-06-05T05:54:40Z",
     "commitMessage": "fix(core): exit browser mode when a sibling node project has no tests (#1386)",
