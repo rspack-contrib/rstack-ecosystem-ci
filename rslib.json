@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "47d2556ba9f85f4bcdbfef8ca0c5308e197e4ab5",
+    "commitTimestamp": "2026-06-08T08:10:39Z",
+    "commitMessage": "chore(deps): update dependency @rsbuild/plugin-svelte to v2 (#1691)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27125989615",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27125989615/job/80054600881"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27125989615/job/80054600893"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27125989615/job/80054600901"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27125989615/job/80054600921"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27125989615/job/80054600988"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27125989615/job/80054601143"
+      }
+    ]
+  },
+  {
     "commitSha": "b8ffef1b31ef99afb6d8d952f8b35f865ed39640",
     "commitTimestamp": "2026-06-08T04:16:28Z",
     "commitMessage": "chore(deps): update Rspress to v2.0.14 (#1690)",
