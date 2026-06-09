@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "761840991a874b12eae9964354ed7b5e4e8c6ef6",
+    "commitTimestamp": "2026-06-09T04:28:56Z",
+    "commitMessage": "chore(deps): update dependency http-proxy-middleware to v4.1.0 (#7858)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27184268671",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27184268671/job/80249749431"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27184268671/job/80249749436"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27184268671/job/80249749437"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27184268671/job/80249749439"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27184268671/job/80249749440"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27184268671/job/80249749450"
+      }
+    ]
+  },
+  {
     "commitSha": "018ee84e143b763fc293f638d0f488c5542d8c14",
     "commitTimestamp": "2026-06-08T13:54:07Z",
     "commitMessage": "ci: use pinned pnpm setup action (#7856)",
