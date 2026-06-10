@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "6360bcba54a8ea54902e69ce4a76bc7351c296d6",
+    "commitTimestamp": "2026-06-10T03:20:16Z",
+    "commitMessage": "ci: install pnpm via pnpm/action-setup across all workflows (#1398)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27250849178",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27250849178/job/80474803265"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27250849178/job/80474803286"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27250849178/job/80474803303"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27250849178/job/80474803327"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27250849178/job/80474803401"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27250849178/job/80474803607"
+      }
+    ]
+  },
+  {
     "commitSha": "a78c34b33a33dcc1d3e60230efc35306ca8c3b90",
     "commitTimestamp": "2026-06-09T07:25:34Z",
     "commitMessage": "feat(coverage): support custom reporters (#1395)",
