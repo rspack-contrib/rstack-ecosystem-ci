@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "1d775436215850f1a3723f9385025e75e861c0b1",
+    "commitTimestamp": "2026-06-10T03:59:54Z",
+    "commitMessage": "ci: use pinned pnpm setup action (#1695)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27252485484",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27252485484/job/80479722965"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27252485484/job/80479722998"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27252485484/job/80479723008"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27252485484/job/80479723015"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27252485484/job/80479723038"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27252485484/job/80479723143"
+      }
+    ]
+  },
+  {
     "commitSha": "7656b8f411f8d1c944c8a6f8d7f46fbff2a69254",
     "commitTimestamp": "2026-06-08T11:39:08Z",
     "commitMessage": "fix(dts): correct tsgo preview peer range (#1694)",
