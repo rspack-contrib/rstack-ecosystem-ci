@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "3796ad37cef81d5b5da30bc2cef9f404373b61a8",
+    "commitTimestamp": "2026-06-10T02:46:11Z",
+    "commitMessage": "chore: bind walltime bench to dedicated CPUs (#14336)",
+    "author": {
+      "name": "deanjingshui",
+      "email": "38210394+deanjingshui@users.noreply.github.com",
+      "login": "deanjingshui"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27250171184",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27250171184/job/80472731434"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27250171184/job/80472731443"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27250171184/job/80472731452"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27250171184/job/80472731453"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27250171184/job/80472731454"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27250171184/job/80472731459"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27250171184/job/80472731461"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27250171184/job/80472731462"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27250171184/job/80472731463"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27250171184/job/80472731465"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27250171184/job/80472731470"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27250171184/job/80472731472"
+      }
+    ]
+  },
+  {
     "commitSha": "a954cf2d3f8d8085f20dda44a058e88d522c1bd7",
     "commitTimestamp": "2026-06-10T02:40:37Z",
     "commitMessage": "perf: replace scope parent-chain lookup with scoped symbol table (#14335)",
