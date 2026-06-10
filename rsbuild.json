@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "983504028d01289e0005b5f89caa37a4ecc49606",
+    "commitTimestamp": "2026-06-10T13:40:13Z",
+    "commitMessage": "feat(core): support prefetch options array (#7859)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27280450757",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27280450757/job/80573185956"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27280450757/job/80573186036"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27280450757/job/80573186068"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27280450757/job/80573186204"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27280450757/job/80573186220"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27280450757/job/80573186333"
+      }
+    ]
+  },
+  {
     "commitSha": "761840991a874b12eae9964354ed7b5e4e8c6ef6",
     "commitTimestamp": "2026-06-09T04:28:56Z",
     "commitMessage": "chore(deps): update dependency http-proxy-middleware to v4.1.0 (#7858)",
