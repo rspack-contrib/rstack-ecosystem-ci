@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b097a0829ef18e539fee8e7ff6d461bd185d3fa6",
+    "commitTimestamp": "2026-06-11T08:18:14Z",
+    "commitMessage": "chore: enable isolated dts builds (#1402)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27333910476",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27333910476/job/80752983240"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27333910476/job/80752983249"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27333910476/job/80752983283"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27333910476/job/80752983296"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27333910476/job/80752983303"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27333910476/job/80752983400"
+      }
+    ]
+  },
+  {
     "commitSha": "4e73e7cfffa9a6a8b30bf29d9fe70625007db42a",
     "commitTimestamp": "2026-06-11T07:13:51Z",
     "commitMessage": "release: 0.10.4 (#1401)",
