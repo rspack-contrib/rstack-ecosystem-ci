@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e6e8d7b511a6c83a4c52359a326f205e4049058a",
+    "commitTimestamp": "2026-06-11T14:59:07Z",
+    "commitMessage": "chore(deps): upgrade rslint to 0.6.0 (#7868)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27356152428",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27356152428/job/80830871430"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27356152428/job/80830871475"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27356152428/job/80830871484"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27356152428/job/80830871492"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27356152428/job/80830871640"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27356152428/job/80830871699"
+      }
+    ]
+  },
+  {
     "commitSha": "123c4d0d7ce99bef4cfed43716aa6e1a6feca100",
     "commitTimestamp": "2026-06-11T10:10:20Z",
     "commitMessage": "chore(ci): update ecosystem ci action to v0.3.2 (#7867)",
