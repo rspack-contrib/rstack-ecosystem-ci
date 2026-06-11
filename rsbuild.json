@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "3c4f7aaa740ba0caf786bdb7281e0b4113afb3bb",
+    "commitTimestamp": "2026-06-11T03:43:53Z",
+    "commitMessage": "release: v2.0.12 (#7866)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27323603689",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27323603689/job/80719831442"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27323603689/job/80719831448"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27323603689/job/80719831455"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27323603689/job/80719831472"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27323603689/job/80719831493"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27323603689/job/80719831556"
+      }
+    ]
+  },
+  {
     "commitSha": "9471514679e5e9b5ad1191900189e09053c886f8",
     "commitTimestamp": "2026-06-11T02:21:51Z",
     "commitMessage": "feat(core): support preload options array (#7863)",
