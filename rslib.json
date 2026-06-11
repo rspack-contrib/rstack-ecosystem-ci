@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c7a53de2db32500ce20860ea3688030cb0408374",
+    "commitTimestamp": "2026-06-11T09:31:06Z",
+    "commitMessage": "fix(ci): skip snapshots in ecosystem ci (#1697)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "1604889533@qq.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27340211960",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27340211960/job/80774774421"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27340211960/job/80774774472"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27340211960/job/80774774493"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27340211960/job/80774774499"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27340211960/job/80774774528"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27340211960/job/80774774586"
+      }
+    ]
+  },
+  {
     "commitSha": "1d775436215850f1a3723f9385025e75e861c0b1",
     "commitTimestamp": "2026-06-10T03:59:54Z",
     "commitMessage": "ci: use pinned pnpm setup action (#1695)",
