@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "12d879f1bbc0936863076e7b7a6e7979d78bcd90",
+    "commitTimestamp": "2026-06-11T10:46:40Z",
+    "commitMessage": "chore(deps): upgrade rsbuild v2.0.12 (#1698)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "1604889533@qq.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27342614944",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27342614944/job/80783013697"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27342614944/job/80783013707"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27342614944/job/80783013722"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27342614944/job/80783013770"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27342614944/job/80783013827"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27342614944/job/80783013839"
+      }
+    ]
+  },
+  {
     "commitSha": "c7a53de2db32500ce20860ea3688030cb0408374",
     "commitTimestamp": "2026-06-11T09:31:06Z",
     "commitMessage": "fix(ci): skip snapshots in ecosystem ci (#1697)",
