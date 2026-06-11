@@ -11,6 +11,7 @@ export async function test(options: RunOptions) {
       await $`pnpm exec playwright install --with-deps`;
       cd('..');
     },
-    test: ['test'],
+    // ignore snapshot changes
+    test: ['testu', 'test:e2e'],
   });
 }
