@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "e83459cac038528ea7f96a7b14882df86eecc26d",
+    "commitTimestamp": "2026-06-11T09:33:35Z",
+    "commitMessage": "fix(auto-nav-sidebar): isolate global sidebar by version (#3454)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27339772208",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27339772208/job/80773272699"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27339772208/job/80773272725"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27339772208/job/80773272728"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27339772208/job/80773272749"
+      }
+    ]
+  },
+  {
     "commitSha": "cc1e8a02bd23aa95c22fc6acc557a40e537e519d",
     "commitTimestamp": "2026-06-09T03:46:51Z",
     "commitMessage": "fix(core): allow overriding printFileSize config (#3451)",
