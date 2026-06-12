@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "58f592b77e0d2410ed7f50cba3c5be785569ad9b",
+    "commitTimestamp": "2026-06-12T11:30:45Z",
+    "commitMessage": "fix(core): report untransformed mock API calls (#1414)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27412990059",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27412990059/job/81018593834"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27412990059/job/81018593837"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27412990059/job/81018593841"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27412990059/job/81018593895"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27412990059/job/81018593899"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27412990059/job/81018593994"
+      }
+    ]
+  },
+  {
     "commitSha": "f22a77c60f208206c0cb550fe96b826f5ce2abcd",
     "commitTimestamp": "2026-06-12T11:10:43Z",
     "commitMessage": "test: speed up timeout e2e tests (#1413)",
