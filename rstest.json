@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "8d6ad10e135ecdcdce1ffb16e0b9d68878bc7c10",
+    "commitTimestamp": "2026-06-12T09:55:45Z",
+    "commitMessage": "feat(core): support environment comments (#1404)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27408601687",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27408601687/job/81003893019"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27408601687/job/81003893070"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27408601687/job/81003893077"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27408601687/job/81003893102"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27408601687/job/81003893162"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27408601687/job/81003893380"
+      }
+    ]
+  },
+  {
     "commitSha": "e026aea3bd54b3a2cd0630bd3879723a38b7e6b2",
     "commitTimestamp": "2026-06-12T09:11:25Z",
     "commitMessage": "fix(types): narrow chai config options (#1411)",
