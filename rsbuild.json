@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7a71a345aa22970f5c11526e2971314b6dee5765",
+    "commitTimestamp": "2026-06-12T07:07:11Z",
+    "commitMessage": "chore: configure VS Code JS formatter (#7879)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27402066761",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27402066761/job/80982219000"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27402066761/job/80982219043"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27402066761/job/80982219051"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27402066761/job/80982219054"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27402066761/job/80982219096"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27402066761/job/80982219165"
+      }
+    ]
+  },
+  {
     "commitSha": "be221d4d32c477ada4baa0b8d95fcf3b75b393f8",
     "commitTimestamp": "2026-06-12T05:57:09Z",
     "commitMessage": "feat(create-rsbuild): add Node types to TS templates (#7876)",
