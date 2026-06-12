@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "12808ff6ca679abb81c25501188383a00ef09213",
+    "commitTimestamp": "2026-06-12T04:49:42Z",
+    "commitMessage": "test: add transformImport ignore component e2e (#7877)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27395240546",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27395240546/job/80961068633"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27395240546/job/80961068643"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27395240546/job/80961068645"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27395240546/job/80961068664"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27395240546/job/80961068722"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27395240546/job/80961068790"
+      }
+    ]
+  },
+  {
     "commitSha": "a43c80655f2893e30e8cfa1735489c4f61374b4b",
     "commitTimestamp": "2026-06-12T03:35:30Z",
     "commitMessage": "feat(create-rsbuild): use vue-tsc in Vue template (#7874)",
