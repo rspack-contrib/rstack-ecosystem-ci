@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b789c28d6c2d44813e90bb29d1d6a66f40eff5ff",
+    "commitTimestamp": "2026-06-12T10:00:23Z",
+    "commitMessage": "fix(core): infer lazy compilation server URL from client (#7880)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27408799489",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27408799489/job/81004574852"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27408799489/job/81004574855"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27408799489/job/81004574868"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27408799489/job/81004574876"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27408799489/job/81004574879"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27408799489/job/81004574936"
+      }
+    ]
+  },
+  {
     "commitSha": "7a71a345aa22970f5c11526e2971314b6dee5765",
     "commitTimestamp": "2026-06-12T07:07:11Z",
     "commitMessage": "chore: configure VS Code JS formatter (#7879)",
