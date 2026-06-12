@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a43c80655f2893e30e8cfa1735489c4f61374b4b",
+    "commitTimestamp": "2026-06-12T03:35:30Z",
+    "commitMessage": "feat(create-rsbuild): use vue-tsc in Vue template (#7874)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27392922977",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27392922977/job/80954181910"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27392922977/job/80954181914"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27392922977/job/80954181928"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27392922977/job/80954181947"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27392922977/job/80954181952"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27392922977/job/80954181983"
+      }
+    ]
+  },
+  {
     "commitSha": "b82f254bb2070e562a1147a2c8a87c76bd5a31b5",
     "commitTimestamp": "2026-06-12T02:29:21Z",
     "commitMessage": "feat(create-rsbuild): use tsconfig types in templates (#7871)",
