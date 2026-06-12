@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "3fadcaf0da05fef2f568514bdfc32c72159cb1db",
+    "commitTimestamp": "2026-06-12T09:47:05Z",
+    "commitMessage": "release: v0.22.1 (#1699)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "1604889533@qq.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27408231276",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27408231276/job/81002634615"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27408231276/job/81002634623"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27408231276/job/81002634660"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27408231276/job/81002634668"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27408231276/job/81002634773"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27408231276/job/81002634893"
+      }
+    ]
+  },
+  {
     "commitSha": "12d879f1bbc0936863076e7b7a6e7979d78bcd90",
     "commitTimestamp": "2026-06-11T10:46:40Z",
     "commitMessage": "chore(deps): upgrade rsbuild v2.0.12 (#1698)",
