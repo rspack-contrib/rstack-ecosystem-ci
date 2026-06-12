@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f22a77c60f208206c0cb550fe96b826f5ce2abcd",
+    "commitTimestamp": "2026-06-12T11:10:43Z",
+    "commitMessage": "test: speed up timeout e2e tests (#1413)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27412336430",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27412336430/job/81016411716"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27412336430/job/81016411732"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27412336430/job/81016411741"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27412336430/job/81016411745"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27412336430/job/81016411747"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27412336430/job/81016411807"
+      }
+    ]
+  },
+  {
     "commitSha": "f260396ea3c55b9bc2fe87123b729b3e35958e1f",
     "commitTimestamp": "2026-06-12T10:55:59Z",
     "commitMessage": "fix(core): avoid thenable interop namespaces (#1412)",
