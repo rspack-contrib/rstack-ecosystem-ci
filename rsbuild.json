@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b82f254bb2070e562a1147a2c8a87c76bd5a31b5",
+    "commitTimestamp": "2026-06-12T02:29:21Z",
+    "commitMessage": "feat(create-rsbuild): use tsconfig types in templates (#7871)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27390635153",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27390635153/job/80947163462"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27390635153/job/80947163478"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27390635153/job/80947163488"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27390635153/job/80947163491"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27390635153/job/80947163511"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27390635153/job/80947163562"
+      }
+    ]
+  },
+  {
     "commitSha": "9970a4ba9a9ad67b700191535d4f89a02744079a",
     "commitTimestamp": "2026-06-12T02:24:26Z",
     "commitMessage": "chore: add react plugin support metadata (#7872)",
