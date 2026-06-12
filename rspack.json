@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "b2b25000ab7043c8b3c32668d14c1184d5b99d33",
+    "commitTimestamp": "2026-06-12T06:25:53Z",
+    "commitMessage": "fix: apply global `overrideStrict` for ContextModule (#14361)",
+    "author": {
+      "name": "Qingyu Wang",
+      "email": "40660121+colinaaa@users.noreply.github.com",
+      "login": "colinaaa"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27399038364",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27399038364/job/80972613066"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27399038364/job/80972613075"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27399038364/job/80972613079"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27399038364/job/80972613082"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27399038364/job/80972613086"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27399038364/job/80972613093"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27399038364/job/80972613099"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27399038364/job/80972613103"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27399038364/job/80972613106"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27399038364/job/80972613136"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27399038364/job/80972613169"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27399038364/job/80972613242"
+      }
+    ]
+  },
+  {
     "commitSha": "8ac9b660cea3e7e46144a32ad8d86b20511021cd",
     "commitTimestamp": "2026-06-12T02:25:44Z",
     "commitMessage": "perf: add ASCII fast path for dependency location column computation (#14355)",
