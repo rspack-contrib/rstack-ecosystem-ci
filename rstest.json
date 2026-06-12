@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "8f9a749b2037484f4b1f5f442b9d2100dec6bd8b",
+    "commitTimestamp": "2026-06-12T02:54:57Z",
+    "commitMessage": "ci: remove node 22 e2e test axis (#1405)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27391538996",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27391538996/job/80949862824"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27391538996/job/80949862827"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27391538996/job/80949862830"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27391538996/job/80949862856"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27391538996/job/80949862925"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27391538996/job/80949863004"
+      }
+    ]
+  },
+  {
     "commitSha": "aacf4ec5d9b58638c9c4dd6d47b1518ceb73950f",
     "commitTimestamp": "2026-06-11T15:33:34Z",
     "commitMessage": "fix(core): support mocking dynamic import() of external modules (#1357)",
