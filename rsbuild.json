@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4df77e595ed197420f0306c5fa2e050f23683919",
+    "commitTimestamp": "2026-06-13T00:51:39Z",
+    "commitMessage": "fix(plugin-tailwindcss): upgrade Tailwind CSS to 4.3.1 (#7884)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27451535596",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27451535596/job/81147625169"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27451535596/job/81147625176"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27451535596/job/81147625196"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27451535596/job/81147625205"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27451535596/job/81147625226"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27451535596/job/81147625251"
+      }
+    ]
+  },
+  {
     "commitSha": "a0bde8e47c1818b85af0f87334a1f3003707ff25",
     "commitTimestamp": "2026-06-13T00:37:17Z",
     "commitMessage": "fix(core): skip lazy compilation without client updates (#7882)",
