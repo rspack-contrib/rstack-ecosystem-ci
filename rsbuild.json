@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e0abc9d505a8e3b447aebe523ae81331b129170c",
+    "commitTimestamp": "2026-06-13T09:49:36Z",
+    "commitMessage": "release: v2.0.13 (#7891)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27463420058",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27463420058/job/81181325118"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27463420058/job/81181325126"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27463420058/job/81181325128"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27463420058/job/81181325137"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27463420058/job/81181325141"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27463420058/job/81181325147"
+      }
+    ]
+  },
+  {
     "commitSha": "e894f3a11b82cdab2db2fb636e223cecd99b7aa4",
     "commitTimestamp": "2026-06-13T01:36:20Z",
     "commitMessage": "release: @rsbuild/plugin-tailwindcss v2.0.3 (#7890)",
