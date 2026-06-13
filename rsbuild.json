@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "fefe04259faa5cdc76dfe51c85b52231a59c0fe3",
+    "commitTimestamp": "2026-06-13T00:56:13Z",
+    "commitMessage": "chore(deps): update dependency oxfmt to ^0.54.0 (#7886)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27451655991",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27451655991/job/81147989291"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27451655991/job/81147989300"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27451655991/job/81147989302"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27451655991/job/81147989314"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27451655991/job/81147989316"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27451655991/job/81147989331"
+      }
+    ]
+  },
+  {
     "commitSha": "4df77e595ed197420f0306c5fa2e050f23683919",
     "commitTimestamp": "2026-06-13T00:51:39Z",
     "commitMessage": "fix(plugin-tailwindcss): upgrade Tailwind CSS to 4.3.1 (#7884)",
