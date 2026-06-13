@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d5294a3e3996c0c9df6265e959953ee3a1d4c377",
+    "commitTimestamp": "2026-06-13T01:32:04Z",
+    "commitMessage": "fix(core): apply assetPrefix to manifest entry assets (#7888)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27452589090",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27452589090/job/81150773831"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27452589090/job/81150773839"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27452589090/job/81150773850"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27452589090/job/81150773852"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27452589090/job/81150773863"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27452589090/job/81150773903"
+      }
+    ]
+  },
+  {
     "commitSha": "b55281f8159616a02663ae659d624b13e3c7575d",
     "commitTimestamp": "2026-06-13T00:57:14Z",
     "commitMessage": "chore(deps): update dependency @rsbuild/plugin-type-check to ^1.4.0 (#7885)",
