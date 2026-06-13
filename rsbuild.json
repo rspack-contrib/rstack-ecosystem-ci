@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a0bde8e47c1818b85af0f87334a1f3003707ff25",
+    "commitTimestamp": "2026-06-13T00:37:17Z",
+    "commitMessage": "fix(core): skip lazy compilation without client updates (#7882)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27451135339",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27451135339/job/81146442041"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27451135339/job/81146442056"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27451135339/job/81146442057"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27451135339/job/81146442081"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27451135339/job/81146442110"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27451135339/job/81146442115"
+      }
+    ]
+  },
+  {
     "commitSha": "b789c28d6c2d44813e90bb29d1d6a66f40eff5ff",
     "commitTimestamp": "2026-06-12T10:00:23Z",
     "commitMessage": "fix(core): infer lazy compilation server URL from client (#7880)",
