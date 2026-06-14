@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "41ba75749f3867005eec2d846733b5bf8340d51d",
+    "commitTimestamp": "2026-06-14T01:10:56Z",
+    "commitMessage": "perf(core): resolve environment APIs per compiler (#7893)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27484385924",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27484385924/job/81237765074"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27484385924/job/81237765077"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27484385924/job/81237765078"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27484385924/job/81237765088"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27484385924/job/81237765099"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27484385924/job/81237765100"
+      }
+    ]
+  },
+  {
     "commitSha": "495589a91d616f9aaea29326c1d8a8e0fc7173d5",
     "commitTimestamp": "2026-06-14T00:31:33Z",
     "commitMessage": "test(e2e): simplify node_modules fixture setup (#7892)",
