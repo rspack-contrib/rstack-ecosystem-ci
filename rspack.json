@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "d8ea86db45910ea42540025952ed428e8f386085",
+    "commitTimestamp": "2026-06-14T18:07:51Z",
+    "commitMessage": "fix: use ChunkWithSizeInfo delimiter in maxInitialSize chunk naming fallback path (#14331)",
+    "author": {
+      "name": "white cloud",
+      "email": "119286003+wr40000@users.noreply.github.com",
+      "login": "wr40000"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27507736258",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27507736258/job/81301989291"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27507736258/job/81301989303"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27507736258/job/81301989307"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27507736258/job/81301989308"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27507736258/job/81301989309"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27507736258/job/81301989316"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27507736258/job/81301989320"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27507736258/job/81301989330"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27507736258/job/81301989332"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27507736258/job/81301989336"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27507736258/job/81301989337"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27507736258/job/81301989341"
+      }
+    ]
+  },
+  {
     "commitSha": "7a50304e9cde0fe1e9f272269997a366a63f1efa",
     "commitTimestamp": "2026-06-14T14:11:21Z",
     "commitMessage": "fix(watcher): filter ignored-subtree events that emit a spurious folder change (#14329)",
