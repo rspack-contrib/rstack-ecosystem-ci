@@ -13,6 +13,14 @@ inputs:
     description: 'The branch, tag or SHA to checkout'
     required: true
     default: 'main'
+  pr-number:
+    description: 'Pull request number used as a fallback when ref no longer exists'
+    required: false
+    default: ''
+  base-repository:
+    description: 'Base repository containing the pull request refs'
+    required: false
+    default: ''
   node-version:
     description: 'The version of Node.js to set up'
     required: true
@@ -24,11 +32,26 @@ runs:
   using: composite
   steps:
     - name: Checkout Rspack repo
+      id: checkout-rspack
+      continue-on-error: true
       uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
       with:
         repository: ${{ inputs.repository }}
         path: ${{ inputs.path }}
         ref: ${{ inputs.ref }}
+    - name: Checkout Rspack PR ref
+      if: ${{ steps.checkout-rspack.outcome == 'failure' && inputs.pr-number != '' && inputs.base-repository != '' }}
+      uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+      with:
+        repository: ${{ inputs.base-repository }}
+        path: ${{ inputs.path }}
+        ref: refs/pull/${{ inputs.pr-number }}/head
+    - name: Report unresolved Rspack ref
+      if: ${{ steps.checkout-rspack.outcome == 'failure' && (inputs.pr-number == '' || inputs.base-repository == '') }}
+      shell: bash
+      run: |
+        echo "::error::Failed to checkout ${{ inputs.repository }} at ${{ inputs.ref }} and no PR fallback was provided."
+        exit 1
     - uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6
       with:
         node-version: ${{ inputs.node-version }}
