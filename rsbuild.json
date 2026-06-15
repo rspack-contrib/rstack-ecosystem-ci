@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ccb8b13f6924ceb699828079d8459f09cd5add79",
+    "commitTimestamp": "2026-06-15T11:22:21Z",
+    "commitMessage": "release: v2.0.15 (#7908)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27543314464",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27543314464/job/81410302149"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27543314464/job/81410302158"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27543314464/job/81410302169"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27543314464/job/81410302224"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27543314464/job/81410302275"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27543314464/job/81410302325"
+      }
+    ]
+  },
+  {
     "commitSha": "ca94b03699be4c399da0249cecc875448117a5d7",
     "commitTimestamp": "2026-06-15T11:12:40Z",
     "commitMessage": "fix(core): disable default pureFunctions experiment (#7907)",
