@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "66dc49439afe4872825d8812f606fb72cfae2a67",
+    "commitTimestamp": "2026-06-15T08:03:45Z",
+    "commitMessage": "fix(core): mock async externals in commonjs output (#1418)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27532535002",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27532535002/job/81373888141"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27532535002/job/81373888161"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27532535002/job/81373888172"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27532535002/job/81373888220"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27532535002/job/81373888253"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27532535002/job/81373888259"
+      }
+    ]
+  },
+  {
     "commitSha": "e67492d7470871d650f4b667ca4ec44040e113ac",
     "commitTimestamp": "2026-06-15T07:24:38Z",
     "commitMessage": "fix(core): stabilize cjs coverage offsets (#1345)",
