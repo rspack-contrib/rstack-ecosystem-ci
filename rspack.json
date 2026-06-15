@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "a55399948bc586c446436a389a17358f5f9bd38c",
+    "commitTimestamp": "2026-06-15T10:16:43Z",
+    "commitMessage": "feat(runtime): introduce experimental.runtimeMode (#14254)",
+    "author": {
+      "name": "harpsealjs",
+      "email": "lingyucoder@gmail.com",
+      "login": "LingyuCoder"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27539855655",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27539855655/job/81398624672"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27539855655/job/81398624673"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27539855655/job/81398624675"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27539855655/job/81398624682"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27539855655/job/81398624683"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27539855655/job/81398624686"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27539855655/job/81398624690"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27539855655/job/81398624694"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27539855655/job/81398624695"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27539855655/job/81398624711"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27539855655/job/81398624737"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27539855655/job/81398624744"
+      }
+    ]
+  },
+  {
     "commitSha": "622c76bd5d0b9d0d70d3b46900582b9330849c44",
     "commitTimestamp": "2026-06-15T08:44:19Z",
     "commitMessage": "fix(tree-shaking): handle nested pure function calls (#14375)",
