@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ca94b03699be4c399da0249cecc875448117a5d7",
+    "commitTimestamp": "2026-06-15T11:12:40Z",
+    "commitMessage": "fix(core): disable default pureFunctions experiment (#7907)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27542551121",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27542551121/job/81407693056"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27542551121/job/81407693062"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27542551121/job/81407693071"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27542551121/job/81407693128"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27542551121/job/81407693135"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27542551121/job/81407693144"
+      }
+    ]
+  },
+  {
     "commitSha": "186b296d80f8d24c3f8298c9284d43cbe1903c69",
     "commitTimestamp": "2026-06-15T11:09:12Z",
     "commitMessage": "fix(core): align CSS Modules detection with matchResource (#7906)",
