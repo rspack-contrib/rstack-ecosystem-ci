@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "3c653653b0a1fccadceec59d515282ccd6e29417",
+    "commitTimestamp": "2026-06-15T08:59:53Z",
+    "commitMessage": "chore(deps): update @rsbuild/core to 2.0.14 (#1421)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27535420018",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27535420018/job/81383478854"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27535420018/job/81383478903"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27535420018/job/81383478918"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27535420018/job/81383478950"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27535420018/job/81383479005"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27535420018/job/81383479023"
+      }
+    ]
+  },
+  {
     "commitSha": "ee5885349f3e3129f462967bf77b19a2843db10b",
     "commitTimestamp": "2026-06-15T08:05:13Z",
     "commitMessage": "fix(core): label retry errors by attempt (#1417)",
