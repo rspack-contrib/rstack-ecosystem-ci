@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "186b296d80f8d24c3f8298c9284d43cbe1903c69",
+    "commitTimestamp": "2026-06-15T11:09:12Z",
+    "commitMessage": "fix(core): align CSS Modules detection with matchResource (#7906)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27542513879",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27542513879/job/81407569908"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27542513879/job/81407569909"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27542513879/job/81407569916"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27542513879/job/81407569922"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27542513879/job/81407569997"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27542513879/job/81407570357"
+      }
+    ]
+  },
+  {
     "commitSha": "8b24aafbc5afdbff2f761fa6af1fa3097a92b886",
     "commitTimestamp": "2026-06-15T11:08:20Z",
     "commitMessage": "perf(core): optimize transform loader source maps (#7905)",
