@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "8b24aafbc5afdbff2f761fa6af1fa3097a92b886",
+    "commitTimestamp": "2026-06-15T11:08:20Z",
+    "commitMessage": "perf(core): optimize transform loader source maps (#7905)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27542446891",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27542446891/job/81407351101"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27542446891/job/81407351215"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27542446891/job/81407351232"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27542446891/job/81407351284"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27542446891/job/81407351285"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27542446891/job/81407351464"
+      }
+    ]
+  },
+  {
     "commitSha": "58cd152fda87b86258610115bcbd2e3dc113545a",
     "commitTimestamp": "2026-06-15T10:04:45Z",
     "commitMessage": "perf: skip css-loader for non-emitting global CSS (#7904)",
