@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "072b6ddef73fd77764ed305a01dad5f143f2fbeb",
+    "commitTimestamp": "2026-06-15T05:58:34Z",
+    "commitMessage": "fix(core): mock object properties lazily (#1415)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27527057572",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27527057572/job/81356477544"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27527057572/job/81356477555"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27527057572/job/81356477559"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27527057572/job/81356477583"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27527057572/job/81356477644"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27527057572/job/81356477694"
+      }
+    ]
+  },
+  {
     "commitSha": "aaeed917c1666091a3a050d9dea4137078a3b3fd",
     "commitTimestamp": "2026-06-15T05:09:19Z",
     "commitMessage": "test: stabilize watch environment comments (#1416)",
