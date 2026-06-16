@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "998b57be853399509c6dd6349a9c6443669f90e9",
+    "commitTimestamp": "2026-06-16T13:09:56Z",
+    "commitMessage": "feat(plugin-babel)!: drop Rsbuild v1 support (#7922)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27619937853",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27619937853/job/81665721893"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27619937853/job/81665722055"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27619937853/job/81665722093"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27619937853/job/81665722128"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27619937853/job/81665722130"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27619937853/job/81665722168"
+      }
+    ]
+  },
+  {
     "commitSha": "2965ef3a8ce60ab77a7018bae7ce3c829ada1d76",
     "commitTimestamp": "2026-06-16T11:10:02Z",
     "commitMessage": "chore(deps): update playwright monorepo to v1.61.0 (#7923)",
