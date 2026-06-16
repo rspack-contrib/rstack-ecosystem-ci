@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d1b4d3ab95887c93b14ba8714365b283487f7ab1",
+    "commitTimestamp": "2026-06-16T13:37:25Z",
+    "commitMessage": "release: @rsbuild/plugin-babel v2.0.0 (#7924)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27621633187",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27621633187/job/81671866938"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27621633187/job/81671866976"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27621633187/job/81671866995"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27621633187/job/81671867063"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27621633187/job/81671867135"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27621633187/job/81671867254"
+      }
+    ]
+  },
+  {
     "commitSha": "998b57be853399509c6dd6349a9c6443669f90e9",
     "commitTimestamp": "2026-06-16T13:09:56Z",
     "commitMessage": "feat(plugin-babel)!: drop Rsbuild v1 support (#7922)",
