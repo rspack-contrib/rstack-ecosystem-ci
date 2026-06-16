@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "aa13542ae87e7103a7facbe4fa8a7e3f01eec7ec",
+    "commitTimestamp": "2026-06-16T05:23:45Z",
+    "commitMessage": "feat(core): limit printed server routes (#7912)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27596134756",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27596134756/job/81586734167"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27596134756/job/81586734177"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27596134756/job/81586734207"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27596134756/job/81586734223"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27596134756/job/81586734232"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27596134756/job/81586734436"
+      }
+    ]
+  },
+  {
     "commitSha": "d79f75a2585c8628e0295da3f044ccac55340caa",
     "commitTimestamp": "2026-06-16T03:44:34Z",
     "commitMessage": "fix(core): compact build time logs (#7911)",
