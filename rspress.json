@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "c2edc00b44f1cc87cb2cbd6915a7a9f246c77b76",
+    "commitTimestamp": "2026-06-16T12:40:48Z",
+    "commitMessage": "perf(ssg): avoid eager asset source reads (#3459)",
+    "author": {
+      "name": "Cong-Cong Pan",
+      "email": "dacongsama@live.com",
+      "login": "SyMind"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27618256104",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27618256104/job/81659682127"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27618256104/job/81659682135"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27618256104/job/81659682238"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27618256104/job/81659682307"
+      }
+    ]
+  },
+  {
     "commitSha": "fc571e456e9d7e1359814374461a2ceb71fb9cbb",
     "commitTimestamp": "2026-06-15T05:02:41Z",
     "commitMessage": "chore(deps): update all patch dependencies (#3457)",
