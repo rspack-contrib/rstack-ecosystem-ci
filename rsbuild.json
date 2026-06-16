@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f693e2f04cc39a031603104147f1ac069bbd8b42",
+    "commitTimestamp": "2026-06-16T10:42:12Z",
+    "commitMessage": "docs: update parallel loader docs (#7920)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27611966493",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27611966493/job/81638341171"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27611966493/job/81638341177"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27611966493/job/81638341194"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27611966493/job/81638341234"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27611966493/job/81638341238"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27611966493/job/81638341264"
+      }
+    ]
+  },
+  {
     "commitSha": "997ba7d753da4b37a947089a33ccfeba049b73de",
     "commitTimestamp": "2026-06-16T10:41:16Z",
     "commitMessage": "feat(plugin-babel)!: publish as pure ESM package (#7919)",
