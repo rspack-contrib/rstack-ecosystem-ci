@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4c1c0d482086041bddd619b45d1e117bdb897b46",
+    "commitTimestamp": "2026-06-16T12:27:37Z",
+    "commitMessage": "chore(e2e): skip browser mode in threads run (#1432)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27617511263",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27617511263/job/81657104339"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27617511263/job/81657104381"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27617511263/job/81657104400"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27617511263/job/81657104453"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27617511263/job/81657104465"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27617511263/job/81657104468"
+      }
+    ]
+  },
+  {
     "commitSha": "f661377a7be7f81f37b39576b41b12c86dc2595d",
     "commitTimestamp": "2026-06-16T11:37:48Z",
     "commitMessage": "ci: consolidate static checks in lint workflow (#1430)",
