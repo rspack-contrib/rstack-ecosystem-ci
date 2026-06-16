@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d79f75a2585c8628e0295da3f044ccac55340caa",
+    "commitTimestamp": "2026-06-16T03:44:34Z",
+    "commitMessage": "fix(core): compact build time logs (#7911)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27592666235",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27592666235/job/81576539252"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27592666235/job/81576539258"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27592666235/job/81576539269"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27592666235/job/81576539272"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27592666235/job/81576539291"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27592666235/job/81576539324"
+      }
+    ]
+  },
+  {
     "commitSha": "40ef9029a5f2c27eaeafb8e1ba311542684dccab",
     "commitTimestamp": "2026-06-16T03:14:47Z",
     "commitMessage": "perf(core): patch dotenv-expand to improve performance (#7910)",
