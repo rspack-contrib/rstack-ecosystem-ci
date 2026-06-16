@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f661377a7be7f81f37b39576b41b12c86dc2595d",
+    "commitTimestamp": "2026-06-16T11:37:48Z",
+    "commitMessage": "ci: consolidate static checks in lint workflow (#1430)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27614793088",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27614793088/job/81647882003"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27614793088/job/81647882012"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27614793088/job/81647882016"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27614793088/job/81647882041"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27614793088/job/81647882063"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27614793088/job/81647882093"
+      }
+    ]
+  },
+  {
     "commitSha": "84ccf9e4cf981e0083f274a3b1ad9d08ac59dd00",
     "commitTimestamp": "2026-06-16T08:23:22Z",
     "commitMessage": "fix(browser): preserve dot dirs in context exclude globs (#1426)",
