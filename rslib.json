@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "6963b95863f714ffa7393c6f0e4d9a0d655b86c1",
+    "commitTimestamp": "2026-06-16T10:51:03Z",
+    "commitMessage": "perf(core): use deterministic module ids for web targets (#1703)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27612386580",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27612386580/job/81639785325"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27612386580/job/81639785331"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27612386580/job/81639785360"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27612386580/job/81639785365"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27612386580/job/81639785388"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27612386580/job/81639785435"
+      }
+    ]
+  },
+  {
     "commitSha": "1a78bafcc6a6bbed15526a6835b34c399d614a6c",
     "commitTimestamp": "2026-06-16T10:41:50Z",
     "commitMessage": "chore(deps): update security dependencies (#1704)",
