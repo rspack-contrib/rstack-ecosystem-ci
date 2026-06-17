@@ -46,7 +46,7 @@ export async function test(options: RunOptions) {
       'test:ut',
       async () => {
         cd('./tests');
-        await $`pnpm run test:rstest`;
+        await $`pnpm run test:rstest-adapter`;
         cd('..');
       },
     ],
