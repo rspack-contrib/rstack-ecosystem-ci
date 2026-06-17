@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "d8e690fa31333779e6c25a6aeef37abef460fe88",
+    "commitTimestamp": "2026-06-17T12:58:36Z",
+    "commitMessage": "feat(cache): add maxAge and maxGenerations for persistent cache cleanup (#14296)",
+    "author": {
+      "name": "matthewdavis-oai",
+      "email": "matthewdavis@openai.com",
+      "login": "matthewdavis-oai"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27691119982",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27691119982/job/81902220808"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27691119982/job/81902220812"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27691119982/job/81902220819"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27691119982/job/81902220832"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27691119982/job/81902220843"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27691119982/job/81902220864"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27691119982/job/81902220869"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27691119982/job/81902220878"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27691119982/job/81902220887"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27691119982/job/81902220890"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27691119982/job/81902220910"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27691119982/job/81902221118"
+      }
+    ]
+  },
+  {
     "commitSha": "e0b0b3b9e9f77337b5edb588b1b2ed28b5ff11ec",
     "commitTimestamp": "2026-06-17T11:27:46Z",
     "commitMessage": "feat: enable pureFunctions by default (#14465)",
