@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "8d1ddd46168c057bbcdee5a7513528d31beb84e1",
+    "commitTimestamp": "2026-06-17T03:14:55Z",
+    "commitMessage": "fix(core): preserve base environment project name (#1431)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27663343920",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27663343920/job/81812071407"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27663343920/job/81812071412"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27663343920/job/81812071416"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27663343920/job/81812071421"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27663343920/job/81812071423"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27663343920/job/81812071467"
+      }
+    ]
+  },
+  {
     "commitSha": "4c1c0d482086041bddd619b45d1e117bdb897b46",
     "commitTimestamp": "2026-06-16T12:27:37Z",
     "commitMessage": "chore(e2e): skip browser mode in threads run (#1432)",
