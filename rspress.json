@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "248d1aa9c237ceb4385a3500c00581c775cf75ec",
+    "commitTimestamp": "2026-06-17T06:53:10Z",
+    "commitMessage": "chore(deps): update shiki to ^4.2.0 (#3464)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27671394790",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27671394790/job/81836323574"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27671394790/job/81836323577"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27671394790/job/81836323656"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27671394790/job/81836323689"
+      }
+    ]
+  },
+  {
     "commitSha": "6dd18ce69123827ebc8586d956041ca4fd8c273e",
     "commitTimestamp": "2026-06-17T06:21:51Z",
     "commitMessage": "feat(search): Allow excluding pages from default search via frontmatter (#3456)",
