@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d50969ea4128846d90011297ace14ee661b36466",
+    "commitTimestamp": "2026-06-17T02:32:18Z",
+    "commitMessage": "chore(deps): update dependency @rslib/core to v0.23.0 (#7926)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27661884140",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27661884140/job/81807749478"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27661884140/job/81807749480"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27661884140/job/81807749504"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27661884140/job/81807749509"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27661884140/job/81807749550"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27661884140/job/81807749635"
+      }
+    ]
+  },
+  {
     "commitSha": "36ef25878854170ccf004ec3b01dfa98b2e605ee",
     "commitTimestamp": "2026-06-17T02:23:03Z",
     "commitMessage": "chore(plugin-babel): add npm support metadata (#7925)",
