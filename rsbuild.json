@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "47149b33e22ed6b3ed2ebcf308393c029cce53c3",
+    "commitTimestamp": "2026-06-17T02:47:16Z",
+    "commitMessage": "fix(plugin-babel): remove rspack cache guard (#7928)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27662392011",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27662392011/job/81809233026"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27662392011/job/81809233030"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27662392011/job/81809233035"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27662392011/job/81809233045"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27662392011/job/81809233048"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27662392011/job/81809233084"
+      }
+    ]
+  },
+  {
     "commitSha": "d69d8d01d98138fc9374607a6bbe6e860d73232f",
     "commitTimestamp": "2026-06-17T02:33:14Z",
     "commitMessage": "chore(deps): update @rsbuild/plugin-babel to v2 (#7927)",
