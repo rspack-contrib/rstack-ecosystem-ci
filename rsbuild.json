@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c964961df73521cd6dfc500b80d8477fd9696aee",
+    "commitTimestamp": "2026-06-17T08:39:21Z",
+    "commitMessage": "test: add Wasm source import e2e case (#7931)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27677290733",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27677290733/job/81855636264"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27677290733/job/81855636285"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27677290733/job/81855636299"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27677290733/job/81855636304"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27677290733/job/81855636306"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27677290733/job/81855636339"
+      }
+    ]
+  },
+  {
     "commitSha": "b364b9016902e0582b42342359fdc5005769fe13",
     "commitTimestamp": "2026-06-17T07:52:37Z",
     "commitMessage": "feat(core): enable source import by default (#7930)",
