@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d51342645d3f90205bf540ddb727132d7db59a3e",
+    "commitTimestamp": "2026-06-18T14:31:09Z",
+    "commitMessage": "chore(deps): update dependency oxfmt to ^0.55.0 (#7942)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27766798432",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27766798432/job/82155652357"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27766798432/job/82155652371"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27766798432/job/82155652395"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27766798432/job/82155652399"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27766798432/job/82155652411"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27766798432/job/82155652439"
+      }
+    ]
+  },
+  {
     "commitSha": "efe4fbdcbe9c661c03ed2a748f1a3af856580817",
     "commitTimestamp": "2026-06-18T14:15:03Z",
     "commitMessage": "feat(plugin-react): add reactCompiler option (#7938)",
