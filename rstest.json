@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f313e7efefe733bba9d1b772debe9e74eb020514",
+    "commitTimestamp": "2026-06-18T11:24:14Z",
+    "commitMessage": "release: 0.10.6 (#1440)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27756108886",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27756108886/job/82118258981"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27756108886/job/82118258982"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27756108886/job/82118258997"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27756108886/job/82118259016"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27756108886/job/82118259070"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27756108886/job/82118259168"
+      }
+    ]
+  },
+  {
     "commitSha": "52b3925eac441f5eb19f907c4b41c1a6a29d5338",
     "commitTimestamp": "2026-06-18T08:42:37Z",
     "commitMessage": "docs: add runtime troubleshooting guide (#1436)",
