@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ee97da4745f7bdb0d0e459c1b71da241d0bb6014",
+    "commitTimestamp": "2026-06-18T09:33:25Z",
+    "commitMessage": "refactor: use rspack magic comment prefix (#7864)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27750364300",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27750364300/job/82099040529"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27750364300/job/82099040533"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27750364300/job/82099040545"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27750364300/job/82099040557"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27750364300/job/82099040571"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27750364300/job/82099040687"
+      }
+    ]
+  },
+  {
     "commitSha": "db5d2d96c6471add64205d88f396a25bbe2c2619",
     "commitTimestamp": "2026-06-18T03:05:05Z",
     "commitMessage": "test: refine html tag relative path e2e (#7936)",
