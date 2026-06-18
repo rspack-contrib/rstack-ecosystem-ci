@@ -96,6 +96,54 @@
     ]
   },
   {
+    "commitSha": "016e642df506943f4fb85e69a39ba331eb1b7ad9",
+    "commitTimestamp": "2026-06-18T14:28:55Z",
+    "commitMessage": "fix(plugin-react): check reactCompiler rspack version (#7940)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27766654764",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27766654764/job/82155137208"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27766654764/job/82155137236"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27766654764/job/82155137240"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27766654764/job/82155137259"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27766654764/job/82155137420"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27766654764/job/82155137582"
+      }
+    ]
+  },
+  {
     "commitSha": "efe4fbdcbe9c661c03ed2a748f1a3af856580817",
     "commitTimestamp": "2026-06-18T14:15:03Z",
     "commitMessage": "feat(plugin-react): add reactCompiler option (#7938)",
