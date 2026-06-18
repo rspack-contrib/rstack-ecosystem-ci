@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a3c0e8f010413156bb87113d1f2fe565bf39fd92",
+    "commitTimestamp": "2026-06-18T14:46:12Z",
+    "commitMessage": "release: @rsbuild/plugin-react v2.1.0 (#7945)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27767746999",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27767746999/job/82159035703"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27767746999/job/82159035718"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27767746999/job/82159035743"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27767746999/job/82159035853"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27767746999/job/82159035861"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27767746999/job/82159035949"
+      }
+    ]
+  },
+  {
     "commitSha": "163239e11d878c0eb6939c84e719e851a5993736",
     "commitTimestamp": "2026-06-18T14:31:17Z",
     "commitMessage": "chore(deps): update swc monorepo to ^12.13.0 (#7943)",
@@ -44,54 +92,6 @@
         "name": "plugins",
         "status": "success",
         "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27766806260/job/82155668091"
-      }
-    ]
-  },
-  {
-    "commitSha": "75489ebfbeb678b8de3d256d3ae0be27b9af614e",
-    "commitTimestamp": "2026-06-18T14:27:14Z",
-    "commitMessage": "chore(deps): update dependency http-proxy-middleware to v4.1.1 [security] (#7939)",
-    "author": {
-      "name": "renovate[bot]",
-      "email": "29139614+renovate[bot]@users.noreply.github.com",
-      "login": "renovate[bot]"
-    },
-    "repository": {
-      "fullName": "web-infra-dev/rsbuild",
-      "name": "rsbuild"
-    },
-    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27766547941",
-    "overallStatus": "failure",
-    "suites": [
-      {
-        "name": "modernjs",
-        "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27766547941/job/82154751749"
-      },
-      {
-        "name": "rspress",
-        "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27766547941/job/82154751798"
-      },
-      {
-        "name": "rstest",
-        "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27766547941/job/82154751874"
-      },
-      {
-        "name": "examples",
-        "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27766547941/job/82154751939"
-      },
-      {
-        "name": "plugins",
-        "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27766547941/job/82154751953"
-      },
-      {
-        "name": "rslib",
-        "status": "failure",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27766547941/job/82154752093"
       }
     ]
   },
