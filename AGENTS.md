@@ -190,6 +190,6 @@ flowchart TD
 
 After any change under `.github/`, classify the touched paths and tell the user the required follow-up. Do not parameterize `ref: main` in `trigger-workflow-and-wait` — it is the bridge that makes the third bucket auto-propagate.
 
-- **`.github/actions/ecosystem_ci_dispatch/**` or `ecosystem_ci_per_commit/**`** — upstream stack repos pin these by SHA. Bump `version` in `package.json`, dispatch `release.yml` to cut a new tag, then bump the two `@<sha>` pins in every upstream stack repo (Renovate normally opens these PRs).
-- **`.github/actions/ecosystem-ci-result/**`** — pinned by SHA inside the two actions above. First land a digest bump (Renovate or manual) of `ecosystem-ci-result@<sha>` in both `ecosystem_ci_dispatch` and `ecosystem_ci_per_commit`, then run the release flow above. A merge to `main` alone never reaches consumers.
+- **`.github/actions/ecosystem_ci_dispatch/**`or`ecosystem_ci_per_commit/**`** — upstream stack repos pin these by SHA. Bump `version` in `package.json`, dispatch `release.yml` to cut a new tag, then bump the two `@<sha>` pins in every upstream stack repo (Renovate normally opens these PRs).
+- **`.github/actions/ecosystem-ci-result/**`** — pinned by SHA inside the two actions above. First land a digest bump (Renovate or manual) of `ecosystem-ci-result@<sha>`in both`ecosystem_ci_dispatch`and`ecosystem_ci_per_commit`, then run the release flow above. A merge to `main` alone never reaches consumers.
 - **Everything else** (workflows, `build-*` / `prepare-rspack-binding` / `publish-rspack-to-verdaccio` actions, `ecosystem-ci.ts`, `utils.ts`, `tests/**`, lockfiles, configs) — auto-tracked by `ref: main`. No SHA work; next dispatch picks it up.
