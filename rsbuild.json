@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "6aa9805527f566b0f2e4257ff245a04be0d04daf",
+    "commitTimestamp": "2026-06-18T02:43:03Z",
+    "commitMessage": "fix(core): generate correct script paths in RsbuildHtmlPlugin (#7934)",
+    "author": {
+      "name": "Heiner Pöpping",
+      "email": "57671468+hpoepping@users.noreply.github.com",
+      "login": "hpoepping"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27733237217",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27733237217/job/82044575804"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27733237217/job/82044575807"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27733237217/job/82044575813"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27733237217/job/82044575827"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27733237217/job/82044575829"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27733237217/job/82044575831"
+      }
+    ]
+  },
+  {
     "commitSha": "6264b3407376eed56d4b25bc072c767a3c979798",
     "commitTimestamp": "2026-06-18T02:37:59Z",
     "commitMessage": "chore: add bugs metadata to remaining plugin packages (#7935)",
