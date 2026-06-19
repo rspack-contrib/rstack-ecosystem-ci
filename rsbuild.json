@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f6b7a797d84dddfed59e432e057e46dceb2ece70",
+    "commitTimestamp": "2026-06-19T08:18:10Z",
+    "commitMessage": "chore(deps): update node.js to v24.17.0 (#7949)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27814217742",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27814217742/job/82311344142"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27814217742/job/82311344163"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27814217742/job/82311344164"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27814217742/job/82311344193"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27814217742/job/82311344200"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27814217742/job/82311344253"
+      }
+    ]
+  },
+  {
     "commitSha": "858d88e2c6e65679a37dfdff0537d2d33cb44371",
     "commitTimestamp": "2026-06-19T08:17:33Z",
     "commitMessage": "feat(create-rsbuild): use reactCompiler option (#7948)",
