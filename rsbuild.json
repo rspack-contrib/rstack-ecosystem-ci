@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c4cebeb8210fd5122a6583a87bdb1d5d8b27cdeb",
+    "commitTimestamp": "2026-06-19T00:20:20Z",
+    "commitMessage": "perf(core): reduce file size report allocations (#7941)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27797532238",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27797532238/job/82260479431"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27797532238/job/82260479432"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27797532238/job/82260479438"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27797532238/job/82260479450"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27797532238/job/82260479457"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27797532238/job/82260479469"
+      }
+    ]
+  },
+  {
     "commitSha": "5d299bd2d2ef2f08da03673d0cd20d5e09352c8c",
     "commitTimestamp": "2026-06-18T14:48:32Z",
     "commitMessage": "release: v2.1.0-beta.0 (#7946)",
