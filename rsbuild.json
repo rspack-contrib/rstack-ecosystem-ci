@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "858d88e2c6e65679a37dfdff0537d2d33cb44371",
+    "commitTimestamp": "2026-06-19T08:17:33Z",
+    "commitMessage": "feat(create-rsbuild): use reactCompiler option (#7948)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27814193891",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27814193891/job/82311266996"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27814193891/job/82311267003"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27814193891/job/82311267008"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27814193891/job/82311267028"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27814193891/job/82311267043"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27814193891/job/82311267127"
+      }
+    ]
+  },
+  {
     "commitSha": "a17b8c16dd523d9b02deece454d1e8067661146a",
     "commitTimestamp": "2026-06-19T03:56:18Z",
     "commitMessage": "chore(deps): update pnpm to v11.7.0 (#7950)",
