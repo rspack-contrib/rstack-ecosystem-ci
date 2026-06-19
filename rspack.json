@@ -1,8 +1,8 @@
 [
   {
-    "commitSha": "5b9e15bd10121119e5c167d14dd0004219310899",
-    "commitTimestamp": "2026-06-19T12:20:07Z",
-    "commitMessage": "chore(ci): pause portable cache check (#14492)",
+    "commitSha": "3bfbb46efa3b549e75f8f6da5de91ca5aeb87a99",
+    "commitTimestamp": "2026-06-19T12:23:51Z",
+    "commitMessage": "chore(ci): align hookTimeout with testTimeout to fix flaky afterAll close timeout (#14498)",
     "author": {
       "name": "pshu",
       "email": "stormslowly@gmail.com",
@@ -12,68 +12,68 @@
       "fullName": "web-infra-dev/rspack",
       "name": "rspack"
     },
-    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27825661027",
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27825801093",
     "overallStatus": "failure",
     "suites": [
       {
-        "name": "rspress",
-        "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27825661027/job/82349389754"
-      },
-      {
-        "name": "rsbuild-rsc-plugin",
-        "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27825661027/job/82349389759"
-      },
-      {
-        "name": "_selftest",
-        "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27825661027/job/82349389764"
-      },
-      {
-        "name": "rslib",
-        "status": "failure",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27825661027/job/82349389767"
-      },
-      {
-        "name": "devserver",
-        "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27825661027/job/82349389781"
-      },
-      {
-        "name": "rsbuild",
-        "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27825661027/job/82349389784"
-      },
-      {
         "name": "rstest",
         "status": "failure",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27825661027/job/82349389785"
-      },
-      {
-        "name": "rsdoctor",
-        "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27825661027/job/82349389786"
-      },
-      {
-        "name": "plugin",
-        "status": "failure",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27825661027/job/82349389796"
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27825801093/job/82349909377"
       },
       {
         "name": "modernjs",
         "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27825661027/job/82349389798"
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27825801093/job/82349909378"
       },
       {
-        "name": "lynx-stack",
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27825801093/job/82349909389"
+      },
+      {
+        "name": "_selftest",
         "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27825661027/job/82349389799"
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27825801093/job/82349909392"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27825801093/job/82349909396"
       },
       {
         "name": "examples",
         "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27825661027/job/82349389809"
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27825801093/job/82349909398"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27825801093/job/82349909400"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27825801093/job/82349909404"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27825801093/job/82349909405"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27825801093/job/82349909407"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27825801093/job/82349909408"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27825801093/job/82349909414"
       }
     ]
   },
