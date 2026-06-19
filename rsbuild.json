@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a17b8c16dd523d9b02deece454d1e8067661146a",
+    "commitTimestamp": "2026-06-19T03:56:18Z",
+    "commitMessage": "chore(deps): update pnpm to v11.7.0 (#7950)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27804389522",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27804389522/job/82281174687"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27804389522/job/82281174689"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27804389522/job/82281174705"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27804389522/job/82281174717"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27804389522/job/82281174754"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27804389522/job/82281174802"
+      }
+    ]
+  },
+  {
     "commitSha": "c4cebeb8210fd5122a6583a87bdb1d5d8b27cdeb",
     "commitTimestamp": "2026-06-19T00:20:20Z",
     "commitMessage": "perf(core): reduce file size report allocations (#7941)",
