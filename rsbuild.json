@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "0add67875a03eedc33b72c8419451be99afe509f",
+    "commitTimestamp": "2026-06-20T00:57:48Z",
+    "commitMessage": "chore: check formatting in lint CI (#7954)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27855376449",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27855376449/job/82441754873"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27855376449/job/82441754885"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27855376449/job/82441754898"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27855376449/job/82441754900"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27855376449/job/82441754914"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27855376449/job/82441754956"
+      }
+    ]
+  },
+  {
     "commitSha": "f5635fd7f528164a467bc0420a7e79e154a860e8",
     "commitTimestamp": "2026-06-20T00:16:01Z",
     "commitMessage": "chore(deps): keep Babel updates on v7 (#7952)",
