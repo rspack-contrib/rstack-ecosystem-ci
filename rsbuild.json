@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ba62f7a70dbdbe9e543ffc17d1a014232814db0e",
+    "commitTimestamp": "2026-06-20T06:09:02Z",
+    "commitMessage": "feat(plugin-less)!: publish as pure ESM (#7957)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27862471044",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27862471044/job/82460665347"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27862471044/job/82460665354"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27862471044/job/82460665355"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27862471044/job/82460665360"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27862471044/job/82460665375"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27862471044/job/82460665408"
+      }
+    ]
+  },
+  {
     "commitSha": "9e12d142fc040572e1cf9edbdf0798fca5f74054",
     "commitTimestamp": "2026-06-20T01:26:40Z",
     "commitMessage": "chore(deps): pin node.js to v24.16.0 (#7955)",
