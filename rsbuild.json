@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f5635fd7f528164a467bc0420a7e79e154a860e8",
+    "commitTimestamp": "2026-06-20T00:16:01Z",
+    "commitMessage": "chore(deps): keep Babel updates on v7 (#7952)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27854352125",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27854352125/job/82438930615"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27854352125/job/82438930634"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27854352125/job/82438930642"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27854352125/job/82438930649"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27854352125/job/82438930659"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27854352125/job/82438930670"
+      }
+    ]
+  },
+  {
     "commitSha": "8c42bf7ad393d5d7dad3721137550bd354ab8201",
     "commitTimestamp": "2026-06-19T08:20:20Z",
     "commitMessage": "perf(core): reduce file size formatting promises (#7947)",
