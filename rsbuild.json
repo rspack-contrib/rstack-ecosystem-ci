@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2c10871f7d15249b93f7623f2df76816b390f810",
+    "commitTimestamp": "2026-06-21T00:04:10Z",
+    "commitMessage": "chore(deps): upgrade reduce-configs catalog to v2 (#7960)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27887931992",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27887931992/job/82526262181"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27887931992/job/82526262183"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27887931992/job/82526262195"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27887931992/job/82526262197"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27887931992/job/82526262216"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27887931992/job/82526262282"
+      }
+    ]
+  },
+  {
     "commitSha": "cdc4d4f4d25b15eacd1114aa109ed4beec1b9d47",
     "commitTimestamp": "2026-06-20T12:53:37Z",
     "commitMessage": "feat(plugin-less)!: drop Rsbuild v1 support (#7959)",
