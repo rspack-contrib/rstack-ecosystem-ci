@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "17a759bcf9129e3301cebd43feba30c8d4d52eb0",
+    "commitTimestamp": "2026-06-21T08:01:23Z",
+    "commitMessage": "test: mock Rsdoctor package in e2e (#7964)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27898050894",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27898050894/job/82553147262"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27898050894/job/82553147267"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27898050894/job/82553147276"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27898050894/job/82553147299"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27898050894/job/82553147347"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27898050894/job/82553147487"
+      }
+    ]
+  },
+  {
     "commitSha": "f171ca93746a46d5d48e5555f4a255177f1ad487",
     "commitTimestamp": "2026-06-21T00:34:33Z",
     "commitMessage": "release: @rsbuild/plugin-less v2.0.0 (#7962)",
