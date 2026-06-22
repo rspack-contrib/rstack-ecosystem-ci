@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "09fb16c97f378ca5d56f6ae4bf0df32cc2e35520",
+    "commitTimestamp": "2026-06-22T05:40:25Z",
+    "commitMessage": "fix(mdx/title): strip inline markdown in h1 e.g: \"# `__ReplaceElements`\" (#3468)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27932050946",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27932050946/job/82645737841"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27932050946/job/82645737883"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27932050946/job/82645737909"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27932050946/job/82645737929"
+      }
+    ]
+  },
+  {
     "commitSha": "d94f3605b4c80afc2f946246d50286a91c08389b",
     "commitTimestamp": "2026-06-22T05:15:04Z",
     "commitMessage": "chore(deps): update dependency remark-cjk-friendly to ^2.3.1 (#3472)",
