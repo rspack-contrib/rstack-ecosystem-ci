@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "19fa07343a45db1952a05332543d440c0dd64a37",
+    "commitTimestamp": "2026-06-22T02:16:30Z",
+    "commitMessage": "chore(deps): update pnpm to v11.8.0 (#7968)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27925462271",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27925462271/job/82626938292"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27925462271/job/82626938294"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27925462271/job/82626938304"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27925462271/job/82626938314"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27925462271/job/82626938340"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27925462271/job/82626938385"
+      }
+    ]
+  },
+  {
     "commitSha": "17a759bcf9129e3301cebd43feba30c8d4d52eb0",
     "commitTimestamp": "2026-06-21T08:01:23Z",
     "commitMessage": "test: mock Rsdoctor package in e2e (#7964)",
