@@ -110,48 +110,13 @@ jobs:
           ${{ matrix.suite }}
 
   update-history:
-    name: Update Ecosystem History
     needs: [execute-all]
     if: ${{ always() && inputs.suite == '-' }}
-    runs-on: ubuntu-latest
     permissions:
       contents: write
       actions: read
-    steps:
-      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
-        with:
-          persist-credentials: false
-      - uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6.4.0
-        with:
-          node-version: 22.22.3
-          package-manager-cache: false
-      - name: Get CI Result
-        id: eco-ci-result
-        uses: ./.github/actions/ecosystem-ci-result
-        with:
-          heading: rstest
-          workflow-output: '{"workflow_id": "${{ github.run_id }}"}'
-      - name: Update Ecosystem History
-        id: update-history
-        env:
-          STACK: rstest
-          SOURCE_REPO: ${{ inputs.repo }}
-          SOURCE_COMMIT: ${{ inputs.commitSHA }}
-          SUMMARY_MARKDOWN: ${{ steps.eco-ci-result.outputs.summary }}
-          RESULTS_JSON: ${{ steps.eco-ci-result.outputs.results }}
-          HISTORY_REPOSITORY: ${{ github.repository }}
-          OUTPUT_DIR: data-artifacts
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: node scripts/update-ecosystem-history.mjs
-      - name: Publish History
-        if: ${{ steps.update-history.outcome == 'success' }}
-        uses: JamesIves/github-pages-deploy-action@d92aa235d04922e8f08b40ce78cc5442fcfbfa2f # v4
-        with:
-          branch: data
-          folder: data-artifacts
-          clean: false
-          target-folder: .
-          token: ${{ secrets.GITHUB_TOKEN }}
-          repository-name: ${{ github.repository }}
-          git-config-name: github-actions[bot]
-          git-config-email: github-actions[bot]@users.noreply.github.com
+    uses: ./.github/workflows/_update-history.yml
+    with:
+      stack: rstest
+      repo: ${{ inputs.repo }}
+      commitSHA: ${{ inputs.commitSHA }}

@@ -110,7 +110,7 @@ flowchart TD
 
 ### from-commit
 
-Automatically triggered by upstream CI on each push to main; posts a commit comment on failure and feeds runs into the website's `data` branch. The `data`-branch push runs **inside the downstream workflow** (`update-history` job, only when `suite == '-'`) using the downstream repo's own `GITHUB_TOKEN` (`contents: write` + `actions: read`). The consumer's dispatch token therefore only needs **Actions read/write** — never `Contents`.
+Automatically triggered by upstream CI on each push to main; posts a commit comment on failure and feeds runs into the website's `data` branch. The `data`-branch push runs **inside the downstream workflow** (`update-history` job, only when `suite == '-'`) using the downstream repo's own `GITHUB_TOKEN` (`contents: write` + `actions: read`). The consumer's dispatch token therefore only needs **Actions read/write** — never `Contents`. Each stack's `update-history` job is a thin caller of the shared reusable workflow `.github/workflows/_update-history.yml` (`workflow_call`, parameterized by `stack` / `repo` / `commitSHA`), so the summarize → build-payload → publish logic lives in exactly one place across all six stacks.
 
 ```mermaid
 flowchart TD
@@ -156,6 +156,7 @@ flowchart TD
         %% and push the data payload to the data branch with the downstream
         %% GITHUB_TOKEN (contents: write + actions: read). No consumer PAT here —
         %% this is why the consumer token only needs Actions RW, not Contents RW.
+        %% Job body is shared via reusable workflow .github/workflows/_update-history.yml.
         ecoCiResultDown["ecosystem-ci-result: fetch THIS run's jobs, build summary"]
         updateHistory["update-ecosystem-history.mjs: build data-artifacts payload"]
         publishHistory["JamesIves/github-pages-deploy-action<br/>push artifacts to the data branch via GITHUB_TOKEN (feeds website/)<br/>(guarded: if steps.update-history.outcome == 'success')"]
