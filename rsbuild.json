@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a6c98a33fb13629ecc5e059ef13fefe85a348ef6",
+    "commitTimestamp": "2026-06-22T10:57:36Z",
+    "commitMessage": "feat(plugin-vue): drop Rsbuild v1 support (#7975)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27947781081",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27947781081/job/82696808530"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27947781081/job/82696808533"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27947781081/job/82696808589"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27947781081/job/82696808616"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27947781081/job/82696808661"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27947781081/job/82696808698"
+      }
+    ]
+  },
+  {
     "commitSha": "f0ea47a0b31fb44352378f4b8d3711c2c6cd560b",
     "commitTimestamp": "2026-06-22T09:47:08Z",
     "commitMessage": "feat(plugin-vue)!: publish as pure ESM package (#7974)",
