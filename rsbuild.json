@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ac5f22de53fbb5f212331760ec591d2b3506a729",
+    "commitTimestamp": "2026-06-22T04:46:39Z",
+    "commitMessage": "chore: check plugin changelogs with cspell (#7972)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27930228340",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27930228340/job/82640486567"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27930228340/job/82640486577"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27930228340/job/82640486583"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27930228340/job/82640486592"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27930228340/job/82640486623"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27930228340/job/82640486707"
+      }
+    ]
+  },
+  {
     "commitSha": "70ce50cc093c590fb8f71553bb08fdb2491e81dd",
     "commitTimestamp": "2026-06-22T02:59:13Z",
     "commitMessage": "docs: add plugin changelogs (#7970)",
