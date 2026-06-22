@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "dd26cb8680dca9f9c9df7a14c9c34b2f11d3e7e8",
+    "commitTimestamp": "2026-06-22T08:53:13Z",
+    "commitMessage": "chore: bump rsbuild and rspack 2.1 beta (#1448)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27941112285",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27941112285/job/82674462877"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27941112285/job/82674462883"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27941112285/job/82674462897"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27941112285/job/82674462990"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27941112285/job/82674463071"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27941112285/job/82674463169"
+      }
+    ]
+  },
+  {
     "commitSha": "47d509eeaf9ef060ccc4b4fbc636e8e165aa7975",
     "commitTimestamp": "2026-06-22T07:09:07Z",
     "commitMessage": "fix(core): show full stack when filtered stack is empty (#1446)",
