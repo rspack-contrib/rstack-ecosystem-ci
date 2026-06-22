@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "70ce50cc093c590fb8f71553bb08fdb2491e81dd",
+    "commitTimestamp": "2026-06-22T02:59:13Z",
+    "commitMessage": "docs: add plugin changelogs (#7970)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27926805648",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27926805648/job/82630683582"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27926805648/job/82630683584"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27926805648/job/82630683603"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27926805648/job/82630683605"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27926805648/job/82630683625"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27926805648/job/82630683691"
+      }
+    ]
+  },
+  {
     "commitSha": "eed45145a7aa4cd9a1f4b62b10648977e51920a5",
     "commitTimestamp": "2026-06-22T02:22:27Z",
     "commitMessage": "chore(deps): update swc monorepo to ^12.14.0 (#7969)",
