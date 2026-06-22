@@ -222,3 +222,15 @@ jobs:
             --stack rspack \
             "${suite_ref_args[@]}" \
             ${{ matrix.suite }}
+
+  update-history:
+    needs: [execute-all]
+    if: ${{ always() && inputs.suite == '-' }}
+    permissions:
+      contents: write
+      actions: read
+    uses: ./.github/workflows/_update-history.yml
+    with:
+      stack: rspack
+      repo: ${{ inputs.repo }}
+      commitSHA: ${{ inputs.commitSHA }}

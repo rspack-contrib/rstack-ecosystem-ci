@@ -228,14 +228,14 @@ The table cell can't carry a real list. Markdown table cells flatten newlines, a
 Table column order and stack order:
 
 ```markdown
-| Stack    | Status         | Run                                                                                     | Created              | Notes                                                                                                            |
-| -------- | -------------- | --------------------------------------------------------------------------------------- | -------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Stack    | Status         | Run                                                                                     | Created              | Notes                                                                                                                 |
+| -------- | -------------- | --------------------------------------------------------------------------------------- | -------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | rsbuild  | ✅ OK          | [26557329578](https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/26557329578) | 2026-05-28 05:50 UTC | modernjs prepare lifecycle crashed: rsbuild#7773 (async templateParameters) ↔ modernjs hook not awaited — see details |
-| rsdoctor | ✅ OK          | [26018807250](…)                                                                        | 2026-05-18 07:07 UTC | rsbuild suite: 4 vitest tests failed — see details                                                               |
-| rslib    | ✅ OK          | [26382662636](…)                                                                        | 2026-05-25 04:07 UTC | all suites passed                                                                                                |
-| rspack   | 🛑 ECO-CI SELF | [26384019463](…)                                                                        | 2026-05-25 04:57 UTC | 1 framework failure (`_selftest`); 6 sibling jobs surfaced real upstream↔consumer breakage — see details         |
-| rspress  | ✅ OK          | [26381920989](…)                                                                        | 2026-05-25 03:40 UTC | all suites passed                                                                                                |
-| rstest   | ✅ OK          | [26382680571](…)                                                                        | 2026-05-25 04:08 UTC | all suites passed                                                                                                |
+| rsdoctor | ✅ OK          | [26018807250](…)                                                                        | 2026-05-18 07:07 UTC | rsbuild suite: 4 vitest tests failed — see details                                                                    |
+| rslib    | ✅ OK          | [26382662636](…)                                                                        | 2026-05-25 04:07 UTC | all suites passed                                                                                                     |
+| rspack   | 🛑 ECO-CI SELF | [26384019463](…)                                                                        | 2026-05-25 04:57 UTC | 1 framework failure (`_selftest`); 6 sibling jobs surfaced real upstream↔consumer breakage — see details              |
+| rspress  | ✅ OK          | [26381920989](…)                                                                        | 2026-05-25 03:40 UTC | all suites passed                                                                                                     |
+| rstest   | ✅ OK          | [26382680571](…)                                                                        | 2026-05-25 04:08 UTC | all suites passed                                                                                                     |
 ```
 
 Followed by:
@@ -275,7 +275,7 @@ There is no `✅ OK (test failed)` sub-state any more. Tests-passed-but-vitest-r
 **`## Details` section** — the actual evidence chain, written as proper Markdown lists where renderers naturally break each item onto its own line.
 
 - One `### <stack> — <run link>` heading per non-pure-passing row in the table.
-- Underneath each heading, a real Markdown ordered list. Prefix each item with its per-job verdict so the reader can sort framework-bugs from ecosystem-signals at a glance: `1. **🛑 \`<job-name>\`** — <one-line summary of the failing command and verbatim error>.<newline-and-indent>Root cause: <evidence with file path + line + SHA / version cited inline>.` or `1. **✅ \`<job-name>\` — real ecosystem signal** — …`.
+- Underneath each heading, a real Markdown ordered list. Prefix each item with its per-job verdict so the reader can sort framework-bugs from ecosystem-signals at a glance: `1. **🛑 \`<job-name>\`** — <one-line summary of the failing command and verbatim error>.<newline-and-indent>Root cause: <evidence with file path + line + SHA / version cited inline>.`or`1. **✅ \`<job-name>\` — real ecosystem signal\*\* — …`.
 - One list item per _distinct_ root cause. Mixed runs put the 🛑 framework-failure items first and the ✅ ecosystem-signal items after, so the user sees "what we have to fix in this repo" before "what we have to ping the owners about."
 - Quote ≤80 chars of any verbatim error per item. Never paste log lines longer than one screen line. Always cite the file path + line + SHA / package version that backs the root-cause claim so the user can re-verify in two clicks. For every non-vitest ecosystem signal, also cite the first-bad upstream commit from Step 5 sub-step 6.
 - The list items are real Markdown — they MUST start with `1.` `2.` `3.` … on their own line, NOT be jammed onto one line separated by HTML.

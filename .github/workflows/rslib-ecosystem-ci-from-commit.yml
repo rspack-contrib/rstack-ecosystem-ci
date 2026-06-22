@@ -106,3 +106,15 @@ jobs:
           run-suites
           --stack rslib
           ${{ matrix.suite }}
+
+  update-history:
+    needs: [execute-all]
+    if: ${{ always() && inputs.suite == '-' }}
+    permissions:
+      contents: write
+      actions: read
+    uses: ./.github/workflows/_update-history.yml
+    with:
+      stack: rslib
+      repo: ${{ inputs.repo }}
+      commitSHA: ${{ inputs.commitSHA }}

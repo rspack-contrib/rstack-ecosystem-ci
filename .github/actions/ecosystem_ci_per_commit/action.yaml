@@ -56,24 +56,6 @@ runs:
         ref: 'main'
         client_payload: ${{ inputs.client-payload }}
 
-    - name: Checkout
-      uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
-      with:
-        fetch-depth: 1
-        # checkout@v6 persists credentials via includeIf gitdir, which leaks
-        # GITHUB_TOKEN auth into the worktree later created by
-        # JamesIves/github-pages-deploy-action and overrides the PAT in `token`,
-        # causing 403 on cross-repo push.
-        # See https://github.com/JamesIves/github-pages-deploy-action/issues/1928
-        persist-credentials: false
-
-    - name: Setup Node.js
-      if: steps.eco_ci.outcome == 'failure'
-      uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6.4.0
-      with:
-        node-version: 22.22.3
-        package-manager-cache: false
-
     - name: Get CI Result
       id: eco-ci-result
       uses: rstackjs/rstack-ecosystem-ci/.github/actions/ecosystem-ci-result@3cbb84659edaf3713e10831715d39de0d5c02df7 # main
@@ -96,39 +78,3 @@ runs:
             repo: '${{ inputs.ecosystem-repo }}',
             body: process.env.SUMMARY
           })
-
-    - name: Checkout ecosystem-ci repository
-      uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
-      with:
-        repository: rstackjs/rstack-ecosystem-ci
-        ref: main
-        path: ecosystem-ci-repo
-        fetch-depth: 1
-        persist-credentials: false
-
-    - name: Update Ecosystem History
-      id: update-history
-      shell: bash
-      env:
-        CLIENT_PAYLOAD: ${{ inputs.client-payload }}
-        SUMMARY_MARKDOWN: ${{ steps.eco-ci-result.outputs.summary }}
-        RESULTS_JSON: ${{ steps.eco-ci-result.outputs.results }}
-        WORKFLOW_FILE: ${{ inputs.workflow-file }}
-        HISTORY_REPOSITORY: rstackjs/rstack-ecosystem-ci
-        OUTPUT_DIR: data-artifacts
-        GITHUB_TOKEN: ${{ inputs.github-token }}
-      run: |
-        node "$GITHUB_WORKSPACE/ecosystem-ci-repo/scripts/update-ecosystem-history.mjs"
-
-    - name: Publish History
-      if: ${{ steps.update-history.outcome == 'success' }}
-      uses: JamesIves/github-pages-deploy-action@d92aa235d04922e8f08b40ce78cc5442fcfbfa2f # v4
-      with:
-        branch: data
-        folder: data-artifacts
-        clean: false
-        target-folder: .
-        token: ${{ inputs.github-token }}
-        repository-name: rstackjs/rstack-ecosystem-ci
-        git-config-name: github-actions[bot]
-        git-config-email: github-actions[bot]@users.noreply.github.com

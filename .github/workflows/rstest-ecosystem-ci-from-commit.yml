@@ -108,3 +108,15 @@ jobs:
           run-suites
           --stack rstest
           ${{ matrix.suite }}
+
+  update-history:
+    needs: [execute-all]
+    if: ${{ always() && inputs.suite == '-' }}
+    permissions:
+      contents: write
+      actions: read
+    uses: ./.github/workflows/_update-history.yml
+    with:
+      stack: rstest
+      repo: ${{ inputs.repo }}
+      commitSHA: ${{ inputs.commitSHA }}
