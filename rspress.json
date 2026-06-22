@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "a627fce682083c146b6c2b444f6525daeff63eb5",
+    "commitTimestamp": "2026-06-22T07:06:16Z",
+    "commitMessage": "refactor(search): extract helper and add idle callback cleanup ♻️ (#3467)",
+    "author": {
+      "name": "Sanjaiyan Parthipan",
+      "email": "parthipankalayini@gmail.com",
+      "login": "sanjaiyan-dev"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27935625433",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27935625433/job/82656530490"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27935625433/job/82656530506"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27935625433/job/82656530512"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/27935625433/job/82656530519"
+      }
+    ]
+  },
+  {
     "commitSha": "09fb16c97f378ca5d56f6ae4bf0df32cc2e35520",
     "commitTimestamp": "2026-06-22T05:40:25Z",
     "commitMessage": "fix(mdx/title): strip inline markdown in h1 e.g: \"# `__ReplaceElements`\" (#3468)",
