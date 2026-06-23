@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b4d21dfbd90e8b411274e46b823c5f56afdf72e9",
+    "commitTimestamp": "2026-06-23T06:10:09Z",
+    "commitMessage": "refactor(core)!: remove pool.minWorkers config field and CLI flag (#1451)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28006481595",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28006481595/job/82889526578"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28006481595/job/82889526614"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28006481595/job/82889526617"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28006481595/job/82889526661"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28006481595/job/82889526664"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28006481595/job/82889526797"
+      }
+    ]
+  },
+  {
     "commitSha": "ed050fc4d9e23d9295c37062e4b075c7a56a7154",
     "commitTimestamp": "2026-06-23T05:26:46Z",
     "commitMessage": "refactor(core)!: drop shard config field, use --shard CLI only (#1449)",
