@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7b60b0aa8b8c51116750573ddd9ff67695f10e70",
+    "commitTimestamp": "2026-06-23T13:00:07Z",
+    "commitMessage": "chore: add pre-push lint gate via lefthook (#1466)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28028067725",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28028067725/job/82960957393"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28028067725/job/82960957395"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28028067725/job/82960957456"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28028067725/job/82960957518"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28028067725/job/82960957523"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28028067725/job/82960957722"
+      }
+    ]
+  },
+  {
     "commitSha": "a702a0ce87de25b79740e777a489843bc0817017",
     "commitTimestamp": "2026-06-23T07:11:33Z",
     "commitMessage": "fix(core): avoid excluding test directories from coverage (#1460)",
