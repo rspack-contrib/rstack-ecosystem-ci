@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "cedd303c487a50dce303282215bd61aae4cec031",
+    "commitTimestamp": "2026-06-23T04:48:42Z",
+    "commitMessage": "fix(browser): detect page death by events instead of a per-file timeout (#1457)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28002952569",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28002952569/job/82878935436"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28002952569/job/82878935449"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28002952569/job/82878935459"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28002952569/job/82878935525"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28002952569/job/82878935563"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28002952569/job/82878935629"
+      }
+    ]
+  },
+  {
     "commitSha": "8f57c64301590cc503496af775ce27fba3620b72",
     "commitTimestamp": "2026-06-22T09:20:19Z",
     "commitMessage": "feat(core): align fake timers api (#1439)",
