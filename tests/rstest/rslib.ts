@@ -6,6 +6,7 @@ export async function test(options: RunOptions) {
     ...options,
     repo: 'web-infra-dev/rslib',
     branch: process.env.RSLIB ?? 'main',
+    build: 'node --run build',
     test: ['test:unit', 'test:integration'],
   });
 }
