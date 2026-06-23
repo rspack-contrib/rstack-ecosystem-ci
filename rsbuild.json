@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b509ead309f40dd4f4a07c165d8c4d4c2d499990",
+    "commitTimestamp": "2026-06-23T08:50:30Z",
+    "commitMessage": "chore(plugin-babel): remove prebundled babel-loader (#7980)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28014217619",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28014217619/job/82914456589"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28014217619/job/82914456596"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28014217619/job/82914456598"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28014217619/job/82914456602"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28014217619/job/82914456655"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28014217619/job/82914458051"
+      }
+    ]
+  },
+  {
     "commitSha": "072ddff8dbc2cdc4e26846dba7bb47fc79db9898",
     "commitTimestamp": "2026-06-23T06:50:21Z",
     "commitMessage": "chore: move build out of prepare (#7979)",
