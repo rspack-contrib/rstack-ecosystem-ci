@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "569c2ce59de8e56e451bad2519a35ad6fc1606ac",
+    "commitTimestamp": "2026-06-23T06:25:30Z",
+    "commitMessage": "chore: move build out of root prepare script (#1461)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28006938683",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28006938683/job/82890968519"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28006938683/job/82890968526"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28006938683/job/82890968528"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28006938683/job/82890968572"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28006938683/job/82890968577"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28006938683/job/82890968611"
+      }
+    ]
+  },
+  {
     "commitSha": "b4d21dfbd90e8b411274e46b823c5f56afdf72e9",
     "commitTimestamp": "2026-06-23T06:10:09Z",
     "commitMessage": "refactor(core)!: remove pool.minWorkers config field and CLI flag (#1451)",
