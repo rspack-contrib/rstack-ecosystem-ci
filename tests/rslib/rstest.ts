@@ -6,6 +6,7 @@ export async function test(options: RunOptions) {
     ...options,
     repo: 'web-infra-dev/rstest',
     branch: process.env.RSTEST ?? 'main',
+    build: 'node --run build',
     test: ['test', 'test:examples'],
     beforeTest: async () => {
       await $`pnpm exec playwright install chromium --with-deps`;
