@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f564b1d1701774baba8ba9b987524a015b953cfe",
+    "commitTimestamp": "2026-06-23T06:55:44Z",
+    "commitMessage": "refactor(core)!: make mock factories sync typed (#1459)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28008917570",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28008917570/job/82897216395"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28008917570/job/82897216428"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28008917570/job/82897216433"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28008917570/job/82897216437"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28008917570/job/82897216438"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28008917570/job/82897216454"
+      }
+    ]
+  },
+  {
     "commitSha": "569c2ce59de8e56e451bad2519a35ad6fc1606ac",
     "commitTimestamp": "2026-06-23T06:25:30Z",
     "commitMessage": "chore: move build out of root prepare script (#1461)",
