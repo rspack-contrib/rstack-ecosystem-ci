@@ -6,6 +6,7 @@ export async function test(options: RunOptions) {
     ...options,
     repo: 'web-infra-dev/rslib',
     branch: process.env.RSLIB ?? 'main',
+    build: 'node --run build',
     beforeTest: async () => {
       cd('./tests');
       await $`pnpm exec playwright install --with-deps`;
