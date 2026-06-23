@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ed050fc4d9e23d9295c37062e4b075c7a56a7154",
+    "commitTimestamp": "2026-06-23T05:26:46Z",
+    "commitMessage": "refactor(core)!: drop shard config field, use --shard CLI only (#1449)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28004401951",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28004401951/job/82883220444"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28004401951/job/82883220445"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28004401951/job/82883220447"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28004401951/job/82883220449"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28004401951/job/82883220451"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28004401951/job/82883220470"
+      }
+    ]
+  },
+  {
     "commitSha": "cedd303c487a50dce303282215bd61aae4cec031",
     "commitTimestamp": "2026-06-23T04:48:42Z",
     "commitMessage": "fix(browser): detect page death by events instead of a per-file timeout (#1457)",
