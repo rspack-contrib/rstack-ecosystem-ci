@@ -35,13 +35,13 @@ inputs:
 outputs:
   workflow-id:
     description: 'ID of the triggered downstream workflow run'
-    value: ${{ steps.eco_ci.outputs['workflow-id'] }}
+    value: ${{ steps.dispatch.outputs.run_id }}
   workflow-url:
     description: 'URL of the triggered downstream workflow run'
-    value: ${{ steps.eco_ci.outputs['workflow-url'] }}
+    value: ${{ steps.dispatch.outputs.run_url }}
   conclusion:
     description: 'Conclusion reported by the downstream workflow'
-    value: ${{ steps.eco_ci.outputs['workflow-conclusion'] }}
+    value: ${{ steps.eco_ci.outcome }}
   summary:
     description: 'Formatted markdown summary of downstream job results'
     value: ${{ steps.eco-ci-result.outputs.summary }}
@@ -114,19 +114,29 @@ runs:
           })
           return comment.id
 
-    - id: eco_ci
-      name: Run Ecosystem CI
-      uses: the-actions-org/workflow-dispatch@3133c5d135c7dbe4be4f9793872b6ef331b53bc7 # v4.0.0
+    - id: dispatch
+      name: Dispatch Ecosystem CI
+      uses: Codex-/return-dispatch@16fa9d14771c4d56ae0196bbda1d3c17f7f3650f # v3.0.2
       continue-on-error: true
       with:
-        repo: rstackjs/rstack-ecosystem-ci
-        workflow: ${{ inputs.workflow-file }}
-        ref: main
         token: ${{ inputs.github-token }}
-        inputs: ${{ inputs.client-payload }}
-        wait-for-completion: true
-        wait-for-completion-timeout: 3h
-        display-workflow-run-url: true
+        ref: main
+        owner: rstackjs
+        repo: rstack-ecosystem-ci
+        workflow: ${{ inputs.workflow-file }}
+        workflow_inputs: ${{ inputs.client-payload }}
+
+    - id: eco_ci
+      name: Await Ecosystem CI
+      uses: Codex-/await-remote-run@2512346665df8818ec7ad6aca3cdceb7626cd384 # v2.0.0
+      continue-on-error: true
+      with:
+        token: ${{ inputs.github-token }}
+        owner: rstackjs
+        repo: rstack-ecosystem-ci
+        run_id: ${{ steps.dispatch.outputs.run_id }}
+        run_timeout_seconds: 10800
+        poll_interval_ms: 30000
 
     - name: Checkout
       uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
@@ -139,7 +149,7 @@ runs:
       with:
         job-prefix: ${{ inputs.job-name-prefix }}
         heading: ${{ inputs.ecosystem-repo }}
-        workflow-output: "{\"workflow_id\": \"${{ steps.eco_ci.outputs['workflow-id'] }}\"}"
+        workflow-output: '{"run_id": "${{ steps.dispatch.outputs.run_id }}"}'
 
     - id: update-comment
       name: Update Comment
