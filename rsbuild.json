@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "072ddff8dbc2cdc4e26846dba7bb47fc79db9898",
+    "commitTimestamp": "2026-06-23T06:50:21Z",
+    "commitMessage": "chore: move build out of prepare (#7979)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28008753979",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28008753979/job/82896695460"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28008753979/job/82896695495"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28008753979/job/82896695498"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28008753979/job/82896695504"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28008753979/job/82896695578"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28008753979/job/82896695683"
+      }
+    ]
+  },
+  {
     "commitSha": "a6faf4811577215faf90597e87209c727e73cbbd",
     "commitTimestamp": "2026-06-22T13:53:12Z",
     "commitMessage": "release: @rsbuild/plugin-vue v2.0.0 (#7977)",
