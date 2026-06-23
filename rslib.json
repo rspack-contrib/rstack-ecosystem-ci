@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "cd535a8ea8c3433c332f8f21f554ff0d21a132b4",
+    "commitTimestamp": "2026-06-23T09:24:22Z",
+    "commitMessage": "chore: move build out of prepare (#1712)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28016237970",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28016237970/job/82921164445"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28016237970/job/82921164471"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28016237970/job/82921164534"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28016237970/job/82921164550"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28016237970/job/82921164574"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28016237970/job/82921164644"
+      }
+    ]
+  },
+  {
     "commitSha": "70c3d8abec77e5dc543eab6fec6b5eae2a4c3b08",
     "commitTimestamp": "2026-06-23T06:57:48Z",
     "commitMessage": "chore(deps): upgrade @rsbuild/core to 2.1.0-beta.0 (#1711)",
