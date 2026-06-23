@@ -27,13 +27,13 @@ inputs:
 outputs:
   workflow-id:
     description: 'ID of the triggered downstream workflow run'
-    value: ${{ steps.eco_ci.outputs.workflow_id }}
+    value: ${{ steps.eco_ci.outputs['workflow-id'] }}
   workflow-url:
     description: 'URL of the triggered downstream workflow run'
-    value: ${{ steps.eco_ci.outputs.workflow_url }}
+    value: ${{ steps.eco_ci.outputs['workflow-url'] }}
   conclusion:
     description: 'Conclusion reported by the downstream workflow'
-    value: ${{ steps.eco_ci.outputs.conclusion }}
+    value: ${{ steps.eco_ci.outputs['workflow-conclusion'] }}
   summary:
     description: 'Formatted markdown summary of downstream job results'
     value: ${{ steps.eco-ci-result.outputs.summary }}
@@ -47,14 +47,16 @@ runs:
     - name: Run Ecosystem CI with notify
       id: eco_ci
       continue-on-error: true
-      uses: convictional/trigger-workflow-and-wait@f69fa9eedd3c62a599220f4d5745230e237904be # v1.6.5
+      uses: the-actions-org/workflow-dispatch@3133c5d135c7dbe4be4f9793872b6ef331b53bc7 # v4.0.0
       with:
-        owner: rstackjs
-        repo: rstack-ecosystem-ci
-        workflow_file_name: ${{ inputs.workflow-file }}
-        github_token: ${{ inputs.github-token }}
+        repo: rstackjs/rstack-ecosystem-ci
+        workflow: ${{ inputs.workflow-file }}
         ref: 'main'
-        client_payload: ${{ inputs.client-payload }}
+        token: ${{ inputs.github-token }}
+        inputs: ${{ inputs.client-payload }}
+        wait-for-completion: true
+        wait-for-completion-timeout: 3h
+        display-workflow-run-url: true
 
     - name: Get CI Result
       id: eco-ci-result
@@ -62,7 +64,7 @@ runs:
       with:
         job-prefix: ${{ inputs.job-name-prefix }}
         heading: ${{ inputs.ecosystem-repo }}
-        workflow-output: ${{ toJson(steps.eco_ci.outputs) }}
+        workflow-output: "{\"workflow_id\": \"${{ steps.eco_ci.outputs['workflow-id'] }}\"}"
 
     - id: create-commit-comment
       uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9

@@ -35,13 +35,13 @@ inputs:
 outputs:
   workflow-id:
     description: 'ID of the triggered downstream workflow run'
-    value: ${{ steps.eco_ci.outputs.workflow_id }}
+    value: ${{ steps.eco_ci.outputs['workflow-id'] }}
   workflow-url:
     description: 'URL of the triggered downstream workflow run'
-    value: ${{ steps.eco_ci.outputs.workflow_url }}
+    value: ${{ steps.eco_ci.outputs['workflow-url'] }}
   conclusion:
     description: 'Conclusion reported by the downstream workflow'
-    value: ${{ steps.eco_ci.outputs.conclusion }}
+    value: ${{ steps.eco_ci.outputs['workflow-conclusion'] }}
   summary:
     description: 'Formatted markdown summary of downstream job results'
     value: ${{ steps.eco-ci-result.outputs.summary }}
@@ -116,15 +116,17 @@ runs:
 
     - id: eco_ci
       name: Run Ecosystem CI
-      uses: convictional/trigger-workflow-and-wait@f69fa9eedd3c62a599220f4d5745230e237904be # v1.6.5
+      uses: the-actions-org/workflow-dispatch@3133c5d135c7dbe4be4f9793872b6ef331b53bc7 # v4.0.0
       continue-on-error: true
       with:
-        owner: rstackjs
-        repo: rstack-ecosystem-ci
-        workflow_file_name: ${{ inputs.workflow-file }}
+        repo: rstackjs/rstack-ecosystem-ci
+        workflow: ${{ inputs.workflow-file }}
         ref: main
-        github_token: ${{ inputs.github-token }}
-        client_payload: ${{ inputs.client-payload }}
+        token: ${{ inputs.github-token }}
+        inputs: ${{ inputs.client-payload }}
+        wait-for-completion: true
+        wait-for-completion-timeout: 3h
+        display-workflow-run-url: true
 
     - name: Checkout
       uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
@@ -137,7 +139,7 @@ runs:
       with:
         job-prefix: ${{ inputs.job-name-prefix }}
         heading: ${{ inputs.ecosystem-repo }}
-        workflow-output: ${{ toJson(steps.eco_ci.outputs) }}
+        workflow-output: "{\"workflow_id\": \"${{ steps.eco_ci.outputs['workflow-id'] }}\"}"
 
     - id: update-comment
       name: Update Comment
