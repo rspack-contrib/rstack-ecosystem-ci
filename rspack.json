@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "d0c007ab55caa5e2c73ade64937786f437baede0",
+    "commitTimestamp": "2026-06-24T02:21:00Z",
+    "commitMessage": "chore: walltime bench unbind to dedicated CPUs (#14543)",
+    "author": {
+      "name": "deanjingshui",
+      "email": "38210394+deanjingshui@users.noreply.github.com",
+      "login": "deanjingshui"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28070975688",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28070975688/job/83105302258"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28070975688/job/83105302259"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28070975688/job/83105302260"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28070975688/job/83105302262"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28070975688/job/83105302263"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28070975688/job/83105302264"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28070975688/job/83105302266"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28070975688/job/83105302268"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28070975688/job/83105302272"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28070975688/job/83105302276"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28070975688/job/83105302277"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28070975688/job/83105302348"
+      }
+    ]
+  },
+  {
     "commitSha": "33e8aa9ad6b77ba55af78d9f2b07f337e459acfb",
     "commitTimestamp": "2026-06-23T12:37:39Z",
     "commitMessage": "feat: harden persistent cache version cleanup with typed version (#14552)",
