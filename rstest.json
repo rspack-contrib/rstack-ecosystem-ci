@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "fd7c8af52394dda722c53f9189291fdc705debe7",
+    "commitTimestamp": "2026-06-24T09:52:34Z",
+    "commitMessage": "feat(core)!: move TestOptions to the second argument of test/it (#1453)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28090228826",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28090228826/job/83166116132"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28090228826/job/83166116143"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28090228826/job/83166116152"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28090228826/job/83166116159"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28090228826/job/83166116162"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28090228826/job/83166116193"
+      }
+    ]
+  },
+  {
     "commitSha": "2791bd6c1649c47464d3c1bc4800641ff9d77280",
     "commitTimestamp": "2026-06-24T09:09:51Z",
     "commitMessage": "fix(core): support setSystemTime without a prior useFakeTimers (#1463)",
