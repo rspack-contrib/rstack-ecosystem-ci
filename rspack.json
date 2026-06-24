@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "8d0c6abf7ac4662a4ff441c8ca966f214d9b2b45",
+    "commitTimestamp": "2026-06-24T09:29:54Z",
+    "commitMessage": "fix(error): use theme-based styling instead of environment-sniffing `dim()` in graphical renderer (#14561)",
+    "author": {
+      "name": "Yulong Ruan",
+      "email": "ruanyu1@gmail.com",
+      "login": "ruanyl"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28089516108",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28089516108/job/83163794966"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28089516108/job/83163794978"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28089516108/job/83163794994"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28089516108/job/83163795002"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28089516108/job/83163795021"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28089516108/job/83163795023"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28089516108/job/83163795049"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28089516108/job/83163795051"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28089516108/job/83163795080"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28089516108/job/83163795082"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28089516108/job/83163795119"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28089516108/job/83163795154"
+      }
+    ]
+  },
+  {
     "commitSha": "7d8e6e43371014bf22d35b317359f405b73652f1",
     "commitTimestamp": "2026-06-24T06:57:31Z",
     "commitMessage": "fix: handle cjs export assignment side effects (#14260)",
