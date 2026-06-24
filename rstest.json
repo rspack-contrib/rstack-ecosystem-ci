@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "dfdd527e59d44d07c16f59583c9e23c183bcedfe",
+    "commitTimestamp": "2026-06-24T03:40:34Z",
+    "commitMessage": "fix(core): share imported module state and keep context-bound APIs live across files under isolate: false (#1376)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28073508722",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28073508722/job/83112916774"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28073508722/job/83112916796"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28073508722/job/83112916814"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28073508722/job/83112916851"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28073508722/job/83112916913"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28073508722/job/83112917039"
+      }
+    ]
+  },
+  {
     "commitSha": "7b60b0aa8b8c51116750573ddd9ff67695f10e70",
     "commitTimestamp": "2026-06-23T13:00:07Z",
     "commitMessage": "chore: add pre-push lint gate via lefthook (#1466)",
