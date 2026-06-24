@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "0cf3f1f93c6200888694cedc412ef21380c3cd41",
+    "commitTimestamp": "2026-06-24T07:50:52Z",
+    "commitMessage": "fix(core): surface testPath with OS-native separators (#1467)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28083686882",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28083686882/job/83144350360"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28083686882/job/83144350377"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28083686882/job/83144350399"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28083686882/job/83144350427"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28083686882/job/83144350454"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28083686882/job/83144350606"
+      }
+    ]
+  },
+  {
     "commitSha": "dfdd527e59d44d07c16f59583c9e23c183bcedfe",
     "commitTimestamp": "2026-06-24T03:40:34Z",
     "commitMessage": "fix(core): share imported module state and keep context-bound APIs live across files under isolate: false (#1376)",
