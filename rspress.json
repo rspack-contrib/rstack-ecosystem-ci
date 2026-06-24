@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "c4a25443f9f98d9e2a74468bdb86c35fb9a76de1",
+    "commitTimestamp": "2026-06-24T10:35:40Z",
+    "commitMessage": "feat(theme/darkMode): support `themeConfig.darkMode` set default values (#3473)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28092528228",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28092528228/job/83173781852"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28092528228/job/83173781863"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28092528228/job/83173781872"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28092528228/job/83173781934"
+      }
+    ]
+  },
+  {
     "commitSha": "d0832123e5fbf721f455ec1cc06616f50b56d1f7",
     "commitTimestamp": "2026-06-24T08:00:03Z",
     "commitMessage": "fix(theme/inline-code-link): align link styles `--rp-c-link` and nav gap (#3474)",
