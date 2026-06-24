@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2791bd6c1649c47464d3c1bc4800641ff9d77280",
+    "commitTimestamp": "2026-06-24T09:09:51Z",
+    "commitMessage": "fix(core): support setSystemTime without a prior useFakeTimers (#1463)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28087878950",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28087878950/job/83158237359"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28087878950/job/83158237396"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28087878950/job/83158237433"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28087878950/job/83158237457"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28087878950/job/83158237465"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28087878950/job/83158237512"
+      }
+    ]
+  },
+  {
     "commitSha": "0cf3f1f93c6200888694cedc412ef21380c3cd41",
     "commitTimestamp": "2026-06-24T07:50:52Z",
     "commitMessage": "fix(core): surface testPath with OS-native separators (#1467)",
