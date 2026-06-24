@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c17c139904b3b7040bb37bba0c8bda886b4a2abd",
+    "commitTimestamp": "2026-06-24T08:05:39Z",
+    "commitMessage": "fix(plugin-dts): avoid TypeScript API in non-api backends (#1713)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28084487220",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28084487220/job/83147010175"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28084487220/job/83147010210"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28084487220/job/83147010219"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28084487220/job/83147010259"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28084487220/job/83147010268"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28084487220/job/83147010338"
+      }
+    ]
+  },
+  {
     "commitSha": "cd535a8ea8c3433c332f8f21f554ff0d21a132b4",
     "commitTimestamp": "2026-06-23T09:24:22Z",
     "commitMessage": "chore: move build out of prepare (#1712)",
