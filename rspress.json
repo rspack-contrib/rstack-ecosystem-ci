@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "d0832123e5fbf721f455ec1cc06616f50b56d1f7",
+    "commitTimestamp": "2026-06-24T08:00:03Z",
+    "commitMessage": "fix(theme/inline-code-link): align link styles `--rp-c-link` and nav gap (#3474)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28084391438",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28084391438/job/83146703235"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28084391438/job/83146703252"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28084391438/job/83146703323"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28084391438/job/83146703397"
+      }
+    ]
+  },
+  {
     "commitSha": "a627fce682083c146b6c2b444f6525daeff63eb5",
     "commitTimestamp": "2026-06-22T07:06:16Z",
     "commitMessage": "refactor(search): extract helper and add idle callback cleanup ♻️ (#3467)",
