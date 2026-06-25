@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "f07fb4432931ac8b5654f993d377f37e18e4dc81",
+    "commitTimestamp": "2026-06-25T06:47:25Z",
+    "commitMessage": "refactor(theme): use `useLayoutEffect` in useNavTransparent for performance🛠️ (#3475)",
+    "author": {
+      "name": "Sanjaiyan Parthipan",
+      "email": "parthipankalayini@gmail.com",
+      "login": "sanjaiyan-dev"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28152213543",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28152213543/job/83372303673"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28152213543/job/83372303676"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28152213543/job/83372303688"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28152213543/job/83372303780"
+      }
+    ]
+  },
+  {
     "commitSha": "e0c99552bdddfaa3f292c3862e4a3b87e3e59162",
     "commitTimestamp": "2026-06-25T06:39:07Z",
     "commitMessage": "feat(mdx/link): support markdown anchor checks (#3443)",
