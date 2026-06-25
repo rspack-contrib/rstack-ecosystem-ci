@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "6ce43569a89aabba23d442af008d535c64afe54a",
+    "commitTimestamp": "2026-06-25T08:31:03Z",
+    "commitMessage": "chore: add api-doc-sync skill to guard API doc signature drift (#1470)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28157386252",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28157386252/job/83389174766"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28157386252/job/83389174770"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28157386252/job/83389174784"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28157386252/job/83389174811"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28157386252/job/83389174815"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28157386252/job/83389174915"
+      }
+    ]
+  },
+  {
     "commitSha": "d8b9069901bd90f526efe913b5d0a007e51b6c7c",
     "commitTimestamp": "2026-06-25T03:44:42Z",
     "commitMessage": "feat(core): support TestOptions as the second argument of describe (#1468)",
