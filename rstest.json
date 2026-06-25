@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d8b9069901bd90f526efe913b5d0a007e51b6c7c",
+    "commitTimestamp": "2026-06-25T03:44:42Z",
+    "commitMessage": "feat(core): support TestOptions as the second argument of describe (#1468)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28145405552",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28145405552/job/83351444579"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28145405552/job/83351444599"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28145405552/job/83351444605"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28145405552/job/83351444608"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28145405552/job/83351444614"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28145405552/job/83351444626"
+      }
+    ]
+  },
+  {
     "commitSha": "fd7c8af52394dda722c53f9189291fdc705debe7",
     "commitTimestamp": "2026-06-24T09:52:34Z",
     "commitMessage": "feat(core)!: move TestOptions to the second argument of test/it (#1453)",
