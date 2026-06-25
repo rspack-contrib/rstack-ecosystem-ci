@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "796b1369d68bcb17b5905dbd408c5d59c663a7ba",
+    "commitTimestamp": "2026-06-25T11:34:07Z",
+    "commitMessage": "Release v2.0.15 (#3478)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28167329042",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28167329042/job/83422471815"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28167329042/job/83422471829"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28167329042/job/83422471841"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28167329042/job/83422471975"
+      }
+    ]
+  },
+  {
     "commitSha": "d52253457d76da148272d30c3c054140da6c7f3d",
     "commitTimestamp": "2026-06-25T09:26:39Z",
     "commitMessage": "feat(create-rspress): add docs generator skill option (#3477)",
