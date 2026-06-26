@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "b87604f6bb02d827dc8fbc062b57dfadf5ba136c",
+    "commitTimestamp": "2026-06-26T03:18:20Z",
+    "commitMessage": "fix(css): add guard for link.parentNode in css runtime (#14566)",
+    "author": {
+      "name": "北雁云依",
+      "email": "14120445+BeiyanYunyi@users.noreply.github.com",
+      "login": "BeiyanYunyi"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28215235720",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28215235720/job/83584865302"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28215235720/job/83584865304"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28215235720/job/83584865306"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28215235720/job/83584865308"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28215235720/job/83584865309"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28215235720/job/83584865310"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28215235720/job/83584865312"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28215235720/job/83584865314"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28215235720/job/83584865316"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28215235720/job/83584865318"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28215235720/job/83584865321"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28215235720/job/83584865325"
+      }
+    ]
+  },
+  {
     "commitSha": "88be82f51068e72255554f1dbf60fa3034ba1170",
     "commitTimestamp": "2026-06-26T03:15:12Z",
     "commitMessage": "feat(rsdoctor): add dependencyId and loc to export usage edges (#14577)",
