@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4663ab02a64839ffeb6e41ddab9bbc903df5e7b6",
+    "commitTimestamp": "2026-06-26T06:33:55Z",
+    "commitMessage": "fix(core): deep-merge browser.providerOptions in CLI and config merge (#1477)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28221585351",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28221585351/job/83603893203"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28221585351/job/83603893210"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28221585351/job/83603893211"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28221585351/job/83603893213"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28221585351/job/83603893217"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28221585351/job/83603893222"
+      }
+    ]
+  },
+  {
     "commitSha": "d12dab99ac09df84a9ebd3d4b6dfd1729624da41",
     "commitTimestamp": "2026-06-25T13:03:08Z",
     "commitMessage": "ci: skip webkit install for non-browser e2e and relax watch-reporter timeout (#1476)",
