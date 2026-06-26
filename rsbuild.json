@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4a6680e3a54740ed95dd96a91404ead5c235c2c6",
+    "commitTimestamp": "2026-06-26T03:56:41Z",
+    "commitMessage": "feat(core): support environment scoped exposed APIs (#7994)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28216127984",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28216127984/job/83587498051"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28216127984/job/83587498054"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28216127984/job/83587498055"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28216127984/job/83587498057"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28216127984/job/83587498060"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28216127984/job/83587498065"
+      }
+    ]
+  },
+  {
     "commitSha": "7e0be69f9019666c8a7535f96dff093e441fc659",
     "commitTimestamp": "2026-06-25T04:59:49Z",
     "commitMessage": "ci: keep reproduction label until close (#7995)",
