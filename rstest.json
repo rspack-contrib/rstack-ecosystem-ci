@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "3d0f1c8007f1ec252c63a28f975803ef71512cda",
+    "commitTimestamp": "2026-06-26T09:56:18Z",
+    "commitMessage": "chore(deps): upgrade rspack and rsbuild to 2.1.0 (#1478)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28230891052",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28230891052/job/83634100327"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28230891052/job/83634100353"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28230891052/job/83634100362"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28230891052/job/83634100374"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28230891052/job/83634100382"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28230891052/job/83634100403"
+      }
+    ]
+  },
+  {
     "commitSha": "4663ab02a64839ffeb6e41ddab9bbc903df5e7b6",
     "commitTimestamp": "2026-06-26T06:33:55Z",
     "commitMessage": "fix(core): deep-merge browser.providerOptions in CLI and config merge (#1477)",
