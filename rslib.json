@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c6d8118652047d7536ea088e72c09c7fcdd07757",
+    "commitTimestamp": "2026-06-26T04:03:38Z",
+    "commitMessage": "fix(deps): declare TypeScript for federation peers (#1720)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28216353673",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28216353673/job/83588164709"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28216353673/job/83588164710"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28216353673/job/83588164712"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28216353673/job/83588164714"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28216353673/job/83588164722"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28216353673/job/83588164730"
+      }
+    ]
+  },
+  {
     "commitSha": "407c50bdd110584b48485a142b5a08f60548c3f9",
     "commitTimestamp": "2026-06-25T12:20:21Z",
     "commitMessage": "fix(website): provide TypeScript peer for Rspress docs (#1719)",
