@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b437d89a16188960eb75baf21000d59cc0513c26",
+    "commitTimestamp": "2026-06-28T10:04:38Z",
+    "commitMessage": "chore(deps): update dependency @rsbuild/plugin-type-check to ^1.5.0 (#7999)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28318751047",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28318751047/job/83896726904"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28318751047/job/83896726912"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28318751047/job/83896726914"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28318751047/job/83896726915"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28318751047/job/83896726917"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28318751047/job/83896726930"
+      }
+    ]
+  },
+  {
     "commitSha": "021bcdbf3fa4a1fc9655089e3b8b41e4fdbc4ecb",
     "commitTimestamp": "2026-06-28T10:04:14Z",
     "commitMessage": "feat(cli): add dist-path CLI option (#8005)",
