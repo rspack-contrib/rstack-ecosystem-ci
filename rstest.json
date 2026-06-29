@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "985be1b502aba646e89b569d359c4703fb266158",
+    "commitTimestamp": "2026-06-29T06:08:26Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#1481)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28352204080",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28352204080/job/83987227681"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28352204080/job/83987227687"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28352204080/job/83987227694"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28352204080/job/83987227708"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28352204080/job/83987227711"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28352204080/job/83987227722"
+      }
+    ]
+  },
+  {
     "commitSha": "a810e26f38fffc0a3293bff93395f335701348b7",
     "commitTimestamp": "2026-06-29T03:45:31Z",
     "commitMessage": "ci: avoid pnpm cache restore in tests (#1480)",
