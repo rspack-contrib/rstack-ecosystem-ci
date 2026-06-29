@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a810e26f38fffc0a3293bff93395f335701348b7",
+    "commitTimestamp": "2026-06-29T03:45:31Z",
+    "commitMessage": "ci: avoid pnpm cache restore in tests (#1480)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28347246824",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28347246824/job/83973002062"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28347246824/job/83973002064"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28347246824/job/83973002068"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28347246824/job/83973002070"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28347246824/job/83973002078"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28347246824/job/83973002085"
+      }
+    ]
+  },
+  {
     "commitSha": "3d0f1c8007f1ec252c63a28f975803ef71512cda",
     "commitTimestamp": "2026-06-26T09:56:18Z",
     "commitMessage": "chore(deps): upgrade rspack and rsbuild to 2.1.0 (#1478)",
