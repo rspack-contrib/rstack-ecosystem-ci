@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2d90ed51914b86bf4352de44b4fbc0e9e67adfb6",
+    "commitTimestamp": "2026-06-29T11:43:44Z",
+    "commitMessage": "fix(browser): isolate each project in its own rsbuild instance (#1473) (#1483)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28369547002",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28369547002/job/84043635100"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28369547002/job/84043635111"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28369547002/job/84043635113"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28369547002/job/84043635117"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28369547002/job/84043635134"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28369547002/job/84043635143"
+      }
+    ]
+  },
+  {
     "commitSha": "5e79dfb512dfe9022163b79091b9c33ac70aeac4",
     "commitTimestamp": "2026-06-29T06:39:26Z",
     "commitMessage": "docs: document automock fallback behavior (#1479)",
