@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7246fccfa93eb9f973174eff031added071053f9",
+    "commitTimestamp": "2026-06-30T09:59:25Z",
+    "commitMessage": "refactor: use import.meta Rspack module variables (#8017)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28436120357",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28436120357/job/84262390139"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28436120357/job/84262390142"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28436120357/job/84262390147"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28436120357/job/84262390148"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28436120357/job/84262390152"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28436120357/job/84262390194"
+      }
+    ]
+  },
+  {
     "commitSha": "2291a371608e3898b9ebfc315d844e3aae8d87db",
     "commitTimestamp": "2026-06-30T09:20:14Z",
     "commitMessage": "feat(deps): update @rspack/core to 2.1.2 (#8016)",
