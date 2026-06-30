@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ef1f9443eb8670bd22a6d9c9307e17f77f6a4fbf",
+    "commitTimestamp": "2026-06-30T04:49:47Z",
+    "commitMessage": "docs: enable Rspress anchor check (#1488)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28421091193",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28421091193/job/84214208262"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28421091193/job/84214208264"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28421091193/job/84214208265"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28421091193/job/84214208276"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28421091193/job/84214208282"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28421091193/job/84214208298"
+      }
+    ]
+  },
+  {
     "commitSha": "854f3c39234df82d6f8d236167aefd634dd06426",
     "commitTimestamp": "2026-06-30T03:36:08Z",
     "commitMessage": "fix(core): narrow return type of waitUntil to truthy values (#1486)",
