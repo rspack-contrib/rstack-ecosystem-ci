@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c0aa0607a91372f2940800d896dcb7c377e29dee",
+    "commitTimestamp": "2026-06-30T14:12:18Z",
+    "commitMessage": "chore: relax pnpm engine requirement (#8023)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28451076436",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28451076436/job/84313192431"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28451076436/job/84313192477"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28451076436/job/84313192494"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28451076436/job/84313192564"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28451076436/job/84313192915"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28451076436/job/84313192988"
+      }
+    ]
+  },
+  {
     "commitSha": "23c84f1154178bcfa359ad6a0120f27e8799db28",
     "commitTimestamp": "2026-06-30T14:11:08Z",
     "commitMessage": "release: v2.1.2 (#8022)",
