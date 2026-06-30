@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "5ec80ac95fc12980154939995558fea9d18ecda2",
+    "commitTimestamp": "2026-06-30T03:11:10Z",
+    "commitMessage": "fix(core): remove rsbuild prefix from loadConfig error (#8012)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28417643496",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28417643496/job/84203873327"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28417643496/job/84203873328"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28417643496/job/84203873336"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28417643496/job/84203873339"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28417643496/job/84203873358"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28417643496/job/84203873365"
+      }
+    ]
+  },
+  {
     "commitSha": "46d37a77660d5c9ae28e45eb9d03279a41fbcf11",
     "commitTimestamp": "2026-06-29T05:57:34Z",
     "commitMessage": "feat(core): add source-map CLI option (#8006)",
