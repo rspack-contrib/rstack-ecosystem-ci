@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a5a7e1b59e04af223a01c2f1cdb68fc42516839f",
+    "commitTimestamp": "2026-06-30T08:27:51Z",
+    "commitMessage": "feat(create-rslib): use Rust-powered React Compiler via reactCompiler option (#1729)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28430940341",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28430940341/job/84245205589"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28430940341/job/84245205601"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28430940341/job/84245205618"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28430940341/job/84245205635"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28430940341/job/84245205642"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28430940341/job/84245205679"
+      }
+    ]
+  },
+  {
     "commitSha": "de0241d899464d5754e50a326140ec9a18f65235",
     "commitTimestamp": "2026-06-30T07:47:12Z",
     "commitMessage": "refactor(create-rslib): simplify svelte rstest config (#1732)",
