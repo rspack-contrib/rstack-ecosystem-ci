@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "854f3c39234df82d6f8d236167aefd634dd06426",
+    "commitTimestamp": "2026-06-30T03:36:08Z",
+    "commitMessage": "fix(core): narrow return type of waitUntil to truthy values (#1486)",
+    "author": {
+      "name": "Ben Durrant",
+      "email": "ben.j.durrant@gmail.com",
+      "login": "EskiMojo14"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28418503379",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28418503379/job/84206538417"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28418503379/job/84206538426"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28418503379/job/84206538427"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28418503379/job/84206538429"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28418503379/job/84206538441"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28418503379/job/84206538451"
+      }
+    ]
+  },
+  {
     "commitSha": "2d90ed51914b86bf4352de44b4fbc0e9e67adfb6",
     "commitTimestamp": "2026-06-29T11:43:44Z",
     "commitMessage": "fix(browser): isolate each project in its own rsbuild instance (#1473) (#1483)",
