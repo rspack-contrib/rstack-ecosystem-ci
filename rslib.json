@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "dbde95a0edebc039a3967645ccc8a27adf68771a",
+    "commitTimestamp": "2026-06-30T04:13:36Z",
+    "commitMessage": "docs: enable Rspress anchor checks (#1730)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28419819728",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28419819728/job/84210379937"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28419819728/job/84210379939"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28419819728/job/84210379941"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28419819728/job/84210379951"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28419819728/job/84210379952"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28419819728/job/84210379961"
+      }
+    ]
+  },
+  {
     "commitSha": "058d750e09d2a401a9358fb6b086d05ef1285854",
     "commitTimestamp": "2026-06-29T07:10:03Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1727)",
