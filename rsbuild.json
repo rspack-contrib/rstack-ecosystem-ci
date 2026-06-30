@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "906e641cbf6bde4ab9b2a13e13172c2cb197c2d0",
+    "commitTimestamp": "2026-06-30T10:54:20Z",
+    "commitMessage": "fix(svgr): revert public path runtime variable (#8019)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28439103387",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28439103387/job/84272234346"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28439103387/job/84272234422"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28439103387/job/84272234424"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28439103387/job/84272234431"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28439103387/job/84272234437"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28439103387/job/84272234451"
+      }
+    ]
+  },
+  {
     "commitSha": "7246fccfa93eb9f973174eff031added071053f9",
     "commitTimestamp": "2026-06-30T09:59:25Z",
     "commitMessage": "refactor: use import.meta Rspack module variables (#8017)",
