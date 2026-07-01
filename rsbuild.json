@@ -48,6 +48,54 @@
     ]
   },
   {
+    "commitSha": "37b054e8830a458d45dd51db615d1c41302b4539",
+    "commitTimestamp": "2026-07-01T02:14:34Z",
+    "commitMessage": "chore(deps): update actions/checkout action to v7 (#8026)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28488874062",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28488874062/job/84441120209"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28488874062/job/84441120210"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28488874062/job/84441120213"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28488874062/job/84441120216"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28488874062/job/84441120217"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28488874062/job/84441120247"
+      }
+    ]
+  },
+  {
     "commitSha": "c0aa0607a91372f2940800d896dcb7c377e29dee",
     "commitTimestamp": "2026-06-30T14:12:18Z",
     "commitMessage": "chore: relax pnpm engine requirement (#8023)",
