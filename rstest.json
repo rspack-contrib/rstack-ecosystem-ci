@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "37148fbfd0faf1042414d05e062e10be0a858c8d",
+    "commitTimestamp": "2026-07-01T07:40:56Z",
+    "commitMessage": "fix(core): resolve new URL() and wasm from on-disk source (#1455) (#1464)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28501885947",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28501885947/job/84480910728"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28501885947/job/84480910732"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28501885947/job/84480910741"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28501885947/job/84480910753"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28501885947/job/84480910763"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28501885947/job/84480910775"
+      }
+    ]
+  },
+  {
     "commitSha": "0504adcc7f103b71cc0a449d2d251f65b1df858d",
     "commitTimestamp": "2026-06-30T06:48:43Z",
     "commitMessage": "chore(deps): update rsbuild to v2 (#1489)",
