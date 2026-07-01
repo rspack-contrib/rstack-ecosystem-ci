@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "aeb69875081fc75bd80178cfa528ca10629b8c7d",
+    "commitTimestamp": "2026-07-01T09:43:28Z",
+    "commitMessage": "fix(browser): interpret console format specifiers when forwarding logs (#1494)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28508509428",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28508509428/job/84502788517"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28508509428/job/84502788531"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28508509428/job/84502788542"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28508509428/job/84502788563"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28508509428/job/84502788571"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28508509428/job/84502788678"
+      }
+    ]
+  },
+  {
     "commitSha": "58508068a23f06cb84f0184b281f175a4ba30968",
     "commitTimestamp": "2026-07-01T08:30:49Z",
     "commitMessage": "fix(browser): avoid HMR factory race in headless one-shot runs (#1493)",
