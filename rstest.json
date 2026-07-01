@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b80a716bdb1d5c7305666ce342737a94839c30fe",
+    "commitTimestamp": "2026-07-01T10:50:24Z",
+    "commitMessage": "fix(browser): gate HMR/lazyCompilation to headed watch only (#1495)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28512185229",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28512185229/job/84514961242"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28512185229/job/84514961261"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28512185229/job/84514961262"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28512185229/job/84514961281"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28512185229/job/84514961285"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28512185229/job/84514961329"
+      }
+    ]
+  },
+  {
     "commitSha": "aeb69875081fc75bd80178cfa528ca10629b8c7d",
     "commitTimestamp": "2026-07-01T09:43:28Z",
     "commitMessage": "fix(browser): interpret console format specifiers when forwarding logs (#1494)",
