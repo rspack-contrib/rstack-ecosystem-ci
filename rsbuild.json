@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "00663bc3f4564a54553b48b13f04f8a0c8cf4bec",
+    "commitTimestamp": "2026-07-01T06:23:18Z",
+    "commitMessage": "feat(core): add strict-port CLI option (#8029)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28498051706",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28498051706/job/84468533941"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28498051706/job/84468533947"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28498051706/job/84468533948"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28498051706/job/84468533964"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28498051706/job/84468533970"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28498051706/job/84468533985"
+      }
+    ]
+  },
+  {
     "commitSha": "6a455c22e05b68623e7397778dbc63f6e675dd7e",
     "commitTimestamp": "2026-07-01T02:14:43Z",
     "commitMessage": "chore(deps): update dependency node to v24.17.0 (#8025)",
