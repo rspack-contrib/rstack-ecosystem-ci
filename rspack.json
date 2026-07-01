@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "6018a4c61a385aa35d8b774b49aa83d761a7bbaa",
+    "commitTimestamp": "2026-07-01T10:54:04Z",
+    "commitMessage": "feat: add name/value accessors to ESMExportSpecifierDependency (#14641)",
+    "author": {
+      "name": "Yashwanth Reddy Verupaka",
+      "email": "59129034+yashwanth195@users.noreply.github.com",
+      "login": "yashwanth195"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28512722727",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28512722727/job/84516786569"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28512722727/job/84516786571"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28512722727/job/84516786576"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28512722727/job/84516786577"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28512722727/job/84516786580"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28512722727/job/84516786581"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28512722727/job/84516786590"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28512722727/job/84516786602"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28512722727/job/84516786608"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28512722727/job/84516786615"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28512722727/job/84516786619"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28512722727/job/84516786631"
+      }
+    ]
+  },
+  {
     "commitSha": "f56feea5cebc26185149fbffc64356a19a9dfd4e",
     "commitTimestamp": "2026-07-01T08:56:41Z",
     "commitMessage": "chore(ci): run binary size limit on linux mini runner (#14648)",
