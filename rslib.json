@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9cf5bc987b222eb05b967bb2b872441790672032",
+    "commitTimestamp": "2026-07-01T14:40:19Z",
+    "commitMessage": "fix(core): reset Rspack const environment (#1735)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28525763890",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28525763890/job/84561645728"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28525763890/job/84561645740"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28525763890/job/84561645741"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28525763890/job/84561645744"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28525763890/job/84561645773"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28525763890/job/84561645797"
+      }
+    ]
+  },
+  {
     "commitSha": "a5a7e1b59e04af223a01c2f1cdb68fc42516839f",
     "commitTimestamp": "2026-06-30T08:27:51Z",
     "commitMessage": "feat(create-rslib): use Rust-powered React Compiler via reactCompiler option (#1729)",
