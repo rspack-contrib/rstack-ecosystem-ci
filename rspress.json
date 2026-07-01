@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "0bebd5de3234e5d4414946c67b8b254a22ed39e8",
+    "commitTimestamp": "2026-07-01T06:53:22Z",
+    "commitMessage": "fix(mdx/container): Fix rendering of multi-line GitHub-style alerts (#3487)",
+    "author": {
+      "name": "Michal Nebes",
+      "email": "16987208+mnebes@users.noreply.github.com",
+      "login": "mnebes"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28499375149",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28499375149/job/84472828298"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28499375149/job/84472828308"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28499375149/job/84472828315"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28499375149/job/84472828320"
+      }
+    ]
+  },
+  {
     "commitSha": "61637103deec4e0569d51a1ab4a1ffb93c2b04b5",
     "commitTimestamp": "2026-07-01T06:41:19Z",
     "commitMessage": "chore(deps): update github-actions (major) (#3489)",
