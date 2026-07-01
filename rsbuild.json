@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "fbc19778bccf97aad7fe4be9bf7f6a179b23d04b",
+    "commitTimestamp": "2026-07-01T13:17:26Z",
+    "commitMessage": "feat(core): add loadConfig command option (#8033)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28520456325",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28520456325/job/84542955925"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28520456325/job/84542955932"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28520456325/job/84542955940"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28520456325/job/84542955947"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28520456325/job/84542956016"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28520456325/job/84542956062"
+      }
+    ]
+  },
+  {
     "commitSha": "c5f87e649ea2a481fcce90c4a27154c8e15810c5",
     "commitTimestamp": "2026-07-01T09:07:31Z",
     "commitMessage": "feat(core): support custom argv in runCLI (#8032)",
