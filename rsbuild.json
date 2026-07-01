@@ -48,6 +48,54 @@
     ]
   },
   {
+    "commitSha": "23720ac43cf3f839abfee68159cdf951c43b6be5",
+    "commitTimestamp": "2026-07-01T05:45:57Z",
+    "commitMessage": "test: add dead code elimination e2e case (#8027)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28496454645",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28496454645/job/84463661436"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28496454645/job/84463661443"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28496454645/job/84463661455"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28496454645/job/84463661464"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28496454645/job/84463661467"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28496454645/job/84463661476"
+      }
+    ]
+  },
+  {
     "commitSha": "6a455c22e05b68623e7397778dbc63f6e675dd7e",
     "commitTimestamp": "2026-07-01T02:14:43Z",
     "commitMessage": "chore(deps): update dependency node to v24.17.0 (#8025)",
