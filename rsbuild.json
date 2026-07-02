@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7a6cfbcb8961b0a5868f1f919eac0cf8b26ea90d",
+    "commitTimestamp": "2026-07-02T09:24:59Z",
+    "commitMessage": "fix(core): print gzip size for script assets (#8052)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28579634962",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28579634962/job/84736532989"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28579634962/job/84736533000"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28579634962/job/84736533022"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28579634962/job/84736533030"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28579634962/job/84736533048"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28579634962/job/84736533396"
+      }
+    ]
+  },
+  {
     "commitSha": "92a2f954ec2e26a4335ec8bb867530bdc810b005",
     "commitTimestamp": "2026-07-02T09:00:40Z",
     "commitMessage": "feat(core): support text import attributes for JSON (#8051)",
