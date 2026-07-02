@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "92a2f954ec2e26a4335ec8bb867530bdc810b005",
+    "commitTimestamp": "2026-07-02T09:00:40Z",
+    "commitMessage": "feat(core): support text import attributes for JSON (#8051)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28578216253",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28578216253/job/84731806289"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28578216253/job/84731806302"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28578216253/job/84731806323"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28578216253/job/84731806341"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28578216253/job/84731806343"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28578216253/job/84731806498"
+      }
+    ]
+  },
+  {
     "commitSha": "04674071ba8b21810bf71cf99718b9e46c0d55bb",
     "commitTimestamp": "2026-07-02T08:44:05Z",
     "commitMessage": "release: @rsbuild/plugin-svgr v2.0.5 (#8050)",
