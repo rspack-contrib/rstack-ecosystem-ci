@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a134672d400907f65a48a543d0ce739fb1e317de",
+    "commitTimestamp": "2026-07-02T05:48:31Z",
+    "commitMessage": "feat(core): support text import attributes for scripts (#8037)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28568481671",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28568481671/job/84700721379"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28568481671/job/84700721385"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28568481671/job/84700721387"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28568481671/job/84700721392"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28568481671/job/84700721399"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28568481671/job/84700721402"
+      }
+    ]
+  },
+  {
     "commitSha": "f43e8127c1d6c5ff5b303c7607621d5821fbc4a1",
     "commitTimestamp": "2026-07-02T02:47:27Z",
     "commitMessage": "fix(core): parse command after global options (#8035)",
