@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "6373c3941e07628f8f3e41abf1f58af780dc3019",
+    "commitTimestamp": "2026-07-02T08:11:56Z",
+    "commitMessage": "release: @rsbuild/plugin-less v2.0.1 (#8049)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28575534329",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28575534329/job/84723091250"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28575534329/job/84723091255"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28575534329/job/84723091256"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28575534329/job/84723091257"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28575534329/job/84723091262"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28575534329/job/84723091306"
+      }
+    ]
+  },
+  {
     "commitSha": "049c27c0a57248825c8a129a98e62e561bc69242",
     "commitTimestamp": "2026-07-02T08:08:24Z",
     "commitMessage": "release: @rsbuild/plugin-sass v2.0.1 (#8048)",
