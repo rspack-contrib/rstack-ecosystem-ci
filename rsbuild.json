@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "fe2803cd8ebf26c8def672f976f6657646834d1c",
+    "commitTimestamp": "2026-07-02T07:54:35Z",
+    "commitMessage": "feat(plugin-svgr): support SVG text import attributes (#8047)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28574862626",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28574862626/job/84720915336"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28574862626/job/84720915338"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28574862626/job/84720915354"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28574862626/job/84720915377"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28574862626/job/84720915468"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28574862626/job/84720915512"
+      }
+    ]
+  },
+  {
     "commitSha": "e53c07138d3188d4f510ed7d3a8f4fa6c009afe6",
     "commitTimestamp": "2026-07-02T07:40:03Z",
     "commitMessage": "feat(core): support asset text import attributes (#8046)",
