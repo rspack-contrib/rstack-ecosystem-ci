@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "94baa2e85b291120d317d7514ed9354933a95568",
+    "commitTimestamp": "2026-07-02T06:48:00Z",
+    "commitMessage": "refactor(theme): internal code change, replace @theme alias with @rspress/core/theme (#3492)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28571150909",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28571150909/job/84709024611"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28571150909/job/84709024613"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28571150909/job/84709024626"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28571150909/job/84709024629"
+      }
+    ]
+  },
+  {
     "commitSha": "1a63076dc15484b176c8d7b35039e64ebaccc2b1",
     "commitTimestamp": "2026-07-01T11:27:00Z",
     "commitMessage": "fix(plugin-playground): include source path in mdx parse errors (#3486)",
