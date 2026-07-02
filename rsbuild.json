@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "6b6df8b965bcf9c3de0b68f82911cdb2aca7efb8",
+    "commitTimestamp": "2026-07-02T06:24:55Z",
+    "commitMessage": "fix(plugin-babel): skip text import attributes in standalone rule (#8039)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28570057685",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28570057685/job/84705593954"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28570057685/job/84705593958"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28570057685/job/84705593967"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28570057685/job/84705593968"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28570057685/job/84705593973"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28570057685/job/84705593989"
+      }
+    ]
+  },
+  {
     "commitSha": "a134672d400907f65a48a543d0ce739fb1e317de",
     "commitTimestamp": "2026-07-02T05:48:31Z",
     "commitMessage": "feat(core): support text import attributes for scripts (#8037)",
