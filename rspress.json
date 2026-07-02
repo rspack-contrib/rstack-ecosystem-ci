@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "e82d25460d388ae2126b754a5973b3b77df43f25",
+    "commitTimestamp": "2026-07-02T08:03:31Z",
+    "commitMessage": "feat(mdx/container): Support [!IMPORTANT] callout for feature parity with GitHub-flavored markdown (#3493)",
+    "author": {
+      "name": "Michal Nebes",
+      "email": "16987208+mnebes@users.noreply.github.com",
+      "login": "mnebes"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28575085122",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28575085122/job/84721636145"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28575085122/job/84721636147"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28575085122/job/84721636166"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28575085122/job/84721636178"
+      }
+    ]
+  },
+  {
     "commitSha": "48e6f96507438b20341654d0f750c02d2f76212b",
     "commitTimestamp": "2026-07-02T06:50:11Z",
     "commitMessage": "refactor(router): `await` navigate and opt-in to router `useTransition` 🧭 (#3476)",
