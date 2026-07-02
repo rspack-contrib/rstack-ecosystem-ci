@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "48e6f96507438b20341654d0f750c02d2f76212b",
+    "commitTimestamp": "2026-07-02T06:50:11Z",
+    "commitMessage": "refactor(router): `await` navigate and opt-in to router `useTransition` 🧭 (#3476)",
+    "author": {
+      "name": "Sanjaiyan Parthipan",
+      "email": "parthipankalayini@gmail.com",
+      "login": "sanjaiyan-dev"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28571304031",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28571304031/job/84709518826"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28571304031/job/84709518873"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28571304031/job/84709518879"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28571304031/job/84709518926"
+      }
+    ]
+  },
+  {
     "commitSha": "94baa2e85b291120d317d7514ed9354933a95568",
     "commitTimestamp": "2026-07-02T06:48:00Z",
     "commitMessage": "refactor(theme): internal code change, replace @theme alias with @rspress/core/theme (#3492)",
