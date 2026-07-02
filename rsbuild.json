@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "054fe7f7982db0f84eb23bf20a66b1ea302b2701",
+    "commitTimestamp": "2026-07-02T06:55:47Z",
+    "commitMessage": "feat(core): support CSS text import attributes (#8042)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28572525799",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28572525799/job/84713360320"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28572525799/job/84713360322"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28572525799/job/84713360326"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28572525799/job/84713360331"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28572525799/job/84713360336"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28572525799/job/84713360350"
+      }
+    ]
+  },
+  {
     "commitSha": "ba85d9f1926b77b20907c697a6d2486db9fb5f60",
     "commitTimestamp": "2026-07-02T06:53:09Z",
     "commitMessage": "fix(plugin-babel): skip URL dependencies in standalone rule (#8041)",
