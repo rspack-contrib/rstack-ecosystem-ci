@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2970c0f7115502bd2bd232781eb966a74963d8dd",
+    "commitTimestamp": "2026-07-02T06:39:50Z",
+    "commitMessage": "fix(plugin-babel): skip raw query in standalone rule (#8040)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28570738023",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28570738023/job/84707709474"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28570738023/job/84707709480"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28570738023/job/84707709485"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28570738023/job/84707709489"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28570738023/job/84707709498"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28570738023/job/84707709515"
+      }
+    ]
+  },
+  {
     "commitSha": "6b6df8b965bcf9c3de0b68f82911cdb2aca7efb8",
     "commitTimestamp": "2026-07-02T06:24:55Z",
     "commitMessage": "fix(plugin-babel): skip text import attributes in standalone rule (#8039)",
