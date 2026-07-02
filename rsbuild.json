@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e53c07138d3188d4f510ed7d3a8f4fa6c009afe6",
+    "commitTimestamp": "2026-07-02T07:40:03Z",
+    "commitMessage": "feat(core): support asset text import attributes (#8046)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28574645525",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28574645525/job/84720212115"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28574645525/job/84720212125"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28574645525/job/84720212130"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28574645525/job/84720212151"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28574645525/job/84720212162"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28574645525/job/84720212191"
+      }
+    ]
+  },
+  {
     "commitSha": "1c95955598ed2e8eda1ff4c49db7aa205bde5e10",
     "commitTimestamp": "2026-07-02T07:21:04Z",
     "commitMessage": "release: @rsbuild/plugin-babel v2.0.1 (#8044)",
