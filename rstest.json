@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "82085ba23ea151543a7161f59e317a8003822ec2",
+    "commitTimestamp": "2026-07-02T06:54:01Z",
+    "commitMessage": "fix(core): actionable error for rs.spyOn on ESM namespace export (#1498)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28572908688",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28572908688/job/84714595367"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28572908688/job/84714595384"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28572908688/job/84714595392"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28572908688/job/84714595408"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28572908688/job/84714595432"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28572908688/job/84714595514"
+      }
+    ]
+  },
+  {
     "commitSha": "b80a716bdb1d5c7305666ce342737a94839c30fe",
     "commitTimestamp": "2026-07-01T10:50:24Z",
     "commitMessage": "fix(browser): gate HMR/lazyCompilation to headed watch only (#1495)",
