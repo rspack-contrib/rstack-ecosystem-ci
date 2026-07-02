@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "90b4474ce70a9a5b1f95cf98a07a345bc5c3ce25",
+    "commitTimestamp": "2026-07-02T13:27:37Z",
+    "commitMessage": "feat(plugin-svelte): support text import attributes (#8058)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28593750626",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28593750626/job/84783662173"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28593750626/job/84783662193"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28593750626/job/84783662215"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28593750626/job/84783662235"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28593750626/job/84783662325"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28593750626/job/84783662564"
+      }
+    ]
+  },
+  {
     "commitSha": "a20e787136a61f0fa19f5c8baa7b234882363503",
     "commitTimestamp": "2026-07-02T10:40:58Z",
     "commitMessage": "release: @rsbuild/plugin-vue v2.0.1 (#8056)",
