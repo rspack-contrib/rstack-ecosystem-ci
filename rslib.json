@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b0872e307db294365b3d5ba794fc768c29c8f23d",
+    "commitTimestamp": "2026-07-03T03:37:32Z",
+    "commitMessage": "feat(core): support custom argv in runCLI (#1737)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28636791729",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28636791729/job/84924751623"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28636791729/job/84924751624"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28636791729/job/84924751627"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28636791729/job/84924751637"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28636791729/job/84924751639"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28636791729/job/84924751764"
+      }
+    ]
+  },
+  {
     "commitSha": "4cff0ba6c7fc5f397a9326355ce615f4f73d398d",
     "commitTimestamp": "2026-07-03T03:14:02Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1736)",
