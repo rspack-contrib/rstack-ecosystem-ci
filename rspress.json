@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "373493eaacaf6b6ba5d7786bb37a467fe2ea9b7d",
+    "commitTimestamp": "2026-07-03T07:53:16Z",
+    "commitMessage": "chore(deps): upgrade agent skills to latest commit (#3495)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28646681296",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28646681296/job/84954847036"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28646681296/job/84954847043"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28646681296/job/84954847050"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28646681296/job/84954847068"
+      }
+    ]
+  },
+  {
     "commitSha": "e82d25460d388ae2126b754a5973b3b77df43f25",
     "commitTimestamp": "2026-07-02T08:03:31Z",
     "commitMessage": "feat(mdx/container): Support [!IMPORTANT] callout for feature parity with GitHub-flavored markdown (#3493)",
