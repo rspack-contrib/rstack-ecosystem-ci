@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c1de5260b9177da05a513f57398ebf9e9c7b7e59",
+    "commitTimestamp": "2026-07-03T09:56:36Z",
+    "commitMessage": "release: v0.23.2 (#1744)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28653055161",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28653055161/job/84975481745"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28653055161/job/84975481749"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28653055161/job/84975481759"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28653055161/job/84975481789"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28653055161/job/84975481805"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28653055161/job/84975481810"
+      }
+    ]
+  },
+  {
     "commitSha": "d44fca9c59783500d07fb58b1282ddb659f52fb1",
     "commitTimestamp": "2026-07-03T09:19:20Z",
     "commitMessage": "feat(core): align loadConfig with rsbuild options (#1741)",
