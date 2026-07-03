@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c0332551da3c388c620bdd20af0d7c3471765193",
+    "commitTimestamp": "2026-07-03T02:30:51Z",
+    "commitMessage": "feat(core): support custom loadConfig types (#8060)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28634526517",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28634526517/job/84918038891"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28634526517/job/84918038898"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28634526517/job/84918038903"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28634526517/job/84918038909"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28634526517/job/84918038946"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28634526517/job/84918038966"
+      }
+    ]
+  },
+  {
     "commitSha": "7c5849376379a6bf8df1d633d4f660f7646bfe0d",
     "commitTimestamp": "2026-07-02T13:59:21Z",
     "commitMessage": "release: @rsbuild/plugin-svelte v2.0.1 (#8059)",
