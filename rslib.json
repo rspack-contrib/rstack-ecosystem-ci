@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "133b54c2e49ce49815a4c0cc396c239a466b8267",
+    "commitTimestamp": "2026-07-03T04:04:08Z",
+    "commitMessage": "fix(core): replace deprecated circular dependency plugin (#1738)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28637633745",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28637633745/job/84927176985"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28637633745/job/84927177011"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28637633745/job/84927177027"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28637633745/job/84927177054"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28637633745/job/84927177062"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28637633745/job/84927177077"
+      }
+    ]
+  },
+  {
     "commitSha": "b0872e307db294365b3d5ba794fc768c29c8f23d",
     "commitTimestamp": "2026-07-03T03:37:32Z",
     "commitMessage": "feat(core): support custom argv in runCLI (#1737)",
