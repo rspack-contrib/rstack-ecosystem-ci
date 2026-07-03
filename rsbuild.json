@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "79f96334e230158a98d9a47eff555b3802e09b65",
+    "commitTimestamp": "2026-07-03T06:39:00Z",
+    "commitMessage": "release: v2.1.4 (#8062)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28643275506",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28643275506/job/84944000883"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28643275506/job/84944000884"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28643275506/job/84944000903"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28643275506/job/84944000910"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28643275506/job/84944000911"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28643275506/job/84944000912"
+      }
+    ]
+  },
+  {
     "commitSha": "edfab61f1047fac13c79a185bd7745d3eff9ce84",
     "commitTimestamp": "2026-07-03T04:54:04Z",
     "commitMessage": "feat(core): support exportName in loadConfig (#8061)",
