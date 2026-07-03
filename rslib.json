@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f23d1f13087e13f25b84c2843ed7d5db102214ef",
+    "commitTimestamp": "2026-07-03T08:44:28Z",
+    "commitMessage": "feat(core): export config definition types (#1742)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28649264223",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28649264223/job/84963090645"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28649264223/job/84963090654"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28649264223/job/84963090656"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28649264223/job/84963090664"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28649264223/job/84963090670"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28649264223/job/84963090674"
+      }
+    ]
+  },
+  {
     "commitSha": "4ece9cc21fe7d28cab6f8e7ea749a77ebac2b51c",
     "commitTimestamp": "2026-07-03T06:17:12Z",
     "commitMessage": "feat(create-rslib): bump default Node syntax to 22 and add public publishConfig (#1739)",
