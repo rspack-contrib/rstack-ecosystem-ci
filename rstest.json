@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "3d518803f12c15827d9dc4321a9733caa15dc6d6",
+    "commitTimestamp": "2026-07-03T02:59:03Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#1499)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28635450059",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28635450059/job/84920719296"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28635450059/job/84920719297"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28635450059/job/84920719303"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28635450059/job/84920719308"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28635450059/job/84920719316"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28635450059/job/84920719378"
+      }
+    ]
+  },
+  {
     "commitSha": "9a178996541974f17e4bdb36b434a24f50012395",
     "commitTimestamp": "2026-07-02T11:34:48Z",
     "commitMessage": "perf(coverage-v8): optimize V8 AST coverage conversion (#1490)",
