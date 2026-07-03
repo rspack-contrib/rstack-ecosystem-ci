@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4ece9cc21fe7d28cab6f8e7ea749a77ebac2b51c",
+    "commitTimestamp": "2026-07-03T06:17:12Z",
+    "commitMessage": "feat(create-rslib): bump default Node syntax to 22 and add public publishConfig (#1739)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28642385209",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28642385209/job/84941260592"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28642385209/job/84941260593"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28642385209/job/84941260594"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28642385209/job/84941260606"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28642385209/job/84941260631"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28642385209/job/84941260645"
+      }
+    ]
+  },
+  {
     "commitSha": "133b54c2e49ce49815a4c0cc396c239a466b8267",
     "commitTimestamp": "2026-07-03T04:04:08Z",
     "commitMessage": "fix(core): replace deprecated circular dependency plugin (#1738)",
