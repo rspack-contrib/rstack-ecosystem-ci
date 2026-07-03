@@ -48,6 +48,54 @@
     ]
   },
   {
+    "commitSha": "a0b6e9288b30d9daa674ce4aac06ec4413c42dc8",
+    "commitTimestamp": "2026-07-03T06:16:14Z",
+    "commitMessage": "fix(core): pass cli command to config loading (#1740)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28642347908",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28642347908/job/84941147702"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28642347908/job/84941147709"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28642347908/job/84941147713"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28642347908/job/84941147719"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28642347908/job/84941147720"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28642347908/job/84941147728"
+      }
+    ]
+  },
+  {
     "commitSha": "133b54c2e49ce49815a4c0cc396c239a466b8267",
     "commitTimestamp": "2026-07-03T04:04:08Z",
     "commitMessage": "fix(core): replace deprecated circular dependency plugin (#1738)",
