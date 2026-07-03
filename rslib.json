@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d44fca9c59783500d07fb58b1282ddb659f52fb1",
+    "commitTimestamp": "2026-07-03T09:19:20Z",
+    "commitMessage": "feat(core): align loadConfig with rsbuild options (#1741)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28651262900",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28651262900/job/84969603995"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28651262900/job/84969604001"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28651262900/job/84969604011"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28651262900/job/84969604020"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28651262900/job/84969604028"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28651262900/job/84969604043"
+      }
+    ]
+  },
+  {
     "commitSha": "f23d1f13087e13f25b84c2843ed7d5db102214ef",
     "commitTimestamp": "2026-07-03T08:44:28Z",
     "commitMessage": "feat(core): export config definition types (#1742)",
