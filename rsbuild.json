@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "009b167b43591465a2712453dc9959aa56ad3893",
+    "commitTimestamp": "2026-07-04T09:52:39Z",
+    "commitMessage": "test(types): add core preset module type coverage (#8068)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28702519138",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28702519138/job/85122766994"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28702519138/job/85122766999"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28702519138/job/85122767003"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28702519138/job/85122767010"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28702519138/job/85122767019"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28702519138/job/85122767036"
+      }
+    ]
+  },
+  {
     "commitSha": "6fed2db985ee6bc50e64aaefec0d8e1a05524131",
     "commitTimestamp": "2026-07-04T09:20:35Z",
     "commitMessage": "fix(core): normalize jiti required browserslist (#8067)",
