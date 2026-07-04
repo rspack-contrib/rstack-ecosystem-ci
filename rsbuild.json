@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "01369e0d02c82835934c84e04032b2e25cc40353",
+    "commitTimestamp": "2026-07-04T08:56:37Z",
+    "commitMessage": "chore(deps): update dependency node to v24.18.0 (#8065)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28701200584",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28701200584/job/85119407131"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28701200584/job/85119407134"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28701200584/job/85119407140"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28701200584/job/85119407148"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28701200584/job/85119407153"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28701200584/job/85119407154"
+      }
+    ]
+  },
+  {
     "commitSha": "2360c124327db196090a5b407b5e0664fa623579",
     "commitTimestamp": "2026-07-04T08:55:28Z",
     "commitMessage": "chore(deps): update dependency oxfmt to ^0.57.0 (#8066)",
