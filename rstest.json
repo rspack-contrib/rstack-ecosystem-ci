@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e8f7f6390a1b1bbde7dfc03b2f17a7fa33866c2c",
+    "commitTimestamp": "2026-07-06T07:01:16Z",
+    "commitMessage": "perf(coverage-v8): resolve raw coverage in main process (#1501)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28773816683",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28773816683/job/85313162885"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28773816683/job/85313162894"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28773816683/job/85313162907"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28773816683/job/85313162918"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28773816683/job/85313162926"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28773816683/job/85313162932"
+      }
+    ]
+  },
+  {
     "commitSha": "43b7cd7b5349758a0b7d4c871deaeea268ab1770",
     "commitTimestamp": "2026-07-06T03:31:34Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1505)",
