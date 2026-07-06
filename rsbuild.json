@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "67d5711d1ed5fc9002b4b2685a866bc9a6c02d18",
+    "commitTimestamp": "2026-07-06T05:37:07Z",
+    "commitMessage": "feat(core): support jxl assets (#8079)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28770270136",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28770270136/job/85302478507"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28770270136/job/85302478509"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28770270136/job/85302478514"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28770270136/job/85302478516"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28770270136/job/85302478532"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28770270136/job/85302478536"
+      }
+    ]
+  },
+  {
     "commitSha": "c43d33871abe038b40c891460aaedfb337228489",
     "commitTimestamp": "2026-07-06T05:27:13Z",
     "commitMessage": "feat(core): support vtt assets (#8078)",
