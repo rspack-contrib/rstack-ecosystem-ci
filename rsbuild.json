@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "58382e84f04e887279bf1647baf29370a5878e83",
+    "commitTimestamp": "2026-07-06T04:00:23Z",
+    "commitMessage": "fix(deps): update all patch dependencies (#8075)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28766849271",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28766849271/job/85292771965"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28766849271/job/85292771983"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28766849271/job/85292771988"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28766849271/job/85292771997"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28766849271/job/85292771999"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28766849271/job/85292772006"
+      }
+    ]
+  },
+  {
     "commitSha": "8839a3bb125effacd28553fcc020aaaa53f3b4dd",
     "commitTimestamp": "2026-07-05T12:28:26Z",
     "commitMessage": "chore: enable Rspack native watcher (#8074)",
