@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ff120f9ab12e616280cf58f09ee52a36a2951185",
+    "commitTimestamp": "2026-07-06T07:43:20Z",
+    "commitMessage": "release: 0.11.0 (#1506)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28775890784",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28775890784/job/85319684208"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28775890784/job/85319684209"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28775890784/job/85319684212"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28775890784/job/85319684221"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28775890784/job/85319684238"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28775890784/job/85319684288"
+      }
+    ]
+  },
+  {
     "commitSha": "e8f7f6390a1b1bbde7dfc03b2f17a7fa33866c2c",
     "commitTimestamp": "2026-07-06T07:01:16Z",
     "commitMessage": "perf(coverage-v8): resolve raw coverage in main process (#1501)",
