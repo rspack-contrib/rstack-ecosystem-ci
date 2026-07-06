@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "43b7cd7b5349758a0b7d4c871deaeea268ab1770",
+    "commitTimestamp": "2026-07-06T03:31:34Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#1505)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28766145836",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28766145836/job/85290750163"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28766145836/job/85290750165"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28766145836/job/85290750166"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28766145836/job/85290750169"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28766145836/job/85290750187"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28766145836/job/85290750201"
+      }
+    ]
+  },
+  {
     "commitSha": "880348c756e89295647a232809f597d2d5660cbe",
     "commitTimestamp": "2026-07-03T09:12:14Z",
     "commitMessage": "feat(adapter-rsbuild): support inline config (#1503)",
