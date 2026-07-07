@@ -6,6 +6,7 @@ export async function test(options: RunOptions) {
     ...options,
     repo: 'web-infra-dev/rsbuild',
     branch: process.env.RSBUILD ?? 'main',
+    build: 'node --run build',
     test: ['test'],
   });
 }

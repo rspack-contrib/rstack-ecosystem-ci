@@ -40,3 +40,4 @@ runs:
       run: |
         cd ${{ inputs.path }}
         pnpm i
+        node --run build
