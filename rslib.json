@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "09a1e0a3cc433940aff72b074e3c43685c9db65e",
+    "commitTimestamp": "2026-07-07T13:12:47Z",
+    "commitMessage": "refactor(dts): avoid duplicated error label in diagnostics (#1747)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28868917157",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28868917157/job/85626169375"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28868917157/job/85626169402"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28868917157/job/85626169404"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28868917157/job/85626169421"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28868917157/job/85626169439"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28868917157/job/85626169444"
+      }
+    ]
+  },
+  {
     "commitSha": "c8dcb4faef0d4682bf8c6678353098839f1c83e3",
     "commitTimestamp": "2026-07-07T13:04:47Z",
     "commitMessage": "feat(deps): upgrade rsbuild to 2.1.5 (#1748)",
