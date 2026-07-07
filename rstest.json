@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "5610b74ffe0ac636fff904e78d2cedcd4186cb7c",
+    "commitTimestamp": "2026-07-07T11:38:05Z",
+    "commitMessage": "test(playwright): skip headed e2e without display (#1512)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28863274593",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28863274593/job/85606939988"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28863274593/job/85606939994"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28863274593/job/85606939998"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28863274593/job/85606940011"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28863274593/job/85606940014"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28863274593/job/85606940155"
+      }
+    ]
+  },
+  {
     "commitSha": "e51100585447f4ba98cdba31d46e86c46df380ea",
     "commitTimestamp": "2026-07-07T09:31:12Z",
     "commitMessage": "chore: enforce unified package versions under packages/ (#1510)",
