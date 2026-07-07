@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "cf9b0108b557f57d08bf70cad34b6d222de7e9d9",
+    "commitTimestamp": "2026-07-07T13:56:02Z",
+    "commitMessage": "chore(create-rslib): update React peer range (#1749)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28871835417",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28871835417/job/85636417733"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28871835417/job/85636417744"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28871835417/job/85636417749"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28871835417/job/85636417755"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28871835417/job/85636417819"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28871835417/job/85636417840"
+      }
+    ]
+  },
+  {
     "commitSha": "09a1e0a3cc433940aff72b074e3c43685c9db65e",
     "commitTimestamp": "2026-07-07T13:12:47Z",
     "commitMessage": "refactor(dts): avoid duplicated error label in diagnostics (#1747)",
