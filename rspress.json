@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "45b87c9eb595436d4d49974085fffedceb1df03b",
+    "commitTimestamp": "2026-07-07T09:50:08Z",
+    "commitMessage": "fix(theme/codeblock): avoid list markers when copying code blocks (#3501)",
+    "author": {
+      "name": "Mike Thomas",
+      "email": "mike.george.thomas@gmail.com",
+      "login": "maikthomas"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28857297563",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28857297563/job/85586916684"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28857297563/job/85586916689"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28857297563/job/85586916722"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28857297563/job/85586916731"
+      }
+    ]
+  },
+  {
     "commitSha": "dfbcee028e59176011a1d3ba70d6245001f800ec",
     "commitTimestamp": "2026-07-07T07:52:31Z",
     "commitMessage": "feat(theme/Link): Add `route.useTransitions` to opt-out startTransition navigation (#3479)",
