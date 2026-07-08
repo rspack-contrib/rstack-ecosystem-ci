@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b7042526d74b04098ebf25f917dc46bdd025b804",
+    "commitTimestamp": "2026-07-08T11:34:19Z",
+    "commitMessage": "fix(core): keep Mocked<T> construct signatures for this-typed members (#1519)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28939481587",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28939481587/job/85857874554"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28939481587/job/85857874564"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28939481587/job/85857874569"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28939481587/job/85857874614"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28939481587/job/85857874615"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28939481587/job/85857874666"
+      }
+    ]
+  },
+  {
     "commitSha": "a2b7acc4d417f3dd0b49f47c93a382ba88b4357f",
     "commitTimestamp": "2026-07-08T08:35:37Z",
     "commitMessage": "fix(core): keep Mocked<T> assignable to T for construct+call members (#1516)",
