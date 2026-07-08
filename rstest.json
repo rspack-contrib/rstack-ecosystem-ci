@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "092bcce8c0ce039409bd1353e4cd997fd19c1ac1",
+    "commitTimestamp": "2026-07-08T07:44:28Z",
+    "commitMessage": "fix(core): accept rs.fn()/rs.spyOn() mocks in call-order matchers (#1517)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28926287966",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28926287966/job/85814538371"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28926287966/job/85814538395"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28926287966/job/85814538406"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28926287966/job/85814538424"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28926287966/job/85814538426"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28926287966/job/85814538438"
+      }
+    ]
+  },
+  {
     "commitSha": "5610b74ffe0ac636fff904e78d2cedcd4186cb7c",
     "commitTimestamp": "2026-07-07T11:38:05Z",
     "commitMessage": "test(playwright): skip headed e2e without display (#1512)",
