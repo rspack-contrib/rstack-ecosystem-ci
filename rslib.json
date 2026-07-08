@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c53726c4524442bbf294f79b5537c77bf3b17a88",
+    "commitTimestamp": "2026-07-08T11:14:24Z",
+    "commitMessage": "chore(plugin-dts): require Rsbuild 2 peer (#1758)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28938358066",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28938358066/job/85854241351"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28938358066/job/85854241370"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28938358066/job/85854241375"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28938358066/job/85854241389"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28938358066/job/85854241396"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28938358066/job/85854241413"
+      }
+    ]
+  },
+  {
     "commitSha": "ea0c8262882f6d802b34a20371ec36365dfce0eb",
     "commitTimestamp": "2026-07-08T08:58:04Z",
     "commitMessage": "refactor(core): replace tsconfck with get-tsconfig (#1757)",
