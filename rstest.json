@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "cb546fa27bd3d2112af439fa61fec638338ce87f",
+    "commitTimestamp": "2026-07-08T07:51:54Z",
+    "commitMessage": "feat(core): mark @rstest/core sideEffects-free for tree-shaking (#1513)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28926800748",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28926800748/job/85816186833"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28926800748/job/85816186835"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28926800748/job/85816186860"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28926800748/job/85816186868"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28926800748/job/85816186889"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28926800748/job/85816186925"
+      }
+    ]
+  },
+  {
     "commitSha": "092bcce8c0ce039409bd1353e4cd997fd19c1ac1",
     "commitTimestamp": "2026-07-08T07:44:28Z",
     "commitMessage": "fix(core): accept rs.fn()/rs.spyOn() mocks in call-order matchers (#1517)",
