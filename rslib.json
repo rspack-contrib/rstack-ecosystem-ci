@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "bd419e8a14820a6ae62901037fadf2b2098eb681",
+    "commitTimestamp": "2026-07-08T05:52:51Z",
+    "commitMessage": "feat(create-rslib): add Solid template and related documents (#1731)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28920847263",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28920847263/job/85797537864"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28920847263/job/85797537872"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28920847263/job/85797537886"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28920847263/job/85797537895"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28920847263/job/85797537897"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28920847263/job/85797537902"
+      }
+    ]
+  },
+  {
     "commitSha": "fe3adee9d9f3270fcfb7a7d872aea31a0420d923",
     "commitTimestamp": "2026-07-08T04:46:22Z",
     "commitMessage": "fix(create-rslib): move reference types into tsconfig (#1750)",
