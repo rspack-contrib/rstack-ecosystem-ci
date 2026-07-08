@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "fe3adee9d9f3270fcfb7a7d872aea31a0420d923",
+    "commitTimestamp": "2026-07-08T04:46:22Z",
+    "commitMessage": "fix(create-rslib): move reference types into tsconfig (#1750)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28918231729",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28918231729/job/85789560600"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28918231729/job/85789560604"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28918231729/job/85789560607"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28918231729/job/85789560612"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28918231729/job/85789560620"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28918231729/job/85789560660"
+      }
+    ]
+  },
+  {
     "commitSha": "cf9b0108b557f57d08bf70cad34b6d222de7e9d9",
     "commitTimestamp": "2026-07-07T13:56:02Z",
     "commitMessage": "chore(create-rslib): update React peer range (#1749)",
