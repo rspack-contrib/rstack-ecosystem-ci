@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "7f2b84a0ee10016b4612ff422b38f3595a99e412",
+    "commitTimestamp": "2026-07-08T06:19:32Z",
+    "commitMessage": "feat(core): expose runCLI API (#3504)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28922029137",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28922029137/job/85801159492"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28922029137/job/85801159499"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28922029137/job/85801159508"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28922029137/job/85801159528"
+      }
+    ]
+  },
+  {
     "commitSha": "45b87c9eb595436d4d49974085fffedceb1df03b",
     "commitTimestamp": "2026-07-07T09:50:08Z",
     "commitMessage": "fix(theme/codeblock): avoid list markers when copying code blocks (#3501)",
