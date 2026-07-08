@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ea0c8262882f6d802b34a20371ec36365dfce0eb",
+    "commitTimestamp": "2026-07-08T08:58:04Z",
+    "commitMessage": "refactor(core): replace tsconfck with get-tsconfig (#1757)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28930496981",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28930496981/job/85828174549"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28930496981/job/85828174556"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28930496981/job/85828174573"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28930496981/job/85828174576"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28930496981/job/85828174585"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28930496981/job/85828174715"
+      }
+    ]
+  },
+  {
     "commitSha": "cfdca16191f3e494bb94348c1c200d7f62ae3971",
     "commitTimestamp": "2026-07-08T07:09:50Z",
     "commitMessage": "refactor(core)!: remove advancedEsm experiment (#1754)",
