@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "90070bb242a73d4c258a2875c7966e8078ba312c",
+    "commitTimestamp": "2026-07-08T05:04:02Z",
+    "commitMessage": "fix(create-rsbuild): preserve test template types (#8084)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28918872418",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28918872418/job/85791462814"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28918872418/job/85791462817"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28918872418/job/85791462819"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28918872418/job/85791462822"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28918872418/job/85791462827"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28918872418/job/85791462890"
+      }
+    ]
+  },
+  {
     "commitSha": "74523a44c9caf4c74843bc1423cc1cce989bc6e5",
     "commitTimestamp": "2026-07-08T04:37:11Z",
     "commitMessage": "chore(deps): update rstest to ^0.11.0 (#8083)",
