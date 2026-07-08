@@ -38,6 +38,44 @@
     ]
   },
   {
+    "commitSha": "4a1c6c3888692bb960b81c08475ffdfb965d4d12",
+    "commitTimestamp": "2026-07-08T08:57:37Z",
+    "commitMessage": "feat(theme/Link): support opt-out prefetch via `route.prefetchLink` (#3506)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28930464347",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28930464347/job/85828065952"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28930464347/job/85828065975"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28930464347/job/85828065990"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28930464347/job/85828066014"
+      }
+    ]
+  },
+  {
     "commitSha": "2587f69d356c538e37be6276aa6b82859c742b21",
     "commitTimestamp": "2026-07-08T08:28:59Z",
     "commitMessage": "fix(theme/Link): `startTransition` in async behaviour 🔧 (#3503)",
