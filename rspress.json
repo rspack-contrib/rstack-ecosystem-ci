@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "237a9c3084cf0f536e3f3b0ed24f2d7ec9299855",
+    "commitTimestamp": "2026-07-08T11:50:50Z",
+    "commitMessage": "Release v2.0.17 (#3507)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28940398820",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28940398820/job/85860909461"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28940398820/job/85860909484"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28940398820/job/85860909495"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28940398820/job/85860909507"
+      }
+    ]
+  },
+  {
     "commitSha": "16bac8165ba31b2cc017c84a76f83e69903ad6e3",
     "commitTimestamp": "2026-07-08T10:04:00Z",
     "commitMessage": "fix(theme/GithubStars): avoid github stars hydration mismatch (#3505)",
