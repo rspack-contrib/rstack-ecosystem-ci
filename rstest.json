@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "764c6f9a77f96b21cd0a542526910f3c116c5bc6",
+    "commitTimestamp": "2026-07-09T09:45:05Z",
+    "commitMessage": "fix(adapters): update peer dependency ranges to include TypeScript 7 (#1533)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29009568312",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29009568312/job/86089521854"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29009568312/job/86089521894"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29009568312/job/86089521900"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29009568312/job/86089521911"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29009568312/job/86089521954"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29009568312/job/86089522009"
+      }
+    ]
+  },
+  {
     "commitSha": "f816d23ea98a1b26c12111b14156e5c99db71c57",
     "commitTimestamp": "2026-07-09T09:36:59Z",
     "commitMessage": "fix(coverage-v8): reduce conversion memory usage (#1532)",
