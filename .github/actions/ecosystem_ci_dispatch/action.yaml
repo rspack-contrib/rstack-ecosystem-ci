@@ -120,7 +120,7 @@ runs:
       continue-on-error: true
       with:
         token: ${{ inputs.github-token }}
-        ref: ci/dockerless-workflow-dispatch
+        ref: main
         owner: rstackjs
         repo: rstack-ecosystem-ci
         workflow: ${{ inputs.workflow-file }}
