@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "64bd9f20c2b0883d4381539b47aa0641d5cad2d3",
+    "commitTimestamp": "2026-07-09T08:06:58Z",
+    "commitMessage": "fix(coverage-v8): omit invalid raw sourcemaps (#1527)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29005069690",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29005069690/job/86074613316"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29005069690/job/86074613334"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29005069690/job/86074613336"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29005069690/job/86074613339"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29005069690/job/86074613350"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29005069690/job/86074613379"
+      }
+    ]
+  },
+  {
     "commitSha": "bc31768e2a5384cc5c9e85f63eabc6b651e90aa2",
     "commitTimestamp": "2026-07-09T07:56:05Z",
     "commitMessage": "test(playwright): lighten core expect regression (#1529)",
