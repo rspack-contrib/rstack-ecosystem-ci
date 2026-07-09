@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d9af6142e6531ee6569bd92079263f0fc66007ac",
+    "commitTimestamp": "2026-07-09T08:13:13Z",
+    "commitMessage": "chore(deps): update dependency oxfmt to ^0.58.0 (#8086)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29005897304",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29005897304/job/86077278835"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29005897304/job/86077278838"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29005897304/job/86077278880"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29005897304/job/86077278895"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29005897304/job/86077278903"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29005897304/job/86077278949"
+      }
+    ]
+  },
+  {
     "commitSha": "4011af17b80ea5bc6c0426d13229be665e736c19",
     "commitTimestamp": "2026-07-09T03:25:47Z",
     "commitMessage": "refactor(core): use shared load config package (#8085)",
