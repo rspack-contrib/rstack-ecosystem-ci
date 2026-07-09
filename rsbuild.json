@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7cc05cf376227ac4338982882ac9a5e0e3569ff8",
+    "commitTimestamp": "2026-07-09T08:13:22Z",
+    "commitMessage": "chore(deps): update swc monorepo to ^12.15.0 (#8087)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29006021551",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29006021551/job/86077688061"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29006021551/job/86077688064"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29006021551/job/86077688067"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29006021551/job/86077688118"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29006021551/job/86077688181"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29006021551/job/86077688186"
+      }
+    ]
+  },
+  {
     "commitSha": "d9af6142e6531ee6569bd92079263f0fc66007ac",
     "commitTimestamp": "2026-07-09T08:13:13Z",
     "commitMessage": "chore(deps): update dependency oxfmt to ^0.58.0 (#8086)",
