@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "91dcf81a5e70131aecadf1232bbaa5ee0d5b4d81",
+    "commitTimestamp": "2026-07-09T14:58:47Z",
+    "commitMessage": "ci: use Node 24 for release workflow (#1538)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29027624304",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29027624304/job/86151517381"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29027624304/job/86151517493"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29027624304/job/86151517506"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29027624304/job/86151517528"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29027624304/job/86151517534"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29027624304/job/86151517825"
+      }
+    ]
+  },
+  {
     "commitSha": "8b2506c08302d613f3a62977ad9349083d3dba60",
     "commitTimestamp": "2026-07-09T12:06:44Z",
     "commitMessage": "fix(core): report running test case as failed on worker crash (#1536)",
