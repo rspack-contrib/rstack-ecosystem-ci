@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4011af17b80ea5bc6c0426d13229be665e736c19",
+    "commitTimestamp": "2026-07-09T03:25:47Z",
+    "commitMessage": "refactor(core): use shared load config package (#8085)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28991861857",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28991861857/job/86033256697"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28991861857/job/86033256700"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28991861857/job/86033256707"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28991861857/job/86033256719"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28991861857/job/86033256723"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28991861857/job/86033256726"
+      }
+    ]
+  },
+  {
     "commitSha": "90070bb242a73d4c258a2875c7966e8078ba312c",
     "commitTimestamp": "2026-07-08T05:04:02Z",
     "commitMessage": "fix(create-rsbuild): preserve test template types (#8084)",
