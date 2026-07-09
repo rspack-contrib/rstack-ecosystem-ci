@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c312d27943f0be5ea031d237062ab65f1ccee87b",
+    "commitTimestamp": "2026-07-09T04:54:40Z",
+    "commitMessage": "test(e2e): make no-isolate module-sharing fixtures order-independent (#1523)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28995052474",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28995052474/job/86042780890"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28995052474/job/86042780900"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28995052474/job/86042780906"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28995052474/job/86042780915"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28995052474/job/86042780957"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28995052474/job/86042780959"
+      }
+    ]
+  },
+  {
     "commitSha": "b7042526d74b04098ebf25f917dc46bdd025b804",
     "commitTimestamp": "2026-07-08T11:34:19Z",
     "commitMessage": "fix(core): keep Mocked<T> construct signatures for this-typed members (#1519)",
