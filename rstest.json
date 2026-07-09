@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "84d9474e47e0b54129d670a5b4d027d4f586af41",
+    "commitTimestamp": "2026-07-09T06:00:44Z",
+    "commitMessage": "fix(e2e): avoid nested GitHub Actions annotations (#1525)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28997824065",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28997824065/job/86051167080"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28997824065/job/86051167088"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28997824065/job/86051167099"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28997824065/job/86051167104"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28997824065/job/86051167115"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/28997824065/job/86051167136"
+      }
+    ]
+  },
+  {
     "commitSha": "c312d27943f0be5ea031d237062ab65f1ccee87b",
     "commitTimestamp": "2026-07-09T04:54:40Z",
     "commitMessage": "test(e2e): make no-isolate module-sharing fixtures order-independent (#1523)",
