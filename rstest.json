@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f816d23ea98a1b26c12111b14156e5c99db71c57",
+    "commitTimestamp": "2026-07-09T09:36:59Z",
+    "commitMessage": "fix(coverage-v8): reduce conversion memory usage (#1532)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29008833080",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29008833080/job/86087044227"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29008833080/job/86087044235"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29008833080/job/86087044239"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29008833080/job/86087044255"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29008833080/job/86087044307"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29008833080/job/86087044310"
+      }
+    ]
+  },
+  {
     "commitSha": "64bd9f20c2b0883d4381539b47aa0641d5cad2d3",
     "commitTimestamp": "2026-07-09T08:06:58Z",
     "commitMessage": "fix(coverage-v8): omit invalid raw sourcemaps (#1527)",
