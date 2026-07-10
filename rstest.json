@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "414b2f231ab7df25c23487e6f0cf8a96ee2fb731",
+    "commitTimestamp": "2026-07-09T23:54:08Z",
+    "commitMessage": "release: 0.11.1 (#1537)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29058606443",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29058606443/job/86255392835"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29058606443/job/86255392845"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29058606443/job/86255392854"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29058606443/job/86255392861"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29058606443/job/86255392873"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29058606443/job/86255392875"
+      }
+    ]
+  },
+  {
     "commitSha": "91dcf81a5e70131aecadf1232bbaa5ee0d5b4d81",
     "commitTimestamp": "2026-07-09T14:58:47Z",
     "commitMessage": "ci: use Node 24 for release workflow (#1538)",
