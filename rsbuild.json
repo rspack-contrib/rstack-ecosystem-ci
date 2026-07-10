@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "bb507445f188e837107dcab0b5002d0fc1667ad2",
+    "commitTimestamp": "2026-07-10T06:29:40Z",
+    "commitMessage": "perf: upgrade rslog to v2.2.0 (#8089)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29073991976",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29073991976/job/86301463870"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29073991976/job/86301463900"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29073991976/job/86301463902"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29073991976/job/86301463904"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29073991976/job/86301463914"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29073991976/job/86301463932"
+      }
+    ]
+  },
+  {
     "commitSha": "7cc05cf376227ac4338982882ac9a5e0e3569ff8",
     "commitTimestamp": "2026-07-09T08:13:22Z",
     "commitMessage": "chore(deps): update swc monorepo to ^12.15.0 (#8087)",
