@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "190964d6bad83fbcafac3645595936f6ce3c0fc4",
+    "commitTimestamp": "2026-07-10T07:08:12Z",
+    "commitMessage": "fix(coverage-v8): avoid branch map scan for indexes (#1542)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29075790611",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29075790611/job/86306959541"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29075790611/job/86306959551"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29075790611/job/86306959557"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29075790611/job/86306959567"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29075790611/job/86306959578"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29075790611/job/86306959602"
+      }
+    ]
+  },
+  {
     "commitSha": "3f854cde0a03b489d54aaeff754429febec282f9",
     "commitTimestamp": "2026-07-10T05:57:44Z",
     "commitMessage": "test(example): stabilize playwright smoke test (#1541)",
