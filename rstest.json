@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a9f15a534764b836cb80df4a9b044d58b51d0b10",
+    "commitTimestamp": "2026-07-10T07:43:16Z",
+    "commitMessage": "fix(core): explain missing Istanbul coverage helpers (#1544)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29077542368",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29077542368/job/86312484051"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29077542368/job/86312484054"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29077542368/job/86312484058"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29077542368/job/86312484090"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29077542368/job/86312484093"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29077542368/job/86312484116"
+      }
+    ]
+  },
+  {
     "commitSha": "190964d6bad83fbcafac3645595936f6ce3c0fc4",
     "commitTimestamp": "2026-07-10T07:08:12Z",
     "commitMessage": "fix(coverage-v8): avoid branch map scan for indexes (#1542)",
