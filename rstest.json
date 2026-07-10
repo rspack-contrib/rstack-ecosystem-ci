@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "67e4296a82b6ee8ef2d14dc9a5a64992863ca4e2",
+    "commitTimestamp": "2026-07-10T11:30:59Z",
+    "commitMessage": "fix(core): initialize env comment projects before rsbuild (#1534)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29089692600",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29089692600/job/86351808038"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29089692600/job/86351808042"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29089692600/job/86351808051"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29089692600/job/86351808065"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29089692600/job/86351808068"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29089692600/job/86351808074"
+      }
+    ]
+  },
+  {
     "commitSha": "f5a25e748fdb682d2b78beca332bb70b048bc168",
     "commitTimestamp": "2026-07-10T09:18:15Z",
     "commitMessage": "fix(vscode): handle trailing slash in project root (#1540)",
