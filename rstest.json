@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9a5c46f986e99d4d3ab446254659a2dd3a607886",
+    "commitTimestamp": "2026-07-10T03:57:41Z",
+    "commitMessage": "feat(core): perf-first test-file ordering with results cache (#1531)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29068091695",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29068091695/job/86283862922"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29068091695/job/86283862929"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29068091695/job/86283862931"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29068091695/job/86283862939"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29068091695/job/86283862942"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29068091695/job/86283862954"
+      }
+    ]
+  },
+  {
     "commitSha": "20054c73a6ced7480945e5491dd5792616fa9a92",
     "commitTimestamp": "2026-07-10T03:41:38Z",
     "commitMessage": "fix: re-export AsymmetricMatchersContaining and Matchers types (#1539)",
