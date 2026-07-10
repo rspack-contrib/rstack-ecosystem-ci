@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f5a25e748fdb682d2b78beca332bb70b048bc168",
+    "commitTimestamp": "2026-07-10T09:18:15Z",
+    "commitMessage": "fix(vscode): handle trailing slash in project root (#1540)",
+    "author": {
+      "name": "alex",
+      "email": "zalishchuk.me@gmail.com",
+      "login": "zalishchuk"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29082722177",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29082722177/job/86329113203"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29082722177/job/86329113206"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29082722177/job/86329113208"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29082722177/job/86329113254"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29082722177/job/86329113271"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29082722177/job/86329113442"
+      }
+    ]
+  },
+  {
     "commitSha": "a9f15a534764b836cb80df4a9b044d58b51d0b10",
     "commitTimestamp": "2026-07-10T07:43:16Z",
     "commitMessage": "fix(core): explain missing Istanbul coverage helpers (#1544)",
