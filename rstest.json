@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "3f854cde0a03b489d54aaeff754429febec282f9",
+    "commitTimestamp": "2026-07-10T05:57:44Z",
+    "commitMessage": "test(example): stabilize playwright smoke test (#1541)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29072617755",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29072617755/job/86297139247"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29072617755/job/86297139249"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29072617755/job/86297139260"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29072617755/job/86297139262"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29072617755/job/86297139264"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29072617755/job/86297139267"
+      }
+    ]
+  },
+  {
     "commitSha": "9a5c46f986e99d4d3ab446254659a2dd3a607886",
     "commitTimestamp": "2026-07-10T03:57:41Z",
     "commitMessage": "feat(core): perf-first test-file ordering with results cache (#1531)",
