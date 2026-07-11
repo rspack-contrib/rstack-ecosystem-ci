@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "edd8217c6d6445703a27418cfd3af40df9d07a3c",
+    "commitTimestamp": "2026-07-11T13:29:32Z",
+    "commitMessage": "test(e2e): improve random port allocation (#8092)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29154412231",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29154412231/job/86549078559"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29154412231/job/86549078560"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29154412231/job/86549078565"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29154412231/job/86549078567"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29154412231/job/86549078570"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29154412231/job/86549078587"
+      }
+    ]
+  },
+  {
     "commitSha": "ac66d10f9641e7670f40c6fb92349a6fc65259a0",
     "commitTimestamp": "2026-07-11T01:52:38Z",
     "commitMessage": "test: restore stubbed environment variables (#8090)",
