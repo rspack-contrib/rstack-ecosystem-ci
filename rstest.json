@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "27ace548c7e597d2a69a2f95b814edf812600866",
+    "commitTimestamp": "2026-07-11T14:20:17Z",
+    "commitMessage": "docs: clarify Rstest as a JavaScript testing framework (#1552)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29155940279",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29155940279/job/86552916981"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29155940279/job/86552916982"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29155940279/job/86552916984"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29155940279/job/86552916985"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29155940279/job/86552916986"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29155940279/job/86552916993"
+      }
+    ]
+  },
+  {
     "commitSha": "67e4296a82b6ee8ef2d14dc9a5a64992863ca4e2",
     "commitTimestamp": "2026-07-10T11:30:59Z",
     "commitMessage": "fix(core): initialize env comment projects before rsbuild (#1534)",
