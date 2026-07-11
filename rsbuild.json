@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ac66d10f9641e7670f40c6fb92349a6fc65259a0",
+    "commitTimestamp": "2026-07-11T01:52:38Z",
+    "commitMessage": "test: restore stubbed environment variables (#8090)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29135412333",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29135412333/job/86498650430"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29135412333/job/86498650431"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29135412333/job/86498650437"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29135412333/job/86498650440"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29135412333/job/86498650452"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29135412333/job/86498653429"
+      }
+    ]
+  },
+  {
     "commitSha": "bb507445f188e837107dcab0b5002d0fc1667ad2",
     "commitTimestamp": "2026-07-10T06:29:40Z",
     "commitMessage": "perf: upgrade rslog to v2.2.0 (#8089)",
