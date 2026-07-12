@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "dbd68a130b8f66dd0976cd96ba421c17e70df7cd",
+    "commitTimestamp": "2026-07-12T05:17:16Z",
+    "commitMessage": "perf(core): skip package manager detection without failures (#1555)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29180961749",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29180961749/job/86618333145"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29180961749/job/86618333149"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29180961749/job/86618333152"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29180961749/job/86618333160"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29180961749/job/86618333166"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29180961749/job/86618333170"
+      }
+    ]
+  },
+  {
     "commitSha": "e9c4e900a1df0d1b6b793d45ba4d593784799a4d",
     "commitTimestamp": "2026-07-12T03:15:27Z",
     "commitMessage": "perf(core): lazy load package installer (#1553)",
