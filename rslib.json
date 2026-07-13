@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "bd35b405678a15d3680c33554a1afa05a98e8ca4",
+    "commitTimestamp": "2026-07-13T16:35:46Z",
+    "commitMessage": "refactor(types): simplify mergeRslibConfig types (#1763)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29267084697",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29267084697/job/86875178476"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29267084697/job/86875178479"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29267084697/job/86875178484"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29267084697/job/86875178492"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29267084697/job/86875178493"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29267084697/job/86875178504"
+      }
+    ]
+  },
+  {
     "commitSha": "539ff766c50a76772b8eee9e49570ea7ef0bd2bf",
     "commitTimestamp": "2026-07-13T15:56:04Z",
     "commitMessage": "feat(core): allow omitting lib config (#1756)",
