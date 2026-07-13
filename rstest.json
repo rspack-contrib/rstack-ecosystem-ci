@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "8e575190a2dc1812141a49c9336207007911df5e",
+    "commitTimestamp": "2026-07-13T12:05:07Z",
+    "commitMessage": "fix(vscode): harden worker lifecycle and add node executable config (#1563)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29248680608",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29248680608/job/86811680356"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29248680608/job/86811680364"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29248680608/job/86811680375"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29248680608/job/86811680395"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29248680608/job/86811680397"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29248680608/job/86811680432"
+      }
+    ]
+  },
+  {
     "commitSha": "ecb10924e76b9c3df291fa5dc57765f7b90d154b",
     "commitTimestamp": "2026-07-13T11:10:16Z",
     "commitMessage": "fix(vscode): nest multi-project test tree by directory (#1562)",
