@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "951c18b14fd89568cc890d247c525df3bd615a54",
+    "commitTimestamp": "2026-07-13T06:21:34Z",
+    "commitMessage": "chore(deps): update dependency @rsbuild/plugin-yaml to v2 (#1761)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29228972692",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29228972692/job/86748878300"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29228972692/job/86748878305"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29228972692/job/86748878316"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29228972692/job/86748878318"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29228972692/job/86748878322"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29228972692/job/86748878324"
+      }
+    ]
+  },
+  {
     "commitSha": "c53726c4524442bbf294f79b5537c77bf3b17a88",
     "commitTimestamp": "2026-07-08T11:14:24Z",
     "commitMessage": "chore(plugin-dts): require Rsbuild 2 peer (#1758)",
