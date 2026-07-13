@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "cd66e624b1dc4b3b4cefe99465c475c59eb184f8",
+    "commitTimestamp": "2026-07-13T03:52:17Z",
+    "commitMessage": "test(e2e): use shared test utils (#8095)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29222623330",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29222623330/job/86730650199"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29222623330/job/86730650205"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29222623330/job/86730650207"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29222623330/job/86730650210"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29222623330/job/86730650229"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29222623330/job/86730650232"
+      }
+    ]
+  },
+  {
     "commitSha": "466b201620801f37b21ee2696d1094a8e53d1e8b",
     "commitTimestamp": "2026-07-13T02:24:05Z",
     "commitMessage": "chore(deps): update module federation to v2.7.0 (#8098)",
