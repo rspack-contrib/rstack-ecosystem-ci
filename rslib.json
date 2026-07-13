@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "801469c1ac82f51cef060cd9414d00c15d5c48e8",
+    "commitTimestamp": "2026-07-13T14:46:09Z",
+    "commitMessage": "feat: support shared lib config fields (#1755)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29259392881",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29259392881/job/86848284173"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29259392881/job/86848284177"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29259392881/job/86848284192"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29259392881/job/86848284204"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29259392881/job/86848284254"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29259392881/job/86848284286"
+      }
+    ]
+  },
+  {
     "commitSha": "951c18b14fd89568cc890d247c525df3bd615a54",
     "commitTimestamp": "2026-07-13T06:21:34Z",
     "commitMessage": "chore(deps): update dependency @rsbuild/plugin-yaml to v2 (#1761)",
