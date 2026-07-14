@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b3ccb0e0e406e007bd4d278d389c3a97789938cc",
+    "commitTimestamp": "2026-07-14T19:30:39Z",
+    "commitMessage": "refactor(core): introduce TestExecutor seam for node and browser runs (#1572)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29362114942",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29362114942/job/87184554509"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29362114942/job/87184554535"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29362114942/job/87184554560"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29362114942/job/87184554568"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29362114942/job/87184554587"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29362114942/job/87184554596"
+      }
+    ]
+  },
+  {
     "commitSha": "dbaf1dfbd787bd30c07d2875508ce075abb70b6c",
     "commitTimestamp": "2026-07-14T13:11:02Z",
     "commitMessage": "feat(vscode): add \"Run in Terminal\" and dedup aggregated projects (#1571)",
