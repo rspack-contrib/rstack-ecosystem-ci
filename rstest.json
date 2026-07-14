@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "dbaf1dfbd787bd30c07d2875508ce075abb70b6c",
+    "commitTimestamp": "2026-07-14T13:11:02Z",
+    "commitMessage": "feat(vscode): add \"Run in Terminal\" and dedup aggregated projects (#1571)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29335457927",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29335457927/job/87093475297"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29335457927/job/87093475313"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29335457927/job/87093475334"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29335457927/job/87093475387"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29335457927/job/87093475419"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29335457927/job/87093475426"
+      }
+    ]
+  },
+  {
     "commitSha": "c49bec7e0a80d26253255fb7650a8edb31ed0945",
     "commitTimestamp": "2026-07-14T12:15:51Z",
     "commitMessage": "feat(browser): support modifying Rstest config (#1521)",
