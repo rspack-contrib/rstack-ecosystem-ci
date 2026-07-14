@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7aff297ccc80315db6af73bbf06aa014465eac02",
+    "commitTimestamp": "2026-07-14T04:38:21Z",
+    "commitMessage": "fix(vscode): keep gutter ranges when a run reports no test location (#1567)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29306476912",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29306476912/job/87000714507"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29306476912/job/87000714511"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29306476912/job/87000714515"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29306476912/job/87000714519"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29306476912/job/87000714530"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29306476912/job/87000714539"
+      }
+    ]
+  },
+  {
     "commitSha": "8e575190a2dc1812141a49c9336207007911df5e",
     "commitTimestamp": "2026-07-13T12:05:07Z",
     "commitMessage": "fix(vscode): harden worker lifecycle and add node executable config (#1563)",
