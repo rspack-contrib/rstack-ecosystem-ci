@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e693c45e7debc0079c06d7b904ff9e28b14efa25",
+    "commitTimestamp": "2026-07-14T05:01:44Z",
+    "commitMessage": "perf(core): deduplicate concurrent loadBundle calls (#8105)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29307467224",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29307467224/job/87003705230"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29307467224/job/87003705237"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29307467224/job/87003705239"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29307467224/job/87003705248"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29307467224/job/87003705262"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29307467224/job/87003705267"
+      }
+    ]
+  },
+  {
     "commitSha": "125d209ef0f1fd4b24e91be811fc652b95107440",
     "commitTimestamp": "2026-07-13T05:48:12Z",
     "commitMessage": "test(e2e): import shared test utils directly (#8102)",
