@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "17e44d576201af441e425d06662523010cbe9e68",
+    "commitTimestamp": "2026-07-14T09:58:21Z",
+    "commitMessage": "refactor: unify the browser and node run pipeline in core (#1564)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29325162549",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29325162549/job/87059625385"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29325162549/job/87059625388"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29325162549/job/87059625392"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29325162549/job/87059625395"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29325162549/job/87059625430"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29325162549/job/87059625445"
+      }
+    ]
+  },
+  {
     "commitSha": "bbf0d471963ebac0b5d1ba1e4fa58649e3161a70",
     "commitTimestamp": "2026-07-14T07:41:28Z",
     "commitMessage": "feat(vscode): add editor and Test Explorer UX commands (#1568)",
