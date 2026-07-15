@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c47682f47c5361cde88d84f6cfa13cc361368ed0",
+    "commitTimestamp": "2026-07-15T04:07:30Z",
+    "commitMessage": "feat(browser): support globalSetup for browser projects (#1573)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29388244035",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29388244035/job/87265905650"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29388244035/job/87265905654"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29388244035/job/87265905657"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29388244035/job/87265905663"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29388244035/job/87265905684"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29388244035/job/87265905716"
+      }
+    ]
+  },
+  {
     "commitSha": "b3ccb0e0e406e007bd4d278d389c3a97789938cc",
     "commitTimestamp": "2026-07-14T19:30:39Z",
     "commitMessage": "refactor(core): introduce TestExecutor seam for node and browser runs (#1572)",
