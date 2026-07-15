@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c5c782031fdc1b274bbbfc13621039ea5f3f416a",
+    "commitTimestamp": "2026-07-15T07:33:13Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#1765)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29398000985",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29398000985/job/87295805500"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29398000985/job/87295805505"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29398000985/job/87295805507"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29398000985/job/87295805541"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29398000985/job/87295805547"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29398000985/job/87295805565"
+      }
+    ]
+  },
+  {
     "commitSha": "bd35b405678a15d3680c33554a1afa05a98e8ca4",
     "commitTimestamp": "2026-07-13T16:35:46Z",
     "commitMessage": "refactor(types): simplify mergeRslibConfig types (#1763)",
