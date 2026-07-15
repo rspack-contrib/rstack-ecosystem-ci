@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "0266f5315aa18e7ec3f3c6bc4ecb0f1312f3155b",
+    "commitTimestamp": "2026-07-15T08:16:34Z",
+    "commitMessage": "feat(core): add getRstestConfig API (#1575)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29400746603",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29400746603/job/87304485009"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29400746603/job/87304485022"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29400746603/job/87304485029"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29400746603/job/87304485062"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29400746603/job/87304485073"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29400746603/job/87304485076"
+      }
+    ]
+  },
+  {
     "commitSha": "a1e939e05479b355beaa8a0e008363e1a2af47ae",
     "commitTimestamp": "2026-07-15T07:57:41Z",
     "commitMessage": "chore(deps): update @rsbuild/core to 2.1.6 (#1576)",
