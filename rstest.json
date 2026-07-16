@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f3fe905d2ccd0aa73c329bea587bfc4c1c59f3d3",
+    "commitTimestamp": "2026-07-16T11:25:40Z",
+    "commitMessage": "fix(core): support object URLs for DOM blobs (#1585)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29494405407",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29494405407/job/87607847924"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29494405407/job/87607847931"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29494405407/job/87607847990"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29494405407/job/87607848001"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29494405407/job/87607848016"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29494405407/job/87607848041"
+      }
+    ]
+  },
+  {
     "commitSha": "42b4565d886d4cee91dab0442d9c955fe62dcd1d",
     "commitTimestamp": "2026-07-16T08:30:39Z",
     "commitMessage": "fix(core): make jsdom/happy-dom web storage usable on Node 25+ (#1584)",
