@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "167874e337a6c829e76ef5fd8977798e56e9dc7b",
+    "commitTimestamp": "2026-07-16T05:25:42Z",
+    "commitMessage": "fix(core): handle relative asset prefix for lazy compilation (#8109)",
+    "author": {
+      "name": "yifancong",
+      "email": "congzhe@bytedance.com",
+      "login": "yifancong"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29473912313",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29473912313/job/87542705470"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29473912313/job/87542705476"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29473912313/job/87542705508"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29473912313/job/87542705519"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29473912313/job/87542705524"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29473912313/job/87542705527"
+      }
+    ]
+  },
+  {
     "commitSha": "4e3416f170450023883231f0bfe1d375dff59685",
     "commitTimestamp": "2026-07-16T02:18:27Z",
     "commitMessage": "chore(deps): update dependency @rslib/core to v1.0.0-beta.0 (#8111)",
