@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "1fdb6338e26562f072d03a3403d7b9881df92959",
+    "commitTimestamp": "2026-07-16T08:23:51Z",
+    "commitMessage": "chore(deps): update dependency rspack-vue-loader to ^17.6.1 (#8113)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29483334949",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29483334949/job/87571921376"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29483334949/job/87571921425"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29483334949/job/87571921437"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29483334949/job/87571921446"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29483334949/job/87571921452"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29483334949/job/87571921525"
+      }
+    ]
+  },
+  {
     "commitSha": "167874e337a6c829e76ef5fd8977798e56e9dc7b",
     "commitTimestamp": "2026-07-16T05:25:42Z",
     "commitMessage": "fix(core): handle relative asset prefix for lazy compilation (#8109)",
