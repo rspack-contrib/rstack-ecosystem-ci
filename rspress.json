@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "5f9b42b81e902da1ab5782c2f2adb2d8b18a0103",
+    "commitTimestamp": "2026-07-16T07:42:47Z",
+    "commitMessage": "fix(create-rspress): add TypeScript dependency to templates (#3525)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29480874256",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29480874256/job/87564090753"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29480874256/job/87564090772"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29480874256/job/87564090776"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29480874256/job/87564090779"
+      }
+    ]
+  },
+  {
     "commitSha": "b016cc8ddd3a92139fc829c1e048c82dd2a50fec",
     "commitTimestamp": "2026-07-15T09:17:35Z",
     "commitMessage": "fix(theme/Llms): hide \"Open in chat\" row when no chat-openable option… (#3517)",
