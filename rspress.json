@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "ca0a84f8867b7c226e6bf7d278b9357111baf4e8",
+    "commitTimestamp": "2026-07-17T08:39:09Z",
+    "commitMessage": "feat(theme/Llms): add injectLlmsHint option to guide LLMs to Markdown (#3526)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29567182246",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29567182246/job/87842323707"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29567182246/job/87842323732"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29567182246/job/87842323769"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29567182246/job/87842323804"
+      }
+    ]
+  },
+  {
     "commitSha": "9830b9879f4860a06e3499c2ba0f1de9073fd116",
     "commitTimestamp": "2026-07-17T04:06:02Z",
     "commitMessage": "feat(ssg-md): support custom llms.txt rendering (#3527)",
