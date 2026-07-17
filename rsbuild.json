@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b811b02757020c191a7818ca34ef172e846c6c8b",
+    "commitTimestamp": "2026-07-17T09:56:02Z",
+    "commitMessage": "feat(core): add restart type to dev.watchFiles (#8118)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29571735587",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29571735587/job/87856873297"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29571735587/job/87856873299"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29571735587/job/87856873303"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29571735587/job/87856873315"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29571735587/job/87856873340"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29571735587/job/87856873415"
+      }
+    ]
+  },
+  {
     "commitSha": "9a8206bef7ad7be45ac4a3574eb52d4b877d720f",
     "commitTimestamp": "2026-07-17T02:21:08Z",
     "commitMessage": "fix(core): correct CLI subcommand help (#8117)",
