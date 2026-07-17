@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "28105cc9676d80c99ef484c11dfb5cedb0cfaa2b",
+    "commitTimestamp": "2026-07-17T09:50:01Z",
+    "commitMessage": "perf(runtime): preload current route chunks with link tag (#3518)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29571413688",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29571413688/job/87855834016"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29571413688/job/87855834047"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29571413688/job/87855834068"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29571413688/job/87855834074"
+      }
+    ]
+  },
+  {
     "commitSha": "ca0a84f8867b7c226e6bf7d278b9357111baf4e8",
     "commitTimestamp": "2026-07-17T08:39:09Z",
     "commitMessage": "feat(theme/Llms): add injectLlmsHint option to guide LLMs to Markdown (#3526)",
