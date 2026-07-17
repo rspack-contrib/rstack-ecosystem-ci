@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9a8206bef7ad7be45ac4a3574eb52d4b877d720f",
+    "commitTimestamp": "2026-07-17T02:21:08Z",
+    "commitMessage": "fix(core): correct CLI subcommand help (#8117)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29549726378",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29549726378/job/87789525326"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29549726378/job/87789525340"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29549726378/job/87789525342"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29549726378/job/87789525343"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29549726378/job/87789525344"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29549726378/job/87789525351"
+      }
+    ]
+  },
+  {
     "commitSha": "0022ebd6169bf4727a94fdaaf8b12eb99c009c0d",
     "commitTimestamp": "2026-07-16T13:11:18Z",
     "commitMessage": "chore(deps): update dependency @rslint/core to ^0.7.0 (#8116)",
