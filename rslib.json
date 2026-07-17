@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f2371eac0fbc8a85b63705d5eb7eeea1593e8f58",
+    "commitTimestamp": "2026-07-17T09:56:53Z",
+    "commitMessage": "refactor: remove prebundle setup (#1771)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29571894986",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29571894986/job/87857402485"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29571894986/job/87857402505"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29571894986/job/87857402517"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29571894986/job/87857402528"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29571894986/job/87857402540"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29571894986/job/87857402551"
+      }
+    ]
+  },
+  {
     "commitSha": "29c818e60bc3bbc888c3467d3f604ca8303db8ef",
     "commitTimestamp": "2026-07-17T06:51:22Z",
     "commitMessage": "chore(deps): update dependency @babel/core to v8 (#1770)",
