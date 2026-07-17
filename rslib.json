@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "29c818e60bc3bbc888c3467d3f604ca8303db8ef",
+    "commitTimestamp": "2026-07-17T06:51:22Z",
+    "commitMessage": "chore(deps): update dependency @babel/core to v8 (#1770)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29561297921",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29561297921/job/87824136934"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29561297921/job/87824136936"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29561297921/job/87824136939"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29561297921/job/87824136961"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29561297921/job/87824136971"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29561297921/job/87824137008"
+      }
+    ]
+  },
+  {
     "commitSha": "ec9a39aaa225265ca61899db581e9ce2864f4aed",
     "commitTimestamp": "2026-07-17T02:59:26Z",
     "commitMessage": "fix(core): correct CLI subcommand help (#1768)",
