@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a2fb56b4e794438c09e0c528e1dfe6ab5638996d",
+    "commitTimestamp": "2026-07-17T07:41:31Z",
+    "commitMessage": "chore: add verify skill and tighten agent harness conventions (#1588)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29563904803",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29563904803/job/87832123769"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29563904803/job/87832123773"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29563904803/job/87832123775"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29563904803/job/87832123783"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29563904803/job/87832123798"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29563904803/job/87832123837"
+      }
+    ]
+  },
+  {
     "commitSha": "3335fd0ef28789418350bc3bfbe6be1636059d54",
     "commitTimestamp": "2026-07-17T03:08:29Z",
     "commitMessage": "fix(coverage-v8): transform untested TypeScript files (#1586)",
