@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "8978dd93ccf481138876776710fad0dc052a14d1",
+    "commitTimestamp": "2026-07-17T10:14:31Z",
+    "commitMessage": "Release v2.0.18 (#3529)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29572821011",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29572821011/job/87860360377"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29572821011/job/87860360379"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29572821011/job/87860360405"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29572821011/job/87860360446"
+      }
+    ]
+  },
+  {
     "commitSha": "28105cc9676d80c99ef484c11dfb5cedb0cfaa2b",
     "commitTimestamp": "2026-07-17T09:50:01Z",
     "commitMessage": "perf(runtime): preload current route chunks with link tag (#3518)",
