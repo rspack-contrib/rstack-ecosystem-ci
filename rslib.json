@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "68a1ff4c55872ee3ae7291a39c09cc0fc8e34719",
+    "commitTimestamp": "2026-07-18T06:02:02Z",
+    "commitMessage": "chore(deps): update dependency magic-string to v1 (#1772)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29633303271",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29633303271/job/88051038194"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29633303271/job/88051038198"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29633303271/job/88051038200"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29633303271/job/88051038201"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29633303271/job/88051038205"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29633303271/job/88051038206"
+      }
+    ]
+  },
+  {
     "commitSha": "f2371eac0fbc8a85b63705d5eb7eeea1593e8f58",
     "commitTimestamp": "2026-07-17T09:56:53Z",
     "commitMessage": "refactor: remove prebundle setup (#1771)",
