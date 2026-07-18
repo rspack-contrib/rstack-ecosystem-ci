@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "1b4a49f811fe388bcb297611345546b163819e87",
+    "commitTimestamp": "2026-07-18T09:43:26Z",
+    "commitMessage": "feat(dts): support custom TypeScript path (#1767)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29639644546",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29639644546/job/88067909500"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29639644546/job/88067909505"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29639644546/job/88067909507"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29639644546/job/88067909510"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29639644546/job/88067909515"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29639644546/job/88067909519"
+      }
+    ]
+  },
+  {
     "commitSha": "93ca93e49a6d1d0aa7ee071e71ffda6159fbd2a5",
     "commitTimestamp": "2026-07-18T07:53:04Z",
     "commitMessage": "feat(core)!: use modern-module externals type for ESM (#1672)",
