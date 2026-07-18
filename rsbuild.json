@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d09e6d41242060e3ec32f7b0b698a1febb535613",
+    "commitTimestamp": "2026-07-18T05:32:19Z",
+    "commitMessage": "fix(core): resolve restart paths from watcher cwd (#8123)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29632437910",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29632437910/job/88048656939"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29632437910/job/88048656945"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29632437910/job/88048656948"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29632437910/job/88048656969"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29632437910/job/88048656984"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29632437910/job/88048656995"
+      }
+    ]
+  },
+  {
     "commitSha": "9dcb37881de88f5d2faf076f92395324a831653f",
     "commitTimestamp": "2026-07-18T05:17:33Z",
     "commitMessage": "perf(plugin-babel): avoid redundant path join (#8124)",
