@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "5f82f79866d0e1739a4e1173f63ec1e7f3191d84",
+    "commitTimestamp": "2026-07-18T11:26:07Z",
+    "commitMessage": "fix(dts): refine TypeScript path handling (#1775)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29642567526",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29642567526/job/88075397954"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29642567526/job/88075397966"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29642567526/job/88075397971"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29642567526/job/88075397975"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29642567526/job/88075397984"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29642567526/job/88075397986"
+      }
+    ]
+  },
+  {
     "commitSha": "1b4a49f811fe388bcb297611345546b163819e87",
     "commitTimestamp": "2026-07-18T09:43:26Z",
     "commitMessage": "feat(dts): support custom TypeScript path (#1767)",
