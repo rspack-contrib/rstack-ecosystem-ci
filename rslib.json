@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "88bdf275d7caf0f5a09354dd76d215460a84b312",
+    "commitTimestamp": "2026-07-18T06:17:16Z",
+    "commitMessage": "feat(deps): upgrade rsbuild to 2.1.6 (#1773)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29633741130",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29633741130/job/88052201194"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29633741130/job/88052201201"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29633741130/job/88052201208"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29633741130/job/88052201213"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29633741130/job/88052201225"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29633741130/job/88052201318"
+      }
+    ]
+  },
+  {
     "commitSha": "68a1ff4c55872ee3ae7291a39c09cc0fc8e34719",
     "commitTimestamp": "2026-07-18T06:02:02Z",
     "commitMessage": "chore(deps): update dependency magic-string to v1 (#1772)",
