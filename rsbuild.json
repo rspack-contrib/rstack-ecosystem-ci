@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "76c89954ed67d7587b783d1383657b7c83953467",
+    "commitTimestamp": "2026-07-18T07:43:19Z",
+    "commitMessage": "perf(core): avoid repeated root asset path formatting (#8125)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29636239210",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29636239210/job/88058981575"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29636239210/job/88058981581"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29636239210/job/88058981582"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29636239210/job/88058981603"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29636239210/job/88058981607"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29636239210/job/88058981610"
+      }
+    ]
+  },
+  {
     "commitSha": "8c2fb118cb5c7815e540d0624ffedad44a6b7ba7",
     "commitTimestamp": "2026-07-18T07:39:29Z",
     "commitMessage": "test(e2e): migrate runner to rstest (#7776)",
