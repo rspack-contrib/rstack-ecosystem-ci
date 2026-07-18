@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "87d02435a1b8c30dd02069c7df4493386c819dfe",
+    "commitTimestamp": "2026-07-18T01:15:59Z",
+    "commitMessage": "feat(core): add onRestart to Rsbuild instance (#8121)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29624881593",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29624881593/job/88027171470"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29624881593/job/88027171481"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29624881593/job/88027171484"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29624881593/job/88027171488"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29624881593/job/88027171491"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29624881593/job/88027171602"
+      }
+    ]
+  },
+  {
     "commitSha": "844d366c3bf23bc8d16c390e1a1dbc1f2088e51a",
     "commitTimestamp": "2026-07-18T00:58:46Z",
     "commitMessage": "fix(core): ensure restart cleanup hooks run (#8120)",
