@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "93ca93e49a6d1d0aa7ee071e71ffda6159fbd2a5",
+    "commitTimestamp": "2026-07-18T07:53:04Z",
+    "commitMessage": "feat(core)!: use modern-module externals type for ESM (#1672)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29636518897",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29636518897/job/88059715270"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29636518897/job/88059715273"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29636518897/job/88059715285"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29636518897/job/88059715294"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29636518897/job/88059715298"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29636518897/job/88059715303"
+      }
+    ]
+  },
+  {
     "commitSha": "88bdf275d7caf0f5a09354dd76d215460a84b312",
     "commitTimestamp": "2026-07-18T06:17:16Z",
     "commitMessage": "feat(deps): upgrade rsbuild to 2.1.6 (#1773)",
