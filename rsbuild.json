@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "fc339eba431948639980cc4cff833e49201caf1d",
+    "commitTimestamp": "2026-07-18T13:30:55Z",
+    "commitMessage": "refactor(core): isolate restart callbacks by instance (#8129)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29646302980",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29646302980/job/88085026140"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29646302980/job/88085026157"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29646302980/job/88085026159"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29646302980/job/88085026166"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29646302980/job/88085026168"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29646302980/job/88085026179"
+      }
+    ]
+  },
+  {
     "commitSha": "b4b82aa0046aae0561c6196db355f20cde07efbc",
     "commitTimestamp": "2026-07-18T08:26:09Z",
     "commitMessage": "test(e2e): use snapshots for stable outputs (#8128)",
