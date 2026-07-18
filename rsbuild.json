@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9dcb37881de88f5d2faf076f92395324a831653f",
+    "commitTimestamp": "2026-07-18T05:17:33Z",
+    "commitMessage": "perf(plugin-babel): avoid redundant path join (#8124)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29632023005",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29632023005/job/88047501046"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29632023005/job/88047501051"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29632023005/job/88047501054"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29632023005/job/88047501055"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29632023005/job/88047501067"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29632023005/job/88047501069"
+      }
+    ]
+  },
+  {
     "commitSha": "4efca0c64c47c78a386f3885fb0a59a46ce8d1ca",
     "commitTimestamp": "2026-07-18T03:41:24Z",
     "commitMessage": "feat(core): add context to onRestart hook (#8122)",
