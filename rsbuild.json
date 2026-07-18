@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b4b82aa0046aae0561c6196db355f20cde07efbc",
+    "commitTimestamp": "2026-07-18T08:26:09Z",
+    "commitMessage": "test(e2e): use snapshots for stable outputs (#8128)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29637460519",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29637460519/job/88062172522"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29637460519/job/88062172527"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29637460519/job/88062172540"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29637460519/job/88062172546"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29637460519/job/88062172547"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29637460519/job/88062172601"
+      }
+    ]
+  },
+  {
     "commitSha": "f2a13523f0b1a42d9f45fd2d0c69be525b27a458",
     "commitTimestamp": "2026-07-18T08:16:14Z",
     "commitMessage": "test(e2e): cover onRestart hook in dev (#8127)",
