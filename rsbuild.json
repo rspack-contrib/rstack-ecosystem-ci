@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ed63967839598e9796551e20d5f78b6e482cf783",
+    "commitTimestamp": "2026-07-19T12:39:40Z",
+    "commitMessage": "feat(core): support restart watchers in JavaScript API (#8135)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29687413610",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29687413610/job/88194058428"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29687413610/job/88194058454"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29687413610/job/88194058469"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29687413610/job/88194058502"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29687413610/job/88194058504"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29687413610/job/88194058506"
+      }
+    ]
+  },
+  {
     "commitSha": "451265e8d3f0fe452302b45e8d16d2b61bca2375",
     "commitTimestamp": "2026-07-19T08:05:45Z",
     "commitMessage": "fix(core): hide unavailable restart shortcut (#8134)",
