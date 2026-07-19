@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "742cbcd475c6c3c2a077831340fa854950d9ba6c",
+    "commitTimestamp": "2026-07-19T05:24:15Z",
+    "commitMessage": "refactor(core): decouple restart orchestration from CLI (#8133)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29674802772",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29674802772/job/88160113655"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29674802772/job/88160113657"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29674802772/job/88160113667"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29674802772/job/88160113669"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29674802772/job/88160113673"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29674802772/job/88160113674"
+      }
+    ]
+  },
+  {
     "commitSha": "d6d1e43c9aff44ad1129d9d539d476f58b262bc9",
     "commitTimestamp": "2026-07-19T00:09:07Z",
     "commitMessage": "fix(core): prevent duplicate restarts from stale watchers (#8132)",
