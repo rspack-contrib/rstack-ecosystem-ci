@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d6d1e43c9aff44ad1129d9d539d476f58b262bc9",
+    "commitTimestamp": "2026-07-19T00:09:07Z",
+    "commitMessage": "fix(core): prevent duplicate restarts from stale watchers (#8132)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29666482889",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29666482889/job/88137637018"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29666482889/job/88137637019"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29666482889/job/88137637024"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29666482889/job/88137637031"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29666482889/job/88137637038"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29666482889/job/88137637040"
+      }
+    ]
+  },
+  {
     "commitSha": "d54172e64a0f7ea2a48510a0df5131353d842d79",
     "commitTimestamp": "2026-07-18T13:36:47Z",
     "commitMessage": "test(e2e): cover all CLI help commands (#8130)",
