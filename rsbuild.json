@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "451265e8d3f0fe452302b45e8d16d2b61bca2375",
+    "commitTimestamp": "2026-07-19T08:05:45Z",
+    "commitMessage": "fix(core): hide unavailable restart shortcut (#8134)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29679239681",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29679239681/job/88172248790"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29679239681/job/88172248795"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29679239681/job/88172248797"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29679239681/job/88172248804"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29679239681/job/88172248808"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29679239681/job/88172248821"
+      }
+    ]
+  },
+  {
     "commitSha": "742cbcd475c6c3c2a077831340fa854950d9ba6c",
     "commitTimestamp": "2026-07-19T05:24:15Z",
     "commitMessage": "refactor(core): decouple restart orchestration from CLI (#8133)",
