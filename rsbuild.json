@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "736dbfe6ded11bd6982e0c822ccc1c24d6d46940",
+    "commitTimestamp": "2026-07-20T09:01:55Z",
+    "commitMessage": "test(e2e): cover config file build dependencies (#8146)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29730469462",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29730469462/job/88313501425"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29730469462/job/88313501437"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29730469462/job/88313501453"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29730469462/job/88313501473"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29730469462/job/88313501505"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29730469462/job/88313501535"
+      }
+    ]
+  },
+  {
     "commitSha": "2482ecc7ca3be2e11145c0772576b5c96d73e530",
     "commitTimestamp": "2026-07-20T08:27:13Z",
     "commitMessage": "refactor(core): use context config files (#8145)",
