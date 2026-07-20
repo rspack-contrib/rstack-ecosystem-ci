@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2f879eeb34b117a8b205f0ca20ada26f5fb879b9",
+    "commitTimestamp": "2026-07-20T04:58:44Z",
+    "commitMessage": "chore(deps): update module federation to v2.8.0 (#8143)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29718394432",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29718394432/job/88276037548"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29718394432/job/88276037556"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29718394432/job/88276037567"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29718394432/job/88276037570"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29718394432/job/88276037580"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29718394432/job/88276037583"
+      }
+    ]
+  },
+  {
     "commitSha": "9c8497cc46b52df4140352d51670bc451b6360ff",
     "commitTimestamp": "2026-07-20T03:55:41Z",
     "commitMessage": "feat(core): add restart option to createRsbuild (#8141)",
