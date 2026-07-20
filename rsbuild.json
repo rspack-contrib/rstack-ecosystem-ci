@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "13f55c4a61710eee6eb553b0f0f791a8c05bcf6f",
+    "commitTimestamp": "2026-07-20T10:53:08Z",
+    "commitMessage": "refactor(cli): pass loadConfig result to createRsbuild (#8148)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29736608233",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29736608233/job/88333317798"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29736608233/job/88333317819"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29736608233/job/88333317835"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29736608233/job/88333317845"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29736608233/job/88333317857"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29736608233/job/88333317865"
+      }
+    ]
+  },
+  {
     "commitSha": "89ce1e1118b6270c66dec4d63f0dfc6208699204",
     "commitTimestamp": "2026-07-20T10:38:51Z",
     "commitMessage": "feat(core): accept loadConfig result as config input (#8147)",
