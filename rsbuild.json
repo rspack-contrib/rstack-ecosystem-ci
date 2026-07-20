@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9c8497cc46b52df4140352d51670bc451b6360ff",
+    "commitTimestamp": "2026-07-20T03:55:41Z",
+    "commitMessage": "feat(core): add restart option to createRsbuild (#8141)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29715724255",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29715724255/job/88268545530"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29715724255/job/88268545536"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29715724255/job/88268545542"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29715724255/job/88268545545"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29715724255/job/88268545565"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29715724255/job/88268545567"
+      }
+    ]
+  },
+  {
     "commitSha": "0a2d715edc0c6d3a85a1242268ad7cd263c482a6",
     "commitTimestamp": "2026-07-20T02:42:22Z",
     "commitMessage": "fix(deps): update all patch dependencies (#8139)",
