@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7d5882304478c280ec1b6d943efe5af932c5c011",
+    "commitTimestamp": "2026-07-20T02:05:47Z",
+    "commitMessage": "chore(deps): update dependency oxfmt to ^0.59.0 (#8137)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29711944522",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29711944522/job/88257068596"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29711944522/job/88257068597"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29711944522/job/88257068600"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29711944522/job/88257068604"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29711944522/job/88257068620"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29711944522/job/88257068642"
+      }
+    ]
+  },
+  {
     "commitSha": "ed63967839598e9796551e20d5f78b6e482cf783",
     "commitTimestamp": "2026-07-19T12:39:40Z",
     "commitMessage": "feat(core): support restart watchers in JavaScript API (#8135)",
