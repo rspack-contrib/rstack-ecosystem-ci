@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2add0d0795849b44e144f287eb8514523a31cff3",
+    "commitTimestamp": "2026-07-21T10:49:58Z",
+    "commitMessage": "refactor: migrate `lib.autoExternal` to `output.autoExternal` (#1641)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29824129129",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29824129129/job/88613405714"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29824129129/job/88613405717"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29824129129/job/88613405745"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29824129129/job/88613405756"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29824129129/job/88613405765"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29824129129/job/88613405779"
+      }
+    ]
+  },
+  {
     "commitSha": "a4c6edaf16e55e309e4619b2e40a76cf30e4125c",
     "commitTimestamp": "2026-07-20T08:26:06Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1776)",
