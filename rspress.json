@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "acb7b0aac5bd4ce5dbb442cad310c0a84ed4542a",
+    "commitTimestamp": "2026-07-21T06:33:03Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#3530)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29807392336",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29807392336/job/88560692719"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29807392336/job/88560692740"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29807392336/job/88560692744"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29807392336/job/88560692752"
+      }
+    ]
+  },
+  {
     "commitSha": "eecf28d72c48548823b8e3ea00a3e1b0e14c6e27",
     "commitTimestamp": "2026-07-20T08:50:46Z",
     "commitMessage": "chore(ci/rsdoctor): add auto-nav-sidebar baseline to Rsdoctor bundle diff analysis (#3332)",
