@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "74ca5c845d88982f95054fc10ad03262807d2129",
+    "commitTimestamp": "2026-07-21T12:49:22Z",
+    "commitMessage": "fix(core): remove deprecated autoExternal from shared lib config (#1778)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29834017144",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29834017144/job/88645618078"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29834017144/job/88645618087"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29834017144/job/88645618094"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29834017144/job/88645618107"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29834017144/job/88645618144"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29834017144/job/88645618226"
+      }
+    ]
+  },
+  {
     "commitSha": "2add0d0795849b44e144f287eb8514523a31cff3",
     "commitTimestamp": "2026-07-21T10:49:58Z",
     "commitMessage": "refactor: migrate `lib.autoExternal` to `output.autoExternal` (#1641)",
