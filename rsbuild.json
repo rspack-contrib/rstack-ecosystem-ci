@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "5a353654967825ed6979e9e3b91361d3ed46a83f",
+    "commitTimestamp": "2026-07-21T03:10:33Z",
+    "commitMessage": "test(e2e): avoid modifying tracked watch files (#8151)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29797838773",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29797838773/job/88532723128"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29797838773/job/88532723130"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29797838773/job/88532723154"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29797838773/job/88532723165"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29797838773/job/88532723166"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29797838773/job/88532723177"
+      }
+    ]
+  },
+  {
     "commitSha": "78fa082163360b5805d0ee7baea8eedd63e62416",
     "commitTimestamp": "2026-07-20T14:53:05Z",
     "commitMessage": "feat(core): watch loaded config files for restart (#8149)",
