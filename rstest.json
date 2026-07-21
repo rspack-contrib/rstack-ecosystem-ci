@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b0b23abbb4c262b164d2971773e0caab3b2ba027",
+    "commitTimestamp": "2026-07-21T11:27:40Z",
+    "commitMessage": "release: 0.11.3 (#1597)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29826222966",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29826222966/job/88620080248"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29826222966/job/88620080264"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29826222966/job/88620080275"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29826222966/job/88620080285"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29826222966/job/88620080295"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29826222966/job/88620080356"
+      }
+    ]
+  },
+  {
     "commitSha": "6df862fef28b3ebf900f7495eb16ef313bfcfef5",
     "commitTimestamp": "2026-07-20T08:46:02Z",
     "commitMessage": "perf(coverage-v8): reduce coverage conversion memory (#1593)",
