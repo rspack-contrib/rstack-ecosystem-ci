@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a47f2093aec4658b8a61a3fcb9591ba49b497796",
+    "commitTimestamp": "2026-07-21T05:36:49Z",
+    "commitMessage": "fix(core): close stale watcher after shortcut restart (#8153)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29804512337",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29804512337/job/88552223249"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29804512337/job/88552223252"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29804512337/job/88552223263"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29804512337/job/88552223265"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29804512337/job/88552223274"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29804512337/job/88552223287"
+      }
+    ]
+  },
+  {
     "commitSha": "5a353654967825ed6979e9e3b91361d3ed46a83f",
     "commitTimestamp": "2026-07-21T03:10:33Z",
     "commitMessage": "test(e2e): avoid modifying tracked watch files (#8151)",
