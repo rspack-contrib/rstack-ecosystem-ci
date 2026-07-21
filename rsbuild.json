@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b8c6d0ceead1dcb7555a0992df24faf009332c90",
+    "commitTimestamp": "2026-07-21T13:34:38Z",
+    "commitMessage": "feat(deps): update @rspack/core to 2.1.5 (#8155)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29835109263",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29835109263/job/88649333540"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29835109263/job/88649333550"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29835109263/job/88649333562"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29835109263/job/88649333594"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29835109263/job/88649333600"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29835109263/job/88649333647"
+      }
+    ]
+  },
+  {
     "commitSha": "a47f2093aec4658b8a61a3fcb9591ba49b497796",
     "commitTimestamp": "2026-07-21T05:36:49Z",
     "commitMessage": "fix(core): close stale watcher after shortcut restart (#8153)",
