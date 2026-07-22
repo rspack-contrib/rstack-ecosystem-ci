@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "3e62fc95a5b42fc0ee7d4ed5da20b9656e8b4541",
+    "commitTimestamp": "2026-07-22T10:58:28Z",
+    "commitMessage": "chore: migrate Rstest to Rstack CLI (#8166)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29914835383",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29914835383/job/88906155395"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29914835383/job/88906155441"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29914835383/job/88906155443"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29914835383/job/88906155456"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29914835383/job/88906155464"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29914835383/job/88906155479"
+      }
+    ]
+  },
+  {
     "commitSha": "3d2784a5ceaa3e603fca9e2bb2d1ace6f7ad6b59",
     "commitTimestamp": "2026-07-22T06:41:39Z",
     "commitMessage": "fix(core): preserve options when restarting (#8161)",
