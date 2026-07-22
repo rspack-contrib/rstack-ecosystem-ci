@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "21395bc3e5862a591f887822819df74bb7688c83",
+    "commitTimestamp": "2026-07-22T09:45:09Z",
+    "commitMessage": "docs: rebuild the agent harness around verified contracts and a drift checker (#1603)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29909410537",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29909410537/job/88888487395"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29909410537/job/88888487472"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29909410537/job/88888487481"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29909410537/job/88888487494"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29909410537/job/88888487503"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29909410537/job/88888487546"
+      }
+    ]
+  },
+  {
     "commitSha": "418a4effe67368316a88317e04d0b9cc10e8b64f",
     "commitTimestamp": "2026-07-22T08:49:49Z",
     "commitMessage": "fix(core): restore withImplementation after errors (#1602)",
