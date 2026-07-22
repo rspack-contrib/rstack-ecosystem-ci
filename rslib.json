@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "0c6435d8c09839c5b70f406c0955e3ce96fa94fb",
+    "commitTimestamp": "2026-07-22T03:09:18Z",
+    "commitMessage": "feat(deps): upgrade rsbuild to 2.1.7 (#1779)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29888096202",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29888096202/job/88822806844"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29888096202/job/88822806856"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29888096202/job/88822806874"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29888096202/job/88822806894"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29888096202/job/88822806902"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29888096202/job/88822806908"
+      }
+    ]
+  },
+  {
     "commitSha": "74ca5c845d88982f95054fc10ad03262807d2129",
     "commitTimestamp": "2026-07-21T12:49:22Z",
     "commitMessage": "fix(core): remove deprecated autoExternal from shared lib config (#1778)",
