@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2dde8537e82644048f075c3e218fb5609494adcf",
+    "commitTimestamp": "2026-07-22T05:04:47Z",
+    "commitMessage": "feat(core): reuse Rsbuild restart lifecycle (#1782)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29892999282",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29892999282/job/88837065206"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29892999282/job/88837065214"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29892999282/job/88837065232"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29892999282/job/88837065239"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29892999282/job/88837065255"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29892999282/job/88837065281"
+      }
+    ]
+  },
+  {
     "commitSha": "7d0efc8318229aba0f2e5d95345eb7ae34380f93",
     "commitTimestamp": "2026-07-22T03:34:53Z",
     "commitMessage": "fix(core): avoid chunk filename conflicts in multi-compiler builds (#1777)",
