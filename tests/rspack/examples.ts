@@ -7,8 +7,8 @@ export async function test(options: RunOptions) {
     repo: 'rstackjs/rstack-examples',
     branch: 'main',
     test: [
-      'build:rspack',
-      'test:rspack',
+      'build:rspack:eco-ci',
+      'test:rspack:eco-ci',
       'build:rsbuild',
       'build:rsdoctor',
       'build:rspress',
