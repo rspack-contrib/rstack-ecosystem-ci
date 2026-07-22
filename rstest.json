@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "418a4effe67368316a88317e04d0b9cc10e8b64f",
+    "commitTimestamp": "2026-07-22T08:49:49Z",
+    "commitMessage": "fix(core): restore withImplementation after errors (#1602)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29905655573",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29905655573/job/88876349938"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29905655573/job/88876349941"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29905655573/job/88876349972"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29905655573/job/88876349989"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29905655573/job/88876349998"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29905655573/job/88876350004"
+      }
+    ]
+  },
+  {
     "commitSha": "b7ea3323b27023648a068eba134e8ee4ef9224d2",
     "commitTimestamp": "2026-07-22T07:41:42Z",
     "commitMessage": "fix(core): preserve mocked class static members (#1601)",
