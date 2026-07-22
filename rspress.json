@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "36c6510a872a42ca77d90be71a3998d1d68fa45b",
+    "commitTimestamp": "2026-07-22T04:51:39Z",
+    "commitMessage": "chore(deps): update Rsbuild to v2.1.7 (#3535)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29892319832",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29892319832/job/88835040968"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29892319832/job/88835040976"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29892319832/job/88835040981"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29892319832/job/88835040994"
+      }
+    ]
+  },
+  {
     "commitSha": "d737b7e8202dd4dfabe3b631f5b9bfef07a41e0b",
     "commitTimestamp": "2026-07-21T07:24:36Z",
     "commitMessage": "fix(plugin-playground): support HMR updates (#3532)",
