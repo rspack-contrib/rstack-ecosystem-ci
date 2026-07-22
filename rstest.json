@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "6dda4655d3806d59e694d970473e1331c5fa2a12",
+    "commitTimestamp": "2026-07-22T11:48:44Z",
+    "commitMessage": "feat(browser): converge watch mode onto core-owned watch controls (#1589)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29917172562",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29917172562/job/88913654231"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29917172562/job/88913654248"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29917172562/job/88913654265"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29917172562/job/88913654267"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29917172562/job/88913654279"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29917172562/job/88913654285"
+      }
+    ]
+  },
+  {
     "commitSha": "21395bc3e5862a591f887822819df74bb7688c83",
     "commitTimestamp": "2026-07-22T09:45:09Z",
     "commitMessage": "docs: rebuild the agent harness around verified contracts and a drift checker (#1603)",
