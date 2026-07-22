@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ff7fcc7c1e62099257c1b3e1217494dfd67e908a",
+    "commitTimestamp": "2026-07-22T03:55:09Z",
+    "commitMessage": "feat(core): support multiple CSS minimizer options (#8158)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29890329054",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29890329054/job/88829335847"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29890329054/job/88829335857"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29890329054/job/88829335861"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29890329054/job/88829335877"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29890329054/job/88829335880"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29890329054/job/88829335887"
+      }
+    ]
+  },
+  {
     "commitSha": "8630be6dbef70540b9c6618d09c12f6272b1dade",
     "commitTimestamp": "2026-07-21T14:16:54Z",
     "commitMessage": "test(e2e): cover multiple JS minimizer options (#8156)",
