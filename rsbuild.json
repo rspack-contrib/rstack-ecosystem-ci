@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "44805db583b746406016683ecf47a4d7d1eb0a5b",
+    "commitTimestamp": "2026-07-22T05:51:53Z",
+    "commitMessage": "perf(core): minify large third-party chunks (#8160)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29895008305",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29895008305/job/88843201962"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29895008305/job/88843201969"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29895008305/job/88843201996"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29895008305/job/88843202003"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29895008305/job/88843202022"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29895008305/job/88843202029"
+      }
+    ]
+  },
+  {
     "commitSha": "a5818c9dfc9e8986216904e44d795a1b38ad94b0",
     "commitTimestamp": "2026-07-22T04:50:45Z",
     "commitMessage": "perf(core): avoid temporary minimizer option arrays (#8159)",
