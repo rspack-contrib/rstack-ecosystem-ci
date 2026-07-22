@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7d0efc8318229aba0f2e5d95345eb7ae34380f93",
+    "commitTimestamp": "2026-07-22T03:34:53Z",
+    "commitMessage": "fix(core): avoid chunk filename conflicts in multi-compiler builds (#1777)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29889693155",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29889693155/job/88827454715"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29889693155/job/88827454718"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29889693155/job/88827454727"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29889693155/job/88827454728"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29889693155/job/88827454734"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29889693155/job/88827454742"
+      }
+    ]
+  },
+  {
     "commitSha": "0c6435d8c09839c5b70f406c0955e3ce96fa94fb",
     "commitTimestamp": "2026-07-22T03:09:18Z",
     "commitMessage": "feat(deps): upgrade rsbuild to 2.1.7 (#1779)",
