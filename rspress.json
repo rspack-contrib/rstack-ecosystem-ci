@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "f08a3d2245c8a174506f22f787cf75c8143e10e1",
+    "commitTimestamp": "2026-07-22T11:08:47Z",
+    "commitMessage": "fix(route/i18n): redirect locale before hydration (#3534)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29914916588",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29914916588/job/88906415840"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29914916588/job/88906415868"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29914916588/job/88906415920"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29914916588/job/88906415969"
+      }
+    ]
+  },
+  {
     "commitSha": "36c6510a872a42ca77d90be71a3998d1d68fa45b",
     "commitTimestamp": "2026-07-22T04:51:39Z",
     "commitMessage": "chore(deps): update Rsbuild to v2.1.7 (#3535)",
