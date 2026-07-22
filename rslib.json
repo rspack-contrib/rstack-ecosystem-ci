@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ba861d1e53d75f0f65eb951f2c3dae48f1dfdabf",
+    "commitTimestamp": "2026-07-22T11:33:38Z",
+    "commitMessage": "feat(dts)!: enable declaration extension redirects by default (#1784)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29916189539",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29916189539/job/88910486187"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29916189539/job/88910486280"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29916189539/job/88910486290"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29916189539/job/88910486306"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29916189539/job/88910486312"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29916189539/job/88910486347"
+      }
+    ]
+  },
+  {
     "commitSha": "ae0301a1247f25c38cb7af89e19bba31b4d8b984",
     "commitTimestamp": "2026-07-22T08:54:16Z",
     "commitMessage": "chore(deps): update vulnerable dependencies (#1783)",
