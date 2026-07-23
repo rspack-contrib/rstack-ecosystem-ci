@@ -240,6 +240,54 @@
     ]
   },
   {
+    "commitSha": "0e613685815bd17028e52ac75eac33260d9072b9",
+    "commitTimestamp": "2026-07-23T05:33:46Z",
+    "commitMessage": "release: v1.0.0-beta.1 (#1785)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29982506429",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29982506429/job/89127222600"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29982506429/job/89127222647"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29982506429/job/89127222648"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29982506429/job/89127222650"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29982506429/job/89127222651"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29982506429/job/89127222700"
+      }
+    ]
+  },
+  {
     "commitSha": "ba861d1e53d75f0f65eb951f2c3dae48f1dfdabf",
     "commitTimestamp": "2026-07-22T11:33:38Z",
     "commitMessage": "feat(dts)!: enable declaration extension redirects by default (#1784)",
