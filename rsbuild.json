@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "8860f728af57d590e57eacdea4d9ba6cc04b0fb9",
+    "commitTimestamp": "2026-07-23T03:27:00Z",
+    "commitMessage": "chore: migrate Rslib to Rstack CLI (#8170)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29977037843",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29977037843/job/89110931586"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29977037843/job/89110931616"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29977037843/job/89110931617"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29977037843/job/89110931618"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29977037843/job/89110931627"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29977037843/job/89110931628"
+      }
+    ]
+  },
+  {
     "commitSha": "0bd98a1d3bb479d5e4083b7667fc10dfa282e33e",
     "commitTimestamp": "2026-07-23T02:52:27Z",
     "commitMessage": "chore: split Rstest config by package (#8169)",
