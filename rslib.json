@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "87544b97308f0c5e83eb4bbde673b966c9daf6f5",
+    "commitTimestamp": "2026-07-23T05:58:39Z",
+    "commitMessage": "chore(deps): update dependency @testing-library/jest-dom to v7 (#1791)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29984470083",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29984470083/job/89133212449"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29984470083/job/89133212521"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29984470083/job/89133212551"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29984470083/job/89133212570"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29984470083/job/89133212599"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29984470083/job/89133212602"
+      }
+    ]
+  },
+  {
     "commitSha": "95a65f998fd118288fde315c51a65eff919ae5cd",
     "commitTimestamp": "2026-07-23T05:45:52Z",
     "commitMessage": "fix(core): preserve async config inference (#1787)",
