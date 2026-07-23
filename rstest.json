@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "c4b67c72741ffd7e4c71f641a2e19eae50401dbf",
+    "commitTimestamp": "2026-07-23T14:56:47Z",
+    "commitMessage": "ci: collapse e2e script matrix and coalesce main push runs (#1615)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30018240689",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30018240689/job/89243835063"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30018240689/job/89243835066"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30018240689/job/89243835089"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30018240689/job/89243835126"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30018240689/job/89243835226"
+      }
+    ]
+  },
+  {
     "commitSha": "267891f61c8754946526b68199ab95b22a9de1d6",
     "commitTimestamp": "2026-07-23T11:49:06Z",
     "commitMessage": "fix(vscode): stop notifying when @rstest/core is not installed (#1611)",
