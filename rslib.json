@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "95a65f998fd118288fde315c51a65eff919ae5cd",
+    "commitTimestamp": "2026-07-23T05:45:52Z",
+    "commitMessage": "fix(core): preserve async config inference (#1787)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29983058739",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29983058739/job/89128921555"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29983058739/job/89128921569"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29983058739/job/89128921575"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29983058739/job/89128921578"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29983058739/job/89128921584"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29983058739/job/89128921592"
+      }
+    ]
+  },
+  {
     "commitSha": "ba861d1e53d75f0f65eb951f2c3dae48f1dfdabf",
     "commitTimestamp": "2026-07-22T11:33:38Z",
     "commitMessage": "feat(dts)!: enable declaration extension redirects by default (#1784)",
