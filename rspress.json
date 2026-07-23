@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "9cf472def5afc57f212f16d6a584c9eb5163ab02",
+    "commitTimestamp": "2026-07-23T06:37:21Z",
+    "commitMessage": "refactor(core): remove TEST environment branches (#3538)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29989115893",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29989115893/job/89147606759"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29989115893/job/89147606764"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29989115893/job/89147606772"
+      }
+    ]
+  },
+  {
     "commitSha": "f08a3d2245c8a174506f22f787cf75c8143e10e1",
     "commitTimestamp": "2026-07-22T11:08:47Z",
     "commitMessage": "fix(route/i18n): redirect locale before hydration (#3534)",
