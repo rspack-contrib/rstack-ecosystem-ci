@@ -48,6 +48,54 @@
     ]
   },
   {
+    "commitSha": "1a40640628ef16c8024b31d1b3dde070ce8ed7f4",
+    "commitTimestamp": "2026-07-23T05:47:52Z",
+    "commitMessage": "fix(dts): count `optionalDependencies` in autoExternal (#1786)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29983163730",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29983163730/job/89129244165"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29983163730/job/89129244174"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29983163730/job/89129244185"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29983163730/job/89129244195"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29983163730/job/89129244201"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29983163730/job/89129244217"
+      }
+    ]
+  },
+  {
     "commitSha": "95a65f998fd118288fde315c51a65eff919ae5cd",
     "commitTimestamp": "2026-07-23T05:45:52Z",
     "commitMessage": "fix(core): preserve async config inference (#1787)",
