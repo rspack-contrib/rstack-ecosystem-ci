@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "bd8e91c36edcd96f8b1c493e3fba61173e86a704",
+    "commitTimestamp": "2026-07-23T11:45:21Z",
+    "commitMessage": "chore(deps): upgrade Rslib to 1.0.0-beta.1 (#1613)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30004936762",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30004936762/job/89198604068"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30004936762/job/89198604089"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30004936762/job/89198604103"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30004936762/job/89198604120"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30004936762/job/89198604122"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30004936762/job/89198604132"
+      }
+    ]
+  },
+  {
     "commitSha": "69d1c004b84e0bdcab3ab907f118cd0970011572",
     "commitTimestamp": "2026-07-23T11:19:57Z",
     "commitMessage": "test(playwright): remove nested Rstest runs (#1614)",
