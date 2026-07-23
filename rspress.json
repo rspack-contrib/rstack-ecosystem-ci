@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "369d9f5daea7770a017880efbe0b7c90f81997e2",
+    "commitTimestamp": "2026-07-23T08:01:56Z",
+    "commitMessage": "fix(core): preserve async config inference (#3541)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29994620311",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29994620311/job/89165232381"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29994620311/job/89165232522"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29994620311/job/89165232530"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29994620311/job/89165232559"
+      }
+    ]
+  },
+  {
     "commitSha": "a5ab1092ba5a6e93282a5967e62df1335f0221b4",
     "commitTimestamp": "2026-07-23T07:56:05Z",
     "commitMessage": "chore(deps): upgrade Rslib to 1.0.0-beta.1 (#3542)",
