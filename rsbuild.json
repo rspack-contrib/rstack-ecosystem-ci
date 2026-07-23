@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b18335bc5fdddc19e5e83ae66fb5bc79301aee4c",
+    "commitTimestamp": "2026-07-23T07:30:54Z",
+    "commitMessage": "chore(deps): upgrade Rslib to 1.0.0-beta.1 (#8173)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29997472522",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29997472522/job/89174468054"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29997472522/job/89174468072"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29997472522/job/89174468121"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29997472522/job/89174468137"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29997472522/job/89174468145"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29997472522/job/89174468188"
+      }
+    ]
+  },
+  {
     "commitSha": "f6df1170a9889ec88fa9c4abf6f50c5452367a55",
     "commitTimestamp": "2026-07-23T05:40:56Z",
     "commitMessage": "fix(core): preserve async config inference (#8171)",
