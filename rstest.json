@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "69d1c004b84e0bdcab3ab907f118cd0970011572",
+    "commitTimestamp": "2026-07-23T11:19:57Z",
+    "commitMessage": "test(playwright): remove nested Rstest runs (#1614)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30004171834",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30004171834/job/89196133694"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30004171834/job/89196133704"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30004171834/job/89196133718"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30004171834/job/89196133724"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30004171834/job/89196133739"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30004171834/job/89196133743"
+      }
+    ]
+  },
+  {
     "commitSha": "9238c86eeb02096bf986fe2975909907a6b6d4de",
     "commitTimestamp": "2026-07-23T11:02:51Z",
     "commitMessage": "fix(core): preserve config factory inference (#1609)",
