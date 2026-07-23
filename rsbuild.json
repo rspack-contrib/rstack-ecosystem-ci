@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "56261f250aea9196171f36dd038853a7e9d24aaf",
+    "commitTimestamp": "2026-07-23T08:27:22Z",
+    "commitMessage": "chore: add Rstack CLI best practices skill (#8174)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29998048293",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29998048293/job/89176326112"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29998048293/job/89176326121"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29998048293/job/89176326122"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29998048293/job/89176326126"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29998048293/job/89176326163"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29998048293/job/89176326189"
+      }
+    ]
+  },
+  {
     "commitSha": "b18335bc5fdddc19e5e83ae66fb5bc79301aee4c",
     "commitTimestamp": "2026-07-23T07:30:54Z",
     "commitMessage": "chore(deps): upgrade Rslib to 1.0.0-beta.1 (#8173)",
