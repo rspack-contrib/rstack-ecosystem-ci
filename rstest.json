@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "267891f61c8754946526b68199ab95b22a9de1d6",
+    "commitTimestamp": "2026-07-23T11:49:06Z",
+    "commitMessage": "fix(vscode): stop notifying when @rstest/core is not installed (#1611)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30005195037",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30005195037/job/89199430006"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30005195037/job/89199430041"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30005195037/job/89199430046"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30005195037/job/89199430060"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30005195037/job/89199430091"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30005195037/job/89199430092"
+      }
+    ]
+  },
+  {
     "commitSha": "bd8e91c36edcd96f8b1c493e3fba61173e86a704",
     "commitTimestamp": "2026-07-23T11:45:21Z",
     "commitMessage": "chore(deps): upgrade Rslib to 1.0.0-beta.1 (#1613)",
