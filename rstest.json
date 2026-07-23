@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9238c86eeb02096bf986fe2975909907a6b6d4de",
+    "commitTimestamp": "2026-07-23T11:02:51Z",
+    "commitMessage": "fix(core): preserve config factory inference (#1609)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30003739357",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30003739357/job/89194718250"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30003739357/job/89194718271"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30003739357/job/89194718277"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30003739357/job/89194718278"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30003739357/job/89194718310"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30003739357/job/89194718330"
+      }
+    ]
+  },
+  {
     "commitSha": "a75fcbb64aaf8b4afe6d99adc8e6d1c59e5b5742",
     "commitTimestamp": "2026-07-23T09:11:10Z",
     "commitMessage": "test(e2e): make CLI output waits level-triggered (#1610)",
