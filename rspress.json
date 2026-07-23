@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "a5ab1092ba5a6e93282a5967e62df1335f0221b4",
+    "commitTimestamp": "2026-07-23T07:56:05Z",
+    "commitMessage": "chore(deps): upgrade Rslib to 1.0.0-beta.1 (#3542)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "1604889533@qq.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29993235791",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29993235791/job/89160685614"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29993235791/job/89160685792"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29993235791/job/89160685821"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29993235791/job/89160685857"
+      }
+    ]
+  },
+  {
     "commitSha": "c866bb97ba5c4446ae88322f3d531a9797f13bc6",
     "commitTimestamp": "2026-07-23T07:50:19Z",
     "commitMessage": "fix(core): declare public type dependencies (#3540)",
