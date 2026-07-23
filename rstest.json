@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a75fcbb64aaf8b4afe6d99adc8e6d1c59e5b5742",
+    "commitTimestamp": "2026-07-23T09:11:10Z",
+    "commitMessage": "test(e2e): make CLI output waits level-triggered (#1610)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29994921513",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29994921513/job/89166226637"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29994921513/job/89166226688"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29994921513/job/89166226699"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29994921513/job/89166226725"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29994921513/job/89166226756"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29994921513/job/89166226776"
+      }
+    ]
+  },
+  {
     "commitSha": "166e2ffacab0bc2e3b5975f63026a74b3c48e7f9",
     "commitTimestamp": "2026-07-23T06:47:57Z",
     "commitMessage": "fix(core): preserve jest matchers namespace in declarations (#1607)",
