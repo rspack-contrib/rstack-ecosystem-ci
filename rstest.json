@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "0abf1549d03101a51ba54484e6cb281ef31d06f2",
+    "commitTimestamp": "2026-07-23T06:01:20Z",
+    "commitMessage": "chore(deps): upgrade Vitest runtime dependencies (#1599)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29984233999",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29984233999/job/89132481466"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29984233999/job/89132481480"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29984233999/job/89132481485"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29984233999/job/89132481492"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29984233999/job/89132481522"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29984233999/job/89132481540"
+      }
+    ]
+  },
+  {
     "commitSha": "6dda4655d3806d59e694d970473e1331c5fa2a12",
     "commitTimestamp": "2026-07-22T11:48:44Z",
     "commitMessage": "feat(browser): converge watch mode onto core-owned watch controls (#1589)",
