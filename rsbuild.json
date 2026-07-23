@@ -48,6 +48,54 @@
     ]
   },
   {
+    "commitSha": "fca45a01a77406223f588957d7c36cdca973a2fd",
+    "commitTimestamp": "2026-07-23T08:26:45Z",
+    "commitMessage": "refactor(core): output declaration files to dist (#8176)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29999131808",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29999131808/job/89179859746"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29999131808/job/89179859756"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29999131808/job/89179859763"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29999131808/job/89179859786"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29999131808/job/89179859835"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/29999131808/job/89179859893"
+      }
+    ]
+  },
+  {
     "commitSha": "b18335bc5fdddc19e5e83ae66fb5bc79301aee4c",
     "commitTimestamp": "2026-07-23T07:30:54Z",
     "commitMessage": "chore(deps): upgrade Rslib to 1.0.0-beta.1 (#8173)",
