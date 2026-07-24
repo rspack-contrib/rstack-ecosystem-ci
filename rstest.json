@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "693a87a87d5028585893bb00419e850fc9c99459",
+    "commitTimestamp": "2026-07-24T11:07:34Z",
+    "commitMessage": "release: 0.11.4 (#1620)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30088516731",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30088516731/job/89466233135"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30088516731/job/89466233166"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30088516731/job/89466233167"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30088516731/job/89466233187"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30088516731/job/89466233205"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30088516731/job/89466233427"
+      }
+    ]
+  },
+  {
     "commitSha": "df596b8ad8d95151c7d3683efaacd7218792f773",
     "commitTimestamp": "2026-07-24T09:47:54Z",
     "commitMessage": "fix(playwright): infer extended fixture types in hooks (#1604)",
