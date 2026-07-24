@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "df596b8ad8d95151c7d3683efaacd7218792f773",
+    "commitTimestamp": "2026-07-24T09:47:54Z",
+    "commitMessage": "fix(playwright): infer extended fixture types in hooks (#1604)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30083897030",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30083897030/job/89451483422"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30083897030/job/89451483427"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30083897030/job/89451483433"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30083897030/job/89451483438"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30083897030/job/89451483443"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30083897030/job/89451483448"
+      }
+    ]
+  },
+  {
     "commitSha": "e4c1a87e09cad42df478a0f025a6d899e690caf2",
     "commitTimestamp": "2026-07-24T09:42:25Z",
     "commitMessage": "ci: reduce main-push job count and enforce OS-agnostic unit tests (#1619)",
