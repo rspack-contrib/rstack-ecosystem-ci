@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "18c8a65b89ea0cde3e0f5f9ffee0c588fe8ade25",
+    "commitTimestamp": "2026-07-24T09:54:57Z",
+    "commitMessage": "chore(deps): upgrade Rslib to 1.0.0-beta.1 (#1797)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30084474342",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30084474342/job/89453336331"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30084474342/job/89453336401"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30084474342/job/89453336414"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30084474342/job/89453336417"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30084474342/job/89453336439"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30084474342/job/89453336444"
+      }
+    ]
+  },
+  {
     "commitSha": "a1987282ac5dc9b14da9e2bcf79a31992d61b69a",
     "commitTimestamp": "2026-07-24T09:02:09Z",
     "commitMessage": "chore(deps): migrate to pnpm catalogs (#1795)",
