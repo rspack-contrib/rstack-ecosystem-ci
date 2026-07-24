@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e4c1a87e09cad42df478a0f025a6d899e690caf2",
+    "commitTimestamp": "2026-07-24T09:42:25Z",
+    "commitMessage": "ci: reduce main-push job count and enforce OS-agnostic unit tests (#1619)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30083562491",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30083562491/job/89450414829"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30083562491/job/89450414841"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30083562491/job/89450414851"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30083562491/job/89450414852"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30083562491/job/89450414874"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30083562491/job/89450415010"
+      }
+    ]
+  },
+  {
     "commitSha": "657d6b4a67818a83bb62b41a04765df4dd721b88",
     "commitTimestamp": "2026-07-24T08:13:40Z",
     "commitMessage": "fix(core): validate hook fixture availability (#1621)",
