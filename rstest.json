@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "657d6b4a67818a83bb62b41a04765df4dd721b88",
+    "commitTimestamp": "2026-07-24T08:13:40Z",
+    "commitMessage": "fix(core): validate hook fixture availability (#1621)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30079288900",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30079288900/job/89436963555"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30079288900/job/89436963559"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30079288900/job/89436963584"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30079288900/job/89436963590"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30079288900/job/89436963605"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30079288900/job/89436963645"
+      }
+    ]
+  },
+  {
     "commitSha": "11050abd74e570bfc3dce03bd8abc84dc8bae93f",
     "commitTimestamp": "2026-07-24T04:55:34Z",
     "commitMessage": "fix(playwright): limit test.for fixture inference (#1617)",
