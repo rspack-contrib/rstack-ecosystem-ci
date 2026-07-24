@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b33d44ef9eb2e50e96849910fee211febe76b712",
+    "commitTimestamp": "2026-07-24T03:01:19Z",
+    "commitMessage": "feat(core): add Module Federation compatibility mode (#1407)",
+    "author": {
+      "name": "Zack Jackson",
+      "email": "25274700+ScriptedAlchemy@users.noreply.github.com",
+      "login": "ScriptedAlchemy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30063151078",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30063151078/job/89388684284"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30063151078/job/89388684318"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30063151078/job/89388684332"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30063151078/job/89388684334"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30063151078/job/89388684349"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30063151078/job/89388684368"
+      }
+    ]
+  },
+  {
     "commitSha": "c4b67c72741ffd7e4c71f641a2e19eae50401dbf",
     "commitTimestamp": "2026-07-23T14:56:47Z",
     "commitMessage": "ci: collapse e2e script matrix and coalesce main push runs (#1615)",
