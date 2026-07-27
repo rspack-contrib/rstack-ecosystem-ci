@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "0f4505e8e7fe4525e0ed73751b3aefe801905117",
+    "commitTimestamp": "2026-07-27T12:15:31Z",
+    "commitMessage": "refactor(core/rsbuild): reuse Rsbuild restart lifecycle (#3537)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30265204134",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30265204134/job/89974117014"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30265204134/job/89974117034"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30265204134/job/89974117062"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30265204134/job/89974117084"
+      }
+    ]
+  },
+  {
     "commitSha": "0519db829318ea7a09d9b76a212d408033f4527c",
     "commitTimestamp": "2026-07-27T03:22:15Z",
     "commitMessage": "chore(deps): update dependency @floating-ui/dom to ^1.8.0 (#3550)",
