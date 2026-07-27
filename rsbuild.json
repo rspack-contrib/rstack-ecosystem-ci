@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "344199da9d1c8d3f0348fdb0432bd3c8acdb3666",
+    "commitTimestamp": "2026-07-27T05:43:47Z",
+    "commitMessage": "fix(core): apply inspect mode before config generation (#8189)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30240593418",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30240593418/job/89896785012"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30240593418/job/89896785022"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30240593418/job/89896785025"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30240593418/job/89896785028"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30240593418/job/89896785032"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30240593418/job/89896785051"
+      }
+    ]
+  },
+  {
     "commitSha": "0c86f9656cf5fd0c04ecc4032e03213337845bb6",
     "commitTimestamp": "2026-07-27T02:28:38Z",
     "commitMessage": "chore(deps): update dependency oxfmt to ^0.60.0 (#8194)",
