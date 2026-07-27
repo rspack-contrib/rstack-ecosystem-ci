@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d4d44bb8376267512f2b82ba3f4744396e68597e",
+    "commitTimestamp": "2026-07-27T07:20:47Z",
+    "commitMessage": "perf(core): split browser runtime vendor chunk (#1625)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30245831810",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30245831810/job/89912570008"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30245831810/job/89912570056"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30245831810/job/89912570059"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30245831810/job/89912570098"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30245831810/job/89912570111"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30245831810/job/89912570116"
+      }
+    ]
+  },
+  {
     "commitSha": "920421956cce646a6b7228dd1b7b746a90637cf2",
     "commitTimestamp": "2026-07-27T06:48:36Z",
     "commitMessage": "perf(core): minify third-party chunks (#1624)",
