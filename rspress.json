@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "7ed7163064e9eaece7c80ce8fa85128816fed038",
+    "commitTimestamp": "2026-07-27T12:16:49Z",
+    "commitMessage": "fix(theme/outline): hide dividers without content (#3556)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30265294122",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30265294122/job/89974414326"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30265294122/job/89974414347"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30265294122/job/89974414405"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30265294122/job/89974414415"
+      }
+    ]
+  },
+  {
     "commitSha": "0f4505e8e7fe4525e0ed73751b3aefe801905117",
     "commitTimestamp": "2026-07-27T12:15:31Z",
     "commitMessage": "refactor(core/rsbuild): reuse Rsbuild restart lifecycle (#3537)",
