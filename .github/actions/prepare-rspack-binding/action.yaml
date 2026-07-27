@@ -54,7 +54,7 @@ runs:
       run: |
         cd ${{ inputs.path }}
         pnpm i --frozen-lockfile
-        cd crates/node_binding && pnpm i --ignore-workspace --no-lockfile && cd ../..
+        pnpm --filter @rspack/binding install --frozen-lockfile
         cargo codegen
         pnpm run build:binding:release
     - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
