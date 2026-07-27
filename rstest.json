@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "920421956cce646a6b7228dd1b7b746a90637cf2",
+    "commitTimestamp": "2026-07-27T06:48:36Z",
+    "commitMessage": "perf(core): minify third-party chunks (#1624)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30243959382",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30243959382/job/89906849051"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30243959382/job/89906849060"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30243959382/job/89906849066"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30243959382/job/89906849072"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30243959382/job/89906849081"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30243959382/job/89906849087"
+      }
+    ]
+  },
+  {
     "commitSha": "960c663224be6ebfa3598e27258d268d2f85ac7b",
     "commitTimestamp": "2026-07-27T05:53:06Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1623)",
