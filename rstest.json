@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "10790605251cb5f881a2b211fd1e7837b8f8d06d",
+    "commitTimestamp": "2026-07-27T12:19:58Z",
+    "commitMessage": "fix(core): keep the federation dynamic import hook across projects (#1629)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30265489689",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30265489689/job/89975051939"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30265489689/job/89975051961"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30265489689/job/89975051991"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30265489689/job/89975051997"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30265489689/job/89975052001"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30265489689/job/89975052027"
+      }
+    ]
+  },
+  {
     "commitSha": "160bb341894d0e46c44a329e53d0f43695c93840",
     "commitTimestamp": "2026-07-27T11:28:49Z",
     "commitMessage": "perf(browser): preserve minified UI assets (#1628)",
