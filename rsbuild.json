@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "09b067d5ed3bd32df5fd9c4b18e3a2f3dd6f2cef",
+    "commitTimestamp": "2026-07-27T07:45:31Z",
+    "commitMessage": "chore: migrate nano-staged to Rstack CLI (#8195)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30247526038",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30247526038/job/89917824491"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30247526038/job/89917824492"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30247526038/job/89917824540"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30247526038/job/89917824544"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30247526038/job/89917824552"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30247526038/job/89917824586"
+      }
+    ]
+  },
+  {
     "commitSha": "344199da9d1c8d3f0348fdb0432bd3c8acdb3666",
     "commitTimestamp": "2026-07-27T05:43:47Z",
     "commitMessage": "fix(core): apply inspect mode before config generation (#8189)",
