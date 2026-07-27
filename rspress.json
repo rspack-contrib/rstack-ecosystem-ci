@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "c1003da9b761337ae1a1b073b2717c2c4bfcfd6e",
+    "commitTimestamp": "2026-07-27T13:38:45Z",
+    "commitMessage": "chore(deps): update dependency memfs to ^4.64.0 (#3552)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30271276361",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30271276361/job/89994155117"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30271276361/job/89994155164"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30271276361/job/89994155172"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30271276361/job/89994155273"
+      }
+    ]
+  },
+  {
     "commitSha": "4841ded4ee35d16aacf82b411bee4ac686e2ff4d",
     "commitTimestamp": "2026-07-27T12:53:40Z",
     "commitMessage": "chore(core): remove redundant dependencies (#3557)",
