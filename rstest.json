@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c00d267c630289d6f3368887590478c988472d0e",
+    "commitTimestamp": "2026-07-27T10:45:19Z",
+    "commitMessage": "fix(core): clean up federation test warnings (#1627)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30259978440",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30259978440/job/89957329106"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30259978440/job/89957329114"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30259978440/job/89957329139"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30259978440/job/89957329154"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30259978440/job/89957329175"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30259978440/job/89957329231"
+      }
+    ]
+  },
+  {
     "commitSha": "d4d44bb8376267512f2b82ba3f4744396e68597e",
     "commitTimestamp": "2026-07-27T07:20:47Z",
     "commitMessage": "perf(core): split browser runtime vendor chunk (#1625)",
