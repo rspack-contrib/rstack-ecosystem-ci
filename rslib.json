@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "8515e7ee2c2a80132a4403c78bb8f0407f2105d0",
+    "commitTimestamp": "2026-07-27T03:54:33Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#1799)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30235747379",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30235747379/job/89883130033"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30235747379/job/89883130034"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30235747379/job/89883130060"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30235747379/job/89883130078"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30235747379/job/89883130082"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30235747379/job/89883130171"
+      }
+    ]
+  },
+  {
     "commitSha": "18c8a65b89ea0cde3e0f5f9ffee0c588fe8ade25",
     "commitTimestamp": "2026-07-24T09:54:57Z",
     "commitMessage": "chore(deps): upgrade Rslib to 1.0.0-beta.1 (#1797)",
