@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "964b2a20d06469599d285f642e9a441739790acc",
+    "commitTimestamp": "2026-07-28T09:43:07Z",
+    "commitMessage": "perf(coverage-v8): use Yuku AST utilities (#1635)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30347792056",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30347792056/job/90237988654"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30347792056/job/90237988661"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30347792056/job/90237988726"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30347792056/job/90237988729"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30347792056/job/90237988739"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30347792056/job/90237988753"
+      }
+    ]
+  },
+  {
     "commitSha": "b4166d71ffc00c81a9001036a71deb5a9a8e0296",
     "commitTimestamp": "2026-07-28T07:34:38Z",
     "commitMessage": "perf(vscode): replace SWC with Yuku (#1633)",
