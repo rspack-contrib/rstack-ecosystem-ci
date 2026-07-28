@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "8a8d01c90e304aa3206e57106a3ae6b70409d417",
+    "commitTimestamp": "2026-07-28T08:25:50Z",
+    "commitMessage": "fix(plugin-playground): scope Monaco preloads to playground pages (#3559)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30344811070",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30344811070/job/90228436408"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30344811070/job/90228436471"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30344811070/job/90228436490"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30344811070/job/90228436511"
+      }
+    ]
+  },
+  {
     "commitSha": "bd730a12dd6a1c30f3eea5bf10fc719bd0acb838",
     "commitTimestamp": "2026-07-28T06:59:34Z",
     "commitMessage": "refactor(core): remove redundant AST filtering (#3558)",
