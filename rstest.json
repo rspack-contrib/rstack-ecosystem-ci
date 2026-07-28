@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f6fb88d1756f999452fdbf61d48c214e0883f5ce",
+    "commitTimestamp": "2026-07-28T07:02:42Z",
+    "commitMessage": "feat(core): full reporter lifecycle replay for --merge-reports (#1630)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30336937766",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30336937766/job/90203788098"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30336937766/job/90203788117"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30336937766/job/90203788146"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30336937766/job/90203788194"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30336937766/job/90203788210"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30336937766/job/90203788248"
+      }
+    ]
+  },
+  {
     "commitSha": "bf218dc32f35c0bded5e800cdbfe28dffca0e58a",
     "commitTimestamp": "2026-07-28T06:37:41Z",
     "commitMessage": "perf(coverage-v8): replace Acorn with Yuku (#1632)",
