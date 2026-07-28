@@ -7,6 +7,11 @@ export async function test(options: RunOptions) {
     repo: 'web-infra-dev/rsbuild',
     branch: process.env.RSBUILD_REF ?? 'main',
     build: 'node --run build',
-    test: ['e2e'],
+    test: [
+      'test',
+      'e2e',
+      // Run Rslint type checking
+      'lint',
+    ],
   });
 }
