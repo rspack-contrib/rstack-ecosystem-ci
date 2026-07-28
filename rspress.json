@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "eee3d23f5b0c8dd979cc1facbc3bcd2689d1db0a",
+    "commitTimestamp": "2026-07-28T11:28:29Z",
+    "commitMessage": "fix(ssg-md): preserve MDX exports (#3562)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30355382480",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30355382480/job/90262241276"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30355382480/job/90262241315"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30355382480/job/90262241348"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30355382480/job/90262241373"
+      }
+    ]
+  },
+  {
     "commitSha": "8a8d01c90e304aa3206e57106a3ae6b70409d417",
     "commitTimestamp": "2026-07-28T08:25:50Z",
     "commitMessage": "fix(plugin-playground): scope Monaco preloads to playground pages (#3559)",
