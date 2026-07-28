@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "bd730a12dd6a1c30f3eea5bf10fc719bd0acb838",
+    "commitTimestamp": "2026-07-28T06:59:34Z",
+    "commitMessage": "refactor(core): remove redundant AST filtering (#3558)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30336760256",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30336760256/job/90203245759"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30336760256/job/90203245792"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30336760256/job/90203245809"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30336760256/job/90203245829"
+      }
+    ]
+  },
+  {
     "commitSha": "c1003da9b761337ae1a1b073b2717c2c4bfcfd6e",
     "commitTimestamp": "2026-07-27T13:38:45Z",
     "commitMessage": "chore(deps): update dependency memfs to ^4.64.0 (#3552)",
