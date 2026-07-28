@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "bf218dc32f35c0bded5e800cdbfe28dffca0e58a",
+    "commitTimestamp": "2026-07-28T06:37:41Z",
+    "commitMessage": "perf(coverage-v8): replace Acorn with Yuku (#1632)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30335463583",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30335463583/job/90199276266"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30335463583/job/90199276267"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30335463583/job/90199276292"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30335463583/job/90199276327"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30335463583/job/90199276332"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30335463583/job/90199276352"
+      }
+    ]
+  },
+  {
     "commitSha": "10790605251cb5f881a2b211fd1e7837b8f8d06d",
     "commitTimestamp": "2026-07-27T12:19:58Z",
     "commitMessage": "fix(core): keep the federation dynamic import hook across projects (#1629)",
