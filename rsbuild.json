@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "3b3a3417ca23c378b7e89cb95d11e2ad6d746364",
+    "commitTimestamp": "2026-07-29T05:08:46Z",
+    "commitMessage": "chore: migrate Git hooks to Rstack CLI (#8197)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30424498492",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30424498492/job/90487874228"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30424498492/job/90487874236"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30424498492/job/90487874241"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30424498492/job/90487874258"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30424498492/job/90487874260"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30424498492/job/90487874335"
+      }
+    ]
+  },
+  {
     "commitSha": "09b067d5ed3bd32df5fd9c4b18e3a2f3dd6f2cef",
     "commitTimestamp": "2026-07-27T07:45:31Z",
     "commitMessage": "chore: migrate nano-staged to Rstack CLI (#8195)",
