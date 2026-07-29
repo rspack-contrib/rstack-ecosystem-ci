@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "45ca154f845db42fdd524f97efe4fb1c8f37b0bd",
+    "commitTimestamp": "2026-07-29T04:52:53Z",
+    "commitMessage": "chore(lint): type-check unit tests and enable no-unused-vars (#1638)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30423665225",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30423665225/job/90485374415"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30423665225/job/90485374422"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30423665225/job/90485374423"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30423665225/job/90485374439"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30423665225/job/90485374440"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30423665225/job/90485374443"
+      }
+    ]
+  },
+  {
     "commitSha": "6004c52faf4531d706bc4936b2f4aed847391386",
     "commitTimestamp": "2026-07-29T04:41:57Z",
     "commitMessage": "fix(browser): preserve Browser UI routes with generated HTML (#1640)",
