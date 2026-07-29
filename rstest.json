@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ed4611cc99173b03e00dfbd1a2c418a1cd8a9f57",
+    "commitTimestamp": "2026-07-29T11:00:57Z",
+    "commitMessage": "fix(core): improve GitHub Actions summaries (#1648)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30446418098",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30446418098/job/90557800597"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30446418098/job/90557800629"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30446418098/job/90557800646"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30446418098/job/90557800650"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30446418098/job/90557800651"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30446418098/job/90557800756"
+      }
+    ]
+  },
+  {
     "commitSha": "3ca13bce83314612759b52c0a60140a9039087bf",
     "commitTimestamp": "2026-07-29T09:28:07Z",
     "commitMessage": "fix(core): skip environment resource tracking for worker-scoped environments (#1645)",
