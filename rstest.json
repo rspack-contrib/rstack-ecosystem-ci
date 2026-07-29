@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "3ca13bce83314612759b52c0a60140a9039087bf",
+    "commitTimestamp": "2026-07-29T09:28:07Z",
+    "commitMessage": "fix(core): skip environment resource tracking for worker-scoped environments (#1645)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30439777709",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30439777709/job/90536044408"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30439777709/job/90536044467"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30439777709/job/90536044498"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30439777709/job/90536044507"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30439777709/job/90536044550"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30439777709/job/90536044569"
+      }
+    ]
+  },
+  {
     "commitSha": "7823ab95b88351125906bbeec57a52555c685c42",
     "commitTimestamp": "2026-07-29T08:19:49Z",
     "commitMessage": "fix(core): scope test environment to the worker under isolate: false (#1642)",
