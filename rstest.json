@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7823ab95b88351125906bbeec57a52555c685c42",
+    "commitTimestamp": "2026-07-29T08:19:49Z",
+    "commitMessage": "fix(core): scope test environment to the worker under isolate: false (#1642)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30436786610",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30436786610/job/90526292690"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30436786610/job/90526292712"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30436786610/job/90526292737"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30436786610/job/90526292752"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30436786610/job/90526292797"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30436786610/job/90526292816"
+      }
+    ]
+  },
+  {
     "commitSha": "e95dc9659aad7adbe4ed3006343df3713417360a",
     "commitTimestamp": "2026-07-29T06:02:46Z",
     "commitMessage": "fix(core): target the real __webpack_require__ in the mock runtime proxy (#1641)",
