@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "6a1ea9d7d2af9307c4a9e11414ccd24002877233",
+    "commitTimestamp": "2026-07-29T10:28:28Z",
+    "commitMessage": "chore: upgrade Rsbuild to 2.1.9 (#1810)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30443874466",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30443874466/job/90549372488"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30443874466/job/90549372524"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30443874466/job/90549372553"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30443874466/job/90549372565"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30443874466/job/90549372630"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30443874466/job/90549372658"
+      }
+    ]
+  },
+  {
     "commitSha": "43f9b4bc80340f10bcae3390fbcf854e2977172e",
     "commitTimestamp": "2026-07-29T08:56:30Z",
     "commitMessage": "feat(wasm)!: support wasm modules in ESM output with compile and preserve modes (#1726)",
