@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "43f9b4bc80340f10bcae3390fbcf854e2977172e",
+    "commitTimestamp": "2026-07-29T08:56:30Z",
+    "commitMessage": "feat(wasm)!: support wasm modules in ESM output with compile and preserve modes (#1726)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30438311985",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30438311985/job/90531256321"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30438311985/job/90531256325"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30438311985/job/90531256351"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30438311985/job/90531256375"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30438311985/job/90531256383"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30438311985/job/90531256411"
+      }
+    ]
+  },
+  {
     "commitSha": "3a2581d1d778bc5755ec9a765e8dc6511faed368",
     "commitTimestamp": "2026-07-28T03:37:15Z",
     "commitMessage": "feat: support shared `format` config (#1796)",
