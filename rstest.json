@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e95dc9659aad7adbe4ed3006343df3713417360a",
+    "commitTimestamp": "2026-07-29T06:02:46Z",
+    "commitMessage": "fix(core): target the real __webpack_require__ in the mock runtime proxy (#1641)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30426916087",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30426916087/job/90495267219"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30426916087/job/90495267226"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30426916087/job/90495267233"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30426916087/job/90495267253"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30426916087/job/90495267267"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30426916087/job/90495267279"
+      }
+    ]
+  },
+  {
     "commitSha": "45ca154f845db42fdd524f97efe4fb1c8f37b0bd",
     "commitTimestamp": "2026-07-29T04:52:53Z",
     "commitMessage": "chore(lint): type-check unit tests and enable no-unused-vars (#1638)",
