@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "af63b2d0f9cf364acbb68bd3e3d3af06fc6c8b5d",
+    "commitTimestamp": "2026-07-29T13:29:37Z",
+    "commitMessage": "release: 0.11.5 (#1647)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30456485309",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30456485309/job/90591280523"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30456485309/job/90591280531"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30456485309/job/90591280588"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30456485309/job/90591280619"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30456485309/job/90591280660"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30456485309/job/90591280687"
+      }
+    ]
+  },
+  {
     "commitSha": "ed4611cc99173b03e00dfbd1a2c418a1cd8a9f57",
     "commitTimestamp": "2026-07-29T11:00:57Z",
     "commitMessage": "fix(core): improve GitHub Actions summaries (#1648)",
