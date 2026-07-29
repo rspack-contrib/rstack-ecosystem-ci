@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "47cfb12d2718d8a9a6f123a597d599595a59745e",
+    "commitTimestamp": "2026-07-29T11:31:03Z",
+    "commitMessage": "perf(core): resolve lastUpdated with a single git process (#3545)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30449147421",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30449147421/job/90566738569"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30449147421/job/90566738623"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30449147421/job/90566738665"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30449147421/job/90566738709"
+      }
+    ]
+  },
+  {
     "commitSha": "138fdb92dc0d8cb10a96f0dba4348d0b023366bb",
     "commitTimestamp": "2026-07-28T12:04:43Z",
     "commitMessage": "fix(theme/llmsUI): warn when copying Markdown in dev (#3563)",
