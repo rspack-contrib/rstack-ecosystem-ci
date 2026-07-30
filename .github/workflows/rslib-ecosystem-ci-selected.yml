@@ -41,6 +41,7 @@ on:
           - rspress
           - rsdoctor
           - modernjs
+          - lynx-stack
       suiteRefType:
         description: 'type of suite ref to use'
         required: true
@@ -93,6 +94,8 @@ jobs:
           - suite: rsdoctor
             os: ubuntu-latest
           - suite: modernjs
+            os: ubuntu-latest
+          - suite: lynx-stack
             os: ubuntu-latest
       fail-fast: false
     runs-on: ${{ matrix.os }}
