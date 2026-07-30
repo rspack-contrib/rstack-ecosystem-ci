@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "64fb78c8c31cd976f61eb58a1ca4c83ceae29350",
+    "commitTimestamp": "2026-07-30T11:16:29Z",
+    "commitMessage": "fix(theme/Llms): omit redundant Markdown page hint (#3567)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30537938854",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30537938854/job/90855637243"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30537938854/job/90855637329"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30537938854/job/90855637330"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30537938854/job/90855637345"
+      }
+    ]
+  },
+  {
     "commitSha": "245a0de1f87e38426215148bd24c871624c57a5f",
     "commitTimestamp": "2026-07-30T08:02:20Z",
     "commitMessage": "chore(deps): update playwright monorepo to v1.62.0 (#3553)",
