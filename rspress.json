@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "245a0de1f87e38426215148bd24c871624c57a5f",
+    "commitTimestamp": "2026-07-30T08:02:20Z",
+    "commitMessage": "chore(deps): update playwright monorepo to v1.62.0 (#3553)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30525101325",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30525101325/job/90814103339"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30525101325/job/90814103467"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30525101325/job/90814103485"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30525101325/job/90814103488"
+      }
+    ]
+  },
+  {
     "commitSha": "26f5e344ba30e0160aed8efbe6d539d36b9644ed",
     "commitTimestamp": "2026-07-30T06:56:16Z",
     "commitMessage": "chore(deps): update dependency @rslint/core to ^0.7.1 (#3551)",
