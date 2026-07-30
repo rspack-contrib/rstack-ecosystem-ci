@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "543a1755e020d2feb3a375f31c886b9228f0def5",
+    "commitTimestamp": "2026-07-30T13:48:23Z",
+    "commitMessage": "chore(deps): update actions/setup-node action to v7 (#8206)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30548665806",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30548665806/job/90891339379"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30548665806/job/90891339427"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30548665806/job/90891339495"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30548665806/job/90891339548"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30548665806/job/90891339557"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30548665806/job/90891339615"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30548665806/job/90891339808"
+      }
+    ]
+  },
+  {
     "commitSha": "8c313dc0a1918f74ae08435c96666f6dd95e9dc3",
     "commitTimestamp": "2026-07-30T13:22:16Z",
     "commitMessage": "test(e2e): remove local paths from Node addon fixtures (#8205)",
