@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b72758555c7d544ce730ff694410910ec9fa6bd9",
+    "commitTimestamp": "2026-07-30T12:16:36Z",
+    "commitMessage": "fix(core): use environment config for Node.js addons (#8203)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30541903904",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30541903904/job/90868445350"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30541903904/job/90868445370"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30541903904/job/90868445410"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30541903904/job/90868445421"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30541903904/job/90868445435"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30541903904/job/90868445448"
+      }
+    ]
+  },
+  {
     "commitSha": "b0afc8e7775eeea09a544b3e3a88ddd8de54b9f0",
     "commitTimestamp": "2026-07-30T10:51:56Z",
     "commitMessage": "chore(deps): update dependency @rsbuild/plugin-type-check to ^1.6.0 (#8201)",
