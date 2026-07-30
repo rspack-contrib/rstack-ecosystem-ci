@@ -7,7 +7,6 @@ export async function test(options: RunOptions) {
     repo: 'rstackjs/rsbuild-plugin-rsc',
     beforeTest: async () => {
       await $`pnpm run build`;
-      await $`pnpm exec playwright install`;
     },
     test: ['test'],
   });
