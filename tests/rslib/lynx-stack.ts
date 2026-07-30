@@ -1,3 +1,1 @@
-import { test } from '../rspack/lynx-stack';
-
-export { test };
+export { test } from '../shared/lynx-stack';
