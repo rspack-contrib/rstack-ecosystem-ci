@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "1820b0ce6f0ae69438ef440114bb2eff4e403217",
+    "commitTimestamp": "2026-07-30T08:28:33Z",
+    "commitMessage": "fix(core): support modern jsdom versions (#1652)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30526856246",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30526856246/job/90819693830"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30526856246/job/90819693874"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30526856246/job/90819693878"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30526856246/job/90819693892"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30526856246/job/90819693901"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30526856246/job/90819693906"
+      }
+    ]
+  },
+  {
     "commitSha": "d99668871736545f796cf869be2f4bbcb456cc6f",
     "commitTimestamp": "2026-07-30T08:26:59Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1650)",
