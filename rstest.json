@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "eb9b9f11a40f47f7689275c9dd8126072c7220b2",
+    "commitTimestamp": "2026-07-30T03:13:12Z",
+    "commitMessage": "fix(browser): run globalSetup in watch mode (#1643)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30511025716",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30511025716/job/90770977835"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30511025716/job/90770977837"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30511025716/job/90770977859"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30511025716/job/90770977875"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30511025716/job/90770977879"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30511025716/job/90770977885"
+      }
+    ]
+  },
+  {
     "commitSha": "592895c844d04221247cb24f8f8887b8c67fe144",
     "commitTimestamp": "2026-07-30T03:10:50Z",
     "commitMessage": "refactor(adapter-rslib): replace tsconfck with get-tsconfig (#1649)",
