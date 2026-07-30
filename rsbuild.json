@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "345e33cba4537da36293acf08d878094969c5b85",
+    "commitTimestamp": "2026-07-30T13:12:57Z",
+    "commitMessage": "fix(plugin-preact): use environment HMR config (#8204)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30545941053",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30545941053/job/90881985178"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30545941053/job/90881985183"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30545941053/job/90881985193"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30545941053/job/90881985194"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30545941053/job/90881985217"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30545941053/job/90881985248"
+      }
+    ]
+  },
+  {
     "commitSha": "b72758555c7d544ce730ff694410910ec9fa6bd9",
     "commitTimestamp": "2026-07-30T12:16:36Z",
     "commitMessage": "fix(core): use environment config for Node.js addons (#8203)",
