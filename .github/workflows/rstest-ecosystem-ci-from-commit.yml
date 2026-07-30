@@ -51,8 +51,22 @@ on:
         required: false
         type: boolean
         default: false
+      distinct_id:
+        description: 'Distinct ID injected by return-dispatch to identify this run'
+        required: false
+        type: string
+        default: ''
 
 jobs:
+  return-dispatch-id:
+    name: Return Dispatch ID
+    runs-on: ubuntu-latest
+    steps:
+      - name: Return Dispatch ID ${{ inputs.distinct_id }}
+        run: echo "${DISTINCT_ID}"
+        env:
+          DISTINCT_ID: ${{ inputs.distinct_id }}
+
   execute-selected-suite:
     runs-on: ubuntu-latest
     if: "inputs.suite != '-'"

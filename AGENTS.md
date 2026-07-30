@@ -31,7 +31,18 @@ All stacks (rsbuild, rspack, rslib, rstest, rsdoctor, rspress) must follow the s
 
 ## Execution Flow
 
-All stacks use the same split-repo dispatch model. The **upstream stack repo** (rspack, rsbuild, rslib, rstest, rsdoctor, rspress) calls a composite action hosted in _this_ repo, which in turn fires `workflow_dispatch` on a stack-specific workflow (`<stack>-ecosystem-ci-from-pr.yml` / `<stack>-ecosystem-ci-from-commit.yml`) via `convictional/trigger-workflow-and-wait`. When the downstream run finishes, the composite action pulls the job list through `ecosystem-ci-result` and writes the summary back to the upstream PR / commit.
+All stacks use the same split-repo dispatch model. The **upstream stack repo** (rspack, rsbuild, rslib, rstest, rsdoctor, rspress) calls a composite action hosted in _this_ repo, which in turn fires `workflow_dispatch` on a stack-specific workflow (`<stack>-ecosystem-ci-from-pr.yml` / `<stack>-ecosystem-ci-from-commit.yml` / `<stack>-ecosystem-ci-selected.yml`) via `Codex-/return-dispatch`, then blocks on `Codex-/await-remote-run`. When the downstream run finishes, the composite action pulls the job list through `ecosystem-ci-result` and writes the summary back to the upstream PR / commit.
+
+### Dispatch correlation (`distinct_id`)
+
+`workflow_dispatch` returns no run ID, so `return-dispatch` injects a random `distinct_id` into `workflow_inputs` and then scans candidate runs for a job step whose **name** contains that value. Every dispatch target must therefore carry both halves of the contract:
+
+- a `distinct_id` workflow input (`type: string`, `required: false`, `default: ''`) — an undeclared input makes the dispatch API reject the whole request with `422 Unexpected inputs provided`
+- a `return-dispatch-id` job that interpolates `${{ inputs.distinct_id }}` **into a step name**, so the value is visible to the job-list API
+
+Both are mandatory for every `<stack>-ecosystem-ci-{from-pr,from-commit,selected}.yml`. Adding a new dispatch target without them silently breaks the upstream run: the dispatch step is `continue-on-error`, so the 422 surfaces only as an empty `run_id` and a blank summary.
+
+Keep the input `required: false` with `default: ''`. `distinct_id` is a correlation hint injected by `return-dispatch`, not a functional input: every workflow must run correctly when it is absent. Tightening it to `required: true` gains nothing (`return-dispatch` always sends it) and only adds friction — API dispatchers that omit it get a 422, and manual runs from the GitHub UI are forced to fill a meaningless field.
 
 Rspack is the only stack that needs extra setup:
 
@@ -52,7 +63,7 @@ flowchart TD
         dispatchAction["ecosystem_ci_dispatch composite action"]
         getPrNumber["get-pr-number: look up PR by branch or explicit input"]
         createComment["create-comment: post Triggered placeholder on the PR<br/>(guarded: if steps.get-pr-number.outputs.result)"]
-        dispatchWorkflow["eco_ci: trigger-workflow-and-wait<br/>dispatches stack-ecosystem-ci-from-pr.yml (runs unconditionally)"]
+        dispatchWorkflow["dispatch + eco_ci: return-dispatch then await-remote-run<br/>dispatches stack-ecosystem-ci-from-pr.yml with an injected distinct_id<br/>(runs unconditionally)"]
         userDispatch --> dispatchAction --> getPrNumber
         getPrNumber -- "PR located" --> createComment
         createComment --> dispatchWorkflow
@@ -119,7 +130,7 @@ flowchart TD
     %% ========================================================================
     subgraph upstream["Upstream stack repo CI — on push to main"]
         upstreamPerCommit["Upstream workflow calls ecosystem_ci_per_commit composite action"]
-        dispatchWorkflow["eco_ci: trigger-workflow-and-wait<br/>dispatches stack-ecosystem-ci-from-commit.yml with commitSHA<br/>(rspack workflow additionally accepts sourceRunId + sourceRepo inputs)"]
+        dispatchWorkflow["dispatch + eco_ci: return-dispatch then await-remote-run<br/>dispatches stack-ecosystem-ci-from-commit.yml with commitSHA + injected distinct_id<br/>(rspack workflow additionally accepts sourceRunId + sourceRepo inputs)"]
         upstreamPerCommit --> dispatchWorkflow
     end
 
@@ -189,7 +200,7 @@ flowchart TD
 
 ## SHA Pin Update Policy
 
-After any change under `.github/`, classify the touched paths and tell the user the required follow-up. Do not parameterize `ref: main` in `trigger-workflow-and-wait` — it is the bridge that makes the third bucket auto-propagate.
+After any change under `.github/`, classify the touched paths and tell the user the required follow-up. Do not parameterize `ref: main` in the `return-dispatch` step — it is the bridge that makes the third bucket auto-propagate.
 
 - **`.github/actions/ecosystem_ci_dispatch/**`or`ecosystem_ci_per_commit/**`** — upstream stack repos pin these by SHA. Bump `version` in `package.json`, dispatch `release.yml` to cut a new tag, then bump the two `@<sha>` pins in every upstream stack repo (Renovate normally opens these PRs).
 - **`.github/actions/ecosystem-ci-result/**`** — pinned by SHA inside the two actions above. First land a digest bump (Renovate or manual) of `ecosystem-ci-result@<sha>`in both`ecosystem_ci_dispatch`and`ecosystem_ci_per_commit`, then run the release flow above. A merge to `main` alone never reaches consumers.
