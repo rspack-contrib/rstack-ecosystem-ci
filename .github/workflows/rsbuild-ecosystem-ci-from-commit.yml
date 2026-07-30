@@ -24,11 +24,13 @@ on:
         type: choice
         options:
           - '-'
-          - modernjs
-          - plugins
+          - rslib
+          - rstest
           - rspress
-          -
+          - plugins
+          - modernjs
           - examples
+          - lynx-stack
       suiteRefType:
         description: 'type of suite ref to use'
         required: true
@@ -86,6 +88,8 @@ jobs:
           - suite: modernjs
             os: ubuntu-latest
           - suite: examples
+            os: ubuntu-latest
+          - suite: lynx-stack
             os: ubuntu-latest
       fail-fast: false
     runs-on: ${{ matrix.os }}
