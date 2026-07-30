@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b30327d514937fb865c807a5f7e718b57c0be25b",
+    "commitTimestamp": "2026-07-30T02:39:47Z",
+    "commitMessage": "feat(core): show network interface names in server URLs (#8199)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30509084507",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30509084507/job/90765067286"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30509084507/job/90765067298"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30509084507/job/90765067334"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30509084507/job/90765067339"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30509084507/job/90765067342"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30509084507/job/90765067388"
+      }
+    ]
+  },
+  {
     "commitSha": "b6c5736c8806333f5626a6f9e942fc041726e4ea",
     "commitTimestamp": "2026-07-29T09:05:57Z",
     "commitMessage": "release: v2.1.9 (#8198)",
