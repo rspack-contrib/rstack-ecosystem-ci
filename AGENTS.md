@@ -6,11 +6,11 @@ The CLI entry point lives in `ecosystem-ci.ts`, handling argument parsing, stack
 
 ## Build, Test, and Development Commands
 
-Use `pnpm install` to bootstrap dependencies (Node ≥18). Run targeted suites with `pnpm test --stack <stack> [suite]`, e.g. `pnpm test --stack rsbuild plugins`. Bisect regressions via `pnpm bisect --stack <stack>`. Execute `pnpm lint` to run Rslint and Prettier checks. After cloning, `pnpm prepare` installs `simple-git-hooks` so the Rslint and Prettier pre-commit hook fires locally.
+Use `pnpm install` to bootstrap dependencies (Node ≥22 per `engines`; CI runs the `.nvmrc` version). Run targeted suites with `pnpm test --stack <stack> [suite]`, e.g. `pnpm test --stack rsbuild plugins`. Bisect regressions via `pnpm bisect --stack <stack>`. Execute `pnpm lint` to run Rslint and Prettier checks. After cloning, `pnpm prepare` installs `simple-git-hooks` so the Rslint and Prettier pre-commit hook fires locally.
 
 ## Coding Style & Naming Conventions
 
-Rslint enforces TypeScript lint rules, while Prettier enforces space indentation, single quotes, and formatting. Follow the strict TypeScript settings in `tsconfig.json` (ESNext target, NodeNext resolution, `noImplicitOverride`). Name suite files in lowercase or kebab-case (`tests/rspack/lynx-stack.ts`), keep helpers camelCase, and reserve `test` exports for suite entry points.
+Rslint enforces TypeScript lint rules, while Prettier enforces space indentation, single quotes, and formatting. Follow the strict TypeScript settings in `tsconfig.json` (ESNext target, bundler resolution, `noImplicitOverride`). Name suite files in lowercase or kebab-case (`tests/rspack/lynx-stack.ts`), keep helpers camelCase, and reserve `test` exports for suite entry points.
 
 ## Testing Guidelines
 
@@ -27,7 +27,7 @@ The runner exports `ECOSYSTEM_CI`, `TURBO_FORCE`, and memory-safe `NODE_OPTIONS`
 
 ## Cross-Stack Isomorphism
 
-All stacks (rsbuild, rspack, rslib, rstest, rsdoctor, rspress) must follow the same structural patterns. When fixing a bug or adding a feature to one stack's workflows or shared actions, always check whether the same issue or gap exists in the other stacks and apply the fix uniformly. Avoid stack-specific workarounds that diverge from the common pattern — if a change cannot be made isomorphic, document the reason explicitly. Shared composite actions (`ecosystem_ci_dispatch`, `ecosystem_ci_per_commit`, `ecosystem-ci-result`) and workflow conventions (job naming, Verdaccio setup, suite execution) are designed to be stack-agnostic; keep them that way.
+All stacks (rsbuild, rspack, rslib, rstest, rsdoctor, rspress) must follow the same structural patterns. When fixing a bug or adding a feature to one stack's workflows or shared actions, always check whether the same issue or gap exists in the other stacks and apply the fix uniformly. Avoid stack-specific workarounds that diverge from the common pattern — if a change cannot be made isomorphic, document the reason explicitly. Shared composite actions (`ecosystem_ci_dispatch`, `ecosystem_ci_per_commit`, `ecosystem-ci-result`) and workflow conventions (job naming, suite execution) are designed to be stack-agnostic; keep them that way. Rspack-only machinery (binding prepare, Verdaccio publish) is the documented exception — if another stack ever needs similar special setup, follow the rspack pattern rather than inventing a new one.
 
 ## Execution Flow
 
