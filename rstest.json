@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4461f4997af386a991b28d8cb61da338e9a3a9d1",
+    "commitTimestamp": "2026-07-31T07:50:10Z",
+    "commitMessage": "fix(core): remove full stack fallback message (#1658)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30614205765",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30614205765/job/91103544478"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30614205765/job/91103544481"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30614205765/job/91103544491"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30614205765/job/91103544512"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30614205765/job/91103544528"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30614205765/job/91103544536"
+      }
+    ]
+  },
+  {
     "commitSha": "630be9bbd52f7c2a3dfd7f4278e986fb73e7f885",
     "commitTimestamp": "2026-07-31T06:12:49Z",
     "commitMessage": "feat(playwright): support retry trace modes (#1657)",
