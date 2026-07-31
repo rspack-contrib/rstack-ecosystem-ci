@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "630be9bbd52f7c2a3dfd7f4278e986fb73e7f885",
+    "commitTimestamp": "2026-07-31T06:12:49Z",
+    "commitMessage": "feat(playwright): support retry trace modes (#1657)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30609061706",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30609061706/job/91087577292"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30609061706/job/91087577309"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30609061706/job/91087577351"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30609061706/job/91087577365"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30609061706/job/91087577378"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30609061706/job/91087577383"
+      }
+    ]
+  },
+  {
     "commitSha": "1820b0ce6f0ae69438ef440114bb2eff4e403217",
     "commitTimestamp": "2026-07-30T08:28:33Z",
     "commitMessage": "fix(core): support modern jsdom versions (#1652)",
