@@ -1,5 +1,5 @@
 import type { RunOptions } from '../../types';
-import { $, runInRepo } from '../../utils';
+import { runInRepo } from '../../utils';
 
 export async function test(options: RunOptions) {
   await runInRepo({
@@ -9,8 +9,5 @@ export async function test(options: RunOptions) {
     build: 'node --run build',
     // ignore snapshot changes
     test: ['test -u', 'test:examples'],
-    beforeTest: async () => {
-      await $`pnpm exec playwright install chromium --with-deps`;
-    },
   });
 }
