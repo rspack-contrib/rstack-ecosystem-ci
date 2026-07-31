@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "1af6d99aeae75b07fdbe62fc276eec36771d4018",
+    "commitTimestamp": "2026-07-31T07:11:19Z",
+    "commitMessage": "test(e2e): use two workers in CI (#3570)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30612003056",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30612003056/job/91096671538"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30612003056/job/91096671562"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30612003056/job/91096671611"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30612003056/job/91096671676"
+      }
+    ]
+  },
+  {
     "commitSha": "782b2da82b0a034c4b2d610187fe5ef471b92daa",
     "commitTimestamp": "2026-07-31T03:40:31Z",
     "commitMessage": "test(e2e): use node --run for fixture scripts (#3568)",
