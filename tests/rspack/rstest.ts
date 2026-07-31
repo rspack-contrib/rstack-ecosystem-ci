@@ -19,7 +19,7 @@ export async function test(options: RunOptions) {
     ],
     beforeTest: async () => {
       // Browser e2e still covers WebKit; Chromium uses GitHub's Chrome.
-      await $`pnpm exec playwright install webkit`;
+      await $`pnpm exec playwright install webkit --with-deps`;
     },
   });
 }
