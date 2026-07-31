@@ -1,7 +1,7 @@
 import { join } from 'node:path';
 import cache from '@actions/cache';
 import type { RunOptions } from '../../types';
-import { $, cd, runInRepo } from '../../utils';
+import { $, runInRepo } from '../../utils';
 
 const isGitHubActions = !!process.env.GITHUB_ACTIONS;
 
@@ -41,11 +41,6 @@ export async function test(options: RunOptions) {
         await $`ls -lah .nx/cache`;
         await cache.saveCache([nxCachePath], nxCacheKey);
       }
-    },
-    beforeTest: async () => {
-      cd('tests/e2e/builder');
-      await $`pnpm exec playwright install chromium`;
-      cd('../../../');
     },
     test: ['test:framework', 'test:builder'],
   });
