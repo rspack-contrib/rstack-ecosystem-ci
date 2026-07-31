@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "227b96e6e9b0258c66a0f93636a559fa700bfe7c",
+    "commitTimestamp": "2026-07-31T09:42:34Z",
+    "commitMessage": "feat(core): add expect poll config (#1660)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30620940524",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30620940524/job/91125084480"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30620940524/job/91125084505"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30620940524/job/91125084506"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30620940524/job/91125084515"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30620940524/job/91125084554"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30620940524/job/91125084591"
+      }
+    ]
+  },
+  {
     "commitSha": "d4d02b63db7778ba87469203cb7d34b0b20c6bef",
     "commitTimestamp": "2026-07-31T07:53:46Z",
     "commitMessage": "fix(browser): run globalSetup when listing tests (#1659)",
