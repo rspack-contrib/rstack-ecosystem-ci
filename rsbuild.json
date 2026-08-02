@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "4892d35da11b90a152697a185d4d57ba9716f0c0",
+    "commitTimestamp": "2026-08-02T04:21:13Z",
+    "commitMessage": "chore(deps): update pnpm to v11.18.0 (#8214)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30732239712",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30732239712/job/91454565201"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30732239712/job/91454565206"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30732239712/job/91454565207"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30732239712/job/91454565215"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30732239712/job/91454565221"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30732239712/job/91454565231"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30732239712/job/91454565246"
+      }
+    ]
+  },
+  {
     "commitSha": "a045f73536530c5aafde19e2da214bd099687495",
     "commitTimestamp": "2026-08-02T03:07:48Z",
     "commitMessage": "chore(deps): update dependency @shikijs/transformers to ^4.4.1 (#8212)",
