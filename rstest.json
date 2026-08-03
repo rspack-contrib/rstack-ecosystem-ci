@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "360f235fefba6e70fd53ddaed9a5d83290787252",
+    "commitTimestamp": "2026-08-03T06:06:00Z",
+    "commitMessage": "fix(deps): relax core peer dependency ranges (#1662)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30789086013",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30789086013/job/91608688846"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30789086013/job/91608688861"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30789086013/job/91608688868"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30789086013/job/91608688869"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30789086013/job/91608688876"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30789086013/job/91608688909"
+      }
+    ]
+  },
+  {
     "commitSha": "227b96e6e9b0258c66a0f93636a559fa700bfe7c",
     "commitTimestamp": "2026-07-31T09:42:34Z",
     "commitMessage": "feat(core): add expect poll config (#1660)",
