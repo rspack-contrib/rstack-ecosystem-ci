@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "876ee018f49e3220a3e1ade946bd9c52ed0e24d1",
+    "commitTimestamp": "2026-08-03T09:16:22Z",
+    "commitMessage": "chore(deps): update actions/setup-node action to v6.5.0 (#3575)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30800725754",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30800725754/job/91644417215"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30800725754/job/91644417249"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30800725754/job/91644417298"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30800725754/job/91644417301"
+      }
+    ]
+  },
+  {
     "commitSha": "ad1c43c02e0b3a620ec3fb0c257bd6d1c888654c",
     "commitTimestamp": "2026-08-03T09:10:59Z",
     "commitMessage": "test(e2e): declare React dependencies in fixtures (#3573)",
