@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "8988b9f9c0047b4e90251c8def3ebc3e718d6174",
+    "commitTimestamp": "2026-08-03T03:27:49Z",
+    "commitMessage": "chore(deps): update dependency nx to v22 [security] (#3574)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30781886095",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30781886095/job/91588056763"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30781886095/job/91588056770"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30781886095/job/91588056784"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30781886095/job/91588056796"
+      }
+    ]
+  },
+  {
     "commitSha": "1df701eb2f5e9c1e7ed9f3d55f87407068990d0e",
     "commitTimestamp": "2026-08-03T03:10:41Z",
     "commitMessage": "feat(route): add cleanUrlsRedirect option (#3571)",
