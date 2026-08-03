@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "1445c8b5507137276508d341b157b98ca2a00cc4",
+    "commitTimestamp": "2026-08-03T11:01:28Z",
+    "commitMessage": "fix(core): force webpack runtime mode (#1665)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30807881145",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30807881145/job/91667377749"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30807881145/job/91667377769"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30807881145/job/91667377771"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30807881145/job/91667377787"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30807881145/job/91667377816"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30807881145/job/91667377826"
+      }
+    ]
+  },
+  {
     "commitSha": "d7d5684ff8e69faad312b78c164bd32173aab0d8",
     "commitTimestamp": "2026-08-03T06:52:26Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1664)",
