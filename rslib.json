@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "540ca2dfdb936301a9722f43767032e9d4c3f164",
+    "commitTimestamp": "2026-08-03T03:24:19Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#1801)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30781750157",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30781750157/job/91587639613"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30781750157/job/91587639623"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30781750157/job/91587639627"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30781750157/job/91587639654"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30781750157/job/91587639679"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30781750157/job/91587639681"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30781750157/job/91587639731"
+      }
+    ]
+  },
+  {
     "commitSha": "5241f4739645816070dfe3662ca0e2fee3b1b6e1",
     "commitTimestamp": "2026-07-30T09:01:36Z",
     "commitMessage": "feat(core)!: support Web Worker in ESM output (#1774)",
