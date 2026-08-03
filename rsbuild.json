@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "ea4f5265206bf9cda22a2c89c953514708de85a8",
+    "commitTimestamp": "2026-08-03T06:00:39Z",
+    "commitMessage": "chore: migrate formatting to rs fmt (#8217)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30788805526",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30788805526/job/91607860844"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30788805526/job/91607860859"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30788805526/job/91607860862"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30788805526/job/91607860875"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30788805526/job/91607860908"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30788805526/job/91607860925"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30788805526/job/91607860943"
+      }
+    ]
+  },
+  {
     "commitSha": "0a1d2cf7adc6c6a6f6312f99cb192c4910b730e1",
     "commitTimestamp": "2026-08-03T02:39:45Z",
     "commitMessage": "fix(deps): update all patch dependencies (#8215)",
