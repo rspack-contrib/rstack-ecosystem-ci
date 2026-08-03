@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "7abee397ac15dd6ee8fbd38ee071175fc707b442",
+    "commitTimestamp": "2026-08-03T12:24:46Z",
+    "commitMessage": "test: cover Node.js addons in asset builds (#1821)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30813535556",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30813535556/job/91685666063"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30813535556/job/91685666089"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30813535556/job/91685666104"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30813535556/job/91685666107"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30813535556/job/91685666128"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30813535556/job/91685666198"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30813535556/job/91685666578"
+      }
+    ]
+  },
+  {
     "commitSha": "3e687d05a72fcb977084e3aac60baf9694431dad",
     "commitTimestamp": "2026-08-03T12:10:41Z",
     "commitMessage": "chore(deps): update brace-expansion (#1820)",
