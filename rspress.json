@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "1df701eb2f5e9c1e7ed9f3d55f87407068990d0e",
+    "commitTimestamp": "2026-08-03T03:10:41Z",
+    "commitMessage": "feat(route): add cleanUrlsRedirect option (#3571)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30781172039",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30781172039/job/91585946771"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30781172039/job/91585946774"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30781172039/job/91585946785"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30781172039/job/91585946805"
+      }
+    ]
+  },
+  {
     "commitSha": "1af6d99aeae75b07fdbe62fc276eec36771d4018",
     "commitTimestamp": "2026-07-31T07:11:19Z",
     "commitMessage": "test(e2e): use two workers in CI (#3570)",
