@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "6d466ff2a1f76f1c39f3cb2fa50889f81f6aa5ac",
+    "commitTimestamp": "2026-08-04T14:27:04Z",
+    "commitMessage": "release: v2.1.10 (#8226)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30919047772",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30919047772/job/92024540536"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30919047772/job/92024540548"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30919047772/job/92024540549"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30919047772/job/92024540567"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30919047772/job/92024540617"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30919047772/job/92024540639"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30919047772/job/92024540755"
+      }
+    ]
+  },
+  {
     "commitSha": "9cebffc70217aecbaea7323fea26d23225e3dd61",
     "commitTimestamp": "2026-08-04T14:06:02Z",
     "commitMessage": "perf(core): defer inline asset source reads (#8225)",
