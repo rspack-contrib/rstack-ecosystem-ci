@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "1e381e508d950d3cf3f06d46aaae8fb018190afa",
+    "commitTimestamp": "2026-08-04T06:06:12Z",
+    "commitMessage": "test: improve createRequire parser coverage (#1822)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30882877898",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30882877898/job/91907771360"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30882877898/job/91907771377"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30882877898/job/91907771388"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30882877898/job/91907771393"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30882877898/job/91907771400"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30882877898/job/91907771421"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30882877898/job/91907771467"
+      }
+    ]
+  },
+  {
     "commitSha": "7abee397ac15dd6ee8fbd38ee071175fc707b442",
     "commitTimestamp": "2026-08-03T12:24:46Z",
     "commitMessage": "test: cover Node.js addons in asset builds (#1821)",
