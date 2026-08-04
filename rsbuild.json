@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "4759d3ada558c1fb3e55810655baaa8c45e03ba5",
+    "commitTimestamp": "2026-08-04T10:55:52Z",
+    "commitMessage": "fix(core): check favicon asset by output path (#8223)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30902718620",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30902718620/job/91970521976"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30902718620/job/91970521996"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30902718620/job/91970522001"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30902718620/job/91970522022"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30902718620/job/91970522024"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30902718620/job/91970522039"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30902718620/job/91970522225"
+      }
+    ]
+  },
+  {
     "commitSha": "3ea1b7ae371200609ef272ebc53a7fe968326881",
     "commitTimestamp": "2026-08-04T10:51:32Z",
     "commitMessage": "perf(core): avoid reading inlined asset sources (#8222)",
