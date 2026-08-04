@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "8df0d6ac94010652b1036e92444f2bcb876d8bcb",
+    "commitTimestamp": "2026-08-04T09:13:49Z",
+    "commitMessage": "feat(core)!: preserve `new URL` assets as relative URLs (#1781)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30895452800",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30895452800/job/91947159081"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30895452800/job/91947159131"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30895452800/job/91947159134"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30895452800/job/91947159154"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30895452800/job/91947159163"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30895452800/job/91947159179"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30895452800/job/91947159196"
+      }
+    ]
+  },
+  {
     "commitSha": "90645273e52063fd7c5d26ced374edb1e06748c2",
     "commitTimestamp": "2026-08-04T07:38:08Z",
     "commitMessage": "feat: support shared `dts` config (#1804)",
