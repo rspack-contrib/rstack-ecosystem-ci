@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "90645273e52063fd7c5d26ced374edb1e06748c2",
+    "commitTimestamp": "2026-08-04T07:38:08Z",
+    "commitMessage": "feat: support shared `dts` config (#1804)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30888634922",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30888634922/job/91925351045"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30888634922/job/91925351049"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30888634922/job/91925351053"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30888634922/job/91925351103"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30888634922/job/91925351117"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30888634922/job/91925351148"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30888634922/job/91925351159"
+      }
+    ]
+  },
+  {
     "commitSha": "1e381e508d950d3cf3f06d46aaae8fb018190afa",
     "commitTimestamp": "2026-08-04T06:06:12Z",
     "commitMessage": "test: improve createRequire parser coverage (#1822)",
