@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "875d6d05f9300141ff41cb1888b5389b3fb057c5",
+    "commitTimestamp": "2026-08-04T16:53:51Z",
+    "commitMessage": "refactor(browser): split hostController into scheduler modules (#1669)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30931354696",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30931354696/job/92066574508"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30931354696/job/92066574557"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30931354696/job/92066574563"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30931354696/job/92066574584"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30931354696/job/92066574588"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30931354696/job/92066574768"
+      }
+    ]
+  },
+  {
     "commitSha": "f64dfa6dce397a2f740f28abec47137bb6fd6c4a",
     "commitTimestamp": "2026-08-04T12:51:31Z",
     "commitMessage": "refactor(core, browser): drive watch mode through the TestExecutor seam (#1668)",
