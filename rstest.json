@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "3ac4047e0d44892a3861e2003863fc77d11d6b8e",
+    "commitTimestamp": "2026-08-04T06:12:07Z",
+    "commitMessage": "refactor(core): remove redundant worker count clamp (#1666)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30883348470",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30883348470/job/91909167452"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30883348470/job/91909167458"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30883348470/job/91909167473"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30883348470/job/91909167480"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30883348470/job/91909167487"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30883348470/job/91909167505"
+      }
+    ]
+  },
+  {
     "commitSha": "1445c8b5507137276508d341b157b98ca2a00cc4",
     "commitTimestamp": "2026-08-03T11:01:28Z",
     "commitMessage": "fix(core): force webpack runtime mode (#1665)",
