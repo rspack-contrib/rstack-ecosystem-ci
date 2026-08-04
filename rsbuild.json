@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "3d5fce9cb09b96adeb32f1cc800a6650d6276699",
+    "commitTimestamp": "2026-08-04T09:43:19Z",
+    "commitMessage": "perf(core): avoid eager asset source reads (#8221)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30897585274",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30897585274/job/91954079910"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30897585274/job/91954079945"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30897585274/job/91954079976"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30897585274/job/91954079980"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30897585274/job/91954080012"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30897585274/job/91954080037"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30897585274/job/91954080855"
+      }
+    ]
+  },
+  {
     "commitSha": "9e994c207062b5c2e92b4c797da00e8de62b1b9a",
     "commitTimestamp": "2026-08-04T04:46:12Z",
     "commitMessage": "chore(deps): update dependency hono to v4.12.34 [security] (#8220)",
