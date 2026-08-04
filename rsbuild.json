@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "3ea1b7ae371200609ef272ebc53a7fe968326881",
+    "commitTimestamp": "2026-08-04T10:51:32Z",
+    "commitMessage": "perf(core): avoid reading inlined asset sources (#8222)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30902415064",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30902415064/job/91969551707"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30902415064/job/91969551708"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30902415064/job/91969551713"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30902415064/job/91969551729"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30902415064/job/91969551735"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30902415064/job/91969551766"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30902415064/job/91969551800"
+      }
+    ]
+  },
+  {
     "commitSha": "3d5fce9cb09b96adeb32f1cc800a6650d6276699",
     "commitTimestamp": "2026-08-04T09:43:19Z",
     "commitMessage": "perf(core): avoid eager asset source reads (#8221)",
