@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f64dfa6dce397a2f740f28abec47137bb6fd6c4a",
+    "commitTimestamp": "2026-08-04T12:51:31Z",
+    "commitMessage": "refactor(core, browser): drive watch mode through the TestExecutor seam (#1668)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30911029318",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30911029318/job/91997551936"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30911029318/job/91997551990"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30911029318/job/91997552027"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30911029318/job/91997552039"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30911029318/job/91997552071"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30911029318/job/91997552132"
+      }
+    ]
+  },
+  {
     "commitSha": "3ac4047e0d44892a3861e2003863fc77d11d6b8e",
     "commitTimestamp": "2026-08-04T06:12:07Z",
     "commitMessage": "refactor(core): remove redundant worker count clamp (#1666)",
