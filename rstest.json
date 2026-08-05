@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "cd92c714b9e85de6b0fe747f33c55bacdfb40001",
+    "commitTimestamp": "2026-08-05T05:24:36Z",
+    "commitMessage": "chore: include examples in unused checks (#1673)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30978028142",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30978028142/job/92216222742"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30978028142/job/92216222781"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30978028142/job/92216222794"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30978028142/job/92216222805"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30978028142/job/92216222859"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30978028142/job/92216222975"
+      }
+    ]
+  },
+  {
     "commitSha": "f5c4ade73b3407c53e1eb63ef033b28e291476d3",
     "commitTimestamp": "2026-08-05T02:56:49Z",
     "commitMessage": "feat(core): support prebundle test environments (#1663)",
