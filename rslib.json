@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "9ae6004f51c349287bcaf11e90565c8de413bd68",
+    "commitTimestamp": "2026-08-05T07:52:39Z",
+    "commitMessage": "feat(deps): update Rsbuild to v2.1.10 (#1826)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30986754522",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30986754522/job/92243186203"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30986754522/job/92243186263"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30986754522/job/92243186281"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30986754522/job/92243186287"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30986754522/job/92243186316"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30986754522/job/92243186333"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30986754522/job/92243186502"
+      }
+    ]
+  },
+  {
     "commitSha": "8df0d6ac94010652b1036e92444f2bcb876d8bcb",
     "commitTimestamp": "2026-08-04T09:13:49Z",
     "commitMessage": "feat(core)!: preserve `new URL` assets as relative URLs (#1781)",
