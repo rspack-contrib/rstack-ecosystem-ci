@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a87fe8087a4e0044832c1e163342a64e657ed3c0",
+    "commitTimestamp": "2026-08-05T16:07:53Z",
+    "commitMessage": "fix(core): unify matcher state ownership (#1681)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31023794432",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31023794432/job/92366968259"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31023794432/job/92366968309"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31023794432/job/92366968360"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31023794432/job/92366968363"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31023794432/job/92366968429"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31023794432/job/92366968834"
+      }
+    ]
+  },
+  {
     "commitSha": "c3aac5df7886c256ca61b806c8c428817f5f5f3b",
     "commitTimestamp": "2026-08-05T13:52:09Z",
     "commitMessage": "fix(core): reset soft assertion errors before retry (#1680)",
