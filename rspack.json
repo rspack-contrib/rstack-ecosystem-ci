@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "ecdc3f330f749a7f6648a55303493417dddf122f",
+    "commitTimestamp": "2026-08-05T11:21:36Z",
+    "commitMessage": "fix(cache): align cache version semantics with webpack (#15000)",
+    "author": {
+      "name": "hardfist",
+      "email": "yangjianzju@gmail.com",
+      "login": "hardfist"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31001669674",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31001669674/job/92291841645"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31001669674/job/92291841660"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31001669674/job/92291841664"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31001669674/job/92291841666"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31001669674/job/92291841683"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31001669674/job/92291841689"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31001669674/job/92291841690"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31001669674/job/92291841706"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31001669674/job/92291841708"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31001669674/job/92291841725"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31001669674/job/92291841762"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31001669674/job/92291841781"
+      }
+    ]
+  },
+  {
     "commitSha": "adc5b688f6fe58b6c6fac84d2a51a58ebc95a2db",
     "commitTimestamp": "2026-08-05T09:10:25Z",
     "commitMessage": "fix: keep compilation dependency iterators disjoint (#15072)",
