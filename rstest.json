@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "8480a47ba1971664fa4a1e839a48e1c6d94f13fe",
+    "commitTimestamp": "2026-08-05T06:15:33Z",
+    "commitMessage": "release: 0.11.6 (#1672)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30980776582",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30980776582/job/92224513439"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30980776582/job/92224513447"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30980776582/job/92224513461"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30980776582/job/92224513473"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30980776582/job/92224513485"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30980776582/job/92224513491"
+      }
+    ]
+  },
+  {
     "commitSha": "cd92c714b9e85de6b0fe747f33c55bacdfb40001",
     "commitTimestamp": "2026-08-05T05:24:36Z",
     "commitMessage": "chore: include examples in unused checks (#1673)",
