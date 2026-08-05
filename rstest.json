@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9e5337b95c160ed94c5d266d0062a87870422f7e",
+    "commitTimestamp": "2026-08-05T08:24:11Z",
+    "commitMessage": "feat(core): add named fixture form (#1667)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30988888786",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30988888786/job/92250036972"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30988888786/job/92250036987"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30988888786/job/92250036994"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30988888786/job/92250037054"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30988888786/job/92250037062"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30988888786/job/92250037596"
+      }
+    ]
+  },
+  {
     "commitSha": "5af1dc0fb363404849855c8a0beb6530c848aa61",
     "commitTimestamp": "2026-08-05T07:48:35Z",
     "commitMessage": "refactor(e2e): consolidate fan-out and shard fixtures (#1675)",
