@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f5c4ade73b3407c53e1eb63ef033b28e291476d3",
+    "commitTimestamp": "2026-08-05T02:56:49Z",
+    "commitMessage": "feat(core): support prebundle test environments (#1663)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30970824400",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30970824400/job/92194528643"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30970824400/job/92194528658"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30970824400/job/92194528659"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30970824400/job/92194528673"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30970824400/job/92194528676"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30970824400/job/92194528748"
+      }
+    ]
+  },
+  {
     "commitSha": "875d6d05f9300141ff41cb1888b5389b3fb057c5",
     "commitTimestamp": "2026-08-04T16:53:51Z",
     "commitMessage": "refactor(browser): split hostController into scheduler modules (#1669)",
