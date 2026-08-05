@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c3aac5df7886c256ca61b806c8c428817f5f5f3b",
+    "commitTimestamp": "2026-08-05T13:52:09Z",
+    "commitMessage": "fix(core): reset soft assertion errors before retry (#1680)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31012320686",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31012320686/job/92327414582"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31012320686/job/92327414611"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31012320686/job/92327414616"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31012320686/job/92327414627"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31012320686/job/92327414675"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31012320686/job/92327414756"
+      }
+    ]
+  },
+  {
     "commitSha": "5d4ebef6bfc5822dc05f12315f06554379f1ec9f",
     "commitTimestamp": "2026-08-05T12:44:08Z",
     "commitMessage": "fix(browser): recover watch after initial fatal error (#1679)",
