@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "5af1dc0fb363404849855c8a0beb6530c848aa61",
+    "commitTimestamp": "2026-08-05T07:48:35Z",
+    "commitMessage": "refactor(e2e): consolidate fan-out and shard fixtures (#1675)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30986469562",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30986469562/job/92242258697"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30986469562/job/92242258731"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30986469562/job/92242258734"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30986469562/job/92242258758"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30986469562/job/92242258771"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/30986469562/job/92242258782"
+      }
+    ]
+  },
+  {
     "commitSha": "e326290bb43ffccbe40ab228c4ae29df5e83c9a4",
     "commitTimestamp": "2026-08-05T07:13:21Z",
     "commitMessage": "refactor(e2e): consolidate coverage provider tests (#1674)",
