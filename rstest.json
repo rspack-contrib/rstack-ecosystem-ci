@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "5d4ebef6bfc5822dc05f12315f06554379f1ec9f",
+    "commitTimestamp": "2026-08-05T12:44:08Z",
+    "commitMessage": "fix(browser): recover watch after initial fatal error (#1679)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31006960172",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31006960172/job/92309151587"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31006960172/job/92309151617"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31006960172/job/92309151625"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31006960172/job/92309151631"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31006960172/job/92309151639"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31006960172/job/92309151775"
+      }
+    ]
+  },
+  {
     "commitSha": "5b91b2ccac7337e764f29ea678a8f9de771b5214",
     "commitTimestamp": "2026-08-05T08:38:03Z",
     "commitMessage": "test(core): centralize test temp directory cleanup (#1676)",
