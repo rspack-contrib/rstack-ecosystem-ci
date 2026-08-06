@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "e283b5cfaf1a10d8a9c20bf975b315058e271df7",
+    "commitTimestamp": "2026-08-06T07:28:50Z",
+    "commitMessage": "release: v1.0.0-beta.2 (#1828)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31081165217",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31081165217/job/92550100904"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31081165217/job/92550100914"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31081165217/job/92550100926"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31081165217/job/92550100944"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31081165217/job/92550100948"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31081165217/job/92550100972"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31081165217/job/92550100988"
+      }
+    ]
+  },
+  {
     "commitSha": "fb72374b69ff6178f3b842605a709ae12236c183",
     "commitTimestamp": "2026-08-06T04:35:44Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1827)",
