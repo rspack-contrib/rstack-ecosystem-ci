@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "fb72374b69ff6178f3b842605a709ae12236c183",
+    "commitTimestamp": "2026-08-06T04:35:44Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#1827)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31071729312",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31071729312/job/92520875602"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31071729312/job/92520875626"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31071729312/job/92520875641"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31071729312/job/92520875644"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31071729312/job/92520875656"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31071729312/job/92520875673"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31071729312/job/92520875697"
+      }
+    ]
+  },
+  {
     "commitSha": "9ae6004f51c349287bcaf11e90565c8de413bd68",
     "commitTimestamp": "2026-08-05T07:52:39Z",
     "commitMessage": "feat(deps): update Rsbuild to v2.1.10 (#1826)",
