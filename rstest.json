@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "1297fe7e489725a9e3c7b1abe4a6fcf98aa48d29",
+    "commitTimestamp": "2026-08-06T05:40:35Z",
+    "commitMessage": "fix(browser): rerun headed watch on test file changes (#1685)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31074853819",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31074853819/job/92530534143"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31074853819/job/92530534183"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31074853819/job/92530534184"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31074853819/job/92530534193"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31074853819/job/92530534195"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31074853819/job/92530534196"
+      }
+    ]
+  },
+  {
     "commitSha": "53e9a0aed3b2bb85b922cb0985a290316925b618",
     "commitTimestamp": "2026-08-06T05:00:43Z",
     "commitMessage": "perf(core): reuse compile cache in workers (#1684)",
