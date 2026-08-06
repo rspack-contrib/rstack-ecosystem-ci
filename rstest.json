@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "1823d93730e19944962c4808d2d1422fbff9fa02",
+    "commitTimestamp": "2026-08-06T06:16:08Z",
+    "commitMessage": "fix(core): warn when environment prebundle falls back (#1683)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31076743359",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31076743359/job/92536306126"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31076743359/job/92536306134"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31076743359/job/92536306153"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31076743359/job/92536306196"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31076743359/job/92536307159"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31076743359/job/92536307310"
+      }
+    ]
+  },
+  {
     "commitSha": "1297fe7e489725a9e3c7b1abe4a6fcf98aa48d29",
     "commitTimestamp": "2026-08-06T05:40:35Z",
     "commitMessage": "fix(browser): rerun headed watch on test file changes (#1685)",
