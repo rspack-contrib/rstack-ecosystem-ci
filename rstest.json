@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "46a2db799854fd8543b7825339d7b263bc7dd9ea",
+    "commitTimestamp": "2026-08-06T09:24:33Z",
+    "commitMessage": "fix(browser): publish compiled browser client (#1689)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31088998556",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31088998556/job/92575177754"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31088998556/job/92575177758"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31088998556/job/92575177776"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31088998556/job/92575177797"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31088998556/job/92575177867"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31088998556/job/92575178186"
+      }
+    ]
+  },
+  {
     "commitSha": "e56cd2d29d1fdfb944269319e5ab1de2d907cad0",
     "commitTimestamp": "2026-08-06T09:24:24Z",
     "commitMessage": "feat(browser): support Module Federation in Browser Mode (#1639)",
