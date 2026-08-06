@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "53e9a0aed3b2bb85b922cb0985a290316925b618",
+    "commitTimestamp": "2026-08-06T05:00:43Z",
+    "commitMessage": "perf(core): reuse compile cache in workers (#1684)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31072874880",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31072874880/job/92524287946"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31072874880/job/92524287973"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31072874880/job/92524287988"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31072874880/job/92524287990"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31072874880/job/92524287994"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31072874880/job/92524288146"
+      }
+    ]
+  },
+  {
     "commitSha": "aae613c9ed2e0fd70ecfb2eb42d067711eacc3bc",
     "commitTimestamp": "2026-08-06T04:36:51Z",
     "commitMessage": "fix(browser): track expect.element assertions (#1682)",
