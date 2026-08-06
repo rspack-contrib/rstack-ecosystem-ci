@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "8f167dc6091bc7b90b374e4855a0abd7a01d1ef5",
+    "commitTimestamp": "2026-08-06T08:18:26Z",
+    "commitMessage": "test(e2e): avoid HMR restart race (#3583)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31084387960",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31084387960/job/92560324047"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31084387960/job/92560324059"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31084387960/job/92560324106"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31084387960/job/92560324114"
+      }
+    ]
+  },
+  {
     "commitSha": "35c868823c22705321275ee170d4b6191d424f3f",
     "commitTimestamp": "2026-08-05T11:31:51Z",
     "commitMessage": "chore(deps): update rstack to v2 (#3585)",
