@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "b6fbdf6fdbf2c67fcf3025f89442532549b2eb3f",
+    "commitTimestamp": "2026-08-06T04:24:53Z",
+    "commitMessage": "feat(binding): add builds for binding-linux-(ppc64,s390x)-gnu (#14962)",
+    "author": {
+      "name": "logonoff",
+      "email": "git@logonoff.co",
+      "login": "logonoff"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31071461473",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31071461473/job/92520162055"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31071461473/job/92520162061"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31071461473/job/92520162067"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31071461473/job/92520162075"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31071461473/job/92520162077"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31071461473/job/92520162086"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31071461473/job/92520162087"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31071461473/job/92520162102"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31071461473/job/92520162106"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31071461473/job/92520162118"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31071461473/job/92520162126"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31071461473/job/92520162132"
+      }
+    ]
+  },
+  {
     "commitSha": "4fff3539bfe7d5781fa2dac1834bf1c4bb7922f4",
     "commitTimestamp": "2026-08-06T03:24:10Z",
     "commitMessage": "fix: preserve ignored URL when import.meta.url is disabled (#15075)",
