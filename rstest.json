@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "fa9bcee838c11ff3bd03d6fa3ce9300c49ff5a90",
+    "commitTimestamp": "2026-08-07T03:56:45Z",
+    "commitMessage": "perf(core): skip tsconfig paths for environment prebundles (#1688)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31145900595",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31145900595/job/92765146765"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31145900595/job/92765146780"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31145900595/job/92765146783"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31145900595/job/92765146788"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31145900595/job/92765146792"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31145900595/job/92765146797"
+      }
+    ]
+  },
+  {
     "commitSha": "55e5850d80ba21f1d352ac70e0a4f7fe6b7bff4f",
     "commitTimestamp": "2026-08-06T11:45:08Z",
     "commitMessage": "test(core): replace finalize source guard with behavioral coverage (#1692)",
