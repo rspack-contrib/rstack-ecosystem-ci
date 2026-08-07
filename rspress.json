@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "a607897b51dd57b22ea9b3ce02f394544e24f7ac",
+    "commitTimestamp": "2026-08-07T07:31:01Z",
+    "commitMessage": "fix(theme): Fixed ToC tooltips that could contain html strings (#3588)",
+    "author": {
+      "name": "Elliot Courant",
+      "email": "me@elliotcourant.dev",
+      "login": "elliotcourant"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31157993933",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31157993933/job/92801654555"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31157993933/job/92801654601"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31157993933/job/92801654608"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31157993933/job/92801654633"
+      }
+    ]
+  },
+  {
     "commitSha": "bf93fbcbcb39594a59a7c9050e22cc39e5846a3d",
     "commitTimestamp": "2026-08-07T03:44:47Z",
     "commitMessage": "docs(website/perf): reduce redundant bundle output (#3587)",
