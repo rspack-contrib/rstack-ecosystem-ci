@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "ccf111b6525007d74401f64cd7ce26c3e23d5a14",
+    "commitTimestamp": "2026-08-07T03:14:21Z",
+    "commitMessage": "chore(deps): replace create-rstack with create-toolkit (#1832)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31143788108",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31143788108/job/92758975826"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31143788108/job/92758975831"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31143788108/job/92758975901"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31143788108/job/92758975912"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31143788108/job/92758975913"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31143788108/job/92758975921"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31143788108/job/92758975950"
+      }
+    ]
+  },
+  {
     "commitSha": "2f00c460c0627346fa33036efe5f19ce8521ca46",
     "commitTimestamp": "2026-08-06T08:17:57Z",
     "commitMessage": "chore(deps): upgrade Rslib to 1.0.0-beta.2 (#1829)",
