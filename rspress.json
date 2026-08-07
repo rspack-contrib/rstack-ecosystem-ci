@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "bf93fbcbcb39594a59a7c9050e22cc39e5846a3d",
+    "commitTimestamp": "2026-08-07T03:44:47Z",
+    "commitMessage": "docs(website/perf): reduce redundant bundle output (#3587)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31145306957",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31145306957/job/92763386352"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31145306957/job/92763386371"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31145306957/job/92763386382"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31145306957/job/92763386446"
+      }
+    ]
+  },
+  {
     "commitSha": "f7238b228b832e54d38921fc9d8e6107ac1c5f75",
     "commitTimestamp": "2026-08-07T03:33:28Z",
     "commitMessage": "chore(deps): replace create-rstack with create-toolkit (#3589)",
