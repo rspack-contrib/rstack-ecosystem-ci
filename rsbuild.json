@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "4fdc654b275cdc1d9ddd70075eb34e2618333738",
+    "commitTimestamp": "2026-08-08T09:44:42Z",
+    "commitMessage": "chore(deps): upgrade rstack to v0.4.0 (#8235)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31251255563",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31251255563/job/93087876737"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31251255563/job/93087876742"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31251255563/job/93087876744"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31251255563/job/93087876752"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31251255563/job/93087876755"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31251255563/job/93087876762"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31251255563/job/93087876773"
+      }
+    ]
+  },
+  {
     "commitSha": "eab457df658d609646b6536f06d89b5a02baed8c",
     "commitTimestamp": "2026-08-08T00:28:34Z",
     "commitMessage": "fix(create-rsbuild): avoid opening browser by default (#8234)",
