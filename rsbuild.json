@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "eab457df658d609646b6536f06d89b5a02baed8c",
+    "commitTimestamp": "2026-08-08T00:28:34Z",
+    "commitMessage": "fix(create-rsbuild): avoid opening browser by default (#8234)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31230218251",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31230218251/job/93032473874"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31230218251/job/93032473880"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31230218251/job/93032473888"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31230218251/job/93032473890"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31230218251/job/93032473903"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31230218251/job/93032473910"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31230218251/job/93032473919"
+      }
+    ]
+  },
+  {
     "commitSha": "a76682d38504dde09634ae528f69a155ac41e834",
     "commitTimestamp": "2026-08-07T02:40:18Z",
     "commitMessage": "chore(deps): replace create-rstack with create-toolkit (#8231)",
