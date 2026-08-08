@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "196b7fae5b771fbd072c6186696434c0f42b19e0",
+    "commitTimestamp": "2026-08-08T03:33:01Z",
+    "commitMessage": "perf(cache): avoid copying aligned archive buffers (#15024)",
+    "author": {
+      "name": "matthewdavis-oai",
+      "email": "matthewdavis@openai.com",
+      "login": "matthewdavis-oai"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31237677126",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31237677126/job/93053163195"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31237677126/job/93053163207"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31237677126/job/93053163208"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31237677126/job/93053163209"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31237677126/job/93053163212"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31237677126/job/93053163222"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31237677126/job/93053163223"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31237677126/job/93053163224"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31237677126/job/93053163235"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31237677126/job/93053163247"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31237677126/job/93053163257"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31237677126/job/93053163258"
+      }
+    ]
+  },
+  {
     "commitSha": "a6e56381e8f804efa7c2ac61abe8d8bab9e960e4",
     "commitTimestamp": "2026-08-08T02:31:50Z",
     "commitMessage": "chore(deps): update dependency @playwright/test to v1.62.1 (#15114)",
