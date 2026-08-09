@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "f4087723b2cb1e18ed6b46e8d14cf271650cabf4",
+    "commitTimestamp": "2026-08-09T11:05:55Z",
+    "commitMessage": "feat(create-rsbuild): support --no-git (#8237)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31309972317",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31309972317/job/93236152314"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31309972317/job/93236152333"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31309972317/job/93236152344"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31309972317/job/93236152359"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31309972317/job/93236152363"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31309972317/job/93236152375"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31309972317/job/93236152395"
+      }
+    ]
+  },
+  {
     "commitSha": "2ac515c14055b22e992117183b53da2a1748d09d",
     "commitTimestamp": "2026-08-08T11:56:22Z",
     "commitMessage": "chore(create-rsbuild): remove redundant DOM testing dependency (#8236)",
