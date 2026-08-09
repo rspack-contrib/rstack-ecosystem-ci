@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "962ea449f4e15d2116d13f1edab424b9660f961f",
+    "commitTimestamp": "2026-08-09T13:00:39Z",
+    "commitMessage": "feat(create-rspress): support --no-git (#3594)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31314735752",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31314735752/job/93248048038"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31314735752/job/93248048049"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31314735752/job/93248048064"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31314735752/job/93248048072"
+      }
+    ]
+  },
+  {
     "commitSha": "a607897b51dd57b22ea9b3ce02f394544e24f7ac",
     "commitTimestamp": "2026-08-07T07:31:01Z",
     "commitMessage": "fix(theme): Fixed ToC tooltips that could contain html strings (#3588)",
