@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "92c0e20650817358baa0e4efa7826228263d42ee",
+    "commitTimestamp": "2026-08-09T12:10:48Z",
+    "commitMessage": "refactor(create-rslib): use Vue Test Utils in templates (#1834)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31312652303",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31312652303/job/93242752348"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31312652303/job/93242752350"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31312652303/job/93242752352"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31312652303/job/93242752358"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31312652303/job/93242752374"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31312652303/job/93242752377"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31312652303/job/93242752382"
+      }
+    ]
+  },
+  {
     "commitSha": "ccf111b6525007d74401f64cd7ce26c3e23d5a14",
     "commitTimestamp": "2026-08-07T03:14:21Z",
     "commitMessage": "chore(deps): replace create-rstack with create-toolkit (#1832)",
