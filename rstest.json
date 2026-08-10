@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f5e404856da4f49849ca34f88dc425c2bfcb8295",
+    "commitTimestamp": "2026-08-10T03:51:09Z",
+    "commitMessage": "feat(core): add bundle coverage debug output (#1694)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31353762800",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31353762800/job/93349401257"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31353762800/job/93349401264"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31353762800/job/93349401272"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31353762800/job/93349401290"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31353762800/job/93349401300"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31353762800/job/93349401301"
+      }
+    ]
+  },
+  {
     "commitSha": "9f0c56217cabbe6255778134ed2143713eb95721",
     "commitTimestamp": "2026-08-10T03:06:48Z",
     "commitMessage": "perf(core): preserve binary assets across workers (#1695)",
