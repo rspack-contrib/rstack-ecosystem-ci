@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "758fd7fb434ae47801b5e4257e2bb0cab0309cc1",
+    "commitTimestamp": "2026-08-10T03:15:23Z",
+    "commitMessage": "chore(infra): remove changesets tooling (#3593)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31352108676",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31352108676/job/93344747883"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31352108676/job/93344747908"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31352108676/job/93344747909"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31352108676/job/93344747944"
+      }
+    ]
+  },
+  {
     "commitSha": "962ea449f4e15d2116d13f1edab424b9660f961f",
     "commitTimestamp": "2026-08-09T13:00:39Z",
     "commitMessage": "feat(create-rspress): support --no-git (#3594)",
