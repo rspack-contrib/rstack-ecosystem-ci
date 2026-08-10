@@ -38,6 +38,44 @@
     ]
   },
   {
+    "commitSha": "cbe4855290923e7d78ace9c4250dde50579e7348",
+    "commitTimestamp": "2026-08-10T03:34:08Z",
+    "commitMessage": "chore(deps): update dependency memfs to ^4.68.0 (#3597)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31352962656",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31352962656/job/93347080687"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31352962656/job/93347080693"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31352962656/job/93347080703"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31352962656/job/93347080704"
+      }
+    ]
+  },
+  {
     "commitSha": "758fd7fb434ae47801b5e4257e2bb0cab0309cc1",
     "commitTimestamp": "2026-08-10T03:15:23Z",
     "commitMessage": "chore(infra): remove changesets tooling (#3593)",
