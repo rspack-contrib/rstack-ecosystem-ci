@@ -38,6 +38,44 @@
     ]
   },
   {
+    "commitSha": "fda5bf3d41a688e127d2b96452b97c0389aff46d",
+    "commitTimestamp": "2026-08-10T07:39:35Z",
+    "commitMessage": "fix: configure Rslint type checking for workspace projects (#3599)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31366797200",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31366797200/job/93386825247"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31366797200/job/93386825293"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31366797200/job/93386825328"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31366797200/job/93386825338"
+      }
+    ]
+  },
+  {
     "commitSha": "1f7ca29ed4bb43327300f5106650e2db20c9cf6b",
     "commitTimestamp": "2026-08-10T03:34:31Z",
     "commitMessage": "chore(deps): update pnpm to v11.20.0 (#3598)",
