@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9f0c56217cabbe6255778134ed2143713eb95721",
+    "commitTimestamp": "2026-08-10T03:06:48Z",
+    "commitMessage": "perf(core): preserve binary assets across workers (#1695)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31351672277",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31351672277/job/93343565376"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31351672277/job/93343565378"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31351672277/job/93343565381"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31351672277/job/93343565388"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31351672277/job/93343565390"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31351672277/job/93343565400"
+      }
+    ]
+  },
+  {
     "commitSha": "fa9bcee838c11ff3bd03d6fa3ce9300c49ff5a90",
     "commitTimestamp": "2026-08-07T03:56:45Z",
     "commitMessage": "perf(core): skip tsconfig paths for environment prebundles (#1688)",
