@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "03ed71a67e37d15b2864398b242621e19b3a8171",
+    "commitTimestamp": "2026-08-10T06:41:33Z",
+    "commitMessage": "feat(core): add file-scoped named fixtures (#1678)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31362949788",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31362949788/job/93375360997"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31362949788/job/93375361003"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31362949788/job/93375361019"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31362949788/job/93375361027"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31362949788/job/93375361030"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31362949788/job/93375361038"
+      }
+    ]
+  },
+  {
     "commitSha": "f0d035af6b188df5809d9f4b899ecdb5b3248a84",
     "commitTimestamp": "2026-08-10T05:09:30Z",
     "commitMessage": "fix(core): run global teardown after executor cleanupfix(core): 在执行器清理后运行全局拆卸 (teardown) (#1697)",
