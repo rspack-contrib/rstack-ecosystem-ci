@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "50b1badee5d56ba826cb8f373dd4ffe1e1513056",
+    "commitTimestamp": "2026-08-10T03:38:16Z",
+    "commitMessage": "fix(create-rsbuild): add pnpm config to Svelte templates (#8247)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31353165481",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31353165481/job/93347650244"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31353165481/job/93347650245"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31353165481/job/93347650247"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31353165481/job/93347650251"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31353165481/job/93347650263"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31353165481/job/93347650265"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31353165481/job/93347650267"
+      }
+    ]
+  },
+  {
     "commitSha": "b5f5562bb581048b472a524c9d3677f82a9f6345",
     "commitTimestamp": "2026-08-10T03:32:50Z",
     "commitMessage": "chore(deps): update dependency memfs to ^4.68.0 (#8245)",
