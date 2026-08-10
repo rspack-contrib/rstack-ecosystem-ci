@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "f85250606cf806dd07f9dcdaca666a614039203f",
+    "commitTimestamp": "2026-08-10T08:45:44Z",
+    "commitMessage": "refactor(create-rslib)!: simplify Node.js templates (#1837)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31371544445",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31371544445/job/93401416565"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31371544445/job/93401416588"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31371544445/job/93401416589"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31371544445/job/93401416618"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31371544445/job/93401416627"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31371544445/job/93401416640"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31371544445/job/93401416681"
+      }
+    ]
+  },
+  {
     "commitSha": "96aaf4edb22548396f1c590e4414af8b15165547",
     "commitTimestamp": "2026-08-10T08:09:01Z",
     "commitMessage": "fix(core)!: Revert \"feat(core)!: enable createRequire parser by default (#1814)\" (#1833)",
