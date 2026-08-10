@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "07ae641dcb01142d16c47fcee87dd0c3c76f40c4",
+    "commitTimestamp": "2026-08-10T07:46:09Z",
+    "commitMessage": "fix(browser): avoid cleanup acknowledgement timeout (#1701)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31367228614",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31367228614/job/93388136319"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31367228614/job/93388136325"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31367228614/job/93388136341"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31367228614/job/93388136344"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31367228614/job/93388136354"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31367228614/job/93388136362"
+      }
+    ]
+  },
+  {
     "commitSha": "03ed71a67e37d15b2864398b242621e19b3a8171",
     "commitTimestamp": "2026-08-10T06:41:33Z",
     "commitMessage": "feat(core): add file-scoped named fixtures (#1678)",
