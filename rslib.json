@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "818f5755fa9c7877a643ff3566b0fc438c9fd825",
+    "commitTimestamp": "2026-08-10T02:07:13Z",
+    "commitMessage": "feat(create-rslib): support --no-git (#1835)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31348928754",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31348928754/job/93336011204"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31348928754/job/93336011218"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31348928754/job/93336011225"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31348928754/job/93336011230"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31348928754/job/93336011231"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31348928754/job/93336011237"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31348928754/job/93336011346"
+      }
+    ]
+  },
+  {
     "commitSha": "92c0e20650817358baa0e4efa7826228263d42ee",
     "commitTimestamp": "2026-08-09T12:10:48Z",
     "commitMessage": "refactor(create-rslib): use Vue Test Utils in templates (#1834)",
