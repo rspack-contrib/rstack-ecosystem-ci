@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f0d035af6b188df5809d9f4b899ecdb5b3248a84",
+    "commitTimestamp": "2026-08-10T05:09:30Z",
+    "commitMessage": "fix(core): run global teardown after executor cleanupfix(core): 在执行器清理后运行全局拆卸 (teardown) (#1697)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31357721111",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31357721111/job/93360445513"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31357721111/job/93360445519"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31357721111/job/93360445529"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31357721111/job/93360445541"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31357721111/job/93360445542"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31357721111/job/93360445562"
+      }
+    ]
+  },
+  {
     "commitSha": "f5e404856da4f49849ca34f88dc425c2bfcb8295",
     "commitTimestamp": "2026-08-10T03:51:09Z",
     "commitMessage": "feat(core): add bundle coverage debug output (#1694)",
