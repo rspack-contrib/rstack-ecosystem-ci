@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "b5f5562bb581048b472a524c9d3677f82a9f6345",
+    "commitTimestamp": "2026-08-10T03:32:50Z",
+    "commitMessage": "chore(deps): update dependency memfs to ^4.68.0 (#8245)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31352898331",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31352898331/job/93346894613"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31352898331/job/93346894620"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31352898331/job/93346894621"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31352898331/job/93346894627"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31352898331/job/93346894628"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31352898331/job/93346894635"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31352898331/job/93346894653"
+      }
+    ]
+  },
+  {
     "commitSha": "d6cdad25e5f251ac2be0aa781414de5eca5ab376",
     "commitTimestamp": "2026-08-10T03:32:43Z",
     "commitMessage": "chore(deps): update dependency rspack-chain to ^2.2.0 (#8246)",
