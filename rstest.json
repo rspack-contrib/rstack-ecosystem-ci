@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "6047a7f5dcf22ac33ce9c10c841ef342ddcbdfdb",
+    "commitTimestamp": "2026-08-11T12:33:06Z",
+    "commitMessage": "fix(playwright): keep test wrappers in sync with core APIs (#1705)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31491814672",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31491814672/job/93779861519"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31491814672/job/93779861569"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31491814672/job/93779861594"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31491814672/job/93779861608"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31491814672/job/93779861612"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31491814672/job/93779861664"
+      }
+    ]
+  },
+  {
     "commitSha": "163e14cd6062f119b544bf4e93fad86fedfd44bf",
     "commitTimestamp": "2026-08-11T10:57:11Z",
     "commitMessage": "feat(browser): support native v8 coverage in chromium (#1700)",
