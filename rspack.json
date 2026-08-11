@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "90580d8a1c1ee603ce491bcd5b0001f61cfd90b7",
+    "commitTimestamp": "2026-08-11T08:53:41Z",
+    "commitMessage": "chore: upgrade rspack-resolver to 0.10.0 (#15149)",
+    "author": {
+      "name": "pshu",
+      "email": "stormslowly@gmail.com",
+      "login": "stormslowly"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31475685919",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31475685919/job/93728862917"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31475685919/job/93728862949"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31475685919/job/93728862954"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31475685919/job/93728862963"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31475685919/job/93728862970"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31475685919/job/93728862972"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31475685919/job/93728863029"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31475685919/job/93728863030"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31475685919/job/93728863054"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31475685919/job/93728863055"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31475685919/job/93728863072"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31475685919/job/93728863076"
+      }
+    ]
+  },
+  {
     "commitSha": "f5a93a214cf35ccaa1244e2ba25aa39fc5771574",
     "commitTimestamp": "2026-08-11T07:52:21Z",
     "commitMessage": "fix: deduplicate parse errors by source range (#15146)",
