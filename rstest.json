@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "190eba299b8b6e7f54cfd8606f531d151b797ca4",
+    "commitTimestamp": "2026-08-11T06:09:36Z",
+    "commitMessage": "fix(coverage): finalize blob coverage in merge-reports (#1699)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31464099787",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31464099787/job/93693295307"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31464099787/job/93693295312"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31464099787/job/93693295324"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31464099787/job/93693295362"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31464099787/job/93693295401"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31464099787/job/93693295405"
+      }
+    ]
+  },
+  {
     "commitSha": "07ae641dcb01142d16c47fcee87dd0c3c76f40c4",
     "commitTimestamp": "2026-08-10T07:46:09Z",
     "commitMessage": "fix(browser): avoid cleanup acknowledgement timeout (#1701)",
