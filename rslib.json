@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "1f9c41f529ca5efbe67f2815e78b42c5bf5682c3",
+    "commitTimestamp": "2026-08-11T08:58:12Z",
+    "commitMessage": "refactor(create-rslib): simplify framework templates (#1840)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31475629413",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31475629413/job/93728566242"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31475629413/job/93728566244"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31475629413/job/93728566253"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31475629413/job/93728566271"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31475629413/job/93728566279"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31475629413/job/93728566290"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31475629413/job/93728566316"
+      }
+    ]
+  },
+  {
     "commitSha": "55cd8134af8bfffd0ee9af464923db8f489c2a61",
     "commitTimestamp": "2026-08-11T07:54:03Z",
     "commitMessage": "fix(core)!: move URL parser to a dedicated module rule (#1831)",
