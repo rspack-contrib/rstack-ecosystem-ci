@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "fefa29c8f525023e0a4538367427f31b617c3dd8",
+    "commitTimestamp": "2026-08-11T10:00:11Z",
+    "commitMessage": "fix(core): restore console and APIs in reused workers (#1704)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31480262717",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31480262717/job/93743353433"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31480262717/job/93743353440"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31480262717/job/93743353444"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31480262717/job/93743353482"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31480262717/job/93743353509"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31480262717/job/93743353511"
+      }
+    ]
+  },
+  {
     "commitSha": "7d4eaaaf33bd2c123a4f5a44b5734885a6c548d6",
     "commitTimestamp": "2026-08-11T07:25:45Z",
     "commitMessage": "fix(adapter-rspack): preserve compatible compiler options (#1702)",
