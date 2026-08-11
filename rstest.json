@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "163e14cd6062f119b544bf4e93fad86fedfd44bf",
+    "commitTimestamp": "2026-08-11T10:57:11Z",
+    "commitMessage": "feat(browser): support native v8 coverage in chromium (#1700)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31484484961",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31484484961/job/93756643764"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31484484961/job/93756643766"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31484484961/job/93756643785"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31484484961/job/93756643805"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31484484961/job/93756643807"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31484484961/job/93756643825"
+      }
+    ]
+  },
+  {
     "commitSha": "fefa29c8f525023e0a4538367427f31b617c3dd8",
     "commitTimestamp": "2026-08-11T10:00:11Z",
     "commitMessage": "fix(core): restore console and APIs in reused workers (#1704)",
