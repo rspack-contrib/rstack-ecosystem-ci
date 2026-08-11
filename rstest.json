@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7d4eaaaf33bd2c123a4f5a44b5734885a6c548d6",
+    "commitTimestamp": "2026-08-11T07:25:45Z",
+    "commitMessage": "fix(adapter-rspack): preserve compatible compiler options (#1702)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31468921870",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31468921870/job/93707703652"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31468921870/job/93707703691"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31468921870/job/93707703695"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31468921870/job/93707703701"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31468921870/job/93707703740"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31468921870/job/93707703875"
+      }
+    ]
+  },
+  {
     "commitSha": "190eba299b8b6e7f54cfd8606f531d151b797ca4",
     "commitTimestamp": "2026-08-11T06:09:36Z",
     "commitMessage": "fix(coverage): finalize blob coverage in merge-reports (#1699)",
