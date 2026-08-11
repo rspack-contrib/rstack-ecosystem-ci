@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "93ff4e72bdbc627bcb6a13f5248a17c0b4d12ae3",
+    "commitTimestamp": "2026-08-11T03:10:11Z",
+    "commitMessage": "chore(deps): upgrade create-toolkit to v2.2.3 (#8250)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31454608966",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31454608966/job/93665721129"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31454608966/job/93665721147"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31454608966/job/93665721153"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31454608966/job/93665721162"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31454608966/job/93665721181"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31454608966/job/93665721182"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31454608966/job/93665721204"
+      }
+    ]
+  },
+  {
     "commitSha": "482b1b33ef67dc61bae0bf044b309b499e285bbd",
     "commitTimestamp": "2026-08-10T07:32:15Z",
     "commitMessage": "fix(core): restore config key completions in defineConfig (#8248)",
