@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "37562f958c14e77155648d3ccebac61cd5ee9a66",
+    "commitTimestamp": "2026-08-12T09:26:32Z",
+    "commitMessage": "fix(core): reject invalid third test argument (#1711)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31582939462",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31582939462/job/94070016662"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31582939462/job/94070016737"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31582939462/job/94070016741"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31582939462/job/94070016755"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31582939462/job/94070016770"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31582939462/job/94070016935"
+      }
+    ]
+  },
+  {
     "commitSha": "0f5bd5db9c89d309fab6371d71e980be7153dc38",
     "commitTimestamp": "2026-08-12T07:59:41Z",
     "commitMessage": "fix(browser): settle pending headed reloads when the file set drops them (#1690)",
