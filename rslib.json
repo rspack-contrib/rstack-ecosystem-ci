@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "5a08260b819aa5cb0921352d3ebe68d573acff83",
+    "commitTimestamp": "2026-08-12T11:42:30Z",
+    "commitMessage": "fix(core): restore config key completions in defineConfig (#1841)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31593120208",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31593120208/job/94102354211"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31593120208/job/94102354254"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31593120208/job/94102354269"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31593120208/job/94102354274"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31593120208/job/94102354305"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31593120208/job/94102354316"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31593120208/job/94102354685"
+      }
+    ]
+  },
+  {
     "commitSha": "2c16587a152b198c03796b18bef1e05bd0ec9c2b",
     "commitTimestamp": "2026-08-12T03:55:09Z",
     "commitMessage": "feat(deps): update Rsbuild to v2.1.11 (#1842)",
