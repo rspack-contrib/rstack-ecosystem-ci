@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "0f5bd5db9c89d309fab6371d71e980be7153dc38",
+    "commitTimestamp": "2026-08-12T07:59:41Z",
+    "commitMessage": "fix(browser): settle pending headed reloads when the file set drops them (#1690)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31576347400",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31576347400/job/94049242046"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31576347400/job/94049242114"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31576347400/job/94049242156"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31576347400/job/94049242169"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31576347400/job/94049242177"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31576347400/job/94049242209"
+      }
+    ]
+  },
+  {
     "commitSha": "ef4df26711ea2aa0d8d2564d6919101168b5f657",
     "commitTimestamp": "2026-08-12T07:09:09Z",
     "commitMessage": "fix(browser): defer coverage provider loading during discovery (#1706)",
