@@ -78,6 +78,84 @@
     ]
   },
   {
+    "commitSha": "ac3dcd6cd6e4f65d8298ff0e64263a616c3d0ad5",
+    "commitTimestamp": "2026-08-13T02:54:23Z",
+    "commitMessage": "fix: share ExternalModule hooks across core instances (#15163)",
+    "author": {
+      "name": "AsyncIter",
+      "email": "intellild@outlook.com",
+      "login": "intellild"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31662492207",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31662492207/job/94330106009"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31662492207/job/94330106011"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31662492207/job/94330106019"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31662492207/job/94330106021"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31662492207/job/94330106025"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31662492207/job/94330106027"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31662492207/job/94330106048"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31662492207/job/94330106071"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31662492207/job/94330106072"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31662492207/job/94330106075"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31662492207/job/94330106079"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31662492207/job/94330106149"
+      }
+    ]
+  },
+  {
     "commitSha": "cc5e5fb2b3c0ea5f34d855487906a5654797e4e1",
     "commitTimestamp": "2026-08-12T11:48:30Z",
     "commitMessage": "feat: integrate new cache to minimize cache (#15150)",
