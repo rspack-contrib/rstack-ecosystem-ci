@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "0bc1bfbe5a3f36fcd8b13a88621953e5e49a3793",
+    "commitTimestamp": "2026-08-13T10:27:22Z",
+    "commitMessage": "test: skip `import.meta` warning assertions in env-define integration test (#1846)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31691175962",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31691175962/job/94418614546"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31691175962/job/94418614580"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31691175962/job/94418614585"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31691175962/job/94418614595"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31691175962/job/94418614656"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31691175962/job/94418614662"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31691175962/job/94418614676"
+      }
+    ]
+  },
+  {
     "commitSha": "eb9e4c6e2127f7bd9a9b6a623d6f4616a11a0591",
     "commitTimestamp": "2026-08-13T08:27:07Z",
     "commitMessage": "feat(core)!: preserve env presets instead of inlining (#1764)",
