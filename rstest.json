@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "5f9fd23a96afc4517d84977967014360af25eeb9",
+    "commitTimestamp": "2026-08-13T10:53:55Z",
+    "commitMessage": "fix(build): disable Rslib createRequire parser (#1716)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31693152404",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31693152404/job/94424801881"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31693152404/job/94424801918"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31693152404/job/94424801919"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31693152404/job/94424801925"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31693152404/job/94424801929"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31693152404/job/94424801937"
+      }
+    ]
+  },
+  {
     "commitSha": "dcd5537c0581b68e880f96f1c59f91bdfdeeda05",
     "commitTimestamp": "2026-08-13T08:12:14Z",
     "commitMessage": "release: 0.11.7 (#1715)",
