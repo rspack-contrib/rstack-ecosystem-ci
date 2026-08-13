@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "28f2e1cb0c442e2a0077c1d6c163430dc858596d",
+    "commitTimestamp": "2026-08-13T09:55:44Z",
+    "commitMessage": "release: v2.1.12 (#8261)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31688842879",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31688842879/job/94411222631"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31688842879/job/94411222665"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31688842879/job/94411222674"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31688842879/job/94411222690"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31688842879/job/94411222722"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31688842879/job/94411222731"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31688842879/job/94411222752"
+      }
+    ]
+  },
+  {
     "commitSha": "5b2402cd0695db2dd6216bc95309022c0e3de543",
     "commitTimestamp": "2026-08-13T09:03:28Z",
     "commitMessage": "chore(ci): use unified Rstack checks (#8259)",
