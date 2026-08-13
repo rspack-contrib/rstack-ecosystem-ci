@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "77f7d702642ae56cb95150b0bb1bdb06f023cd7d",
+    "commitTimestamp": "2026-08-13T03:55:41Z",
+    "commitMessage": "fix(browser): disable browser RPC timeout (#1707)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31665412919",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31665412919/job/94338797350"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31665412919/job/94338797351"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31665412919/job/94338797359"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31665412919/job/94338797371"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31665412919/job/94338797382"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31665412919/job/94338797479"
+      }
+    ]
+  },
+  {
     "commitSha": "37562f958c14e77155648d3ccebac61cd5ee9a66",
     "commitTimestamp": "2026-08-12T09:26:32Z",
     "commitMessage": "fix(core): reject invalid third test argument (#1711)",
