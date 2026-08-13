@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "eb9e4c6e2127f7bd9a9b6a623d6f4616a11a0591",
+    "commitTimestamp": "2026-08-13T08:27:07Z",
+    "commitMessage": "feat(core)!: preserve env presets instead of inlining (#1764)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31682136931",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31682136931/job/94389763789"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31682136931/job/94389763791"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31682136931/job/94389763828"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31682136931/job/94389763831"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31682136931/job/94389763858"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31682136931/job/94389763874"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31682136931/job/94389763978"
+      }
+    ]
+  },
+  {
     "commitSha": "5a08260b819aa5cb0921352d3ebe68d573acff83",
     "commitTimestamp": "2026-08-12T11:42:30Z",
     "commitMessage": "fix(core): restore config key completions in defineConfig (#1841)",
