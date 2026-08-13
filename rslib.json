@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "62a59137c5df02ddf03cea53bbcae3823e5b0db1",
+    "commitTimestamp": "2026-08-13T10:50:22Z",
+    "commitMessage": "release: v1.0.0-beta.3 (#1847)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31692933779",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31692933779/job/94424114337"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31692933779/job/94424114359"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31692933779/job/94424114370"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31692933779/job/94424114417"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31692933779/job/94424114441"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31692933779/job/94424114445"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31692933779/job/94424114452"
+      }
+    ]
+  },
+  {
     "commitSha": "1ad8a034da0b2405908fff9843a1016531ec2b44",
     "commitTimestamp": "2026-08-13T10:42:07Z",
     "commitMessage": "feat(deps): update Rsbuild and disable createRequire parser (#1848)",
