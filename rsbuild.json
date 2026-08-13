@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "9edca57a6b51396b78f9707c9df012a5ce1c9d3d",
+    "commitTimestamp": "2026-08-13T11:54:24Z",
+    "commitMessage": "release: v2.1.13 (#8263)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31697601794",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31697601794/job/94438865627"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31697601794/job/94438865644"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31697601794/job/94438865654"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31697601794/job/94438865663"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31697601794/job/94438865762"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31697601794/job/94438865781"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31697601794/job/94438865852"
+      }
+    ]
+  },
+  {
     "commitSha": "ef8dcc81c2e634943635ff5874956c2259cb1398",
     "commitTimestamp": "2026-08-13T11:38:55Z",
     "commitMessage": "chore(deps): upgrade Rslib to 1.0.0-beta.3 (#8262)",
