@@ -48,6 +48,54 @@
     ]
   },
   {
+    "commitSha": "f908fe4c48db58c0cc502827998a573b5b248c92",
+    "commitTimestamp": "2026-08-13T07:10:44Z",
+    "commitMessage": "fix(core): scope import.meta.rstest to test entries (#1655)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31676725139",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31676725139/job/94372807693"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31676725139/job/94372807704"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31676725139/job/94372807747"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31676725139/job/94372807762"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31676725139/job/94372807808"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31676725139/job/94372807874"
+      }
+    ]
+  },
+  {
     "commitSha": "365a3e271742acd429253b7c3a9d2289015680ba",
     "commitTimestamp": "2026-08-13T06:28:34Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1709)",
