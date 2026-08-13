@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "ef8dcc81c2e634943635ff5874956c2259cb1398",
+    "commitTimestamp": "2026-08-13T11:38:55Z",
+    "commitMessage": "chore(deps): upgrade Rslib to 1.0.0-beta.3 (#8262)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31696453185",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31696453185/job/94435230267"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31696453185/job/94435230276"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31696453185/job/94435230279"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31696453185/job/94435230335"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31696453185/job/94435230344"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31696453185/job/94435230358"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31696453185/job/94435230559"
+      }
+    ]
+  },
+  {
     "commitSha": "28f2e1cb0c442e2a0077c1d6c163430dc858596d",
     "commitTimestamp": "2026-08-13T09:55:44Z",
     "commitMessage": "release: v2.1.12 (#8261)",
