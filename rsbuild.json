@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "e6da7b0835e8ed024b095e261cf0f663f1709109",
+    "commitTimestamp": "2026-08-13T08:55:40Z",
+    "commitMessage": "feat(deps): update @rspack/core to 2.1.10 (#8260)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31684575501",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31684575501/job/94397537891"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31684575501/job/94397537908"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31684575501/job/94397537930"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31684575501/job/94397537959"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31684575501/job/94397538009"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31684575501/job/94397538026"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31684575501/job/94397538049"
+      }
+    ]
+  },
+  {
     "commitSha": "6dbd4c99e5c2fdd527ae2c55ee64f52af1adbd88",
     "commitTimestamp": "2026-08-13T06:30:26Z",
     "commitMessage": "chore(deps): upgrade rstack to v0.6.0 (#8258)",
