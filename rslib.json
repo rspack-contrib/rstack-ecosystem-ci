@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "1ad8a034da0b2405908fff9843a1016531ec2b44",
+    "commitTimestamp": "2026-08-13T10:42:07Z",
+    "commitMessage": "feat(deps): update Rsbuild and disable createRequire parser (#1848)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31692290511",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31692290511/job/94422079927"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31692290511/job/94422079945"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31692290511/job/94422079956"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31692290511/job/94422079959"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31692290511/job/94422079971"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31692290511/job/94422079973"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31692290511/job/94422080035"
+      }
+    ]
+  },
+  {
     "commitSha": "0bc1bfbe5a3f36fcd8b13a88621953e5e49a3793",
     "commitTimestamp": "2026-08-13T10:27:22Z",
     "commitMessage": "test: skip `import.meta` warning assertions in env-define integration test (#1846)",
