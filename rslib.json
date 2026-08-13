@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "e1b23aecb7fb2f4109a47e185f9c4e136860bb49",
+    "commitTimestamp": "2026-08-13T11:31:43Z",
+    "commitMessage": "chore(deps): upgrade Rslib to 1.0.0-beta.3 (#1849)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31695962278",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31695962278/job/94433684771"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31695962278/job/94433684781"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31695962278/job/94433684815"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31695962278/job/94433684831"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31695962278/job/94433684840"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31695962278/job/94433684884"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31695962278/job/94433684906"
+      }
+    ]
+  },
+  {
     "commitSha": "62a59137c5df02ddf03cea53bbcae3823e5b0db1",
     "commitTimestamp": "2026-08-13T10:50:22Z",
     "commitMessage": "release: v1.0.0-beta.3 (#1847)",
