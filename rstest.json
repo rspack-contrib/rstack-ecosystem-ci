@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "77b5d0f5afb2f089764e725d4f2dce8867dfd965",
+    "commitTimestamp": "2026-08-13T07:11:34Z",
+    "commitMessage": "test(vscode): isolate extension test profile (#1714)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31676778388",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31676778388/job/94372969460"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31676778388/job/94372969477"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31676778388/job/94372969480"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31676778388/job/94372969499"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31676778388/job/94372969538"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31676778388/job/94372969541"
+      }
+    ]
+  },
+  {
     "commitSha": "365a3e271742acd429253b7c3a9d2289015680ba",
     "commitTimestamp": "2026-08-13T06:28:34Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1709)",
