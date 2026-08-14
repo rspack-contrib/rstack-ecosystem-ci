@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "3ca2321f0ac447b6ed4c5723f35e3e3a067863fa",
+    "commitTimestamp": "2026-08-14T03:18:57Z",
+    "commitMessage": "chore(deps): upgrade Rslint to v0.8.0 (#1850)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31766447781",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31766447781/job/94663257796"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31766447781/job/94663257801"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31766447781/job/94663257823"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31766447781/job/94663257826"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31766447781/job/94663257846"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31766447781/job/94663257865"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31766447781/job/94663257882"
+      }
+    ]
+  },
+  {
     "commitSha": "e1b23aecb7fb2f4109a47e185f9c4e136860bb49",
     "commitTimestamp": "2026-08-13T11:31:43Z",
     "commitMessage": "chore(deps): upgrade Rslib to 1.0.0-beta.3 (#1849)",
