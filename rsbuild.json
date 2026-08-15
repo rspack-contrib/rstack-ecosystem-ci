@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "f58c6dea620f18ccd24d6cfaf33f60c0a738c476",
+    "commitTimestamp": "2026-08-15T01:51:58Z",
+    "commitMessage": "chore(deps): update dependency less to ^4.9.0 (#8267)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31857681252",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31857681252/job/94945389129"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31857681252/job/94945389145"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31857681252/job/94945389159"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31857681252/job/94945389164"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31857681252/job/94945389175"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31857681252/job/94945389203"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31857681252/job/94945389205"
+      }
+    ]
+  },
+  {
     "commitSha": "de11b040a2bd87fecb647c365b970bc5f921ffa6",
     "commitTimestamp": "2026-08-15T01:51:39Z",
     "commitMessage": "chore(deps): update dependency globals to ^17.11.0 (#8265)",
