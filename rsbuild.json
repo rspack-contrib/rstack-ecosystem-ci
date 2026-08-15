@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "ded92636403f823ab66bbd1acc1adc685a66fb97",
+    "commitTimestamp": "2026-08-15T11:11:19Z",
+    "commitMessage": "test(core): add basic web ESM e2e tests (#8269)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31881428107",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31881428107/job/95004466902"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31881428107/job/95004466924"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31881428107/job/95004466930"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31881428107/job/95004466942"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31881428107/job/95004466965"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31881428107/job/95004466980"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31881428107/job/95004467020"
+      }
+    ]
+  },
+  {
     "commitSha": "0a9521c489e21fa15f71bf281e029da15519a7bc",
     "commitTimestamp": "2026-08-15T01:53:26Z",
     "commitMessage": "test(core): add SPA filename hash stability e2e test (#8266)",
