@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "44db8ba2396edf58cfc027efa59360b7af76799b",
+    "commitTimestamp": "2026-08-16T08:54:01Z",
+    "commitMessage": "chore: format codebase (#8273)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31937645168",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31937645168/job/95141981384"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31937645168/job/95141981386"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31937645168/job/95141981391"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31937645168/job/95141981398"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31937645168/job/95141981425"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31937645168/job/95141981474"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31937645168/job/95142018167"
+      }
+    ]
+  },
+  {
     "commitSha": "b8138ad47d33df4c4bf500ea23206a9561f252d9",
     "commitTimestamp": "2026-08-16T01:34:23Z",
     "commitMessage": "test(core): add module worker async chunk e2e test (#8272)",
