@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "edfb5f5d1e8017e42a07cf41bd55b382f7c605e2",
+    "commitTimestamp": "2026-08-16T00:32:27Z",
+    "commitMessage": "test(core): add web ESM chunk e2e tests (#8270)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31917479373",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31917479373/job/95091707462"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31917479373/job/95091707476"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31917479373/job/95091707479"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31917479373/job/95091707481"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31917479373/job/95091707485"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31917479373/job/95091707489"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31917479373/job/95091707503"
+      }
+    ]
+  },
+  {
     "commitSha": "ded92636403f823ab66bbd1acc1adc685a66fb97",
     "commitTimestamp": "2026-08-15T11:11:19Z",
     "commitMessage": "test(core): add basic web ESM e2e tests (#8269)",
