@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "68813e236b5626a16311efd1a8bd9d1ff5e97f6d",
+    "commitTimestamp": "2026-08-16T15:38:35Z",
+    "commitMessage": "fix(core): resolve rstest list through the run path's planner barrier (#1722)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31956280903",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31956280903/job/95187300896"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31956280903/job/95187300954"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31956280903/job/95187300956"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31956280903/job/95187300976"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31956280903/job/95187300986"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31956280903/job/95187300987"
+      }
+    ]
+  },
+  {
     "commitSha": "5c56d56865dd1cc83137aba113a05f09bc1797bd",
     "commitTimestamp": "2026-08-14T05:43:20Z",
     "commitMessage": "feat(core): support worker-scoped named fixtures (#1708)",
