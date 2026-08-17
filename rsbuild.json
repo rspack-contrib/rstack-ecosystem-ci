@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "c048f2933bf81a04c352367ad6eaa341dfdca122",
+    "commitTimestamp": "2026-08-17T09:14:37Z",
+    "commitMessage": "chore(deps): upgrade connect-next to v5.0.0 (#8287)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32014238646",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32014238646/job/95340177022"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32014238646/job/95340177064"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32014238646/job/95340177100"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32014238646/job/95340177167"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32014238646/job/95340177192"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32014238646/job/95340177232"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32014238646/job/95340177580"
+      }
+    ]
+  },
+  {
     "commitSha": "485352079bca68ce5afc23ef89d9064c5056f6db",
     "commitTimestamp": "2026-08-17T08:17:11Z",
     "commitMessage": "test(core): add web ESM inline scripts e2e test (#8284)",
