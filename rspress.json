@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "e49ce403298524b110af446e3633ccd4f43ed103",
+    "commitTimestamp": "2026-08-17T08:31:23Z",
+    "commitMessage": "fix(ssg-md): include siteOrigin in Markdown links (#3606)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32010842836",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32010842836/job/95329865897"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32010842836/job/95329865973"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32010842836/job/95329865980"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32010842836/job/95329866061"
+      }
+    ]
+  },
+  {
     "commitSha": "824e57dccd1bb4f50d1c76425abd7336bc7ccf6a",
     "commitTimestamp": "2026-08-17T06:39:32Z",
     "commitMessage": "fix(plugin-twoslash): stop tracking hover popup position outside of visible state (#3603)",
