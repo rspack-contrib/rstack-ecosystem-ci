@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "8dfe10fd8d68796b407aec0623dda8a25991ba26",
+    "commitTimestamp": "2026-08-17T02:15:36Z",
+    "commitMessage": "chore(deps): update pnpm to v11.22.0 (#8277)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31987466458",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31987466458/job/95264829965"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31987466458/job/95264829972"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31987466458/job/95264829978"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31987466458/job/95264829987"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31987466458/job/95264830000"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31987466458/job/95264830026"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31987466458/job/95264830039"
+      }
+    ]
+  },
+  {
     "commitSha": "44db8ba2396edf58cfc027efa59360b7af76799b",
     "commitTimestamp": "2026-08-16T08:54:01Z",
     "commitMessage": "chore: format codebase (#8273)",
