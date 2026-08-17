@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "f53a7f7b832d1a2668e15aa4b0a42bb83403cce4",
+    "commitTimestamp": "2026-08-17T02:16:54Z",
+    "commitMessage": "fix(deps): update all patch dependencies (#8276)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31987529403",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31987529403/job/95264996344"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31987529403/job/95264996374"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31987529403/job/95264996392"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31987529403/job/95264996395"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31987529403/job/95264996411"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31987529403/job/95264996457"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31987529403/job/95264996476"
+      }
+    ]
+  },
+  {
     "commitSha": "8dfe10fd8d68796b407aec0623dda8a25991ba26",
     "commitTimestamp": "2026-08-17T02:15:36Z",
     "commitMessage": "chore(deps): update pnpm to v11.22.0 (#8277)",
