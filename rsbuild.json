@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "db42fdc4b0bcc67bc42d23b7a0b234ae099c46a4",
+    "commitTimestamp": "2026-08-17T11:03:25Z",
+    "commitMessage": "test(core): add web ESM externals e2e test (#8292)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32023104869",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32023104869/job/95366722926"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32023104869/job/95366722937"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32023104869/job/95366722942"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32023104869/job/95366722953"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32023104869/job/95366722979"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32023104869/job/95366722981"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32023104869/job/95366723074"
+      }
+    ]
+  },
+  {
     "commitSha": "54571fafee4c58ee2e47c7f64a1bed08beed594e",
     "commitTimestamp": "2026-08-17T11:00:13Z",
     "commitMessage": "test(server): cover native import in CJS bundle (#8291)",
