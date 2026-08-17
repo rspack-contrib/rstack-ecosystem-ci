@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9e7d7b8fee0b3f3ba8aac88a52a01cf3499d1376",
+    "commitTimestamp": "2026-08-17T03:18:08Z",
+    "commitMessage": "chore(deps): update rsbuild and rspack (#1720)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31990740639",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31990740639/job/95273707583"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31990740639/job/95273707602"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31990740639/job/95273707620"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31990740639/job/95273707625"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31990740639/job/95273707627"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31990740639/job/95273707635"
+      }
+    ]
+  },
+  {
     "commitSha": "68813e236b5626a16311efd1a8bd9d1ff5e97f6d",
     "commitTimestamp": "2026-08-16T15:38:35Z",
     "commitMessage": "fix(core): resolve rstest list through the run path's planner barrier (#1722)",
