@@ -53,6 +53,59 @@
     ]
   },
   {
+    "commitSha": "8c85ec3498ce6344247fa255e755c9f85313eead",
+    "commitTimestamp": "2026-08-17T05:59:22Z",
+    "commitMessage": "test(core): add web ESM multiple entries e2e test (#8280)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32000085325",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32000085325/job/95298629784"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32000085325/job/95298629795"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32000085325/job/95298629847"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32000085325/job/95298629851"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32000085325/job/95298629861"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32000085325/job/95298629872"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32000085325/job/95298629885"
+      }
+    ]
+  },
+  {
     "commitSha": "854ef7e7d79a057bba74a785cfde07f59a6ea728",
     "commitTimestamp": "2026-08-17T02:27:49Z",
     "commitMessage": "chore(deps): update swc monorepo to ^12.19.0 (#8278)",
