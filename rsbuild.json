@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "854ef7e7d79a057bba74a785cfde07f59a6ea728",
+    "commitTimestamp": "2026-08-17T02:27:49Z",
+    "commitMessage": "chore(deps): update swc monorepo to ^12.19.0 (#8278)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31988093755",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31988093755/job/95266517007"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31988093755/job/95266517036"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31988093755/job/95266517040"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31988093755/job/95266517046"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31988093755/job/95266517057"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31988093755/job/95266517267"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31988093755/job/95266517299"
+      }
+    ]
+  },
+  {
     "commitSha": "f53a7f7b832d1a2668e15aa4b0a42bb83403cce4",
     "commitTimestamp": "2026-08-17T02:16:54Z",
     "commitMessage": "fix(deps): update all patch dependencies (#8276)",
