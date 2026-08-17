@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "54571fafee4c58ee2e47c7f64a1bed08beed594e",
+    "commitTimestamp": "2026-08-17T11:00:13Z",
+    "commitMessage": "test(server): cover native import in CJS bundle (#8291)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32022854049",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32022854049/job/95365981099"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32022854049/job/95365981188"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32022854049/job/95365981249"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32022854049/job/95365981272"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32022854049/job/95365981294"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32022854049/job/95365981407"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32022854049/job/95365981413"
+      }
+    ]
+  },
+  {
     "commitSha": "2558f45f83049a399f08dcba3e7573eeed4381a8",
     "commitTimestamp": "2026-08-17T09:58:44Z",
     "commitMessage": "test(core): add web ESM base path e2e test (#8289)",
