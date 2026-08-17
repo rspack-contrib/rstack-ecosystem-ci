@@ -53,6 +53,59 @@
     ]
   },
   {
+    "commitSha": "9d622b0aba61248c77f5f49850800c3cd36e0d8c",
+    "commitTimestamp": "2026-08-17T02:17:55Z",
+    "commitMessage": "test(core): add web ESM auto asset prefix e2e test (#8274)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31987599632",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31987599632/job/95265187093"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31987599632/job/95265187098"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31987599632/job/95265187130"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31987599632/job/95265187141"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31987599632/job/95265187148"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31987599632/job/95265187151"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/31987599632/job/95265187156"
+      }
+    ]
+  },
+  {
     "commitSha": "f53a7f7b832d1a2668e15aa4b0a42bb83403cce4",
     "commitTimestamp": "2026-08-17T02:16:54Z",
     "commitMessage": "fix(deps): update all patch dependencies (#8276)",
