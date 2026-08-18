@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f402da8ed3b067aa91ef5a27c775a510eb3ca9e1",
+    "commitTimestamp": "2026-08-18T07:50:12Z",
+    "commitMessage": "chore(deps): update dependency @rslint/core to ^0.8.0 (#1724)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32113374196",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32113374196/job/95637463405"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32113374196/job/95637463418"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32113374196/job/95637463433"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32113374196/job/95637463456"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32113374196/job/95637463461"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32113374196/job/95637463539"
+      }
+    ]
+  },
+  {
     "commitSha": "6bdc8bba8f47da6dde7ab2e6f57cc1502d5404bd",
     "commitTimestamp": "2026-08-18T06:01:02Z",
     "commitMessage": "perf(playwright): reuse browser across worker files (#1726)",
