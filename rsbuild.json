@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "2b1daa23bc9ba3a1ad904fefab76e919f9342660",
+    "commitTimestamp": "2026-08-18T08:03:11Z",
+    "commitMessage": "chore(lint): enable Rstest rules (#8300)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32114444506",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32114444506/job/95640703032"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32114444506/job/95640703043"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32114444506/job/95640703060"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32114444506/job/95640703065"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32114444506/job/95640703075"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32114444506/job/95640703157"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32114444506/job/95640703166"
+      }
+    ]
+  },
+  {
     "commitSha": "502b3817df656ab9b665309879586e4441221d8e",
     "commitTimestamp": "2026-08-18T07:52:09Z",
     "commitMessage": "perf(core): enable native watcher by default (#8296)",
