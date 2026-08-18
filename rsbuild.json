@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "8bfff36d7eddb9b311fab043fa7e3c34c3143eb0",
+    "commitTimestamp": "2026-08-18T06:59:18Z",
+    "commitMessage": "release: @rsbuild/plugin-babel v2.1.0 (#8298)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32109344335",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32109344335/job/95625246841"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32109344335/job/95625246871"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32109344335/job/95625246874"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32109344335/job/95625246898"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32109344335/job/95625246909"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32109344335/job/95625246951"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32109344335/job/95625247292"
+      }
+    ]
+  },
+  {
     "commitSha": "4749f07b56099ea64d7b16122b4110bfd5a43c7e",
     "commitTimestamp": "2026-08-18T06:47:55Z",
     "commitMessage": "feat(plugin-babel): add modifyBabelLoaders helper (#8297)",
