@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "54ef75a6c11de7a63a0c7ad931ff939f2f56b151",
+    "commitTimestamp": "2026-08-18T09:17:02Z",
+    "commitMessage": "feat(plugin-solid): support for Solid v2 (#7608)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32120814310",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32120814310/job/95660589878"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32120814310/job/95660589889"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32120814310/job/95660589937"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32120814310/job/95660589953"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32120814310/job/95660589986"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32120814310/job/95660590013"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32120814310/job/95660590028"
+      }
+    ]
+  },
+  {
     "commitSha": "2b1daa23bc9ba3a1ad904fefab76e919f9342660",
     "commitTimestamp": "2026-08-18T08:03:11Z",
     "commitMessage": "chore(lint): enable Rstest rules (#8300)",
