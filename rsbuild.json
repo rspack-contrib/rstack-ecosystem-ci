@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "502b3817df656ab9b665309879586e4441221d8e",
+    "commitTimestamp": "2026-08-18T07:52:09Z",
+    "commitMessage": "perf(core): enable native watcher by default (#8296)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32113604034",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32113604034/job/95638148842"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32113604034/job/95638148854"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32113604034/job/95638148867"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32113604034/job/95638148869"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32113604034/job/95638148870"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32113604034/job/95638148929"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32113604034/job/95638148977"
+      }
+    ]
+  },
+  {
     "commitSha": "8bfff36d7eddb9b311fab043fa7e3c34c3143eb0",
     "commitTimestamp": "2026-08-18T06:59:18Z",
     "commitMessage": "release: @rsbuild/plugin-babel v2.1.0 (#8298)",
