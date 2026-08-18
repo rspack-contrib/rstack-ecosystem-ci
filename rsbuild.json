@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "0ea4a17b42820619f414feeebba4205bafeb10b1",
+    "commitTimestamp": "2026-08-18T14:10:35Z",
+    "commitMessage": "fix(core): clean up servers after startup failure (#8309)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32146764819",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32146764819/job/95742301937"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32146764819/job/95742301969"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32146764819/job/95742301985"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32146764819/job/95742302002"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32146764819/job/95742302048"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32146764819/job/95742302067"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32146764819/job/95742302169"
+      }
+    ]
+  },
+  {
     "commitSha": "2d7a162ed738b2a76b47d4ac10d068717b964252",
     "commitTimestamp": "2026-08-18T13:47:36Z",
     "commitMessage": "release: v2.2.0-beta.1 (#8310)",
