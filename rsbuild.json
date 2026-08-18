@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "4fc0d3fe7750d5e3c2a1bd8cca91d8976c0d7e55",
+    "commitTimestamp": "2026-08-18T02:34:01Z",
+    "commitMessage": "chore: enable no-unsafe-return rule (#8294)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32092324190",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32092324190/job/95576836593"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32092324190/job/95576836596"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32092324190/job/95576836610"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32092324190/job/95576836629"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32092324190/job/95576836644"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32092324190/job/95576836663"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32092324190/job/95576836694"
+      }
+    ]
+  },
+  {
     "commitSha": "db42fdc4b0bcc67bc42d23b7a0b234ae099c46a4",
     "commitTimestamp": "2026-08-17T11:03:25Z",
     "commitMessage": "test(core): add web ESM externals e2e test (#8292)",
