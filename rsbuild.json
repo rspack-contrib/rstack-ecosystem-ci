@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "87414364f4bd3c00fa0b644e7c3c64f4c190e13c",
+    "commitTimestamp": "2026-08-18T11:11:45Z",
+    "commitMessage": "feat(deps): update @rspack/core to 2.2.0-beta.1 (#8308)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32130549053",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32130549053/job/95690523945"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32130549053/job/95690523957"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32130549053/job/95690523963"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32130549053/job/95690523965"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32130549053/job/95690523967"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32130549053/job/95690523968"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32130549053/job/95690524031"
+      }
+    ]
+  },
+  {
     "commitSha": "0d65f8df0f91bbc3ac0795e74047f948fae8ffe2",
     "commitTimestamp": "2026-08-18T09:53:26Z",
     "commitMessage": "feat(create-rsbuild): add Solid 2 templates (#8306)",
