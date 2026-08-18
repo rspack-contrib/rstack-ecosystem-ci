@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "7f23f15e2491104f713f91f724692b305871cace",
+    "commitTimestamp": "2026-08-18T13:02:24Z",
+    "commitMessage": "fix(core): handle server startup errors (#8307)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32140123898",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32140123898/job/95720552058"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32140123898/job/95720552090"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32140123898/job/95720552091"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32140123898/job/95720552106"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32140123898/job/95720552195"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32140123898/job/95720552207"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32140123898/job/95720552264"
+      }
+    ]
+  },
+  {
     "commitSha": "87414364f4bd3c00fa0b644e7c3c64f4c190e13c",
     "commitTimestamp": "2026-08-18T11:11:45Z",
     "commitMessage": "feat(deps): update @rspack/core to 2.2.0-beta.1 (#8308)",
