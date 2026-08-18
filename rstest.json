@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4b6593dce463bcc416b40c3c0b66d9ef024648d2",
+    "commitTimestamp": "2026-08-18T04:04:03Z",
+    "commitMessage": "feat(watcher): enable rspack native watcher (#1441)",
+    "author": {
+      "name": "pshu",
+      "email": "stormslowly@gmail.com",
+      "login": "stormslowly"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32097789735",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32097789735/job/95592386267"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32097789735/job/95592386280"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32097789735/job/95592386304"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32097789735/job/95592386305"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32097789735/job/95592386321"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32097789735/job/95592386326"
+      }
+    ]
+  },
+  {
     "commitSha": "2d7652e64c34183d8201935a24759d27df21c762",
     "commitTimestamp": "2026-08-17T09:23:57Z",
     "commitMessage": "fix(core): make config-file restart watching reliable (#1727)",
