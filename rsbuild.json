@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "535c7b7ef4e68e51ea5dd33f292363e6ecbf7900",
+    "commitTimestamp": "2026-08-18T05:30:28Z",
+    "commitMessage": "chore: enable no-unnecessary-type-assertion rule (#8293)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32103169291",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32103169291/job/95607478748"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32103169291/job/95607478764"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32103169291/job/95607478773"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32103169291/job/95607478801"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32103169291/job/95607478802"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32103169291/job/95607478851"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32103169291/job/95607478901"
+      }
+    ]
+  },
+  {
     "commitSha": "8d8a47d1ede6cd2a025cda25e11800b88b08b809",
     "commitTimestamp": "2026-08-18T03:49:18Z",
     "commitMessage": "fix: HMR client crash on legacy browsers where URL lacks searchParams (#8295)",
