@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "6bdc8bba8f47da6dde7ab2e6f57cc1502d5404bd",
+    "commitTimestamp": "2026-08-18T06:01:02Z",
+    "commitMessage": "perf(playwright): reuse browser across worker files (#1726)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32105171671",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32105171671/job/95613043328"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32105171671/job/95613043338"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32105171671/job/95613043349"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32105171671/job/95613043385"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32105171671/job/95613043391"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32105171671/job/95613043414"
+      }
+    ]
+  },
+  {
     "commitSha": "4b6593dce463bcc416b40c3c0b66d9ef024648d2",
     "commitTimestamp": "2026-08-18T04:04:03Z",
     "commitMessage": "feat(watcher): enable rspack native watcher (#1441)",
