@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "8d8a47d1ede6cd2a025cda25e11800b88b08b809",
+    "commitTimestamp": "2026-08-18T03:49:18Z",
+    "commitMessage": "fix: HMR client crash on legacy browsers where URL lacks searchParams (#8295)",
+    "author": {
+      "name": "Mirone",
+      "email": "Saul-Mirone@outlook.com",
+      "login": "Saul-Mirone"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32096927010",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32096927010/job/95590007791"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32096927010/job/95590007795"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32096927010/job/95590007804"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32096927010/job/95590007811"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32096927010/job/95590007831"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32096927010/job/95590007855"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32096927010/job/95590007857"
+      }
+    ]
+  },
+  {
     "commitSha": "4fc0d3fe7750d5e3c2a1bd8cca91d8976c0d7e55",
     "commitTimestamp": "2026-08-18T02:34:01Z",
     "commitMessage": "chore: enable no-unsafe-return rule (#8294)",
