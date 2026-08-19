@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "bc367f01ee341db3b82958db98ac7a79f529c4da",
+    "commitTimestamp": "2026-08-19T05:14:42Z",
+    "commitMessage": "chore(lint): enable no-floating-promises rule (#8321)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32218771885",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32218771885/job/95965182614"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32218771885/job/95965182623"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32218771885/job/95965182631"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32218771885/job/95965182653"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32218771885/job/95965182661"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32218771885/job/95965182705"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32218771885/job/95965182755"
+      }
+    ]
+  },
+  {
     "commitSha": "2668d8ab901ca073e3afa89c7f494cf0a52a6b24",
     "commitTimestamp": "2026-08-19T04:57:57Z",
     "commitMessage": "feat(plugin-solid): add granular refresh option (#8320)",
