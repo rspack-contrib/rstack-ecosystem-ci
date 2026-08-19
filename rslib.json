@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "2d4e9221b4acd9131777cb1064daa2e547fa7815",
+    "commitTimestamp": "2026-08-19T06:24:09Z",
+    "commitMessage": "refactor(create-rslib): layer template tsconfigs by scope (#1854)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32223310593",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32223310593/job/95977904076"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32223310593/job/95977904142"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32223310593/job/95977904148"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32223310593/job/95977904183"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32223310593/job/95977904244"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32223310593/job/95977904261"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32223310593/job/95977904306"
+      }
+    ]
+  },
+  {
     "commitSha": "362a668d44f9afaff5835a9f44527c35ec8d5a6e",
     "commitTimestamp": "2026-08-19T04:02:19Z",
     "commitMessage": "feat(deps): upgrade Rsbuild to v2.2.0-beta.1 (#1855)",
