@@ -6,7 +6,7 @@ export async function test(options: RunOptions) {
     ...options,
     repo: 'web-infra-dev/rspack',
     branch: process.env.RSPACK ?? 'main',
-    build: ['build:cli:release'],
+    build: ['build:binding:ci', 'build:js'],
     test: ['test:unit'],
   });
 }
