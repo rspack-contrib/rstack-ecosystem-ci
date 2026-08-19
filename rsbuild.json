@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "17b15961c081ba0abee7a6b93690dd0c1d372854",
+    "commitTimestamp": "2026-08-19T04:40:18Z",
+    "commitMessage": "fix(core): support dynamic ports in module federation (#8319)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32216711894",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32216711894/job/95959492032"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32216711894/job/95959492033"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32216711894/job/95959492048"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32216711894/job/95959492116"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32216711894/job/95959492172"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32216711894/job/95959492179"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32216711894/job/95959492194"
+      }
+    ]
+  },
+  {
     "commitSha": "0666c501e3b1e0aa591461bca9b22f9bf2193799",
     "commitTimestamp": "2026-08-19T04:35:01Z",
     "commitMessage": "fix(cli): support --port 0 (#8318)",
