@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "362a668d44f9afaff5835a9f44527c35ec8d5a6e",
+    "commitTimestamp": "2026-08-19T04:02:19Z",
+    "commitMessage": "feat(deps): upgrade Rsbuild to v2.2.0-beta.1 (#1855)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32214332642",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32214332642/job/95952908649"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32214332642/job/95952908668"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32214332642/job/95952908686"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32214332642/job/95952908690"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32214332642/job/95952908707"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32214332642/job/95952908719"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32214332642/job/95952908742"
+      }
+    ]
+  },
+  {
     "commitSha": "35233d6ad1ec5ac2f9a063f072df9c17cd4fb632",
     "commitTimestamp": "2026-08-17T03:33:10Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1845)",
