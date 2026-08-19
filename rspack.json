@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "b36a4e91c2effe83e8c9797433b87c624117b647",
+    "commitTimestamp": "2026-08-19T06:31:00Z",
+    "commitMessage": "fix: make Module.blocks and Module.dependencies fail gracefully while the module graph is under construction (#15177)",
+    "author": {
+      "name": "Yiming Li",
+      "email": "liyiming.tech@bytedance.com",
+      "login": "upupming"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32224599333",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32224599333/job/95982238777"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32224599333/job/95982238799"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32224599333/job/95982238800"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32224599333/job/95982238813"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32224599333/job/95982238814"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32224599333/job/95982238817"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32224599333/job/95982238821"
+      },
+      {
+        "name": "rstest",
+        "status": "cancelled",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32224599333/job/95982238871"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32224599333/job/95982238876"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32224599333/job/95982238887"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32224599333/job/95982238899"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32224599333/job/95982238900"
+      }
+    ]
+  },
+  {
     "commitSha": "0f75e75d04fab018ee3631da5d7b9419940d3f81",
     "commitTimestamp": "2026-08-18T13:43:25Z",
     "commitMessage": "chore(release): 2.2.0-beta.1 (#15216)",
