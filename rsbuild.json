@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "01b5decdd995e73774834579bc501c1a02783bbe",
+    "commitTimestamp": "2026-08-19T06:03:49Z",
+    "commitMessage": "chore(vscode): use Rstack extension as default formatter (#8325)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32221872047",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32221872047/job/95973690906"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32221872047/job/95973691033"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32221872047/job/95973691045"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32221872047/job/95973691240"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32221872047/job/95973691242"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32221872047/job/95973691513"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32221872047/job/95973691841"
+      }
+    ]
+  },
+  {
     "commitSha": "8c3c24c4160ec01839fdc798eacb5d8c25282a3a",
     "commitTimestamp": "2026-08-19T05:24:04Z",
     "commitMessage": "test(plugin-solid): cover SSR and hydration (#8322)",
