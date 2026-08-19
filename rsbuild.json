@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "0666c501e3b1e0aa591461bca9b22f9bf2193799",
+    "commitTimestamp": "2026-08-19T04:35:01Z",
+    "commitMessage": "fix(cli): support --port 0 (#8318)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32216307147",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32216307147/job/95958373946"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32216307147/job/95958373959"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32216307147/job/95958373972"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32216307147/job/95958373983"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32216307147/job/95958373989"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32216307147/job/95958373990"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32216307147/job/95958374034"
+      }
+    ]
+  },
+  {
     "commitSha": "29cfa24f051838a04f986e8d6e101b026bfb3827",
     "commitTimestamp": "2026-08-19T04:02:34Z",
     "commitMessage": "test(plugin-solid): cover HMR error recovery (#8317)",
