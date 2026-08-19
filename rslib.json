@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "c4b1e4a45b407d996428fca19d44c42a96022aa5",
+    "commitTimestamp": "2026-08-19T08:07:12Z",
+    "commitMessage": "fix(create-rslib): add pnpm config to Svelte templates (#1856)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32231149013",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32231149013/job/96001006107"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32231149013/job/96001006112"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32231149013/job/96001006130"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32231149013/job/96001006141"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32231149013/job/96001006149"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32231149013/job/96001006177"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32231149013/job/96001006574"
+      }
+    ]
+  },
+  {
     "commitSha": "2d4e9221b4acd9131777cb1064daa2e547fa7815",
     "commitTimestamp": "2026-08-19T06:24:09Z",
     "commitMessage": "refactor(create-rslib): layer template tsconfigs by scope (#1854)",
