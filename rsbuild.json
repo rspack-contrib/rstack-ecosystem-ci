@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "29cfa24f051838a04f986e8d6e101b026bfb3827",
+    "commitTimestamp": "2026-08-19T04:02:34Z",
+    "commitMessage": "test(plugin-solid): cover HMR error recovery (#8317)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32214412205",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32214412205/job/95953125738"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32214412205/job/95953125775"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32214412205/job/95953125791"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32214412205/job/95953125797"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32214412205/job/95953125799"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32214412205/job/95953125819"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32214412205/job/95953125896"
+      }
+    ]
+  },
+  {
     "commitSha": "71f9022df85a3bd6d4e799828badbec07991fa8c",
     "commitTimestamp": "2026-08-19T03:44:23Z",
     "commitMessage": "fix(core): correctly resolve server port 0 (#8315)",
