@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "70c1b17fac53b3ef3e6f3832f4d3a9cbad4bd726",
+    "commitTimestamp": "2026-08-19T02:34:46Z",
+    "commitMessage": "feat(plugin-solid): apply dev option to compiler transforms (#8311)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32209088256",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32209088256/job/95937993611"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32209088256/job/95937993644"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32209088256/job/95937993645"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32209088256/job/95937993650"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32209088256/job/95937993675"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32209088256/job/95937993686"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32209088256/job/95937993690"
+      }
+    ]
+  },
+  {
     "commitSha": "776c4b5fa4f6c7ecd07665b3afe18e4f09140048",
     "commitTimestamp": "2026-08-19T02:15:50Z",
     "commitMessage": "chore(lint): enable no-misused-promises rule (#8312)",
