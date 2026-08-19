@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "b27bb23dc32a422ada166a5f2d4d1c5d2bbe3877",
+    "commitTimestamp": "2026-08-19T07:20:11Z",
+    "commitMessage": "fix(plugin-solid): skip refresh for node_modules (#8326)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32227934731",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "cancelled",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32227934731/job/95991452032"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32227934731/job/95991452053"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32227934731/job/95991452153"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32227934731/job/95991452165"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32227934731/job/95991452170"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32227934731/job/95991452180"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32227934731/job/95991452230"
+      }
+    ]
+  },
+  {
     "commitSha": "01b5decdd995e73774834579bc501c1a02783bbe",
     "commitTimestamp": "2026-08-19T06:03:49Z",
     "commitMessage": "chore(vscode): use Rstack extension as default formatter (#8325)",
