@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "2668d8ab901ca073e3afa89c7f494cf0a52a6b24",
+    "commitTimestamp": "2026-08-19T04:57:57Z",
+    "commitMessage": "feat(plugin-solid): add granular refresh option (#8320)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32217679240",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32217679240/job/95962149036"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32217679240/job/95962149054"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32217679240/job/95962149092"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32217679240/job/95962149094"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32217679240/job/95962149099"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32217679240/job/95962149121"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32217679240/job/95962149185"
+      }
+    ]
+  },
+  {
     "commitSha": "17b15961c081ba0abee7a6b93690dd0c1d372854",
     "commitTimestamp": "2026-08-19T04:40:18Z",
     "commitMessage": "fix(core): support dynamic ports in module federation (#8319)",
