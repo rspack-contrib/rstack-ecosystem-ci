@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "8c3c24c4160ec01839fdc798eacb5d8c25282a3a",
+    "commitTimestamp": "2026-08-19T05:24:04Z",
+    "commitMessage": "test(plugin-solid): cover SSR and hydration (#8322)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32219302506",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32219302506/job/95966670307"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32219302506/job/95966670316"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32219302506/job/95966670318"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32219302506/job/95966670333"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32219302506/job/95966670376"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32219302506/job/95966670404"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32219302506/job/95966670414"
+      }
+    ]
+  },
+  {
     "commitSha": "bc367f01ee341db3b82958db98ac7a79f529c4da",
     "commitTimestamp": "2026-08-19T05:14:42Z",
     "commitMessage": "chore(lint): enable no-floating-promises rule (#8321)",
