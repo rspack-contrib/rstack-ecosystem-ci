@@ -6,6 +6,10 @@ export async function test(options: RunOptions) {
     ...options,
     repo: 'rstackjs/rstack-examples',
     branch: 'main',
+    skipPackageOverrides: [
+      // TODO: Remove after @rsbuild/plugin-solid v2 has a stable release.
+      '@rsbuild/plugin-solid',
+    ],
     test: ['build:rsbuild'],
   });
 }

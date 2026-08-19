@@ -452,6 +452,7 @@ export async function runInRepo(options: RunOptions & RepoOptions) {
       await testCommand?.(pkg.scripts);
     }
     const overrides: Overrides = { ...(options.overrides || {}) };
+    const skippedPackageOverrides = new Set(options.skipPackageOverrides);
 
     if (
       activeStack === 'rsbuild' ||
@@ -463,6 +464,9 @@ export async function runInRepo(options: RunOptions & RepoOptions) {
       const packages = await getMonorepoPackages(activeStack);
       if (options.release) {
         for (const pkgInfo of packages) {
+          if (skippedPackageOverrides.has(pkgInfo.name)) {
+            continue;
+          }
           if (
             overrides[pkgInfo.name] &&
             overrides[pkgInfo.name] !== options.release
@@ -475,6 +479,9 @@ export async function runInRepo(options: RunOptions & RepoOptions) {
         }
       } else {
         for (const pkgInfo of packages) {
+          if (skippedPackageOverrides.has(pkgInfo.name)) {
+            continue;
+          }
           overrides[pkgInfo.name] ||= pkgInfo.directory;
         }
       }
@@ -503,6 +510,9 @@ export async function runInRepo(options: RunOptions & RepoOptions) {
       ];
       if (options.release) {
         for (const pkgInfo of packageList) {
+          if (skippedPackageOverrides.has(pkgInfo.name)) {
+            continue;
+          }
           if (
             overrides[pkgInfo.name] &&
             overrides[pkgInfo.name] !== options.release
@@ -516,6 +526,9 @@ export async function runInRepo(options: RunOptions & RepoOptions) {
       } else {
         await patchBindingPackageJson(binding);
         for (const pkgInfo of packageList) {
+          if (skippedPackageOverrides.has(pkgInfo.name)) {
+            continue;
+          }
           overrides[pkgInfo.name] ||= pkgInfo.directory;
         }
       }

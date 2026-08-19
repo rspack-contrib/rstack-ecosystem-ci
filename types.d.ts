@@ -88,6 +88,8 @@ export interface RepoOptions {
   commit?: string;
   shallow?: boolean;
   overrides?: Overrides;
+  /** Package names excluded from automatically generated stack overrides. */
+  skipPackageOverrides?: string[];
 }
 
 export interface Overrides {
