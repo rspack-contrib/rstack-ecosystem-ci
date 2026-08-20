@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "3f7597b1f3b361d4d084eca92c0bacab99cc90bb",
+    "commitTimestamp": "2026-08-20T11:23:13Z",
+    "commitMessage": "revert: enable native watcher by default (#8333)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32363572470",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32363572470/job/96408164240"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32363572470/job/96408164318"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32363572470/job/96408164379"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32363572470/job/96408164425"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32363572470/job/96408164442"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32363572470/job/96408164452"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32363572470/job/96408164589"
+      }
+    ]
+  },
+  {
     "commitSha": "c587dc4c3b1e1ca21d61cf0eb6c6f9bb0f36065b",
     "commitTimestamp": "2026-08-20T06:29:00Z",
     "commitMessage": "fix(core): isolate dynamic ports across restart instances (#8331)",
