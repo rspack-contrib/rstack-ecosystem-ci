@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "3949bfa890e2f884462dc852072a14308ade2673",
+    "commitTimestamp": "2026-08-20T14:07:32Z",
+    "commitMessage": "chore(ci): allow ecosystem CI to update PR comments (#8334)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32378290138",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32378290138/job/96454923776"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32378290138/job/96454923778"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32378290138/job/96454923894"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32378290138/job/96454923899"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32378290138/job/96454923939"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32378290138/job/96454923948"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32378290138/job/96454924163"
+      }
+    ]
+  },
+  {
     "commitSha": "3f7597b1f3b361d4d084eca92c0bacab99cc90bb",
     "commitTimestamp": "2026-08-20T11:23:13Z",
     "commitMessage": "revert: enable native watcher by default (#8333)",
