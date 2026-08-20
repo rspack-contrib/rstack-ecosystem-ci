@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "364a04b9a04484428ba56eb36e45c0728f7505c2",
+    "commitTimestamp": "2026-08-20T08:30:05Z",
+    "commitMessage": "release: 0.11.9 (#1731)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32349144920",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32349144920/job/96364255200"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32349144920/job/96364255239"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32349144920/job/96364255244"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32349144920/job/96364255325"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32349144920/job/96364255327"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32349144920/job/96364255352"
+      }
+    ]
+  },
+  {
     "commitSha": "57556f735df53ce6fccf5f0aa98404a23f26e8c3",
     "commitTimestamp": "2026-08-20T06:41:47Z",
     "commitMessage": "fix: can not rerun all tests when has command filter (#502)",
