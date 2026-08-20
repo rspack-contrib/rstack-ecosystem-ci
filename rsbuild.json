@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "a7569872d2b84399dc18cc7079b67e333993fa08",
+    "commitTimestamp": "2026-08-20T03:52:50Z",
+    "commitMessage": "fix(core): reuse dynamic port after restart (#8330)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32329875782",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32329875782/job/96308347521"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32329875782/job/96308347531"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32329875782/job/96308347537"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32329875782/job/96308347565"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32329875782/job/96308347579"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32329875782/job/96308347581"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32329875782/job/96308347642"
+      }
+    ]
+  },
+  {
     "commitSha": "f4896363d9b001f85760b4d62ff33e636fcb69e0",
     "commitTimestamp": "2026-08-20T02:24:12Z",
     "commitMessage": "test: fix Rstest lint violations (#8329)",
