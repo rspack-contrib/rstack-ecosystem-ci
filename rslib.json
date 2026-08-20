@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "d70f88f1dd9e63e97e60f14d9c9986ede4683385",
+    "commitTimestamp": "2026-08-20T03:51:39Z",
+    "commitMessage": "chore(lint): enable Rstest lint rules (#1858)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32329763452",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32329763452/job/96308047254"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32329763452/job/96308047303"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32329763452/job/96308047310"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32329763452/job/96308047326"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32329763452/job/96308047329"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32329763452/job/96308047356"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32329763452/job/96308047402"
+      }
+    ]
+  },
+  {
     "commitSha": "fe0bb07ebdcd17484c363fdb618625c3a5a2c13a",
     "commitTimestamp": "2026-08-19T10:31:14Z",
     "commitMessage": "chore(deps): upgrade Rslib to 1.0.0-rc.0 (#1859)",
