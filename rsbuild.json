@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "c165817ed56247cc2c5fd83ff537152d8cebc782",
+    "commitTimestamp": "2026-08-20T14:17:46Z",
+    "commitMessage": "perf: enable split chunks by default for Node.js builds (#8332)",
+    "author": {
+      "name": "Cong-Cong Pan",
+      "email": "dacongsama@live.com",
+      "login": "SyMind"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32379386561",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32379386561/job/96458552272"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32379386561/job/96458552312"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32379386561/job/96458552358"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32379386561/job/96458552390"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32379386561/job/96458552396"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32379386561/job/96458552471"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32379386561/job/96458552570"
+      }
+    ]
+  },
+  {
     "commitSha": "3949bfa890e2f884462dc852072a14308ade2673",
     "commitTimestamp": "2026-08-20T14:07:32Z",
     "commitMessage": "chore(ci): allow ecosystem CI to update PR comments (#8334)",
