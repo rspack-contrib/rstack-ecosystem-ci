@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "f32676b4298ec325bb1d7b20d9d6ed8c39196976",
+    "commitTimestamp": "2026-08-20T08:13:38Z",
+    "commitMessage": "fix: keep scheme-less loader requests bundled (#1860)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32347784372",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32347784372/job/96360122477"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32347784372/job/96360122480"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32347784372/job/96360122618"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32347784372/job/96360122629"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32347784372/job/96360122658"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32347784372/job/96360122684"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32347784372/job/96360122748"
+      }
+    ]
+  },
+  {
     "commitSha": "d70f88f1dd9e63e97e60f14d9c9986ede4683385",
     "commitTimestamp": "2026-08-20T03:51:39Z",
     "commitMessage": "chore(lint): enable Rstest lint rules (#1858)",
