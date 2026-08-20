@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "f4896363d9b001f85760b4d62ff33e636fcb69e0",
+    "commitTimestamp": "2026-08-20T02:24:12Z",
+    "commitMessage": "test: fix Rstest lint violations (#8329)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32324524347",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32324524347/job/96292964541"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32324524347/job/96292964576"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32324524347/job/96292964653"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32324524347/job/96292964667"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32324524347/job/96292964697"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32324524347/job/96292964706"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32324524347/job/96292964893"
+      }
+    ]
+  },
+  {
     "commitSha": "d6ed951a68ad777a17c9195b78a672cf63c9b9db",
     "commitTimestamp": "2026-08-19T14:48:22Z",
     "commitMessage": "chore(deps): upgrade Rstack to v0.6.2 (#8328)",
