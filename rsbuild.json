@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "c587dc4c3b1e1ca21d61cf0eb6c6f9bb0f36065b",
+    "commitTimestamp": "2026-08-20T06:29:00Z",
+    "commitMessage": "fix(core): isolate dynamic ports across restart instances (#8331)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32339809709",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32339809709/job/96336456313"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32339809709/job/96336456348"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32339809709/job/96336456420"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32339809709/job/96336456436"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32339809709/job/96336456445"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32339809709/job/96336456493"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32339809709/job/96336456517"
+      }
+    ]
+  },
+  {
     "commitSha": "a7569872d2b84399dc18cc7079b67e333993fa08",
     "commitTimestamp": "2026-08-20T03:52:50Z",
     "commitMessage": "fix(core): reuse dynamic port after restart (#8330)",
