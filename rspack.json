@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "0ff70fe53be12330183e37f1a92446be5f4aef2f",
+    "commitTimestamp": "2026-08-21T05:43:09Z",
+    "commitMessage": "fix(ids): make compare_modules_by_pre_order_index_or_identifier a total order (#15260)",
+    "author": {
+      "name": "noyobo",
+      "email": "noyobo@gmail.com",
+      "login": "noyobo"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32452078350",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32452078350/job/96682378594"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32452078350/job/96682378603"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32452078350/job/96682378605"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32452078350/job/96682378608"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32452078350/job/96682378610"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32452078350/job/96682378617"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32452078350/job/96682378620"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32452078350/job/96682378644"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32452078350/job/96682378649"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32452078350/job/96682378650"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32452078350/job/96682378692"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32452078350/job/96682378698"
+      }
+    ]
+  },
+  {
     "commitSha": "db37426263689fc7838c4cc273499ef2a956a8a6",
     "commitTimestamp": "2026-08-21T05:42:33Z",
     "commitMessage": "perf: use rayon parallel scheduling for new cache db (#15251)",
