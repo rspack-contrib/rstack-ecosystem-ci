@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "c4e94041c71057e8dbd4e1f22b08dcab1684186b",
+    "commitTimestamp": "2026-08-21T07:16:30Z",
+    "commitMessage": "test(e2e): migrate to @rstest/playwright (#3569)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32457939248",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32457939248/job/96698781883"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32457939248/job/96698781907"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32457939248/job/96698781970"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32457939248/job/96698782032"
+      }
+    ]
+  },
+  {
     "commitSha": "baa9bf5cebfb88f09ce00aaf5e33925cbb83af3e",
     "commitTimestamp": "2026-08-20T07:22:38Z",
     "commitMessage": "fix(route/localeRedirect): avoid false redirect-only detection (#3609)",
