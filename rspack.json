@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "db37426263689fc7838c4cc273499ef2a956a8a6",
+    "commitTimestamp": "2026-08-21T05:42:33Z",
+    "commitMessage": "perf: use rayon parallel scheduling for new cache db (#15251)",
+    "author": {
+      "name": "Gengkun",
+      "email": "ahabhgk@gmail.com",
+      "login": "ahabhgk"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32451857292",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32451857292/job/96681735294"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32451857292/job/96681735313"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32451857292/job/96681735332"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32451857292/job/96681735340"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32451857292/job/96681735347"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32451857292/job/96681735352"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32451857292/job/96681735361"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32451857292/job/96681735380"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32451857292/job/96681735388"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32451857292/job/96681735389"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32451857292/job/96681735410"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32451857292/job/96681735741"
+      }
+    ]
+  },
+  {
     "commitSha": "9d174fcfbb2684dcf8ddcb7fa36445e03b10aa25",
     "commitTimestamp": "2026-08-20T14:49:52Z",
     "commitMessage": "ci: make sccache actually cache cargo check and clippy (#15235)",
