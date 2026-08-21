@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "5c9f10d697715ed5407768108fb01b4e8a1babcb",
+    "commitTimestamp": "2026-08-21T09:22:48Z",
+    "commitMessage": "fix(core): load fake timers via createRequire instead of bare require (#1735)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32467625886",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32467625886/job/96727513675"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32467625886/job/96727513876"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32467625886/job/96727513937"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32467625886/job/96727513940"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32467625886/job/96727513979"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32467625886/job/96727514030"
+      }
+    ]
+  },
+  {
     "commitSha": "84427d8f32177a905a05a9c263729a59d950459f",
     "commitTimestamp": "2026-08-21T02:56:21Z",
     "commitMessage": "fix(core): skip suite hooks without runnable tests (#1732)",
