@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "84427d8f32177a905a05a9c263729a59d950459f",
+    "commitTimestamp": "2026-08-21T02:56:21Z",
+    "commitMessage": "fix(core): skip suite hooks without runnable tests (#1732)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32441607362",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32441607362/job/96653271195"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32441607362/job/96653271226"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32441607362/job/96653271245"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32441607362/job/96653271304"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32441607362/job/96653271360"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32441607362/job/96653271415"
+      }
+    ]
+  },
+  {
     "commitSha": "364a04b9a04484428ba56eb36e45c0728f7505c2",
     "commitTimestamp": "2026-08-20T08:30:05Z",
     "commitMessage": "release: 0.11.9 (#1731)",
