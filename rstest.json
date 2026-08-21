@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "8a2dd9d5e1b719155b6577c7e502ba96f9e11328",
+    "commitTimestamp": "2026-08-21T11:02:38Z",
+    "commitMessage": "docs: add Playwright migration agent prompt (#1733)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32475419255",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32475419255/job/96750629256"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32475419255/job/96750629335"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32475419255/job/96750629338"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32475419255/job/96750629431"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32475419255/job/96750629455"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32475419255/job/96750629478"
+      }
+    ]
+  },
+  {
     "commitSha": "5c9f10d697715ed5407768108fb01b4e8a1babcb",
     "commitTimestamp": "2026-08-21T09:22:48Z",
     "commitMessage": "fix(core): load fake timers via createRequire instead of bare require (#1735)",
