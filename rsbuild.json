@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "412a159834e04d448b943512ea6fb31d533fc611",
+    "commitTimestamp": "2026-08-22T08:37:12Z",
+    "commitMessage": "perf(core): optimize resource hint deduplication (#8345)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32562777982",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32562777982/job/97006840292"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32562777982/job/97006840312"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32562777982/job/97006840335"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32562777982/job/97006840359"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32562777982/job/97006840395"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32562777982/job/97006840426"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32562777982/job/97006840485"
+      }
+    ]
+  },
+  {
     "commitSha": "fc57410f1f7276c341b9af80a72abc2190df5c72",
     "commitTimestamp": "2026-08-22T05:35:13Z",
     "commitMessage": "perf(core): speed up runner output file lookups (#8344)",
