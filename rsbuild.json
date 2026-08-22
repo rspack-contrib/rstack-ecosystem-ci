@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "3421cf2a75b11d63c24fc4792b5841c410ec074d",
+    "commitTimestamp": "2026-08-22T01:18:47Z",
+    "commitMessage": "perf(core): optimize manifest entry grouping (#8340)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32543079949",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32543079949/job/96956649330"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32543079949/job/96956649391"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32543079949/job/96956649413"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32543079949/job/96956649460"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32543079949/job/96956649466"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32543079949/job/96956649478"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32543079949/job/96956649528"
+      }
+    ]
+  },
+  {
     "commitSha": "9eab2a49af08c7e38d11917601fce208302fff90",
     "commitTimestamp": "2026-08-22T00:07:16Z",
     "commitMessage": "feat(deps): update @rspack/core to 2.2.0-rc.0 (#8339)",
