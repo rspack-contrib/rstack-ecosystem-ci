@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "9eab2a49af08c7e38d11917601fce208302fff90",
+    "commitTimestamp": "2026-08-22T00:07:16Z",
+    "commitMessage": "feat(deps): update @rspack/core to 2.2.0-rc.0 (#8339)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32539294984",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32539294984/job/96945970494"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32539294984/job/96945970571"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32539294984/job/96945970619"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32539294984/job/96945970620"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32539294984/job/96945970664"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32539294984/job/96945970674"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32539294984/job/96945970700"
+      }
+    ]
+  },
+  {
     "commitSha": "e61a264485adeed626c961b9915ea79c04a0876b",
     "commitTimestamp": "2026-08-21T05:14:18Z",
     "commitMessage": "release: v2.2.0-beta.2 (#8336)",
