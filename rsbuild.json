@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "f1afbf7732683b21efa6d7e10e54ebe7f11ba69b",
+    "commitTimestamp": "2026-08-22T04:05:02Z",
+    "commitMessage": "perf(core): cache loadBundle stats projection (#8343)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32550865237",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32550865237/job/96977247396"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32550865237/job/96977247423"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32550865237/job/96977247427"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32550865237/job/96977247446"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32550865237/job/96977247449"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32550865237/job/96977247458"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32550865237/job/96977247508"
+      }
+    ]
+  },
+  {
     "commitSha": "62472895db5153678d68c05c507a29616e676b09",
     "commitTimestamp": "2026-08-22T01:37:15Z",
     "commitMessage": "perf(core): optimize resource hint file collection (#8342)",
