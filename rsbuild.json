@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "64c8af5b931a14e61aaa3fe8679bf8500de04066",
+    "commitTimestamp": "2026-08-22T09:20:59Z",
+    "commitMessage": "perf(core): optimize manifest HTML file lookup (#8346)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32564720681",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32564720681/job/97011573178"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32564720681/job/97011573233"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32564720681/job/97011573266"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32564720681/job/97011573267"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32564720681/job/97011573279"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32564720681/job/97011573324"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32564720681/job/97011573404"
+      }
+    ]
+  },
+  {
     "commitSha": "412a159834e04d448b943512ea6fb31d533fc611",
     "commitTimestamp": "2026-08-22T08:37:12Z",
     "commitMessage": "perf(core): optimize resource hint deduplication (#8345)",
