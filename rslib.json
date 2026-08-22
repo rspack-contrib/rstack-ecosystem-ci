@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "431665e6aade91ed589a9ebfe31d2f9d8dda6f67",
+    "commitTimestamp": "2026-08-22T03:07:11Z",
+    "commitMessage": "refactor: migrate to Rsbuild splitChunks config (#1863)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32548112830",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32548112830/job/96970171467"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32548112830/job/96970171474"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32548112830/job/96970171477"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32548112830/job/96970171494"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32548112830/job/96970171504"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32548112830/job/96970171523"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32548112830/job/96970171582"
+      }
+    ]
+  },
+  {
     "commitSha": "bdfcaa6dfb05586b5353305de9b4a3d283339828",
     "commitTimestamp": "2026-08-21T03:55:55Z",
     "commitMessage": "feat(create-rslib): use bundleless mode for Svelte templates (#1861)",
