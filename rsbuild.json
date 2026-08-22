@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "fc57410f1f7276c341b9af80a72abc2190df5c72",
+    "commitTimestamp": "2026-08-22T05:35:13Z",
+    "commitMessage": "perf(core): speed up runner output file lookups (#8344)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32554747290",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32554747290/job/96987046654"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32554747290/job/96987046656"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32554747290/job/96987046660"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32554747290/job/96987046677"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32554747290/job/96987046694"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32554747290/job/96987046707"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32554747290/job/96987046726"
+      }
+    ]
+  },
+  {
     "commitSha": "f1afbf7732683b21efa6d7e10e54ebe7f11ba69b",
     "commitTimestamp": "2026-08-22T04:05:02Z",
     "commitMessage": "perf(core): cache loadBundle stats projection (#8343)",
