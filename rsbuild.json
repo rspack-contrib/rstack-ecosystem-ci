@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "62472895db5153678d68c05c507a29616e676b09",
+    "commitTimestamp": "2026-08-22T01:37:15Z",
+    "commitMessage": "perf(core): optimize resource hint file collection (#8342)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32543977749",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32543977749/job/96959101661"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32543977749/job/96959101687"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32543977749/job/96959101731"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32543977749/job/96959101733"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32543977749/job/96959101736"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32543977749/job/96959101814"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32543977749/job/96959101853"
+      }
+    ]
+  },
+  {
     "commitSha": "49183052242ddb9e12f2d18f2eddbb86849f4806",
     "commitTimestamp": "2026-08-22T01:30:05Z",
     "commitMessage": "test: migrate module federation tests to splitChunks (#8341)",
