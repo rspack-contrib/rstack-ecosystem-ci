@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "49183052242ddb9e12f2d18f2eddbb86849f4806",
+    "commitTimestamp": "2026-08-22T01:30:05Z",
+    "commitMessage": "test: migrate module federation tests to splitChunks (#8341)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32543627386",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32543627386/job/96958126801"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32543627386/job/96958126804"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32543627386/job/96958126831"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32543627386/job/96958126840"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32543627386/job/96958126842"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32543627386/job/96958126900"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32543627386/job/96958126908"
+      }
+    ]
+  },
+  {
     "commitSha": "3421cf2a75b11d63c24fc4792b5841c410ec074d",
     "commitTimestamp": "2026-08-22T01:18:47Z",
     "commitMessage": "perf(core): optimize manifest entry grouping (#8340)",
