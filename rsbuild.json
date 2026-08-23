@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "8d473d1a181be840c1286cad98f62500a720044a",
+    "commitTimestamp": "2026-08-23T01:40:47Z",
+    "commitMessage": "perf(core): avoid repeated HTML tag sorting (#8348)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32610960207",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32610960207/job/97123858805"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32610960207/job/97123858855"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32610960207/job/97123858877"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32610960207/job/97123858884"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32610960207/job/97123858892"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32610960207/job/97123858947"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32610960207/job/97123858964"
+      }
+    ]
+  },
+  {
     "commitSha": "64c8af5b931a14e61aaa3fe8679bf8500de04066",
     "commitTimestamp": "2026-08-22T09:20:59Z",
     "commitMessage": "perf(core): optimize manifest HTML file lookup (#8346)",
