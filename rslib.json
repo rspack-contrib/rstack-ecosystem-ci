@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "a5d0e6efe660e660941bf0e8ce53647ec9a89245",
+    "commitTimestamp": "2026-08-24T03:37:58Z",
+    "commitMessage": "feat(deps): upgrade Rsbuild to 2.2.0-beta.2 (#1865)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32687767825",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32687767825/job/97315851210"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32687767825/job/97315851244"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32687767825/job/97315851260"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32687767825/job/97315851263"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32687767825/job/97315851297"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32687767825/job/97315851299"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32687767825/job/97315851373"
+      }
+    ]
+  },
+  {
     "commitSha": "431665e6aade91ed589a9ebfe31d2f9d8dda6f67",
     "commitTimestamp": "2026-08-22T03:07:11Z",
     "commitMessage": "refactor: migrate to Rsbuild splitChunks config (#1863)",
