@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "bc19fd5e6ffefe8f5638dcdc5dc15a29025cf3c3",
+    "commitTimestamp": "2026-08-24T04:04:00Z",
+    "commitMessage": "feat(create-rsbuild): add Octane templates (#8349)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32688731247",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32688731247/job/97318434065"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32688731247/job/97318434071"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32688731247/job/97318434153"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32688731247/job/97318434183"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32688731247/job/97318434186"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32688731247/job/97318434206"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32688731247/job/97318434360"
+      }
+    ]
+  },
+  {
     "commitSha": "8fdcef583d8bba6301bbe9b8bdd5094cbc91ced6",
     "commitTimestamp": "2026-08-24T02:31:39Z",
     "commitMessage": "chore(deps): update sass to ^1.103.1 (#8351)",
