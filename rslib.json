@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "d6b28b9aee4f9c5dea49a0bcecc787f64cb2fffd",
+    "commitTimestamp": "2026-08-24T11:42:24Z",
+    "commitMessage": "release: v1.0.0-rc.1 (#1869)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32723246107",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32723246107/job/97418957848"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32723246107/job/97418957872"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32723246107/job/97418957878"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32723246107/job/97418957965"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32723246107/job/97418957973"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32723246107/job/97418957992"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32723246107/job/97418958017"
+      }
+    ]
+  },
+  {
     "commitSha": "340f2078060f140a16e90c914a364339121d4f8a",
     "commitTimestamp": "2026-08-24T11:30:44Z",
     "commitMessage": "feat(deps): upgrade Rsbuild to 2.2.0-rc.0 (#1868)",
