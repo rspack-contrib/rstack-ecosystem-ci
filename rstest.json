@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a62d361f00143ebec7c208c49b82e58f28ea9fd8",
+    "commitTimestamp": "2026-08-24T07:15:29Z",
+    "commitMessage": "chore(deps): upgrade rsbuild and rspack to 2.2 pre-releases (#1737)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32700799901",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32700799901/job/97351713070"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32700799901/job/97351713142"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32700799901/job/97351713159"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32700799901/job/97351713178"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32700799901/job/97351713191"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32700799901/job/97351713223"
+      }
+    ]
+  },
+  {
     "commitSha": "4a783af734f940f3a6a85e71d11a88685dc71626",
     "commitTimestamp": "2026-08-24T06:06:44Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1736)",
