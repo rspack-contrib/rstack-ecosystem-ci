@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "8fdcef583d8bba6301bbe9b8bdd5094cbc91ced6",
+    "commitTimestamp": "2026-08-24T02:31:39Z",
+    "commitMessage": "chore(deps): update sass to ^1.103.1 (#8351)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683368827",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683368827/job/97303851881"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683368827/job/97303852007"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683368827/job/97303852023"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683368827/job/97303852058"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683368827/job/97303852081"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683368827/job/97303852090"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683368827/job/97303852119"
+      }
+    ]
+  },
+  {
     "commitSha": "e5c178b2a6bbfd1c8e2bf333f593512c11fd41e7",
     "commitTimestamp": "2026-08-24T02:21:56Z",
     "commitMessage": "fix(deps): update all patch dependencies (#8350)",
