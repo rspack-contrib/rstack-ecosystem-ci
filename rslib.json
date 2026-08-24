@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "af41f2ed7523e2c5130084d80cc058994a628049",
+    "commitTimestamp": "2026-08-24T12:04:53Z",
+    "commitMessage": "chore(deps): upgrade Rslib to 1.0.0-rc.1 (#1870)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32725202026",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32725202026/job/97424802440"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32725202026/job/97424802468"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32725202026/job/97424802538"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32725202026/job/97424802542"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32725202026/job/97424802561"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32725202026/job/97424802586"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32725202026/job/97424802643"
+      }
+    ]
+  },
+  {
     "commitSha": "d6b28b9aee4f9c5dea49a0bcecc787f64cb2fffd",
     "commitTimestamp": "2026-08-24T11:42:24Z",
     "commitMessage": "release: v1.0.0-rc.1 (#1869)",
