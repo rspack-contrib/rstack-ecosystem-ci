@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4a783af734f940f3a6a85e71d11a88685dc71626",
+    "commitTimestamp": "2026-08-24T06:06:44Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#1736)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32695985902",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32695985902/job/97338020581"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32695985902/job/97338020705"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32695985902/job/97338020715"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32695985902/job/97338020791"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32695985902/job/97338020801"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32695985902/job/97338020864"
+      }
+    ]
+  },
+  {
     "commitSha": "8a2dd9d5e1b719155b6577c7e502ba96f9e11328",
     "commitTimestamp": "2026-08-21T11:02:38Z",
     "commitMessage": "docs: add Playwright migration agent prompt (#1733)",
