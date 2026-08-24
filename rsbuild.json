@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "b212dcea206a7a08bf1f6d8c0f6f25f53581c9d6",
+    "commitTimestamp": "2026-08-24T08:21:14Z",
+    "commitMessage": "release: v2.2.0-rc.0 (#8356)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32705904906",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32705904906/job/97366857070"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32705904906/job/97366857073"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32705904906/job/97366857079"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32705904906/job/97366857095"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32705904906/job/97366857113"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32705904906/job/97366857155"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32705904906/job/97366857185"
+      }
+    ]
+  },
+  {
     "commitSha": "2bcf61c67072537c68f93d6700d7ac20a0f3f8f5",
     "commitTimestamp": "2026-08-24T05:40:52Z",
     "commitMessage": "docs(create-rsbuild): add template examples and update Solid labels (#8353)",
