@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "2bcf61c67072537c68f93d6700d7ac20a0f3f8f5",
+    "commitTimestamp": "2026-08-24T05:40:52Z",
+    "commitMessage": "docs(create-rsbuild): add template examples and update Solid labels (#8353)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32694410619",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32694410619/job/97333753479"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32694410619/job/97333753495"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32694410619/job/97333753521"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32694410619/job/97333753570"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32694410619/job/97333754667"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32694410619/job/97333755272"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32694410619/job/97333755977"
+      }
+    ]
+  },
+  {
     "commitSha": "52f873100e9600351d60ec5838e3a204566821bf",
     "commitTimestamp": "2026-08-24T05:15:44Z",
     "commitMessage": "docs: add Octane to quick start (#8352)",
