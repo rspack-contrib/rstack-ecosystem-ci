@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "e5c178b2a6bbfd1c8e2bf333f593512c11fd41e7",
+    "commitTimestamp": "2026-08-24T02:21:56Z",
+    "commitMessage": "fix(deps): update all patch dependencies (#8350)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32682836276",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32682836276/job/97302376173"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32682836276/job/97302376201"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32682836276/job/97302376209"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32682836276/job/97302376226"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32682836276/job/97302376228"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32682836276/job/97302376263"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32682836276/job/97302376287"
+      }
+    ]
+  },
+  {
     "commitSha": "8d473d1a181be840c1286cad98f62500a720044a",
     "commitTimestamp": "2026-08-23T01:40:47Z",
     "commitMessage": "perf(core): avoid repeated HTML tag sorting (#8348)",
