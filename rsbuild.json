@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "c87d9671bcca220d26642ebed538e111649ddcbd",
+    "commitTimestamp": "2026-08-24T10:53:39Z",
+    "commitMessage": "perf(core): reduce plugin dependency sorting scans (#8359)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32719088086",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32719088086/job/97406484060"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32719088086/job/97406484109"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32719088086/job/97406484151"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32719088086/job/97406484179"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32719088086/job/97406484185"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32719088086/job/97406484232"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32719088086/job/97406484283"
+      }
+    ]
+  },
+  {
     "commitSha": "24171ff78c2efb85891c293979040d5ba5c22369",
     "commitTimestamp": "2026-08-24T09:11:04Z",
     "commitMessage": "docs: remove outdated CodeSandbox links (#8357)",
