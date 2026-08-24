@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "9f0609b0213c56f2bb93174473e30beb2019596b",
+    "commitTimestamp": "2026-08-24T07:00:02Z",
+    "commitMessage": "test: clarify E2E and unit test titles (#3610)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32699635128",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32699635128/job/97348384190"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32699635128/job/97348384225"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32699635128/job/97348384257"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32699635128/job/97348384281"
+      }
+    ]
+  },
+  {
     "commitSha": "8e2e700aa3749237c8bdd11bb660b5e91cde88ff",
     "commitTimestamp": "2026-08-24T06:55:27Z",
     "commitMessage": "chore(deps): update dev-tools (#3614)",
