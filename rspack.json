@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "e73c4eb60ba8e4b7b06698e1cf96dd60de22ce9a",
+    "commitTimestamp": "2026-08-24T02:29:35Z",
+    "commitMessage": "fix: include factory-created server actions in RSC metadata (#15298)",
+    "author": {
+      "name": "Nikhil S",
+      "email": "nikhilsnayak3473@gmail.com",
+      "login": "nikhilsnayak"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683446911",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683446911/job/97304221521"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683446911/job/97304221534"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683446911/job/97304221550"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683446911/job/97304221560"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683446911/job/97304221563"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683446911/job/97304221568"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683446911/job/97304221571"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683446911/job/97304221599"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683446911/job/97304221600"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683446911/job/97304221607"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683446911/job/97304221614"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683446911/job/97304221672"
+      }
+    ]
+  },
+  {
     "commitSha": "2fe6045903335efda6fefb97a1310706bd19131d",
     "commitTimestamp": "2026-08-24T02:26:27Z",
     "commitMessage": "perf(core): skip the directory walk for glob patterns without metacharacters (#15297)",
