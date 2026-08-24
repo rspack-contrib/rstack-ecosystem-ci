@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "2290e78f299b8d9f7b2950a43c15cfe5d346663b",
+    "commitTimestamp": "2026-08-24T02:59:27Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#3611)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32684901029",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32684901029/job/97308103524"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32684901029/job/97308103566"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32684901029/job/97308103570"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32684901029/job/97308103614"
+      }
+    ]
+  },
+  {
     "commitSha": "c4e94041c71057e8dbd4e1f22b08dcab1684186b",
     "commitTimestamp": "2026-08-21T07:16:30Z",
     "commitMessage": "test(e2e): migrate to @rstest/playwright (#3569)",
