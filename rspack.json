@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "2fe6045903335efda6fefb97a1310706bd19131d",
+    "commitTimestamp": "2026-08-24T02:26:27Z",
+    "commitMessage": "perf(core): skip the directory walk for glob patterns without metacharacters (#15297)",
+    "author": {
+      "name": "Lazizbek Ergashev",
+      "email": "lazerg2@gmail.com",
+      "login": "lazerg"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683390304",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683390304/job/97303971301"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683390304/job/97303971320"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683390304/job/97303971321"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683390304/job/97303971325"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683390304/job/97303971351"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683390304/job/97303971358"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683390304/job/97303971363"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683390304/job/97303971365"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683390304/job/97303971380"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683390304/job/97303971400"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683390304/job/97303971415"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32683390304/job/97303971447"
+      }
+    ]
+  },
+  {
     "commitSha": "ddaed17f3948dac3e89b367afc2b385ea9b00d83",
     "commitTimestamp": "2026-08-23T02:35:16Z",
     "commitMessage": "test(copy-plugin): cover brace expansion in glob patterns (#15279)",
