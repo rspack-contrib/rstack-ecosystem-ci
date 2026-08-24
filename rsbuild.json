@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "52f873100e9600351d60ec5838e3a204566821bf",
+    "commitTimestamp": "2026-08-24T05:15:44Z",
+    "commitMessage": "docs: add Octane to quick start (#8352)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32692907067",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32692907067/job/97329664483"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32692907067/job/97329664519"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32692907067/job/97329664559"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32692907067/job/97329664583"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32692907067/job/97329664619"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32692907067/job/97329664638"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32692907067/job/97329664668"
+      }
+    ]
+  },
+  {
     "commitSha": "bc19fd5e6ffefe8f5638dcdc5dc15a29025cf3c3",
     "commitTimestamp": "2026-08-24T04:04:00Z",
     "commitMessage": "feat(create-rsbuild): add Octane templates (#8349)",
