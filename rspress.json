@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "61a6e5c21abed4dffbea4959619e760587c24b3d",
+    "commitTimestamp": "2026-08-25T06:17:08Z",
+    "commitMessage": "fix(core): normalize persistent cache build dependency path (#3625)",
+    "author": {
+      "name": "hardfist",
+      "email": "yangjianzju@gmail.com",
+      "login": "hardfist"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32816401036",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32816401036/job/97705465835"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32816401036/job/97705465863"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32816401036/job/97705465925"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32816401036/job/97705465944"
+      }
+    ]
+  },
+  {
     "commitSha": "fbd903ae5fdfaf19f4a2c814dc5a85adb9d91ac4",
     "commitTimestamp": "2026-08-24T09:35:26Z",
     "commitMessage": "docs: remove outdated CodeSandbox links (#3616)",
