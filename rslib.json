@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "fc0d368cfcf24627a4930b18f2daa81437b11a30",
+    "commitTimestamp": "2026-08-25T03:40:04Z",
+    "commitMessage": "docs: fix outdated external links (#1874)",
+    "author": {
+      "name": "Wu Shuwen",
+      "email": "mikewushuwen@outlook.com",
+      "login": "dajiaohuang"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32806236646",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32806236646/job/97676783587"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32806236646/job/97676783656"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32806236646/job/97676783665"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32806236646/job/97676783668"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32806236646/job/97676783674"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32806236646/job/97676783678"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32806236646/job/97676783705"
+      }
+    ]
+  },
+  {
     "commitSha": "af41f2ed7523e2c5130084d80cc058994a628049",
     "commitTimestamp": "2026-08-24T12:04:53Z",
     "commitMessage": "chore(deps): upgrade Rslib to 1.0.0-rc.1 (#1870)",
