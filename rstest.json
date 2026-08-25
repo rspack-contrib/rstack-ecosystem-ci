@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7dade4fe93df51c10ad62bad560ee359cc2cc3e0",
+    "commitTimestamp": "2026-08-25T07:02:39Z",
+    "commitMessage": "chore(deps): upgrade Module Federation packages to 2.9.0 (#1739)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32819707638",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32819707638/job/97715081355"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32819707638/job/97715081475"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32819707638/job/97715081492"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32819707638/job/97715081596"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32819707638/job/97715081736"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32819707638/job/97715081760"
+      }
+    ]
+  },
+  {
     "commitSha": "11324d378a53d29b44157bc5ce09a52e73bfcb1d",
     "commitTimestamp": "2026-08-25T06:30:09Z",
     "commitMessage": "fix(core): expose Rstest API during browser global setup (#1741)",
