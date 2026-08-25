@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "10985250a1b7c725ac87cf7437ebef958ac283b1",
+    "commitTimestamp": "2026-08-25T03:38:23Z",
+    "commitMessage": "perf: set splitChunks minSize to 0 for Node.js builds (#8363)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32805967682",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32805967682/job/97676024611"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32805967682/job/97676024660"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32805967682/job/97676024682"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32805967682/job/97676024690"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32805967682/job/97676024693"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32805967682/job/97676024712"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32805967682/job/97676024721"
+      }
+    ]
+  },
+  {
     "commitSha": "420261f12fb5d3103aaa6c0b4759d0b7bccc56c9",
     "commitTimestamp": "2026-08-25T02:54:41Z",
     "commitMessage": "fix(core): use output.target to decide HMR client injection (#8337)",
