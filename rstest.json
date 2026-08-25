@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "11324d378a53d29b44157bc5ce09a52e73bfcb1d",
+    "commitTimestamp": "2026-08-25T06:30:09Z",
+    "commitMessage": "fix(core): expose Rstest API during browser global setup (#1741)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32817270448",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32817270448/job/97707986107"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32817270448/job/97707986161"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32817270448/job/97707986200"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32817270448/job/97707986216"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32817270448/job/97707986218"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32817270448/job/97707986301"
+      }
+    ]
+  },
+  {
     "commitSha": "2f34b10aa496ce06f3f780df926e179650126c4a",
     "commitTimestamp": "2026-08-25T06:07:19Z",
     "commitMessage": "fix(playwright): avoid zero-timeout assertion retries (#1740)",
