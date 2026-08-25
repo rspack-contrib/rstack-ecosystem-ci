@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "91c02881295c5cf0cc76951f3f9ad408c089afb7",
+    "commitTimestamp": "2026-08-25T08:19:54Z",
+    "commitMessage": "chore(deps): upgrade Rstack CLI to v0.6.4 (#8373)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32826501961",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32826501961/job/97735580506"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32826501961/job/97735580552"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32826501961/job/97735580702"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32826501961/job/97735580705"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32826501961/job/97735580730"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32826501961/job/97735580741"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32826501961/job/97735580745"
+      }
+    ]
+  },
+  {
     "commitSha": "2f2a3b0b62d2600a0a29d4dec45425b43686c049",
     "commitTimestamp": "2026-08-25T08:09:44Z",
     "commitMessage": "feat(plugin-solid)!: drop Rsbuild v1 support (#8372)",
