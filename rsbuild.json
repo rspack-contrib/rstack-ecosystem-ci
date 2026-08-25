@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "31a6ce239e038172d61d6fcd513ed9e91d294750",
+    "commitTimestamp": "2026-08-25T03:47:38Z",
+    "commitMessage": "fix(core): refine HMR client target detection (#8364)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32807022215",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32807022215/job/97679016363"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32807022215/job/97679016374"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32807022215/job/97679016378"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32807022215/job/97679016380"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32807022215/job/97679016454"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32807022215/job/97679016512"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32807022215/job/97679016564"
+      }
+    ]
+  },
+  {
     "commitSha": "10985250a1b7c725ac87cf7437ebef958ac283b1",
     "commitTimestamp": "2026-08-25T03:38:23Z",
     "commitMessage": "perf: set splitChunks minSize to 0 for Node.js builds (#8363)",
