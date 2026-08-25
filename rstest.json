@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2f34b10aa496ce06f3f780df926e179650126c4a",
+    "commitTimestamp": "2026-08-25T06:07:19Z",
+    "commitMessage": "fix(playwright): avoid zero-timeout assertion retries (#1740)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32815615920",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32815615920/job/97703143114"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32815615920/job/97703143159"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32815615920/job/97703143178"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32815615920/job/97703143204"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32815615920/job/97703143229"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32815615920/job/97703143239"
+      }
+    ]
+  },
+  {
     "commitSha": "a62d361f00143ebec7c208c49b82e58f28ea9fd8",
     "commitTimestamp": "2026-08-24T07:15:29Z",
     "commitMessage": "chore(deps): upgrade rsbuild and rspack to 2.2 pre-releases (#1737)",
