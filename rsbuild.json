@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "420261f12fb5d3103aaa6c0b4759d0b7bccc56c9",
+    "commitTimestamp": "2026-08-25T02:54:41Z",
+    "commitMessage": "fix(core): use output.target to decide HMR client injection (#8337)",
+    "author": {
+      "name": "Ramon Villain",
+      "email": "ramon.villain@gmail.com",
+      "login": "ramon-villain"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32803196775",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32803196775/job/97668068724"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32803196775/job/97668068760"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32803196775/job/97668068761"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32803196775/job/97668068812"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32803196775/job/97668068834"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32803196775/job/97668068845"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32803196775/job/97668068918"
+      }
+    ]
+  },
+  {
     "commitSha": "5af306395581fe673c0a5260683c500e8b55966b",
     "commitTimestamp": "2026-08-24T11:10:26Z",
     "commitMessage": "perf(core): avoid recreating asset stat helper (#8360)",
