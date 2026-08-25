@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "d1e99dcdde6df1ca6adaceabea595ef91d5a07fa",
+    "commitTimestamp": "2026-08-25T06:34:02Z",
+    "commitMessage": "chore(create-rsbuild): remove Babel from Solid 2 templates (#8367)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32817599958",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32817599958/job/97708932781"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32817599958/job/97708932803"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32817599958/job/97708932811"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32817599958/job/97708932840"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32817599958/job/97708932849"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32817599958/job/97708932868"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32817599958/job/97708932906"
+      }
+    ]
+  },
+  {
     "commitSha": "d9acb280fbde9860efe8ea858753d6dc3010c453",
     "commitTimestamp": "2026-08-25T06:08:36Z",
     "commitMessage": "fix(core): use async chunks for single-entry Node.js builds (#8365)",
