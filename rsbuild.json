@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "d9acb280fbde9860efe8ea858753d6dc3010c453",
+    "commitTimestamp": "2026-08-25T06:08:36Z",
+    "commitMessage": "fix(core): use async chunks for single-entry Node.js builds (#8365)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32815703768",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32815703768/job/97703402647"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32815703768/job/97703402820"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32815703768/job/97703402922"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32815703768/job/97703402936"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32815703768/job/97703402943"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32815703768/job/97703402947"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32815703768/job/97703402948"
+      }
+    ]
+  },
+  {
     "commitSha": "ca3a41e1212925cc2f52efe7151eb67da9cf9ea3",
     "commitTimestamp": "2026-08-25T06:05:51Z",
     "commitMessage": "chore(examples): remove Babel from Solid example (#8366)",
