@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "2eb2ff1439a3664f15b9524db58a4b51d23b72b2",
+    "commitTimestamp": "2026-08-25T07:18:18Z",
+    "commitMessage": "fix(plugin-solid): parse TypeScript correctly with Babel (#8368)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32820960379",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32820960379/job/97718770094"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32820960379/job/97718770163"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32820960379/job/97718770186"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32820960379/job/97718770200"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32820960379/job/97718770217"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32820960379/job/97718770228"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32820960379/job/97718770276"
+      }
+    ]
+  },
+  {
     "commitSha": "d1e99dcdde6df1ca6adaceabea595ef91d5a07fa",
     "commitTimestamp": "2026-08-25T06:34:02Z",
     "commitMessage": "chore(create-rsbuild): remove Babel from Solid 2 templates (#8367)",
