@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "755e8dc07e9873a115da33754ece3f5ea1dd4d5d",
+    "commitTimestamp": "2026-08-26T09:50:49Z",
+    "commitMessage": "feat(wasm): align wasmStreamingFallback with webpack (#15334)",
+    "author": {
+      "name": "碳苯 Carbon",
+      "email": "carbon1024@foxmail.com",
+      "login": "CoderSerio"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32958009007",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32958009007/job/98143985477"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32958009007/job/98143985489"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32958009007/job/98143985495"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32958009007/job/98143985498"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32958009007/job/98143985500"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32958009007/job/98143985510"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32958009007/job/98143985533"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32958009007/job/98143985537"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32958009007/job/98143985541"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32958009007/job/98143985547"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32958009007/job/98143985591"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32958009007/job/98143985642"
+      }
+    ]
+  },
+  {
     "commitSha": "a8c54c66cd8614eea779f00f8a36c0828d04e088",
     "commitTimestamp": "2026-08-26T09:29:06Z",
     "commitMessage": "fix(cache): clear stale issuer updates between rebuilds (#15276)",
