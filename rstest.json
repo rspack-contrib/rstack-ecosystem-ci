@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2dc052b014eac2955cef29cce571ac38b0d08fd1",
+    "commitTimestamp": "2026-08-26T06:28:32Z",
+    "commitMessage": "release: 0.11.10 (#1744)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32938331219",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32938331219/job/98083946290"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32938331219/job/98083946294"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32938331219/job/98083946339"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32938331219/job/98083946429"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32938331219/job/98083946441"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32938331219/job/98083946470"
+      }
+    ]
+  },
+  {
     "commitSha": "d3f5c50e23078ca58b5279d8accd21fd9e31b6a8",
     "commitTimestamp": "2026-08-26T05:06:58Z",
     "commitMessage": "chore(deps): upgrade rsbuild and rspack to 2.2.0 (#1743)",
