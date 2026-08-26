@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "422ef3b2b21e1a853d5a1f46ef8d68067439d5db",
+    "commitTimestamp": "2026-08-26T13:49:36Z",
+    "commitMessage": "fix(core): bound concurrent asset writes during emit (#15342)",
+    "author": {
+      "name": "Lazizbek Ergashev",
+      "email": "lazerg2@gmail.com",
+      "login": "lazerg"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32977456690",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32977456690/job/98205702964"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32977456690/job/98205703026"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32977456690/job/98205703049"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32977456690/job/98205703064"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32977456690/job/98205703084"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32977456690/job/98205703085"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32977456690/job/98205703117"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32977456690/job/98205703175"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32977456690/job/98205703196"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32977456690/job/98205703218"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32977456690/job/98205703246"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32977456690/job/98205703654"
+      }
+    ]
+  },
+  {
     "commitSha": "ccd6767e1d90bd0ebaf6a1b1faaa74ee66e7c3af",
     "commitTimestamp": "2026-08-26T10:07:20Z",
     "commitMessage": "fix(css): exclude asset output path from URLs (#15315)",
