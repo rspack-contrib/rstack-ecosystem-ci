@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "1d222d096b81a6c011c552c769d206a6997fddeb",
+    "commitTimestamp": "2026-08-26T03:55:58Z",
+    "commitMessage": "feat(deps): upgrade Rsbuild to 2.2.0 (#1875)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32928349331",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32928349331/job/98055639994"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32928349331/job/98055639995"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32928349331/job/98055640012"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32928349331/job/98055640041"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32928349331/job/98055640060"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32928349331/job/98055640069"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32928349331/job/98055640091"
+      }
+    ]
+  },
+  {
     "commitSha": "c23dc69e8e363a22b7900218a8c4288db573b1a0",
     "commitTimestamp": "2026-08-25T03:46:22Z",
     "commitMessage": "fix(core): avoid extracting unused Node archive files (#1872)",
