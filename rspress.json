@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "1345b2dd9e807690ac92d87d4d726d1e44e75d82",
+    "commitTimestamp": "2026-08-26T09:26:05Z",
+    "commitMessage": "fix(theme): keep all surfaces in sync when switching appearance (#3628)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32953662747",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32953662747/job/98130494940"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32953662747/job/98130494988"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32953662747/job/98130494991"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/32953662747/job/98130495040"
+      }
+    ]
+  },
+  {
     "commitSha": "2d41376fce0c078282952e5e37271a6ed056237b",
     "commitTimestamp": "2026-08-25T10:45:49Z",
     "commitMessage": "fix(theme/Link): stabilize anchor scrolling after navigation (#3627)",
