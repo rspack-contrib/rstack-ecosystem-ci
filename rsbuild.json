@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "7e590e200d3e71767e09a6162154f8534f0e9d1d",
+    "commitTimestamp": "2026-08-27T12:31:17Z",
+    "commitMessage": "fix(core): avoid hanging requests after fatal watch errors (#8361)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33072277735",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33072277735/job/98517316824"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33072277735/job/98517316826"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33072277735/job/98517316855"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33072277735/job/98517316860"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33072277735/job/98517316866"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33072277735/job/98517316885"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33072277735/job/98517316917"
+      }
+    ]
+  },
+  {
     "commitSha": "bcafd6bfa542fdba298377f143dad9970f64d8b1",
     "commitTimestamp": "2026-08-27T03:17:32Z",
     "commitMessage": "chore(deps): update actions/stale action to v11 (#8384)",
