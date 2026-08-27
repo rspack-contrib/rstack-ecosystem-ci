@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "988f8e1dd7555e04bc88caa5ff6e937cbf2e839e",
+    "commitTimestamp": "2026-08-27T02:54:37Z",
+    "commitMessage": "fix(vscode): generate current license file (#1746)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33034749913",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33034749913/job/98394932038"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33034749913/job/98394932042"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33034749913/job/98394932050"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33034749913/job/98394932077"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33034749913/job/98394932099"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33034749913/job/98394932149"
+      }
+    ]
+  },
+  {
     "commitSha": "085b1ac3472ac23193f2767081551bd8a3d71037",
     "commitTimestamp": "2026-08-27T00:02:38Z",
     "commitMessage": "chore(deps): migrate to @rstackjs/doc-ui v1.14.9 (#1748)",
