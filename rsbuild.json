@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "cc6d4ed499acf7149a0c04ba6c9a129ecc24ad8c",
+    "commitTimestamp": "2026-08-27T13:19:40Z",
+    "commitMessage": "fix(plugin-solid): support JSX in JavaScript data URIs (#8386)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33076277066",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33076277066/job/98531185064"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33076277066/job/98531185095"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33076277066/job/98531185102"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33076277066/job/98531185110"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33076277066/job/98531185134"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33076277066/job/98531185169"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33076277066/job/98531185348"
+      }
+    ]
+  },
+  {
     "commitSha": "f936a2fe911e8c11dac530070f0c579778005348",
     "commitTimestamp": "2026-08-27T12:39:23Z",
     "commitMessage": "feat(deps): update @rspack/core to 2.2.1 (#8385)",
