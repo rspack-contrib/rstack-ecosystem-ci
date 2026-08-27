@@ -25,6 +25,8 @@ jobs:
             os: ubuntu-latest
           - suite: examples
             os: ubuntu-latest
+          - suite: rstack-cli
+            os: ubuntu-latest
           - suite: lynx-stack
             os: ubuntu-latest
       fail-fast: false
@@ -58,6 +60,8 @@ jobs:
           - suite: rsdoctor
             os: ubuntu-latest
           - suite: modernjs
+            os: ubuntu-latest
+          - suite: rstack-cli
             os: ubuntu-latest
           - suite: lynx-stack
             os: ubuntu-latest
@@ -95,6 +99,8 @@ jobs:
           - suite: examples
             os: ubuntu-latest
           - suite: modernjs
+            os: ubuntu-latest
+          - suite: rstack-cli
             os: ubuntu-latest
       fail-fast: false
     runs-on: ${{ matrix.os }}
