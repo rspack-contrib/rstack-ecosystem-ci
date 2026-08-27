@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "fcdc78f0fc59395802750ae0b13de1466b41ec17",
+    "commitTimestamp": "2026-08-27T08:53:55Z",
+    "commitMessage": "fix(theme): limit link hover opacity to callouts (#3632)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33056269086",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33056269086/job/98463725916"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33056269086/job/98463726040"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33056269086/job/98463726071"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33056269086/job/98463726093"
+      }
+    ]
+  },
+  {
     "commitSha": "22860763de7ba28de1a86fd39a5e9d543512fac0",
     "commitTimestamp": "2026-08-27T07:41:38Z",
     "commitMessage": "fix(theme/Banner): support SSR and prevent flash before hydration (#3630)",
