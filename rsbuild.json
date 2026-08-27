@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "f936a2fe911e8c11dac530070f0c579778005348",
+    "commitTimestamp": "2026-08-27T12:39:23Z",
+    "commitMessage": "feat(deps): update @rspack/core to 2.2.1 (#8385)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33072937204",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33072937204/job/98519603276"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33072937204/job/98519603342"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33072937204/job/98519603371"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33072937204/job/98519603385"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33072937204/job/98519603410"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33072937204/job/98519603451"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33072937204/job/98519603454"
+      }
+    ]
+  },
+  {
     "commitSha": "7e590e200d3e71767e09a6162154f8534f0e9d1d",
     "commitTimestamp": "2026-08-27T12:31:17Z",
     "commitMessage": "fix(core): avoid hanging requests after fatal watch errors (#8361)",
