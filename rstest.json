@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "73ffb2fe110ef6394e5ef1d26b7502c412f882ed",
+    "commitTimestamp": "2026-08-27T06:14:37Z",
+    "commitMessage": "fix(core): bridge AbortSignal for jsdom event listeners (#1745)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33045183182",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33045183182/job/98427426431"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33045183182/job/98427426441"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33045183182/job/98427426511"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33045183182/job/98427426519"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33045183182/job/98427426551"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33045183182/job/98427426565"
+      }
+    ]
+  },
+  {
     "commitSha": "988f8e1dd7555e04bc88caa5ff6e937cbf2e839e",
     "commitTimestamp": "2026-08-27T02:54:37Z",
     "commitMessage": "fix(vscode): generate current license file (#1746)",
