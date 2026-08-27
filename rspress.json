@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "22860763de7ba28de1a86fd39a5e9d543512fac0",
+    "commitTimestamp": "2026-08-27T07:41:38Z",
+    "commitMessage": "fix(theme/Banner): support SSR and prevent flash before hydration (#3630)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33050833692",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33050833692/job/98445658289"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33050833692/job/98445658300"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33050833692/job/98445658411"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33050833692/job/98445658443"
+      }
+    ]
+  },
+  {
     "commitSha": "ce245033e8404df79ffa805f35e3b24defbe81e5",
     "commitTimestamp": "2026-08-27T06:50:58Z",
     "commitMessage": "fix(theme): replace `border-bottom` link underlines with `text-decoration` (#3631)",
