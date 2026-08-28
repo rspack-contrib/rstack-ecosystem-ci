@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "74d562a6e98c75a72fe526385789b44174795f5a",
+    "commitTimestamp": "2026-08-28T06:03:41Z",
+    "commitMessage": "fix(adapter-rslib): remove build-only plugins from tests (#1753)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33146689388",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33146689388/job/98769191180"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33146689388/job/98769191184"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33146689388/job/98769191211"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33146689388/job/98769191212"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33146689388/job/98769191222"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33146689388/job/98769191241"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33146689388/job/98769191697"
+      }
+    ]
+  },
+  {
     "commitSha": "bac79487278f98c0e10ee7a7aedffe922f1babd2",
     "commitTimestamp": "2026-08-27T09:54:50Z",
     "commitMessage": "fix(core): remove webpack dependency from license plugin (#1749)",
