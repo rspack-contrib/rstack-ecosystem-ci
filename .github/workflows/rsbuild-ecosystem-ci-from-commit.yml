@@ -30,6 +30,7 @@ on:
           - plugins
           - modernjs
           - examples
+          - rstack-cli
           - lynx-stack
       suiteRefType:
         description: 'type of suite ref to use'
@@ -103,6 +104,8 @@ jobs:
           - suite: modernjs
             os: ubuntu-latest
           - suite: examples
+            os: ubuntu-latest
+          - suite: rstack-cli
             os: ubuntu-latest
           - suite: lynx-stack
             os: ubuntu-latest

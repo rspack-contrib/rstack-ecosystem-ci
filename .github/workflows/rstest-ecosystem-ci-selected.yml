@@ -42,6 +42,7 @@ on:
           - rsdoctor
           - modernjs
           - examples
+          - rstack-cli
       suiteRefType:
         description: 'type of suite ref to use'
         required: true
@@ -111,6 +112,8 @@ jobs:
           - suite: modernjs
             os: ubuntu-latest
           - suite: examples
+            os: ubuntu-latest
+          - suite: rstack-cli
             os: ubuntu-latest
       fail-fast: false
     runs-on: ${{ matrix.os }}

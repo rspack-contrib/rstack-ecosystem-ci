@@ -28,6 +28,7 @@ on:
           - rslib
           - rspack
           - rstest
+          - rstack-cli
       suiteRefType:
         description: 'type of suite ref to use'
         required: true
@@ -99,6 +100,8 @@ jobs:
           - suite: rspack
             os: ubuntu-latest
           - suite: rstest
+            os: ubuntu-latest
+          - suite: rstack-cli
             os: ubuntu-latest
       fail-fast: false
     runs-on: ${{ matrix.os }}
