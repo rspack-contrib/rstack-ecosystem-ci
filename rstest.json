@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "95172d0ac0266025d9f03926ad2834a54e585c22",
+    "commitTimestamp": "2026-08-28T09:58:20Z",
+    "commitMessage": "fix(core): route federation chunks through require instead of a virtual fs (#1631)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33161552297",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33161552297/job/98816981154"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33161552297/job/98816981190"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33161552297/job/98816981209"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33161552297/job/98816981238"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33161552297/job/98816981245"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33161552297/job/98816981252"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33161552297/job/98816981319"
+      }
+    ]
+  },
+  {
     "commitSha": "ec6ef32b85642a1d68b0a823577fc4b3caf2220e",
     "commitTimestamp": "2026-08-28T06:58:16Z",
     "commitMessage": "perf(core): avoid quadratic result and queue operations (#1754)",
