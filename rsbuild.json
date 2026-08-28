@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "ade2f61b3bf9217269167493eb211ac8952ee67a",
+    "commitTimestamp": "2026-08-28T03:40:51Z",
+    "commitMessage": "fix(deps): use tilde range for @rspack/core (#8388)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33139617355",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33139617355/job/98747300070"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33139617355/job/98747300072"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33139617355/job/98747300079"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33139617355/job/98747300081"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33139617355/job/98747300109"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33139617355/job/98747300144"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33139617355/job/98747300180"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33139617355/job/98747300181"
+      }
+    ]
+  },
+  {
     "commitSha": "cc6d4ed499acf7149a0c04ba6c9a129ecc24ad8c",
     "commitTimestamp": "2026-08-27T13:19:40Z",
     "commitMessage": "fix(plugin-solid): support JSX in JavaScript data URIs (#8386)",
