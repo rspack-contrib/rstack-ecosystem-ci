@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "be424d0838b7cff2552d9e17b13a8a453c3bccc0",
+    "commitTimestamp": "2026-08-28T04:02:40Z",
+    "commitMessage": "fix: keep import.meta.url in createRequire when importMeta is disabled (#15273)",
+    "author": {
+      "name": "Lazizbek Ergashev",
+      "email": "lazerg2@gmail.com",
+      "login": "lazerg"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33141321091",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33141321091/job/98752641256"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33141321091/job/98752641260"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33141321091/job/98752641265"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33141321091/job/98752641271"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33141321091/job/98752641274"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33141321091/job/98752641283"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33141321091/job/98752641286"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33141321091/job/98752641287"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33141321091/job/98752641296"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33141321091/job/98752641309"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33141321091/job/98752641323"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33141321091/job/98752641329"
+      }
+    ]
+  },
+  {
     "commitSha": "4022756c322fcd68a84d8e55c49bf55018dd818e",
     "commitTimestamp": "2026-08-28T03:01:32Z",
     "commitMessage": "fix(stats): generate correct prefetch child assets (#15208)",
