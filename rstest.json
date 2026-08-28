@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "ec6ef32b85642a1d68b0a823577fc4b3caf2220e",
+    "commitTimestamp": "2026-08-28T06:58:16Z",
+    "commitMessage": "perf(core): avoid quadratic result and queue operations (#1754)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33149770598",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33149770598/job/98778815206"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33149770598/job/98778815308"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33149770598/job/98778815316"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33149770598/job/98778815365"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33149770598/job/98778815400"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33149770598/job/98778815406"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33149770598/job/98778815449"
+      }
+    ]
+  },
+  {
     "commitSha": "74d562a6e98c75a72fe526385789b44174795f5a",
     "commitTimestamp": "2026-08-28T06:03:41Z",
     "commitMessage": "fix(adapter-rslib): remove build-only plugins from tests (#1753)",
