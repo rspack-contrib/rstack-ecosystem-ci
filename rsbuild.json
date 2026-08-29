@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "30d3c8a4be254f77935c3a4f1fb67d132c9be0af",
+    "commitTimestamp": "2026-08-29T13:41:13Z",
+    "commitMessage": "perf(core): use compact hashed IDs in production (#8394)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33255667297",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33255667297/job/99108797795"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33255667297/job/99108797828"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33255667297/job/99108797858"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33255667297/job/99108797868"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33255667297/job/99108797885"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33255667297/job/99108797914"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33255667297/job/99108797916"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33255667297/job/99108798007"
+      }
+    ]
+  },
+  {
     "commitSha": "1b439525f4b9b3d63c81e43517876debfe09086c",
     "commitTimestamp": "2026-08-29T13:01:40Z",
     "commitMessage": "chore(deps): update dependency @vue/test-utils to ^2.5.0 (#8393)",
