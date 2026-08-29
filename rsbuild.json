@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "2768de66528e23fdd3f0b2ceafb86c1ddcff6f5d",
+    "commitTimestamp": "2026-08-29T01:56:11Z",
+    "commitMessage": "chore: update Rstack CLI skill (#8392)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33227688672",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33227688672/job/99034484053"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33227688672/job/99034484062"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33227688672/job/99034484095"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33227688672/job/99034484099"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33227688672/job/99034484107"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33227688672/job/99034484116"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33227688672/job/99034484117"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33227688672/job/99034484162"
+      }
+    ]
+  },
+  {
     "commitSha": "e23f1d942c08087d32fe258407ad4df6ef69fbd7",
     "commitTimestamp": "2026-08-28T06:40:41Z",
     "commitMessage": "perf(plugin-solid): skip transforms for plain JS and TS (#8391)",
