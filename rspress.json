@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "378277d50462a52bec4f3af7fa583d6f77928270",
+    "commitTimestamp": "2026-08-30T13:47:46Z",
+    "commitMessage": "chore(ci): use Rstack check command (#3641)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33315153829",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33315153829/job/99267087162"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33315153829/job/99267087201"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33315153829/job/99267087235"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33315153829/job/99267087239"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33315153829/job/99267087246"
+      }
+    ]
+  },
+  {
     "commitSha": "910fcc66f43620ee06b51a749458b441db3c63b6",
     "commitTimestamp": "2026-08-30T12:55:59Z",
     "commitMessage": "chore: migrate Git hooks and staged tasks to Rstack CLI (#3640)",
