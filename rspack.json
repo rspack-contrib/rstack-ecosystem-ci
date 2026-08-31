@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "2856c504f9f5333b4acc841f595101841e27683d",
+    "commitTimestamp": "2026-08-31T05:08:51Z",
+    "commitMessage": "feat(javascript): add JavascriptModulesPlugin.getChunkFilenameTemplate (#15280)",
+    "author": {
+      "name": "Rusty Raven",
+      "email": "kakiuwang@gmail.com",
+      "login": "kakiuwang-ui"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33359681098",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33359681098/job/99388557149"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33359681098/job/99388557158"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33359681098/job/99388557164"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33359681098/job/99388557167"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33359681098/job/99388557170"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33359681098/job/99388557173"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33359681098/job/99388557194"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33359681098/job/99388557201"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33359681098/job/99388557210"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33359681098/job/99388557218"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33359681098/job/99388557317"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33359681098/job/99388557318"
+      }
+    ]
+  },
+  {
     "commitSha": "563931839657108eb5ee3eff579a4cf5e34a9c1d",
     "commitTimestamp": "2026-08-31T04:41:51Z",
     "commitMessage": "perf(core): optimize create module hashes (#15396)",
