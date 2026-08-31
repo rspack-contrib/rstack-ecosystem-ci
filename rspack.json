@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "91d504cd996f33ef4e5536b9b4ac03244f5d48c5",
+    "commitTimestamp": "2026-08-31T08:17:56Z",
+    "commitMessage": "fix(css): ignore exportsOnly in local ident hashes (#15364)",
+    "author": {
+      "name": "Matthew Costabile",
+      "email": "mattcosta7@github.com",
+      "login": "mattcosta7"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33378511281",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33378511281/job/99445389521"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33378511281/job/99445389527"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33378511281/job/99445389532"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33378511281/job/99445389540"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33378511281/job/99445389555"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33378511281/job/99445389559"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33378511281/job/99445389562"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33378511281/job/99445389570"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33378511281/job/99445389588"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33378511281/job/99445389595"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33378511281/job/99445389628"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33378511281/job/99445389792"
+      }
+    ]
+  },
+  {
     "commitSha": "212025e9375ceaffcfa149c296dc031d6e8f3dce",
     "commitTimestamp": "2026-08-31T05:56:06Z",
     "commitMessage": "fix(rsdoctor): await patch delivery before sealing completes (#15399)",
