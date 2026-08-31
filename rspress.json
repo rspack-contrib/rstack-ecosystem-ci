@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "3a329b77e73f932292c660b58b5242fc3bad6da7",
+    "commitTimestamp": "2026-08-31T06:31:08Z",
+    "commitMessage": "fix(theme): keep search panel cancel text on one line on mobile (#3637)",
+    "author": {
+      "name": "Ryan Wang",
+      "email": "i@ryanc.cc",
+      "login": "ruibaby"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33364546932",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33364546932/job/99402403154"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33364546932/job/99402403161"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33364546932/job/99402403183"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33364546932/job/99402403208"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33364546932/job/99402403214"
+      }
+    ]
+  },
+  {
     "commitSha": "378277d50462a52bec4f3af7fa583d6f77928270",
     "commitTimestamp": "2026-08-30T13:47:46Z",
     "commitMessage": "chore(ci): use Rstack check command (#3641)",
