@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "ad368a543398fdb188d20a8ba7b6cde424ec3ab9",
+    "commitTimestamp": "2026-08-31T07:14:39Z",
+    "commitMessage": "fix(theme): update light-mode Shiki string token color (#3642)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33367550282",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33367550282/job/99411257204"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33367550282/job/99411257425"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33367550282/job/99411257559"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33367550282/job/99411257569"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33367550282/job/99411257575"
+      }
+    ]
+  },
+  {
     "commitSha": "4cb6816bb65527b2fadaf8d89c1da6bfe5fb8d87",
     "commitTimestamp": "2026-08-31T06:50:02Z",
     "commitMessage": "fix(search): strip directive markers from search index content (#3638)",
