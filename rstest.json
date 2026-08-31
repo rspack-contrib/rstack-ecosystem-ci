@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "d5bd60fa301a7f59a69662e659924572963d6d9c",
+    "commitTimestamp": "2026-08-31T06:04:16Z",
+    "commitMessage": "fix(vscode): make icon setup cross-platform (#1757)",
+    "author": {
+      "name": "Wu Shuwen",
+      "email": "mikewushuwen@outlook.com",
+      "login": "dajiaohuang"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33362756802",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33362756802/job/99397210206"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33362756802/job/99397210232"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33362756802/job/99397210233"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33362756802/job/99397210259"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33362756802/job/99397210269"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33362756802/job/99397210280"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33362756802/job/99397210295"
+      }
+    ]
+  },
+  {
     "commitSha": "95172d0ac0266025d9f03926ad2834a54e585c22",
     "commitTimestamp": "2026-08-28T09:58:20Z",
     "commitMessage": "fix(core): route federation chunks through require instead of a virtual fs (#1631)",
