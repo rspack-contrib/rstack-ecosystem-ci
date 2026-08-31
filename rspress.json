@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "122bf3107836338e12855b1edff1cd4971ea8199",
+    "commitTimestamp": "2026-08-31T14:03:49Z",
+    "commitMessage": "chore: migrate Rslib to Rstack CLI (#3644)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33400488712",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33400488712/job/99515335403"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33400488712/job/99515335450"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33400488712/job/99515335585"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33400488712/job/99515335849"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33400488712/job/99515335859"
+      }
+    ]
+  },
+  {
     "commitSha": "2d923d4935ca40dd511fcb7d49dbced38049eea2",
     "commitTimestamp": "2026-08-31T08:13:19Z",
     "commitMessage": "chore: use heading-case as a formatter plugin (#3643)",
