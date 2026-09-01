@@ -76,7 +76,7 @@ jobs:
     runs-on: ubuntu-latest
     if: "inputs.suite != '-'"
     steps:
-      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
       - uses: ./.github/actions/build-rspress
         with:
           repository: ${{ inputs.repo }}
@@ -110,7 +110,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     name: execute-all (${{ matrix.suite }})
     steps:
-      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
       - uses: ./.github/actions/build-rspress
         with:
           repository: ${{ inputs.repo }}
