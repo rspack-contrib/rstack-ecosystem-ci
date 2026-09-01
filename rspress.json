@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "cd295f6d61d7623de9ee10076ebb5d9a37338820",
+    "commitTimestamp": "2026-09-01T11:33:39Z",
+    "commitMessage": "chore(deps): update actions/setup-node action to v7 (#3646)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33503135626",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33503135626/job/99840870047"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33503135626/job/99840870068"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33503135626/job/99840870112"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33503135626/job/99840870131"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33503135626/job/99840870228"
+      }
+    ]
+  },
+  {
     "commitSha": "122bf3107836338e12855b1edff1cd4971ea8199",
     "commitTimestamp": "2026-08-31T14:03:49Z",
     "commitMessage": "chore: migrate Rslib to Rstack CLI (#3644)",
