@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "1e8ca684f5d79ef3fd0bdd8af2bf34cf0ea995d4",
+    "commitTimestamp": "2026-09-01T09:10:33Z",
+    "commitMessage": "fix(core): revert compact hashed IDs in production (#8405)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33490860977",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33490860977/job/99801767453"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33490860977/job/99801767461"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33490860977/job/99801767484"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33490860977/job/99801767509"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33490860977/job/99801767529"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33490860977/job/99801767557"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33490860977/job/99801767558"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33490860977/job/99801767636"
+      }
+    ]
+  },
+  {
     "commitSha": "871ea083118d7af496b782ae75a02c45f0ba278f",
     "commitTimestamp": "2026-09-01T05:44:04Z",
     "commitMessage": "chore(deps): upgrade rstack to 0.7.1 (#8402)",
