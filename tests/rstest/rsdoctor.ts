@@ -6,6 +6,6 @@ export async function test(options: RunOptions) {
     ...options,
     repo: 'web-infra-dev/rsdoctor',
     branch: process.env.RSDOCTOR ?? 'main',
-    test: ['ut'],
+    test: ['test'],
   });
 }
