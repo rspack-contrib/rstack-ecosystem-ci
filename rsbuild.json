@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "2e3bd14d8bbdcd1e0d5242397ca1434961fbd6f3",
+    "commitTimestamp": "2026-09-01T02:18:27Z",
+    "commitMessage": "chore(deps): update dependency node to v24.19.0 (#8401)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33462068046",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33462068046/job/99714125963"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33462068046/job/99714126017"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33462068046/job/99714126066"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33462068046/job/99714126110"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33462068046/job/99714126145"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33462068046/job/99714126148"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33462068046/job/99714126164"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33462068046/job/99714126218"
+      }
+    ]
+  },
+  {
     "commitSha": "ca11d6f420e03597c22460f43c3a0071621db41d",
     "commitTimestamp": "2026-08-31T11:21:23Z",
     "commitMessage": "chore(deps): upgrade path-serializer to 0.7.0 (#8400)",
