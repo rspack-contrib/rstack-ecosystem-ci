@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "871ea083118d7af496b782ae75a02c45f0ba278f",
+    "commitTimestamp": "2026-09-01T05:44:04Z",
+    "commitMessage": "chore(deps): upgrade rstack to 0.7.1 (#8402)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33474759952",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33474759952/job/99751606677"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33474759952/job/99751606710"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33474759952/job/99751606720"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33474759952/job/99751606732"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33474759952/job/99751606735"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33474759952/job/99751606757"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33474759952/job/99751606783"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33474759952/job/99751606834"
+      }
+    ]
+  },
+  {
     "commitSha": "2e3bd14d8bbdcd1e0d5242397ca1434961fbd6f3",
     "commitTimestamp": "2026-09-01T02:18:27Z",
     "commitMessage": "chore(deps): update dependency node to v24.19.0 (#8401)",
