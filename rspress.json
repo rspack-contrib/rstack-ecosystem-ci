@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "872d20dca678055de93920365c6566a190f1eb30",
+    "commitTimestamp": "2026-09-02T08:41:34Z",
+    "commitMessage": "feat(theme/Steps): support multiple heading levels (#3652)",
+    "author": {
+      "name": "Ryan Wang",
+      "email": "i@ryanc.cc",
+      "login": "ruibaby"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33610107764",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33610107764/job/100183000813"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33610107764/job/100183000878"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33610107764/job/100183000932"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33610107764/job/100183000963"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33610107764/job/100183001163"
+      }
+    ]
+  },
+  {
     "commitSha": "cd295f6d61d7623de9ee10076ebb5d9a37338820",
     "commitTimestamp": "2026-09-01T11:33:39Z",
     "commitMessage": "chore(deps): update actions/setup-node action to v7 (#3646)",
