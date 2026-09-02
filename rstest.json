@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "e6788bff57a4b84e9b26a8057ec1adb629e87c99",
+    "commitTimestamp": "2026-09-02T10:59:52Z",
+    "commitMessage": "fix(browser): align Browser Mode assertion timeouts (#1766)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33622333918",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33622333918/job/100222002136"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33622333918/job/100222002170"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33622333918/job/100222002273"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33622333918/job/100222002281"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33622333918/job/100222002327"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33622333918/job/100222002368"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33622333918/job/100222002404"
+      }
+    ]
+  },
+  {
     "commitSha": "42cf6f271f9aee589db476b9d5a3518b9830d311",
     "commitTimestamp": "2026-09-02T08:27:21Z",
     "commitMessage": "fix(core): decide `each` row spreading per table, not per row (#1769)",
