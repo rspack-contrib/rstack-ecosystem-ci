@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "8b1e4a6eb9d91b412bcad7ed032389a77a2c6462",
+    "commitTimestamp": "2026-09-03T03:33:50Z",
+    "commitMessage": "fix(core): exclude Node outputs from asset serving (#8415)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33711985925",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33711985925/job/100513267935"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33711985925/job/100513267962"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33711985925/job/100513267978"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33711985925/job/100513268007"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33711985925/job/100513268034"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33711985925/job/100513268043"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33711985925/job/100513268066"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33711985925/job/100513268094"
+      }
+    ]
+  },
+  {
     "commitSha": "6770d45b27e05218b2b906c8bad6ce7a4c30ed73",
     "commitTimestamp": "2026-09-02T13:30:22Z",
     "commitMessage": "fix(plugin-svgr): avoid redundant type assertion (#8413)",
