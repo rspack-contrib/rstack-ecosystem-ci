@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "1fd43efb563786307b0c50a0c4a4035c778984d6",
+    "commitTimestamp": "2026-09-03T09:16:46Z",
+    "commitMessage": "fix(vscode): mirror workspace trust in the Rstack stand-down check (#1779)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33738828915",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33738828915/job/100595709045"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33738828915/job/100595709054"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33738828915/job/100595709061"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33738828915/job/100595709182"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33738828915/job/100595709188"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33738828915/job/100595709202"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33738828915/job/100595709259"
+      }
+    ]
+  },
+  {
     "commitSha": "40887fe080d38d0b1b1919612af85d7ccd8f41d3",
     "commitTimestamp": "2026-09-03T08:58:19Z",
     "commitMessage": "fix(core): respect config env color vars when spawning workers (#1775)",
