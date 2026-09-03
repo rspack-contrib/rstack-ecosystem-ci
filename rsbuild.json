@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "241e57daf0525d68d303fcd99bfb6e92d0fea07f",
+    "commitTimestamp": "2026-09-03T09:16:31Z",
+    "commitMessage": "chore(deps): upgrade Rslib to v1.0.0 (#8417)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33738447882",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33738447882/job/100594499946"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33738447882/job/100594499988"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33738447882/job/100594499999"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33738447882/job/100594500003"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33738447882/job/100594500076"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33738447882/job/100594500124"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33738447882/job/100594500184"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33738447882/job/100594500212"
+      }
+    ]
+  },
+  {
     "commitSha": "9effdb251d82f90f2895fc9fe18c88b2d991baaa",
     "commitTimestamp": "2026-09-03T08:03:48Z",
     "commitMessage": "fix(core): prevent asset prefix path traversal (#8416)",
