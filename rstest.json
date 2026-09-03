@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "13e9a1fdc5aa3a4ebfe4ef11d2403e4a724d9c57",
+    "commitTimestamp": "2026-09-03T04:10:43Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#1772)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33714112008",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33714112008/job/100519562474"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33714112008/job/100519562487"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33714112008/job/100519562546"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33714112008/job/100519562548"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33714112008/job/100519562578"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33714112008/job/100519562672"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33714112008/job/100519562975"
+      }
+    ]
+  },
+  {
     "commitSha": "a6ba4d122b905f4d119f6744788332ba16b7e549",
     "commitTimestamp": "2026-09-03T03:51:44Z",
     "commitMessage": "chore(deps): update rsbuild and rspack to ~2.2.2 (#1773)",
