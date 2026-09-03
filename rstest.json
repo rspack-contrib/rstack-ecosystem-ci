@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "f40dcb69dffbb94861a155918b5c18d2bd7ba4f4",
+    "commitTimestamp": "2026-09-03T03:18:31Z",
+    "commitMessage": "feat(vscode): add Rstack Editor migration notice and stand down when it is active (#1771)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33710907097",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33710907097/job/100509963532"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33710907097/job/100509963671"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33710907097/job/100509963712"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33710907097/job/100509963736"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33710907097/job/100509963740"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33710907097/job/100509963744"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33710907097/job/100509963757"
+      }
+    ]
+  },
+  {
     "commitSha": "e6788bff57a4b84e9b26a8057ec1adb629e87c99",
     "commitTimestamp": "2026-09-02T10:59:52Z",
     "commitMessage": "fix(browser): align Browser Mode assertion timeouts (#1766)",
