@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "c74c0b88ed1aa0a62f29102062b7d3ccb1ac4227",
+    "commitTimestamp": "2026-09-04T06:05:37Z",
+    "commitMessage": "feat(core): enable automatic prebundle by default (#1782)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33842981637",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33842981637/job/100928879204"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33842981637/job/100928879291"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33842981637/job/100928879308"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33842981637/job/100928879313"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33842981637/job/100928879366"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33842981637/job/100928879396"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33842981637/job/100928879417"
+      }
+    ]
+  },
+  {
     "commitSha": "8f9454911e1a978b4c6fceb37c04b791536aa19f",
     "commitTimestamp": "2026-09-04T03:21:14Z",
     "commitMessage": "feat(core): rewrite programmatic API (#1729)",
