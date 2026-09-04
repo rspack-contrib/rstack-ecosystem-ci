@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "8f9454911e1a978b4c6fceb37c04b791536aa19f",
+    "commitTimestamp": "2026-09-04T03:21:14Z",
+    "commitMessage": "feat(core): rewrite programmatic API (#1729)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33832976731",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33832976731/job/100899675283"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33832976731/job/100899675370"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33832976731/job/100899675450"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33832976731/job/100899675452"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33832976731/job/100899675466"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33832976731/job/100899675526"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33832976731/job/100899675579"
+      }
+    ]
+  },
+  {
     "commitSha": "8a563e5d5841d640bd60114519fca88110b88a28",
     "commitTimestamp": "2026-09-03T13:06:11Z",
     "commitMessage": "release: 0.11.12 (#1781)",
