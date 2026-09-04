@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "6088ea8663ffd058f8ab005ac9a65f68db848375",
+    "commitTimestamp": "2026-09-04T09:34:36Z",
+    "commitMessage": "test(core): silence watch session test logs (#1786)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33859047329",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33859047329/job/100978987660"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33859047329/job/100978987782"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33859047329/job/100978987817"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33859047329/job/100978987863"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33859047329/job/100978987898"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33859047329/job/100978987937"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33859047329/job/100978987972"
+      }
+    ]
+  },
+  {
     "commitSha": "275d125c488aeac10a0be829cb687c06f2679af8",
     "commitTimestamp": "2026-09-04T08:15:37Z",
     "commitMessage": "fix(core): keep embedded runs from touching host process state (#1784)",
