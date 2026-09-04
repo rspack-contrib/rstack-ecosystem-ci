@@ -196,9 +196,9 @@ jobs:
       - uses: ./.github/actions/build-rspack
       - name: Install
         run: pnpm install --frozen-lockfile --prefer-offline
-      - name: Lint
+      - name: Check
         if: matrix.suite == '_selftest'
-        run: pnpm lint
+        run: pnpm check
       - name: Setup Node.js
         if: matrix.suite == 'lynx-stack' || matrix.suite == '_selftest'
         uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6

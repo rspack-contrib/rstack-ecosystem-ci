@@ -1,13 +1,14 @@
+// Configuration guide: https://rstack.rs/config
 import path from 'node:path';
-import { defineConfig } from '@rsbuild/core';
 import { pluginReact } from '@rsbuild/plugin-react';
+import { define } from 'rstack';
 
 const dataSource =
   process.env.RSBUILD_PUBLIC_DATA_SOURCE === 'mock' ? 'mock' : 'remote';
 
 const buildTime = new Date().toISOString();
 
-export default defineConfig({
+define.app({
   plugins: [pluginReact()],
   source: {
     entry: {
@@ -20,11 +21,11 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src'),
+      '@': path.resolve(import.meta.dirname, './src'),
       '@data':
         dataSource === 'mock'
-          ? path.resolve(__dirname, './src/data/mock/history.ts')
-          : path.resolve(__dirname, './src/data/remote/history.ts'),
+          ? path.resolve(import.meta.dirname, './src/data/mock/history.ts')
+          : path.resolve(import.meta.dirname, './src/data/remote/history.ts'),
     },
   },
   html: {

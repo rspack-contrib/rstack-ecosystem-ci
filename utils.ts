@@ -334,10 +334,7 @@ async function getRspackPackageData(): Promise<RspackPackageData> {
     default: { npm, binding, packages },
   } = await import('./rspack-package.json');
   const optionalKey = `${process.platform}-${process.arch}` as
-    | 'darwin-arm64'
-    | 'darwin-x64'
-    | 'linux-x64'
-    | 'win32-x64';
+    'darwin-arm64' | 'darwin-x64' | 'linux-x64' | 'win32-x64';
   assert(
     Object.keys(npm).includes(optionalKey),
     `${optionalKey} is not supported`,

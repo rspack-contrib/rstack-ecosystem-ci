@@ -6,12 +6,7 @@ import { AGENTS } from '@antfu/ni';
 export type Agent = (typeof AGENTS)[number];
 
 export type Stack =
-  | 'rsbuild'
-  | 'rspack'
-  | 'rstest'
-  | 'rslib'
-  | 'rsdoctor'
-  | 'rspress';
+  'rsbuild' | 'rspack' | 'rstest' | 'rslib' | 'rsdoctor' | 'rspress';
 
 export interface EnvironmentData {
   stack: Stack;
