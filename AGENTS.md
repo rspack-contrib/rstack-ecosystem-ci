@@ -6,11 +6,11 @@ The CLI entry point lives in `ecosystem-ci.ts`, handling argument parsing, stack
 
 ## Build, Test, and Development Commands
 
-Use `pnpm install` to bootstrap dependencies (Node ≥22 per `engines`; CI runs the `.nvmrc` version). Run targeted suites with `pnpm test --stack <stack> [suite]`, e.g. `pnpm test --stack rsbuild plugins`. Bisect regressions via `pnpm bisect --stack <stack>`. Execute `pnpm lint` to run Rslint and Prettier checks. After cloning, `pnpm prepare` installs `simple-git-hooks` so the Rslint and Prettier pre-commit hook fires locally.
+Use `pnpm install` to bootstrap dependencies (Node `^22.18.0 || >=24.3.0` per `engines`; CI runs the `.nvmrc` version). Run targeted suites with `pnpm test --stack <stack> [suite]`, e.g. `pnpm test --stack rsbuild plugins`. Bisect regressions via `pnpm bisect --stack <stack>`. Execute `pnpm check` to run lint and formatting checks through Rstack CLI, `pnpm lint` for linting only, and `pnpm format` to format files. After cloning, `pnpm prepare` runs `rs hooks` to install `.rstack/hooks/pre-commit`, which calls `rs staged` to lint and format staged files.
 
 ## Coding Style & Naming Conventions
 
-Rslint enforces TypeScript lint rules, while Prettier enforces space indentation, single quotes, and formatting. Follow the strict TypeScript settings in `tsconfig.json` (ESNext target, bundler resolution, `noImplicitOverride`). Name suite files in lowercase or kebab-case (`tests/rspack/lynx-stack.ts`), keep helpers camelCase, and reserve `test` exports for suite entry points.
+Rstack CLI configures lint rules, formatting, and staged-file tasks in the root `rstack.config.ts`. Rslint enforces TypeScript lint rules, while the formatter enforces space indentation, single quotes, and formatting. The website's build configuration lives in `website/rstack.config.ts`. Follow the strict TypeScript settings in `tsconfig.json` (ESNext target, bundler resolution, `noImplicitOverride`). Name suite files in lowercase or kebab-case (`tests/rspack/lynx-stack.ts`), keep helpers camelCase, and reserve `test` exports for suite entry points.
 
 ## Testing Guidelines
 
