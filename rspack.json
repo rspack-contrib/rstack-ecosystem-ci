@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "a77075ef56dfa03290674a0f8de4767a46dfef3d",
+    "commitTimestamp": "2026-09-04T03:38:12Z",
+    "commitMessage": "fix(binding): guard module graph accessors against stale and mid-pass reads (#15454)",
+    "author": {
+      "name": "Rusty Raven",
+      "email": "kakiuwang@gmail.com",
+      "login": "kakiuwang-ui"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33834927869",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33834927869/job/100905686296"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33834927869/job/100905686303"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33834927869/job/100905686313"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33834927869/job/100905686320"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33834927869/job/100905686330"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33834927869/job/100905686337"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33834927869/job/100905686339"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33834927869/job/100905686347"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33834927869/job/100905686360"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33834927869/job/100905686370"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33834927869/job/100905686463"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33834927869/job/100905686495"
+      }
+    ]
+  },
+  {
     "commitSha": "8e7ee310e2859a7fc33a3a0e6690b4d7d73d3e1b",
     "commitTimestamp": "2026-09-04T03:23:39Z",
     "commitMessage": "fix(esm): remove empty chunks except for facade chunks (#15424)",
