@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "275d125c488aeac10a0be829cb687c06f2679af8",
+    "commitTimestamp": "2026-09-04T08:15:37Z",
+    "commitMessage": "fix(core): keep embedded runs from touching host process state (#1784)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33852722787",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33852722787/job/100958944073"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33852722787/job/100958944111"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33852722787/job/100958944113"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33852722787/job/100958944170"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33852722787/job/100958944266"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33852722787/job/100958944269"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33852722787/job/100958944337"
+      }
+    ]
+  },
+  {
     "commitSha": "3f247d333432ca4758224454da3c25631a6e0434",
     "commitTimestamp": "2026-09-04T07:37:44Z",
     "commitMessage": "fix(browser): support Vue plugins in browser mode (#1785)",
