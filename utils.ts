@@ -149,6 +149,15 @@ export async function setupEnvironment(stack: Stack): Promise<EnvironmentData> {
   stackPath = path.resolve(workspaceRoot, STACK_WORKSPACE_DIR[stack]);
   activeStack = stack;
   cwd = process.cwd();
+  // The pnpm bin shim behind `pnpm tsx ecosystem-ci.ts` exports NODE_PATH
+  // pointing at this repo's node_modules. Node consults NODE_PATH on every
+  // `require.resolve()`, even with an explicit `paths` option, so packages
+  // hoisted here (e.g. `@rstest/core` via the `rstack` CLI) would become
+  // resolvable inside consumer test processes and break tests that assert a
+  // package is absent. Consumers must only see their own dependency tree.
+  // Delete from `process.env`, not just `env`: execa's default `extendEnv`
+  // merges `process.env` back into every child's environment.
+  delete process.env.NODE_PATH;
   env = {
     ...process.env,
     CI: 'true',
