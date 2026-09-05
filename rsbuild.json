@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "4bf6a811d0b281368c5ced96f3541ea1126a614c",
+    "commitTimestamp": "2026-09-05T11:27:33Z",
+    "commitMessage": "chore: enable restrict-template-expressions lint rule (#8428)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33963400599",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33963400599/job/101299134252"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33963400599/job/101299134265"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33963400599/job/101299134283"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33963400599/job/101299134298"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33963400599/job/101299134299"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33963400599/job/101299134319"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33963400599/job/101299134332"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33963400599/job/101299134334"
+      }
+    ]
+  },
+  {
     "commitSha": "86edd2dec3d07dfd0c2e70a97c1d4478ca4183c5",
     "commitTimestamp": "2026-09-05T08:19:14Z",
     "commitMessage": "chore(e2e): upgrade test-utils to v1.0.0 (#8427)",
