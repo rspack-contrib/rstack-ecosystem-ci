@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "d9622c3e8ba7e3c7f281a0d3e9f8899689687779",
+    "commitTimestamp": "2026-09-05T08:21:19Z",
+    "commitMessage": "perf(core): skip environment bundle sourcemap scans (#1788)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33955040129",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33955040129/job/101276711663"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33955040129/job/101276711697"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33955040129/job/101276711738"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33955040129/job/101276711751"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33955040129/job/101276711755"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33955040129/job/101276711758"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33955040129/job/101276711844"
+      }
+    ]
+  },
+  {
     "commitSha": "6088ea8663ffd058f8ab005ac9a65f68db848375",
     "commitTimestamp": "2026-09-04T09:34:36Z",
     "commitMessage": "test(core): silence watch session test logs (#1786)",
