@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "1fe4c6954441a96e4f769f4831e562ef56027f0f",
+    "commitTimestamp": "2026-09-05T10:14:34Z",
+    "commitMessage": "perf(core): skip mock hoisting for environment bundles (#1790)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33960129272",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33960129272/job/101290465891"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33960129272/job/101290465924"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33960129272/job/101290465939"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33960129272/job/101290465954"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33960129272/job/101290465985"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33960129272/job/101290466041"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/33960129272/job/101290466049"
+      }
+    ]
+  },
+  {
     "commitSha": "d9622c3e8ba7e3c7f281a0d3e9f8899689687779",
     "commitTimestamp": "2026-09-05T08:21:19Z",
     "commitMessage": "perf(core): skip environment bundle sourcemap scans (#1788)",
