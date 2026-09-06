@@ -116,7 +116,7 @@ runs:
 
     - id: dispatch
       name: Dispatch Ecosystem CI
-      uses: Codex-/return-dispatch@16fa9d14771c4d56ae0196bbda1d3c17f7f3650f # v3.0.2
+      uses: Codex-/return-dispatch@08365b69369e9eb639ce4c4cbbd29598bc52ca3a # v3.0.3
       continue-on-error: true
       with:
         token: ${{ inputs.github-token }}
@@ -128,7 +128,7 @@ runs:
 
     - id: eco_ci
       name: Await Ecosystem CI
-      uses: Codex-/await-remote-run@2512346665df8818ec7ad6aca3cdceb7626cd384 # v2.0.0
+      uses: Codex-/await-remote-run@3dbfaaf0bc13b34a0e521de425dfed17654f24d5 # v2.1.0
       continue-on-error: true
       with:
         token: ${{ inputs.github-token }}
